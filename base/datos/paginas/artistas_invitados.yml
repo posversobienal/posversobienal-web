@@ -1,0 +1,17 @@
+---
+
+titulo: 'Artistas Invitados'
+html_base: 'pagina.html'
+ruta_static: 'pag/artistas_invitados/index.html'
+estilo: d-flex flex-wrap
+
+contenido: |
+
+  {% for idart, datart  in rec.artistas.items() %}
+
+  **{{ datart.nombre }} {{ datart.apellido }}**.
+  <br>{{ datart.nacionalidad }}.
+  ![foto](/rec/foto/obras/{{ rec.obras[datart.obras[0]].fotos[0] }}){.foto-obra-chica .mt-2}
+  {.border .m-2 .p-2 .rounded}
+
+  {% endfor %}

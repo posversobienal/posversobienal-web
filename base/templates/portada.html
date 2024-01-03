@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block body %}
+<script src="/dat/fotos_obras.js"></script>
+<div class="fondo" id="img_fondo">
+    <script>
+     img_fondo.style.backgroundImage = "url(/rec/foto/obras/" + fotos_obras[parseInt(Math.random() * (fotos_obras.length - 1))] + ')';
+    </script>
+</div>
+
+<header class="my-4 p-3">
+    <div class="logos">
+        <div class="logo posverso">
+        	<img class="img-fluid" src="{{ cfg.metadatos.logo_posverso_b }}" title="{{ cfg.metadatos.texto_posverso }}">
+        </div>
+
+        <div class="logo hoteldada">
+            <p>GENERADA POR:</p>
+            <a href="{{ cfg.urls.hoteldadabase }}" class="d-block">
+        	    <img class="img-fluid" src="{{ cfg.metadatos.logo_hoteldada_b }}" title="{{ cfg.metadatos.texto_hoteldada }}">
+            </a>
+        </div>
+    </div>
+
+    <div class="mt-5 p-4 destacado text-center">
+        <p class="tematica">
+            <b>1° EDICIÓN:</b>
+            <a class="btn text-light text-bold fs-3" href="/pag/poeticas_de_la_resistencia/">POÉTICAS DE LA RESISTENCIA</a>
+        </p>
+        <p class="fecha fs-5">Del 18 de octubre al 20 de diciembre de 2024. Junín, Buenos Aires.</p>
+    </div>
+</header>
+
+<section class="container">
+    {{ pag.contenido }}
+</section>
+
+{% endblock %}

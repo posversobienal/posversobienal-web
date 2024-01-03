@@ -1,0 +1,59 @@
+---
+
+metadatos:
+  titulo: 'POSVERSO'
+  dominio: 'posversobienal.com.ar'
+  descripcion: 'POSVERSO . Bienal Internacional de Poesía Experimental de Argentina'
+  claves: ''
+  imagen_compartir: '/rec/grafica/logo-posverso_compartir.png'
+  logo_posverso_a: '/rec/grafica/logo-posverso.svg'
+  logo_posverso_b: '/rec/grafica/logo-posverso_completo.svg'
+  texto_posverso: 'POSVERSO. Bienal Internacional de Poesía Experimental de Argentina.'
+  texto_hoteldada: 'Hotel DaDA. Base de arte correo y poesía experimental.'
+  logo_hoteldada_a: '/rec/grafica/logo-hoteldada.svg'
+  logo_hoteldada_b: '/rec/grafica/logo-hoteldada_completo.svg'
+  imagen_compartir: 'rec/grafica/logo-posverso_compartir.png'
+  favicon: '/rec/grafica/favicon.svg'
+
+emails:
+  posverso: 'posversobienal@gmail.com'
+  hoteldada: 'dadahotel@hotmail.com'
+
+urls:
+  formulario_convocatoria: ''
+  posversobienal: 'https://posversobienal.com.ar/'
+
+  info_omar_khouri: 'https://art.beopenfuture.com/omar-khouri/'
+  info_cesar_espinosa: 'https://www.heterogenesis.com/H-45/EspinozaCas.htm'
+  info_clemente_padin: ''
+  info_eduardo_antonio_vigo: ''
+  info_guillermo_deisler: ''
+  info_dick_higgins: ''
+
+  hoteldadabase: 'http://www.hoteldadabase.org/'
+  hoteldada_facebook: 'https://www.facebook.com/profile.php?id=100063732964738'
+  hoteldada_youtube: 'https://www.youtube.com/channel/UC4HS1EiLlyc4l0JDc8_BwFA'
+
+
+menu:
+
+  - titulo: '¿Qué es POSVERSO?'
+    url: '/pag/que_es_posverso/'
+
+  - titulo: 'Presentación'
+    url: '/pag/poeticas_de_la_resistencia/'
+
+  - titulo: 'Convocatoria Abierta'
+    url: '/pag/convocatoria_abierta/'
+
+  - titulo: 'Invitados'
+    url: '/pag/artistas_invitados/'
+
+  - titulo: 'Sedes'
+    url: ''
+
+  - titulo: 'Agenda'
+    url: ''
+
+  - titulo: 'Contacto'
+    url: '/pag/contacto/'

@@ -1,0 +1,8 @@
+---
+
+titulo: 'Sedes'
+html_base: 'pagina.html'
+ruta_static: 'pag/sedes/index.html'
+
+contenido: |
+  {...}
