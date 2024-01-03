@@ -54,7 +54,7 @@ header .logos .logo.hoteldada {
   width: 15%;
 }
 .destacado {
-  background: #000;
+  background: rgba(0, 0, 0, 0.8);
   color: #fff;
 }
 .cuerpo {
@@ -95,7 +95,7 @@ footer * {
   right: 0;
   z-index: -1;
   overflow: hidden;
-  background-position: center;
+  background-position: top center;
   background-size: cover;
 }
 @media (max-width: 700px) {

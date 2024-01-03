@@ -5,6 +5,15 @@
 <div class="fondo" id="img_fondo">
     <script>
      img_fondo.style.backgroundImage = "url(/rec/foto/obras/" + fotos_obras[parseInt(Math.random() * (fotos_obras.length - 1))] + ')';
+
+     document.addEventListener('mousemove', (e) => {
+         const x = e.clientX,
+               y = e.clientY,
+               xp = Math.round(x * 100 / window.innerWidth),
+               yp = Math.round(y * 100 / window.innerHeight);
+         console.log(x, y, xp, yp);
+         img_fondo.style.backgroundPosition = `${xp}% ${yp}%`;
+     })
     </script>
 </div>
 
