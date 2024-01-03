@@ -1,0 +1,11 @@
+---
+
+fecha: ''
+hora: ''
+titulo: ''
+enlaces: []
+sedes: []
+estado: [] # futuro, pasado, actual, suspendido
+modo: [] # presencial, virtual
+acceso: [] # libre, pago
+detalle: ''

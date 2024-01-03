@@ -1,0 +1,1 @@
+const fotos_obras = ["luc_fierens-st_1.jpg", "ana_montenegro-st_1.jpg", "fernando_aguiar-st_1.jpg", "soledad_sanchez_goldar-st_1.jpg", "clemente_padin-st_1.jpg"]

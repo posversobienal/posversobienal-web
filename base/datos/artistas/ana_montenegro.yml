@@ -1,0 +1,20 @@
+---
+
+nombre: 'Ana'
+apellido: 'Montenegro'
+seudonimo: ''
+
+nacionalidad: 'Brasil-Argentina'
+contacto_publico: ''
+
+eventos: []
+
+obras:
+  - ana_montenegro-st_1
+
+fotos: []
+
+etiquetas:
+  - invitado
+
+detalle: |

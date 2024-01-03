@@ -1,0 +1,8 @@
+---
+
+titulo: 'Agenda'
+html_base: 'pagina.html'
+ruta_static: 'pag/agenda/index.html'
+
+contenido: |
+  {...}
