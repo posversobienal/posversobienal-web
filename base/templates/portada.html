@@ -2,10 +2,9 @@
 
 {% block body %}
 <script src="/dat/fotos_obras.js"></script>
-<div class="fondo">
-    <img id="img_fondo" src="">
+<div class="fondo" id="img_fondo">
     <script>
-     img_fondo.src = "/rec/foto/obras/" + fotos_obras[parseInt(Math.random() * (fotos_obras.length - 1))];
+     img_fondo.style.backgroundImage = "url(/rec/foto/obras/" + fotos_obras[parseInt(Math.random() * (fotos_obras.length - 1))] + ')';
     </script>
 </div>
 
