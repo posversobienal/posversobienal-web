@@ -1,8 +1,0 @@
----
-
-titulo: 'Artistas seleccionados'
-html_base: 'pagina.html'
-ruta_static: 'pag/artistas_seleccionados/index.html'
-
-contenido: |
-  {...}
