@@ -45,7 +45,7 @@
         <link rel="shortcut icon" href="{{ cfg.metadatos.favicon }}" type="image/x-icon" />
 
     </head>
-    <body>
+    <body name="{% block body_name %}{% endblock %}">
         <div class="menu">
             <nav class="d-flex justify-content-center">
                 <ul>

@@ -1,0 +1,8 @@
+---
+
+titulo: 'Error 404'
+html_base: 'error.html'
+ruta_static: '404.html'
+
+contenido: |
+  Disculpe las molestias - El contenido que busca no existe!

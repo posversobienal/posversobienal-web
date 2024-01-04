@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block body_name %}error{% endblock %}
+
+{% block body %}
+<div class="contenido">
+    <header class="my-5">
+        <h1>{{ pag.titulo }}</h1>
+    </header>
+
+    <section class="{{ pag.estilo }}">
+        {{ markdown(pag.contenido) }}
+    </section>
+</div>
+{% endblock %}

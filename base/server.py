@@ -5,29 +5,33 @@ from livereload import Server, shell
 from os import chdir
 import webbrowser
 
-if __name__ == '__main__':
-    #r = '../'
-    #chdir(r)
-
-    h = '127.0.0.1'
-    p = 8099
-    l = 35729
+def main():
+    # variables básicas
+    h, p, l = '127.0.0.1', 8099, 35729
     url = f'http://{h}:{p}'
 
+    # apertura en navegador predeterminado local
     webbrowser.open(url)
 
+    # definicion del server
     server = Server()
 
-    server.watch('./datos/', shell('./actualizar_static.py'))
-    #server.watch('./datos/*/*.yml', shell('./actualizar_static.py'))
-    server.watch('./templates/', shell('./actualizar_static.py'))
+    # documentos donde considerar cambios automáticos
+    server.watch('./datos/', shell('./actualizar.py'))
+    server.watch('./templates/', shell('./actualizar.py'))
 
-    server.watch('../lib/', shell(''))
-    server.watch('../rec/', shell(''))
+    server.watch('./lib-css/*.less', shell('lessc ./lib-css/estilo.less', output='../docs/lib/css/estilo.css'))
 
-    server.watch('./lib-css/*.less', shell('lessc ./lib-css/estilo.less', output='../lib/css/estilo.css'))
+    server.watch('../docs/lib/')
+    server.watch('../docs/rec/')
 
+    # cabeceras generales locales
     server.setHeader('Access-Control-Allow-Origin', '*')
     server.setHeader('Access-Control-Allow-Methods', '*')
 
-    server.serve(root='../', liveport=l, host=h, port=p)
+    # activación del server
+    server.serve(root='../docs/', liveport=l, host=h, port=p)
+
+
+if __name__ == '__main__':
+    main()
