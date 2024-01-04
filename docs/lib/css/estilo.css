@@ -102,6 +102,10 @@ footer * {
   background-position: top center;
   background-size: cover;
   opacity: 0.5;
+  transition: 1s all;
+}
+#fondo_img.resaltar {
+  opacity: 1;
 }
 #fondo_link {
   position: fixed;
@@ -116,6 +120,12 @@ footer * {
 #fondo_link:hover {
   background: #000;
   color: #fff;
+}
+#titular {
+  transition: 1s all;
+}
+#titular.ocultar {
+  opacity: 0.1;
 }
 @media (max-width: 700px) {
   .logos {

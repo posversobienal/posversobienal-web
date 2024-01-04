@@ -143,6 +143,11 @@ footer {
     background-position: top center;
     background-size: cover;
     opacity: 0.5;
+    transition: 1s all;
+
+    &.resaltar {
+        opacity: 1;
+    }
 }
 #fondo_link {
     position: fixed;
@@ -157,6 +162,14 @@ footer {
     &:hover {
         background: #000;
         color: #fff;
+    }
+}
+
+#titular {
+    transition: 1s all;
+
+    &.ocultar {
+        opacity: 0.1;
     }
 }
 

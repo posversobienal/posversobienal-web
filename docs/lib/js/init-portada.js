@@ -15,6 +15,15 @@ const Fondo = {
     },
 
     setear_interactividad: () => {
+        fondo_link.addEventListener('mouseenter', (e)=>{
+            titular.classList.add('ocultar');
+            fondo_img.classList.add('resaltar');
+        });
+        fondo_link.addEventListener('mouseleave', (e)=>{
+            titular.classList.remove('ocultar');
+            fondo_img.classList.remove('resaltar');
+        });
+
         document.addEventListener('mousemove', (e) => {
             const x = e.clientX,
                   y = e.clientY,
