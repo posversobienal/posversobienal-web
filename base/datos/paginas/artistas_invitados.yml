@@ -7,11 +7,11 @@ estilo: d-flex flex-wrap
 
 contenido: |
 
-  {% for idart, datart  in rec.artistas.items() %}
+  {% for id_art, dat_art  in rec.artistas.items() %}
 
-  **{{ datart.nombre }} {{ datart.apellido }}**.
-  <br>{{ datart.nacionalidad }}.
-  ![foto](/rec/foto/obras/{{ rec.obras[datart.obras[0]].fotos[0] }}){.foto-obra-chica .mt-2}
-  {.border .m-2 .p-2 .rounded}
+  **{{ dat_art.nombre }} {{ dat_art.apellido }}**.
+  <br>{{ dat_art.nacionalidad }}.
+  ![foto](/rec/foto/obras/{{ rec.obras[dat_art.obras[0]].fotos[0] }}){.foto-obra-chica .mt-2}
+  {.border .m-2 .p-2 .rounded id='{{ id_art }}'}
 
   {% endfor %}

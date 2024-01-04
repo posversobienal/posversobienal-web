@@ -70,14 +70,6 @@ with open(ar_rec_out, 'w') as g:
     g.write('const rec = ' + json.dumps(dat_rec))
 
 
-# compilacion fotos de obras - para portada
-ruta_fotos_obras = f'{ruta_public}rec/foto/obras/'
-ar_foto_obras_out = f'{ruta_public}dat/fotos_obras.js'
-
-with open(ar_foto_obras_out, 'w') as g:
-    g.write('const fotos_obras = ' + json.dumps(listdir(ruta_fotos_obras)))
-
-
 # completado de plantillas de páginas
 fl = FileSystemLoader('plantillas')
 env_jinja2 = Environment(loader=fl)

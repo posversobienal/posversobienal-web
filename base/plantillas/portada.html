@@ -1,20 +1,9 @@
 {% extends "base.html" %}
 
 {% block body %}
-<script src="/dat/fotos_obras.js"></script>
-<div class="fondo" id="img_fondo">
-    <script>
-     img_fondo.style.backgroundImage = "url(/rec/foto/obras/" + fotos_obras[parseInt(Math.random() * (fotos_obras.length - 1))] + ')';
+<div id="fondo_img"></div>
+<a id="fondo_link" href="#">+</a>
 
-     document.addEventListener('mousemove', (e) => {
-         const x = e.clientX,
-               y = e.clientY,
-               xp = Math.round(x * 100 / window.innerWidth),
-               yp = Math.round(y * 100 / window.innerHeight);
-         img_fondo.style.backgroundPosition = `${xp}% ${yp}%`;
-     })
-    </script>
-</div>
 
 <header class="my-4 p-3">
     <div class="logos">
@@ -24,7 +13,7 @@
 
         <div class="logo hoteldada">
             <p>GENERADA POR:</p>
-            <a href="{{ cfg.urls.hoteldadabase }}" class="d-block">
+            <a href="{{ cfg.urls.hoteldadabase }}" class="d-block no-decoration">
         	    <img class="img-fluid" src="{{ cfg.metadatos.logo_hoteldada_b }}" title="{{ cfg.metadatos.texto_hoteldada }}">
             </a>
         </div>
@@ -43,4 +32,5 @@
     {{ pag.contenido }}
 </section>
 
+<script src="/lib/js/init-portada.js"></script>
 {% endblock %}

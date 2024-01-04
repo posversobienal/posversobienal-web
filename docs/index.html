@@ -44,6 +44,8 @@
 
         <link rel="shortcut icon" href="/rec/grafica/favicon.svg" type="image/x-icon" />
 
+        <script src="/dat/rec.js"></script>
+
     </head>
     <body name="">
         <div class="menu">
@@ -82,20 +84,9 @@
 
         <div class="container cuerpo">
             
-<script src="/dat/fotos_obras.js"></script>
-<div class="fondo" id="img_fondo">
-    <script>
-     img_fondo.style.backgroundImage = "url(/rec/foto/obras/" + fotos_obras[parseInt(Math.random() * (fotos_obras.length - 1))] + ')';
+<div id="fondo_img"></div>
+<a id="fondo_link" href="#">+</a>
 
-     document.addEventListener('mousemove', (e) => {
-         const x = e.clientX,
-               y = e.clientY,
-               xp = Math.round(x * 100 / window.innerWidth),
-               yp = Math.round(y * 100 / window.innerHeight);
-         img_fondo.style.backgroundPosition = `${xp}% ${yp}%`;
-     })
-    </script>
-</div>
 
 <header class="my-4 p-3">
     <div class="logos">
@@ -105,7 +96,7 @@
 
         <div class="logo hoteldada">
             <p>GENERADA POR:</p>
-            <a href="http://www.hoteldadabase.org/" class="d-block">
+            <a href="http://www.hoteldadabase.org/" class="d-block no-decoration">
         	    <img class="img-fluid" src="/rec/grafica/logo-hoteldada_completo.svg" title="Hotel DaDA. Base de arte correo y poesía experimental.">
             </a>
         </div>
@@ -124,6 +115,7 @@
     
 </section>
 
+<script src="/lib/js/init-portada.js"></script>
 
         </div>
 
@@ -146,7 +138,7 @@
             <span class="text-light">·</span>
 
 
-            <p class="d-inline-block text-uppercase text-small mx-3">Web actualizada: 2024-01-04 02:33:41</p>
+            <p class="d-inline-block text-uppercase text-small mx-3">Web actualizada: 2024-01-04 04:58:06</p>
         </footer>
     </body>
 </html>

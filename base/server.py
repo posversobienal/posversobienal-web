@@ -18,12 +18,12 @@ def main():
 
     # documentos donde considerar cambios automáticos
     server.watch('./datos/', shell('./actualizar.py'))
-    server.watch('./templates/', shell('./actualizar.py'))
+    server.watch('./plantillas/', shell('./actualizar.py'))
 
     server.watch('./lib-css/*.less', shell('lessc ./lib-css/estilo.less', output='../docs/lib/css/estilo.css'))
 
-    server.watch('../docs/lib/')
-    server.watch('../docs/rec/')
+    server.watch('../docs/lib/', shell(''))
+    server.watch('../docs/rec/', shell(''))
 
     # cabeceras generales locales
     server.setHeader('Access-Control-Allow-Origin', '*')
