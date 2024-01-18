@@ -1,8 +1,8 @@
 ---
 
-titulo: 'Convocatoria Abierta'
+titulo: 'Convocatoria'
 html_base: 'pagina.html'
-ruta_static: 'pag/convocatoria_abierta/index.html'
+ruta_static: 'pag/convocatoria/index.html'
 
 contenido: |
 

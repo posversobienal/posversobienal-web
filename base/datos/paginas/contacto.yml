@@ -13,7 +13,7 @@ contenido: |
 
   #### Hotel DaDA:
 
-  - WEB: WEB: [{{ url_dominio(cfg.urls.hoteldadabase) }}]({{ cfg.urlshoteldadabase }})
+  - WEB: [{{ url_dominio(cfg.urls.hoteldadabase) }}]({{ cfg.urlshoteldadabase }})
   - EMAIL: [{{ cfg.emails.hoteldada }}](mailto:{{ cfg.emails.hoteldada }})
   - FACEBOOK: [Hotel DaDA]({{ cfg.urls.hoteldada_facebook }})
   - YOUTUBE: [Hotel DaDA]({{ cfg.urls.hoteldada_youtube }})

@@ -1,8 +1,8 @@
 ---
 
-titulo: '¿Qué es POSVERSO?'
+titulo: 'Acerca de la bienal'
 html_base: 'pagina.html'
-ruta_static: 'pag/que_es_posverso/index.html'
+ruta_static: 'pag/acerca_de_la_bienal/index.html'
 
 contenido: |
 
