@@ -23,6 +23,7 @@ def main():
     server.watch('./lib-css/*.less', shell('lessc ./lib-css/estilo.less', output='../docs/lib/css/estilo.css'))
 
     server.watch('../docs/lib/', shell(''))
+    server.watch('../docs/lib/css/', shell(''))
     server.watch('../docs/rec/', shell(''))
 
     # cabeceras generales locales

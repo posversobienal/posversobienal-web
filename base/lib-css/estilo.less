@@ -29,20 +29,31 @@ a {
 
 
 .menu {
-    background: #fff;
-
+    background: #000;
     display: flex;
     text-align: center;
-    border-bottom: 5px solid #000;
-    padding-top: 20px;
+    padding: 40px 0;
     margin-bottom: 10px;
 
 
+
     ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: auto;
+
         li {
             padding: 0 20px;
             display: inline-block;
 
+            a {
+                color: #fff;
+                border-color: #aaa;
+                &:hover {
+                    border-color: #eee;
+                }
+            }
             &.desactivado {
                 _display: none;
 
@@ -57,7 +68,7 @@ a {
             .logo {
                 &.posverso {
                     img {
-                        width: 40px;
+                        width: 70px;
                     }
                 }
             }
@@ -88,10 +99,13 @@ header {
     }
 }
 
-.destacado {
-    background: rgba(0,0,0,.8);
+.destacado-portada {
+    background: #fff;
     color: #fff;
 
+    p {
+        color: #000;
+    }
 }
 
 .cuerpo {
@@ -100,7 +114,6 @@ header {
 
 footer {
     flex-shrink: 0;
-    margin-top: 60px;
     padding: 20px;
     background: #000;
 
@@ -172,5 +185,11 @@ footer {
         opacity: 0.1;
     }
 }
+
+.bloque-izq-contacto {
+    float: left;
+    padding-right: 100px;
+}
+
 
 @import url("responsive.less");

@@ -12,24 +12,26 @@
         </div>
 
         <div class="logo hoteldada">
-            <p>GENERADA POR:</p>
+            <p>PRODUCIDA POR:</p>
             <a href="{{ cfg.urls.hoteldadabase }}" class="d-block no-decoration">
         	    <img class="img-fluid" src="{{ cfg.metadatos.logo_hoteldada_b }}" title="{{ cfg.metadatos.texto_hoteldada }}">
             </a>
         </div>
     </div>
 
-    <div class="mt-5 p-4 destacado text-center">
-        <p class="tematica">
-            <b>1° EDICIÓN:</b>
-            <a class="btn text-light text-bold fs-3" href="/pag/poeticas_de_la_resistencia/">POÉTICAS DE LA RESISTENCIA</a>
-        </p>
-        <p class="fecha fs-5">Del 18 de octubre al 20 de diciembre de 2024. Junín, Buenos Aires.</p>
-    </div>
 </header>
 
-<section class="container">
-    {{ pag.contenido }}
+<div class="destacado-portada py-5 text-center">
+    <p class="tematica">
+        <a class="btn text-bold fs-3" href="/pag/poeticas_de_la_resistencia/">POÉTICAS DE LA RESISTENCIA</a>
+    </p>
+    <p class="fecha fs-5">Del 18 de octubre al 20 de diciembre de 2024. Junín, Buenos Aires.</p>
+</div>
+
+
+<section class="mt-4 container bg-light">
+    {{ markdown(pag.contenido) }}
+
 </section>
 
 <script src="/lib/js/init-portada.js"></script>

@@ -22,16 +22,28 @@ a.no-decoration {
   border: none!important;
 }
 .menu {
-  background: #fff;
+  background: #000;
   display: flex;
   text-align: center;
-  border-bottom: 5px solid #000;
-  padding-top: 20px;
+  padding: 40px 0;
   margin-bottom: 10px;
+}
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: auto;
 }
 .menu ul li {
   padding: 0 20px;
   display: inline-block;
+}
+.menu ul li a {
+  color: #fff;
+  border-color: #aaa;
+}
+.menu ul li a:hover {
+  border-color: #eee;
 }
 .menu ul li.desactivado {
   _display: none;
@@ -42,7 +54,7 @@ a.no-decoration {
   border: none;
 }
 .menu ul li .logo.posverso img {
-  width: 40px;
+  width: 70px;
 }
 header .logos {
   display: flex;
@@ -56,16 +68,18 @@ header .logos .logo.hoteldada {
   margin-left: 40%;
   width: 15%;
 }
-.destacado {
-  background: rgba(0, 0, 0, 0.8);
+.destacado-portada {
+  background: #fff;
   color: #fff;
+}
+.destacado-portada p {
+  color: #000;
 }
 .cuerpo {
   flex: 1 0 auto;
 }
 footer {
   flex-shrink: 0;
-  margin-top: 60px;
   padding: 20px;
   background: #000;
 }
@@ -126,6 +140,10 @@ footer * {
 }
 #titular.ocultar {
   opacity: 0.1;
+}
+.bloque-izq-contacto {
+  float: left;
+  padding-right: 100px;
 }
 @media (max-width: 700px) {
   .logos {

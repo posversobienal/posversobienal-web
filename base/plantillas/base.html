@@ -48,23 +48,23 @@
 
     </head>
     <body name="{% block body_name %}{% endblock %}">
-        <div class="menu">
-            <nav class="d-flex justify-content-center">
-                <ul>
-                    <li>
-                        <a class="logo posverso" href="/">
-                            <img class="d-block" src="{{ cfg.metadatos.logo_posverso_a }}" title="POSVERSO">
-                        </a>
-                    </li>
-                    {% for it in cfg.menu %}
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a class="logo posverso" href="/">
+                        <img class="d-block fx-invert" src="{{ cfg.metadatos.logo_posverso_a }}" title="POSVERSO">
+                    </a>
+                </li>
+            </ul>
+            <ul class="d-flex wrap">
+                {% for it in cfg.menu %}
 
-                    <li class="{% if it.url == '' %} desactivado{% endif %}"><a href="{{ it.url }}">{{ it.titulo }}</a></li>
-                    {% endfor %}
-                </ul>
-            </nav>
-        </div>
+                <li class="{% if it.url == '' %} desactivado{% endif %}"><a href="{{ it.url }}">{{ it.titulo }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
 
-        <div class="container cuerpo">
+        <div class="cuerpo">
             {% block body %}{% endblock %}
         </div>
 
