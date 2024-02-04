@@ -1,0 +1,19 @@
+---
+
+nombre: 'Carlos'
+apellido: 'Gallardo'
+seudonimo: ''
+
+nacionalidad: 'Chile'
+contacto_publico: ''
+
+eventos: []
+
+obras: []
+
+fotos: []
+
+etiquetas:
+  - invitado
+
+detalle: ''

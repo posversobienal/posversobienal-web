@@ -1,0 +1,19 @@
+---
+
+nombre: 'Juan'
+apellido: 'Montelpare'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+eventos: []
+
+obras: []
+
+fotos: []
+
+etiquetas:
+  - invitado
+
+detalle: ''

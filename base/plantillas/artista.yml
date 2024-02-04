@@ -1,0 +1,19 @@
+---
+
+nombre: '{nombre}'
+apellido: '{apellido}'
+seudonimo: ''
+
+nacionalidad: '{nacionalidad}'
+contacto_publico: ''
+
+eventos: []
+
+obras: []
+
+fotos: []
+
+etiquetas:
+  - {tipo}
+
+detalle: ''

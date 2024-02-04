@@ -47,104 +47,54 @@
         <script src="/dat/rec.js"></script>
 
     </head>
-    <body name="">
-        <nav class="menu">
-            <ul>
-                <li>
-                    <a class="logo posverso" href="/">
-                        <img class="d-block fx-invert" src="/rec/grafica/logo-posverso.svg" title="POSVERSO">
-                    </a>
-                </li>
-            </ul>
-            <ul class="d-flex wrap">
-                
+    <body class="d-flex justify-content-end">
+        <div class="d-flex flex-column align-items-center justify-content-center align-content-end">
 
-                <li class=""><a href="/pag/acerca_de_la_bienal/">Acerca de la bienal</a></li>
-                
+            <div class="pt-5">
+                <img class="img-fluid" src="/rec/grafica/c-padin-paratextos.gif">
+            </div>
 
-                <li class=""><a href="/pag/poeticas_de_la_resistencia/">Texto curatorial</a></li>
-                
+            <div class="logo posverso px-5 pt-2 mb-3">
+        	    <img class="img-fluid" src="/rec/grafica/logo-posverso_completo.svg" title="POSVERSO. Bienal Internacional de Poesía Experimental de Argentina.">
+            </div>
 
-                <li class=""><a href="/pag/convocatoria/">Convocatoria</a></li>
-                
-
-                <li class=""><a href="/pag/artistas_invitados/">Artistas</a></li>
-                
-
-                <li class=" desactivado"><a href="">Sedes</a></li>
-                
-
-                <li class=" desactivado"><a href="">Agenda</a></li>
-                
-
-                <li class=""><a href="/pag/contacto/">Contacto</a></li>
-                
-            </ul>
-        </nav>
-
-        <div class="cuerpo">
-            
-<div id="fondo_img"></div>
-<a id="fondo_link" href="#">+</a>
-
-
-<header id="titular" class="my-4 p-3">
-    <div class="logos">
-        <div class="logo posverso">
-        	<img class="img-fluid" src="/rec/grafica/logo-posverso_completo.svg" title="POSVERSO. Bienal Internacional de Poesía Experimental de Argentina.">
-        </div>
-
-        <div class="logo hoteldada">
-            <p>PRODUCIDA POR:</p>
-            <a href="http://www.hoteldadabase.org/" class="d-block no-decoration">
-        	    <img class="img-fluid" src="/rec/grafica/logo-hoteldada_completo.svg" title="Hotel DaDA. Base de arte correo y poesía experimental.">
-            </a>
-        </div>
-    </div>
-
-</header>
-
-<div class="destacado-portada py-5 text-center">
-    <p class="tematica">
-        <a class="btn text-bold fs-3" href="/pag/poeticas_de_la_resistencia/">POÉTICAS DE LA RESISTENCIA</a>
-    </p>
-    <p class="fecha fs-5">Del 18 de octubre al 20 de diciembre de 2024. Junín, Buenos Aires.</p>
-</div>
-
-
-<section class="mt-4 container bg-light">
-    <h1 id="novedades">Novedades</h1>
-<p>...</p>
-<p>...</p>
-<p>...</p>
-<p>...</p>
-
-</section>
-
-<script src="/lib/js/init-portada.js"></script>
-
-        </div>
-
-        <footer class="text-center">
-            <p class="d-inline-block mx-3">
-                <a href="/">
-                    <img class="img-fluid fx-invert" width="40px" src="/rec/grafica/logo-posverso.svg" title="POSVERSO">
-                </a>
+            <p class="m-0 mt-4 bg-black text-light py-5 text-center" style="width:100%;">
+                <span class="d-inline-block px-2"><b id="dn" class="fs-2"></b> <span id="dp" class="text-uppercase"></span></span>
+                <span class="d-inline-block px-2"><b id="hn" class="fs-2"></b> <span id="hp" class="text-uppercase"></span></span>
+                <span class="d-inline-block px-2"><b id="mn" class="fs-2"></b> <span id="mp" class="text-uppercase"></span></span>
+                <span class="d-inline-block px-2"><b id="sn" class="fs-2"></b> <span id="sp" class="text-uppercase"></span></span>
+                <br><br>
             </p>
+        </div>
 
-            <span class="text-light">por</span>
-
-            <p class="d-inline-block mx-3">
-
-                <a href="http://www.hoteldadabase.org/">
-                    <img class="img-fluid fx-invert" width="30px" src="/rec/grafica/logo-hoteldada.svg" title="Hotel DaDA">
-                </a>
-            </p>
-
-            <span class="text-light">·</span>
-
-
-            <p class="d-inline-block text-uppercase text-small mx-3">Web actualizada: 2024-01-26 14:55:31</p>
-        </footer>
+        <script>
+         let e = new Date("2024-2-17 0:0:0").getTime();
+         setInterval(()=>{
+             let a = new Date().getTime(),
+                 f = e - a,
+                 d = Math.floor(f / (1000 * 60 * 60 * 24)),
+                 h = Math.floor((f % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
+                 m = Math.floor((f % (1000 * 60 * 60)) / (1000 * 60)),
+                 s = Math.floor((f % (1000 * 60)) / 1000);
+             if(e > a){
+                 dn.innerHTML = d;
+                 hn.innerHTML = h;
+                 mn.innerHTML = m;
+                 sn.innerHTML = s;
+                 dp.innerHTML = d != 1 ? "días" : "día";
+                 hp.innerHTML = h != 1 ? "horas" : "hora";
+                 mp.innerHTML = m != 1 ? "minutos" : "minuto";
+                 sp.innerHTML = s != 1 ? "segundos" : "segundo";
+                 if(d == 0) dn.innerHTML = dp.innerHTML = "";
+                 if(h == 0) hn.innerHTML = hp.innerHTML = "";
+                 if(m == 0) mn.innerHTML = mp.innerHTML = "";
+                 if(s == 0) sn.innerHTML = sp.innerHTML = "";
+             }else{
+                 dn.innerHTML = dp.innerHTML = hn.innerHTML =
+                     hp.innerHTML = mn.innerHTML = mp.innerHTML =
+                         sn.innerHTML = sp.innerHTML = "";
+             }
+         }, 1000);
+        </script>
     </body>
 </html>

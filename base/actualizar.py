@@ -5,6 +5,7 @@
 from os import listdir, makedirs
 from os.path import splitext, dirname
 from time import gmtime, strftime
+from shutil import rmtree
 import json
 import yaml
 
@@ -40,6 +41,9 @@ def leer_yml(ar):
         return yaml.safe_load(f)
 
 
+def borrar_contenido(ruta):
+    for sr in listdir(ruta):
+        rmtree(f'{ruta}{sr}')
 
 ruta_public = '../docs/'
 
@@ -78,6 +82,8 @@ env_jinja2.globals.update(markdown = md_a_html)
 env_jinja2.globals.update(url_dominio = url_dominio)
 
 ruta_paginas_in = './datos/paginas/'
+
+borrar_contenido(f'{ruta_public}pag/')
 
 for ar in [a for a in listdir(ruta_paginas_in) if a.endswith('.yml')]:
     dat_pag = leer_yml(f'{ruta_paginas_in}{ar}')

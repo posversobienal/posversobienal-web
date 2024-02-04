@@ -1,0 +1,17 @@
+---
+
+nombre: 'Alejandro'
+apellido: 'Thornton'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+eventos: []
+
+fotos: []
+
+etiquetas:
+  - invitado
+
+detalle: ''
