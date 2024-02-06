@@ -9,6 +9,30 @@ body {
   display: flex;
   flex-direction: column;
 }
+body.contador .obra .creditos {
+  position: relative;
+}
+body.contador .obra .creditos span {
+  font-family: monospace;
+  font-size: 0.85em;
+}
+body.contador .obra .creditos b {
+  display: inline-block;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: normal;
+  font-size: 0.85em;
+  min-width: 200px;
+  font-family: monospace;
+}
+body.contador .obra:hover span {
+  display: none;
+}
+body.contador .obra:hover b {
+  display: inline-block;
+}
 a {
   text-decoration: none;
   color: #333;

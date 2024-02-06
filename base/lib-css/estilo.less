@@ -9,6 +9,34 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+
+  &.contador {
+      .obra {
+          .creditos{
+              position: relative;
+
+              span {
+                  font-family: monospace;
+                  font-size: 0.85em;
+              }
+              b {
+                  display: inline-block;
+                  display: none;
+                  position: absolute;
+                  top: 0; left: 0;
+                  font-weight: normal;
+                  font-size: 0.85em;
+                  min-width: 200px;
+                  font-family: monospace;
+              }
+          }
+          &:hover {
+              span { display: none; }
+              b { display: inline-block; }
+          }
+      }
+
+  }
 }
 
 
