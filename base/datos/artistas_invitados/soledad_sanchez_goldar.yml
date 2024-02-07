@@ -1,0 +1,24 @@
+---
+
+nombre: 'Soledad'
+apellido: 'Sanchez Goldar'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: ''
+
+eventos: []
+
+obras:
+  - soledad_sanchez_goldar-st_1
+
+fotos:
+  persona: 'soledad_sanchez_goldar.jpg'
+  obra: 'soledad_sanchez_goldar-1.jpg'
+
+etiquetas:
+  - invitado
+
+detalle: ''

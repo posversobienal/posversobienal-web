@@ -1,0 +1,23 @@
+---
+
+nombre: 'Matilde'
+apellido: 'Marín'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://www.matildemarin.com/'
+
+eventos: []
+
+fotos:
+  persona: 'matilde_marin.jpg'
+  obra: 'matilde_marin-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 65%
+
+etiquetas:
+  - invitado
+
+detalle: ''

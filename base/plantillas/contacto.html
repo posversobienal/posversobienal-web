@@ -6,15 +6,12 @@
         <h1>{{ pag.titulo }}</h1>
     </header>
 
-    <div class="d-flex wrap">
-        <div class="flex-fill">
-            <a href="{{ pag.imagen_url }}" class="text-center">
-                <img src="{{ pag.imagen }}">
-                <br><small>{{ pag.imagen_autor }}</small>
-            </a>
+    <div class="row">
+        <div class="col-lg-5 pe-4 me-4">
+            <img src="{{ pag.imagen }}">
+            <br><small><code class="text-dark">(*) {{ pag.imagen_autoria }}</code></small>
         </div>
-
-        <section class="flex-fill {{ pag.estilo }}">
+        <section class="ms-4 ps-4 col-lg-6 {{ pag.estilo }}">
             {{ markdown(pag.contenido) }}
         </section>
     </div>

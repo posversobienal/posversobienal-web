@@ -1,0 +1,7 @@
+---
+titulo: 'Exhibición central'
+html_base: 'pagina.html'
+ruta_static: 'pag/exhibicion_central/index.html'
+
+contenido: |
+  {...}

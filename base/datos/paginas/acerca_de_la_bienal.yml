@@ -3,6 +3,7 @@
 titulo: 'Acerca de la bienal'
 html_base: 'pagina.html'
 ruta_static: 'pag/acerca_de_la_bienal/index.html'
+estilo_cnt_sec: 'lista-equipo'
 
 contenido: |
 
@@ -53,3 +54,64 @@ contenido: |
   Ana Montenegro es una artista visual y performer brasileña, basada en Argentina. Con formación en arquitectura, escenografía y semiótica peirceana, desarrolla cursos de Proceso Artístico con base en la semiótica, talleres, charlas y asesorías para artistas. Co-directora de la galería HOTEL DADA, donde se ocupa de la dirección artística y de la presentación de distintos proyectos editoriales y curatoriales. Con una amplia trayectoria nacional e internacional en el campo del arte de performance, se destaca por la práctica de la performance sonora y la poesia experimental en diversos soportes. Responsable de curadurías en Argentina y Brasil, fue curadora asociada en BIENALSUR 2023, Bienal Internacional de Arte Contemporáneo del Sur.
 
   <br>
+
+contenido_secundario: |
+
+  ## EQUIPO
+
+  #### Dirección General
+  + Silvio De Gracia
+
+  #### Dirección Artística
+  + Ana Montenegro
+
+  #### Comité Internacional de Selección
+  + Fernando Aguiar (PRT)
+  + J.M. Calleja (ESP)
+  + Bartolomé Ferrando (ESP)
+  + Giovanni Fontana (ITA)
+  + Rodolfo Mata (MEX)
+
+  #### Equipo Curatorial POSVERSO
+  + Francesco Aprile (ITA)
+  + Silvio De Gracia (ARG)
+  + Ruggero Maggi (ITA)
+  + Rodolfo Mata (MEX)
+  + Juan Montelpare (ARG)
+  + Ana Montenegro (BRA)
+
+  #### Coordinación de proyectos
+  + Ana Montenegro
+  + Silvio De Gracia
+
+  #### Equipo de Producción
+  + Ricardo Salido
+  + Gastón Garbarino
+  + Daniel Sarobe
+  + Silvina Torviso
+  + Ariel Gangi
+  + Luciano Pozo
+
+  #### Coordinación de comunicación
+  + Silvio De Gracia
+
+  #### Prensa
+  + Silvio De Gracia
+  + Oscar Farías
+
+  #### Coordinación Editorial
+  + Guido De Gracia
+  + Ana Montenegro
+
+  #### Producción audiovisual
+  + Guido De Gracia
+  + Carlos Macheratti
+  + Emmanuel Borao
+  + Ferran Destemple (ESP)
+
+  #### Desarrollo web
+  + Carlos Macheratti
+
+  #### Diseño de Montaje
+  + Ana Montenegro
+  + Edgar Ulises Filho (BRA)

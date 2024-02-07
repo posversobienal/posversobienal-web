@@ -1,0 +1,23 @@
+---
+
+nombre: 'Bartolomé'
+apellido: 'Ferrando'
+seudonimo: ''
+
+nacionalidad: 'España'
+contacto_publico: ''
+
+web: 'https://bferrando.com/'
+
+eventos: []
+
+fotos:
+  persona: 'bartolome_ferrando.jpg'
+  obra: 'bartolome_ferrando-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 15%
+
+etiquetas:
+  - invitado
+
+detalle: ''

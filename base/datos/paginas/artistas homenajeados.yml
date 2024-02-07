@@ -1,0 +1,9 @@
+---
+
+titulo: 'Artistas homenajeados'
+html_base: 'pagina.html'
+ruta_static: 'pag/artistas homenajeados/index.html'
+estilo: d-flex flex-wrap
+
+contenido: |
+  { ... }

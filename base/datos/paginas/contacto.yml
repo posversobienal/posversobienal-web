@@ -3,9 +3,8 @@
 titulo: 'Contacto'
 html_base: 'contacto.html'
 ruta_static: 'pag/contacto/index.html'
-imagen: '/rec/grafica/c-padin-paratextos.gif'
-imagen_autor: 'Clemente Padin'
-imagen_url: 'https://www.heterogenesis.com/Artistas/Padin/Padin.htm'
+imagen: '/rec/grafica/correcaminos-darimo.gif'
+imagen_autoria: 'CORRECAMINOS (Aka Caminante) de Eduardo Darino'
 
 contenido: |
 

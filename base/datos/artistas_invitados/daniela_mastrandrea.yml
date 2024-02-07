@@ -1,0 +1,23 @@
+---
+
+nombre: 'Daniela'
+apellido: 'Mastrandrea'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'http://danielamastrandrea.com/'
+
+eventos: []
+
+fotos:
+  persona: 'daniela_mastrandrea.jpg'
+  obra: 'daniela_mastrandrea-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 15%
+
+etiquetas:
+  - invitado
+
+detalle: ''

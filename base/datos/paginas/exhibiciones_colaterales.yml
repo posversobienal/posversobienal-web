@@ -1,0 +1,7 @@
+---
+titulo: 'Exhibiciones colaterales'
+html_base: 'pagina.html'
+ruta_static: 'pag/exhibiciones_colaterales/index.html'
+
+contenido: |
+  {...}

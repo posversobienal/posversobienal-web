@@ -1,0 +1,25 @@
+---
+
+nombre: 'Ruggero'
+apellido: 'Maggi'
+seudonimo: ''
+
+nacionalidad: 'Italia'
+contacto_publico: ''
+
+web: ''
+
+eventos: []
+
+obras: []
+
+fotos:
+  persona: 'ruggero_maggi.jpg'
+  obra: 'ruggero_maggi-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 30%
+
+etiquetas:
+  - invitado
+
+detalle: ''

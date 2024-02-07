@@ -1,0 +1,23 @@
+---
+
+nombre: 'Claudio'
+apellido: 'Mangifesta'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: ''
+
+eventos: []
+
+fotos:
+  persona: 'claudio_mangifesta.jpg'
+  obra: 'claudio_mangifesta-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 80%
+
+etiquetas:
+  - invitado
+
+detalle: ''

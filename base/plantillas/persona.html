@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div class="persona">
+    <div class="img-cabecera" style="background-position:{{ pag.imagen_cabecera_posicion_inicial }}; background-image: url(/rec/foto/obras/{{ pag.fotos.obra }})"></div>
+    <br><br><br><br>
+    <div class="container contenido mb-4">
+        <div class="row">
+            <div class="col-4 pe-4 me-4">
+                <img class="img-fluid"  src="/rec/foto/personas/{{ pag.fotos.persona }}">
+                {% if pag.web %}
+                <p class="my-2">
+                    <a href="{{ pag.web }}" target="_blank">Web oficial</a>
+                </p>
+                {% endif %}
+            </div>
+            <div class="ms-4 ps-4 col-7">
+                <h1>{{ pag.nombre }} {{ pag.apellido }}</h1>
+                <p>{{ pag.nacionalidad }}</p>
+                <hr>
+                <div class="">
+                    {% if pag.detalle %}
+                    {{ markdown(pag.detalle) }}
+                    {% endif %}
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

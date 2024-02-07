@@ -1,0 +1,9 @@
+---
+
+titulo: 'Curadores invitados'
+html_base: 'pagina.html'
+ruta_static: 'pag/curadores_invitados/index.html'
+estilo: d-flex flex-wrap
+
+contenido: |
+  { ... }

@@ -3,6 +3,14 @@
 titulo: 'Sedes'
 html_base: 'pagina.html'
 ruta_static: 'pag/sedes/index.html'
+estilo: d-flex flex-wrap
 
 contenido: |
-  {...}
+  {% for id_sede, dat_sede in rec.sedes.items() %}
+
+  ( {{ loop.index0 + 1 }} ) [**{{ dat_sede.nombre }}**](/sds/{{ id_sede }}/)
+  ![foto](/rec/foto/sedes/{{ dat_sede.fotos[0] }}){.foto-obra-chica .mt-2}
+  {.border .d-inline-block .m-2 .p-2 .rounded id='{{ id_sede }}'}
+
+
+  {% endfor %}

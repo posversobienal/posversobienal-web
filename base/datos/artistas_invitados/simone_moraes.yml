@@ -1,0 +1,25 @@
+---
+
+nombre: 'Simone'
+apellido: 'Moraes'
+seudonimo: ''
+
+nacionalidad: 'Brasil'
+contacto_publico: ''
+
+web: ''
+
+eventos: []
+
+obras: []
+
+fotos:
+  persona: 'simone_moraes.jpg'
+  obra: 'simone_moraes-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 70%
+
+etiquetas:
+  - invitado
+
+detalle: ''

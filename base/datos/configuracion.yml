@@ -22,6 +22,7 @@ emails:
 urls:
   formulario_convocatoria: ''
   posversobienal: 'https://posversobienal.com.ar/'
+  posverso_instagram: 'https://www.instagram.com/posverso_bienal'
 
   info_omar_khouri: 'http://www.antoniomiranda.com.br/poesia_visual/omar_khouri.html'
   info_cesar_espinosa: 'https://www.heterogenesis.com/H-45/EspinozaCas.htm'
@@ -35,26 +36,32 @@ urls:
   hoteldada_youtube: 'https://www.youtube.com/channel/UC4HS1EiLlyc4l0JDc8_BwFA'
 
 
-
 menu:
-
-  - titulo: 'Acerca de la bienal'
+  - titulo: 'ACERCA DE LA BIENAL'
     url: '/pag/acerca_de_la_bienal/'
-
-  - titulo: 'Texto curatorial'
-    url: '/pag/poeticas_de_la_resistencia/'
-
-  - titulo: 'Convocatoria'
-    url: '/pag/convocatoria/'
-
-  - titulo: 'Artistas'
+  - titulo: 'POSVERSO BIENAL'
+    url: '#'
+    submenu:
+      - titulo: 'Texto curatorial'
+        url: '/pag/texto_curatorial/'
+      - titulo: 'Programa'
+        url: '/pag/programa/'
+      - titulo: 'Exhibición central'
+        url: '/pag/exhibicion_central/'
+      - titulo: 'Exhibiciones colaterales'
+        url: '/pag/exhibiciones_colaterales/'
+      - titulo: 'Artistas homenajeados'
+        url: '/pag/artistas homenajeados/'
+      - titulo: 'Curadores invitados'
+        url: '/pag/curadores_invitados/'
+  - titulo: 'SEDES'
+    url: '/pag/sedes/'
+  - titulo: 'CONVOCATORIA ABIERTA'
+    url: '#'
+    submenu:
+      - titulo: 'Comité de selección'
+        url: '/pag/comite_de_seleccion/'
+  - titulo: 'ARTISTAS INVITADOS'
     url: '/pag/artistas_invitados/'
-
-  - titulo: 'Sedes'
-    url: ''
-
-  - titulo: 'Agenda'
-    url: ''
-
-  - titulo: 'Contacto'
+  - titulo: 'CONTACTO'
     url: '/pag/contacto/'

@@ -60,26 +60,24 @@ a {
     background: #000;
     display: flex;
     text-align: center;
-    padding: 40px 0;
-    margin-bottom: 10px;
-
-
+    padding: 60px 0;
 
     ul {
         display: flex;
         flex-wrap: wrap;
-        margin: 0 auto;
+        margin: 0 10px;
         width: auto;
 
         li {
-            padding: 0 20px;
+            padding: 0 15px;
             display: inline-block;
+            position: relative;
 
             a {
-                color: #fff;
-                border-color: #aaa;
+                color: #ddd;
+                border: none;
                 &:hover {
-                    border-color: #eee;
+                    color: #fff;
                 }
             }
             &.desactivado {
@@ -92,11 +90,35 @@ a {
                 }
             }
 
+            .submenu {
+                z-index: 1000;
+                background: #222;
+                box-shadow: 0 10px 10px rgba(0,0,0,.2);
+                padding: 10px;
+                text-align: left;
+                position: absolute;
+                top: 22px;
+                margin-left: 15px;
+                left: 0;
+                display: none;
+
+                li {
+                    padding: 3px;
+                    border-bottom: 0.5px solid #444;
+                    display: block;
+                }
+
+            }
+            &:hover {
+                .submenu {
+                    display: inline-block;
+                }
+            }
 
             .logo {
                 &.posverso {
                     img {
-                        width: 70px;
+                        width: 130px;
                     }
                 }
             }
@@ -217,6 +239,33 @@ footer {
 .bloque-izq-contacto {
     float: left;
     padding-right: 100px;
+}
+
+.lista-equipo {
+    ul {
+        padding: 0;
+        margin-bottom: 30px;
+        li {
+            list-style: none;
+            padding: 3px 0;
+            border-bottom: 0.5px solid gray;
+            margin: 0;
+        }
+    }
+
+}
+
+
+.persona {
+    .img-cabecera {
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        background: #ddd;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+
+    }
 }
 
 

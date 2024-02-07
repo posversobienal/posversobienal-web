@@ -1,0 +1,23 @@
+---
+
+nombre: 'Ana'
+apellido: 'Montenegro'
+seudonimo: ''
+
+nacionalidad: 'Brasil'
+contacto_publico: ''
+
+eventos: []
+
+web: ''
+
+fotos:
+  persona: 'ana_montenegro.jpg'
+  obra: 'ana_montenegro-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 35%
+
+etiquetas:
+  - invitado
+
+detalle: ''

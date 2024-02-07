@@ -1,0 +1,7 @@
+---
+titulo: 'Programa'
+html_base: 'pagina.html'
+ruta_static: 'pag/programa/index.html'
+
+contenido: |
+  {...}

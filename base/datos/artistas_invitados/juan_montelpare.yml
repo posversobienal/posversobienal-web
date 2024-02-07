@@ -1,0 +1,23 @@
+---
+
+nombre: 'Juan'
+apellido: 'Montelpare'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://juanmontelpare.wixsite.com/juanmontelpare'
+
+eventos: []
+
+fotos:
+  persona: 'juan_montelpare.jpg'
+  obra: 'juan_montelpare-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 20%
+
+etiquetas:
+  - invitado
+
+detalle: ''

@@ -58,8 +58,17 @@
             </ul>
             <ul class="d-flex wrap">
                 {% for it in cfg.menu %}
+                <li class="{% if it.url == '' %} desactivado{% endif %}">
+                    <a href="{{ it.url }}">{{ it.titulo }}</a>
+                    {% if 'submenu' in it %}
+                    <ul class="submenu">
+                        {% for ism in it.submenu %}
+                        <li><a href="{{ ism.url }}">{{ ism.titulo }}</a></li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
 
-                <li class="{% if it.url == '' %} desactivado{% endif %}"><a href="{{ it.url }}">{{ it.titulo }}</a></li>
+                </li>
                 {% endfor %}
             </ul>
         </nav>

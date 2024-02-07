@@ -1,0 +1,23 @@
+---
+
+nombre: 'Clemente'
+apellido: 'Padín'
+seudonimo: ''
+
+nacionalidad: 'Uruguay'
+contacto_publico: ''
+
+web: ''
+
+eventos: []
+
+fotos:
+  persona: 'clemente_padin.jpg'
+  obra: 'clemente_padin-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 30%
+
+etiquetas:
+  - invitado
+
+detalle: ''

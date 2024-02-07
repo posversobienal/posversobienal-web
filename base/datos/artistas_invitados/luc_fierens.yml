@@ -1,0 +1,22 @@
+---
+
+nombre: 'Luc'
+apellido: 'Fierens'
+seudonimo: ''
+
+nacionalidad: 'Bélgica'
+contacto_publico: ''
+
+web: ''
+
+eventos: []
+
+fotos:
+  persona: 'luc_fierens.jpg'
+  obra: 'luc_fierens-1.jpg'
+
+
+etiquetas:
+  - invitado
+
+detalle: ''
