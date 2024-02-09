@@ -160,11 +160,10 @@ a {
             .logo {
                 &.posverso {
                     img {
-                        width: 130px;
+                        width: 140px;
                     }
                 }
             }
-
         }
     }
 }
@@ -181,11 +180,6 @@ header {
 
             &.posverso {
                 width: 30%;
-            }
-
-            &.hoteldada {
-                margin-left: 40%;
-                width: 15%;
             }
         }
     }
@@ -254,6 +248,13 @@ footer {
 }
 .fx-transp-70 {
     opacity: 0.7;
+}
+
+.fx-ampliar {
+    transition: transform 0.5s;
+    &:hover {
+        transform: scale(1.05);
+    }
 }
 
 .text-small {

@@ -129,7 +129,7 @@ a.no-decoration {
   display: inline-block;
 }
 .menu ul li .logo.posverso img {
-  width: 130px;
+  width: 140px;
 }
 header .logos {
   display: flex;
@@ -138,10 +138,6 @@ header .logos {
 }
 header .logos .logo.posverso {
   width: 30%;
-}
-header .logos .logo.hoteldada {
-  margin-left: 40%;
-  width: 15%;
 }
 .destacado-portada {
   background: #fff;
@@ -198,6 +194,12 @@ footer .utiles .menu-pie:hover nav {
 }
 .fx-transp-70 {
   opacity: 0.7;
+}
+.fx-ampliar {
+  transition: transform 0.5s;
+}
+.fx-ampliar:hover {
+  transform: scale(1.05);
 }
 .text-small {
   font-size: 0.8em;
