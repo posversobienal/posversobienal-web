@@ -49,6 +49,16 @@ def listar_id(tipo):
     if tipo == 'novedades':
         return [splitext(ar)[0] for ar in listdir('./datos/bitacora/') if ar.endswith('.yml') ]
 
+def idioma(tipo):
+    html = '<div class="my-2 ṕy-2 text-end"><img src="{imagen}" class="icono"></div>'
+    imagen = ''
+    if tipo == 'esp': imagen = '/rec/grafica/icon-esp.svg'
+    elif tipo == 'eng': imagen = '/rec/grafica/icon-eng.svg'
+
+    return html.format(imagen=imagen) if imagen else  ''
+
+
+
 # ------ configuracion general
 markdown_extensiones = [ 'tables', 'attr_list', 'toc', 'abbr', 'footnotes' ]
 markdown_extensiones_config = { 'tables': {}, 'attr_list': {}, 'toc': {}, 'abbr': {}, 'footnotes': {}}
@@ -91,6 +101,7 @@ env_jinja2.globals.update(url_dominio = url_dominio)
 env_jinja2.globals.update(id_redsocial = id_redsocial)
 env_jinja2.globals.update(datos_de = datos_de)
 env_jinja2.globals.update(listar_id = listar_id)
+env_jinja2.globals.update(idioma = idioma)
 
 
 # completado de plantillas para PERSONAS

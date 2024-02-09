@@ -1,0 +1,33 @@
+---
+
+nombre: 'Diego'
+apellido: 'Melero'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: ''
+
+eventos: []
+
+obras: []
+
+fotos:
+  persona: 'diego_melero-1.jpg'
+  obra: 'diego_melero-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - invitado
+
+detalle: |
+  {{ idioma('esp') }}
+
+  (San Justo, Santa Fe, 1960) Vive y trabaja en Buenos Aires. Artista visual, performer y sociólogo. A partir de 1980 realizó estudios de dibujo y pintura en el taller de Guillermo Kuitca. En 1986 obtuvo la Licenciatura y el Profesorado en Sociología, en la Universidad de Buenos Aires, presentando una tesis titulada “La tecnología como objeto reproductor de discursos. La reproductibilidad técnica de la obra de arte”, en la que desplegó algunas líneas de investigación que incorporaría a sus trabajos artísticos posteriores. Hacia fines de los noventa encontró en la performance el medio capaz de comunicar más allá de las imágenes y los lenguajes convencionales del arte. A través de la performance investiga el cruce entre las ciencias sociales y el arte, incorporando conocimientos adquiridos en años anteriores, tales como entrenamiento físico, dibujo y pintura. Participó en importantes eventos de arte internacional, como la Documenta Kassel XII (2007),  y  la Bienal do Mercosul-proyecto pedagógico (2009) como artista y docente con su proyecto "La filosofía política en el gimnasio".
+
+  {{ idioma('eng') }}
+
+  (San Justo, Santa Fe, 1960) Lives and works in Buenos Aires. Visual artist, performer and sociologist. Starting in 1980 he studied drawing and painting in the workshop of Guillermo Kuitca. In 1986 he obtained a Bachelor's degree and a Professorship in Sociology at the University of Buenos Aires, presenting a thesis titled “Technology as a discourse reproducing object. The technical reproducibility of the work of art”, in which he deployed some lines of research that he would incorporate into his subsequent artistic works. Towards the end of the nineties he found in performance the medium capable of communicating beyond the images and conventional languages of art. Through performance he investigates the intersection between social sciences and art, incorporating knowledge acquired in previous years, such as physical training, drawing and painting. He participated in important international art events, such as the Documenta Kassel XII (2007) and Bienal do Mercosul (2009).
+  {.fst-italic}

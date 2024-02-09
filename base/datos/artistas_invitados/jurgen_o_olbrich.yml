@@ -20,4 +20,18 @@ imagen_cabecera_posicion_inicial: 50% 90%
 etiquetas:
   - invitado
 
-detalle: ''
+detalle: |
+
+  {{ idioma('esp') }}
+
+  *1955 en Bielefeld, vive en Kassel/Alemania.
+
+  Todo lo demás acaba de pasar.
+
+  {{ idioma('eng') }}
+
+  *1955 in Bielefeld, live in Kassel/Germany
+  {.fst-italic}
+
+  Everything else just happened
+  {.fst-italic}

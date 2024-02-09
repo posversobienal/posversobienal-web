@@ -3,6 +3,8 @@
 
 
 from sys import argv
+from shutil import copyfile
+
 
 def normalizar(t):
     rr = [
@@ -32,7 +34,11 @@ if argv[1] == 'artista':
         }
     ar_pla = './plantillas/artista.yml'
     ruta = './datos/artistas_invitados/'
-    nom = normalizar(ree['{nombre}']) + '_' + normalizar(ree['{apellido}']) + '.yml'
+    id_nombre = normalizar(ree['{nombre}']) + '_' + normalizar(ree['{apellido}'])
+    nom = id_nombre + '.yml'
+    ree['{foto-obra}'] = id_nombre + '-1.jpg'
+    ree['{foto-persona}'] = id_nombre + '.jpg'
+
     ar_yml = f'{ruta}{nom}'
 
     with open(ar_pla, 'r') as fi:
@@ -41,6 +47,9 @@ if argv[1] == 'artista':
             pla = pla.replace(k, v)
         with open(ar_yml, 'w') as fo:
             fo.write(pla)
+
+    copyfile('./plantillas/artista-obra.jpg', '../docs/rec/foto/obras/' + ree['{foto-obra}'])
+    copyfile('./plantillas/artista-persona.jpg', '../docs/rec/foto/personas/' + ree['{foto-persona}'])
 
     print('Artista agregado!')
 elif argv[1] == 'sede':
