@@ -45,11 +45,42 @@ a:hover {
 a.no-decoration {
   border: none!important;
 }
+/* deslizador portada */
+.deslizador {
+  height: 300px;
+}
+.deslizador ul {
+  margin: 0;
+  padding: 0;
+}
+.deslizador ul li {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: none;
+  transition: all 1s;
+}
+.deslizador ul li.actual {
+  top: 0;
+  left: 0;
+  display: block;
+}
+.deslizador ul li img {
+  display: block;
+  width: 100%;
+}
+/* menu superior - general */
 .menu {
   background: #000;
   display: flex;
   text-align: center;
   padding: 60px 0;
+}
+.menu .items-movile b {
+  display: none;
 }
 .menu ul {
   display: flex;
@@ -123,15 +154,50 @@ header .logos .logo.hoteldada {
   flex: 1 0 auto;
 }
 footer {
-  flex-shrink: 0;
-  padding: 20px;
-  background: #000;
+  margin-top: 70px;
+  border-top: 0.6px solid #000;
+  padding: 80px 20px 50px 20px;
+  background: #fff;
+  position: relative;
 }
 footer * {
-  color: #fff;
+  color: #000;
+}
+footer a {
+  border: none;
+}
+footer a:hover {
+  opacity: 0.8;
+}
+footer .utiles {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+footer .utiles .menu-pie {
+  margin: 0;
+  padding: 4px 4px;
+  background: #000;
+}
+footer .utiles .menu-pie * {
+  color: #fff !important;
+  text-align: left;
+  display: block;
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+footer .utiles .menu-pie nav {
+  display: none;
+  padding: 20px;
+}
+footer .utiles .menu-pie:hover nav {
+  display: inline-block;
 }
 .fx-invert {
   filter: invert(1);
+}
+.fx-transp-70 {
+  opacity: 0.7;
 }
 .text-small {
   font-size: 0.8em;
@@ -189,11 +255,11 @@ footer * {
   float: left;
   padding-right: 100px;
 }
-.lista-equipo ul {
+.lista-subrayada ul {
   padding: 0;
   margin-bottom: 30px;
 }
-.lista-equipo ul li {
+.lista-subrayada ul li {
   list-style: none;
   padding: 3px 0;
   border-bottom: 0.5px solid gray;
@@ -206,6 +272,10 @@ footer * {
   background: #ddd;
   background-repeat: no-repeat;
   background-size: 100% auto;
+}
+.icono {
+  width: 25px;
+  display: inline-block;
 }
 @media (max-width: 700px) {
   .logos {
@@ -221,5 +291,22 @@ footer * {
   }
   .foto-izq-parrafo {
     float: none;
+  }
+  .menu .items-movile b {
+    display: block;
+    color: #fff;
+  }
+  .menu .items-movile ul {
+    display: none!important;
+  }
+  .menu .items-movile:hover ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block!important;
+    z-index: 100;
+    background: #000;
+    padding: 20px;
   }
 }
