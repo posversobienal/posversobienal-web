@@ -3,14 +3,21 @@
 titulo: 'Sedes'
 html_base: 'pagina.html'
 ruta_static: 'pag/sedes/index.html'
-estilo: d-flex flex-wrap
+estilo: 'container'
 
 contenido: |
   {% for id_sede, dat_sede in rec.sedes.items() %}
 
-  ( {{ loop.index0 + 1 }} ) [**{{ dat_sede.nombre }}**](/sds/{{ id_sede }}/)
-  ![foto](/rec/foto/sedes/{{ dat_sede.fotos[0] }}){.foto-obra-chica .mt-2}
-  {.border .d-inline-block .m-2 .p-2 .rounded id='{{ id_sede }}'}
-
+  <div class=d-flex border-bottom border-dark d-block m-2 p-2" id="{{ id_sede }}">
+    <div class="col text-end">
+      <img src="/rec/foto/sedes/{{ dat_sede.fotos[0] }}" class="h100p m-3">
+    </div>
+    <div class="col">
+      <!-- ( {{ loop.index0 + 1 }} ) -->
+      <b>{{ dat_sede.nombre }}</b>
+      <br>
+      <a href="/sds/{{ id_sede }}/" class="btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+    </div>
+  </div>
 
   {% endfor %}

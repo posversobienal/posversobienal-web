@@ -216,6 +216,30 @@ footer .utiles .menu-pie:hover nav {
   display: block;
   width: 200px;
 }
+.w75p {
+  width: 75px;
+}
+.w100p {
+  width: 100px;
+}
+.w200p {
+  width: 200px;
+}
+.w300p {
+  width: 300px;
+}
+.h75p {
+  height: 75px;
+}
+.h100p {
+  height: 100px;
+}
+.h200p {
+  height: 200px;
+}
+.h300p {
+  height: 300px;
+}
 /* para página: portada */
 #fondo_img {
   position: fixed;
