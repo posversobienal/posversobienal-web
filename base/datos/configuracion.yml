@@ -23,6 +23,7 @@ urls:
   formulario_convocatoria: ''
   posversobienal: 'https://posversobienal.com.ar/'
   posverso_instagram: 'https://www.instagram.com/posverso_bienal'
+  posverso_youtube: ''
 
   info_omar_khouri: 'http://www.antoniomiranda.com.br/poesia_visual/omar_khouri.html'
   info_cesar_espinosa: 'https://www.heterogenesis.com/H-45/EspinozaCas.htm'
@@ -51,7 +52,7 @@ menu:
       - titulo: 'Exhibiciones colaterales'
         url: '/pag/exhibiciones_colaterales/'
       - titulo: 'Artistas homenajeados'
-        url: '/pag/artistas homenajeados/'
+        url: '/pag/artistas_homenajeados/'
       - titulo: 'Curadores invitados'
         url: '/pag/curadores_invitados/'
   - titulo: 'SEDES'

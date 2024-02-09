@@ -52,51 +52,82 @@
             <ul>
                 <li>
                     <a class="logo posverso" href="/">
-                        <img class="d-block fx-invert" src="{{ cfg.metadatos.logo_posverso_a }}" title="POSVERSO">
+                        <img class="d-block fx-invert" src="{{ cfg.metadatos.logo_posverso_a }}?{{ cfg.cache_actu }}" title="POSVERSO">
                     </a>
                 </li>
             </ul>
-            <ul class="d-flex wrap">
-                {% for it in cfg.menu %}
-                <li class="{% if it.url == '' %} desactivado{% endif %}">
-                    <a href="{{ it.url }}">{{ it.titulo }}</a>
-                    {% if 'submenu' in it %}
-                    <ul class="submenu">
-                        {% for ism in it.submenu %}
-                        <li><a href="{{ ism.url }}">{{ ism.titulo }}</a></li>
-                        {% endfor %}
-                    </ul>
-                    {% endif %}
 
-                </li>
-                {% endfor %}
-            </ul>
+            <div class="items-movile">
+                <b>##</b>
+                <ul class="d-flex wrap">
+                    {% for it in cfg.menu %}
+                    <li>
+                        <a href="{{ it.url }}">{{ it.titulo }}</a>
+                        {% if 'submenu' in it %}
+                        <ul class="submenu">
+                            {% for ism in it.submenu %}
+                            <li><a href="{{ ism.url }}">{{ ism.titulo }}</a></li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
         </nav>
 
         <div class="cuerpo">
             {% block body %}{% endblock %}
         </div>
 
-        <footer class="text-center">
-            <p class="d-inline-block mx-3">
-                <a href="/">
-                    <img class="img-fluid fx-invert" width="40px" src="{{ cfg.metadatos.logo_posverso_a }}" title="POSVERSO">
-                </a>
-            </p>
+        <footer>
+            <div  class="d-flex justify-content-around">
+                <div class="d-flex">
+                    <a href="/" class="mx-4">
+                        <img height="20px" src="{{ cfg.metadatos.logo_posverso_a }}?{{ cfg.cache_actu }}" title="POSVERSO">
+                    </a>
+                    <span class="border-dark border-start"></span>
+                    <a class="mx-4" href="{{ cfg.urls.hoteldadabase }}">
+                        <img height="25px" src="{{ cfg.metadatos.logo_hoteldada_a }}?{{ cfg.cache_actu }}" title="Hotel DaDA">
+                    </a>
+                </div>
+                <div>&nbsp</div>
+                <div>
+                    <a class="mx-2" href="{{ cfg.urls.posverso_instagram }}">
+                        <img class="icono" height="30px" src="/rec/grafica/icon-instagram.svg?{{ cfg.cache_actu }}" alt="Instagram">
+                    </a>
+                    <a class="mx-2" href="{{ cfg.urls.posverso_youtube }}">
+                        <img height="30px" src="/rec/grafica/icon-youtube.svg?{{ cfg.cache_actu }}" alt="Youtube">
+                    </a>
+                    <a class="mx-2" href="mailto:{{ cfg.emails.posverso }}">
+                        <img height="30px" src="/rec/grafica/icon-email.svg?{{ cfg.cache_actu }}" alt="Email">
+                    </a>
+                </div>
+            </div>
 
-            <span class="text-light">por</span>
+            <div class="utiles">
 
-            <p class="d-inline-block mx-3">
+                <div class="d-inline-block menu-pie" title="Menú">
+                    <img class="fx-invert " height="20px" src="/rec/grafica/icon-menu.svg?{{ cfg.cache_actu }}">
+                    <nav>
+                        {% for it in cfg.menu %}
+                        {% if 'submenu' in it %}
+                        <a href="{{ it.url }}"><small>{{ it.titulo }}</small></a>
+                        {% for ism in it.submenu %}
+                        <a href="{{ ism.url }}">&nbsp;&nbsp;{{ ism.titulo }}</a>
+                        {% endfor %}
+                        {% else %}
+                        <a href="{{ it.url }}">{{ it.titulo }}</a>
+                        {% endif %}
 
-                <a href="{{ cfg.urls.hoteldadabase }}">
-                    <img class="img-fluid fx-invert" width="30px" src="{{ cfg.metadatos.logo_hoteldada_a }}" title="Hotel DaDA">
-                </a>
-            </p>
 
-            <span class="text-light">·</span>
-
-
-            <p class="d-inline-block text-uppercase text-small mx-3">Web actualizada: {{ cfg.actualizacion }}</p>
+                        {% endfor %}
+                        <br>
+                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>{{ cfg.actualizacion }}</b></span>
+                    </nav>
+                </div>
+            </div>
         </footer>
     </body>
 </html>

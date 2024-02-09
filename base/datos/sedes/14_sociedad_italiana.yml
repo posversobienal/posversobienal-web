@@ -1,8 +1,8 @@
 ---
 
-nombre: 'Sociedad Italiana'
-domicilio: ''
-gmaps: ''
+nombre: 'Sociedad Italiana Unita'
+domicilio: 'Belgrano 84. Junín, Buenos Aires, Argentina.'
+gmaps: 'https://maps.app.goo.gl/M89aSiz2AzJb8quV7'
 fotos:
   - 'sociedad_italiana.jpg'
 eventos_asociados: []

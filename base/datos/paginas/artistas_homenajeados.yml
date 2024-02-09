@@ -2,7 +2,7 @@
 
 titulo: 'Artistas homenajeados'
 html_base: 'pagina.html'
-ruta_static: 'pag/artistas homenajeados/index.html'
+ruta_static: 'pag/artistas_homenajeados/index.html'
 estilo: d-flex flex-wrap
 
 contenido: |

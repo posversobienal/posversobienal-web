@@ -1,10 +1,10 @@
 ---
 
-nombre: '{nombre}'
-apellido: '{apellido}'
+nombre: 'Daniel'
+apellido: 'Ontiveros'
 seudonimo: ''
 
-nacionalidad: '{nacionalidad}'
+nacionalidad: 'Argentina'
 contacto_publico: ''
 
 web: ''
@@ -14,12 +14,12 @@ eventos: []
 obras: []
 
 fotos:
-  persona: ''
-  obra: ''
+  persona: 'daniel_ontiveros.jpg'
+  obra: 'daniel_ontiveros-1.jpg'
 
 imagen_cabecera_posicion_inicial: 50% 50%
 
 etiquetas:
-  - {tipo}
+  - invitado
 
 detalle: ''

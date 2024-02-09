@@ -1,8 +1,8 @@
 ---
 
 nombre: 'Villa Alpina'
-domicilio: ''
-gmaps: ''
+domicilio: 'Las Chicharras 725. Junín, Buenos Aires, Argentina.'
+gmaps: 'https://maps.app.goo.gl/huzW5fZKQ6ZGD4GE9'
 fotos:
   - 'villa_alpina.jpg'
 eventos_asociados: []

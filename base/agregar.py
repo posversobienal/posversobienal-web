@@ -31,7 +31,7 @@ if argv[1] == 'artista':
         '{nacionalidad}': argv[5] if len(argv) >= 6 else '',
         }
     ar_pla = './plantillas/artista.yml'
-    ruta = './datos/artistas/'
+    ruta = './datos/artistas_invitados/'
     nom = normalizar(ree['{nombre}']) + '_' + normalizar(ree['{apellido}']) + '.yml'
     ar_yml = f'{ruta}{nom}'
 

@@ -1,10 +1,10 @@
 ---
 
-nombre: '{nombre}'
-apellido: '{apellido}'
+nombre: 'Malvina'
+apellido: 'Sammarone'
 seudonimo: ''
 
-nacionalidad: '{nacionalidad}'
+nacionalidad: 'Brasil'
 contacto_publico: ''
 
 web: ''
@@ -14,12 +14,12 @@ eventos: []
 obras: []
 
 fotos:
-  persona: ''
-  obra: ''
+  persona: 'malvina_sammarone.jpg'
+  obra: 'malvina_sammarone-1.jpg'
 
 imagen_cabecera_posicion_inicial: 50% 50%
 
 etiquetas:
-  - {tipo}
+  - invitado
 
 detalle: ''

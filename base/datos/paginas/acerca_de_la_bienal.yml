@@ -3,7 +3,7 @@
 titulo: 'Acerca de la bienal'
 html_base: 'pagina.html'
 ruta_static: 'pag/acerca_de_la_bienal/index.html'
-estilo_cnt_sec: 'lista-equipo'
+estilo_cnt_sec: 'lista-subrayada'
 
 contenido: |
 
@@ -34,6 +34,7 @@ contenido: |
   <br>
 
   **SILVIO DE GRACIA**{.fs-5 id="silvio_de_gracia"}
+  [+](/per/silvio_de_gracia/)
 
   *Director General de POSVERSO*
 
@@ -46,6 +47,8 @@ contenido: |
   <br>
 
   **ANA MONTENEGRO**{.fs-5 id="ana_montenegro"}
+  [+](/per/ana_montenegro/)
+
 
   *Directora artística de POSVERSO*
 
@@ -54,6 +57,8 @@ contenido: |
   Ana Montenegro es una artista visual y performer brasileña, basada en Argentina. Con formación en arquitectura, escenografía y semiótica peirceana, desarrolla cursos de Proceso Artístico con base en la semiótica, talleres, charlas y asesorías para artistas. Co-directora de la galería HOTEL DADA, donde se ocupa de la dirección artística y de la presentación de distintos proyectos editoriales y curatoriales. Con una amplia trayectoria nacional e internacional en el campo del arte de performance, se destaca por la práctica de la performance sonora y la poesia experimental en diversos soportes. Responsable de curadurías en Argentina y Brasil, fue curadora asociada en BIENALSUR 2023, Bienal Internacional de Arte Contemporáneo del Sur.
 
   <br>
+
+
 
 contenido_secundario: |
 

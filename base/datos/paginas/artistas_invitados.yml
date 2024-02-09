@@ -1,19 +1,17 @@
 ---
 
 titulo: 'Artistas invitados'
-html_base: 'pagina.html'
+html_base: 'pagina-menu.html'
 ruta_static: 'pag/artistas_invitados/index.html'
-estilo: d-flex flex-wrap
+estilo: container d-flex flex-wrap justify-content-center
 
 contenido: |
 
   {% for id_art, dat_art  in rec.artistas_invitados.items() %}
 
+  ![foto](/rec/foto/personas/{{ dat_art.fotos.persona }}){.foto-obra-chica .mt-2}
   [**{{ dat_art.nombre }} {{ dat_art.apellido }}**](/per/{{ id_art }})
   <br>{{ dat_art.nacionalidad }}
-  ![foto](/rec/foto/personas/{{ dat_art.fotos.persona }}){.foto-obra-chica .mt-2}
   {.border .m-2 .p-2 .rounded id='{{ id_art }}'}
 
   {% endfor %}
-
-xxx: |

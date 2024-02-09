@@ -4,13 +4,24 @@ titulo: ''
 html_base: 'portada.html'
 ruta_static: 'portada.html'
 
-contenido: |
-  # Novedades
+tematica:
+  nombre: 'POÉTICAS DE LA RESISTENCIA'
+  url: '/pag/acerca_de_la_bienal/'
+  fecha: |
+    Del **18 de octubre** al **20 de diciembre** de 2024.
+    **Junín**, Buenos Aires.
 
-  ...
+deslizador:
+  - im-1.jpg
+  - im-2.jpg
+  - im-3.jpg
+  - im-4.jpg
 
-  ...
-
-  ...
-
-  ...
+novedades:
+  maximo: 3
+  automatico: true
+  lista:
+    - 2024-02-09--pr_4
+    - 2024-02-09--pr_3
+    - 2024-02-09--pr_2
+    - 2024-02-09--pr_1

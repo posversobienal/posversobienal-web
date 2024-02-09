@@ -1,8 +1,8 @@
 ---
 
-nombre: 'Casa/Taller Torviso-Sarobe'
-domicilio: ''
-gmaps: ''
+nombre: 'Casa Taller Torviso-Sarobe'
+domicilio: 'Puente del Inca 895. Junín, Buenos Aires, Argentina.'
+gmaps: 'https://maps.app.goo.gl/6gpVd7VF5BMWHYCx5'
 fotos:
   - 'casa-taller_torviso-sarobe.jpg'
 eventos_asociados: []

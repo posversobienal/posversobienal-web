@@ -18,6 +18,25 @@
         float: none;
     }
 
+    .menu {
+        .items-movile {
+            b { display: block; color: #fff; }
+            ul { display: none!important; }
+
+            &:hover {
+                ul {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    display: block!important;
+                    z-index: 100;
+                    background: #000;
+                    padding: 20px;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (orientation:portrait){}

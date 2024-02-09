@@ -1,8 +1,8 @@
 ---
 
 nombre: 'Centro de Capacitación y Cultura ATSA'
-domicilio: ''
-gmaps: ''
+domicilio: 'Brasil 22. Junín, Buenos Aires, Argentina.'
+gmaps: 'https://maps.app.goo.gl/XntG6qnyGho4seQK7'
 fotos:
   - 'centro_de_capacitacion_y_cultura_atsa.jpg'
 eventos_asociados: []

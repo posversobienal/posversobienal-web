@@ -1,0 +1,17 @@
+---
+
+nombre: 'Silvio'
+apellido: 'De Gracia'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+eventos: []
+
+web: 'http://www.silviodegracia.com/'
+
+fotos:
+  persona: 'silvio_de_gracia.jpg'
+
+detalle: ''

@@ -1,8 +1,8 @@
 ---
 
-nombre: 'Hotel DADA'
-domicilio: 'Telésforo Chávez 69. Junín, Buenos Aires, Argentina.'
-gmaps: 'https://www.google.com.ar/maps/place/Tel%C3%A9sforo+Ch%C3%A1vez+69,+Jun%C3%ADn,+Provincia+de+Buenos+Aires/@-34.5782034,-60.9637044,17z'
+nombre: 'HOTEL DADA Base de Arte Correo y Poesía Experimental'
+domicilio: 'Chávez 69. Junín, Buenos Aires, Argentina.'
+gmaps: 'https://maps.app.goo.gl/xPAS5Ya9xwjFSMDi6'
 fotos:
   - 'hotel_dada.jpg'
 eventos_asociados: []

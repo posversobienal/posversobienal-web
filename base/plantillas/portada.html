@@ -1,37 +1,80 @@
 {% extends "base.html" %}
 
 {% block body %}
-<div id="fondo_img"></div>
-<a id="fondo_link" href="#">+</a>
-
-
-<header id="titular" class="my-4 p-3">
-    <div class="logos">
-        <div class="logo posverso">
-        	<img class="img-fluid" src="{{ cfg.metadatos.logo_posverso_b }}" title="{{ cfg.metadatos.texto_posverso }}">
-        </div>
-
-        <div class="logo hoteldada">
-            <p>PRODUCIDA POR:</p>
-            <a href="{{ cfg.urls.hoteldadabase }}" class="d-block no-decoration">
-        	    <img class="img-fluid" src="{{ cfg.metadatos.logo_hoteldada_b }}" title="{{ cfg.metadatos.texto_hoteldada }}">
-            </a>
-        </div>
-    </div>
-
-</header>
-
-<div class="destacado-portada py-5 text-center">
-    <p class="tematica">
-        <a class="btn text-bold fs-3" href="/pag/poeticas_de_la_resistencia/">POÉTICAS DE LA RESISTENCIA</a>
-    </p>
-    <p class="fecha fs-5">Del 18 de octubre al 20 de diciembre de 2024. Junín, Buenos Aires.</p>
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        {% for imagen in pag.deslizador %}
+        {% if loop.index0 == 0 %}{% set estilo = 'active' %}{% else %}{% set estilo = '' %}{% endif %}
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{ loop.index0 }}"
+                class="{{ estilo }}" aria-current="true" aria-label="Imagen {{ loop.index0 + 1 }}"></button>
+        {% endfor %}
+  </div>
+  <div class="carousel-inner">
+      {% for imagen in pag.deslizador %}
+      {% if loop.index0 == 0 %}{% set estilo = 'active' %}{% else %}{% set estilo = '' %}{% endif %}
+      <div class="carousel-item {{ estilo }}">
+          <img src="/rec/promo/portada/{{ imagen }}?{{ cfg.cache_actu }}" class="d-block w-100">
+      </div>
+      {% endfor %}
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
 </div>
 
 
-<section class="mt-4 container bg-light">
-    {{ markdown(pag.contenido) }}
+<br><br>
 
+<div class="container">
+    <div class="my-3 text-center">
+        <a class="display-2 text-black" href="{{ pag.tematica.url }}">{{ pag.tematica.nombre }}</a>
+    </div>
+    <br>
+
+    <div class="row">
+        <div class="col-lg-8">
+        	<img class="img-fluid" src="{{ cfg.metadatos.logo_posverso_b }}?{{ cfg.cache_actu }}" title="{{ cfg.metadatos.texto_posverso }}">
+        </div>
+        <div class="col-lg-4">
+            <div class="fs-4 text-center p-3">{{ markdown(pag.tematica.fecha) }}</div>
+        </div>
+    </div>
+</div>
+
+<br><br>
+
+<section class="mt-4 container border-top border-black">
+    <div class="h3 mt-2">NOVEDADES</div>
+    <div class="row">
+        {% if pag.novedades.automatico %}
+        {% set novedades = listar_id('novedades') %}
+        {% else %}
+        {% set novedades = pag.novedades.lista %}
+        {% endif %}
+
+        {% for nid in novedades %}
+        {% if loop.index0 < pag.novedades.maximo %}
+        <div class="novedad col-lg-4 mt-5 p-3">
+            <div class="m-1 p-3 border border-gray">
+                {% set dat = datos_de('bitacora', nid) %}
+                <div>
+                    <img class="img-fluid" src="/rec/foto/bitacora/{{ dat.fotos[0] }}?{{ cfg.cache_actu }}">
+                </div>
+                <br>
+                <p class="h6 fw-bold">{{ dat.titulo }}</p>
+                <div class="text-end">
+                    <a class="d-inline-block btn btn-dark btn-sm" href="/bit/{{ nid }}/">AMPLIAR</a>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    {% endfor %}
+    </div>
 </section>
 
 <script src="/lib/js/init-portada.js"></script>

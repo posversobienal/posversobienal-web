@@ -1,8 +1,8 @@
 ---
 
-nombre: 'MACA'
-domicilio: ''
-gmaps: ''
+nombre: 'MACA Museo de Arte Contemporáneo Argentino "Víctor Grippo"'
+domicilio: 'Newbery 357. Junín, Buenos Aires, Argentina.'
+gmaps: 'https://maps.app.goo.gl/jBHJLVWL5LUjBJsv9'
 fotos:
   - 'maca.jpg'
 eventos_asociados: []

@@ -1,8 +1,8 @@
 ---
 
 nombre: 'Horno de Grippo'
-domicilio: ''
-gmaps: ''
+domicilio: 'Newbery y Borges. Junín, Buenos Aires, Argentina.'
+gmaps: 'https://maps.app.goo.gl/pi97fmp31PHGQoMu6'
 fotos:
   - 'horno_de_grippo.jpg'
 eventos_asociados: []

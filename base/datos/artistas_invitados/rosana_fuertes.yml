@@ -1,10 +1,10 @@
 ---
 
-nombre: '{nombre}'
-apellido: '{apellido}'
+nombre: 'Rosana'
+apellido: 'Fuertes'
 seudonimo: ''
 
-nacionalidad: '{nacionalidad}'
+nacionalidad: 'Argentina'
 contacto_publico: ''
 
 web: ''
@@ -14,12 +14,12 @@ eventos: []
 obras: []
 
 fotos:
-  persona: ''
-  obra: ''
+  persona: 'rosana_fuertes.jpg'
+  obra: 'rosana_fuertes-1.jpg'
 
 imagen_cabecera_posicion_inicial: 50% 50%
 
 etiquetas:
-  - {tipo}
+  - invitado
 
 detalle: ''

@@ -1,0 +1,10 @@
+---
+
+fecha: '2024-02-09'
+hora: '00:00'
+estado: [] # futuro, pasado, actual, suspendido
+titulo: 'Es importante saber ...'
+fotos:
+  - 2024-02-09--pr_1.jpg
+
+detalle: ''

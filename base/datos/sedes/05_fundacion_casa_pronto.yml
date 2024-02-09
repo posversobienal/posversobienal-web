@@ -1,8 +1,8 @@
 ---
 
 nombre: 'Fundación Casa Pronto'
-domicilio: ''
-gmaps: ''
+domicilio: 'España 383. Junín, Buenos Aires, Argentina.'
+gmaps: 'https://maps.app.goo.gl/o6w7hb8FzhRYUSZw6'
 fotos:
   - 'fundacion_casa_pronto.jpg'
 eventos_asociados: []
