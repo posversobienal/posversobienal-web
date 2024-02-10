@@ -3,12 +3,13 @@
 titulo: 'Error 404'
 html_base: 'error.html'
 ruta_static: '404.html'
-estilo: text-center
+estilo: text-end
 contenido: |
 
-  Lo que buscas
-  no existe aquí,
-  <br>
-  pero talvéz
-  encuentres
-  otra cosa.
+  Estás buscando:
+  <br><b id="bus"></b>
+
+  Eso no existe aquí, pero
+  <br>quizás encuentres otra cosa.
+
+  <script>bus.innerHTML = location.pathname;</script>

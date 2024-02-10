@@ -115,8 +115,8 @@ window.onload = ()=>{
     ];
     t0 = window.location.protocol;
     t1 = window.location.host;
-    t2 = window.location.hash;
-    t3 = window.location.href;
+    t2 = window.location.pathname;
+    t3 = window.location.hash;
 
     composicion[parseInt(Math.random()* composicion.length)]()
 }
