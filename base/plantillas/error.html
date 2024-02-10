@@ -4,13 +4,13 @@
 
 {% block body %}
 <div class="contenido p-4">
-    <div class="row {{ pag.estilo }}">
-        <div class="col">
+    <div class="d-flex flex-wrap justify-content-center {{ pag.estilo }}">
+        <div class="mx-3">
             <h1>{{ pag.titulo }}</h1>
             {{ markdown(pag.contenido) }}
         </div>
-        <div class="col text-start">
-            <canvas width="400px" height="400px" id="vcanvas"></canvas>
+        <div class="text-start">
+            <canvas class="d-inline-block img-fluid" width="400px" height="400px" id="vcanvas"></canvas>
         </div>
     </div>
 </div>
