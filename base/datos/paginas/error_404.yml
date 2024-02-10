@@ -3,6 +3,12 @@
 titulo: 'Error 404'
 html_base: 'error.html'
 ruta_static: '404.html'
-
+estilo: text-center
 contenido: |
-  Disculpe las molestias - El contenido que busca no existe!
+
+  Lo que buscas
+  no existe aquí,
+  <br>
+  pero talvéz
+  encuentres
+  otra cosa.

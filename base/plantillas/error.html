@@ -3,13 +3,18 @@
 {% block body_name %}error{% endblock %}
 
 {% block body %}
-<div class="contenido">
-    <header class="my-5">
-        <h1>{{ pag.titulo }}</h1>
-    </header>
-
-    <section class="{{ pag.estilo }}">
-        {{ markdown(pag.contenido) }}
-    </section>
+<div class="contenido p-4">
+    <div class="row {{ pag.estilo }}">
+        <div class="col">
+            <h1>{{ pag.titulo }}</h1>
+            {{ markdown(pag.contenido) }}
+        </div>
+        <div class="col">
+            <canvas width="400px" height="400px" id="vcanvas"></canvas>
+        </div>
+    </div>
 </div>
+<script src="/lib/js/hydra-synth.js"></script>
+<script defer src="/lib/js/hydra-text.js"></script>
+<script src="/lib/js/init-error.js"></script>
 {% endblock %}
