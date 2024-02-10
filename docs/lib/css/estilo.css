@@ -334,5 +334,16 @@ footer .utiles .menu-pie:hover nav {
     z-index: 100;
     background: #000;
     padding: 20px;
+    text-align: left;
+  }
+  .menu .items-movile:hover ul .submenu {
+    position: relative;
+    display: block;
+    padding: 0;
+  }
+  .menu .items-movile:hover ul li {
+    display: block;
+    padding: 6px 0;
+    border: none;
   }
 }
