@@ -21,4 +21,14 @@ fotos:
 etiquetas:
   - invitado
 
-detalle: ''
+detalle: |
+  Soledad Sánchez Goldar
+
+  {{ idioma('esp') }}
+
+  (Buenos Aires, 1977) Vive y trabaja entre Córdoba y Salta. Licenciada em Teatro por la UNC. Es artista, gestora cultural, docente y coordinadora de la Licenciatura de Artes Plásticas de la Facultad de Educación de UCASAL. Participa del diseño y construcción del Archivo de memoria oral sobre performance junto a Inti Pujol. Ha participado de la gestión del Continuo Latidoamericano de Performance Nodo ARG, junto a Graciela Ovejero Postigo. Forma parte del proyecto de investigación y producción en artes Efímerodramas, que estuvo radicado en el CePIA, UNC y obtuvo una beca del INT. Formó parte del proyecto de gestión La nariz en la taza, junto a María del Carmen Cachín. Ha participado en la organización de festivales y ciclos de performance, como Aún sin título, Huvaití, Nómades, Mutaciones, entre otros. Su trabajo se presentó en numerosos espacios culturales, teatros y festivales de performance en Argentina, Alemania, Brasil, China, Colombia, México, Chile, entre otros países. Ha recibido el primer galardón en el XLII Salón Provincial de Artes Visuales de Salta (2022), el primer premio en el 95 Salón de Mayo del Museo Rosa Galisteo (2017) y en el 35 Premio y Salón de Arte Córdoba (2015), y Premio en obra ArteBA (2021).
+
+  {{ idioma('eng') }}
+
+  (Buenos Aires, 1977) She lives and works between Córdoba and Salta. She graduated in Theater from UNC. She is an artist, cultural manager, teacher and coordinator of the Plastic Arts Degree at the UCASAL Faculty of Education. She participates in the design and construction of the Oral Memory Archive on Performance with Inti Pujol. She has participated in the management of the Latin American Continuum of Performance Nodo ARG, together with Graciela Ovejero Postigo. She is part of the research and production project in the arts Efímerodramas, which was based at CePIA, UNC and obtained a scholarship from the INT. She was part of the management project La naríz en la taza, along with María del Carmen Cachín. She has participated in the organization of festivals and performance cycles, such as Aún sin título, Huvaití, Nómades, Mutaciones, among others. Her work was presented in numerous cultural spaces, theaters and performance festivals in Argentina, Germany, Brazil, China, Colombia, Mexico, Chile, among other countries. He has received the first award at the XLII Provincial Hall of Visual Arts of Salta (2022), the first prize at the 95th Salón de Mayo of the Rosa Galisteo Museum (2017) and at the 35th Córdoba Prize and Art Hall (2015), and ArteBA work award (2021).
+  {.lang-eng}

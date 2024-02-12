@@ -14,4 +14,6 @@ web: 'http://www.silviodegracia.com/'
 fotos:
   persona: 'silvio_de_gracia.jpg'
 
-detalle: ''
+detalle: |
+  {{ idioma('esp') }}
+  Escritor, artista visual, poeta experimental, performer y curador independiente, nacido en Junín, Argentina. Entre 2002 y 2015 fue director y curador de varios eventos y festivales de videoarte y performance en su ciudad, como Festival de la interferencia – In memoriam Edgardo Antonio Vigo (2007) y Participación – Encuentro Latinoamericano de Performance (2015). Entre 2002 y 2022, dirigió la revista de arte correo y poesía visual HOTEL DADA. Entre sus curadurías, presentadas en varios países alrededor del mundo, destacan: La Persistencia del Cuerpo - Rastros del Arte de Performance en América Latina, EAC Espacio de Arte Contemporáneo, Montevideo, Uruguay, 2018; Cuerpos en disidencia - Documents in photography and video of Performance Art in South American in the 1970s and 1980s, Venice International Performance Art Week, Venecia, Italia, 2014; Flyers - Programa Colateral de la Oncena Bienal de La Habana, Cuba (2012). Miembro del comité de redacción internacional de la revista canadiense Inter art actuel. Co-director de la galería HOTEL DADA. Curador asociado en BIENALSUR 2023, Bienal Internacional de Arte Contemporáneo del Sur.

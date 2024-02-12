@@ -201,6 +201,13 @@ footer .utiles .menu-pie:hover nav {
 .fx-ampliar:hover {
   transform: scale(1.05);
 }
+.lang {
+  padding-top: 20px;
+}
+.lang-eng {
+  font-style: italic;
+  font-size: 0.9em;
+}
 .text-small {
   font-size: 0.8em;
 }

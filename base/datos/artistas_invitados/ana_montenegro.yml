@@ -15,12 +15,14 @@ fotos:
   persona: 'ana_montenegro.jpg'
   obra: 'ana_montenegro-1.jpg'
 
-imagen_cabecera_posicion_inicial: 50% 35%
+imagen_cabecera_posicion_inicial: 50% 5%
 
 etiquetas:
   - invitado
 
 detalle: |
+  {{ idioma('esp') }}
+
   Artista visual y performer brasileña, basada en Argentina. Con formación en arquitectura, escenografía y semiótica peirceana, desarrolla cursos de Proceso Artístico con base en la semiótica, talleres, charlas y asesorías para artistas.
 
   Co-directora de la galería HOTEL DADA, donde se ocupa de la dirección artística y de la presentación de distintos proyectos editoriales y curatoriales. Con una amplia trayectoria nacional e internacional en el campo del arte de performance, se destaca por la práctica de la performance sonora y la poesia experimental en diversos soportes. Responsable de curadurías en Argentina y Brasil, fue curadora asociada en BIENALSUR 2023, Bienal Internacional de Arte Contemporáneo del Sur.

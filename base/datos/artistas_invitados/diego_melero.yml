@@ -14,7 +14,7 @@ eventos: []
 obras: []
 
 fotos:
-  persona: 'diego_melero-1.jpg'
+  persona: 'diego_melero.jpg'
   obra: 'diego_melero-1.jpg'
 
 imagen_cabecera_posicion_inicial: 50% 50%
@@ -30,4 +30,4 @@ detalle: |
   {{ idioma('eng') }}
 
   (San Justo, Santa Fe, 1960) Lives and works in Buenos Aires. Visual artist, performer and sociologist. Starting in 1980 he studied drawing and painting in the workshop of Guillermo Kuitca. In 1986 he obtained a Bachelor's degree and a Professorship in Sociology at the University of Buenos Aires, presenting a thesis titled “Technology as a discourse reproducing object. The technical reproducibility of the work of art”, in which he deployed some lines of research that he would incorporate into his subsequent artistic works. Towards the end of the nineties he found in performance the medium capable of communicating beyond the images and conventional languages of art. Through performance he investigates the intersection between social sciences and art, incorporating knowledge acquired in previous years, such as physical training, drawing and painting. He participated in important international art events, such as the Documenta Kassel XII (2007) and Bienal do Mercosul (2009).
-  {.fst-italic}
+  {.lang-eng}

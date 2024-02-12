@@ -17,7 +17,7 @@ fotos:
   persona: 'malvina_sammarone.jpg'
   obra: 'malvina_sammarone-1.jpg'
 
-imagen_cabecera_posicion_inicial: 50% 50%
+imagen_cabecera_posicion_inicial: 50% 100%
 
 etiquetas:
   - invitado
@@ -30,4 +30,4 @@ detalle: |
   {{ idioma('eng') }}
 
   Visual artist and independent researcher, she lives and works in São Paulo. She graduated in Industrial Design (1978) and Architecture (1983) from Mackenzie University, in São Paulo. In 1994, she obtained her MA in Arts from New York University (US) and Master in Communication and Semiotics (1998/2001) from PUC/SP and, in 2018, MFA Creative Art Research from the University of Plymouth (UK). Her artistic practice is based on the use of archives, both existing ones and those created from the poetics that guide his research in each case. The archive becomes visible through the appropriation and manipulation of film materials, the collection of documents, photographs, which allow us to reveal lost or silenced memories. Among the group exhibitions that she participated in, the following stand out: Diálogos Contemporâneos: Máteria-linha, MuBE. (São Paulo, 2021); In the spirit of Fluxus – international exhibition of Flux Films, Hotel Dada Gallery and VideoPlay (Argentina, 2020); The (NotSo) Short Fest, Ely Center of Contemporary Art (New Haven, CT, USA, 2020); coletivo@7 in MARP (Ribeirão Preto, 2019); Co-a-lism, Flutgraben, (Berlin, Germany, 2018); Estou cá: Sempre Algo Entre Nós, SESC Belenzinho (São Paulo, 2016); Ressonâncias:Brasil-Berlin, KunstBethanien (Berlin, Germany, 2013).
-  {.fst-italic}
+  {.lang-eng}

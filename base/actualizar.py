@@ -50,12 +50,13 @@ def listar_id(tipo):
         return [splitext(ar)[0] for ar in listdir('./datos/bitacora/') if ar.endswith('.yml') ]
 
 def idioma(tipo):
-    html = '<div class="my-2 ṕy-2 text-end"><img src="{imagen}" class="icono"></div>'
-    imagen = ''
-    if tipo == 'esp': imagen = '/rec/grafica/icon-esp.svg'
-    elif tipo == 'eng': imagen = '/rec/grafica/icon-eng.svg'
+    #html = '<div class="my-2 ṕy-2 text-end lang"><img src="/rec/grafica/icon-{lang}.svg" class="icono"></div>'
+    html = '<div class="my-2 ṕy-2 text-end lang" id="{lang}"></div>'
+    lang = ''
+    if tipo == 'esp': lang = 'esp'
+    elif tipo == 'eng': lang = 'eng'
 
-    return html.format(imagen=imagen) if imagen else  ''
+    return html.format(lang=lang) if lang else  ''
 
 
 
@@ -110,6 +111,8 @@ ruta_out = f'{ruta_public}/per/'
 borrar_contenido(ruta_out)
 
 for ar in [a for a in listdir(ruta_in) if a.endswith('.yml')]:
+    print('Persona: ', ar)
+
     dat_cfg['actualizacion'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
     dat_pag = leer_yml(f'{ruta_in}{ar}')
     dat_pag['titulo'] = dat_pag['nombre'] + ' ' + dat_pag['apellido']
@@ -131,10 +134,11 @@ ruta_out = f'{ruta_public}/per/'
 #borrar_contenido(ruta_out)
 
 for ar in [a for a in listdir(ruta_in) if a.endswith('.yml')]:
+    print('Artista: ', ar)
+
     dat_cfg['actualizacion'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
     dat_pag = leer_yml(f'{ruta_in}{ar}')
     dat_pag['titulo'] = dat_pag['nombre'] + ' ' + dat_pag['apellido']
-
 
     nom_ar = splitext(ar)[0]
     arc_out = f'{ruta_out}/{nom_ar}/index.html'
@@ -153,6 +157,8 @@ ruta_out = f'{ruta_public}sds/'
 borrar_contenido(ruta_out)
 
 for ar in [a for a in listdir(ruta_in) if a.endswith('.yml')]:
+    print('Sede: ', ar)
+
     dat_cfg['actualizacion'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
     dat_cfg['cache_actu'] = int(time_ns() / 1000)
     dat_pag = leer_yml(f'{ruta_in}{ar}')
@@ -175,6 +181,8 @@ ruta_out = f'{ruta_public}pag/'
 borrar_contenido(ruta_out)
 
 for ar in [a for a in listdir(ruta_in) if a.endswith('.yml')]:
+    print('Página: ', ar)
+
     dat_cfg['actualizacion'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
     dat_pag = leer_yml(f'{ruta_in}{ar}')
 
@@ -194,6 +202,8 @@ ruta_out = f'{ruta_public}bit/'
 borrar_contenido(ruta_out)
 
 for ar in [a for a in listdir(ruta_in) if a.endswith('.yml')]:
+    print('Bitacora: ', ar)
+
     dat_cfg['actualizacion'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
     dat_pag = leer_yml(f'{ruta_in}{ar}')
 

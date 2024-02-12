@@ -17,7 +17,7 @@ fotos:
   persona: 'ruggero_maggi.jpg'
   obra: 'ruggero_maggi-1.jpg'
 
-imagen_cabecera_posicion_inicial: 50% 30%
+imagen_cabecera_posicion_inicial: 50% 60%
 
 etiquetas:
   - invitado
@@ -30,4 +30,4 @@ detalle: |
   {{ idioma('eng') }}
 
   Multimedia artist and curator. His predominant artistic interests are: visual poetry and artist books (Archive Non solo libri) since 1973; copy art and mail art (Amazon Archive) since 1975; laser art 1976; holography 1979; X-ray art 1980 and works of art based on Chaos theory, fractals, entropy since 1985. He has exhibited in many exhibitions around the world. His works are exhibited in the Museum of Chinese History in Beijing and in the Museum of Modern Art in Gallarate. He has participated in the 49th Venice Art Biennial in the project “Poetic Bunker” and in the Sao Paulo Art Biennial in 1981. Among his curatorships, “Camera 312 – Promemoria per Pierre” at the 52nd International Art Exhibition – La Biennale di Venezia (2007); “Depth 45 – Michelangelo at work” (2008); and Mail Art “Earth-rawmatter”, Galleria di Arti Visive dell’Università del Melo, Gallarate (VA) (2016). Between 2011-2019 he conceived and curated TIBET PAVILION - the pavilion of the neverland - a project presented in Venice every two years (Cà Zanardi, Church of Santa Marta SpazioPorto, Palazzo Zenobio) and subsequently exhibited at the Palazzo delle Esposizioni in Turin , in the Diotti Museum in Casalmaggiore, in the Laudense Library in Lodi, in the Visconteo Castle in Pavia, in the Doge's Palace in Genoa, in La Bienal del Fin del Mundo, in Argentina.
-  {.fst-italic}
+  {.lang-eng}
