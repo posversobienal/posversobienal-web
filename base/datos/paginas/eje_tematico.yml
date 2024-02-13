@@ -2,7 +2,8 @@
 
 titulo: 'Poéticas de la resistencia'
 html_base: 'pagina.html'
-ruta_static: 'pag/texto_curatorial/index.html'
+ruta_static: 'pag/eje_tematico/index.html'
+estilo: col-lg-11
 
 contenido: |
 

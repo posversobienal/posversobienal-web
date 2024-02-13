@@ -1,9 +1,35 @@
 ---
-
 titulo: 'Artistas homenajeados'
 html_base: 'pagina.html'
 ruta_static: 'pag/artistas_homenajeados/index.html'
-estilo: d-flex flex-wrap
+estilo: col-lg-11
 
 contenido: |
-  { ... }
+
+  ![Luis Pazos](/rec/foto/personas/luis_pazos_artista_homenajeado.jpg){.img-fluid}
+
+  <br>
+  ## **Luis Pazos** (1940-2023)
+  <br>
+
+  La BIENAL brindará un homenaje a Luis Pazos, uno de los artistas fundamentales para pensar el desarrollo y la historia del arte argentino desde los años sesenta, a partir de su constante desafío a los límites de las prácticas artísticas en los dominios de la poesía experimental, la performance y las acciones en el ámbito público.
+
+  En el contexto de POSVERSO, la obra de Luis Pazos se hará presente en la muestra central [POÉTICAS DE LA RESISTENCIA](/pag/exhibicion_central/), pero también a través de la activación de algunas de sus propuestas de desplazamiento de la poesía experimental al espacio público.
+
+
+  <br><hr><br>
+
+
+  ![Pere Sousa](/rec/foto/personas/pere_sousa_artista_homenajeado.jpg){.img-fluid}
+
+  <br>
+  ## **Pere Sousa** (1955-2023)
+  <br>
+
+
+
+  También se homenajeará al artista granadino Pere Sousa, una de las figuras centrales de la poesía experimental y el arte correo en territorio español. En la década de los noventa dirigió la publicación P.O.BOX, revista de referencia del arte postal en España, y creó la factoría de activismo cultural Merz Mail.
+
+  Activista cultural, editor, mail-artista y realizador de radio, Pere Sousa fue considerado uno de los poetas fonéticos más destacados de España, especializado en la obra de Kurt Schwitters y uno de los mejores intérpretes de su pieza Ursonate.
+
+  En POSVERSO se exhibirán materiales del artista, pertenecientes al Archivo HOTEL DADA y se abordará su obra en el marco del Evento Teórico.

@@ -20,4 +20,9 @@ imagen_cabecera_posicion_inicial: 50% 20%
 etiquetas:
   - invitado
 
-detalle: ''
+detalle: |
+  {{ idioma('esp') }}
+
+  Artista de la ciudad de Valcheta, Río Negro, Patagonia Argentina. Estudió artes visuales en Argentina y Cuba. Realizó acciones en diferentes medios y disciplinas artísticas centrados en el espacio público y el paisaje a partir de la presencia o ausencia del cuerpo. Curador y director de encuentros y muestras latinoamericanas e internacionales de performance y land art.
+
+  Actualmente dirige la Bienal Internacional de Arte de Río Negro y es Director de Museos, Arte y Comunidad de la Secretaria de Cultura de Río Negro. Posee publicados textos de performance en espacios de arte de Latinoamérica y Europa.

@@ -2,6 +2,55 @@
 titulo: 'Exhibición central'
 html_base: 'pagina.html'
 ruta_static: 'pag/exhibicion_central/index.html'
+estilo: col-lg-11 con-lista-en-columnas
+
 
 contenido: |
-  {...}
+  <hr><br>
+
+  ## Poéticas de la Resistencia
+
+  Curador: **Silvio De Gracia**
+  <br>Diseño expositivo: **Ana Montenegro**
+  <br>Sede: **MACA Museo de Arte Contemporáneo Argentino “Víctor Grippo”**
+  <br>Apertura: **18 de octubre de 2024**
+
+  <br><hr><br>
+
+
+  ## Artistas
+
+  - Alejandro Thornton
+  - Ana Montenegro
+  - Antonio Caro
+  - Carlos Gallardo
+  - Claudia Del Río
+  - Clemente Padín
+  - Daniel Ontiveros
+  - Daniel Sarobe
+  - Daniela Arnaudo
+  - Daniela Mastrandrea
+  - Edith Derdyk
+  - Elena Marini
+  - Fernando Aguiar
+  - Gabriela Golder
+  - J.M. Calleja
+  - Javier Del Olmo
+  - Jürgen O. Olbrich
+  - Luc Fierens
+  - Lucas Di Pascuale
+  - Luis Pazos
+  - Malvina Sammarone
+  - Marcela Astorga
+  - Marie Orensanz
+  - Matilde Marín
+  - Nilda Rosemberg
+  - Paulo Bruscky
+  - Rosana Fuertes
+  - Rosemberg Sandoval
+  - Ruggero Maggi
+  - Silvina Torviso
+  - Silvio De Gracia
+  - Simone Moraes
+  - Soledad Sánchez Goldar
+  - Teresa Pereda

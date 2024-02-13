@@ -1,0 +1,33 @@
+---
+
+nombre: 'Joyce'
+apellido: 'Ribeiro'
+seudonimo: ''
+
+nacionalidad: 'Brasil'
+contacto_publico: ''
+
+web: ''
+
+eventos: []
+
+obras: []
+
+fotos:
+  persona: 'joyce_ribeiro.jpg'
+  obra: 'joyce_ribeiro-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 55%
+
+etiquetas:
+  - invitado
+
+detalle: |
+  {{ idioma('esp') }}
+
+  (...)
+
+  {{ idioma('eng') }}
+
+  (...)
+  {.lang-eng}

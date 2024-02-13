@@ -1,22 +1,25 @@
 ---
 
 titulo: 'Sedes'
-html_base: 'pagina.html'
+html_base: 'menu_sedes.html'
 ruta_static: 'pag/sedes/index.html'
-estilo: 'container'
+estilo: 'w100 d-flex flex-wrap justify-content-center'
 
 contenido: |
   {% for id_sede, dat_sede in rec.sedes.items() %}
 
-  <div class=d-flex border-bottom border-dark d-block m-2 p-2" id="{{ id_sede }}">
-    <div class="col text-end">
-      <img src="/rec/foto/sedes/{{ dat_sede.fotos[0] }}" class="h100p m-3">
+  <div class="w300p border border-dark rounded-2 d-inline-block m-1" id="{{ id_sede }}">
+    <div class="text-center">
+      <img src="/rec/foto/sedes/{{ dat_sede.fotos[0] }}" class="h150p m-3">
     </div>
-    <div class="col">
+    <div class="text-start px-4 pb-3">
       <!-- ( {{ loop.index0 + 1 }} ) -->
-      <b>{{ dat_sede.nombre }}</b>
-      <br>
-      <a href="/sds/{{ id_sede }}/" class="btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+      <b class="d-inline">{{ dat_sede.nombre }}</b>
+      <br><br>
+      <div class="text-center">
+        <button class="btn btn-sm btn-dark"><img width="16px" class="fx-invert mt-1" src="/rec/grafica/icon-pin.svg"></button>
+        <a href="/sds/{{ id_sede }}/" class="btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+      </div>
     </div>
   </div>
 

@@ -17,7 +17,7 @@ fotos:
   persona: 'marie_orensanz.jpg'
   obra: 'marie_orensanz-1.jpg'
 
-imagen_cabecera_posicion_inicial: 50% 50%
+imagen_cabecera_posicion_inicial: 50% 20%
 
 etiquetas:
   - invitado

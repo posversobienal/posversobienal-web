@@ -1,0 +1,33 @@
+---
+
+nombre: 'Silvina'
+apellido: 'Torviso'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: ''
+
+eventos: []
+
+obras: []
+
+fotos:
+  persona: 'silvina_torviso.jpg'
+  obra: 'silvina_torviso-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 20%
+
+etiquetas:
+  - invitado
+
+detalle: |
+  {{ idioma('esp') }}
+
+  (...)
+
+  {{ idioma('eng') }}
+
+  (...)
+  {.lang-eng}

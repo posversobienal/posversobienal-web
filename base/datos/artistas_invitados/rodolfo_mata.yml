@@ -1,0 +1,33 @@
+---
+
+nombre: 'Rodolfo'
+apellido: 'Mata'
+seudonimo: ''
+
+nacionalidad: 'México'
+contacto_publico: ''
+
+web: ''
+
+eventos: []
+
+obras: []
+
+fotos:
+  persona: 'rodolfo_mata.jpg'
+  obra: 'rodolfo_mata-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - invitado
+
+detalle: |
+  {{ idioma('esp') }}
+
+  (...)
+
+  {{ idioma('eng') }}
+
+  (...)
+  {.lang-eng}

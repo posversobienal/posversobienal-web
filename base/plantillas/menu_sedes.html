@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+
+{% block body %}
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet"/><div id="osm-map"></div>
+
+<header class="text-center">
+    <h1>{{ pag.titulo }}</h1>
+    <code><b>CONTENIDO EN CONSTRUCCIÓN</b></code>
+</header>
+
+<div class="container contenido">
+
+    <div class="row">
+        <section class="{{ pag.estilo }} col-lg-8">
+            {{ markdown(pag.contenido) }}
+        </section>
+
+        {% if 'contenido_secundario' in pag %}
+        <section class="{{ pag.estilo_cnt_sec }} ms-4 ps-4 border-start border-gray col-lg-3">
+            {{ markdown(pag.contenido_secundario) }}
+        </section>
+
+        {% endif %}
+
+    </div>
+</div>
+
+<script>
+
+ // Where you want to render the map.
+ var element = document.getElementById('osm-map');
+
+ // Height has to be set. You can do this in CSS too.
+ element.style = 'height:400px;';
+
+ // Create Leaflet map on map element.
+ var map = L.map(element);
+
+ // Add OSM tile layer to the Leaflet map.
+ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+ }).addTo(map);
+
+ // Target's GPS coordinates.
+ var centroJ = L.latLng('-34.59686', '-60.94954');
+ var target1 = L.latLng();
+ var target2 = L.latLng();
+ var target3 = L.latLng();
+
+ // Set map's center to target with zoom 14.
+ map.setView(centroJ, 13);
+
+ const basemaps = {
+     StreetView: L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',   {attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}),
+     Topography: L.tileLayer.wms('http://ows.mundialis.de/services/service?',   {layers: 'TOPO-WMS'}),
+     Places: L.tileLayer.wms('http://ows.mundialis.de/services/service?', {layers: 'OSM-Overlay-WMS'})
+ };
+
+// L.control.layers(basemaps).addTo(map);
+
+
+ // iconos
+ var pinHotelDada = L.icon({
+     iconUrl: '/rec/grafica/pin-hoteldada.svg',
+     iconSize: [51.3, 43.1],
+     iconAnchor: [25.9, 43.2],
+     popupAnchor: [0, -45],
+ });
+  var pinSede = L.icon({
+      iconUrl: '/rec/grafica/pin-sede.svg',
+      iconSize: [38.4, 43.1],
+      iconAnchor: [19.4, 43.2],
+      popupAnchor: [0, -45],
+  });
+ // Place a marker on the same location
+
+ var m1 = L.marker([-34.57819, -60.96115], {icon: pinHotelDada}).bindPopup("Chavez 69").openPopup().addTo(map);
+ var m2 = L.marker([-34.58455, -60.94740], {icon: pinSede}).bindPopup("").addTo(map);
+ var m3 = L.marker([-34.61657, -60.95408], {icon: pinSede}).bindPopup("").addTo(map);
+
+
+ b1.addEventListener('click', (ev)=> {
+     m1.openPopup();
+     map.panInside(m1, [30, 30]);
+ });
+
+ b2.addEventListener('click', (ev)=> {
+     m2.openPopup();
+     map.panInside(m2, [30, 30]);
+ });
+
+ b3.addEventListener('click', (ev)=> {
+     m3.openPopup();
+     //map.panInside(m3, [10, 10]);
+     map.panView(m3, {animation: true});
+
+ });
+
+
+</script>
+
+{% endblock %}

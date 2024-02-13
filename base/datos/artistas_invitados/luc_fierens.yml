@@ -15,6 +15,7 @@ fotos:
   persona: 'luc_fierens.jpg'
   obra: 'luc_fierens-1.jpg'
 
+imagen_cabecera_posicion_inicial: 50% 55%
 
 etiquetas:
   - invitado

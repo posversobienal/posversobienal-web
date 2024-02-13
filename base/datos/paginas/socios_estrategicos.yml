@@ -1,0 +1,8 @@
+---
+titulo: 'Socios estratégicos'
+html_base: 'pagina.html'
+ruta_static: 'pag/socios_estrategicos/index.html'
+estilo: col-lg-11
+
+contenido: |
+  (...)

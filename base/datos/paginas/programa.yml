@@ -4,4 +4,10 @@ html_base: 'pagina.html'
 ruta_static: 'pag/programa/index.html'
 
 contenido: |
-  {...}
+
+  **POSVERSO** – *I Bienal Internacional de Poesía Experimental de Argentina* – se desarrollará en cuatro secciones:
+
+  - Una sección **principal**, que consistirá en la muestra central [Poéticas de la resistencia](/pag/eje_tematico/), conformada por [artistas invitados](/pag/artistas_invitados/).
+  - Una sección **descentralizada**, integrada por los artistas seleccionados por la convocatoria abierta, cuyas propuestas se presentarán en las distintas [sedes asociadas a la Bienal](/pag/sedes/).
+  - Una sección **en espacios no convencionales**, donde se activarán propuestas vinculadas a los lenguajes del arte acción, performance, interferencia, acción poética, intervención urbana.
+  - Una sección **dedicada a las poéticas electrónicas**, cuyas producciones serán exhibidas en una muestra virtual, alojada en la página de la Bienal.

@@ -1,0 +1,33 @@
+---
+
+nombre: 'Guillermo'
+apellido: 'Pérez Raventós'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: ''
+
+eventos: []
+
+obras: []
+
+fotos:
+  persona: 'guillermo_perez_raventos.jpg'
+  obra: 'guillermo_perez_raventos-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 90%
+
+etiquetas:
+  - invitado
+
+detalle: |
+  {{ idioma('esp') }}
+
+  (...)
+
+  {{ idioma('eng') }}
+
+  (...)
+  {.lang-eng}

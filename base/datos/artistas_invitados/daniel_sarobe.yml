@@ -1,0 +1,33 @@
+---
+
+nombre: 'Daniel'
+apellido: 'Sarobe'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: ''
+
+eventos: []
+
+obras: []
+
+fotos:
+  persona: 'daniel_sarobe.jpg'
+  obra: 'daniel_sarobe-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 75%
+
+etiquetas:
+  - invitado
+
+detalle: |
+  {{ idioma('esp') }}
+
+  (...)
+
+  {{ idioma('eng') }}
+
+  (...)
+  {.lang-eng}

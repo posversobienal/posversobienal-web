@@ -1,0 +1,64 @@
+---
+titulo: 'Otras exhibiciones'
+html_base: 'pagina.html'
+ruta_static: 'pag/otras_exhibiciones/index.html'
+estilo: col-lg-11 con-lista-en-columnas
+
+contenido: |
+  <hr><br>
+
+  ## Lista preliminar de artistas en distintas sedes
+
+  - Ale Montiel
+  - Ana Montenegro
+  - Andrea Trotta
+  - Ariel Gangi
+  - Bartolomé Ferrando
+  - Carlos Macheratti
+  - Chiara Mulas
+  - Claudio Mangifesta
+  - Diego Melero
+  - Emmanuel Borao
+  - Ferran Destemple
+  - Flora Holderbaum
+  - Giovanni Fontana
+  - Graciela Gutiérrez Marx
+  - Guillermo Pérez Raventós
+  - Hilda Paz
+  - Isabel León
+  - Jaap Blonk
+  - Joyce Ribeiro
+  - Juan Ángel Italiano
+  - Luciano Pozo
+  - María Paula Doberti
+  - Maurizio Mancioli
+  - Montenegro-Fisher
+  - Mónica Mura
+  - Noiser
+  - Ricardo Salido
+  - Ro Barragán
+  - Rodolfo Mata
+  - Roma Vaquero Díaz
+  - Rubén Liggera
+  - Tulio Restrepo
+  - Wilson Sukorski
+  - Yuri Bruscky
+
+    <br><hr><br>
+
+
+  ## Lista preliminar de artistas en el espacio público
+
+  - Alberto Couratier
+  - Ale Montiel
+  - Andrea Trotta
+  - Daniela Arnaudo
+  - Joyce Ribeiro
+  - Juan Montelpare
+  - Laura Khalloub
+  - Malvina Samarone
+  - Martín Hermida
+  - María Paula Doberti
+  - Nilda Rosemberg
+  - Ro Barragán
+  - Roma Vaquero Díaz

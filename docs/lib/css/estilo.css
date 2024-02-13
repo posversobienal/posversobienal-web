@@ -223,6 +223,9 @@ footer .utiles .menu-pie:hover nav {
   display: block;
   width: 200px;
 }
+.w0p {
+  width: 0px;
+}
 .w75p {
   width: 75px;
 }
@@ -235,17 +238,32 @@ footer .utiles .menu-pie:hover nav {
 .w300p {
   width: 300px;
 }
+.w400p {
+  width: 400px;
+}
+.w100 {
+  width: 400%;
+}
 .h75p {
   height: 75px;
 }
 .h100p {
   height: 100px;
 }
+.h150p {
+  height: 150px;
+}
 .h200p {
   height: 200px;
 }
 .h300p {
   height: 300px;
+}
+.no-flota {
+  opacity: 0;
+  width: 100%;
+  float: none;
+  clear: both;
 }
 /* para página: portada */
 #fondo_img {
@@ -310,6 +328,10 @@ footer .utiles .menu-pie:hover nav {
   width: 25px;
   display: inline-block;
 }
+.con-lista-en-columnas ul {
+  column-count: 3;
+  column-gap: 20px;
+}
 @media (max-width: 700px) {
   .logos {
     flex-direction: column;
@@ -352,5 +374,8 @@ footer .utiles .menu-pie:hover nav {
     display: block;
     padding: 6px 0;
     border: none;
+  }
+  .con-lista-en-columnas ul {
+    column-count: 1;
   }
 }

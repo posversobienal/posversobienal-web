@@ -1,0 +1,33 @@
+---
+
+nombre: 'Juan Ángel'
+apellido: 'Italiano'
+seudonimo: ''
+
+nacionalidad: 'Uruguay'
+contacto_publico: ''
+
+web: 'https://juanangelitaliano.blogspot.com/'
+
+eventos: []
+
+obras: []
+
+fotos:
+  persona: 'juan_angel_italiano.jpg'
+  obra: 'juan_angel_italiano-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - invitado
+
+detalle: |
+  {{ idioma('esp') }}
+
+  (...)
+
+  {{ idioma('eng') }}
+
+  (...)
+  {.lang-eng}

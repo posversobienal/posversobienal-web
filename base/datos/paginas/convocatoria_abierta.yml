@@ -1,0 +1,21 @@
+---
+
+titulo: 'Convocatoria abierta'
+html_base: 'pagina.html'
+ruta_static: 'pag/convocatoria_abierta/index.html'
+estilo: col-lg-12
+
+contenido: |
+
+  El Comité Organizador de **POSVERSO** – *I Bienal Internacional de Poesía Experimental de Argentina* –
+  convoca a creadores de todos los lenguajes, conforme a lo explicitado en el texto curatorial
+  Poéticas de la resistencia, para integrar su programación, a desarrollarse en distintas sedes
+  – *centros culturales, museos, escuelas de arte, sindicatos, bibliotecas y espacios no convencionales* –
+  de la ciudad de Junín, provincia de Buenos Aires, entre el **18 de octubre** y el **20 de diciembre** de **2024**.
+
+  **La convocatoria abierta e internacional se extenderá desde el 15 de febrero hasta el 30 de abril de 2024.**
+  La presentación de proyectos de obra se realizará a través del siguiente
+  [Formulario de Convocatoria]({{ cfg.urls.formulario_convocatoria }}){.btn .btn-outline-dark .py-1 .px-2}
+  {.m-4 .p-3 .border .border-dark}
+
+  **Una vez finalizado el período de aplicación, el Comité Internacional de Selección de POSVERSO evaluará las propuestas, y en un plazo no mayor a 30 días hará pública la selección definitiva de los artistas que integraran la programación de la Bienal.**
