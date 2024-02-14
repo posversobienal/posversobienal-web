@@ -1,0 +1,33 @@
+---
+
+nombre: 'Jaap'
+apellido: 'Blonk'
+seudonimo: ''
+
+nacionalidad: 'Holanda'
+contacto_publico: ''
+
+web: ''
+
+eventos: []
+
+obras: []
+
+fotos:
+  persona: 'jaap_blonk.jpg'
+  obra: 'jaap_blonk-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - invitado
+
+detalle: |
+  {{ idioma('esp') }}
+
+  (...)
+
+  {{ idioma('eng') }}
+
+  (...)
+  {.lang-eng}

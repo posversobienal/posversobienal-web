@@ -17,7 +17,7 @@ fotos:
   persona: 'hilda_paz.jpg'
   obra: 'hilda_paz-1.jpg'
 
-imagen_cabecera_posicion_inicial: 50% 50%
+imagen_cabecera_posicion_inicial: 50% 70%
 
 etiquetas:
   - invitado
@@ -25,9 +25,9 @@ etiquetas:
 detalle: |
   {{ idioma('esp') }}
 
-  (...)
+  Nace en Buenos Aires en 1950. Estudia de Profesora en Artes Visuales en Carlos Morel para luego trabajar como profesora de grabado y pintura. Expone desde 1968 en diversas galerías: Espacio multiarte /Grabados 2009 Capital / 6 grabadores 6 Universidad Nacional de Quilmes. 2009/Libros de artista del Bicentenario Galería Arcimboldo Capital 2010 /Grafica experimental Reencuentros Rosario 2010 / Proyecto colectivo UNIART 2011 Universidad de Quilmes Roma/Libro de Artista Exposición en U.A.D.E Buenos Aires 2011 /Tiemblen sueños grabados Centro Cultural de la Cooperación Capital 2012 / Ni siquiera una preocupación Instalación Unq Quilmes 2012/ Grafica experimental de los 60 a 90 OSDE BS: AS-/Frases de la luz Pinturas Casa de la Cultura de Quilmes 2012/Artistas de la poesía visual. Porto Alegre  Brasil 2013/Artistas del Sur Museo Víctor Roverano Romero Paz Garavelli Contreras Crespo 2015//Resistencias tipográficas CCC 2015/Poéticas oblicuas Osde 2016. Premio 2005 a la trayectoria Museo de Arte nuevo de Canadá. Premio Xylon Argentina a la trayectoria en el grabado 2005 Buenos Aires. Mención a la experimentación Bienal Internacional Paco Urondo 2011. Mención gráfica Bienal de Ostrow Polonia 2016
 
   {{ idioma('eng') }}
 
-  (...)
+  She was born in Buenos Aires in 1950. She studied as a Visual Arts Teacher at Carlos Morel and then worked as a teacher of engraving and painting. She has exhibited since 1968 in various galleries: Espacio multiarte / Engravings 2009 Capital / 6 engravers 6 Universidad Nacional de Quilmes. 2009/Artist books from the Bicentennial Arcimboldo Capital Gallery 2010/Experimental graphics Reencuentros Rosario 2010/Collective project UNIART 2011 University of Quilmes Rome/Artist Book Exhibition at U.A.D.E Buenos Aires 2011/Tiemblen sueños grabados, Centro Cultural de la Cooperación Capital 2012/Ni siquiera una preocupación Unq Quilmes 2012/ Experimental graphics from the 60s to 90s OSDE BS: AS-/Frases de la luz Paintings House of Culture of Quilmes 2012/Artists of visual poetry. Porto Alegre Brazil 2013/Artistas del Sur Museo Víctor Roverano Romero Paz Garavelli Contreras Crespo 2015//CCC Resistencias tipográficas 2015/Poéticas oblicuas Osde 2016. 2005 Lifetime Achievement Award Museum of New Art in Canada. Xylon Argentina Award for lifetime achievement in engraving 2005 Buenos Aires. Mention for experimentation Paco Urondo International Biennial 2011. Graphic mention Ostrow Biennial Poland 2016
   {.lang-eng}

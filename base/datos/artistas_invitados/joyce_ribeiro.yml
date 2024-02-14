@@ -17,7 +17,7 @@ fotos:
   persona: 'joyce_ribeiro.jpg'
   obra: 'joyce_ribeiro-1.jpg'
 
-imagen_cabecera_posicion_inicial: 50% 55%
+imagen_cabecera_posicion_inicial: 50% 67%
 
 etiquetas:
   - invitado
@@ -25,9 +25,14 @@ etiquetas:
 detalle: |
   {{ idioma('esp') }}
 
-  (...)
+  Artista, educadora e historiadora, formada en Historia por la UEMG y pos-graduada en Historia, Sociedad y Cultura por la PUC/SP. São-gonçalense, vive y trabaja en São Paulo desde 2014.  Investiga sobre la construcción del imaginario cultural caipira y su representación en la escritura historiográfica. Sus proposiciones posibilitan relecturas sobre la formación de fronteras, límites institucionales, políticos y económicos entre los espacios territoriales. El relato de historias es um elemento fundamental en su trabajo y sus proposiciones e intervenciones acontecen con o sin anuencia institucional, registradas de forma ocasional en fotografias, materiales cedidos por el público, audios, datos gráficos, historias (textos) y vídeos.
+
+  Actualmente desenvuelve “Bageira”, un conjunto de 28 projectos pensados a partir de los mitos, leyendas, historias y boatos de su ciudad natal, São Gonçalo do Sapucaí, MG. Participó de grupos de estudios, residencias artísticas, y sus  trabajos fueron expuestos en las  siguientes instituciones y museos de arte: 2023 | 2022 - Exposição/Proposição, Conversas de Bageira - RAUS café, Pátio Victor Malzoni, São Paulo, SP; 2021 - Projeto Bageira,  Residência artística no Sítio Nossa Senhora Aparecida - São Gonçalo do Sapucaí, MG; 2021 - Exposição (virtual),  SAPUCAIA - Edital Agenda GAP, UFES, Universidade Federal do Espírito Santo, ES; 2020 - Prêmio RespirArte, Fundação Nacional de Artes, FUNARTE, SP; 2020 - Salão de Vinhedo, SAV, SP; 2019 - III Encontro de Egressos da Universidade do Estado de Minas Gerais, UEMG; 2017 - 15ª edição do Programa de Exposições do Museu de Arte de Ribeirão Preto, MARP, SP; 2015 e 2016 - Finalista do “Prêmio Arte na Escola Cidadã” com a ação “Queria algo além, muito além de mim”.
 
   {{ idioma('eng') }}
 
-  (...)
+  Artist, educator and historian, trained in History from the UEMG and postgraduate in History, Society and Culture from the PUC/SP. São-gonçalense, she lives and works in São Paulo since 2014. She researches the construction of the caipira cultural imaginary and its representation in historiographic writing. Her propositions enable re-readings about the formation of borders, institutional, political and economic limits between territorial spaces. The telling of stories is a fundamental element in her work and her proposals and interventions occur with or without institutional consent, occasionally recorded in photographs, materials provided by the public, audios, graphic data, stories (texts) and videos.
+  {.lang-eng}
+
+  She is currently developing “Bageira”, a set of 28 projects designed from the myths, legends, stories and rumors of her hometown, São Gonçalo do Sapucaí, MG. She participated in study groups, artistic residencies, and her works were exhibited in the following art institutions and museums: 2023 | 2022 - Exposição/Proposição, Conversas de Bageira - RAUS café, Pátio Victor Malzoni, São Paulo, SP; 2021 - Bageira Project, Artistic Residency at Sítio Nossa Senhora Aparecida - São Gonçalo do Sapucaí, MG; 2021 - Exposição (virtual), SAPUCAIA - Edital Agenda GAP, UFES, Universidade Federal do Espírito Santo, ES; 2020 - RespirArte Prize, Fundação Nacional de Artes, FUNARTE, SP; 2020 - Salão de Vinhedo, SAV, SP; 2019 - III Meeting of Graduations of the University of the State of Minas Gerais, UEMG; 2017 - 15th edition of the Exhibition Program of the Ribeirão Preto Art Museum, MARP, SP; 2015 and 2016 - Finalist of the “Prêmio Arte na Escola Cidadã” with the ação “Quería algo além, muito além de mim”.
   {.lang-eng}

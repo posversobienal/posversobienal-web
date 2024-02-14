@@ -30,4 +30,4 @@ detalle: |
   {{ idioma('eng') }}
 
   (...)
-  {.fst-italic}
+  {.lang-eng}
