@@ -3,6 +3,11 @@
 nombre: 'Casa Popular Dante Balestro'
 domicilio: 'General Paz 765. Junín, Buenos Aires, Argentina.'
 gmaps: 'https://maps.app.goo.gl/Ug63tEd9Eg7wZZSRA'
+
+geopos:
+  coord: [-34.58230, -60.95051]
+  icono: pin-sede
+
 fotos:
   - 'casa_popular_dante_balestro.jpg'
 eventos_asociados: []

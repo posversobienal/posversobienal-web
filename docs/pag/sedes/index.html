@@ -40,7 +40,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
-        <link href="/lib/css/estilo.css?1707926818560188" rel="stylesheet">
+        <link href="/lib/css/estilo.css?1707936914060323" rel="stylesheet">
 
         <link rel="shortcut icon" href="/rec/grafica/favicon.svg" type="image/x-icon" />
 
@@ -52,13 +52,13 @@
             <ul>
                 <li>
                     <a class="logo posverso" href="/">
-                        <img class="d-block fx-invert fx-ampliar" src="/rec/grafica/logo-posverso.svg?1707926818560188" title="POSVERSO">
+                        <img class="d-block fx-invert fx-ampliar" src="/rec/grafica/logo-posverso.svg?1707936914060323" title="POSVERSO">
                     </a>
                 </li>
             </ul>
 
             <div class="items-movile">
-                <b><img class="fx-invert " height="20px" src="/rec/grafica/icon-menu.svg?1707926818560188"></b>
+                <b><img class="fx-invert " height="20px" src="/rec/grafica/icon-menu.svg?1707936914060323"></b>
                 <ul class="d-flex wrap">
                     
                     <li>
@@ -140,225 +140,283 @@
         <div class="cuerpo">
             
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet"/><div id="osm-map"></div>
+<link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet"/>
 
-<header class="text-center">
+
+<div id="osm-map"></div>
+
+<header class="text-center py-4">
     <h1>Sedes</h1>
-    <code><b>CONTENIDO EN CONSTRUCCIÓN</b></code>
 </header>
 
 <div class="container contenido">
 
     <div class="row">
         <section class="w100 d-flex flex-wrap justify-content-center col-lg-8">
-            <div class="w300p border border-dark rounded-2 d-inline-block m-1" id="01_hotel_dada">
-  <div class="text-center">
-    <img src="/rec/foto/sedes/hotel_dada.jpg" class="h150p m-3">
-  </div>
-  <div class="text-start px-4 pb-3">
-    <!-- ( 1 ) -->
-    <b class="d-inline">HOTEL DADA Base de Arte Correo y Poesía Experimental</b>
-    <br><br>
-    <div class="text-center">
-      <button class="btn btn-sm btn-dark"><img width="16px" class="fx-invert mt-1" src="/rec/grafica/icon-pin.svg"></button>
-      <a href="/sds/01_hotel_dada/" class="btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+            <div class="w300p border border-dark rounded-2 m-2 p-0 sede" id="01_hotel_dada"
+     data-geopos="-34.57819; -60.96115; pin-hoteldada; HOTEL DADA Base de Arte Correo y Poesía Experimental; Chávez 69. Junín, Buenos Aires, Argentina." >
+
+  <div><img src="/rec/foto/sedes/hotel_dada.jpg" class="img-fluid m-0"></div>
+  <div class="d-flex flex-column align-items-center align-content-between px-4 pb-3">
+    <br>
+    <div>
+      <b class="d-inline">HOTEL DADA Base de Arte Correo y Poesía Experimental</b>
+      <br><small class="d-inline">Chávez 69. Junín, Buenos Aires, Argentina.</small>
+      <hr>
+    </div>
+    <div class="mt-auto">
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/01_hotel_dada/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
     </div>
   </div>
+
 </div>
 
-<div class="w300p border border-dark rounded-2 d-inline-block m-1" id="02_maca">
-  <div class="text-center">
-    <img src="/rec/foto/sedes/maca.jpg" class="h150p m-3">
-  </div>
-  <div class="text-start px-4 pb-3">
-    <!-- ( 2 ) -->
-    <b class="d-inline">MACA Museo de Arte Contemporáneo Argentino "Víctor Grippo"</b>
-    <br><br>
-    <div class="text-center">
-      <button class="btn btn-sm btn-dark"><img width="16px" class="fx-invert mt-1" src="/rec/grafica/icon-pin.svg"></button>
-      <a href="/sds/02_maca/" class="btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+<div class="w300p border border-dark rounded-2 m-2 p-0 sede" id="02_maca"
+     data-geopos="-34.58276; -60.94316; pin-sede; MACA Museo de Arte Contemporáneo Argentino "Víctor Grippo"; Newbery 357. Junín, Buenos Aires, Argentina." >
+
+  <div><img src="/rec/foto/sedes/maca.jpg" class="img-fluid m-0"></div>
+  <div class="d-flex flex-column align-items-center align-content-between px-4 pb-3">
+    <br>
+    <div>
+      <b class="d-inline">MACA Museo de Arte Contemporáneo Argentino "Víctor Grippo"</b>
+      <br><small class="d-inline">Newbery 357. Junín, Buenos Aires, Argentina.</small>
+      <hr>
+    </div>
+    <div class="mt-auto">
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/02_maca/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
     </div>
   </div>
+
 </div>
 
-<div class="w300p border border-dark rounded-2 d-inline-block m-1" id="03_museo_historico">
-  <div class="text-center">
-    <img src="/rec/foto/sedes/museo_historico.jpg" class="h150p m-3">
-  </div>
-  <div class="text-start px-4 pb-3">
-    <!-- ( 3 ) -->
-    <b class="d-inline">Museo Histórico de Junín</b>
-    <br><br>
-    <div class="text-center">
-      <button class="btn btn-sm btn-dark"><img width="16px" class="fx-invert mt-1" src="/rec/grafica/icon-pin.svg"></button>
-      <a href="/sds/03_museo_historico/" class="btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+<div class="w300p border border-dark rounded-2 m-2 p-0 sede" id="03_museo_historico"
+     data-geopos="-34.58455; -60.9474; pin-sede; Museo Histórico de Junín; Quintana y Newbery. Junín, Buenos Aires, Argentina." >
+
+  <div><img src="/rec/foto/sedes/museo_historico.jpg" class="img-fluid m-0"></div>
+  <div class="d-flex flex-column align-items-center align-content-between px-4 pb-3">
+    <br>
+    <div>
+      <b class="d-inline">Museo Histórico de Junín</b>
+      <br><small class="d-inline">Quintana y Newbery. Junín, Buenos Aires, Argentina.</small>
+      <hr>
+    </div>
+    <div class="mt-auto">
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/03_museo_historico/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
     </div>
   </div>
+
 </div>
 
-<div class="w300p border border-dark rounded-2 d-inline-block m-1" id="04_horno_de_grippo">
-  <div class="text-center">
-    <img src="/rec/foto/sedes/horno_de_grippo.jpg" class="h150p m-3">
-  </div>
-  <div class="text-start px-4 pb-3">
-    <!-- ( 4 ) -->
-    <b class="d-inline">Horno de Grippo</b>
-    <br><br>
-    <div class="text-center">
-      <button class="btn btn-sm btn-dark"><img width="16px" class="fx-invert mt-1" src="/rec/grafica/icon-pin.svg"></button>
-      <a href="/sds/04_horno_de_grippo/" class="btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+<div class="w300p border border-dark rounded-2 m-2 p-0 sede" id="04_horno_de_grippo"
+     data-geopos="-34.58221; -60.94297; pin-sede; Horno de Grippo; Newbery y Borges. Junín, Buenos Aires, Argentina." >
+
+  <div><img src="/rec/foto/sedes/horno_de_grippo.jpg" class="img-fluid m-0"></div>
+  <div class="d-flex flex-column align-items-center align-content-between px-4 pb-3">
+    <br>
+    <div>
+      <b class="d-inline">Horno de Grippo</b>
+      <br><small class="d-inline">Newbery y Borges. Junín, Buenos Aires, Argentina.</small>
+      <hr>
+    </div>
+    <div class="mt-auto">
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/04_horno_de_grippo/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
     </div>
   </div>
+
 </div>
 
-<div class="w300p border border-dark rounded-2 d-inline-block m-1" id="05_fundacion_casa_pronto">
-  <div class="text-center">
-    <img src="/rec/foto/sedes/fundacion_casa_pronto.jpg" class="h150p m-3">
-  </div>
-  <div class="text-start px-4 pb-3">
-    <!-- ( 5 ) -->
-    <b class="d-inline">Fundación Casa Pronto</b>
-    <br><br>
-    <div class="text-center">
-      <button class="btn btn-sm btn-dark"><img width="16px" class="fx-invert mt-1" src="/rec/grafica/icon-pin.svg"></button>
-      <a href="/sds/05_fundacion_casa_pronto/" class="btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+<div class="w300p border border-dark rounded-2 m-2 p-0 sede" id="05_fundacion_casa_pronto"
+     data-geopos="-34.58335; -60.94219; pin-sede; Fundación Casa Pronto; España 383. Junín, Buenos Aires, Argentina." >
+
+  <div><img src="/rec/foto/sedes/fundacion_casa_pronto.jpg" class="img-fluid m-0"></div>
+  <div class="d-flex flex-column align-items-center align-content-between px-4 pb-3">
+    <br>
+    <div>
+      <b class="d-inline">Fundación Casa Pronto</b>
+      <br><small class="d-inline">España 383. Junín, Buenos Aires, Argentina.</small>
+      <hr>
+    </div>
+    <div class="mt-auto">
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/05_fundacion_casa_pronto/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
     </div>
   </div>
+
 </div>
 
-<div class="w300p border border-dark rounded-2 d-inline-block m-1" id="06_villa_alpina">
-  <div class="text-center">
-    <img src="/rec/foto/sedes/villa_alpina.jpg" class="h150p m-3">
-  </div>
-  <div class="text-start px-4 pb-3">
-    <!-- ( 6 ) -->
-    <b class="d-inline">Villa Alpina</b>
-    <br><br>
-    <div class="text-center">
-      <button class="btn btn-sm btn-dark"><img width="16px" class="fx-invert mt-1" src="/rec/grafica/icon-pin.svg"></button>
-      <a href="/sds/06_villa_alpina/" class="btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+<div class="w300p border border-dark rounded-2 m-2 p-0 sede" id="06_villa_alpina"
+     data-geopos="-34.62519; -60.97012; pin-sede; Villa Alpina; Las Chicharras 725. Junín, Buenos Aires, Argentina." >
+
+  <div><img src="/rec/foto/sedes/villa_alpina.jpg" class="img-fluid m-0"></div>
+  <div class="d-flex flex-column align-items-center align-content-between px-4 pb-3">
+    <br>
+    <div>
+      <b class="d-inline">Villa Alpina</b>
+      <br><small class="d-inline">Las Chicharras 725. Junín, Buenos Aires, Argentina.</small>
+      <hr>
+    </div>
+    <div class="mt-auto">
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/06_villa_alpina/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
     </div>
   </div>
+
 </div>
 
-<div class="w300p border border-dark rounded-2 d-inline-block m-1" id="07_casa-taller_torviso-sarobe">
-  <div class="text-center">
-    <img src="/rec/foto/sedes/casa-taller_torviso-sarobe.jpg" class="h150p m-3">
-  </div>
-  <div class="text-start px-4 pb-3">
-    <!-- ( 7 ) -->
-    <b class="d-inline">Casa Taller Torviso-Sarobe</b>
-    <br><br>
-    <div class="text-center">
-      <button class="btn btn-sm btn-dark"><img width="16px" class="fx-invert mt-1" src="/rec/grafica/icon-pin.svg"></button>
-      <a href="/sds/07_casa-taller_torviso-sarobe/" class="btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+<div class="w300p border border-dark rounded-2 m-2 p-0 sede" id="07_casa-taller_torviso-sarobe"
+     data-geopos="-34.61657; -60.95408; pin-sede; Casa Taller Torviso-Sarobe; Puente del Inca 895. Junín, Buenos Aires, Argentina." >
+
+  <div><img src="/rec/foto/sedes/casa-taller_torviso-sarobe.jpg" class="img-fluid m-0"></div>
+  <div class="d-flex flex-column align-items-center align-content-between px-4 pb-3">
+    <br>
+    <div>
+      <b class="d-inline">Casa Taller Torviso-Sarobe</b>
+      <br><small class="d-inline">Puente del Inca 895. Junín, Buenos Aires, Argentina.</small>
+      <hr>
+    </div>
+    <div class="mt-auto">
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/07_casa-taller_torviso-sarobe/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
     </div>
   </div>
+
 </div>
 
-<div class="w300p border border-dark rounded-2 d-inline-block m-1" id="08_centro_de_capacitacion_y_cultura_atsa">
-  <div class="text-center">
-    <img src="/rec/foto/sedes/centro_de_capacitacion_y_cultura_atsa.jpg" class="h150p m-3">
-  </div>
-  <div class="text-start px-4 pb-3">
-    <!-- ( 8 ) -->
-    <b class="d-inline">Centro de Capacitación y Cultura ATSA</b>
-    <br><br>
-    <div class="text-center">
-      <button class="btn btn-sm btn-dark"><img width="16px" class="fx-invert mt-1" src="/rec/grafica/icon-pin.svg"></button>
-      <a href="/sds/08_centro_de_capacitacion_y_cultura_atsa/" class="btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+<div class="w300p border border-dark rounded-2 m-2 p-0 sede" id="08_centro_de_capacitacion_y_cultura_atsa"
+     data-geopos="-34.59532; -60.94986; pin-sede; Centro de Capacitación y Cultura ATSA; Brasil 22. Junín, Buenos Aires, Argentina." >
+
+  <div><img src="/rec/foto/sedes/centro_de_capacitacion_y_cultura_atsa.jpg" class="img-fluid m-0"></div>
+  <div class="d-flex flex-column align-items-center align-content-between px-4 pb-3">
+    <br>
+    <div>
+      <b class="d-inline">Centro de Capacitación y Cultura ATSA</b>
+      <br><small class="d-inline">Brasil 22. Junín, Buenos Aires, Argentina.</small>
+      <hr>
+    </div>
+    <div class="mt-auto">
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/08_centro_de_capacitacion_y_cultura_atsa/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
     </div>
   </div>
+
 </div>
 
-<div class="w300p border border-dark rounded-2 d-inline-block m-1" id="09_casa_popular_dante_balestro">
-  <div class="text-center">
-    <img src="/rec/foto/sedes/casa_popular_dante_balestro.jpg" class="h150p m-3">
-  </div>
-  <div class="text-start px-4 pb-3">
-    <!-- ( 9 ) -->
-    <b class="d-inline">Casa Popular Dante Balestro</b>
-    <br><br>
-    <div class="text-center">
-      <button class="btn btn-sm btn-dark"><img width="16px" class="fx-invert mt-1" src="/rec/grafica/icon-pin.svg"></button>
-      <a href="/sds/09_casa_popular_dante_balestro/" class="btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+<div class="w300p border border-dark rounded-2 m-2 p-0 sede" id="09_casa_popular_dante_balestro"
+     data-geopos="-34.5823; -60.95051; pin-sede; Casa Popular Dante Balestro; General Paz 765. Junín, Buenos Aires, Argentina." >
+
+  <div><img src="/rec/foto/sedes/casa_popular_dante_balestro.jpg" class="img-fluid m-0"></div>
+  <div class="d-flex flex-column align-items-center align-content-between px-4 pb-3">
+    <br>
+    <div>
+      <b class="d-inline">Casa Popular Dante Balestro</b>
+      <br><small class="d-inline">General Paz 765. Junín, Buenos Aires, Argentina.</small>
+      <hr>
+    </div>
+    <div class="mt-auto">
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/09_casa_popular_dante_balestro/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
     </div>
   </div>
+
 </div>
 
-<div class="w300p border border-dark rounded-2 d-inline-block m-1" id="10_biblioteca_universitaria_silvina_ocampo">
-  <div class="text-center">
-    <img src="/rec/foto/sedes/biblioteca_silvina_ocampo.jpg" class="h150p m-3">
-  </div>
-  <div class="text-start px-4 pb-3">
-    <!-- ( 10 ) -->
-    <b class="d-inline">Biblioteca Universitaria "Silvina Ocampo"</b>
-    <br><br>
-    <div class="text-center">
-      <button class="btn btn-sm btn-dark"><img width="16px" class="fx-invert mt-1" src="/rec/grafica/icon-pin.svg"></button>
-      <a href="/sds/10_biblioteca_universitaria_silvina_ocampo/" class="btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+<div class="w300p border border-dark rounded-2 m-2 p-0 sede" id="10_biblioteca_universitaria_silvina_ocampo"
+     data-geopos="-34.58268; -60.94303; pin-sede; Biblioteca Universitaria "Silvina Ocampo"; Newbery 375. Junín, Buenos Aires, Argentina." >
+
+  <div><img src="/rec/foto/sedes/biblioteca_silvina_ocampo.jpg" class="img-fluid m-0"></div>
+  <div class="d-flex flex-column align-items-center align-content-between px-4 pb-3">
+    <br>
+    <div>
+      <b class="d-inline">Biblioteca Universitaria "Silvina Ocampo"</b>
+      <br><small class="d-inline">Newbery 375. Junín, Buenos Aires, Argentina.</small>
+      <hr>
+    </div>
+    <div class="mt-auto">
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/10_biblioteca_universitaria_silvina_ocampo/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
     </div>
   </div>
+
 </div>
 
-<div class="w300p border border-dark rounded-2 d-inline-block m-1" id="11_casa_del_pueblo">
-  <div class="text-center">
-    <img src="/rec/foto/sedes/casa_del_pueblo.jpg" class="h150p m-3">
-  </div>
-  <div class="text-start px-4 pb-3">
-    <!-- ( 11 ) -->
-    <b class="d-inline">Casa del Pueblo</b>
-    <br><br>
-    <div class="text-center">
-      <button class="btn btn-sm btn-dark"><img width="16px" class="fx-invert mt-1" src="/rec/grafica/icon-pin.svg"></button>
-      <a href="/sds/11_casa_del_pueblo/" class="btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+<div class="w300p border border-dark rounded-2 m-2 p-0 sede" id="11_casa_del_pueblo"
+     data-geopos="-34.58925; -60.94677; pin-sede; Casa del Pueblo; Pellegrini 76. Junín, Buenos Aires, Argentina." >
+
+  <div><img src="/rec/foto/sedes/casa_del_pueblo.jpg" class="img-fluid m-0"></div>
+  <div class="d-flex flex-column align-items-center align-content-between px-4 pb-3">
+    <br>
+    <div>
+      <b class="d-inline">Casa del Pueblo</b>
+      <br><small class="d-inline">Pellegrini 76. Junín, Buenos Aires, Argentina.</small>
+      <hr>
+    </div>
+    <div class="mt-auto">
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/11_casa_del_pueblo/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
     </div>
   </div>
+
 </div>
 
-<div class="w300p border border-dark rounded-2 d-inline-block m-1" id="12_centro_cultural_marea_cultura">
-  <div class="text-center">
-    <img src="/rec/foto/sedes/centro_cultural_marea_cultura.jpg" class="h150p m-3">
-  </div>
-  <div class="text-start px-4 pb-3">
-    <!-- ( 12 ) -->
-    <b class="d-inline">Centro Cultural Marea Cultura</b>
-    <br><br>
-    <div class="text-center">
-      <button class="btn btn-sm btn-dark"><img width="16px" class="fx-invert mt-1" src="/rec/grafica/icon-pin.svg"></button>
-      <a href="/sds/12_centro_cultural_marea_cultura/" class="btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+<div class="w300p border border-dark rounded-2 m-2 p-0 sede" id="12_centro_cultural_marea_cultura"
+     data-geopos="-34.58515; -60.94868; pin-sede; Centro Cultural Marea Cultura; General Paz 444. Junín, Buenos Aires, Argentina." >
+
+  <div><img src="/rec/foto/sedes/centro_cultural_marea_cultura.jpg" class="img-fluid m-0"></div>
+  <div class="d-flex flex-column align-items-center align-content-between px-4 pb-3">
+    <br>
+    <div>
+      <b class="d-inline">Centro Cultural Marea Cultura</b>
+      <br><small class="d-inline">General Paz 444. Junín, Buenos Aires, Argentina.</small>
+      <hr>
+    </div>
+    <div class="mt-auto">
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/12_centro_cultural_marea_cultura/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
     </div>
   </div>
+
 </div>
 
-<div class="w300p border border-dark rounded-2 d-inline-block m-1" id="13_conservatorio_de_musica_juan_r_perez_cruz">
-  <div class="text-center">
-    <img src="/rec/foto/sedes/conservatorio_de_musica_juan_r_perez_cruz.jpg" class="h150p m-3">
-  </div>
-  <div class="text-start px-4 pb-3">
-    <!-- ( 13 ) -->
-    <b class="d-inline">Conservatorio de Música "Juan R. Pérez Cruz"</b>
-    <br><br>
-    <div class="text-center">
-      <button class="btn btn-sm btn-dark"><img width="16px" class="fx-invert mt-1" src="/rec/grafica/icon-pin.svg"></button>
-      <a href="/sds/13_conservatorio_de_musica_juan_r_perez_cruz/" class="btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+<div class="w300p border border-dark rounded-2 m-2 p-0 sede" id="13_conservatorio_de_musica_juan_r_perez_cruz"
+     data-geopos="-34.58476; -60.94813; pin-sede; Conservatorio de Música "Juan R. Pérez Cruz"; Newbery 129. Junín, Buenos Aires, Argentina." >
+
+  <div><img src="/rec/foto/sedes/conservatorio_de_musica_juan_r_perez_cruz.jpg" class="img-fluid m-0"></div>
+  <div class="d-flex flex-column align-items-center align-content-between px-4 pb-3">
+    <br>
+    <div>
+      <b class="d-inline">Conservatorio de Música "Juan R. Pérez Cruz"</b>
+      <br><small class="d-inline">Newbery 129. Junín, Buenos Aires, Argentina.</small>
+      <hr>
+    </div>
+    <div class="mt-auto">
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/13_conservatorio_de_musica_juan_r_perez_cruz/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
     </div>
   </div>
+
 </div>
 
-<div class="w300p border border-dark rounded-2 d-inline-block m-1" id="14_sociedad_italiana">
-  <div class="text-center">
-    <img src="/rec/foto/sedes/sociedad_italiana.jpg" class="h150p m-3">
-  </div>
-  <div class="text-start px-4 pb-3">
-    <!-- ( 14 ) -->
-    <b class="d-inline">Sociedad Italiana Unita</b>
-    <br><br>
-    <div class="text-center">
-      <button class="btn btn-sm btn-dark"><img width="16px" class="fx-invert mt-1" src="/rec/grafica/icon-pin.svg"></button>
-      <a href="/sds/14_sociedad_italiana/" class="btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+<div class="w300p border border-dark rounded-2 m-2 p-0 sede" id="14_sociedad_italiana"
+     data-geopos="-34.59247; -60.94808; pin-sede; Sociedad Italiana Unita; Belgrano 84. Junín, Buenos Aires, Argentina." >
+
+  <div><img src="/rec/foto/sedes/sociedad_italiana.jpg" class="img-fluid m-0"></div>
+  <div class="d-flex flex-column align-items-center align-content-between px-4 pb-3">
+    <br>
+    <div>
+      <b class="d-inline">Sociedad Italiana Unita</b>
+      <br><small class="d-inline">Belgrano 84. Junín, Buenos Aires, Argentina.</small>
+      <hr>
+    </div>
+    <div class="mt-auto">
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/14_sociedad_italiana/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
     </div>
   </div>
+
 </div>
         </section>
 
@@ -367,79 +425,7 @@
     </div>
 </div>
 
-<script>
-
- // Where you want to render the map.
- var element = document.getElementById('osm-map');
-
- // Height has to be set. You can do this in CSS too.
- element.style = 'height:400px;';
-
- // Create Leaflet map on map element.
- var map = L.map(element);
-
- // Add OSM tile layer to the Leaflet map.
- L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
- }).addTo(map);
-
- // Target's GPS coordinates.
- var centroJ = L.latLng('-34.59686', '-60.94954');
- var target1 = L.latLng();
- var target2 = L.latLng();
- var target3 = L.latLng();
-
- // Set map's center to target with zoom 14.
- map.setView(centroJ, 13);
-
- const basemaps = {
-     StreetView: L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',   {attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}),
-     Topography: L.tileLayer.wms('http://ows.mundialis.de/services/service?',   {layers: 'TOPO-WMS'}),
-     Places: L.tileLayer.wms('http://ows.mundialis.de/services/service?', {layers: 'OSM-Overlay-WMS'})
- };
-
-// L.control.layers(basemaps).addTo(map);
-
-
- // iconos
- var pinHotelDada = L.icon({
-     iconUrl: '/rec/grafica/pin-hoteldada.svg',
-     iconSize: [51.3, 43.1],
-     iconAnchor: [25.9, 43.2],
-     popupAnchor: [0, -45],
- });
-  var pinSede = L.icon({
-      iconUrl: '/rec/grafica/pin-sede.svg',
-      iconSize: [38.4, 43.1],
-      iconAnchor: [19.4, 43.2],
-      popupAnchor: [0, -45],
-  });
- // Place a marker on the same location
-
- var m1 = L.marker([-34.57819, -60.96115], {icon: pinHotelDada}).bindPopup("Chavez 69").openPopup().addTo(map);
- var m2 = L.marker([-34.58455, -60.94740], {icon: pinSede}).bindPopup("").addTo(map);
- var m3 = L.marker([-34.61657, -60.95408], {icon: pinSede}).bindPopup("").addTo(map);
-
-
- b1.addEventListener('click', (ev)=> {
-     m1.openPopup();
-     map.panInside(m1, [30, 30]);
- });
-
- b2.addEventListener('click', (ev)=> {
-     m2.openPopup();
-     map.panInside(m2, [30, 30]);
- });
-
- b3.addEventListener('click', (ev)=> {
-     m3.openPopup();
-     //map.panInside(m3, [10, 10]);
-     map.panView(m3, {animation: true});
-
- });
-
-
-</script>
+<script src="/lib/js/init-menu-sedes.js"></script>
 
 
         </div>
@@ -448,23 +434,23 @@
             <div  class="d-flex justify-content-around">
                 <div class="d-flex">
                     <a href="/" class="mx-4">
-                        <img height="20px" src="/rec/grafica/logo-posverso.svg?1707926818560188" title="POSVERSO">
+                        <img height="20px" src="/rec/grafica/logo-posverso.svg?1707936914060323" title="POSVERSO">
                     </a>
                     <span class="border-dark border-start"></span>
                     <a class="mx-4" href="http://www.hoteldadabase.org/">
-                        <img height="25px" src="/rec/grafica/logo-hoteldada.svg?1707926818560188" title="Hotel DaDA">
+                        <img height="25px" src="/rec/grafica/logo-hoteldada.svg?1707936914060323" title="Hotel DaDA">
                     </a>
                 </div>
                 <div>&nbsp</div>
                 <div class="d-inline-block">
                     <a class="d-inline-block px-2 py-1" href="https://www.instagram.com/posverso_bienal">
-                        <img class="icono" src="/rec/grafica/icon-instagram.svg?1707926818560188" alt="Instagram">
+                        <img class="icono" src="/rec/grafica/icon-instagram.svg?1707936914060323" alt="Instagram">
                     </a>
                     <a class="d-inline-block px-2 py-1" href="">
-                        <img class="icono" src="/rec/grafica/icon-youtube.svg?1707926818560188" alt="Youtube">
+                        <img class="icono" src="/rec/grafica/icon-youtube.svg?1707936914060323" alt="Youtube">
                     </a>
                     <a class="d-inline-block px-2 py-1" href="mailto:posversobienal@gmail.com">
-                        <img class="icono" src="/rec/grafica/icon-email.svg?1707926818560188" alt="Email">
+                        <img class="icono" src="/rec/grafica/icon-email.svg?1707936914060323" alt="Email">
                     </a>
                 </div>
             </div>
@@ -472,7 +458,7 @@
             <div class="utiles">
 
                 <div class="d-inline-block menu-pie" title="Menú">
-                    <img class="fx-invert " height="20px" src="/rec/grafica/icon-menu.svg?1707926818560188">
+                    <img class="fx-invert " height="20px" src="/rec/grafica/icon-menu.svg?1707936914060323">
                     <nav>
                         
                         
@@ -539,7 +525,7 @@
 
                         
                         <br>
-                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-14 16:06:58</b></span>
+                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-14 18:55:14</b></span>
                     </nav>
                 </div>
             </div>

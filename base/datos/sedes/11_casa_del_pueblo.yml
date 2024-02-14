@@ -3,6 +3,11 @@
 nombre: 'Casa del Pueblo'
 domicilio: 'Pellegrini 76. Junín, Buenos Aires, Argentina.'
 gmaps: 'https://maps.app.goo.gl/Kz4Zx9wfs1UWNCjJ7'
+
+geopos:
+  coord: [-34.58925, -60.94677]
+  icono: pin-sede
+
 fotos:
   - 'casa_del_pueblo.jpg'
 eventos_asociados: []

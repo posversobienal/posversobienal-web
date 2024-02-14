@@ -3,6 +3,11 @@
 nombre: 'Museo Histórico de Junín'
 domicilio: 'Quintana y Newbery. Junín, Buenos Aires, Argentina.'
 gmaps: 'https://maps.app.goo.gl/ZQZjVE9R7tyMtmo98'
+
+geopos:
+  coord: [-34.58455, -60.94740]
+  icono: pin-sede
+
 fotos:
   - 'museo_historico.jpg'
 eventos_asociados: []

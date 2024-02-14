@@ -3,6 +3,11 @@
 nombre: 'Sindicato Empleados de Comercio'
 domicilio: ''
 gmaps: ''
+
+geopos:
+  coord: [0, 0]
+  icono: pin-sede
+
 fotos: []
 eventos_asociados: []
 descripcion: []

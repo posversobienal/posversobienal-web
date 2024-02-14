@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block body %}
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet"/>
+
+
+<div id="osm-map"></div>
+
+<header class="text-center py-4">
+    <h1>{{ pag.titulo }}</h1>
+</header>
+
+<div class="container contenido">
+
+    <div class="row">
+        <section class="{{ pag.estilo }} col-lg-8">
+            {{ markdown(pag.contenido) }}
+        </section>
+
+        {% if 'contenido_secundario' in pag %}
+        <section class="{{ pag.estilo_cnt_sec }} ms-4 ps-4 border-start border-gray col-lg-3">
+            {{ markdown(pag.contenido_secundario) }}
+        </section>
+
+        {% endif %}
+
+    </div>
+</div>
+
+<script src="/lib/js/init-menu-sedes.js"></script>
+
+{% endblock %}
