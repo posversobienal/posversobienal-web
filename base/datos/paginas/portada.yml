@@ -2,7 +2,7 @@
 
 titulo: ''
 html_base: 'portada.html'
-ruta_static: 'portada.html'
+ruta_static: 'index.html'
 
 tematica:
   nombre: 'POÉTICAS DE LA RESISTENCIA'
