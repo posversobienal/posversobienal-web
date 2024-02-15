@@ -186,14 +186,16 @@ for ar in [a for a in listdir(ruta_in) if a.endswith('.yml')]:
     dat_cfg['actualizacion'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
     dat_pag = leer_yml(f'{ruta_in}{ar}')
 
-    arc_out = ruta_public + dat_pag['ruta_static']
-    makedirs(dirname(arc_out), exist_ok=True)
+    if dat_pag['ruta_static']:
 
-    tpl = env_jinja2.get_template(dat_pag['html_base'])
-    html = tpl.render(cfg=dat_cfg, pag=dat_pag, rec=dat_rec)
+        arc_out = ruta_public + dat_pag['ruta_static']
+        makedirs(dirname(arc_out), exist_ok=True)
 
-    with open(arc_out, 'w') as f:
-        f.write(html)
+        tpl = env_jinja2.get_template(dat_pag['html_base'])
+        html = tpl.render(cfg=dat_cfg, pag=dat_pag, rec=dat_rec)
+
+        with open(arc_out, 'w') as f:
+            f.write(html)
 
 
 # completado de plantillas de BITACORA
