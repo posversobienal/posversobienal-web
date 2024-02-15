@@ -59,16 +59,19 @@
 
         {% for nid in novedades %}
         {% if loop.index0 < pag.novedades.maximo %}
-        <div class="novedad col-lg-4 mt-5 p-3">
-            <div class="m-1 p-3 border border-gray">
+        <div class="novedad col-lg-4 mt-5">
+            <div class="border border-black rounded-2">
                 {% set dat = datos_de('bitacora', nid) %}
                 <div>
-                    <img class="img-fluid" src="/rec/foto/bitacora/{{ dat.fotos[0] }}?{{ cfg.cache_actu }}">
+                    <img class="img-fluid" src="/rec/bitacora/{{ dat.fotos[0] }}?{{ cfg.cache_actu }}">
                 </div>
-                <br>
-                <p class="h6 fw-bold">{{ dat.titulo }}</p>
-                <div class="text-end">
-                    <a class="d-inline-block fs-4 px-1 py-0 btn btn-dark btn-sm fx-ampliar" href="/bit/{{ nid }}/">+</a>
+                <div class="py-3 px-5">
+                    <br>
+                    <p class="h5 fw-bold">{{ dat.titulo }}</p>
+                    <p class="">{{ dat.detalle }}</p>
+                    <div class="text-end">
+                        <a class="d-inline-block fs-4 px-1 py-0 btn btn-dark btn-sm fx-ampliar" href="{{ dat.url }}">+</a>
+                    </div>
                 </div>
             </div>
         </div>

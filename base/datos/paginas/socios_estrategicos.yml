@@ -2,7 +2,30 @@
 titulo: 'Socios estratégicos'
 html_base: 'pagina.html'
 ruta_static: 'pag/socios_estrategicos/index.html'
-estilo: col-lg-11
+estilo: col-lg-11 text-center
 
 contenido: |
-  (...)
+
+  <br><hr><br>
+  ## Socios Institucionales
+
+  ![MACA](/rec/socios/maca_junin.jpg){.logo_socio}
+
+  <br><hr><br>
+  ## Socios de Comunicación
+
+  ![Arte Online](/rec/socios/arte_online.jpg){.logo_socio}
+  ![Utsanga](/rec/socios/utsanga.jpg){.logo_socio}
+
+  <br><hr><br>
+  ## Socios Expositivos
+
+  ![ATSA](/rec/socios/atsa.jpg){.logo_socio}
+  ![Fundación Casa Pronto](/rec/socios/fundacion_casa_pronto.jpg){.logo_socio}
+  ![MACA](/rec/socios/maca_junin.jpg){.logo_socio}
+
+  <br><hr><br>
+  ## Colaboradores
+
+  ![Taller Gráfico Oberda](/rec/socios/taller_grafico_oberda.jpg){.logo_socio}
+  ![ATSA](/rec/socios/atsa.jpg){.logo_socio}

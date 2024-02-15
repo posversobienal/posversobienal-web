@@ -2,35 +2,31 @@
 titulo: 'Proyectos colaterales'
 html_base: 'pagina.html'
 ruta_static: 'pag/proyectos_colaterales/index.html'
+estilo: col-lg-11
 
 contenido: |
 
-  ![](/rec/foto/obras/proyectos_colaterales/cesar_reglero_mail_art_poetry.jpg)
-  Obra de César Reglero (España)
-
-  ![](/rec/foto/obras/proyectos_colaterales/hans_braumuller_mail_art_poetry.jpg)
-  Obra de Hans Braumüller (Chile-Alemania)
-
-
-
-  ## MAIL ART POETRY - POETRY IS RESISTANCE COLLATERAL PROJECT CURATED BY RUGGERO MAGGI
-  {id=mail_art_poetry}
-
-  "In the scenario of the dystopian landscapes of our contemporary society, thinking of poetry no longer as a simple aesthetic exercise, but as a critical and political tool implies approaching the experimental in a situated and contextual dimension. In this sense, the POSVERSO Biennial is conceived as an appeal to those artists who show a desire to distance themselves from pure formal variations, to venture, on the contrary, to achieve a poetics that enhances critical signs, and that enables reading conditions that dialogue with reality.
-  Mail art has a long tradition of political positioning and resistance.
-
-  What can mail art and experimental poetry contribute today to the path of resistance? What are the media and discourses that are deployed to influence the convulsed world we inhabit? To what aspects of our reality is this resistance directed? For Deleuze to think is to resist, and thought is a set of forces that resists death. In our contemporary world, death has multiple faces: forced migrations, wars, poverty, hunger, climate change, inequality of the capitalist system, propagation and rise of far-right political forces. What can poetry do
-  in the face of all this?"
-
   <hr>
 
+  ![Obra de César Reglero (España), Obra de Hans Braumüller (Chile-Alemania)](/rec/foto/obras/proyectos_colaterales/mail_art_poetry.jpg){.img-fluid}
+
+  <br>
+  ## MAIL ART POETRY - POETRY IS RESISTANCE COLLATERAL PROJECT CURATED BY RUGGERO MAGGI {id="mail_art_poetry"}
 
 
-  ![](/rec/foto/obras/proyectos_colaterales/cartolina_fronte_utsanga.jpg)
-  About Utsanga
+  "In the scenario of the dystopian landscapes of our contemporary society, thinking of poetry no longer as a simple aesthetic exercise, but as a critical and political tool implies approaching the experimental in a situated and contextual dimension. In this sense, the POSVERSO Biennial is conceived as an appeal to those artists who show a desire to distance themselves from pure formal variations, to venture, on the contrary, to achieve a poetics that enhances critical signs, and that enables reading conditions that dialogue with reality.
 
-  ## UTSANGA 10 años (2014-2024) Espacio liminar – Poesía visiva italiana contemporánea.
-  {id="utsanga"}
+  Mail art has a long tradition of political positioning and resistance.
+
+  What can mail art and experimental poetry contribute today to the path of resistance? What are the media and discourses that are deployed to influence the convulsed world we inhabit? To what aspects of our reality is this resistance directed? For Deleuze to think is to resist, and thought is a set of forces that resists death. In our contemporary world, death has multiple faces: forced migrations, wars, poverty, hunger, climate change, inequality of the capitalist system, propagation and rise of far-right political forces. What can poetry do in the face of all this?"
+
+  <br><hr><br>
+
+  ![About Utsanga](/rec/foto/obras/proyectos_colaterales/utsanga.jpg){.img-fluid}
+
+  <br>
+
+  ## UTSANGA 10 años (2014-2024) Espacio liminar – Poesía visiva italiana contemporánea {id="utsanga"}
 
   Curaduría presentada por el poeta experimental y editor Francesco Aprile, en el marco de las actividades de celebración de los 10 años de existencia de la  revista electrónica de poesía experimental UTSANGA.
 
@@ -42,7 +38,7 @@ contenido: |
 
   As production center, Utsanga proposed the first asemic writing exhibition in Italy and many more exhibitions and conferences.
 
-  Francesco Aprile
+  *Francesco Aprile*
   Curator
 
   <hr>
@@ -53,6 +49,7 @@ contenido: |
 
   As a curator, he organized exhibitions and conferences: Forma e transforma: dalla scrittura visuale all'asemic writing (Archimuseo A. Accattino, 2018, curated exhibition and catalog with A. Accattino e C. Caggiula), Asemic writing: map of the asemic horizon (Scolacium, 2016-2017, first Italian exhibition dedicated to the historical and contemporary processes of the asemic writing, curated with C. Caggiula, E. Carella), Scritture asemiche. Libri d'artista dalla collezione dell'Accademia di Belle Arti di Palermo (Palermo, 2019-2020), Cantata plurale per F. S. Dòdaro (Lecce, 2019), Womb. Opere dall’archivio utsanga (Museo della casa alla fasanese, Fasano, giugno 2022).
 
+  <br>
   **TOWARDS LIMINAL SPACES** (Francesco Aprile)
 
   The experimental poetic scenario opens as a guerilla war, or, more precisely, as anger, but towards what? The idea, in this case, seems to me to be extremely near certain dynamics developed by Deleuze and Guattari. The philosophy, then, would be regarding anger towards the historical context, towards one's own time. Philosophy is not power. However, power enters everyone's lives, despite themselves. It passes through subjects and philosophies. The nature of philosophy is to be a pourparler, to become a guerrilla war of the subject against himself and his time.

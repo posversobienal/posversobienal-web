@@ -1,0 +1,25 @@
+---
+
+nombre: 'Marisa'
+apellido: 'Florido'
+seudonimo: ''
+
+nacionalidad: 'Brasil'
+contacto_publico: ''
+
+eventos: []
+
+web: '/'
+
+fotos:
+  persona: 'marisa_florido_cesar_curadora.jpg'
+
+detalle: |
+  {{ idioma('esp') }}
+
+  Investigadora, crítica de arte y curadora independiente, Profesora Dra del Instituto de Artes de la  Universidad Estadual de Rio de Janeiro (Grado y Posgrado). * * Posee textos sobre artes visuales en libros, revistas de arte, catálogos y periódicos en el Brasil y en el exterior. Entre sus libros publicados, están:  “Nós, o outro, o distante na arte contemporânea brasileira” [Circuito, 2014]; “Ana Vitória Mussi” [organización y texto; Apicuri, 2013];* Como curadora independiente, integra el Consejo Curatorial de Paço Imperial en Rio de Janeiro. Fue miembro de numerosos jurados de arte y comisionó exposiciones en Brasil y en el extranjero. * Fue crítica de arte del diario O Globo, Jornal do Brasil y Revista Istoé. [CURRÍCULO LATTES CV](http://lattes.cnpq.br/6579316913909055)
+
+  {{ idioma('eng') }}
+
+  Researcher, art critic and independent curator, Professor at the Institute of Arts of the State University of Rio de Janeiro (Undergraduate and Postgraduate). * * She has texts on visual arts in books, art magazines, catalogs and newspapers in Brazil and abroad. Among her published books are: “Nós, o outro, o distante na arte contemporânea brasileira” [Circuito, 2014]; “Ana Vitória Mussi” [organization and text; Apicuri, 2013]; * As an independent curator, she is a member of the Curatorial Council of Paço Imperial in Rio de Janeiro. She was a member of numerous art juries and commissioned exhibitions in Brazil and abroad. * She was an art critic for the newspaper O Globo, Jornal do Brasil and Revista Istoé. [CURRÍCULO LATTES CV](http://lattes.cnpq.br/6579316913909055)
+  {.lang-eng}

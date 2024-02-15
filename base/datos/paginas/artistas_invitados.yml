@@ -14,12 +14,10 @@ contenido: |
     <div class="d-flex flex-column align-items-center align-content-between p-1 m-0">
       <br>
       <div class="d-block">
-        <b class="d-inline">{{ dat_art.nombre }} {{ dat_art.apellido }}</b>
+        <a href="/per/{{ id_art }}">
+          <b class="d-inline">{{ dat_art.nombre }} {{ dat_art.apellido }}</b>
+        </a>
         <br><small class="d-inline">{{ dat_art.nacionalidad }}</small>
-        <hr>
-      </div>
-      <div class="mt-auto">
-        <a title="Ir a la ficha de la sede" href="/per/{{ id_art }}" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
       </div>
       <br>
     </div>
