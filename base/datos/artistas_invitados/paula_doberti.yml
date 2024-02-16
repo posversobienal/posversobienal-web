@@ -1,0 +1,33 @@
+---
+
+nombre: 'Paula'
+apellido: 'Doberti'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://pauladoberti.wixsite.com/mpdoberti/'
+
+eventos: []
+
+obras: []
+
+fotos:
+  persona: 'paula_doberti.jpg'
+  obra: 'paula_doberti-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 60%
+
+etiquetas:
+  - invitado
+
+detalle: |
+  {{ idioma('esp') }}
+
+  (Buenos Aires, 1966) Es Profesora Nacional de Pintura egresada de la Escuela Nacional de Bellas Artes Prilidiano Pueyrredón y Licenciada en Artes Visuales egresada del IUNA. Maestranda en Artes Performáticas (UNA). Es docente investigadora del Departamento de Artes Visuales (UNA) y de la Carrera de Artes de la Facultad de Filosofía y Letras (UBA). Su campo de obra abarca el arte urbano y político, utilizando como soportes el dibujo, las instalaciones, las intervenciones urbanas, los objetos, el collage, el video, la performance y la investigación, en obras y textos que bucean en diversos territorios de la memoria. Trabaja de manera colaborativa en colectivos, junto a quienes investiga y experimenta en espacios públicos, alternativos y museísticos: Museo del Objeto Contemporáneo (M.O.C), Dibujos Urgentes, G.R.A.S.A, Río Memoria y La Compañía de Funciones Patrióticas. Trabaja en gestión, curaduría y montaje en Umbral espacio de arte, ámbito de experimentación y encuentro, que codirige con Débora Kirnos.
+
+  {{ idioma('eng') }}
+
+  (Buenos Aires, 1966) She is a National Professor of Painting graduated from the Prilidiano Pueyrredón National School of Fine Arts and a Graduate in Visual Arts graduated from IUNA. She has a master's degree in Performing Arts (UNA). She is a research professor at the Department of Visual Arts (UNA) and the Arts Course at the Faculty of Philosophy and Letters (UBA). Her field of work covers urban and political art, using drawing, installations, urban interventions, objects, collage, video, performance and research as supports, in works and texts that delve into various territories of the memory. She works collaboratively in groups, alongside whom she investigates and experiments in public, alternative and museum spaces: Museum of the Contemporary Object (M.O.C), Dibujos Urgentes, G.R.A.S.A, Río Memoria and La Compañía de Funciones Patrióticas. She works in management, curatorship and assembly at Umbral art space, an area of experimentation and encounter, which she co-directs with Débora Kirnos.
+  {.lang-eng}
