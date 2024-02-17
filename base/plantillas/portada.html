@@ -3,7 +3,7 @@
 {% block body %}
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
-        {% for imagen in pag.deslizador %}
+        {% for imagen in desordenar(pag.deslizador) %}
         {% if loop.index0 == 0 %}{% set estilo = 'active' %}{% else %}{% set estilo = '' %}{% endif %}
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{ loop.index0 }}"
                 class="{{ estilo }}" aria-current="true" aria-label="Imagen {{ loop.index0 + 1 }}"></button>

@@ -1,3 +1,8 @@
+/*
+Hydra-Text : Componente perteneciente a la colección de utilidades para Hydra.
+https://github.com/geikha/hyper-hydra/tree/main
+Desarrollado por: https://github.com/geikha
+*/
 {
     const getHydra = function () {
         const whereami = window.choo?.state?.hydra
@@ -121,7 +126,7 @@ _hydraScope.srcRelMask = function (tex) {
         else if (config.fontSize != "auto") fontSize = Number(config.fontSize.replace(/[^0-9.,]+/, ''));
         if(isPercentage(config.lineWidth)) config.lineWidth = fontSize * getPercentage(config.lineWidth);
         config.fontSize = undefined;
-        
+
         fontSize *= config.canvasResize;
         canvas.width *= config.canvasResize;
         canvas.height *= config.canvasResize;

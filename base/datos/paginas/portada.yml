@@ -20,8 +20,4 @@ deslizador:
 novedades:
   maximo: 3
   automatico: true
-  lista:
-    - 2024-02-09--pr_4
-    - 2024-02-09--pr_3
-    - 2024-02-09--pr_2
-    - 2024-02-09--pr_1
+  lista: []

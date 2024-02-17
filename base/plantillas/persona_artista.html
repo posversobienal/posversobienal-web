@@ -6,15 +6,15 @@
     <br><br><br><br>
     <div class="container contenido mb-4">
         <div class="row">
-            <div class="col-4 pe-4 me-4">
+            <div class="col-8 col-lg-4 pe-4 me-4">
                 <img class="img-fluid"  src="/rec/foto/personas/{{ pag.fotos.persona }}?{{ cfg.cache_actu }}">
                 {% if pag.web %}
-                <p class="my-2">
+                <p class="my-2 text-center">
                     <a href="{{ pag.web }}" target="_blank">Web oficial</a>
                 </p>
                 {% endif %}
             </div>
-            <div class="ms-4 ps-4 col-7">
+            <div class="col-11 ms-4 ps-8 col-lg-7">
                 <h1>{{ pag.nombre }} {{ pag.apellido }}</h1>
                 <p>{{ pag.nacionalidad }}</p>
                 <hr>

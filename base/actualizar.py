@@ -12,8 +12,14 @@ from jinja2 import Environment, FileSystemLoader
 from markdown import Markdown
 from markdown.inlinepatterns import SimpleTagInlineProcessor
 from markdown.extensions import Extension
+from random import shuffle
 
 # ------ funciones generales
+def desordenar(l):
+    m = l.copy()
+    shuffle(m)
+    return m
+
 def md_a_html(texto):
     global dat_cfg
     global dat_rec
@@ -103,6 +109,7 @@ env_jinja2.globals.update(id_redsocial = id_redsocial)
 env_jinja2.globals.update(datos_de = datos_de)
 env_jinja2.globals.update(listar_id = listar_id)
 env_jinja2.globals.update(idioma = idioma)
+env_jinja2.globals.update(desordenar = desordenar)
 
 
 # completado de plantillas para PERSONAS
