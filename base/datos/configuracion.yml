@@ -4,7 +4,7 @@ metadatos:
   titulo: 'POSVERSO'
   dominio: 'posversobienal.com.ar'
   descripcion: 'POSVERSO . Bienal Internacional de Poesía Experimental de Argentina'
-  claves: ''
+  claves: 'poesía, experimental, internacional, hotel dada, arte, posverso, art, poetry, junín, buenos aires, argentina'
   imagen_compartir: '/rec/grafica/logo-posverso_compartir.png'
   logo_posverso_a: '/rec/grafica/logo-posverso.svg'
   logo_posverso_b: '/rec/grafica/logo-posverso_completo.svg'
@@ -23,7 +23,7 @@ urls:
   formulario_convocatoria: 'https://docs.google.com/forms/d/e/1FAIpQLSdbD5bOK2aRV8d7-J8tomy5onPuFECn2KwHhEkLFMt8Ck-dvQ/viewform'
   posversobienal: 'https://posversobienal.com.ar/'
   posverso_instagram: 'https://www.instagram.com/posverso_bienal'
-  posverso_youtube: ''
+  posverso_youtube: 'https://www.youtube.com/@PosversoBienal'
 
   info_omar_khouri: 'http://www.antoniomiranda.com.br/poesia_visual/omar_khouri.html'
   info_cesar_espinosa: 'https://www.heterogenesis.com/H-45/EspinozaCas.htm'
