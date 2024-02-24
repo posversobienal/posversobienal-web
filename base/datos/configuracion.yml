@@ -80,8 +80,8 @@ menu:
         url: '/pag/comite_de_seleccion/'
   - titulo: 'ARTISTAS INVITADOS'
     url: '/pag/artistas_invitados/'
-  - titulo: 'CONTACTO'
-    url: '/pag/contacto/'
+  #- titulo: 'CONTACTO'
+  #  url: '/pag/contacto/'
 
 
 idiomas_traducibles:
