@@ -45,7 +45,7 @@
         <link rel="shortcut icon" href="{{ cfg.metadatos.favicon }}" type="image/x-icon" />
 
         <script src="/dat/rec.js"></script>
-
+        <script src="/lib/js/comun.js"></script>
     </head>
     <body name="{% block body_name %}{% endblock %}">
         <nav class="menu">
@@ -129,5 +129,33 @@
                 </div>
             </div>
         </footer>
+
+        <nav id="menu-permanente">
+            <ul>
+                <li class="mostrar-si-pagina-desplazada">
+                    <a href="/"><img class="fx-invert" height="10px" src="{{ cfg.metadatos.logo_posverso_a }}?{{ cfg.cache_actu }}" title="POSVERSO"></a>
+                </li>
+                <li class="mx-2">
+                    <a href="/pag/contacto/" title="Contacto">
+                        <img height="20px" src="/rec/grafica/icon-contacto.svg?{{ cfg.cache_actu }}" title="Datos de contacto">
+                    </a>
+                </li>
+                <li class="me-2 selector-idioma">
+                    <img height="15px" src="/rec/grafica/icon-traducir.svg?{{ cfg.cache_actu }}" onclick="sel_traducir.click()">
+                    <div class="submenu">
+                        {% for k, v in cfg.idiomas_traducibles.items() %}
+                        <button onclick="redirigir_a_traduccion('{{ k }}')">{{ v }}</button>
+                        {% endfor %}
+                    </div>
+                </li>
+                <li class="mostrar-si-pagina-desplazada">
+                    <button onclick="window.scrollTo(0,0)">
+                        <img height="20px" src="/rec/grafica/icon-subir.svg?{{ cfg.cache_actu }}" title="Ir al inicio de la página">
+                    </button>
+                </li>
+            </ul>
+
+        </nav>
+
     </body>
 </html>

@@ -45,7 +45,7 @@
         <link rel="shortcut icon" href="/rec/grafica/favicon.svg" type="image/x-icon" />
 
         <script src="/dat/rec.js"></script>
-
+        <script src="/lib/js/comun.js"></script>
     </head>
     <body name="">
         <nav class="menu">
@@ -274,10 +274,48 @@
 
                         
                         <br>
-                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-22 21:35:56</b></span>
+                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-24 19:33:52</b></span>
                     </nav>
                 </div>
             </div>
         </footer>
+
+        <nav id="menu-permanente">
+            <ul>
+                <li class="mostrar-si-pagina-desplazada">
+                    <a href="/"><img class="fx-invert" height="10px" src="/rec/grafica/logo-posverso.svg?" title="POSVERSO"></a>
+                </li>
+                <li class="mx-2">
+                    <a href="/pag/contacto/" title="Contacto">
+                        <img height="20px" src="/rec/grafica/icon-contacto.svg?" title="Datos de contacto">
+                    </a>
+                </li>
+                <li class="me-2 selector-idioma">
+                    <img height="15px" src="/rec/grafica/icon-traducir.svg?" onclick="sel_traducir.click()">
+                    <div class="submenu">
+                        
+                        <button onclick="redirigir_a_traduccion('en')">English</button>
+                        
+                        <button onclick="redirigir_a_traduccion('pt')">Português</button>
+                        
+                        <button onclick="redirigir_a_traduccion('fr')">Français</button>
+                        
+                        <button onclick="redirigir_a_traduccion('de')">Deutsch</button>
+                        
+                        <button onclick="redirigir_a_traduccion('zh-CN')">中文</button>
+                        
+                        <button onclick="redirigir_a_traduccion('ja')">日本語</button>
+                        
+                    </div>
+                </li>
+                <li class="mostrar-si-pagina-desplazada">
+                    <button onclick="window.scrollTo(0,0)">
+                        <img height="20px" src="/rec/grafica/icon-subir.svg?" title="Ir al inicio de la página">
+                    </button>
+                </li>
+            </ul>
+
+        </nav>
+
     </body>
 </html>

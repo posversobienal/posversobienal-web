@@ -36,6 +36,13 @@ urls:
   hoteldada_facebook: 'https://www.facebook.com/profile.php?id=100063732964738'
   hoteldada_youtube: 'https://www.youtube.com/channel/UC4HS1EiLlyc4l0JDc8_BwFA'
 
+  info_cau: 'https://www.centrodearte.unlp.edu.ar/'
+  info_afa: 'https://po-ex.net/taxonomia/transtextualidades/metatextualidades-autografas/arquivo-fernando-aguiar-poesia-experimental-visual-performance-mail-art-fluxus-e-arte-conceptual/'
+  info_bibliotec_floresta: 'https://www.simonemoraes.net/editora-biblioteca-floresta'
+  info_arte_online: 'https://www.arte-online.net/'
+  info_utsanga: 'https://www.utsanga.it/'
+  info_be_cult: 'https://revistabecult.com.ar/'
+
 
 menu:
   - titulo: 'ACERCA DE LA BIENAL'
@@ -75,3 +82,12 @@ menu:
     url: '/pag/artistas_invitados/'
   - titulo: 'CONTACTO'
     url: '/pag/contacto/'
+
+
+idiomas_traducibles:
+  en: 'English'
+  pt: 'Português'
+  fr: 'Français'
+  de: 'Deutsch'
+  zh-CN: '中文'
+  ja: '日本語'
