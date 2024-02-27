@@ -1,0 +1,41 @@
+---
+titulo: 'Prensa'
+html_base: 'pagina.html'
+ruta_static: 'pag/prensa/index.html'
+estilo: col-lg-8
+estilo_cnt_sec: col-lg-3
+
+contenido: |
+
+  ##### 2024-02-23 - **La Voz de los Barrios**
+  [Presentaron POSVERSO I Bienal Internacional de Poesía Experimental de Argentina](https://lavozdelosbarrios.com/presentaron-posverso-i-bienal-internacional-de-poesia-experimental-de-argentina/)
+
+  <br>
+  ##### 2024-02-20 - **Arte Online**
+  + [Llega Posverso](https://www.arte-online.net/Notas/Llega-Posverso)
+  + [Bienal POSVERSO](https://www.arte-online.net/Agenda/Ferias_y_bienales/Bienal-POSVERSO)
+
+  <br>
+  ##### 2024-02-16 - **De Hoy**
+  [Junín será sede de POSVERSO BIENAL INTERNACIONAL de poesia experimental de Argentina](https://www.dehoy.com.ar/entrada/junin-sera-sede-de-posverso-bienal-internacional-de-poesia-experimental-de-argentina-103649)
+
+  <br>
+  ##### 2024-02-15 - **Junín24**
+  [Internacional de Poesía Experimental de Argentina](https://junin24.com/locales/junin-sera-sede-de-posverso-primera-bienal-internacional-de-poesia-experimental-de-argentina/)
+
+  <br>
+  ##### 2024-02-14 - **Semanario de Junín**
+  [Junín será sede de Posverso, 1º Bienal Internacional de Poesía Experimental de Argentina](https://semanariodejunin.com.ar/nota/44652/junin-sera-sede-de-posverso-1-bienal-internacional-de-poesia-experimental-de-argentina/)
+
+  <br><br><br>
+
+contenido_secundario: |
+
+  #### Media kit
+
+  [Descargar ZIP](/rec/descargas/POSVERSO_media_kit.zip)
+
+contenido_en_espera:  |
+  #### Dossier de prensa
+
+  [Descargar PDF](#)
