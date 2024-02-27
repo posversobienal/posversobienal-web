@@ -365,6 +365,7 @@ footer .utiles .menu-pie:hover nav {
   top: 0;
   right: 0;
   padding: 3px 6px;
+  padding-left: 15px;
   background: #000;
   display: block;
   border-bottom-left-radius: 9px;
