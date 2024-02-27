@@ -140,13 +140,19 @@
         <div class="cuerpo">
             
 <div class="persona">
-    <div class="img-cabecera" style="background-position:50% 67%; background-image: url(/rec/foto/obras/joyce_ribeiro-1.jpg)"></div>
+    <div class="img-cabecera" style="background-position:50% 67%; background-image: url(/rec/foto/obras/joyce_ribeiro-1.jpg)">
+    </div>
+    <div class="text-end">
+        <button title="Ver obra completa" class="m-1 btn btn-sm btn-outline-dark ampliar-imagen px-1 py-0" data-url="/rec/foto/obras/joyce_ribeiro-1.jpg">+</button>
+    </div>
+
     <br><br><br><br>
     <div class="container contenido mb-4">
         <div class="row">
-            <div class="col-8 col-lg-4 pe-4 me-4">
-                <img class="img-fluid"  src="/rec/foto/personas/joyce_ribeiro.jpg?">
+            <div class="col-12 col-lg-4 pe-4 me-4 text-center">
+                <img class="col-8 col-lg-12 img-fluid" src="/rec/foto/personas/joyce_ribeiro.jpg?">
                 
+                <br><br>
             </div>
             <div class="col-11 ms-4 ps-8 col-lg-7">
                 <h1>Joyce Ribeiro</h1>
@@ -163,12 +169,14 @@
 <p class="lang-eng">Artist, educator and historian, trained in History from the UEMG and postgraduate in History, Society and Culture from the PUC/SP. São-gonçalense, she lives and works in São Paulo since 2014. She researches the construction of the caipira cultural imaginary and its representation in historiographic writing. Her propositions enable re-readings about the formation of borders, institutional, political and economic limits between territorial spaces. The telling of stories is a fundamental element in her work and her proposals and interventions occur with or without institutional consent, occasionally recorded in photographs, materials provided by the public, audios, graphic data, stories (texts) and videos.</p>
 <p class="lang-eng">She is currently developing “Bageira”, a set of 28 projects designed from the myths, legends, stories and rumors of her hometown, São Gonçalo do Sapucaí, MG. She participated in study groups, artistic residencies, and her works were exhibited in the following art institutions and museums: 2023 | 2022 - Exposição/Proposição, Conversas de Bageira - RAUS café, Pátio Victor Malzoni, São Paulo, SP; 2021 - Bageira Project, Artistic Residency at Sítio Nossa Senhora Aparecida - São Gonçalo do Sapucaí, MG; 2021 - Exposição (virtual), SAPUCAIA - Edital Agenda GAP, UFES, Universidade Federal do Espírito Santo, ES; 2020 - RespirArte Prize, Fundação Nacional de Artes, FUNARTE, SP; 2020 - Salão de Vinhedo, SAV, SP; 2019 - III Meeting of Graduations of the University of the State of Minas Gerais, UEMG; 2017 - 15th edition of the Exhibition Program of the Ribeirão Preto Art Museum, MARP, SP; 2015 and 2016 - Finalist of the “Prêmio Arte na Escola Cidadã” with the ação “Quería algo além, muito além de mim”.</p>
                     
-
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<script src="/lib/js/init-persona-artista.js"></script>
+
 
         </div>
 
@@ -267,23 +275,24 @@
 
                         
                         <br>
-                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-27 01:48:24</b></span>
+                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-27 02:59:33</b></span>
                     </nav>
                 </div>
             </div>
         </footer>
 
+
         <nav id="menu-permanente">
-            <ul>
-                <li class="mostrar-si-pagina-desplazada">
+            <ul class="row" title="Ir a la portada">
+                <li class="col mostrar-si-pagina-desplazada">
                     <a href="/"><img class="fx-invert" height="10px" src="/rec/grafica/logo-posverso.svg?" title="POSVERSO"></a>
                 </li>
-                <li class="mx-2">
-                    <a href="/pag/contacto/" title="Contacto">
+                <li class="col mx-2" title="Contacto">
+                    <a href="/pag/contacto/">
                         <img height="20px" src="/rec/grafica/icon-contacto.svg?" title="Datos de contacto">
                     </a>
                 </li>
-                <li class="me-2 selector-idioma">
+                <li class="col me-2 selector-idioma" title="Traducir página con Google Translate">
                     <img height="15px" src="/rec/grafica/icon-traducir.svg?" onclick="sel_traducir.click()">
                     <div class="submenu">
                         
@@ -301,14 +310,26 @@
                         
                     </div>
                 </li>
-                <li class="mostrar-si-pagina-desplazada">
+                <li class="col mostrar-si-pagina-desplazada" title="Desplazarse al inicio de la página">
                     <button onclick="window.scrollTo(0,0)">
-                        <img height="20px" src="/rec/grafica/icon-subir.svg?" title="Ir al inicio de la página">
+                        <img height="20px" src="/rec/grafica/icon-subir.svg?">
                     </button>
                 </li>
             </ul>
-
         </nav>
+
+
+        <div id="imagen_ampliada">
+            <div class="container">
+                <div class="text-end pb-3">
+                    <button class="btn btn-sm btn-outline-light cerrar" title="CERRAR imagen ampliada">X</button>
+                </div>
+                <div>
+                    <img class="img-fluid imagen" src="">
+                </div>
+            </div>
+        </div>
+
 
     </body>
 </html>

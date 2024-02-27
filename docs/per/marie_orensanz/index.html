@@ -140,13 +140,19 @@
         <div class="cuerpo">
             
 <div class="persona">
-    <div class="img-cabecera" style="background-position:50% 0%; background-image: url(/rec/foto/obras/marie_orensanz-1.jpg)"></div>
+    <div class="img-cabecera" style="background-position:50% 0%; background-image: url(/rec/foto/obras/marie_orensanz-1.jpg)">
+    </div>
+    <div class="text-end">
+        <button title="Ver obra completa" class="m-1 btn btn-sm btn-outline-dark ampliar-imagen px-1 py-0" data-url="/rec/foto/obras/marie_orensanz-1.jpg">+</button>
+    </div>
+
     <br><br><br><br>
     <div class="container contenido mb-4">
         <div class="row">
-            <div class="col-8 col-lg-4 pe-4 me-4">
-                <img class="img-fluid"  src="/rec/foto/personas/marie_orensanz.jpg?">
+            <div class="col-12 col-lg-4 pe-4 me-4 text-center">
+                <img class="col-8 col-lg-12 img-fluid" src="/rec/foto/personas/marie_orensanz.jpg?">
                 
+                <br><br>
             </div>
             <div class="col-11 ms-4 ps-8 col-lg-7">
                 <h1>Marie Orensanz</h1>
@@ -161,12 +167,14 @@
 
 <p class="lang-eng">Born in Mar del Plata, Argentina. She's a key figure of the South American art. She's began her artistic career studying painting with two of the foundational artists of Argentine Modernism: Emilio Pettoruti and Antonio Seguí. An active member of the art scene in Buenos Aires in the 1960s and 1970s, she participated in the exhibitions and cultural activities organized by the Instituto Torcuato Di Tella, and she was involved with the Centro de Arte y Comunicación. In 1972, she moved to Milan. The proximity to Carrara and its marble quarries sparked her early production in stone. She has continued to work with fragments of marble, making them into books and sculptures, since the 1970s. Christina M. Harrison writes, “Orensanz uses material and symbolic fragments—of marble, of line, of signs—to represent thoughts. … An interpretation of the work, in Orensanz’s conception, depends on the intersection of the fragments with the viewer’s own thoughts and experiences.”</p>
                     
-
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<script src="/lib/js/init-persona-artista.js"></script>
+
 
         </div>
 
@@ -265,23 +273,24 @@
 
                         
                         <br>
-                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-27 01:48:24</b></span>
+                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-27 02:59:33</b></span>
                     </nav>
                 </div>
             </div>
         </footer>
 
+
         <nav id="menu-permanente">
-            <ul>
-                <li class="mostrar-si-pagina-desplazada">
+            <ul class="row" title="Ir a la portada">
+                <li class="col mostrar-si-pagina-desplazada">
                     <a href="/"><img class="fx-invert" height="10px" src="/rec/grafica/logo-posverso.svg?" title="POSVERSO"></a>
                 </li>
-                <li class="mx-2">
-                    <a href="/pag/contacto/" title="Contacto">
+                <li class="col mx-2" title="Contacto">
+                    <a href="/pag/contacto/">
                         <img height="20px" src="/rec/grafica/icon-contacto.svg?" title="Datos de contacto">
                     </a>
                 </li>
-                <li class="me-2 selector-idioma">
+                <li class="col me-2 selector-idioma" title="Traducir página con Google Translate">
                     <img height="15px" src="/rec/grafica/icon-traducir.svg?" onclick="sel_traducir.click()">
                     <div class="submenu">
                         
@@ -299,14 +308,26 @@
                         
                     </div>
                 </li>
-                <li class="mostrar-si-pagina-desplazada">
+                <li class="col mostrar-si-pagina-desplazada" title="Desplazarse al inicio de la página">
                     <button onclick="window.scrollTo(0,0)">
-                        <img height="20px" src="/rec/grafica/icon-subir.svg?" title="Ir al inicio de la página">
+                        <img height="20px" src="/rec/grafica/icon-subir.svg?">
                     </button>
                 </li>
             </ul>
-
         </nav>
+
+
+        <div id="imagen_ampliada">
+            <div class="container">
+                <div class="text-end pb-3">
+                    <button class="btn btn-sm btn-outline-light cerrar" title="CERRAR imagen ampliada">X</button>
+                </div>
+                <div>
+                    <img class="img-fluid imagen" src="">
+                </div>
+            </div>
+        </div>
+
 
     </body>
 </html>

@@ -140,13 +140,19 @@
         <div class="cuerpo">
             
 <div class="persona">
-    <div class="img-cabecera" style="background-position:50% 50%; background-image: url(/rec/foto/obras/sergio_bonzon-1.jpg)"></div>
+    <div class="img-cabecera" style="background-position:50% 50%; background-image: url(/rec/foto/obras/sergio_bonzon-1.jpg)">
+    </div>
+    <div class="text-end">
+        <button title="Ver obra completa" class="m-1 btn btn-sm btn-outline-dark ampliar-imagen px-1 py-0" data-url="/rec/foto/obras/sergio_bonzon-1.jpg">+</button>
+    </div>
+
     <br><br><br><br>
     <div class="container contenido mb-4">
         <div class="row">
-            <div class="col-8 col-lg-4 pe-4 me-4">
-                <img class="img-fluid"  src="/rec/foto/personas/sergio_bonzon.jpg?">
+            <div class="col-12 col-lg-4 pe-4 me-4 text-center">
+                <img class="col-8 col-lg-12 img-fluid" src="/rec/foto/personas/sergio_bonzon.jpg?">
                 
+                <br><br>
             </div>
             <div class="col-11 ms-4 ps-8 col-lg-7">
                 <h1>Sergio Bonzón</h1>
@@ -161,12 +167,14 @@
 
 <p class="lang-eng">(Pergamino, 1959) Visual artist and cultural manager. Director at Piccolo Spazio Sperimentale, Pergamino 2015/2018. Founder and coordinator of the groups Itinerancia 6 and Bonaerenses a todo tinta. He is part of the coordination team for Pergamino engraving month. He edits the virtual magazine Pasaje. Management and curation of samples of mail art and visual poetry, such as Palabra sublevada at the Municipal Museum of Pergamino (2022). He has participated in numerous group exhibitions nationally and internationally (Chile, Panama, Costa Rica and Spain). Individual samples in Pergamino, C.A.B.A., Rosario, Junín and Azul. He has published in numerous literary and Visual Poetry magazines, book covers and albums. He highlights the book Lugar de Apariciones, a joint project with the poet Carlos Barbarito. Different private collections have his work, the Museo Solidario Salvador Allende in Santiago de Chile, the Museum of Fine Arts in Pergamino, the Community Museum in Azul and the Museum of Contemporary Art in Junín.</p>
                     
-
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<script src="/lib/js/init-persona-artista.js"></script>
+
 
         </div>
 
@@ -265,23 +273,24 @@
 
                         
                         <br>
-                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-27 01:48:23</b></span>
+                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-27 02:59:33</b></span>
                     </nav>
                 </div>
             </div>
         </footer>
 
+
         <nav id="menu-permanente">
-            <ul>
-                <li class="mostrar-si-pagina-desplazada">
+            <ul class="row" title="Ir a la portada">
+                <li class="col mostrar-si-pagina-desplazada">
                     <a href="/"><img class="fx-invert" height="10px" src="/rec/grafica/logo-posverso.svg?" title="POSVERSO"></a>
                 </li>
-                <li class="mx-2">
-                    <a href="/pag/contacto/" title="Contacto">
+                <li class="col mx-2" title="Contacto">
+                    <a href="/pag/contacto/">
                         <img height="20px" src="/rec/grafica/icon-contacto.svg?" title="Datos de contacto">
                     </a>
                 </li>
-                <li class="me-2 selector-idioma">
+                <li class="col me-2 selector-idioma" title="Traducir página con Google Translate">
                     <img height="15px" src="/rec/grafica/icon-traducir.svg?" onclick="sel_traducir.click()">
                     <div class="submenu">
                         
@@ -299,14 +308,26 @@
                         
                     </div>
                 </li>
-                <li class="mostrar-si-pagina-desplazada">
+                <li class="col mostrar-si-pagina-desplazada" title="Desplazarse al inicio de la página">
                     <button onclick="window.scrollTo(0,0)">
-                        <img height="20px" src="/rec/grafica/icon-subir.svg?" title="Ir al inicio de la página">
+                        <img height="20px" src="/rec/grafica/icon-subir.svg?">
                     </button>
                 </li>
             </ul>
-
         </nav>
+
+
+        <div id="imagen_ampliada">
+            <div class="container">
+                <div class="text-end pb-3">
+                    <button class="btn btn-sm btn-outline-light cerrar" title="CERRAR imagen ampliada">X</button>
+                </div>
+                <div>
+                    <img class="img-fluid imagen" src="">
+                </div>
+            </div>
+        </div>
+
 
     </body>
 </html>

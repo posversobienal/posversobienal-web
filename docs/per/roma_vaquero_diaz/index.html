@@ -140,13 +140,19 @@
         <div class="cuerpo">
             
 <div class="persona">
-    <div class="img-cabecera" style="background-position:50% 30%; background-image: url(/rec/foto/obras/roma_vaquero_diaz-1.jpg)"></div>
+    <div class="img-cabecera" style="background-position:50% 30%; background-image: url(/rec/foto/obras/roma_vaquero_diaz-1.jpg)">
+    </div>
+    <div class="text-end">
+        <button title="Ver obra completa" class="m-1 btn btn-sm btn-outline-dark ampliar-imagen px-1 py-0" data-url="/rec/foto/obras/roma_vaquero_diaz-1.jpg">+</button>
+    </div>
+
     <br><br><br><br>
     <div class="container contenido mb-4">
         <div class="row">
-            <div class="col-8 col-lg-4 pe-4 me-4">
-                <img class="img-fluid"  src="/rec/foto/personas/roma_vaquero_diaz.jpg?">
+            <div class="col-12 col-lg-4 pe-4 me-4 text-center">
+                <img class="col-8 col-lg-12 img-fluid" src="/rec/foto/personas/roma_vaquero_diaz.jpg?">
                 
+                <br><br>
             </div>
             <div class="col-11 ms-4 ps-8 col-lg-7">
                 <h1>Roma Vaquero Diaz</h1>
@@ -161,12 +167,14 @@
 
 <p class="lang-eng">Roma Vaquero Diaz (Pergamino, Argentina) Performance artist. Master in Combined Artistic Languages (U.N.A.), Graduate in Performing Arts (U.N.R.) and Professor of Arts in Dance/Body Expression. (Esc. Prov. Sup. de Teatro, Junín). She attended the Manglar Clinic coordinated by Andrés Labaké at Galería Acéfala (2023) and was part of the Artists Program at Galería Gachi Prieto (2021) She participated in residency Curadora, Santa Fe (2023); Raíces, Catamarca (2022); R.A.R.O. Madrid (2022); Escuchar la fotografía- Artexarte Gallery, Buenos Aires (2021); La Flecha, Capitán Sarmiento (2020 – 2019); Originario, Cura Malal (2018). She held individual exhibitions: How Many Bodies Enter a Body, Galería Olla Roja, Buenos Aires (2022); We are not a territory of conquest, Emilio Pettoruti Provincial Museum of Fine Arts, La Plata (2019); La Cosahecha, City Museum, Pergamino (2012) Her recent projects were exhibited at Galería Acéfala (CABA), Museum of Books and Language (CABA), Can Basté (Barcelona), Maristany Art Center (Barcelona), Quinta del sordo (Madrid); Gachi Prieto Gallery (CABA); Kirchner Cultural Center (CABA); Cherry Street Pier (Philadelphia); Provincial Museum of Fine Arts (La Plata); MEC Idea Space (Montevideo); Haroldo Conti Cultural Memory Center (CABA); Jacobo Borges Museum (Caracas); San Martín Cultural Center (CABA). In 2020 she published the book How Many Bodies Enter a Body (Editorial Flanbé, 2020). Since 2017 she has directed the Mundo Performance platform. She lives and works in Buenos Aires</p>
                     
-
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<script src="/lib/js/init-persona-artista.js"></script>
+
 
         </div>
 
@@ -265,23 +273,24 @@
 
                         
                         <br>
-                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-27 01:48:24</b></span>
+                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-27 02:59:33</b></span>
                     </nav>
                 </div>
             </div>
         </footer>
 
+
         <nav id="menu-permanente">
-            <ul>
-                <li class="mostrar-si-pagina-desplazada">
+            <ul class="row" title="Ir a la portada">
+                <li class="col mostrar-si-pagina-desplazada">
                     <a href="/"><img class="fx-invert" height="10px" src="/rec/grafica/logo-posverso.svg?" title="POSVERSO"></a>
                 </li>
-                <li class="mx-2">
-                    <a href="/pag/contacto/" title="Contacto">
+                <li class="col mx-2" title="Contacto">
+                    <a href="/pag/contacto/">
                         <img height="20px" src="/rec/grafica/icon-contacto.svg?" title="Datos de contacto">
                     </a>
                 </li>
-                <li class="me-2 selector-idioma">
+                <li class="col me-2 selector-idioma" title="Traducir página con Google Translate">
                     <img height="15px" src="/rec/grafica/icon-traducir.svg?" onclick="sel_traducir.click()">
                     <div class="submenu">
                         
@@ -299,14 +308,26 @@
                         
                     </div>
                 </li>
-                <li class="mostrar-si-pagina-desplazada">
+                <li class="col mostrar-si-pagina-desplazada" title="Desplazarse al inicio de la página">
                     <button onclick="window.scrollTo(0,0)">
-                        <img height="20px" src="/rec/grafica/icon-subir.svg?" title="Ir al inicio de la página">
+                        <img height="20px" src="/rec/grafica/icon-subir.svg?">
                     </button>
                 </li>
             </ul>
-
         </nav>
+
+
+        <div id="imagen_ampliada">
+            <div class="container">
+                <div class="text-end pb-3">
+                    <button class="btn btn-sm btn-outline-light cerrar" title="CERRAR imagen ampliada">X</button>
+                </div>
+                <div>
+                    <img class="img-fluid imagen" src="">
+                </div>
+            </div>
+        </div>
+
 
     </body>
 </html>

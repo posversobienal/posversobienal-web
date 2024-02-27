@@ -140,13 +140,19 @@
         <div class="cuerpo">
             
 <div class="persona">
-    <div class="img-cabecera" style="background-position:50% 60%; background-image: url(/rec/foto/obras/paulo_bruscky-1.jpg)"></div>
+    <div class="img-cabecera" style="background-position:50% 60%; background-image: url(/rec/foto/obras/paulo_bruscky-1.jpg)">
+    </div>
+    <div class="text-end">
+        <button title="Ver obra completa" class="m-1 btn btn-sm btn-outline-dark ampliar-imagen px-1 py-0" data-url="/rec/foto/obras/paulo_bruscky-1.jpg">+</button>
+    </div>
+
     <br><br><br><br>
     <div class="container contenido mb-4">
         <div class="row">
-            <div class="col-8 col-lg-4 pe-4 me-4">
-                <img class="img-fluid"  src="/rec/foto/personas/paulo_bruscky.jpg?">
+            <div class="col-12 col-lg-4 pe-4 me-4 text-center">
+                <img class="col-8 col-lg-12 img-fluid" src="/rec/foto/personas/paulo_bruscky.jpg?">
                 
+                <br><br>
             </div>
             <div class="col-11 ms-4 ps-8 col-lg-7">
                 <h1>Paulo Bruscky</h1>
@@ -161,12 +167,14 @@
 
 <p class="lang-eng">(1949, Recife, Brazil) Experimental artist and poet, Bruscky is one of the greatest exponents of conceptual art in Brazil and one of the main precursors of various manifestations that involve art, technology and communication. His work is marked by both a multimedia and intermediate character, as well as by its content of social and political contestation, the result of the artist's critical and militant stance. Bruscky began his research in the field of conceptual art in the 1960s, participating in the end of the decade of the poem/processo movement, and from 1973 he entered the mail art circuit, becoming one of the main pioneers of that demonstration in Brazil. From then on, he developed an intense dialogue with various artists, mainly members of the groups Fluxus and Gutai, as well as several names from Latin America and Eastern Europe. Nationally and internationally recognized both as an artist and as a cultural agent, Bruscky participated in various biennials, such as: 57th International Art Exhibition la Biennale di Venezia – Viva Arte Viva, Veneza, Italy, 2017; 16th, 20th, 26th and 29th editions of the São Paulo Biennial (1981, 1989, 2004 and 2010), São Paulo, Brazil; and 10th Havana Biennial, Cuba, 2009; among others. His works are part of various institutional collections, such as: Center Georges Pompidou, Paris, France; Museu d’Art Contemporani de Barcelona (MACBA), Barcelona, Spain; Pinacoteca do Estado de São Paulo, São Paulo, Brazil; Solomon R. Guggenheim Museum, New York, USA; Stedelijk Museum, Amsterdam, Netherlands; Tate Modern, London, UK; The Museum of Modern Art (MoMA), New York, USA; among others.</p>
                     
-
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<script src="/lib/js/init-persona-artista.js"></script>
+
 
         </div>
 
@@ -265,23 +273,24 @@
 
                         
                         <br>
-                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-27 01:48:23</b></span>
+                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-27 02:59:33</b></span>
                     </nav>
                 </div>
             </div>
         </footer>
 
+
         <nav id="menu-permanente">
-            <ul>
-                <li class="mostrar-si-pagina-desplazada">
+            <ul class="row" title="Ir a la portada">
+                <li class="col mostrar-si-pagina-desplazada">
                     <a href="/"><img class="fx-invert" height="10px" src="/rec/grafica/logo-posverso.svg?" title="POSVERSO"></a>
                 </li>
-                <li class="mx-2">
-                    <a href="/pag/contacto/" title="Contacto">
+                <li class="col mx-2" title="Contacto">
+                    <a href="/pag/contacto/">
                         <img height="20px" src="/rec/grafica/icon-contacto.svg?" title="Datos de contacto">
                     </a>
                 </li>
-                <li class="me-2 selector-idioma">
+                <li class="col me-2 selector-idioma" title="Traducir página con Google Translate">
                     <img height="15px" src="/rec/grafica/icon-traducir.svg?" onclick="sel_traducir.click()">
                     <div class="submenu">
                         
@@ -299,14 +308,26 @@
                         
                     </div>
                 </li>
-                <li class="mostrar-si-pagina-desplazada">
+                <li class="col mostrar-si-pagina-desplazada" title="Desplazarse al inicio de la página">
                     <button onclick="window.scrollTo(0,0)">
-                        <img height="20px" src="/rec/grafica/icon-subir.svg?" title="Ir al inicio de la página">
+                        <img height="20px" src="/rec/grafica/icon-subir.svg?">
                     </button>
                 </li>
             </ul>
-
         </nav>
+
+
+        <div id="imagen_ampliada">
+            <div class="container">
+                <div class="text-end pb-3">
+                    <button class="btn btn-sm btn-outline-light cerrar" title="CERRAR imagen ampliada">X</button>
+                </div>
+                <div>
+                    <img class="img-fluid imagen" src="">
+                </div>
+            </div>
+        </div>
+
 
     </body>
 </html>

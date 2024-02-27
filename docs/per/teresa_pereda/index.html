@@ -140,17 +140,23 @@
         <div class="cuerpo">
             
 <div class="persona">
-    <div class="img-cabecera" style="background-position:50% 50%; background-image: url(/rec/foto/obras/teresa_pereda-1.jpg)"></div>
+    <div class="img-cabecera" style="background-position:50% 50%; background-image: url(/rec/foto/obras/teresa_pereda-1.jpg)">
+    </div>
+    <div class="text-end">
+        <button title="Ver obra completa" class="m-1 btn btn-sm btn-outline-dark ampliar-imagen px-1 py-0" data-url="/rec/foto/obras/teresa_pereda-1.jpg">+</button>
+    </div>
+
     <br><br><br><br>
     <div class="container contenido mb-4">
         <div class="row">
-            <div class="col-8 col-lg-4 pe-4 me-4">
-                <img class="img-fluid"  src="/rec/foto/personas/teresa_pereda.jpg?">
+            <div class="col-12 col-lg-4 pe-4 me-4 text-center">
+                <img class="col-8 col-lg-12 img-fluid" src="/rec/foto/personas/teresa_pereda.jpg?">
                 
-                <p class="my-2 text-center">
+                <p class="my-2">
                     <a href="https://teresapereda.com.ar/" target="_blank">Web oficial</a>
                 </p>
                 
+                <br><br>
             </div>
             <div class="col-11 ms-4 ps-8 col-lg-7">
                 <h1>Teresa Pereda</h1>
@@ -165,12 +171,14 @@
 
 <p class="lang-eng">(Buenos Aires, 1956) Graduate in History of Arts, UBA (1981). Artist, researcher and curator. At the beginning of the 90s she began to use the earth element in the construction of an aesthetic that deepens her poetics based on the man-earth bond. Among her individual samples the following stand out: Humus. La piel no calla, BienalSur, UFGRS, Porto Alegre (2017); Agua que no se detiene, National Museum of Decorative Art, Buenos Aires (2013); Pró(x)imo posible. Cita país, Parque de la Memoria, Buenos Aires (2013); Recolección-restitución. Citas por América, Recoleta Cultural Center, Buenos Aires (2010); Recolección en el bosque. Cita en Yatana, I Biennial of the End of the World, Ushuaia (2008). She participed at several group exhibitions: El Dorado. Un territorio, PROA Foundation, Buenos Aires (2023); CITA CON LA SELVA Acciones ecopoéticas en Amazonia, BIENALSUR 2023, Hotel DADA, Argentina (2023); Tierra, Herlitzka + Farias Gallery, Buenos Aires; Fronteras abiertas, 14th Curitiba Biennial, Niemeyer Museum, Brazil (2019). Her work is part of important institutional collections such as the National Museum of Fine Arts, Argentina, Museum of Latin American Art of Buenos Aires, Fortabat Collection, Buenos Aires, Museo Castagnino–MACRO, Rosario, Blanton Museum of Art – University of Texas, Austin, and Sayago &amp; Pardon – SPACE Collection, Irvine, California, among others.</p>
                     
-
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<script src="/lib/js/init-persona-artista.js"></script>
+
 
         </div>
 
@@ -269,23 +277,24 @@
 
                         
                         <br>
-                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-27 01:48:23</b></span>
+                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-27 02:59:33</b></span>
                     </nav>
                 </div>
             </div>
         </footer>
 
+
         <nav id="menu-permanente">
-            <ul>
-                <li class="mostrar-si-pagina-desplazada">
+            <ul class="row" title="Ir a la portada">
+                <li class="col mostrar-si-pagina-desplazada">
                     <a href="/"><img class="fx-invert" height="10px" src="/rec/grafica/logo-posverso.svg?" title="POSVERSO"></a>
                 </li>
-                <li class="mx-2">
-                    <a href="/pag/contacto/" title="Contacto">
+                <li class="col mx-2" title="Contacto">
+                    <a href="/pag/contacto/">
                         <img height="20px" src="/rec/grafica/icon-contacto.svg?" title="Datos de contacto">
                     </a>
                 </li>
-                <li class="me-2 selector-idioma">
+                <li class="col me-2 selector-idioma" title="Traducir página con Google Translate">
                     <img height="15px" src="/rec/grafica/icon-traducir.svg?" onclick="sel_traducir.click()">
                     <div class="submenu">
                         
@@ -303,14 +312,26 @@
                         
                     </div>
                 </li>
-                <li class="mostrar-si-pagina-desplazada">
+                <li class="col mostrar-si-pagina-desplazada" title="Desplazarse al inicio de la página">
                     <button onclick="window.scrollTo(0,0)">
-                        <img height="20px" src="/rec/grafica/icon-subir.svg?" title="Ir al inicio de la página">
+                        <img height="20px" src="/rec/grafica/icon-subir.svg?">
                     </button>
                 </li>
             </ul>
-
         </nav>
+
+
+        <div id="imagen_ampliada">
+            <div class="container">
+                <div class="text-end pb-3">
+                    <button class="btn btn-sm btn-outline-light cerrar" title="CERRAR imagen ampliada">X</button>
+                </div>
+                <div>
+                    <img class="img-fluid imagen" src="">
+                </div>
+            </div>
+        </div>
+
 
     </body>
 </html>

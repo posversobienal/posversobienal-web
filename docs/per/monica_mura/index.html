@@ -140,17 +140,23 @@
         <div class="cuerpo">
             
 <div class="persona">
-    <div class="img-cabecera" style="background-position:50% 33%; background-image: url(/rec/foto/obras/monica_mura-1.jpg)"></div>
+    <div class="img-cabecera" style="background-position:50% 33%; background-image: url(/rec/foto/obras/monica_mura-1.jpg)">
+    </div>
+    <div class="text-end">
+        <button title="Ver obra completa" class="m-1 btn btn-sm btn-outline-dark ampliar-imagen px-1 py-0" data-url="/rec/foto/obras/monica_mura-1.jpg">+</button>
+    </div>
+
     <br><br><br><br>
     <div class="container contenido mb-4">
         <div class="row">
-            <div class="col-8 col-lg-4 pe-4 me-4">
-                <img class="img-fluid"  src="/rec/foto/personas/monica_mura.jpg?">
+            <div class="col-12 col-lg-4 pe-4 me-4 text-center">
+                <img class="col-8 col-lg-12 img-fluid" src="/rec/foto/personas/monica_mura.jpg?">
                 
-                <p class="my-2 text-center">
+                <p class="my-2">
                     <a href="http://www.monicamura.com/" target="_blank">Web oficial</a>
                 </p>
                 
+                <br><br>
             </div>
             <div class="col-11 ms-4 ps-8 col-lg-7">
                 <h1>Monica Mura</h1>
@@ -165,12 +171,14 @@
 
 <p class="lang-eng">(Cagliari, Italy 1979). Interdisciplinary artist, performer and artivist. Her work analyzes the relationships between memories, genders and identities, taking as a starting point her research on the paradigms of power and social and political control, in the sphere of the intimate, the private and the public. She has been selected in calls between Spain, Italy, Portugal, Belgium, Dubai, Ecuador, Argentina and Costa Rica. It has carried out its actions and has exhibited in key spaces such as: Museo Nacional Thyssen-Bornemisza, ARCO Madrid, JUSTMAD, Sala Alcalá 31, Museo Vostell Malpartida, CGAC, Museo Centro Gaiàs, Sala Dogana-Palazzo Ducale, Génova, XX Bienal de Arte de Cerveira, MIA Anywhere, II Biennale della Fiber Art Sardegna. His work is part of public and private collections, among which the collections of: CGAC Centro Gallego de Arte Contemporáneo, Provincial Museum of Lugo, Museum of Contemporary Art MAC Fundación Florencio de La Fuente de Huete, Museum of Natural History of the University of Santiago de Compostela, Alterarte Collection of the Ourense Campus of the University of Vigo, and MARATÈ Museum of Isili, Sardinia, Italy.</p>
                     
-
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<script src="/lib/js/init-persona-artista.js"></script>
+
 
         </div>
 
@@ -269,23 +277,24 @@
 
                         
                         <br>
-                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-27 01:48:24</b></span>
+                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-27 02:59:33</b></span>
                     </nav>
                 </div>
             </div>
         </footer>
 
+
         <nav id="menu-permanente">
-            <ul>
-                <li class="mostrar-si-pagina-desplazada">
+            <ul class="row" title="Ir a la portada">
+                <li class="col mostrar-si-pagina-desplazada">
                     <a href="/"><img class="fx-invert" height="10px" src="/rec/grafica/logo-posverso.svg?" title="POSVERSO"></a>
                 </li>
-                <li class="mx-2">
-                    <a href="/pag/contacto/" title="Contacto">
+                <li class="col mx-2" title="Contacto">
+                    <a href="/pag/contacto/">
                         <img height="20px" src="/rec/grafica/icon-contacto.svg?" title="Datos de contacto">
                     </a>
                 </li>
-                <li class="me-2 selector-idioma">
+                <li class="col me-2 selector-idioma" title="Traducir página con Google Translate">
                     <img height="15px" src="/rec/grafica/icon-traducir.svg?" onclick="sel_traducir.click()">
                     <div class="submenu">
                         
@@ -303,14 +312,26 @@
                         
                     </div>
                 </li>
-                <li class="mostrar-si-pagina-desplazada">
+                <li class="col mostrar-si-pagina-desplazada" title="Desplazarse al inicio de la página">
                     <button onclick="window.scrollTo(0,0)">
-                        <img height="20px" src="/rec/grafica/icon-subir.svg?" title="Ir al inicio de la página">
+                        <img height="20px" src="/rec/grafica/icon-subir.svg?">
                     </button>
                 </li>
             </ul>
-
         </nav>
+
+
+        <div id="imagen_ampliada">
+            <div class="container">
+                <div class="text-end pb-3">
+                    <button class="btn btn-sm btn-outline-light cerrar" title="CERRAR imagen ampliada">X</button>
+                </div>
+                <div>
+                    <img class="img-fluid imagen" src="">
+                </div>
+            </div>
+        </div>
+
 
     </body>
 </html>

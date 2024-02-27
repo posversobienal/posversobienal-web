@@ -140,13 +140,19 @@
         <div class="cuerpo">
             
 <div class="persona">
-    <div class="img-cabecera" style="background-position:50% 45%; background-image: url(/rec/foto/obras/tulio_restrepo-1.jpg)"></div>
+    <div class="img-cabecera" style="background-position:50% 45%; background-image: url(/rec/foto/obras/tulio_restrepo-1.jpg)">
+    </div>
+    <div class="text-end">
+        <button title="Ver obra completa" class="m-1 btn btn-sm btn-outline-dark ampliar-imagen px-1 py-0" data-url="/rec/foto/obras/tulio_restrepo-1.jpg">+</button>
+    </div>
+
     <br><br><br><br>
     <div class="container contenido mb-4">
         <div class="row">
-            <div class="col-8 col-lg-4 pe-4 me-4">
-                <img class="img-fluid"  src="/rec/foto/personas/tulio_restrepo.jpg?">
+            <div class="col-12 col-lg-4 pe-4 me-4 text-center">
+                <img class="col-8 col-lg-12 img-fluid" src="/rec/foto/personas/tulio_restrepo.jpg?">
                 
+                <br><br>
             </div>
             <div class="col-11 ms-4 ps-8 col-lg-7">
                 <h1>Tulio Restrepo</h1>
@@ -163,12 +169,14 @@
 <p class="lang-eng">Tulio Restrepo (Medellín, Colombia, 1958). He lives and works in Medellín. Artist, teacher, graphic designer, Universidad Pontificia Bolivariana. UPB; Specialist in Urban Studies. EAFIT; Master in Plastic and Visual Arts. AN I. He has exhibited individually and collectively since 1978 in printmaking, sculpture, installations, experimental poetry and mail art. He works as a teacher at the School of Arts and Humanities of the EAFIT University and in the Visual Arts program of the Metropolitan Technological Institute ITM, in Medellín. He participates and collaborates in the International Network of Mail Art, Postal Art or Mail Art from 1982 to the present, in numerous exhibitions in alternative art spaces, museums, galleries, libraries and biennials. In 1984, he received a special mention from the jury for the work of the Latin American group Arte Correo, with the project, Desaparecidos Políticos de Nuestra América; event organized by the postal art group, Solidarte / Mexico. International Solidarity for Arte Correo, at the first Havana Cuba Biennial / National Museum of Fine Arts of Havana, Cuba. He has curated, among others, the following Arte Correo / Mail Art exhibitions: Postdata. International Mail Art &amp; Net Art Project and Exhibition. EAFIT Arts Center-University, Medellín, Colombia, 2008: and Código Postal. International Mail Art Archive Show, 10th International Image Festival, Manizales, Colombia, 2011.</p>
 <p class="lang-eng">In 2006 he received the Media Art Award of the Art section of the Government of Lower Austria / Oir es Ver-Hören Ist Sehen-To Hear is to See – "Art in the sphere of electronics, presented through the example of radio-art and sound sculpture". Radio Art: Project &amp; Travel International Exhibition. Curator: Güe Schmidt.</p>
                     
-
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<script src="/lib/js/init-persona-artista.js"></script>
+
 
         </div>
 
@@ -267,23 +275,24 @@
 
                         
                         <br>
-                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-27 01:48:24</b></span>
+                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-27 02:59:33</b></span>
                     </nav>
                 </div>
             </div>
         </footer>
 
+
         <nav id="menu-permanente">
-            <ul>
-                <li class="mostrar-si-pagina-desplazada">
+            <ul class="row" title="Ir a la portada">
+                <li class="col mostrar-si-pagina-desplazada">
                     <a href="/"><img class="fx-invert" height="10px" src="/rec/grafica/logo-posverso.svg?" title="POSVERSO"></a>
                 </li>
-                <li class="mx-2">
-                    <a href="/pag/contacto/" title="Contacto">
+                <li class="col mx-2" title="Contacto">
+                    <a href="/pag/contacto/">
                         <img height="20px" src="/rec/grafica/icon-contacto.svg?" title="Datos de contacto">
                     </a>
                 </li>
-                <li class="me-2 selector-idioma">
+                <li class="col me-2 selector-idioma" title="Traducir página con Google Translate">
                     <img height="15px" src="/rec/grafica/icon-traducir.svg?" onclick="sel_traducir.click()">
                     <div class="submenu">
                         
@@ -301,14 +310,26 @@
                         
                     </div>
                 </li>
-                <li class="mostrar-si-pagina-desplazada">
+                <li class="col mostrar-si-pagina-desplazada" title="Desplazarse al inicio de la página">
                     <button onclick="window.scrollTo(0,0)">
-                        <img height="20px" src="/rec/grafica/icon-subir.svg?" title="Ir al inicio de la página">
+                        <img height="20px" src="/rec/grafica/icon-subir.svg?">
                     </button>
                 </li>
             </ul>
-
         </nav>
+
+
+        <div id="imagen_ampliada">
+            <div class="container">
+                <div class="text-end pb-3">
+                    <button class="btn btn-sm btn-outline-light cerrar" title="CERRAR imagen ampliada">X</button>
+                </div>
+                <div>
+                    <img class="img-fluid imagen" src="">
+                </div>
+            </div>
+        </div>
+
 
     </body>
 </html>

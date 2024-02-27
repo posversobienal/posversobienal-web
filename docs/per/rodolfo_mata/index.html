@@ -140,13 +140,19 @@
         <div class="cuerpo">
             
 <div class="persona">
-    <div class="img-cabecera" style="background-position:50% 50%; background-image: url(/rec/foto/obras/rodolfo_mata-1.jpg)"></div>
+    <div class="img-cabecera" style="background-position:50% 50%; background-image: url(/rec/foto/obras/rodolfo_mata-1.jpg)">
+    </div>
+    <div class="text-end">
+        <button title="Ver obra completa" class="m-1 btn btn-sm btn-outline-dark ampliar-imagen px-1 py-0" data-url="/rec/foto/obras/rodolfo_mata-1.jpg">+</button>
+    </div>
+
     <br><br><br><br>
     <div class="container contenido mb-4">
         <div class="row">
-            <div class="col-8 col-lg-4 pe-4 me-4">
-                <img class="img-fluid"  src="/rec/foto/personas/rodolfo_mata.jpg?">
+            <div class="col-12 col-lg-4 pe-4 me-4 text-center">
+                <img class="col-8 col-lg-12 img-fluid" src="/rec/foto/personas/rodolfo_mata.jpg?">
                 
+                <br><br>
             </div>
             <div class="col-11 ms-4 ps-8 col-lg-7">
                 <h1>Rodolfo Mata</h1>
@@ -161,12 +167,14 @@
 
 <p class="lang-eng">(Mexico City, 1960) has published the poetry books Parajes y paralajes (1998), Temporal (2008), Qué decir (2011), Nuestro nombre (2015) and Desescribir (Ediciones del Lirio, México / Postypographika, Argentina 2021); the electronic poems Silencio vacío (Valencia, 2014) and Pronombres (2018), and the plaquette Doble naturaleza (2015). He has translated Brazilian writers and critics such as Haroldo de Campos, Paulo Leminski, Sebastião Uchoa Leite, Rubem Fonseca, Dalton Trevisan, Clarice Lispector, Jorge Amado and Antonio Candido, and is co-author of the anthologies Ensayistas brasileños: literatura, cultura y sociedad (2005), Alguna poesía brasileña 1963-2007 (2009, rep. 2014), and Antología Lit(e)Lat Volumen 1 of Latin American electronic literature (2021). He is a researcher at the Center for Literary Studies of the Institute of Philological Research of the UNAM where he has published works on José Juan Tablada and topics such as the relationships between the literary avant-garde and science, and electronic literature. He originally trained as an Industrial and Systems Engineer (ITESM) and later studied a bachelor's degree in Hispanic Literature (UNAM), a master's degree in Latin American integration (University of São Paulo) and a doctorate in Latin American literature (UNAM). He maintains the José Juan Tablada site: life, lyrics and image (www.tablada.unam.mx), the blog Qué decir (rodolfomata.blogspot.com) and with Diego Bonilla the Bio Electric Dot page (www.bioelectricdot.net), where is the electronic poem Big Data (2019), nominated for the Robert Coover Award 2021, from the Electronic Literature Organization. His electronic poems have been collected in Cartography of Latin American Digital Literature.</p>
                     
-
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<script src="/lib/js/init-persona-artista.js"></script>
+
 
         </div>
 
@@ -265,23 +273,24 @@
 
                         
                         <br>
-                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-27 01:48:24</b></span>
+                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-27 02:59:33</b></span>
                     </nav>
                 </div>
             </div>
         </footer>
 
+
         <nav id="menu-permanente">
-            <ul>
-                <li class="mostrar-si-pagina-desplazada">
+            <ul class="row" title="Ir a la portada">
+                <li class="col mostrar-si-pagina-desplazada">
                     <a href="/"><img class="fx-invert" height="10px" src="/rec/grafica/logo-posverso.svg?" title="POSVERSO"></a>
                 </li>
-                <li class="mx-2">
-                    <a href="/pag/contacto/" title="Contacto">
+                <li class="col mx-2" title="Contacto">
+                    <a href="/pag/contacto/">
                         <img height="20px" src="/rec/grafica/icon-contacto.svg?" title="Datos de contacto">
                     </a>
                 </li>
-                <li class="me-2 selector-idioma">
+                <li class="col me-2 selector-idioma" title="Traducir página con Google Translate">
                     <img height="15px" src="/rec/grafica/icon-traducir.svg?" onclick="sel_traducir.click()">
                     <div class="submenu">
                         
@@ -299,14 +308,26 @@
                         
                     </div>
                 </li>
-                <li class="mostrar-si-pagina-desplazada">
+                <li class="col mostrar-si-pagina-desplazada" title="Desplazarse al inicio de la página">
                     <button onclick="window.scrollTo(0,0)">
-                        <img height="20px" src="/rec/grafica/icon-subir.svg?" title="Ir al inicio de la página">
+                        <img height="20px" src="/rec/grafica/icon-subir.svg?">
                     </button>
                 </li>
             </ul>
-
         </nav>
+
+
+        <div id="imagen_ampliada">
+            <div class="container">
+                <div class="text-end pb-3">
+                    <button class="btn btn-sm btn-outline-light cerrar" title="CERRAR imagen ampliada">X</button>
+                </div>
+                <div>
+                    <img class="img-fluid imagen" src="">
+                </div>
+            </div>
+        </div>
+
 
     </body>
 </html>

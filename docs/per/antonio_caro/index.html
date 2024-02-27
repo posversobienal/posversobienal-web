@@ -140,13 +140,19 @@
         <div class="cuerpo">
             
 <div class="persona">
-    <div class="img-cabecera" style="background-position:50% 50%; background-image: url(/rec/foto/obras/antonio_caro-1.jpg)"></div>
+    <div class="img-cabecera" style="background-position:50% 50%; background-image: url(/rec/foto/obras/antonio_caro-1.jpg)">
+    </div>
+    <div class="text-end">
+        <button title="Ver obra completa" class="m-1 btn btn-sm btn-outline-dark ampliar-imagen px-1 py-0" data-url="/rec/foto/obras/antonio_caro-1.jpg">+</button>
+    </div>
+
     <br><br><br><br>
     <div class="container contenido mb-4">
         <div class="row">
-            <div class="col-8 col-lg-4 pe-4 me-4">
-                <img class="img-fluid"  src="/rec/foto/personas/antonio_caro.jpg?">
+            <div class="col-12 col-lg-4 pe-4 me-4 text-center">
+                <img class="col-8 col-lg-12 img-fluid" src="/rec/foto/personas/antonio_caro.jpg?">
                 
+                <br><br>
             </div>
             <div class="col-11 ms-4 ps-8 col-lg-7">
                 <h1>Antonio Caro</h1>
@@ -161,12 +167,14 @@
 
 <p class="lang-eng">Considered one of Colombia's most important conceptual artists, Antonio Caro is recognized worldwide for his ability to exploit the visual potential of words. His work uses unconventional techniques and forms of communication to transmit concise messages that refer to sociopolitical and cultural issues. Among the group exhibitions in which he participated, we can mention: History of two worlds: A dialogue between the MMK collection and the history of Latin American experimental art, 1944 – 1989, Museum of Modern Art of Buenos Aires. Buenos Aires, 2018; Memories of Underdevelopment: Art and the Decolonial Turn in Latin America, 1960 – 1985, Museum of Contemporary Art San Diego, Museo de Arte de Lima, and Fundación Jumex, 2017; Resistance Performed – Aesthetic Strategies under Repressive Regimes in Latin America, Migros Museum, Zürich, 2015; Artevida, Museum of Modern Art, Rio de Janeiro, 2014; Participation – Latin American Performance Meeting, Museum of Contemporary Argentine Art “Víctor Grippo”, Junín, Buenos Aires, 2015; Aliento. Art of Colombia, Daros Latinoamérica, Kunstmuseum Bochum, Bochum, 2013; Grants &amp; Commissions Program Exhibition: Deferred Archive, Cisneros Fontanals Art Foundation, Miami, 2013; Saber desconocer, 43rd National (Inter) Salon of Artists, Medellín, 2013; and Crisiss. América Latina, arte y confrontación 1910-2010, Museo Palacio de Bellas Artes, Mexico City, 2011. His works are in the collections of the Blanton Museum of Art, Austin, USA; Daros Latinamerica, Zurich, Switzerland; National Museum of Colombia, Bogotá; Tate Modern, London, UK; Museo Nacional Centro de Arte Reina Sofía, Madrid, Spain, among others.</p>
                     
-
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<script src="/lib/js/init-persona-artista.js"></script>
+
 
         </div>
 
@@ -265,23 +273,24 @@
 
                         
                         <br>
-                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-27 01:48:23</b></span>
+                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-27 02:59:33</b></span>
                     </nav>
                 </div>
             </div>
         </footer>
 
+
         <nav id="menu-permanente">
-            <ul>
-                <li class="mostrar-si-pagina-desplazada">
+            <ul class="row" title="Ir a la portada">
+                <li class="col mostrar-si-pagina-desplazada">
                     <a href="/"><img class="fx-invert" height="10px" src="/rec/grafica/logo-posverso.svg?" title="POSVERSO"></a>
                 </li>
-                <li class="mx-2">
-                    <a href="/pag/contacto/" title="Contacto">
+                <li class="col mx-2" title="Contacto">
+                    <a href="/pag/contacto/">
                         <img height="20px" src="/rec/grafica/icon-contacto.svg?" title="Datos de contacto">
                     </a>
                 </li>
-                <li class="me-2 selector-idioma">
+                <li class="col me-2 selector-idioma" title="Traducir página con Google Translate">
                     <img height="15px" src="/rec/grafica/icon-traducir.svg?" onclick="sel_traducir.click()">
                     <div class="submenu">
                         
@@ -299,14 +308,26 @@
                         
                     </div>
                 </li>
-                <li class="mostrar-si-pagina-desplazada">
+                <li class="col mostrar-si-pagina-desplazada" title="Desplazarse al inicio de la página">
                     <button onclick="window.scrollTo(0,0)">
-                        <img height="20px" src="/rec/grafica/icon-subir.svg?" title="Ir al inicio de la página">
+                        <img height="20px" src="/rec/grafica/icon-subir.svg?">
                     </button>
                 </li>
             </ul>
-
         </nav>
+
+
+        <div id="imagen_ampliada">
+            <div class="container">
+                <div class="text-end pb-3">
+                    <button class="btn btn-sm btn-outline-light cerrar" title="CERRAR imagen ampliada">X</button>
+                </div>
+                <div>
+                    <img class="img-fluid imagen" src="">
+                </div>
+            </div>
+        </div>
+
 
     </body>
 </html>

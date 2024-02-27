@@ -140,17 +140,23 @@
         <div class="cuerpo">
             
 <div class="persona">
-    <div class="img-cabecera" style="background-position:50% 70%; background-image: url(/rec/foto/obras/maria_jose_machado-1.jpg)"></div>
+    <div class="img-cabecera" style="background-position:50% 70%; background-image: url(/rec/foto/obras/maria_jose_machado-1.jpg)">
+    </div>
+    <div class="text-end">
+        <button title="Ver obra completa" class="m-1 btn btn-sm btn-outline-dark ampliar-imagen px-1 py-0" data-url="/rec/foto/obras/maria_jose_machado-1.jpg">+</button>
+    </div>
+
     <br><br><br><br>
     <div class="container contenido mb-4">
         <div class="row">
-            <div class="col-8 col-lg-4 pe-4 me-4">
-                <img class="img-fluid"  src="/rec/foto/personas/maria_jose_machado.jpg?">
+            <div class="col-12 col-lg-4 pe-4 me-4 text-center">
+                <img class="col-8 col-lg-12 img-fluid" src="/rec/foto/personas/maria_jose_machado.jpg?">
                 
-                <p class="my-2 text-center">
+                <p class="my-2">
                     <a href="https://www.mariajosemachadogutierrez.com/" target="_blank">Web oficial</a>
                 </p>
                 
+                <br><br>
             </div>
             <div class="col-11 ms-4 ps-8 col-lg-7">
                 <h1>María José Machado</h1>
@@ -165,12 +171,14 @@
 
 <p class="lang-eng">(Ecuador, 1984) María José is currently pursuing a doctorate in Education and Innovation at the UIIX in Mexico. She has a Master's Degree in Theory and Philosophy of Art and a Bachelor of Arts with a mention in Applied Arts. She has dedicated a decade to teaching at the University of Cuenca, in addition to participating as a trainer in several academic and cultural institutions in Ecuador. In the field of cultural management, she has played important roles in the Directorate of Culture, Recreation and Knowledge of the Mayor's Office of Cuenca, as well as in the Faculty of Arts of the University of Cuenca. She is the owner and curator of Cu. Gallery, a gallery of applied arts and designer design, and co-founder of independent cultural events such as Cuarto Aparte and Salida de Emergencia. As an artist she has dedicated herself to action art, performance and community practice since 2007. In 2016 she was invited to the Deformes Biennial in Chile, in 2018 she was invited to Interdicta, the First Performance Meeting in Bolivia, designated as artist of the year at the Cuenca International Biennial and in that same year winner of the 2019 CIFO ART scholarship and commission program exhibiting at the Museo del Barrio in New York. In 2021 she is selected for the performance commission by the Creativity and Culture Unit of the Inter-American Development Bank for the world summit The power of art as a driver of social transformation in the post-pandemic era / How to heal a wounded world. Winner of second prize at the Río Negro International Biennial in Valcheta-Argentina. Her work has been exhibited in Colombia, Bolivia, the United States, Mexico, France, Chile, Argentina and Spain. She currently develops her work and artistic discourse from the premise and research to focus on art as a social function and within the function as a cultural manager she investigates and applies the recognition of creative circular economy.</p>
                     
-
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<script src="/lib/js/init-persona-artista.js"></script>
+
 
         </div>
 
@@ -269,23 +277,24 @@
 
                         
                         <br>
-                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-27 01:48:24</b></span>
+                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-27 02:59:33</b></span>
                     </nav>
                 </div>
             </div>
         </footer>
 
+
         <nav id="menu-permanente">
-            <ul>
-                <li class="mostrar-si-pagina-desplazada">
+            <ul class="row" title="Ir a la portada">
+                <li class="col mostrar-si-pagina-desplazada">
                     <a href="/"><img class="fx-invert" height="10px" src="/rec/grafica/logo-posverso.svg?" title="POSVERSO"></a>
                 </li>
-                <li class="mx-2">
-                    <a href="/pag/contacto/" title="Contacto">
+                <li class="col mx-2" title="Contacto">
+                    <a href="/pag/contacto/">
                         <img height="20px" src="/rec/grafica/icon-contacto.svg?" title="Datos de contacto">
                     </a>
                 </li>
-                <li class="me-2 selector-idioma">
+                <li class="col me-2 selector-idioma" title="Traducir página con Google Translate">
                     <img height="15px" src="/rec/grafica/icon-traducir.svg?" onclick="sel_traducir.click()">
                     <div class="submenu">
                         
@@ -303,14 +312,26 @@
                         
                     </div>
                 </li>
-                <li class="mostrar-si-pagina-desplazada">
+                <li class="col mostrar-si-pagina-desplazada" title="Desplazarse al inicio de la página">
                     <button onclick="window.scrollTo(0,0)">
-                        <img height="20px" src="/rec/grafica/icon-subir.svg?" title="Ir al inicio de la página">
+                        <img height="20px" src="/rec/grafica/icon-subir.svg?">
                     </button>
                 </li>
             </ul>
-
         </nav>
+
+
+        <div id="imagen_ampliada">
+            <div class="container">
+                <div class="text-end pb-3">
+                    <button class="btn btn-sm btn-outline-light cerrar" title="CERRAR imagen ampliada">X</button>
+                </div>
+                <div>
+                    <img class="img-fluid imagen" src="">
+                </div>
+            </div>
+        </div>
+
 
     </body>
 </html>

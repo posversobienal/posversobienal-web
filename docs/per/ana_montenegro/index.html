@@ -140,17 +140,23 @@
         <div class="cuerpo">
             
 <div class="persona">
-    <div class="img-cabecera" style="background-position:50% 51%; background-image: url(/rec/foto/obras/ana_montenegro-2.jpg)"></div>
+    <div class="img-cabecera" style="background-position:50% 51%; background-image: url(/rec/foto/obras/ana_montenegro-2.jpg)">
+    </div>
+    <div class="text-end">
+        <button title="Ver obra completa" class="m-1 btn btn-sm btn-outline-dark ampliar-imagen px-1 py-0" data-url="/rec/foto/obras/ana_montenegro-2.jpg">+</button>
+    </div>
+
     <br><br><br><br>
     <div class="container contenido mb-4">
         <div class="row">
-            <div class="col-8 col-lg-4 pe-4 me-4">
-                <img class="img-fluid"  src="/rec/foto/personas/ana_montenegro.jpg?">
+            <div class="col-12 col-lg-4 pe-4 me-4 text-center">
+                <img class="col-8 col-lg-12 img-fluid" src="/rec/foto/personas/ana_montenegro.jpg?">
                 
-                <p class="my-2 text-center">
+                <p class="my-2">
                     <a href="https://anamontenegro.weebly.com/biografiacutea.html" target="_blank">Web oficial</a>
                 </p>
                 
+                <br><br>
             </div>
             <div class="col-11 ms-4 ps-8 col-lg-7">
                 <h1>Ana Montenegro</h1>
@@ -168,12 +174,14 @@
 <p class="lang-eng">Visual artist and performer. With training in architecture, scenography and Peircean semiotics, she develops Artistic Process courses based on semiotics, workshops, talks and advice for artists. She lives and works between Brazil and Argentina. In Brazil, she was included in some of the most prestigious exhibitions and events dedicated to performance art, such as Mostra Verbo, in São Paulo; Performance Art Brazil Festival, at the MAM in Rio de Janeiro; Performance Presente Futuro, at Oi Futuro, Rio de Janeiro; MIP 3 III International Performance Manifestação, in Belo Horizonte, among others. Her international participation in important exhibitions and festivals such as FONLAD, International Festival of Video Art and Performance, 16th edition, Portugal (2021): Another version of the life, RLAP, Le Lieu, center en art actuel, Quebec, Canada (2021): IMAF 2021, 23rd International Multimedial Art Festival, Odzaci-Novi Sad, Serbia (2021): The Amazon Must Live, Museo Diotti, Casalmaggiore (CR), Italy (2021): THE PERSISTENCE OF THE BODY Traces of Performance Art in Latin America, at the EAC Espacio de Arte Contemporáneo, Montevideo, Uruguay (2018); APART ROOM CA5.0, Cuenca, Ecuador (2018); LATITUDES – International Performance Art Festival, Santa Cruz de la Sierra, Bolivia (2018).</p>
 <p class="lang-eng">Since 2020, she co-directs the gallery HOTEL DADA Base de Arte Correo y Poesía Experimental, deepening her research in the field of action poetry, visual poetry and artist books. In 2022, she was selected to participate in the 1st International Biennial of Contemporary Art in Río Negro, in Patagonia Argentina. His work has appeared in prestigious specialized publications such as Arte Brasileiros (Brazil), Inter art actuel (Canada) and Utsanga (Italy).Associate curator at BIENALSUR International Biennial of Contemporary Art of the South 2023. Artistic director at POSVERSO, I International Biennial of Experimental Poetry of Argentina.</p>
                     
-
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<script src="/lib/js/init-persona-artista.js"></script>
+
 
         </div>
 
@@ -272,23 +280,24 @@
 
                         
                         <br>
-                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-27 01:48:24</b></span>
+                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-02-27 02:59:33</b></span>
                     </nav>
                 </div>
             </div>
         </footer>
 
+
         <nav id="menu-permanente">
-            <ul>
-                <li class="mostrar-si-pagina-desplazada">
+            <ul class="row" title="Ir a la portada">
+                <li class="col mostrar-si-pagina-desplazada">
                     <a href="/"><img class="fx-invert" height="10px" src="/rec/grafica/logo-posverso.svg?" title="POSVERSO"></a>
                 </li>
-                <li class="mx-2">
-                    <a href="/pag/contacto/" title="Contacto">
+                <li class="col mx-2" title="Contacto">
+                    <a href="/pag/contacto/">
                         <img height="20px" src="/rec/grafica/icon-contacto.svg?" title="Datos de contacto">
                     </a>
                 </li>
-                <li class="me-2 selector-idioma">
+                <li class="col me-2 selector-idioma" title="Traducir página con Google Translate">
                     <img height="15px" src="/rec/grafica/icon-traducir.svg?" onclick="sel_traducir.click()">
                     <div class="submenu">
                         
@@ -306,14 +315,26 @@
                         
                     </div>
                 </li>
-                <li class="mostrar-si-pagina-desplazada">
+                <li class="col mostrar-si-pagina-desplazada" title="Desplazarse al inicio de la página">
                     <button onclick="window.scrollTo(0,0)">
-                        <img height="20px" src="/rec/grafica/icon-subir.svg?" title="Ir al inicio de la página">
+                        <img height="20px" src="/rec/grafica/icon-subir.svg?">
                     </button>
                 </li>
             </ul>
-
         </nav>
+
+
+        <div id="imagen_ampliada">
+            <div class="container">
+                <div class="text-end pb-3">
+                    <button class="btn btn-sm btn-outline-light cerrar" title="CERRAR imagen ampliada">X</button>
+                </div>
+                <div>
+                    <img class="img-fluid imagen" src="">
+                </div>
+            </div>
+        </div>
+
 
     </body>
 </html>
