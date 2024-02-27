@@ -44,8 +44,8 @@
 
         <link rel="shortcut icon" href="{{ cfg.metadatos.favicon }}" type="image/x-icon" />
 
-        <script src="/dat/rec.js"></script>
-        <script src="/lib/js/comun.js"></script>
+        <script src="/dat/rec.js?{{ cfg.cache_actu }}"></script>
+        <script src="/lib/js/comun.js?{{ cfg.cache_actu }}"></script>
     </head>
     <body name="{% block body_name %}{% endblock %}">
         <nav class="menu">

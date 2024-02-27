@@ -1,10 +1,10 @@
 ---
 
-nombre: 'Mancioli'
-apellido: 'Hastings'
+nombre: 'Maurizio'
+apellido: 'Mancioli'
 seudonimo: ''
 
-nacionalidad: 'Italia, Suiza, Brasil'
+nacionalidad: 'Italia-Suiza/Brasil'
 contacto_publico: ''
 
 web: 'https://www.mauriziomancioli.com/'
@@ -12,10 +12,10 @@ web: 'https://www.mauriziomancioli.com/'
 eventos: []
 
 fotos:
-  persona: 'mancioli_hastings.jpg'
-  obra: 'mancioli_hastings-1.jpg'
+  persona: 'maurizio_mancioli.jpg'
+  obra: 'maurizio_mancioli-1.jpg'
 
-imagen_cabecera_posicion_inicial: 50% 70%
+imagen_cabecera_posicion_inicial: 50% 0%
 
 etiquetas:
   - invitado
