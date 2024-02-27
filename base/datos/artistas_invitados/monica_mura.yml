@@ -11,8 +11,6 @@ web: 'http://www.monicamura.com/'
 
 eventos: []
 
-obras: []
-
 fotos:
   persona: 'monica_mura.jpg'
   obra: 'monica_mura-1.jpg'

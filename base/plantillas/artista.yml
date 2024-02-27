@@ -11,8 +11,6 @@ web: ''
 
 eventos: []
 
-obras: []
-
 fotos:
   persona: '{foto-persona}'
   obra: '{foto-obra}'
