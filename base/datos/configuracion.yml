@@ -44,7 +44,7 @@ urls:
   info_be_cult: 'https://revistabecult.com.ar/'
   info_bienal_saco: 'https://bienalsaco.com/'
 
-menu_propuesta:
+menu:
   - titulo: 'BIENAL'
     url: '#'
     submenu:
@@ -85,43 +85,6 @@ menu_propuesta:
   - titulo: 'PRENSA'
     url: '/pag/prensa/'
 
-menu:
-  - titulo: 'ACERCA DE LA BIENAL'
-    url: '/pag/acerca_de_la_bienal/'
-  - titulo: 'POSVERSO BIENAL'
-    url: '#'
-    submenu:
-      - titulo: 'Eje temático'
-        url: '/pag/eje_tematico/'
-      - titulo: 'Equipo curatorial'
-        url: '/pag/equipo_curatorial/'
-      - titulo: 'Artistas homenajeados'
-        url: '/pag/artistas_homenajeados/'
-      - titulo: 'Curadores invitados'
-        url: '/pag/curadores_invitados/'
-      - titulo: 'Socios estratégicos'
-        url: '/pag/socios_estrategicos/'
-
-  - titulo: 'PROGRAMA'
-    url: '/pag/programa/'
-    submenu:
-      - titulo: 'Exhibición central'
-        url: '/pag/exhibicion_central/'
-      - titulo: 'Otras exhibiciones'
-        url: '/pag/otras_exhibiciones/'
-      - titulo: 'Proyectos colaterales'
-        url: '/pag/proyectos_colaterales/'
-  - titulo: 'CONVOCATORIA ABIERTA'
-    url: '/pag/convocatoria_abierta/'
-    submenu:
-      - titulo: 'Comité de selección'
-        url: '/pag/comite_de_seleccion/'
-  - titulo: 'SEDES'
-    url: '/pag/sedes/'
-  - titulo: 'ARTISTAS INVITADOS'
-    url: '/pag/artistas_invitados/'
-  - titulo: 'PRENSA'
-    url: '/pag/prensa/'
 
 
 idiomas_traducibles:
