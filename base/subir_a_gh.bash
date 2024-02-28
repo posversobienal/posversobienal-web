@@ -9,3 +9,5 @@ git commit -m "$1"
 git push
 
 cd $R
+
+xdg-open "https://posversobienal.com.ar/"
