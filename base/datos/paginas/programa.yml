@@ -2,9 +2,9 @@
 titulo: 'Programa'
 html_base: 'pagina.html'
 ruta_static: 'pag/programa/index.html'
+estilo: col-lg-11
 
 contenido: |
-
   **POSVERSO** – *I Bienal Internacional de Poesía Experimental de Argentina* – se desarrollará en cuatro secciones:
 
   - Una sección **principal**, que consistirá en la muestra central [Poéticas de la resistencia](/pag/eje_tematico/), conformada por [artistas invitados](/pag/artistas_invitados/).

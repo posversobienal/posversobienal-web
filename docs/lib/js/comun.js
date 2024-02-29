@@ -24,11 +24,24 @@ const ampliar_imagen = (url)=>{
 }
 
 
-/* eventos generales */
-window.onscroll = (event) => {
-    if(this.scrollY > 100){
-        document.body.classList.add('pagina-desplazada');
-    }else{
-        document.body.classList.remove('pagina-desplazada');
+const control_pagina_traducida = ()=>{
+    let xtb = document.querySelector('[http-equiv="X-Translated-By"]'),
+        vtb = '',
+        est = false;
+    if(xtb){
+        vtb = xtb.attributes['content'].value;
+        est = true;
     }
-};
+    return [est, vtb];
+}
+
+
+const resaltado_de_enlaces_actuales = (contexto)=>{
+    let links = contexto.querySelectorAll('a');
+    for(el of links){
+        if(window.location.pathname == el.attributes['href'].value){
+            el.classList.add('actual');
+            console.log(el);
+        }
+    }
+}

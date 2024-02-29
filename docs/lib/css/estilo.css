@@ -461,6 +461,9 @@ body.pagina-desplazada .mostrar-si-pagina-desplazada {
 .alerta-traduccion.traducida {
   display: inline-block;
 }
+a.actual {
+  opacity: 0.5;
+}
 @media (max-width: 700px) {
   .logos {
     flex-direction: column;
