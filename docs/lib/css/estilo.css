@@ -96,6 +96,13 @@ a.no-decoration {
   display: inline-block;
   position: relative;
 }
+.menu ul li span {
+  color: #ddd;
+  cursor: default;
+}
+.menu ul li span.smi {
+  color: #444;
+}
 .menu ul li a {
   color: #ddd;
   border: none;
@@ -113,7 +120,6 @@ a.no-decoration {
   border: none;
 }
 .menu ul li .submenu {
-  min-width: 200px;
   z-index: 1000;
   background: #222;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
@@ -126,9 +132,10 @@ a.no-decoration {
   display: none;
 }
 .menu ul li .submenu li {
-  padding: 3px;
+  padding: 3px 10px;
   border-bottom: 0.5px solid #444;
   display: block;
+  white-space: pre;
 }
 .menu ul li .submenu li a {
   display: block;

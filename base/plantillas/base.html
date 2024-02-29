@@ -62,15 +62,19 @@
                 <ul class="d-flex wrap">
                     {% for it in cfg.menu %}
                     <li>
+                        {% if it.url == '' %}
+                        <span>{{ it.titulo }}</span>
+                        {% else %}
                         <a href="{{ it.url }}">{{ it.titulo }}</a>
+                        {% endif%}
                         {% if 'submenu' in it %}
+                        <span class="smi">&#9662;</span>
                         <ul class="submenu">
                             {% for ism in it.submenu %}
                             <li><a href="{{ ism.url }}">{{ ism.titulo }}</a></li>
                             {% endfor %}
                         </ul>
                         {% endif %}
-
                     </li>
                     {% endfor %}
                 </ul>

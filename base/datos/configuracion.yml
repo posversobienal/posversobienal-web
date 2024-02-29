@@ -46,7 +46,7 @@ urls:
 
 menu:
   - titulo: 'BIENAL'
-    url: '#'
+    url: ''
     submenu:
       - titulo: 'Acerca de la bienal'
         url: '/pag/acerca_de_la_bienal/'
@@ -78,7 +78,7 @@ menu:
   - titulo: 'SEDES'
     url: '/pag/sedes/'
   - titulo: 'ARTISTAS'
-    url: '#'
+    url: ''
     submenu:
       - titulo: 'Invitados'
         url: '/pag/artistas_invitados/'
