@@ -1,4 +1,4 @@
-function setear_sede(el){
+const setear_sede = (el) => {
     const dat = el.attributes['data-geopos'].value.split(';').map(d => d.trim()),
           id = el.attributes['id'].value,
           texto = `<b>${dat[3]}</b><br>${dat[4]}`,
@@ -12,9 +12,10 @@ function setear_sede(el){
     });
 }
 
+
 var cnt_mapa, mapa, iconos, centroJ;
 
-window.onload = () => {
+const onload_acciones = () => {
     // seteo del mapa
     cnt_mapa = document.getElementById('osm-map');
     cnt_mapa.style = 'height:400px;';
@@ -43,11 +44,9 @@ window.onload = () => {
 
     mapa.setView(centroJ, 13);
 
-
     // seleccion de sedes
-
     const sedes = document.querySelectorAll('.sede');
     for(sede of sedes ){
         setear_sede(sede);
     }
-}
+};

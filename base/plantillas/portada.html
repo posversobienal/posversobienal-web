@@ -11,10 +11,12 @@
         {% endfor %}
   </div>
   <div class="carousel-inner">
-      {% for imagen in carousel_imagenes %}
+      {% for itm in carousel_imagenes %}
       {% if loop.index0 == 0 %}{% set estilo = 'active' %}{% else %}{% set estilo = '' %}{% endif %}
       <div class="carousel-item {{ estilo }}">
-          <img src="/rec/promo/portada/{{ imagen }}?{{ cfg.cache_actu }}" class="d-block w-100">
+          <a href="{{ itm.url }}" title="{{ itm.tit }}">
+              <img src="/rec/promo/portada/{{ itm.img }}?{{ cfg.cache_actu }}" class="d-block w-100">
+          </a>
       </div>
       {% endfor %}
   </div>

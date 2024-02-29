@@ -41,7 +41,6 @@ const resaltado_de_enlaces_actuales = (contexto)=>{
     for(el of links){
         if(window.location.pathname == el.attributes['href'].value){
             el.classList.add('actual');
-            console.log(el);
         }
     }
 }

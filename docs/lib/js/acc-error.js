@@ -109,7 +109,7 @@ const visor = document.querySelector('#vcanvas'),
 
 var t0, t1, t2, t3 = '';
 
-window.onload = ()=>{
+const onload_acciones = ()=>{
     hydraText.font = tipografias[
         parseInt(Math.random() * tipografias.length)
     ];
@@ -118,5 +118,5 @@ window.onload = ()=>{
     t2 = window.location.pathname;
     t3 = window.location.hash;
 
-    composicion[parseInt(Math.random()* composicion.length)]()
-}
+    composicion[parseInt(Math.random() * composicion.length)]()
+};

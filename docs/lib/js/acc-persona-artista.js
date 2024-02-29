@@ -1,4 +1,4 @@
-window.onload = () => {
+const onload_acciones = () => {
     let btns_ampliar_obra = document.querySelectorAll('.ampliar-imagen');
 
     for(el of btns_ampliar_obra){
@@ -6,4 +6,4 @@ window.onload = () => {
             ampliar_imagen(el.attributes['data-url'].value);
         });
     }
-}
+};

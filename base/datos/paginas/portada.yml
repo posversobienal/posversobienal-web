@@ -12,10 +12,10 @@ tematica:
     **Junín**, Buenos Aires.
 
 deslizador:
-  - im-1.jpg
-  - im-2.jpg
-  - im-3.jpg
-  - im-4.jpg
+  - {img: im-1.jpg, url: '/per/matilde_marin/', tit: 'Obra de Matilde Marín'}
+  - {img: im-2.jpg, url: '/per/fernando_aguiar/', tit: 'Obra de Fernando Aguiar'}
+  - {img: im-3.jpg, url: '/per/alejandro_thornton/', tit: 'Obra de Alejandro Thornton'}
+  - {img: im-4.jpg, url: '/per/giovanni_fontana/', tit: 'Obra de Giovanni Fontana'}
 
 novedades:
   maximo: 3

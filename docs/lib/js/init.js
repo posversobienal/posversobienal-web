@@ -4,9 +4,10 @@ window.onload = () => {
         document.querySelector('.alerta-traduccion').classList.add('traducida');
         document.querySelector('#tr-by').innerHTML = tr[1];
     }
-
     resaltado_de_enlaces_actuales(document);
-}
+
+    if(typeof onload_acciones === 'function') onload_acciones();
+};
 
 window.onscroll = (event) => {
     if(this.scrollY > 100){
