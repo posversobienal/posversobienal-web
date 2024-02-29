@@ -527,5 +527,31 @@ body.pagina-desplazada {
     }
 }
 
+.alerta-traduccion {
+    position: fixed;
+    right: 0;
+    bottom: 20%;
+    background: #fa0;
+    color: #000;
+    padding: 10px;
+    display: none;
+    max-width: 150px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+    span {
+        display: none;
+        font-size: 0.9em;
+    }
+
+    &:hover span {
+        display: block!important;
+    }
+
+    &.traducida {
+        display: inline-block;
+    }
+}
+
 
 @import url("responsive.less");

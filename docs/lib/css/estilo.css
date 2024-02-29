@@ -439,6 +439,28 @@ body.pagina-desplazada .mostrar-si-pagina-desplazada {
 #imagen_ampliada.activa {
   display: block;
 }
+.alerta-traduccion {
+  position: fixed;
+  right: 0;
+  bottom: 20%;
+  background: #fa0;
+  color: #000;
+  padding: 10px;
+  display: none;
+  max-width: 150px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.alerta-traduccion span {
+  display: none;
+  font-size: 0.9em;
+}
+.alerta-traduccion:hover span {
+  display: block!important;
+}
+.alerta-traduccion.traducida {
+  display: inline-block;
+}
 @media (max-width: 700px) {
   .logos {
     flex-direction: column;
