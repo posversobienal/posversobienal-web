@@ -1,0 +1,31 @@
+---
+
+nombre: 'Rubén'
+apellido: 'Liggera'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: ''
+
+eventos: []
+
+fotos:
+  persona: 'ruben_liggera.jpg'
+  obra: 'ruben_liggera-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - invitado
+
+detalle: |
+  {{ idioma('esp') }}
+
+  (Junín, 1952). Poeta, artista visual y Profesor en Historia y Letras (Instituto Superior del Profesorado “Junín”). Durante el  autodenominado “Proceso de Reorganización Nacional”, a consecuencia de su fuerte compromiso político, fue víctima del terrorismo de estado, siendo detenido y mantenido bajo vigilancia a partir de su posterior liberación. Desde sus poemarios germinales Pido gancho (1972) y La fuente de los deseos (1973), ha publicado numerosos libros: Agua desnuda, poesía (1989); De espejos, fantasmas y esqueletos. Ensayos sobre la obra literaria de Enrique Anderson Imbert, crítica literaria (1990); Piadosa luz, poesía (Premio Fundación Banco de Caseros, 1997); Woodstock, poesía (Premio de poesía FATSA, 2001);  Cenizas de Alejandría, poesía (2008, Finalista premio Olga Orozco, nómada-UNSAM); Sólo quería decir, poesía (2021); VERsa/ReVERsa, libro de artista (2021); Libro del otro siglo, poesía, Libros del Biguá (2022), Acciones de memoria, libro de artista, HOTEL DADA editor (2023). Entre 1989 y 1994, dirigió la publicación cultural Horizonte de Cultura, desarrollando una importante actividad como periodista, ensayista y editor. Como artista visual, trabaja en textiles, dibujos, collages, acción poética y poesía experimental. En 2021, su libro VERsa/ReVERsa fue incluido en OTROS LIBROS Exhibición Internacional de Libros de Artista, en la galería HOTEL DADA. En 2022, nuevamente convocado por la galería HOTEL DADA, integró la muestra Valores Nacionales – Poesía Visual Argentina, participó con una acción performática en el Congreso Panamericano de Arte Correo, y formó parte de La palabra en ruinas - Sesión de Poesía Experimental, en el espacio LA LUZ BUENA Arte de Ocupación, en Agustín Roca, Junín. En 2022, presentó su primera muestra individual, Retal, en el Centro de Capacitación y Cultura de ATSA, y en 2023, Copia fiel, en la galería HOTEL DADA, ambas en Junín y con curaduría de Silvio De Gracia y Ana Montenegro.
+
+  {{ idioma('eng') }}
+
+  (Junín, 1952). Poet, visual artist and Professor of History and Letters (Instituto Superior del Profesorado “Junín”). During the self-proclaimed “National Reorganization Process”, as a result of his strong political commitment, he was a victim of state terrorism, being detained and kept under surveillance after his subsequent release. Since his germinal collections of poems Pido Gancho (1972) and La fuente de los deseos (1973), he has published numerous books: Agua desnuda, poetry (1989); De espejos, fantasmas y esqueletos. Essays on the literary work of Enrique Anderson Imbert, literary criticism (1990); Piadosa luz, poetry (Banco de Caseros Foundation Award, 1997); Woodstock, poetry (Premio de poesía FATSA Poetry Award, 2001);  Cenizas de Alejandría, poetry (2008, Olga Orozco Award Finalist, nómada-UNSAM); Sólo quería decir, poetry (2021); VERsa/ReVERsa, artist book (2021); Libro del otro siglo, poetry, Libros del Biguá (2022), Acciones de memoria,  artist book, HOTEL DADA editor (2023). Between 1989 and 1994, he directed the cultural publication Horizonte de Cultura, developing an important activity as a journalist, essayist and editor. As a visual artist, he works in textiles, drawings, collages, poetic action and experimental poetry. In 2021, his book VERsa/ReVERsa was included in OTHER BOOKS International Artist Book Exhibition, at the HOTEL DADA gallery. In 2022, again convened by the HOTEL DADA gallery, he was part of the Valores nacionales – Argentine Visual Poetry exhibition, participated with a performative action in the Pan American Correo Art Congress, and was part of La palabra en ruinas - Experimental Poetry Session, in the space LA LUZ BUENA Art of Occupation, in Agustín Roca, Junín. In 2022, he presented his first individual exhibition, Retal, at the ATSA  Centro de Cultura y Capacitación, and in 2023, Copia fiel, at the HOTEL DADA galería, both in Junín and curated by Silvio De Gracia and Ana Montenegro.
+  {.lang-eng}
