@@ -20,6 +20,7 @@ def desordenar(l):
     shuffle(m)
     return m
 
+
 def md_a_html(texto):
     global dat_cfg
     global dat_rec
@@ -29,6 +30,7 @@ def md_a_html(texto):
     md = Markdown(extensions=markdown_extensiones, extension_configs=markdown_extensiones_config)
     return md.convert(texto)
 
+
 def datos_de(tipo, archivo):
     if tipo == 'bitacora':
         ar = f'./datos/bitacora/{archivo}.yml'
@@ -36,8 +38,10 @@ def datos_de(tipo, archivo):
             return yaml.safe_load(f)
     return {}
 
+
 def url_dominio(texto):
     return texto.split(':')[1].strip('/')
+
 
 def id_redsocial(texto):
     return texto.split('/')[-1].strip()
@@ -47,13 +51,16 @@ def leer_yml(ar):
     with open(ar, 'r') as f:
         return yaml.safe_load(f)
 
+
 def borrar_contenido(ruta):
     for sr in listdir(ruta):
         rmtree(f'{ruta}{sr}')
 
+
 def listar_id(tipo):
     if tipo == 'novedades':
         return [splitext(ar)[0] for ar in listdir('./datos/bitacora/') if ar.endswith('.yml') ]
+
 
 def idioma(tipo):
     #html = '<div class="my-2 ṕy-2 text-end lang"><img src="/rec/grafica/icon-{lang}.svg" class="icono"></div>'
@@ -64,6 +71,135 @@ def idioma(tipo):
 
     return html.format(lang=lang) if lang else  ''
 
+
+def actualizar_personas():
+    # completado de plantillas para PERSONAS
+    ruta_in = './datos/personas/'
+    ruta_out = f'{ruta_public}/per/'
+    borrar_contenido(ruta_out)
+
+    for ar in [a for a in listdir(ruta_in) if a.endswith('.yml')]:
+        print('Persona: ', ar)
+
+        dat_cfg['actualizacion'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+        dat_pag = leer_yml(f'{ruta_in}{ar}')
+        dat_pag['titulo'] = dat_pag['nombre'] + ' ' + dat_pag['apellido']
+
+        nom_ar = splitext(ar)[0]
+        arc_out = f'{ruta_out}/{nom_ar}/index.html'
+        makedirs(dirname(arc_out), exist_ok=True)
+
+        tpl = env_jinja2.get_template('persona.html')
+        html = tpl.render(cfg=dat_cfg, pag=dat_pag, rec=dat_rec)
+
+        with open(arc_out, 'w') as f:
+            f.write(html)
+
+
+def actualizar_personas_artistas():
+    # completado de plantillas para PERSONAS ARTISTA
+    ruta_in = './datos/artistas_invitados/'
+    ruta_out = f'{ruta_public}/per/'
+    #borrar_contenido(ruta_out)
+
+    for ar in [a for a in listdir(ruta_in) if a.endswith('.yml')]:
+        print('Artista: ', ar)
+
+        dat_cfg['actualizacion'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+        dat_pag = leer_yml(f'{ruta_in}{ar}')
+        dat_pag['titulo'] = dat_pag['nombre'] + ' ' + dat_pag['apellido']
+
+        nom_ar = splitext(ar)[0]
+        arc_out = f'{ruta_out}/{nom_ar}/index.html'
+        makedirs(dirname(arc_out), exist_ok=True)
+
+        tpl = env_jinja2.get_template('persona_artista.html')
+        html = tpl.render(cfg=dat_cfg, pag=dat_pag, rec=dat_rec)
+
+        with open(arc_out, 'w') as f:
+            f.write(html)
+
+
+def actualizar_sedes():
+    # completado de plantillas para SEDESa
+    ruta_in = './datos/sedes/'
+    ruta_out = f'{ruta_public}sds/'
+    borrar_contenido(ruta_out)
+
+    for ar in [a for a in listdir(ruta_in) if a.endswith('.yml')]:
+        print('Sede: ', ar)
+
+        dat_cfg['actualizacion'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+        dat_cfg['cache_actu'] = int(time_ns() / 1000)
+        dat_pag = leer_yml(f'{ruta_in}{ar}')
+        dat_pag['titulo'] = 'Sede - ' + dat_pag['nombre']
+
+        nom_ar = splitext(ar)[0]
+        arc_out = f'{ruta_out}/{nom_ar}/index.html'
+        makedirs(dirname(arc_out), exist_ok=True)
+
+        tpl = env_jinja2.get_template('sede.html')
+        html = tpl.render(cfg=dat_cfg, pag=dat_pag, rec=dat_rec)
+
+        with open(arc_out, 'w') as f:
+            f.write(html)
+
+
+def actualizar_paginas():
+    # completado de plantillas de PÁGINAS
+    ruta_in = './datos/paginas/'
+    ruta_out = f'{ruta_public}pag/'
+    borrar_contenido(ruta_out)
+
+    for ar in [a for a in listdir(ruta_in) if a.endswith('.yml')]:
+        print('Página: ', ar)
+
+        dat_cfg['actualizacion'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+        dat_pag = leer_yml(f'{ruta_in}{ar}')
+
+        if dat_pag['ruta_static']:
+
+            arc_out = ruta_public + dat_pag['ruta_static']
+            makedirs(dirname(arc_out), exist_ok=True)
+
+            tpl = env_jinja2.get_template(dat_pag['html_base'])
+            html = tpl.render(cfg=dat_cfg, pag=dat_pag, rec=dat_rec)
+
+            with open(arc_out, 'w') as f:
+                f.write(html)
+
+
+def actualizar_bitacora():
+    # completado de plantillas de BITACORA
+    ruta_in = './datos/bitacora/'
+    ruta_out = f'{ruta_public}bit/'
+    borrar_contenido(ruta_out)
+
+    for ar in [a for a in listdir(ruta_in) if a.endswith('.yml')]:
+        print('Bitacora: ', ar)
+
+        dat_cfg['actualizacion'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+        dat_pag = leer_yml(f'{ruta_in}{ar}')
+
+        nom_ar = splitext(ar)[0]
+        arc_out = f'{ruta_out}/{nom_ar}/index.html'
+        makedirs(dirname(arc_out), exist_ok=True)
+
+        tpl = env_jinja2.get_template('bitacora.html')
+        html = tpl.render(cfg=dat_cfg, pag=dat_pag, rec=dat_rec)
+
+        with open(arc_out, 'w') as f:
+            f.write(html)
+
+
+def actualizar_todo():
+    actualizar_personas()
+    actualizar_personas_artistas()
+    actualizar_paginas()
+    actualizar_sedes()
+    actualizar_bitacora()
+    # finalización
+    print('--- Actualización completada!')
 
 
 # ------ configuracion general
@@ -80,6 +216,7 @@ with open(ar_cfg_in, 'r') as f:
     with open(ar_cfg_out, 'w') as g:
         g.write('const cfg = ' + json.dumps(dat_cfg))
 
+
 # ------ compilaciones de recursos
 ar_rec_out = f'{ruta_public}dat/rec.js'
 
@@ -90,6 +227,7 @@ rutas_recursos = [
     './datos/obras/',
     './datos/sedes/'
     ]
+
 dat_rec = {}
 for r in rutas_recursos:
     idr = r.split('/')[-2]
@@ -112,122 +250,6 @@ env_jinja2.globals.update(idioma = idioma)
 env_jinja2.globals.update(desordenar = desordenar)
 
 
-# completado de plantillas para PERSONAS
-ruta_in = './datos/personas/'
-ruta_out = f'{ruta_public}/per/'
-borrar_contenido(ruta_out)
 
-for ar in [a for a in listdir(ruta_in) if a.endswith('.yml')]:
-    print('Persona: ', ar)
-
-    dat_cfg['actualizacion'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-    dat_pag = leer_yml(f'{ruta_in}{ar}')
-    dat_pag['titulo'] = dat_pag['nombre'] + ' ' + dat_pag['apellido']
-
-    nom_ar = splitext(ar)[0]
-    arc_out = f'{ruta_out}/{nom_ar}/index.html'
-    makedirs(dirname(arc_out), exist_ok=True)
-
-    tpl = env_jinja2.get_template('persona.html')
-    html = tpl.render(cfg=dat_cfg, pag=dat_pag, rec=dat_rec)
-
-    with open(arc_out, 'w') as f:
-        f.write(html)
-
-
-# completado de plantillas para PERSONAS ARTISTA
-ruta_in = './datos/artistas_invitados/'
-ruta_out = f'{ruta_public}/per/'
-#borrar_contenido(ruta_out)
-
-for ar in [a for a in listdir(ruta_in) if a.endswith('.yml')]:
-    print('Artista: ', ar)
-
-    dat_cfg['actualizacion'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-    dat_pag = leer_yml(f'{ruta_in}{ar}')
-    dat_pag['titulo'] = dat_pag['nombre'] + ' ' + dat_pag['apellido']
-
-    nom_ar = splitext(ar)[0]
-    arc_out = f'{ruta_out}/{nom_ar}/index.html'
-    makedirs(dirname(arc_out), exist_ok=True)
-
-    tpl = env_jinja2.get_template('persona_artista.html')
-    html = tpl.render(cfg=dat_cfg, pag=dat_pag, rec=dat_rec)
-
-    with open(arc_out, 'w') as f:
-        f.write(html)
-
-
-# completado de plantillas para SEDESa
-ruta_in = './datos/sedes/'
-ruta_out = f'{ruta_public}sds/'
-borrar_contenido(ruta_out)
-
-for ar in [a for a in listdir(ruta_in) if a.endswith('.yml')]:
-    print('Sede: ', ar)
-
-    dat_cfg['actualizacion'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-    dat_cfg['cache_actu'] = int(time_ns() / 1000)
-    dat_pag = leer_yml(f'{ruta_in}{ar}')
-    dat_pag['titulo'] = 'Sede - ' + dat_pag['nombre']
-
-    nom_ar = splitext(ar)[0]
-    arc_out = f'{ruta_out}/{nom_ar}/index.html'
-    makedirs(dirname(arc_out), exist_ok=True)
-
-    tpl = env_jinja2.get_template('sede.html')
-    html = tpl.render(cfg=dat_cfg, pag=dat_pag, rec=dat_rec)
-
-    with open(arc_out, 'w') as f:
-        f.write(html)
-
-
-# completado de plantillas de PÁGINAS
-ruta_in = './datos/paginas/'
-ruta_out = f'{ruta_public}pag/'
-borrar_contenido(ruta_out)
-
-for ar in [a for a in listdir(ruta_in) if a.endswith('.yml')]:
-    print('Página: ', ar)
-
-    dat_cfg['actualizacion'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-    dat_pag = leer_yml(f'{ruta_in}{ar}')
-
-    if dat_pag['ruta_static']:
-
-        arc_out = ruta_public + dat_pag['ruta_static']
-        makedirs(dirname(arc_out), exist_ok=True)
-
-        tpl = env_jinja2.get_template(dat_pag['html_base'])
-        html = tpl.render(cfg=dat_cfg, pag=dat_pag, rec=dat_rec)
-
-        with open(arc_out, 'w') as f:
-            f.write(html)
-
-
-# completado de plantillas de BITACORA
-ruta_in = './datos/bitacora/'
-ruta_out = f'{ruta_public}bit/'
-borrar_contenido(ruta_out)
-
-for ar in [a for a in listdir(ruta_in) if a.endswith('.yml')]:
-    print('Bitacora: ', ar)
-
-    dat_cfg['actualizacion'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-    dat_pag = leer_yml(f'{ruta_in}{ar}')
-
-    nom_ar = splitext(ar)[0]
-    arc_out = f'{ruta_out}/{nom_ar}/index.html'
-    makedirs(dirname(arc_out), exist_ok=True)
-
-    tpl = env_jinja2.get_template('bitacora.html')
-    html = tpl.render(cfg=dat_cfg, pag=dat_pag, rec=dat_rec)
-
-    with open(arc_out, 'w') as f:
-        f.write(html)
-
-
-
-
-# finalización
-print('--- Actualización completada!')
+if __name__ == '__main__':
+    actualizar_todo()
