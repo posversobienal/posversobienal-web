@@ -44,7 +44,7 @@ const resaltado_de_enlaces_actuales = (contexto)=>{
 
 const hover_on_click = ()=>{
     let elems = document.querySelectorAll('.hover-on-click');
-    for(el of elems){
+    for(let el of elems){
         el.addEventListener('click', (ev)=>{
             ev.currentTarget.classList.toggle('hover');
         });
