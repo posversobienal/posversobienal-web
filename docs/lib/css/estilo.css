@@ -454,6 +454,7 @@ body.pagina-desplazada .mostrar-si-pagina-desplazada {
   display: none;
   font-size: 0.9em;
 }
+.alerta-traduccion.hover span,
 .alerta-traduccion:hover span {
   display: block!important;
 }

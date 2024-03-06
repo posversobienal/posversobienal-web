@@ -44,3 +44,13 @@ const resaltado_de_enlaces_actuales = (contexto)=>{
         }
     }
 }
+
+
+const hover_on_click = ()=>{
+    let elems = document.querySelectorAll('.hover-on-click');
+    for(el of elems){
+        el.addEventListener('click', ()=>{
+            el.classList.toggle('hover');
+        });
+    }
+}

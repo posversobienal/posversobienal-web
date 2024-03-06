@@ -5,6 +5,7 @@ window.onload = () => {
         document.querySelector('#tr-by').innerHTML = tr[1];
     }
     resaltado_de_enlaces_actuales(document);
+    hover_on_click();
 
     if(typeof onload_acciones === 'function') onload_acciones();
 };
