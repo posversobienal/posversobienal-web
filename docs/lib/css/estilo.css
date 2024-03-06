@@ -113,7 +113,7 @@ a.no-decoration {
   display: block;
 }
 .menu ul li.hover .submenu,
-.menu ul li:hover_ .submenu {
+.menu ul li:hover .submenu {
   display: inline-block;
 }
 .menu ul li .logo.posverso img {
@@ -429,7 +429,7 @@ body.pagina-desplazada .mostrar-si-pagina-desplazada {
   font-size: 0.9em;
 }
 .alerta-traduccion.hover span,
-.alerta-traduccion:hover_ span {
+.alerta-traduccion:hover span {
   display: block!important;
 }
 .alerta-traduccion.traducida {
