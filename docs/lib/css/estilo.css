@@ -460,8 +460,7 @@ a.actual {
   .menu .items-movile ul {
     display: none!important;
   }
-  .menu .items-movile.hover ul,
-  .menu .items-movile:hover ul {
+  .menu .items-movile.hover ul {
     position: absolute;
     top: 0;
     left: 0;
@@ -472,14 +471,12 @@ a.actual {
     padding: 20px;
     text-align: left;
   }
-  .menu .items-movile.hover ul .submenu,
-  .menu .items-movile:hover ul .submenu {
+  .menu .items-movile.hover ul .submenu {
     position: relative;
     display: block;
     padding: 0;
   }
-  .menu .items-movile.hover ul li,
-  .menu .items-movile:hover ul li {
+  .menu .items-movile.hover ul li {
     display: block;
     padding: 6px 0;
     border: none;
