@@ -62,42 +62,6 @@ a {
 }
 
 
-/* deslizador portada */
-.deslizador {
-    height: 300px;
-
-    ul {
-        margin: 0;
-        padding: 0;
-
-
-        li {
-            position: absolute;
-            top: 0;
-            left: 100%;
-            margin: 0;
-            padding: 0;
-            list-style: none;
-            display: none;
-            transition: all 1s;
-
-            &.actual {
-                top: 0;
-                left: 0;
-                display: block;
-            }
-
-            img {
-                display: block;
-                width: 100%;
-            }
-        }
-    }
-}
-
-
-
-
 /* menu superior - general */
 .menu {
     background: #000;
@@ -168,7 +132,7 @@ a {
                     }
                 }
             }
-            &:hover {
+            &.hover, &:hover_ {
                 .submenu {
                     display: inline-block;
                 }
@@ -543,8 +507,7 @@ body.pagina-desplazada {
         font-size: 0.9em;
     }
 
-    &.hover span,
-    &:hover span {
+    &.hover span, &:hover_ span {
         display: block!important;
     }
 

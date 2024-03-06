@@ -9,18 +9,14 @@ const ampliar_imagen = (url)=>{
     const panel = document.querySelector('#imagen_ampliada');
     const img = panel.querySelector('.imagen');
     const cerrar = panel.querySelector('.cerrar');
-
     panel.classList.add(cAct);
     cerrar.addEventListener('click', ()=>{
         panel.classList.remove(cAct);
         document.body.classList.remove(cBlo)
         img.attributes['src'].value = '';
     });
-
     img.attributes['src'].value = url;
     document.body.classList.add(cBlo)
-    console.log(url, panel);
-
 }
 
 
@@ -49,8 +45,9 @@ const resaltado_de_enlaces_actuales = (contexto)=>{
 const hover_on_click = ()=>{
     let elems = document.querySelectorAll('.hover-on-click');
     for(el of elems){
-        el.addEventListener('click', ()=>{
+        el.addEventListener('mousedown', ()=>{
             el.classList.toggle('hover');
+            console.log(el);
         });
     }
 }

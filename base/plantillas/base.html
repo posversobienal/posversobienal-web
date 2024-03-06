@@ -61,12 +61,12 @@
                 <b><img class="fx-invert " height="20px" src="/rec/grafica/icon-menu.svg?{{ cfg.cache_actu }}"></b>
                 <ul class="d-flex wrap">
                     {% for it in cfg.menu %}
-                    <li>
+                    <li class="hover-on-click">
                         {% if it.url == '' %}
                         <span>{{ it.titulo }}</span>
                         {% else %}
                         <a href="{{ it.url }}">{{ it.titulo }}</a>
-                        {% endif%}
+                        {% endif %}
                         {% if 'submenu' in it %}
                         <span class="smi">&#9662;</span>
                         <ul class="submenu">
@@ -146,7 +146,7 @@
                     </a>
                 </li>
                 <li class="col me-2 selector-idioma" title="Traducir página con Google Translate">
-                    <img height="15px" src="/rec/grafica/icon-traducir.svg?{{ cfg.cache_actu }}" onclick="sel_traducir.click()">
+                    <img height="15px" src="/rec/grafica/icon-traducir.svg?{{ cfg.cache_actu }}">
                     <div class="submenu">
                         {% for k, v in cfg.idiomas_traducibles.items() %}
                         <button onclick="redirigir_a_traduccion('{{ k }}')">{{ v }}</button>
