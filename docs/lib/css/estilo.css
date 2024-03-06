@@ -484,4 +484,7 @@ a.actual {
   .con-lista-en-columnas ul {
     column-count: 1;
   }
+  .alerta-traduccion.hover span {
+    display: block!important;
+  }
 }
