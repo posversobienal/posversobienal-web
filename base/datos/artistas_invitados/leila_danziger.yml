@@ -1,0 +1,36 @@
+---
+
+nombre: 'Leila'
+apellido: 'Danziger'
+seudonimo: ''
+
+nacionalidad: 'Brasil'
+contacto_publico: ''
+
+web: 'https://www.leiladanziger.net/'
+
+eventos: []
+
+fotos:
+  persona: 'leila_danziger.jpg'
+  obra: 'leila_danziger-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - invitado
+
+detalle: |
+  {{ idioma('esp') }}
+
+  Nació en Rio de Janeiro, donde vive y trabaja. Es artista, profesora del Instituto de Artes de la Universidad del Estado de Rio de Janeiro, investigadora y poeta. Uno de los vectores de su trabajo es la investigación de la página impresa (diario, libro, documento histórico), volviéndose para las fricciones entre la pequeña y la gran historia, entre la memoria familiar y las construcciones de las memorias colectivas. Sus trabajos se desenvuelven en diferentes medios (técnicas de impresión y de borramiento, fotografía, pintura, vídeo, instalación y escrita). Entre sus proyectos principales, figuran ‘Diários públicos”, serie en proceso realizada a partir del borramiento de diarios impresos, y “Navio de emigrantes”, que homenajea a Lasar Segall y conecta el Atlántico y el Mediterráneo, la crisis de refugiados de la Segunda Gran Guerra y la crisis actual. Entre sus exposiciones individuales recientes están Descer da nuvem, en el Museu Judaico, de São Paulo; Navio de emigrantes, en la Caixa Cultural de Brasília (2018); Ao sul do futuro, en el Museu Lasar Segall, São Paulo (2018). Entre las exposiciones colectivas, se destacan 22a. Bienal Sesc VideoBrasil – “A memória é uma ilha de edição”, São Paulo, Brasil (2023), donde fue contemplada con el Prêmio Aquisição; Maria Graham, Tierras, Reales e imaginadas, Museo Universitario del Grabado (MUG-UPLA), Valparaíso, Chile (2023); El ciel por asalto, Galeria Sotero Cosme, Porto Alegre, Brasil (2023); Lands, Real and Imagined: Women Artists Respond to the Art and Travel Writings of Maria Graham, Otterbein University, Westerville, Ohio, EUA (2022); Espaços do Ainda, Paço Imperial, Rio de Janeiro (2022); On the shoulders of giants, Nara Roesler Gallery, New York, EUA; Sobre os ombros de gigantes, Galería Nara Roesler, São Paulo (2021); MemoriAntonia, Centro Maria Antonia / Universidad de São Paulo, São Paulo (2021), Mémoire des livres, Galerie Dix9, Paris, Françia (2021). Publicó cuatro libros de poesía por la editora carioca 7Letras: Três ensaios de fala (2012); Ano novo, (2016), C’est loin Bagdad [fotogramas], (2018), y Cinelândia (2021), además de dos libros de artista: Cadernos do Povo Brasileiro (Ed. Relicário, 2021) y Um golem para Caruaru (Ed. IART/UERJ, 2014).
+
+  Créditos de fotos: Victor Hugo Ceccato (de artista); Julia Thompson (de obra).
+
+  {{ idioma('eng') }}
+
+  She was born in Rio de Janeiro, where she lives and works. She is an artist, professor at the Institute of Arts of the State University of Rio de Janeiro, researcher and poet. One of the vectors of her work is the investigation of the printed page (diary, book, historical document), turning to the frictions between small and big history, between family memory and the constructions of collective memories. Her works are developed in different media (printing and erasing techniques, photography, painting, video, installation and writing). Among his main projects are 'Diários Públicos', a series in progress made from the deletion of printed newspapers, and 'Navio de emigrantes', which pays tribute to Lasar Segall and connects the Atlantic and the Mediterranean, the refugee crisis of the Second Great War and the current crisis. Among her recent solo exhibitions are Descer da nuvem, at the Museu Judaico, São Paulo; Navio de emigrantes, at the Caixa Cultural de Brasília (2018); Ao sul do futuro, at the Lasar Segall Museum, São Paulo (2018). Among her group exhibitions, 22a stands out. Sesc VideoBrasil Biennial – “A memória é uma ilha de edição”, São Paulo, Brazil (2023), where she was awarded the Aquisição Prize; Maria Graham, Lands, Real and Imagined, University Museum of Engraving (MUG-UPLA), Valparaíso, Chile (2023); El ciel por assault, Galeria Sotero Cosme, Porto Alegre, Brazil (2023); Lands, Real and Imagined: Women Artists Respond to the Art and Travel Writings of Maria Graham, Otterbein University, Westerville, Ohio, USA (2022); Espaços do Ainda, Paço Imperial, Rio de Janeiro (2022); On the shoulders of giants, Nara Roesler Gallery, New York, USA; On the shoulders of giants, Nara Roesler Gallery, São Paulo (2021); MemoriAntonia, Maria Antonia Center / University of São Paulo, São Paulo (2021), Mémoire des livres, Galerie Dix9, Paris, Françia (2021). She published four books of poetry by the Rio publishing house 7Letras: Três ensaios de fala (2012); Ano novo, (2016), C'est loin Bagdad [fotogramas], (2018), and Cinelândia (2021), in addition to two artist books: Cadernos do Povo Brasileiro (Ed. Relicário, 2021) and Um golem para Caruaru (Ed. IART/UERJ, 2014).
+  {.lang-eng}
+
+  Créditos das fotos: Victor Hugo Ceccato (do artista); Julia Thompson (do obra de arte).
+  {.lang-eng}

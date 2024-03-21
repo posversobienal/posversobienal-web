@@ -1,0 +1,31 @@
+---
+
+nombre: 'Ricardo Omar'
+apellido: 'Salido'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: ''
+
+eventos: []
+
+fotos:
+  persona: 'ricardo_omar_salido.jpg'
+  obra: 'ricardo_omar_salido-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - invitado
+
+detalle: |
+  {{ idioma('esp') }}
+
+  Nace en la ciudad de La Plata, Argentina, el 30 de abril de 1950. En  1960, se afinca en Junín, donde desarrolla la mayor parte de su actividad. Desde temprana edad comienza su experiencia como gráfico, profundizando durante muchos años en el oficio y sus distintas técnicas. Paralelamente inicia estudios de dibujo y pintura en distintas escuelas. En el año 1968 es miembro fundador del "Grupo Sol", con el que realiza variadas exposiciones colectivas hasta el año 1973, en distintas ciudades de la provincia de Buenos Aires, Córdoba, Rosario, La Pampa. Ya en los 80 forma parte de otros grupos pioneros en las artes plásticas de la ciudad de Junín, como "Masarte" y el "Grupo de los cinco". Siendo amigo personal de Víctor Grippo, mantiene un contacto permanente con artistas y galeristas de Buenos Aires. Fue impresor de la histórica Revista ARTINF -arte informa- que se distribuyó en todo el mundo y de numerosos libros de distinta temática. En el año 1980 funda su propia editorial, y edita varios libros de cuento, poesía y ensayo. En 1990 comienza su actividad docente, como profesor en la carrera de Diseño Gráfico de la Escuela Provincial de Arte de Junín. A partir de 2006, pasa a residir en España y luego en Caracas, Venezuela. En España participa en algunas muestras organizadas por el Grupo "K de Cultura", hasta su última exhibición en la 2ª Feria de Arte Internacional, en 2010, en el Castillo Sohail de Fuengirola, Málaga. En 2022, participó activamente en el Homenaje a Víctor Grippo en Junín, construyendo un horno de barro frente al Museo de Arte Contemporáneo de la ciudad, junto a Daniel De Camillis, replicando la acción de Grippo y Jorge Gamarra en la Plaza Roberto Arlt de Buenos Aires, en 1972.
+
+  {{ idioma('eng') }}
+
+  He was born in the city of La Plata, Argentina, on April 30, 1950. In 1960, he settled in Junín, where he carries out most of his activity. From an early age he began his experience as a graphic designer, delving into the craft and its different techniques for many years. At the same time, he began studying drawing and painting in different schools. In 1968 he was a founding member of the "Grupo Sol", with which he held various group exhibitions until 1973, in different cities in the province of Buenos Aires, Córdoba, Rosario, La Pampa. Already in the 80s he was part of other pioneering groups in the plastic arts in the city of Junín, such as "Masarte" and the "Grupo de los Cinco." Being a personal friend of Víctor Grippo, he maintains permanent contact with artists and gallery owners in Buenos Aires. He was the printer of the historic ARTINF Magazine -arte informs- which was distributed throughout the world and of numerous books on different topics. In 1980 he founded his own publishing house, and edited several books of short stories, poetry and essays. In 1990 he began his teaching activity, as a professor in the Graphic Design program at the Provincial School of Art of Junín. As of 2006, he begins to reside in Spain and then in Caracas, Venezuela. In Spain he participates in some exhibitions organized by the "K de Cultura" Group, until his last exhibition at the 2nd International Art Fair, in 2010, at the Sohail Castle in Fuengirola, Malaga. In 2022, he participated in the Tribute to Víctor Grippo in Junín, building a clay oven in front of the city's Museum of Contemporary Art, together with Daniel De Camillis, replicating the action of Grippo and Jorge Gamarra in the Plaza Roberto Arlt in Buenos Aires. Aires, in 1972.
+  {.lang-eng}

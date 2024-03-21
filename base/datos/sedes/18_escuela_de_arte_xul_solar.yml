@@ -1,0 +1,13 @@
+---
+nombre: "Escuela de Arte 'Xul Solar'"
+domicilio: 'Saavedra 245. Junín, Buenos Aires, Argentina.'
+gmaps: 'https://maps.app.goo.gl/WBJ7Qh44mWwT8h6s6'
+
+geopos:
+  coord: [-34.59692, -60.94287]
+  icono: pin-sede
+
+fotos:
+  - 'escuela_de_arte_xul_solar.jpg'
+eventos_asociados: []
+descripcion: []
