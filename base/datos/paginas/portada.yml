@@ -12,6 +12,13 @@ tematica:
     **Junín**, Buenos Aires.
 
 deslizador:
+  - {img: 1.jpg, url: '/per/daniela_mastrandrea/', tit: 'Obra de Daniela Mastrandrea'}
+  - {img: 2.jpg, url: '/per/ricardo_omar_salido/', tit: 'Obra de Ricardo Omar Salido'}
+  - {img: 3.jpg, url: '/per/flora_holderbaum/', tit: 'Obra de Flora Holderbaum'}
+  - {img: 4.jpg, url: '/per/wilson_sukorski/', tit: 'Obra de Wilson Sukorski'}
+  - {img: 5.jpg, url: '/per/gabriela_golder/', tit: 'Obra de Gabriela Golder'}
+
+deslizador_a1:
   - {img: 1.jpg, url: '/per/maurizio_mancioli/', tit: 'Obra de Maurizio Mancioli'}
   - {img: 2.jpg, url: '/per/montenegro_fisher/', tit: 'Obra de Montenegro-Fisher'}
   - {img: 3.jpg, url: '/per/paulo_bruscky/', tit: 'Obra de Paulo Bruscky'}

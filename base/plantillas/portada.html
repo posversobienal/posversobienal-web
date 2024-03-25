@@ -16,6 +16,7 @@
       <div class="carousel-item {{ estilo }}">
           <a href="{{ itm.url }}" title="{{ itm.tit }}">
               <img src="/rec/promo/portada/{{ itm.img }}?{{ cfg.cache_actu }}" class="d-block w-100">
+              <small><small class="position-absolute bottom-0 end-0 bg-black text-white p-2 text-uppercase opacity-50">{{ itm.tit }}</small></small>
           </a>
       </div>
       {% endfor %}
