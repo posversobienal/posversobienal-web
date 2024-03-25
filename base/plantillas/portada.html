@@ -60,10 +60,10 @@
         {% set novedades = pag.novedades.lista %}
         {% endif %}
 
-        {% for nid in novedades %}
+        {% for nid in orden_inverso(novedades)  %}
         {% if loop.index0 < pag.novedades.maximo %}
-        <div class="novedad col-lg-4 mt-5">
-            <div class="border border-black rounded-2">
+        <div class="novedad d-grid col-lg-4 mt-5">
+            <div class="d-flex flex-column flex-align-items-end border border-black rounded-2">
                 {% set dat = datos_de('bitacora', nid) %}
                 <div>
                     <img class="img-fluid" src="/rec/bitacora/{{ dat.fotos[0] }}?{{ cfg.cache_actu }}">
@@ -72,14 +72,18 @@
                     <br>
                     <p class="h5 fw-bold">{{ dat.titulo }}</p>
                     <p class="">{{ dat.detalle }}</p>
-                    <div class="text-end">
-                        <a class="d-inline-block fs-4 px-1 py-0 btn btn-dark btn-sm fx-ampliar" href="{{ dat.url }}">+</a>
-                    </div>
+                </div>
+                <div class="text-center mt-auto m-3 col-12">
+                    <hr>
+                    <a class="btn btn-dark btn-sm d-inline-block fs-5 px-2 py-0 mt-0 fx-ampliar" href="{{ dat.url }}">+</a>
                 </div>
             </div>
         </div>
         {% endif %}
-    {% endfor %}
+        {% endfor %}
+    </div>
+    <div class="text-center py-5">
+        <a href="/bit/" class="btn btn-outline-dark fx-ampliar">Historial completo de NOVEDADES</a>
     </div>
 </section>
 {% endblock %}

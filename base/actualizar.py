@@ -4,6 +4,7 @@
 
 from os import listdir, makedirs
 from os.path import splitext, dirname
+from pathlib import Path
 from time import gmtime, strftime, time_ns
 from shutil import rmtree
 import json
@@ -19,6 +20,10 @@ def desordenar(l):
     m = l.copy()
     shuffle(m)
     return m
+
+def orden_inverso(l):
+    return l[::-1]
+
 
 
 def md_a_html(texto):
@@ -54,7 +59,9 @@ def leer_yml(ar):
 
 def borrar_contenido(ruta):
     for sr in listdir(ruta):
-        rmtree(f'{ruta}{sr}')
+        pa = Path(f'{ruta}{sr}')
+        if pa.is_dir():
+            rmtree(pa)
 
 
 def listar_id(tipo):
@@ -248,6 +255,7 @@ env_jinja2.globals.update(datos_de = datos_de)
 env_jinja2.globals.update(listar_id = listar_id)
 env_jinja2.globals.update(idioma = idioma)
 env_jinja2.globals.update(desordenar = desordenar)
+env_jinja2.globals.update(orden_inverso = orden_inverso)
 
 
 

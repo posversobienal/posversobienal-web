@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div class="container contenido">
+    <header class="my-5">
+        <h1 class="text-center">{{ pag.titulo }}</h1>
+    </header>
+
+    <div class="row">
+        {% if pag.novedades.automatico %}
+        {% set novedades = listar_id('novedades') %}
+        {% else %}
+        {% set novedades = pag.novedades.lista %}
+        {% endif %}
+
+        {% for nid in orden_inverso(novedades)  %}
+        <div class="d-grid novedad col-lg-3 mt-5">
+            <div class="d-flex flex-column flex-align-items-end border border-black rounded-2">
+                {% set dat = datos_de('bitacora', nid) %}
+                <div>
+                    <img class="img-fluid" src="/rec/bitacora/{{ dat.fotos[0] }}?{{ cfg.cache_actu }}">
+                </div>
+                <div class="pt-4 px-3">
+                    <p class="h5 fw-bold">{{ dat.titulo }}</p>
+                    <p>{{ dat.detalle }}</p>
+                </div>
+                <div class="text-center m-3 mt-auto ">
+                    <hr>
+                    <small class="px-3">{{ dat.fecha }}</small>
+                    <a class="btn btn-dark btn-sm d-inline-block fs-5 px-2 py-0 mt-0 fx-ampliar" href="{{ dat.url }}">+</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

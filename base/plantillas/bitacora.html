@@ -5,21 +5,27 @@
     <br><br><br><br>
     <div class="container contenido mb-4">
         <div class="row">
-            <div class="col-4 pe-4 me-4">
+            <div class="col-12 col-lg-4 pe-4 me-4 text-center">
                 {% for  imagen in pag.fotos %}
-                <div class="mb-3"><img class="img-fluid"  src="/rec/foto/bitacora/{{ imagen }}?{{ cfg.cache_actu }}"></div>
+                <img class="col-8 col-lg-12 img-fluid"  src="/rec/bitacora/{{ imagen }}?{{ cfg.cache_actu }}">
                 {% endfor %}
             </div>
             <div class="ms-4 ps-4 col-7">
-                <h1>{{ pag.titulo }}</h1>
                 <p>Publicado el <i>{{ pag.fecha }}</i> a las <i>{{ pag.hora }}</i></p>
-                <div>
-                    {% if pag.detalle %}
-                    <hr>
+                <h1>{{ pag.titulo }}</h1>
+
+                <div class="py-4 border-top border-secondary">
+                    {% if pag.contenido %}
+                    {{ markdown(pag.contenido) }}
+
+                    {% elif pag.detalle %}
                     {{ markdown(pag.detalle) }}
+
                     {% endif %}
                 </div>
+
             </div>
+
         </div>
     </div>
 </div>

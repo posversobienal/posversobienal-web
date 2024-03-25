@@ -1,0 +1,13 @@
+---
+
+titulo: 'BITÁCORA / NOVEDADES'
+html_base: 'bitacora-menu.html'
+ruta_static: 'bit/index.html'
+
+novedades:
+  maximo: 1000
+  automatico: true
+  lista: []
+
+
+contenido: ''
