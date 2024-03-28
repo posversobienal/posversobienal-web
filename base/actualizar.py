@@ -66,7 +66,7 @@ def borrar_contenido(ruta):
 
 def listar_id(tipo):
     if tipo == 'novedades':
-        return [splitext(ar)[0] for ar in listdir('./datos/bitacora/') if ar.endswith('.yml') ]
+        return sorted([splitext(ar)[0] for ar in listdir('./datos/bitacora/') if ar.endswith('.yml') ])
 
 
 def idioma(tipo):

@@ -179,6 +179,26 @@ header {
   flex: 1 0 auto;
 }
 
+.contenido {
+    blockquote {
+        p {
+            font-style: italic;
+            &.cita:before {
+                content: "« ";
+                font-size: 1.1em;
+                line-height: 1em;
+                color: #888;
+            }
+            &.cita:after {
+                content: " »";
+                font-size: 1.1em;
+                line-height: 1em;
+                color: #888;
+            }
+        }
+    }
+}
+
 footer {
     margin-top: 70px;
     border-top: 0.6px solid #000;
