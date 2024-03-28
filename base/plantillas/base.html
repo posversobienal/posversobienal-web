@@ -116,17 +116,16 @@
                     <img class="fx-invert " height="20px" src="/rec/grafica/icon-menu.svg?{{ cfg.cache_actu }}">
                     <nav>
                         {% for it in cfg.menu %}
-                        {% if 'submenu' in it %}
-                        <a href="{{ it.url }}"><small>{{ it.titulo }}</small></a>
-                        {% for ism in it.submenu %}
-                        <a href="{{ ism.url }}">&nbsp;&nbsp;{{ ism.titulo }}</a>
+                          {% if 'submenu' in it %}
+                          <a href="{{ it.url }}"><small>{{ it.titulo }}</small></a>
+                          {% for ism in it.submenu %}
+                          <a href="{{ ism.url }}">&nbsp;&nbsp;{{ ism.titulo }}</a>
+                          {% endfor %}
+                          {% else %}
+                          <a href="{{ it.url }}">{{ it.titulo }}</a>
+                          {% endif %}
                         {% endfor %}
-                        {% else %}
-                        <a href="{{ it.url }}">{{ it.titulo }}</a>
-                        {% endif %}
-
-
-                        {% endfor %}
+                        <a href="/pag/contacto/"><small>CONTACTO</small></a>
                         <br>
                         <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>{{ cfg.actualizacion }}</b></span>
                     </nav>
