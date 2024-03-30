@@ -89,6 +89,7 @@ def actualizar_personas():
         print('Persona: ', ar)
 
         dat_cfg['actualizacion'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+        dat_cfg['cache_actu'] = int(time_ns() / 1000)
         dat_pag = leer_yml(f'{ruta_in}{ar}')
         dat_pag['titulo'] = dat_pag['nombre'] + ' ' + dat_pag['apellido']
 
@@ -113,6 +114,7 @@ def actualizar_personas_artistas():
         print('Artista: ', ar)
 
         dat_cfg['actualizacion'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+        dat_cfg['cache_actu'] = int(time_ns() / 1000)
         dat_pag = leer_yml(f'{ruta_in}{ar}')
         dat_pag['titulo'] = dat_pag['nombre'] + ' ' + dat_pag['apellido']
 
@@ -162,6 +164,7 @@ def actualizar_paginas():
         print('Página: ', ar)
 
         dat_cfg['actualizacion'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+        dat_cfg['cache_actu'] = int(time_ns() / 1000)
         dat_pag = leer_yml(f'{ruta_in}{ar}')
 
         if dat_pag['ruta_static']:
@@ -186,6 +189,7 @@ def actualizar_bitacora():
         print('Bitacora: ', ar)
 
         dat_cfg['actualizacion'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+        dat_cfg['cache_actu'] = int(time_ns() / 1000)
         dat_pag = leer_yml(f'{ruta_in}{ar}')
 
         nom_ar = splitext(ar)[0]
