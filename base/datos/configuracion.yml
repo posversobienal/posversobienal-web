@@ -20,7 +20,9 @@ emails:
   hoteldada: 'dadahotel@hotmail.com'
 
 urls:
-  formulario_convocatoria: 'https://docs.google.com/forms/d/e/1FAIpQLSdbD5bOK2aRV8d7-J8tomy5onPuFECn2KwHhEkLFMt8Ck-dvQ/viewform'
+  formulario_convocatoria:
+    es: 'https://forms.gle/ky4dzY4MrhZSA9nx8'
+    en: 'https://forms.gle/Mgq4FxMJQeDYYDra8'
   posversobienal: 'https://posversobienal.com.ar/'
   posverso_instagram: 'https://www.instagram.com/posverso_bienal'
   posverso_youtube: 'https://www.youtube.com/@PosversoBienal'
