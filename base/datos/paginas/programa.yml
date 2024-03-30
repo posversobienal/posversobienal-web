@@ -1,13 +1,27 @@
 ---
-titulo: 'Programa'
-html_base: 'pagina.html'
+titulo:
+  es: 'Programa'
+  en: 'Programma'
+html_base: 'pagina-es_en.html'
 ruta_static: 'pag/programa/index.html'
 estilo: col-lg-11
 
-contenido: |
-  **POSVERSO** – *I Bienal Internacional de Poesía Experimental de Argentina* – se desarrollará en cuatro secciones:
+contenido:
 
-  - Una sección **principal**, que consistirá en la muestra central [Poéticas de la resistencia](/pag/eje_tematico/), conformada por [artistas invitados](/pag/artistas_invitados/).
-  - Una sección **descentralizada**, integrada por los artistas seleccionados por la convocatoria abierta, cuyas propuestas se presentarán en las distintas [sedes asociadas a la Bienal](/pag/sedes/).
-  - Una sección **en espacios no convencionales**, donde se activarán propuestas vinculadas a los lenguajes del arte acción, performance, interferencia, acción poética, intervención urbana.
-  - Una sección **dedicada a las poéticas electrónicas**, cuyas producciones serán exhibidas en una muestra virtual, alojada en la página de la Bienal.
+  es: |
+
+    **POSVERSO** – *I Bienal Internacional de Poesía Experimental de Argentina* – se desarrollará en cuatro secciones:
+
+    - Una sección **principal**, que consistirá en la muestra central [Poéticas de la resistencia](/pag/eje_tematico/), conformada por [artistas invitados](/pag/artistas_invitados/).
+    - Una sección **descentralizada**, integrada por los artistas seleccionados por la convocatoria abierta, cuyas propuestas se presentarán en las distintas [sedes asociadas a la Bienal](/pag/sedes/).
+    - Una sección **en espacios no convencionales**, donde se activarán propuestas vinculadas a los lenguajes del arte acción, performance, interferencia, acción poética, intervención urbana.
+    - Una sección **dedicada a las poéticas electrónicas**, cuyas producciones serán exhibidas en una muestra virtual, alojada en la página de la Bienal.
+
+
+  en: |
+    POSVERSO will be developed in four sections:
+
+    - A **main** section, integrated by [invited artists](/pag/artistas_invitados/).
+    - A **decentralized section**, consisting of the artists selected via the Open Call, whose proposals will be presented in the different venues associated with the Biennial.
+    - A section in **unconventional spaces**, where proposals linked to the languages of action art, performance, interference, poetic action, urban intervention will be activated.
+    - A section **dedicated to electronic poetics**, whose productions will be exhibited in a virtual exhibition, hosted on the Biennial's website.

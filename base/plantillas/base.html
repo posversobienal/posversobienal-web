@@ -1,6 +1,11 @@
 <!DOCTYPE html>
-<html lang="es">
-    {% if pag.titulo == "" %}{% set pag_titulo = '' %}{% else %}{% set pag_titulo = ' - ' + pag.titulo %}{% endif %}
+<html>
+    {% if pag.titulo.es%}
+      {% if pag.titulo.es == "" %}{% set pag_titulo = '' %}{% else %}{% set pag_titulo = ' - ' + pag.titulo.es %}{% endif %}
+    {% else %}
+      {% if pag.titulo == "" %}{% set pag_titulo = '' %}{% else %}{% set pag_titulo = ' - ' + pag.titulo %}{% endif %}
+    {% endif %}
+
     {% set titulo = cfg.metadatos.titulo + pag_titulo %}
     {% set url_img_compartir =  cfg.urls.posversobienal + cfg.metadatos.imagen_compartir  %}
     <head>

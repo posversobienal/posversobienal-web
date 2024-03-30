@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
     
+      
+    
+
     
     
     <head>
@@ -155,14 +158,27 @@
 
         <div class="cuerpo">
             
+<div class="menu-lang text-end">
+     <small class="text-center">
+            <span lang="es">Contenido en </span>
+            <span lang="en">Content in </span>
+     </small>
+     <select id="sel-lang" class="btn btn-outline-dark btn-sm ms-2" onchange="cambiar_idioma(this)">
+        <option value="es">ESPAÑOL</option>
+        <option value="en">ENGLISH</option>
+    </select>
+</div>
 <div class="container contenido">
     <header class="my-5">
-        <h1 class="text-center">Acerca de la bienal</h1>
+        <h1 class="text-center">
+            <div lang="es">Acerca de la bienal</div>
+            <div lang="en">About POSVERSO Biennial</div>
+        </h1>
     </header>
 
     <div class="row">
         <section class=" col-lg-8">
-            <p><strong>POSVERSO</strong> es una bienal enfocada en las múltiples prácticas de la poesía intersemiótica, que es generada desde <a href="http://www.hoteldadabase.org/"><em>HOTEL DADA Base de Arte Correo y Poesía Experimental</em></a>, en Argentina.</p>
+            <div lang="es"><p><strong>POSVERSO</strong> es una bienal enfocada en las múltiples prácticas de la poesía intersemiótica, que es generada desde <a href="http://www.hoteldadabase.org/"><em>HOTEL DADA Base de Arte Correo y Poesía Experimental</em></a>, en Argentina.</p>
 <p>El término <em>pós-verso</em> proviene de un desarrollo teórico del poeta brasileño <a href="http://www.antoniomiranda.com.br/poesia_visual/omar_khouri.html">Omar Khouri</a>, quien lo acuñó para referirse a las manifestaciones de la poesía brasileña a partir de los años 70, y especialmente a los grupos nucleados en torno a las revistas Navilouca, Pólen, Código y Artéria. De acuerdo a los planteos de Khouri, esa poesía de la era pós-verso, que no excluye la práctica del verso convencional, tiene como carácter distintivo su migrar de un medio para otro, empleando diversos códigos para su “transmutación” o traducción intersemiótica.</p>
 <p>La BIENAL POSVERSO retoma este concepto que apuntala la existencia de una poesía expandida, marcada intensamente por su naturaleza híbrida y migrante, pero procura llevarlo a un nuevo nivel de transgresión.  Hoy la poesía no es un territorio restringido a los poetas, verbales o experimentales, sino una zona fluctuante y dispersiva en la que se mueven creadores que, de manera incesante y acumulativa, promueven desbordes intersígnicos entre distintas artes.</p>
 <p>Desde POSVERSO, consideramos que la poesía experimental constituye un lenguaje intermedial, una frontera abierta y difusa, siempre permeable a las más variadas aproximaciones. Y es en el campo de las artes visuales donde este lenguaje logra desenvolverse con una intensidad inusitada, y donde se enriquece y repotencializa, manifestándose en obras en las que la interacción entre sistemas de signos asume una forma privilegiada del carácter subversivo de la poesía.</p>
@@ -185,7 +201,9 @@
 <p><a class="fs-5" href="/per/ana_montenegro/" id="ana_montenegro"><strong>Ana Montenegro</strong></a></p>
 <p><em>Directora artística de POSVERSO</em>.</p>
 <p>Ana Montenegro es una artista visual y performer brasileña, basada en Argentina. Con formación en arquitectura, escenografía y semiótica peirceana, desarrolla cursos de Proceso Artístico con base en la semiótica, talleres, charlas y asesorías para artistas. Co-directora de la galería HOTEL DADA, donde se ocupa de la dirección artística y de la presentación de distintos proyectos editoriales y curatoriales. Con una amplia trayectoria nacional e internacional en el campo del arte de performance, se destaca por la práctica de la performance sonora y la poesia experimental en diversos soportes. Responsable de curadurías en Argentina y Brasil, fue curadora asociada en BIENALSUR 2023, Bienal Internacional de Arte Contemporáneo del Sur.</p>
-<p><br></p>
+<p><br></p></div>
+            <div lang="en"><p><strong>POSVERSO</strong> is a biennial focused on the multiple practices of intersemiotic poetry, which is generated from <a href="http://www.hoteldadabase.org/"><em>HOTEL DADA Base de Arte Correo y Poesía Experimental</em></a>, in the city of Junín, in the northwestern region of the Buenos Aires province, Argentina.</p>
+<p>The term pós-verso comes from a theoretical development by the Brazilian poet <a href="http://www.antoniomiranda.com.br/poesia_visual/omar_khouri.html">Omar Khouri</a>, who coined it to refer to the manifestations of Brazilian poetry starting in the 1970s, and especially to the groups centered around the magazines Navilouca, Pólen, Código and Artéria. According to Khouri's ideas, the poetry of the post-verso era, which does not exclude the practice of conventional verse, has the distinctive character of migrating from one medium to another, using various codes for its “transmutation” or intersemiotic translation. The POSVERSO BIENNIAL takes up this concept that underpins the existence of an expanded poetry, intensely marked by its hybrid and migrant nature, but seeks to take it to a new level of transgression. Today poetry is not a territory restricted to poets, verbal or experimental, but rather a fluctuating and dispersive zone in which creators move who, in an incessant and cumulative manner, promote intersignal overflows between different arts.</p></div>
         </section>
 
         
@@ -257,6 +275,8 @@
 
     </div>
 </div>
+<script>function onload_acciones(){ cambiar_idioma(document.getElementById('sel-lang')); }</script>
+
 
         </div>
 
@@ -347,7 +367,7 @@
                         
                         <a href="/pag/contacto/"><small>CONTACTO</small></a>
                         <br>
-                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-03-28 18:28:41</b></span>
+                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-03-30 12:19:35</b></span>
                     </nav>
                 </div>
             </div>

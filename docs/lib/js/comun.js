@@ -50,3 +50,17 @@ const hover_on_click = ()=>{
         });
     }
 }
+
+
+const cambiar_idioma = (obj) => {
+    let elems = document.querySelectorAll('[lang]');
+    let lang = obj.value;
+    for(el of elems){
+        console.log(el.attributes['lang'].value, lang);
+        if(el.attributes['lang'].value == lang){
+            el.classList.remove('d-none');
+        }else{
+            el.classList.add('d-none');
+        }
+    }
+}

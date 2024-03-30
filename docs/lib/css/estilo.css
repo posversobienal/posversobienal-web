@@ -48,6 +48,9 @@ a:hover {
 a.no-decoration {
   border: none!important;
 }
+[lang=en] {
+  _display: none;
+}
 /* menu superior - general */
 .menu {
   background: #000;
