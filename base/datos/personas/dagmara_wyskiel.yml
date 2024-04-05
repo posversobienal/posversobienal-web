@@ -1,0 +1,36 @@
+---
+
+
+nombre: 'Dagmara'
+apellido: 'Wyskiel'
+seudonimo: ''
+
+nacionalidad: 'Polonia'
+contacto_publico: ''
+
+eventos: []
+
+web: 'http://www.dagmara.cl'
+
+fotos:
+  persona: 'dagmara_wyskiel.jpg'
+
+detalle: |
+  {{ idioma('esp') }}
+
+  Polaca radicada en el norte de Chile. Doctora en Arte de la Universidad de Bellas Artes de Cracovia. Ha intervenido con acciones objetuales de gran formato el valle de los Meteoritos y el observatorio astronómico ALMA en el Desierto de Atacama; laguna Amarga en la Patagonia chilena; un antiguo barrio judío en Cracovia; la costa británica y el puerto de Valparaíso. Asimismo, ha realizado intervenciones en los salares de los Andes argentinos; en espacios públicos de Manizales, Medellín y Bogotá en Colombia; en Londres y Hastings en Inglaterra; en Antofagasta, Coliumo y Castro en Chile; en el Palacio del Pueblo y en la plaza Murillo en la Paz, Bolivia.
+
+  Ha participado en bienales en Rusia y Polonia. Sus obras se han expuesto en el Museo Nacional de Arte de Bolivia, Museo de la Memoria y Derechos Humanos en Santiago y el Espacio de Arte Contemporáneo de Montevideo, entre otros museos y galerías de Estados Unidos, España, Polonia, Chile, China, México, Indonesia y Argentina. El 2016 obtuvo el primer premio en la XVII Bienal de Asia en Bangladesh con el video Juego mixto.
+
+  Fue editora de campo de la Trienal de Chile en 2009. Es cofundadora de la Bienal de Arte Contemporáneo SACO, que desde 2012 difunde el arte contemporáneo entre nuevos públicos en el norte de Chile. Desde el 2016, coordina también el Centro de Residencias Artísticas ISLA en Antofagasta.
+
+  {{ idioma('eng') }}
+
+  Polish, Ph.D. in Art from the University of Fine Arts in Krakow. She has made public interventions with performing objects in the Valley of Meteorites and at the ALMA astronomical observatory, both in the Atacama Desert; Laguna Amarga in Chilean Patagonia; an old Jewish neighborhood in Krakow; the British coast and the Port of Valparaiso. Likewise, she has made various interventions in the salt flats of the Argentinian Andes; in public spaces in Manizales, Medellín, and Bogotá in Colombia; in London and Hastings in England; in Antofagasta, Coliumo, and Castro in Chile; in the Great House of the People and the Plaza Murillo in La Paz, Bolivia. Author of more than a dozen films, she lives and works in the Atacama Desert, getting inspiration from the distances and in the supposed emptiness.
+  {.lang-eng}
+
+  She has participated in biennials in Russia and Poland. Her works have been exhibited in the National Museum of Art in Bolivia, the Museum of Memory and Human Rights in Santiago, and the Contemporary Art Space in Uruguay, among other galleries and museums in the United States, Spain, Poland, Chile, China, Mexico, Indonesia, and Argentina. In 2016 she was awarded first place in the XVII Asian Biennial in Bangladesh with the video Joint Game.
+  {.lang-eng}
+
+  In 2009 she was field editor of the Triennial of Chile. Currently, she is the director of the SACO Contemporary Art Biennial, an event that spreads contemporary art among new audiences in the North of Chile for a decade now. Since 2016, she also coordinates the Center for Artist Residencies ISLA in Antofagasta.
+  {.lang-eng}
