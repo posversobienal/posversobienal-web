@@ -471,6 +471,7 @@ a.actual {
     .foto-izq-parrafo {
         float: none;
     }
+
     .menu .items-movile b {
         display: block;
         color: #fff;
@@ -502,14 +503,12 @@ a.actual {
     .con-lista-en-columnas ul {
         column-count: 1;
     }
-    .alerta-traduccion.no-hover {
-        display: none!important;
-    }
-    .alerta-traduccion.no-hover span {
-        display: none!important;
 
+    .alerta-traduccion.no-hover, .alerta-traduccion.no-hover span {
+        display: none!important;
     }
     .alerta-traduccion.hover span {
         display: block!important;
     }
+
 }

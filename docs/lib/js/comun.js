@@ -53,7 +53,6 @@ const hover_on_click = ()=>{
             }else{
                 el.classList.add('no-hover');
             }
-            console.log(ev.currentTarget, '----- 6666')
         });
     }
 }
