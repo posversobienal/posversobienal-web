@@ -11,22 +11,40 @@ tematica:
     Del **18 de octubre** al **20 de diciembre** de 2024.
     **Junín**, Buenos Aires.
 
-deslizador:
-  - {img: 1.jpg, url: '/per/daniela_mastrandrea/', tit: 'Obra de Daniela Mastrandrea'}
-  - {img: 2.jpg, url: '/per/ricardo_omar_salido/', tit: 'Obra de Ricardo Omar Salido'}
-  - {img: 3.jpg, url: '/per/flora_holderbaum/', tit: 'Obra de Flora Holderbaum'}
-  - {img: 4.jpg, url: '/per/wilson_sukorski/', tit: 'Obra de Wilson Sukorski'}
-  - {img: 5.jpg, url: '/per/gabriela_golder/', tit: 'Obra de Gabriela Golder'}
-
-deslizador_a1:
-  - {img: 1.jpg, url: '/per/maurizio_mancioli/', tit: 'Obra de Maurizio Mancioli'}
-  - {img: 2.jpg, url: '/per/montenegro_fisher/', tit: 'Obra de Montenegro-Fisher'}
-  - {img: 3.jpg, url: '/per/paulo_bruscky/', tit: 'Obra de Paulo Bruscky'}
-  - {img: 4.jpg, url: '/per/monica_mura/', tit: 'Obra de Monica Mura'}
-  - {img: 5.jpg, url: '/per/hilda_paz/', tit: 'Obra de Hilda Paz'}
-  - {img: 6.jpg, url: '/per/ale_montiel/', tit: 'Obra de Ale Montiel'}
 
 novedades:
   maximo: 3
   automatico: true
   lista: []
+
+
+deslizador:
+  - {img: 1.jpg, url: '/per/elena_marini/', tit: 'Obra de Elena Marini'}
+  - {img: 2.jpg, url: '/per/ariel_gangi/', tit: 'Obra de Ariel Gangi'}
+  - {img: 3.jpg, url: '/per/leila_danziger/', tit: 'Obra de Leila Danziger'}
+  - {img: 4.jpg, url: '/per/paula_doberti/', tit: 'Obra de Paula Doberti'}
+  - {img: 5.jpg, url: '/per/yuri_bruscky/', tit: 'Obra de Yuri Bruscky'}
+
+
+deslizador_previos:
+
+  - daniela_mastrandrea
+  - ricardo_omar_salido
+  - flora_holderbaum
+  - wilson_sukorski
+  - gabriela_golder
+
+  - maurizio_mancioli
+  - montenegro_fisher
+  - paulo_bruscky
+  - monica_mura
+  - hilda_paz
+  - ale_montiel
+
+  - marie orensanz
+  - matilde marin
+  - ale thorton
+  - giovanni fontana
+  - javier del olmo
+  - jurgen olbrich
+  - lug fierens
