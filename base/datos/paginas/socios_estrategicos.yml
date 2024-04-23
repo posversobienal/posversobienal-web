@@ -9,31 +9,31 @@ contenido: |
   <br><hr><br>
   ## Socios Institucionales
 
-  ![MACA](/rec/socios/maca_junin.jpg){.logo_socio}
-  [![Centro de Arte UNLP](/rec/socios/cau.jpg){.logo_socio}]({{ cfg.urls.info_cau }})
-  ![Secretaria de Arte y Cultura UNLP](/rec/socios/sayc.jpg){.logo_socio}
-  [![AFA Arquivo Fernando Aguiar](/rec/socios/arquivo_fernando_aguiar.jpg){.logo_socio}]({{ cfg.urls.info_afa }})
-  [![Biblioteca Floresta](/rec/socios/biblioteca_floresta.jpg){.logo_socio}]({{ cfg.urls.info_bibliotec_floresta }})
-  [![Bienal SACO](/rec/socios/saco.jpg){.logo_socio}]({{ cfg.urls.info_bienal_saco }})
-  [![Casa Río Lab](/rec/socios/casa_rio_lab.jpg){.logo_socio}]({{ cfg.urls.info_casariolab }})
-  ![Escuela de Arte Xul Solar](/rec/socios/escuela_de_arte_xul_solar.jpg){.logo_socio}
+  ![MACA](/rec/socios/maca_junin.jpg){.logo_socio title="MACA"}
+  [![Centro de Arte UNLP](/rec/socios/cau.jpg){.logo_socio}]({{ cfg.urls.info_cau }}){title="Centro de Arte UNLP"}
+  ![Secretaria de Arte y Cultura UNLP](/rec/socios/sayc.jpg){.logo_socio title="Secretaria de Arte y Cultura UNLP"}
+  [![AFA Arquivo Fernando Aguiar](/rec/socios/arquivo_fernando_aguiar.jpg){.logo_socio}]({{ cfg.urls.info_afa }}){title="AFA Arquivo Fernando Aguiar"}
+  [![Biblioteca Floresta](/rec/socios/biblioteca_floresta.jpg){.logo_socio}]({{ cfg.urls.info_bibliotec_floresta }}){title="Biblioteca Floresta"}
+  [![Bienal SACO](/rec/socios/saco.jpg){.logo_socio}]({{ cfg.urls.info_bienal_saco }}){title="Bienal SACO"}
+  [![Casa Río Lab](/rec/socios/casa_rio_lab.jpg){.logo_socio}]({{ cfg.urls.info_casariolab }}){title="Casa Río Lab"}
+  ![Escuela de Arte Xul Solar](/rec/socios/escuela_de_arte_xul_solar.jpg){.logo_socio}{title="Escuela de Arte Xul Solar"}
 
   <br><hr><br>
   ## Socios de Comunicación
 
-  [![Arte Online](/rec/socios/arte_online.jpg){.logo_socio}]({{ cfg.urls.info_arte_online }})
-  [![Utsanga](/rec/socios/utsanga.jpg){.logo_socio}]({{ cfg.urls.info_utsanga }})
-  [![Be Cult](/rec/socios/becult.jpg){.logo_socio}]({{ cfg.urls.info_be_cult }})
+  [![Arte Online](/rec/socios/arte_online.jpg){.logo_socio}]({{ cfg.urls.info_arte_online }}){title="Arte Online"}
+  [![Utsanga](/rec/socios/utsanga.jpg){.logo_socio}]({{ cfg.urls.info_utsanga }}){title="Utsanga"}
+  [![Be Cult](/rec/socios/becult.jpg){.logo_socio}]({{ cfg.urls.info_be_cult }}){title="Be Cult"}
 
   <br><hr><br>
   ## Socios Expositivos
 
-  ![ATSA](/rec/socios/atsa.jpg){.logo_socio}
-  ![Fundación Casa Pronto](/rec/socios/fundacion_casa_pronto.jpg){.logo_socio}
-  ![MACA](/rec/socios/maca_junin.jpg){.logo_socio}
+  ![ATSA](/rec/socios/atsa.jpg){.logo_socio tittle="ATSA"}
+  ![Fundación Casa Pronto](/rec/socios/fundacion_casa_pronto.jpg){.logo_socio tittle="Fundación Casa Pronto"}
+  ![MACA](/rec/socios/maca_junin.jpg){.logo_socio tittle="MACA"}
 
   <br><hr><br>
   ## Colaboradores
 
-  ![Taller Gráfico Oberda](/rec/socios/taller_grafico_oberda.jpg){.logo_socio}
-  ![ATSA](/rec/socios/atsa.jpg){.logo_socio}
+  ![Taller Gráfico Oberda](/rec/socios/taller_grafico_oberda.jpg){.logo_socio title="Taller Gráfico Oberda"}
+  ![ATSA](/rec/socios/atsa.jpg){.logo_socio title="ATSA"}
