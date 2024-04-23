@@ -502,8 +502,8 @@ a.actual {
   .con-lista-en-columnas ul {
     column-count: 1;
   }
-  .alerta-traduccion span {
-    display: none;
+  .alerta-traduccion.no-hover span {
+    display: none!important;
   }
   .alerta-traduccion.hover span {
     display: block!important;

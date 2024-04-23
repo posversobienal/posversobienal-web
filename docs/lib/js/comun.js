@@ -48,7 +48,12 @@ const hover_on_click = ()=>{
         el.addEventListener('click', ev => {
             let el = ev.currentTarget;
             el.classList.toggle('hover');
-            console.log(ev.currentTarget, '-----4444')
+            if(el.classList.contains('hover')){
+                el.classList.remove('no-hover');
+            }else{
+                el.classList.add('no-hover');
+            }
+            console.log(ev.currentTarget, '----- 5555')
         });
     }
 }
