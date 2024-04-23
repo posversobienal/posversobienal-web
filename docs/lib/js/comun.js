@@ -46,8 +46,12 @@ const hover_on_click = ()=>{
     let elems = document.querySelectorAll('.hover-on-click');
     for(let el of elems){
         el.addEventListener('click', ev => {
-            ev.currentTarget.classList.toggle('hover');
+            let el = ev.currentTarget;
+            el.classList.toggle('hover');
             console.log(ev.currentTarget)
+            el.style.display='none';
+            el.offsetHeight;
+            el.style.display='block';
         });
     }
 }
