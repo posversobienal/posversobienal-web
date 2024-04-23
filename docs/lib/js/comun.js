@@ -48,7 +48,7 @@ const hover_on_click = ()=>{
         el.addEventListener('click', ev => {
             let el = ev.currentTarget;
             el.classList.toggle('hover');
-            console.log(ev.currentTarget, '-----333')
+            console.log(ev.currentTarget, '-----4444')
         });
     }
 }
