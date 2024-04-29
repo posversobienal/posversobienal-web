@@ -463,6 +463,14 @@ a.actual {
   text-align: center;
   animation: color-cr 10s infinite linear;
 }
+.galeria .miniatura {
+  width: 300px;
+  display: inline-block;
+  margin: 5px;
+}
+.boton {
+  cursor: pointer;
+}
 @keyframes color-cr {
   0% {
     background: #000;
