@@ -549,7 +549,7 @@ a.actual {
 
 .cuenta-regresiva {
     padding: 10px;
-    background: #a20;
+    background: #000;
     color: #ffF;
     text-align: center;
     animation: color-cr 10s infinite linear;
@@ -557,9 +557,11 @@ a.actual {
 }
 
 @keyframes color-cr {
-  0%   { background: #a20; }
-  50%  { background: #a07; }
-  100% { background: #a20; }
+    0%   { background: #000; color:#fff; }
+    25%  { background: #888; color:#777; }
+    50%  { background: #fff; color:#000; }
+    75%  { background: #777; color: #888; }
+    100% { background: #000; color:#fff; }
 }
 
 
