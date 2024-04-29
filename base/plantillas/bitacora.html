@@ -7,7 +7,7 @@
         <div class="row">
             <div class="col-12 col-lg-4 pe-4 me-4 text-center">
                 {% for  imagen in pag.fotos %}
-                <img class="col-8 col-lg-12 img-fluid boton" src="/rec/bitacora/{{ imagen }}?{{ cfg.cache_actu }}" onclick="ampliarImagen(this)">
+                <img class="col-8 col-lg-12 img-fluid boton js-item-galeria" src="/rec/bitacora/{{ imagen }}?{{ cfg.cache_actu }}" onclick="ampliarImagen(this)">
                 <br><br>
                 {% endfor %}
                 <br>
@@ -32,7 +32,7 @@
     {% if pag.galeria   %}
     <div class="galeria d-flex flex-wrap justify-content-center">
         {% for it in pag.galeria %}
-        <img class="miniatura boton" src="{{ it.url }}" title="{{ it.titulo }}" onclick="ampliarImagen(this)">
+        <img class="miniatura boton js-item-galeria" src="{{ it.url }}?{{ cfg.cache_actu }}" title="{{ it.titulo }}" onclick="ampliarImagen(this)">
         {% endfor %}
     </div>
     {% endif %}
