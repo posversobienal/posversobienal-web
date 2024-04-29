@@ -43,25 +43,26 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
-        <link href="/lib/css/estilo.css?1714078296719305" rel="stylesheet">
+        <link href="/lib/css/estilo.css?1714363493638398" rel="stylesheet">
 
         <link rel="shortcut icon" href="/rec/grafica/favicon.svg" type="image/x-icon" />
 
-        <script src="/dat/rec.js?1714078296719305"></script>
-        <script src="/lib/js/comun.js?1714078296719305"></script>
+        <script src="/dat/rec.js?1714363493638398"></script>
+        <script src="/lib/js/comun.js?1714363493638398"></script>
     </head>
     <body name="">
+
         <nav class="menu">
             <ul>
                 <li>
                     <a class="logo posverso" href="/">
-                        <img class="d-block fx-invert fx-ampliar" src="/rec/grafica/logo-posverso.svg?1714078296719305" title="POSVERSO">
+                        <img class="d-block fx-invert fx-ampliar" src="/rec/grafica/logo-posverso.svg?1714363493638398" title="POSVERSO">
                     </a>
                 </li>
             </ul>
 
             <div class="items-movile hover-on-click">
-                <b><img class="fx-invert " height="20px" src="/rec/grafica/icon-menu.svg?1714078296719305"></b>
+                <b><img class="fx-invert " height="20px" src="/rec/grafica/icon-menu.svg?1714363493638398"></b>
                 <ul class="d-flex wrap">
                     
                     <li class="hover-on-click">
@@ -156,6 +157,48 @@
             </div>
         </nav>
 
+        <div id="cr" class="cuenta-regresiva">
+            <span class="fs-4 px-2">FINALIZA</span> LA <b class="fs-4 px-2">CONVOCATORIA ABIERTA</b> EN
+            <span class="d-inline-block px-2"><span id="dn" class="fs-3"></span> <span id="dp" class="text-uppercase"></span></span>
+            <span class="d-inline-block px-2"><span id="hn" class="fs-3"></span> <span id="hp" class="text-uppercase"></span></span>
+            <span class="d-inline-block px-2"><span id="mn" class="fs-3"></span> <span id="mp" class="text-uppercase"></span></span>
+            <span class="d-inline-block px-2"><span id="sn" class="fs-3"></span> <span id="sp" class="text-uppercase"></span></span>
+
+            <script>
+             let e = new Date("2024-5-1 0:0:0").getTime();
+
+             setInterval(()=>{
+                 let a = new Date().getTime(),
+                     f = e - a,
+                     d = Math.floor(f / (1000 * 60 * 60 * 24)),
+                     h = Math.floor((f % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
+                     m = Math.floor((f % (1000 * 60 * 60)) / (1000 * 60)),
+                     s = Math.floor((f % (1000 * 60)) / 1000);
+                 if(e > a){
+                     dn.innerHTML = d;
+                     hn.innerHTML = h;
+                     mn.innerHTML = m;
+                     sn.innerHTML = s;
+                     dp.innerHTML = d != 1 ? "días" : "día";
+                     hp.innerHTML = h != 1 ? "horas" : "hora";
+                     mp.innerHTML = m != 1 ? "minutos" : "minuto";
+                     sp.innerHTML = s != 1 ? "segundos" : "segundo";
+                     if(d == 0) dn.innerHTML = dp.innerHTML = "";
+                     if(h == 0) hn.innerHTML = hp.innerHTML = "";
+                     if(m == 0) mn.innerHTML = mp.innerHTML = "";
+                     if(s == 0) sn.innerHTML = sp.innerHTML = "";
+                 }else{
+                     dn.innerHTML = dp.innerHTML = hn.innerHTML = hp.innerHTML =
+                         mn.innerHTML = mp.innerHTML = sn.innerHTML = sp.innerHTML = "";
+                     cr.style.display = 'none';
+                 }
+             }, 1000);
+            </script>
+        </div>
+
+
+
+
         <div class="cuerpo">
             
 <div class="menu-lang text-end">
@@ -207,23 +250,23 @@
             <div  class="d-flex justify-content-around">
                 <div class="d-flex">
                     <a href="/" class="mx-4">
-                        <img height="20px" src="/rec/grafica/logo-posverso.svg?1714078296719305" title="POSVERSO">
+                        <img height="20px" src="/rec/grafica/logo-posverso.svg?1714363493638398" title="POSVERSO">
                     </a>
                     <span class="border-dark border-start"></span>
                     <a class="mx-4" href="http://www.hoteldadabase.org/">
-                        <img height="25px" src="/rec/grafica/logo-hoteldada.svg?1714078296719305" title="Hotel DaDA">
+                        <img height="25px" src="/rec/grafica/logo-hoteldada.svg?1714363493638398" title="Hotel DaDA">
                     </a>
                 </div>
                 <div>&nbsp</div>
                 <div class="d-inline-block">
                     <a class="d-inline-block px-2 py-1" href="https://www.instagram.com/posverso_bienal">
-                        <img class="icono" src="/rec/grafica/icon-instagram.svg?1714078296719305" alt="Instagram">
+                        <img class="icono" src="/rec/grafica/icon-instagram.svg?1714363493638398" alt="Instagram">
                     </a>
                     <a class="d-inline-block px-2 py-1" href="https://www.youtube.com/@PosversoBienal">
-                        <img class="icono" src="/rec/grafica/icon-youtube.svg?1714078296719305" alt="Youtube">
+                        <img class="icono" src="/rec/grafica/icon-youtube.svg?1714363493638398" alt="Youtube">
                     </a>
                     <a class="d-inline-block px-2 py-1" href="mailto:posversobienal@gmail.com">
-                        <img class="icono" src="/rec/grafica/icon-email.svg?1714078296719305" alt="Email">
+                        <img class="icono" src="/rec/grafica/icon-email.svg?1714363493638398" alt="Email">
                     </a>
                 </div>
             </div>
@@ -231,7 +274,7 @@
             <div class="utiles">
 
                 <div class="d-inline-block menu-pie" title="Menú">
-                    <img class="fx-invert " height="20px" src="/rec/grafica/icon-menu.svg?1714078296719305">
+                    <img class="fx-invert " height="20px" src="/rec/grafica/icon-menu.svg?1714363493638398">
                     <nav>
                         
                           
@@ -290,7 +333,7 @@
                         
                         <a href="/pag/contacto/"><small>CONTACTO</small></a>
                         <br>
-                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-04-25 20:51:36</b></span>
+                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2024-04-29 04:04:53</b></span>
                     </nav>
                 </div>
             </div>
@@ -300,15 +343,15 @@
         <nav id="menu-permanente">
             <ul class="row" title="Ir a la portada">
                 <li class="col mostrar-si-pagina-desplazada">
-                    <a href="/"><img class="fx-invert" height="10px" src="/rec/grafica/logo-posverso.svg?1714078296719305" title="POSVERSO"></a>
+                    <a href="/"><img class="fx-invert" height="10px" src="/rec/grafica/logo-posverso.svg?1714363493638398" title="POSVERSO"></a>
                 </li>
                 <li class="col mx-2" title="Contacto">
                     <a href="/pag/contacto/">
-                        <img height="20px" src="/rec/grafica/icon-contacto.svg?1714078296719305" title="Datos de contacto">
+                        <img height="20px" src="/rec/grafica/icon-contacto.svg?1714363493638398" title="Datos de contacto">
                     </a>
                 </li>
                 <li class="col me-2 selector-idioma" title="Traducir página con Google Translate">
-                    <img height="15px" src="/rec/grafica/icon-traducir.svg?1714078296719305">
+                    <img height="15px" src="/rec/grafica/icon-traducir.svg?1714363493638398">
                     <div class="submenu">
                         
                         <button onclick="redirigir_a_traduccion('en')">English</button>
@@ -327,7 +370,7 @@
                 </li>
                 <li class="col mostrar-si-pagina-desplazada" title="Desplazarse al inicio de la página">
                     <button onclick="window.scrollTo(0,0)">
-                        <img height="20px" src="/rec/grafica/icon-subir.svg?1714078296719305">
+                        <img height="20px" src="/rec/grafica/icon-subir.svg?1714363493638398">
                     </button>
                 </li>
             </ul>
@@ -350,7 +393,6 @@
             <span>Está página es traducida de forma automática por <i id="tr-by"></i>, causando posibles diferencias de significado sobre el texto original.</span>
         </div>
 
-
-        <script src="/lib/js/init.js?1714078296719305"></script>
+        <script src="/lib/js/init.js?1714363493638398"></script>
     </body>
 </html>

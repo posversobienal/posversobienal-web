@@ -53,6 +53,7 @@
         <script src="/lib/js/comun.js?{{ cfg.cache_actu }}"></script>
     </head>
     <body name="{% block body_name %}{% endblock %}">
+
         <nav class="menu">
             <ul>
                 <li>
@@ -85,6 +86,48 @@
                 </ul>
             </div>
         </nav>
+
+        <div id="cr" class="cuenta-regresiva">
+            <span class="fs-4 px-2">FINALIZA</span> LA <b class="fs-4 px-2">CONVOCATORIA ABIERTA</b> EN
+            <span class="d-inline-block px-2"><span id="dn" class="fs-3"></span> <span id="dp" class="text-uppercase"></span></span>
+            <span class="d-inline-block px-2"><span id="hn" class="fs-3"></span> <span id="hp" class="text-uppercase"></span></span>
+            <span class="d-inline-block px-2"><span id="mn" class="fs-3"></span> <span id="mp" class="text-uppercase"></span></span>
+            <span class="d-inline-block px-2"><span id="sn" class="fs-3"></span> <span id="sp" class="text-uppercase"></span></span>
+
+            <script>
+             let e = new Date("2024-5-1 0:0:0").getTime();
+
+             setInterval(()=>{
+                 let a = new Date().getTime(),
+                     f = e - a,
+                     d = Math.floor(f / (1000 * 60 * 60 * 24)),
+                     h = Math.floor((f % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
+                     m = Math.floor((f % (1000 * 60 * 60)) / (1000 * 60)),
+                     s = Math.floor((f % (1000 * 60)) / 1000);
+                 if(e > a){
+                     dn.innerHTML = d;
+                     hn.innerHTML = h;
+                     mn.innerHTML = m;
+                     sn.innerHTML = s;
+                     dp.innerHTML = d != 1 ? "días" : "día";
+                     hp.innerHTML = h != 1 ? "horas" : "hora";
+                     mp.innerHTML = m != 1 ? "minutos" : "minuto";
+                     sp.innerHTML = s != 1 ? "segundos" : "segundo";
+                     if(d == 0) dn.innerHTML = dp.innerHTML = "";
+                     if(h == 0) hn.innerHTML = hp.innerHTML = "";
+                     if(m == 0) mn.innerHTML = mp.innerHTML = "";
+                     if(s == 0) sn.innerHTML = sp.innerHTML = "";
+                 }else{
+                     dn.innerHTML = dp.innerHTML = hn.innerHTML = hp.innerHTML =
+                         mn.innerHTML = mp.innerHTML = sn.innerHTML = sp.innerHTML = "";
+                     cr.style.display = 'none';
+                 }
+             }, 1000);
+            </script>
+        </div>
+
+
+
 
         <div class="cuerpo">
             {% block body %}{% endblock %}
@@ -181,7 +224,6 @@
             <b>!</b>
             <span>Está página es traducida de forma automática por <i id="tr-by"></i>, causando posibles diferencias de significado sobre el texto original.</span>
         </div>
-
 
         <script src="/lib/js/init.js?{{ cfg.cache_actu }}"></script>
     </body>
