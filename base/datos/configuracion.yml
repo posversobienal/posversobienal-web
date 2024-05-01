@@ -78,8 +78,8 @@ menu:
   - titulo: 'CONVOCATORIA'
     url: ''
     submenu:
-      - titulo: 'Convocatoria abierta'
-        url: '/pag/convocatoria_abierta/'
+      #- titulo: 'Convocatoria abierta'
+      #  url: '/pag/convocatoria_abierta/'
       - titulo: 'Comité de selección'
         url: '/pag/comite_de_seleccion/'
   - titulo: 'SEDES'
