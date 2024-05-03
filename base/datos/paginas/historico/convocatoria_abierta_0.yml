@@ -1,0 +1,69 @@
+---
+
+titulo:
+  es: 'Convocatoria abierta'
+  en: 'Open Call'
+html_base: 'pagina-es_en.html'
+ruta_static: 'pag/convocatoria_abierta/index.html'
+estilo: col-lg-12
+
+contenido:
+  es: |
+
+    El Comité Organizador de **POSVERSO** – *I Bienal Internacional de Poesía Experimental de Argentina* –
+    convoca a creadores de todos los lenguajes, conforme a lo explicitado en el texto curatorial
+    [Poéticas de la resistencia](pag/eje_tematico/),
+    para integrar su programación, a desarrollarse en distintas sedes
+    – *centros culturales, museos, escuelas de arte, sindicatos, bibliotecas y espacios no convencionales* –
+    de la ciudad de Junín, provincia de Buenos Aires, entre el **18 de octubre** y el **20 de diciembre** de **2024**.
+
+    Se podrá aplicar en las siguientes categorías:
+
+    - Poesía visual
+    - Poesía Fonética y Sonora
+    - Performance Sonora / Arte Sonoro
+    - Poesía Acción / Performance Poética
+    - Videopoesía
+    - Poesía Electrónica / Tecnopoesía
+    - Graffiti / Stencil
+    - Afichismo Artístico
+    - Libro de artista
+    - Poema-objeto / Objeto poético
+
+    **La convocatoria abierta e internacional se extenderá desde el 15 de febrero hasta el 30 de abril de 2024.**
+    La presentación de proyectos de obra se realizará a través del siguiente
+    [Formulario de Convocatoria]({{ cfg.urls.formulario_convocatoria.es }}){.btn .btn-outline-dark .py-1 .px-2}
+    {.m-4 .p-3 .border .border-dark}
+
+    **Una vez finalizado el período de aplicación, el Comité Internacional de Selección de POSVERSO evaluará las propuestas, y en un plazo no mayor a 30 días hará pública la selección definitiva de los artistas que integraran la programación de la Bienal.**
+
+  en: |
+
+    The Organizing Committee of **POSVERSO** – *I International Biennial of Experimental Poetry of Argentina* – calls for creators of all languages, as explained in the curatorial text
+    [Poetics of Resistance](/pag/eje_tematico/),
+    to integrate its programming, to be developed in different venues, cultural centers, museums, libraries and unconventional spaces in the city of Junín, province of Buenos Aires, between October and December 2024.
+
+    The open and international call will run from February 15 to April 30, 2024. The presentation of work projects will will be carried out through an online platform.
+
+    Once the application period has ended, the POSVERSO International Selection Committee will evaluate the proposals, and within a period of no more than 30 days it will make public the final selection of the artists who will make up the Biennial programming.
+
+    Each artist may send a maximum of 3 works or artistic projects, completing a different form for each work.
+
+    It may be applied in one or more of the following categories:
+
+    - Visual poetry
+    - Phonetic and Sound Poetry
+    - Sound Performance / Sound Art
+    - Action Poetry / Poetic Performance
+    - Videopoetry
+    - Electronic Poetry / Technopoetry
+    - Graffiti / Stencil
+    - Artistic Posterism
+    - Artist book
+    - Poem-object / Poetic object
+
+    Online application and form:
+    [Call for applications form]({{ cfg.urls.formulario_convocatoria.en }}){.btn .btn-outline-dark .py-1 .px-2}
+    {.m-4 .p-3 .border .border-dark}
+
+    Deadline: 30 April 2024

@@ -61,6 +61,8 @@ menu:
         url: '/pag/artistas_homenajeados/'
       - titulo: 'Curadores invitados'
         url: '/pag/curadores_invitados/'
+      - titulo: 'Convocatoria abierta'
+        url: '/pag/convocatoria_abierta/'
       - titulo: 'Socios estratégicos'
         url: '/pag/socios_estrategicos/'
 
@@ -75,13 +77,18 @@ menu:
         url: '/pag/otras_exhibiciones/'
       - titulo: 'Proyectos colaterales'
         url: '/pag/proyectos_colaterales/'
-  - titulo: 'CONVOCATORIA'
+
+  - titulo: 'PROGRAMA EDUCATIVO'
     url: ''
     submenu:
-      #- titulo: 'Convocatoria abierta'
-      #  url: '/pag/convocatoria_abierta/'
-      - titulo: 'Comité de selección'
-        url: '/pag/comite_de_seleccion/'
+      - titulo: 'Evento teórico'
+        url: '/pag/evento_teorico/'
+      - titulo: 'Mediación educativa'
+        url: '/pag/mediacion_educativa/'
+      - titulo: 'Publicaciones'
+        url: '/pag/publicaciones/'
+
+
   - titulo: 'SEDES'
     url: '/pag/sedes/'
   - titulo: 'ARTISTAS'

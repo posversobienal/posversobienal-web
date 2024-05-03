@@ -1,0 +1,11 @@
+---
+
+titulo: 'Evento teórico'
+html_base: 'pagina.html'
+ruta_static: 'pag/evento_teorico/index.html'
+estilo: col-lg-11
+
+imagen_cabecera: '/rec/foto/paginas/evento_teorico.jpg'
+
+contenido: |
+  El Evento Teórico de **POSVERSO BIENAL** es proyectado como un espacio de formación, basado en la producción y difusión de conocimiento sobre arte contemporáneo y prácticas poéticas experimentales. Integrado con la participación de investigadores, curadores y artistas, tendrá como finalidad fomentar y potenciar instancias de reflexión teórica sobre las prácticas poético-artísticas contemporáneas y sus posibilidades de incidencia en la disputa cultural por el sostenimiento de discursividades críticas y contrahegemónicas.

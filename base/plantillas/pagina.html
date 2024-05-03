@@ -1,7 +1,13 @@
 {% extends "base.html" %}
 
 {% block body %}
+{% if 'imagen_cabecera' in pag %}
+<div class="">
+    <img src="{{ pag.imagen_cabecera }}" class="img-fluid">
+</div>
+{% endif %}
 <div class="container contenido">
+
     <header class="my-5">
         <h1 class="text-center">{{ pag.titulo }}</h1>
     </header>
@@ -15,7 +21,6 @@
         <section class="{{ pag.estilo_cnt_sec }} ms-4 ps-4 border-start border-gray col-lg-3">
             {{ markdown(pag.contenido_secundario) }}
         </section>
-
         {% endif %}
 
     </div>
