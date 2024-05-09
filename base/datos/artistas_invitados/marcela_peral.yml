@@ -1,0 +1,31 @@
+---
+
+nombre: 'Marcela'
+apellido: 'Peral'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://linktr.ee/Marcegraba'
+
+eventos: []
+
+fotos:
+  persona: 'marcela_peral.jpg'
+  obra: 'marcela_peral-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - invitado
+
+detalle: |
+  {{ idioma('esp') }}
+
+  (Rosario, 1960) Nació, trabaja y vive en Rosario. Es Profesora y Licenciada en Bellas Artes con Orientación en Grabado y en Teoría y Crítica, egresada de Facultad de Humanidades y Arte (UNR). Elabora su obra a partir del grabado y las técnicas de impresión, realizando objetos gráficos, libros de artista, arte postal y poesía visual/experimental. Ha participado en numerosas propuestas colectivas y colaborativas, intercambios y publicaciones independientes. Junto a otras artistas santafesinas integra el colectivo “Correntada gráfica” para la difusión del grabado y el arte impreso de Santa Fe. Dicta charlas, talleres y ponencias en instituciones artísticas y educativas de Argentina. Participa en Salones nacionales e internacionales y en numerosas exposiciones desde 1995. Algunas de sus obras se encuentran en colecciones públicas y privadas de Argentina y el exterior. En 2024 fue incluida en la revista-libro VIGO Volumen 1 Poesía Visual Argentina (Hotel DADA editor).
+
+  {{ idioma('eng') }}
+
+  (Rosario, 1960) She was born, works and lives in Rosario. She is a Professor and Graduate in Fine Arts with a focus on Printmaking and Theory and Criticism, graduated from the Faculty of Humanities and Art (UNR). She elaborates her work from engraving and printing techniques, making graphic objects, artist books, postal art and visual/experimental poetry. She has participated in numerous collective and collaborative proposals, exchanges and independent publications. Along with other artists from Santa Fe, she is a member of the collective “Correntada graphica” for the dissemination of engraving and printed art from Santa Fe. She gives talks, workshops and presentations in artistic and educational institutions in Argentina. She has participated in national and international exhibitions and numerous exhibitions since 1995. Some of her works are found in public and private collections in Argentina and abroad. In 2024 she was included in the anthology VIGO Volume 1 Poesía Visual Argentina (Hotel DADA editor).
+  {.lang-eng}
