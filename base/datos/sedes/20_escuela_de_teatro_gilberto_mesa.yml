@@ -1,0 +1,13 @@
+---
+nombre: "Escuela Provincial de Teatro 'Gilberto A. Mesa'"
+domicilio: 'Mayor López 73. Junín, Buenos Aires, Argentina.'
+gmaps: 'https://maps.app.goo.gl/tWKZXbEc8vZW89527'
+
+geopos:
+  coord: [-34.59464, -60.94715]
+  icono: pin-sede
+
+fotos:
+  - 'escuela_de_teatro_gilberto_mesa.jpg'
+eventos_asociados: []
+descripcion: []

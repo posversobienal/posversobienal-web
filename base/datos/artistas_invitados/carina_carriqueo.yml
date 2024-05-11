@@ -1,0 +1,34 @@
+---
+
+nombre: 'Carina'
+apellido: 'Carriqueo'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://www.instagram.com/carina_carriqueo/'
+
+eventos: []
+
+fotos:
+  persona: 'carina_carriqueo.jpg'
+  obra: 'carina_carriqueo-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 20%
+
+etiquetas:
+  - invitado
+
+detalle: |
+  {{ idioma('esp') }}
+
+  Cantora, escritora, performer de origen Mapuche- Gununakúna (Tehuelche). Nacida en Furilofche (Bariloche) provincia de Río Negro en 1980. Desde 2021 radicada en la ciudad de La Plata. Comenzó a rescatar cantos y relatos a los 18 años, difundiendo hasta la fecha el canto en mapuzungún, la lengua mapuche, mediante distintas propuestas artísticas en teatros. Compone sus canciones y produce sus espectáculos. Actualmente presenta su concierto Canciones para el Alma, un recorrido musical por su historia de vida y la de muchas mujeres que, desde la campaña de Roca lograron sobrevivir para transmitir la cultura. Curadora de la muestra fotográfica Inchíñ, retratos en blanco y negro de hombres, mujeres y niñas de distintas comunidades del noroeste bonaerense, presentada en el Museo MACA de Junín. Autora del documental Grillo Oruga, canto para enamorar, en co-producción con Manuel Da Victoria y Vladimir Zegarra. Autora del libro Cuando el lago esté quieto (Ediciones Carminalusis), tercera edición presentada en 2024 en la Feria del Libro de Buenos Aires. Creó el primer coro mapuche de la Provincia de Buenos Aires, Aukin Mapu (Eco de la tierra) en la localidad de Los Toldos. Actualmente inscripta por la discográfica Casa Rara Mastering para los Latin Grammy por su tema Tufachi Mawün grabado en 2023. Ha acompañado en prólogo el trabajo investigativo de Sergio Herkovitsz, de Chile para su libro Prototíteres Mapuche. También para el libro del concertista mapuche Juan Curilén titulado Suite El Maitén, Música para Guitarra; ha colaborado en el primer diccionario Mapuche de Los Toldos junto a Hugo Silveira y Susana Carranza. Escribe para la revista Cuaderno de la Biblioteca Nacional artículos sobre Pueblos Originarios. Bajo la dirección del platense Gustavo Delfino presentó su unipersonal Kimey, El Círculo de la Vida, de 2016 a 2019, recorriendo en gira la provincia de Buenos Aires. En 2022, la directora teatral Jazmín García Sathicq, inspirada en su canción  Caminante, monta la obra teatral El Viento en mis Ojos, en la ciudad de La Plata, resultando una de las obras ganadoras del concurso de la Comedia Municipal. En 2021, es nominada a los Premios Gardel por su tema Caminante, en 2022 por Canto Sagrado del Lucero, con el que también quedó inscripta ese año para los premios Latin Grammy 2023 por la discográfica Soir Music. Integra el Centro PEN Argentina, la organización mundial de escritores. Integra el Centro de Estudios sobre pueblos originarios de la Biblioteca Nacional Mariano Moreno.
+
+  {{ idioma('eng') }}
+
+  Singer, writer, performer of Mapuche-Gununakúna (Tehuelche) origin. She was born in Furilofche (Bariloche), province of Río Negro in 1980. Since 2021 she has been living in the city of La Plata. She began to rescue songs and stories at the age of 18, spreading the song in Mapuzungún, the Mapuche language, through different artistic proposals in theaters. She composes her songs and produces her shows. She is currently presenting her concert Canciones para el alma, a musical journey through her life story and that of many women who, since the Roca campaign, managed to survive to transmit culture. She is the curator of the photographic exhibition Inchíñ, black and white portraits of men, women and girls from different communities in the northwest of Buenos Aires, presented at the MACA Museum in Junín. She is the author of the documentary Grillo Oruga, canto para enamorar, in co-production with Manuel Da Victoria and Vladimir Zegarra. She is the author of the book Cuando el lago este quieto (Ediciones Carminalusis), third edition presented in 2024 at the Buenos Aires Book Fair. She created the first Mapuche choir in the Province of Buenos Aires, Aukin Mapu (Echo of the Earth) in the town of Los Toldos. She is currently registered by the Casa Rara Mastering record company for the Latin Grammy for her song Tufachi Mawün recorded in 2023. She has accompanied in a prologue the investigative work of Sergio Herkovitsz, from Chile for his book Prototíteres Mapuche. She also wrote for the book by Mapuche concert pianist Juan Curilén titled Suite El Maitén, Música para Guitarra; She has collaborated on the first Mapuche dictionary of Los Toldos together with Hugo Silveira and Susana Carranza. She writes articles about Native Peoples for the Cuaderno magazine of the National Library. Under the direction of Gustavo Delfino from La Plata, she presented her show Kimey, El Círculo de la Vida, from 2016 to 2019, touring the province of Buenos Aires. In 2022, theater director Jazmín García Sathicq, inspired by her song Caminante, stages the play El Viento en mis Ojos, in the city of La Plata, resulting in one of the winning works of the Municipal Comedy contest. In 2021, she is nominated for the Gardel Awards for her song Caminante; in 2022 for Canto Sagrado del Lucero, with which she was also registered that year for the 2023 Latin Grammy Awards by the Soir Music record label. She is a member of the PEN Argentina Center, the world organization of writers. She is a member of the Center for Studies on Native Peoples of the Mariano Moreno National Library.
+  {.lang-eng}
+
+  In 2022, theater director Jazmín García Sathicq, inspired by Ella's song Caminante de ella, stages the play El Viento en mis Ojos, in the city of La Plata, resulting in one of the winning works in the Municipal Comedy contest. In 2021, she is nominated for the Gardel Awards for her song Caminante de ella, in 2022 for Canto Sagrado del Lucero, with which she was also registered that year for the 2023 Latin Grammy Awards by the Soir Music record label. She is a member of the PEN Argentina Center, the world organization of writers. She is a member of the Center for Studies on Native Peoples of the Mariano Moreno National Library.
+  {.lang-eng}

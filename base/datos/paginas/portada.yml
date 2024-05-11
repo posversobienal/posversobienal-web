@@ -19,14 +19,19 @@ novedades:
 
 
 deslizador:
-  - {img: 1.jpg, url: '/per/elena_marini/', tit: 'Obra de Elena Marini'}
-  - {img: 2.jpg, url: '/per/ariel_gangi/', tit: 'Obra de Ariel Gangi'}
-  - {img: 3.jpg, url: '/per/leila_danziger/', tit: 'Obra de Leila Danziger'}
-  - {img: 4.jpg, url: '/per/paula_doberti/', tit: 'Obra de Paula Doberti'}
-  - {img: 5.jpg, url: '/per/yuri_bruscky/', tit: 'Obra de Yuri Bruscky'}
-
+  - {img: 1.jpg, url: '/per/chiara_mulas/', tit: 'Obra de Chiara Mulas'}
+  - {img: 2.jpg, url: '/per/emmanuel_borao/', tit: 'Obra de Emmanuel Borao'}
+  - {img: 3.jpg, url: '/per/joyce_ribeiro/', tit: 'Obra de Joyce Ribeiro'}
+  - {img: 4.jpg, url: '/per/jaap_blonk/', tit: 'Obra de Jaap Blonk'}
+  - {img: 5.jpg, url: '/per/rosana_fuertes/', tit: 'Obra de Rosana Fuertes'}
+  - {img: 6.jpg, url: '/per/noiser/', tit: 'Obra de NOISER'}
 
 deslizador_previos:
+
+  - ariel_gangi
+  - leila_danziger
+  - paula_doberti
+  - yuri_bruscky
 
   - daniela_mastrandrea
   - ricardo_omar_salido
