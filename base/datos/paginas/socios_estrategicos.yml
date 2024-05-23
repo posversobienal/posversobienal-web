@@ -24,6 +24,7 @@ contenido: |
   [![Arte Online](/rec/socios/arte_online.jpg){.logo_socio}]({{ cfg.urls.info_arte_online }}){title="Arte Online"}
   [![Utsanga](/rec/socios/utsanga.jpg){.logo_socio}]({{ cfg.urls.info_utsanga }}){title="Utsanga"}
   [![Be Cult](/rec/socios/becult.jpg){.logo_socio}]({{ cfg.urls.info_be_cult }}){title="Be Cult"}
+  [![Mundo Perfo](/rec/socios/mundo_perfo.jpg){.logo_socio}]({{ cfg.urls.info_mundo_perfo }}){title="Mundo Perfo"}
 
   <br><hr><br>
   ## Socios Expositivos

@@ -46,6 +46,7 @@ urls:
   info_be_cult: 'https://revistabecult.com.ar/'
   info_bienal_saco: 'https://bienalsaco.com/'
   info_casariolab: 'https://www.casariolab.art/'
+  info_mundo_perfo: 'https://mundoperformance.net/'
 
 menu:
   - titulo: 'BIENAL'
