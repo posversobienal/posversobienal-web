@@ -13,12 +13,9 @@ eventos: []
 
 fotos:
   persona: 'edith_derdyk.jpg'
-  obra: 'edith_derdyk-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 40%
 
 etiquetas:
-  - invitado
+
 
 detalle: |
   {{ idioma('esp') }}
