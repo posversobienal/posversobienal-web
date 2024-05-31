@@ -19,37 +19,79 @@ novedades:
 
 
 deslizador:
-  - {img: 1.jpg, url: '/per/noiser/', tit: 'Obra de NOISER'}
-  - {img: 2.jpg, url: '/per/emmanuel_borao/', tit: 'Obra de Emmanuel Borao'}
-  - {img: 3.jpg, url: '/per/joyce_ribeiro/', tit: 'Obra de Joyce Ribeiro'}
-  - {img: 4.jpg, url: '/per/jaap_blonk/', tit: 'Obra de Jaap Blonk'}
-  - {img: 5.jpg, url: '/per/rosana_fuertes/', tit: 'Obra de Rosana Fuertes'}
+  - {img: 1.jpg, url: '/per/rodolfo_mata/', tit: 'Obra de Rodolfo Mata'}
+  - {img: 2.jpg, url: '/per/elena_marini/', tit: 'Obra de Elena Marini'}
+  - {img: 3.jpg, url: '/per/silvio_de_gracia/', tit: 'Obra de Silvio De Gracia'}
+  - {img: 4.jpg, url: '/per/andrea_hygino/', tit: 'Obra de Andrea Hygino'}
+  - {img: 5.jpg, url: '/per/claudia_del_rio/', tit: 'Obra de Claudia del Río'}
+  - {img: 6.jpg, url: '/per/alberto_couratier/', tit: 'Obra de Alberto Couratier'}
 
 
-deslizador_previos:
+deslizador_registro:
+  PASADOS:
+    - noiser
+    - emmanuel_borao
+    - joyce_ribeiro
+    - jaap_blonk
+    - rosana_fuertes
 
-  - ariel_gangi
-  - leila_danziger
-  - paula_doberti
-  - yuri_bruscky
+    - ariel_gangi
+    - leila_danziger
+    - paula_doberti
+    - yuri_bruscky
 
-  - daniela_mastrandrea
-  - ricardo_omar_salido
-  - flora_holderbaum
-  - wilson_sukorski
-  - gabriela_golder
+    - daniela_mastrandrea
+    - ricardo_omar_salido
+    - flora_holderbaum
+    - wilson_sukorski
+    - gabriela_golder
 
-  - maurizio_mancioli
-  - montenegro_fisher
-  - paulo_bruscky
-  - monica_mura
-  - hilda_paz
-  - ale_montiel
+    - maurizio_mancioli
+    - montenegro_fisher
+    - paulo_bruscky
+    - monica_mura
+    - hilda_paz
+    - ale_montiel
 
-  - marie orensanz
-  - matilde marin
-  - ale thorton
-  - giovanni fontana
-  - javier del olmo
-  - jurgen olbrich
-  - lug fierens
+    - marie orensanz
+    - matilde marin
+    - ale thorton
+    - giovanni fontana
+    - javier del olmo
+    - jurgen olbrich
+    - luc fierens
+    - ana_montenegro
+
+  PENDIENTES:
+    - antonio_caro
+    - bartolome_ferrando
+    - carlos_alberto_macheratti
+    - carlos_gallardo
+    - claudio_mangifesta
+    - clemente_padin
+    - daniel_ontiveros
+    - daniel_sarobe
+    - diego_melero
+    - fernando_aguiar
+    - ferran_destemple
+    - guillermo_perez_raventos
+    - j_m_calleja
+    - juan_angel_italiano
+    - juan_montelpare
+    - lucas_di_pascuale
+    - luis_pazos
+    - marcela_astorga
+    - marcela_peral
+    - maria_jose_machado
+    - ro_barragan
+    - roma_vaquero_diaz
+    - rosa_gravino
+    - rosemberg_sandoval
+    - ruggero_maggi
+    - sergio_bonzon
+    - silvina_torviso
+    - simone_moraes
+    - soledad_sanchez_goldar
+    - teresa_pereda
+    - tulio_restrepo
+    - luciano_pozo
