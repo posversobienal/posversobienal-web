@@ -2,24 +2,6 @@ const redirigir_a_traduccion = (idioma)=>{
     window.location = `https://posversobienal-com-ar.translate.goog${window.location.pathname}?_x_tr_sl=es&_x_tr_tl=${idioma}&_x_tr_hl=${idioma}&_x_tr_pto=wapp`;
 }
 
-
-const ampliar_imagen = (url)=>{
-    const cAct = 'activa';
-    const cBlo = 'bloqueado';
-    const panel = document.querySelector('#imagen_ampliada');
-    const img = panel.querySelector('.imagen');
-    const cerrar = panel.querySelector('.cerrar');
-    panel.classList.add(cAct);
-    cerrar.addEventListener('click', ()=>{
-        panel.classList.remove(cAct);
-        document.body.classList.remove(cBlo)
-        img.attributes['src'].value = '';
-    });
-    img.attributes['src'].value = url;
-    document.body.classList.add(cBlo)
-}
-
-
 const control_pagina_traducida = ()=>{
     let xtb = document.querySelector('[http-equiv="X-Translated-By"]'),
         vtb = '',
@@ -69,4 +51,75 @@ const cambiar_idioma = (obj) => {
             el.classList.add('d-none');
         }
     }
+}
+
+
+const Galeria = {
+    its: undefined,
+    act: undefined,
+    activar: ()=> {
+        if(Galeria.its === undefined){
+            Galeria.its = document.querySelectorAll('.item-galeria');
+        }
+        Galeria.setear_items();
+
+    },
+    setear_items: () => {
+        if(Galeria.its.length > 0){
+            for(let i = 0; i < Galeria.its.length; i++){
+                let el = Galeria.its[i];
+                el.addEventListener('click', ()=> {
+                    Galeria.act = i;
+                    ampliar_imagen(el.attributes['src'].value);
+                });
+            }
+        }
+    },
+    ampliar: (i) => {
+        Galeria.its[i].click();
+    },
+    anterior: () => {
+        let n = Galeria.act - 1;
+        if(n < 0) n = Galeria.its.length - 1;
+        Galeria.ampliar(n);
+    },
+    posterior: () => {
+        let n = parseInt(Galeria.act) + 1;
+        if(n >= Galeria.its.length) n = 0;
+        Galeria.ampliar(n);
+    }
+
+};
+
+const ampliar_imagen = (url)=>{
+    let cAct = 'activa',
+        cBlo = 'bloqueado',
+        panel = document.querySelector('#imagen_ampliada'),
+        img = panel.querySelector('.imagen'),
+        cerrar = panel.querySelector('.cerrar'),
+        anterior = panel.querySelector('.anterior'),
+        posterior = panel.querySelector('.posterior');
+
+
+    panel.classList.add(cAct);
+    cerrar.addEventListener('click', ()=>{
+        panel.classList.remove(cAct);
+        document.body.classList.remove(cBlo);
+        img.attributes['src'].value = '';
+    });
+
+    if(Galeria.its.length == 1){
+        anterior.classList.add('oculto');
+        posterior.classList.add('oculto');
+    }
+
+    anterior.addEventListener('click', Galeria.anterior);
+    posterior.addEventListener('click', Galeria.posterior);
+
+    img.attributes['src'].value = url;
+    document.body.classList.add(cBlo);
+}
+
+const abrir_imagen_externamente = (url) => {
+    window.location.href = url;
 }

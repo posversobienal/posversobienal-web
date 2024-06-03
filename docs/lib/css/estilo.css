@@ -427,6 +427,10 @@ body.pagina-desplazada .mostrar-si-pagina-desplazada {
   display: none;
   overflow-y: auto;
 }
+#imagen_ampliada .espacio_imagen {
+  display: flex;
+  justify-content: center;
+}
 #imagen_ampliada.activa {
   display: block;
 }
@@ -468,8 +472,17 @@ a.actual {
   display: inline-block;
   margin: 5px;
 }
+.item-galeria {
+  cursor: pointer;
+}
+.item-galeria:hover {
+  opacity: 0.95;
+}
 .boton {
   cursor: pointer;
+}
+.oculto {
+  display: none;
 }
 @keyframes color-cr {
   0% {

@@ -2,8 +2,7 @@
 
 {% block body %}
 <div class="persona">
-    <div class="img-cabecera" style="background-position:{{ pag.imagen_cabecera_posicion_inicial }}; background-image: url(/rec/foto/obras/{{ pag.fotos.obra }})">
-    </div>
+    <div class="img-cabecera item-galeria" style="background-position:{{ pag.imagen_cabecera_posicion_inicial }}; background-image: url(/rec/foto/obras/{{ pag.fotos.obra }})" src="/rec/foto/obras/{{ pag.fotos.obra }}"></div>
     <div class="text-end">
         <button title="Ver obra completa" class="m-1 btn btn-sm btn-outline-dark ampliar-imagen px-1 py-0" data-url="/rec/foto/obras/{{ pag.fotos.obra }}">+</button>
     </div>
@@ -12,7 +11,7 @@
     <div class="container contenido mb-4">
         <div class="row">
             <div class="col-12 col-lg-4 pe-4 me-4 text-center">
-                <img class="col-8 col-lg-12 img-fluid" src="/rec/foto/personas/{{ pag.fotos.persona }}?{{ cfg.cache_actu }}">
+                <img class="col-8 col-lg-12 img-fluid item-galeria" src="/rec/foto/personas/{{ pag.fotos.persona }}?{{ cfg.cache_actu }}">
                 {% if pag.web %}
                 <p class="my-2">
                     <a href="{{ pag.web }}" target="_blank">Web oficial</a>

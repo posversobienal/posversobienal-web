@@ -511,6 +511,10 @@ body.pagina-desplazada {
     display: none;
     overflow-y: auto;
 
+    .espacio_imagen {
+        display: flex;
+        justify-content: center;
+    }
     &.activa {
         display: block;
     }
@@ -564,8 +568,20 @@ a.actual {
     }
 }
 
+.item-galeria {
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.95;
+    }
+}
+
 .boton {
     cursor: pointer;
+}
+
+.oculto {
+    display: none;
 }
 
 @keyframes color-cr {
