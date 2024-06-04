@@ -117,6 +117,13 @@ const ampliar_imagen = (url)=>{
     posterior.addEventListener('click', Galeria.posterior);
 
     img.attributes['src'].value = url;
+
+    // ajustado a dimensiones disponibles
+    img.style.maxWidth = `${window.innerWidth - 10}px`;
+    let alto = window.innerHeight - img.offsetTop - 20;
+    if(img.height > alto) img.style.maxHeight = `${alto}px`;
+
+
     document.body.classList.add(cBlo);
 }
 
