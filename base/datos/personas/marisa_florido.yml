@@ -12,7 +12,7 @@ eventos: []
 web: '/'
 
 fotos:
-  persona: 'marisa_florido_cesar_curadora.jpg'
+  persona: 'marisa_florido_cesar.jpg'
 
 detalle: |
   {{ idioma('esp') }}

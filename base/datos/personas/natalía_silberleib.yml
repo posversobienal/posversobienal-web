@@ -1,0 +1,20 @@
+---
+
+nombre: 'Natalía'
+apellido: 'Silberleib'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+eventos: []
+
+web: 'https://www.instagram.com/unlibroesunlibro/'
+
+fotos:
+  persona: 'natalía_silberleib.jpg'
+
+detalle: |
+  {{ idioma('esp') }}
+
+  Es Magister en Administración Cultural y Editora (ambas por la Universidad de Buenos Aires). Completó su formación en seminarios y congresos sobre publicaciones de museos en Estados Unidos. Tiene una amplia experiencia tanto en la edición de libros de arte y libros de artista como en la la docencia universitaria y la investigación. Es profesora regular de la materia de Curaduría editorial en la Maestría en Curaduría en Artes Visuales (UNTREF) y consultora académica. Dictó cursos y seminarios en universidades de México, Perú, Colombia y Estados Unidos. Ofreció charlas en diferentes universidades e instituciones  de la Argentina y del extranjero. Obtuvo las becas de investigación Boris Spivacow, otorgada por la Biblioteca Nacional e Investiga Cultura, del Ministerio de Cultura de la Nación. Ha publicado textos sobre publicaciones de museos y libros de artista en Uruguay, Brasil, México y Alemania. Como investigadora, trabaja sobre “las prácticas editoriales en el campo del arte”, la historia del libro de artista y las nuevas tendencias en ese campo. Actualmente, dirige la Escuela Un libro es un libro dedicada a la formación y estudio de las relaciones entre publicaciones y las artes contemporáneas.

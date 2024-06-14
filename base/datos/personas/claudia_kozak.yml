@@ -12,7 +12,7 @@ eventos: []
 web: ''
 
 fotos:
-  persona: 'claudia_kozak_curadora.jpg'
+  persona: 'claudia_kozak.jpg'
 
 detalle: |
   {{ idioma('esp') }}

@@ -1,0 +1,20 @@
+---
+
+nombre: 'Gonzalo'
+apellido: 'Aguilar'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+eventos: []
+
+web: ''
+
+fotos:
+  persona: 'gonzalo_aguilar.jpg'
+
+detalle: |
+  {{ idioma('esp') }}
+
+  Es Doctor por la Universidad de Buenos Aires, profesor de Literatura Brasileña y Portuguesa en la UBA e investigador del Conicet. Dirige la maestría en Literaturas de América Latina de la Universidad Nacional de San Martín y ha sido profesor visitante en Stanford University, en Harvard University y en la Universidade de Sao Paulo. En 2005, recibió la beca Guggenheim. Ha publicado numerosos ensayos y escribió, en colaboración, El cine de Leonardo Favio (1993) y Borges va al cine (2010). Es autor, entre otros, de los libros Poesía concreta brasileña (2003); Otros mundos. Un ensayo sobre el nuevo cine argentino (2006) y Episodios cosmopolitas en la cultura argentina (2009). Su último libro es Más allá del pueblo. Imágenes, indicios y políticas del cine, publicado por editorial Fondo de Cultura Económica.

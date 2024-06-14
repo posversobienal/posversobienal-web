@@ -12,7 +12,7 @@ eventos: []
 web: '/'
 
 fotos:
-  persona: 'javier_robledo_curador.jpg'
+  persona: 'javier_robledo.jpg'
 
 detalle: |
   {{ idioma('esp') }}
