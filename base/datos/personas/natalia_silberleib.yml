@@ -1,6 +1,6 @@
 ---
 
-nombre: 'Natalía'
+nombre: 'Natalia'
 apellido: 'Silberleib'
 seudonimo: ''
 
@@ -12,7 +12,7 @@ eventos: []
 web: 'https://www.instagram.com/unlibroesunlibro/'
 
 fotos:
-  persona: 'natalía_silberleib.jpg'
+  persona: 'natalia_silberleib.jpg'
 
 detalle: |
   {{ idioma('esp') }}

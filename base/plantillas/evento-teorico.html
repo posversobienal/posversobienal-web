@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block body %}
+{% if 'imagen_cabecera' in pag %}
+<div class="">
+    <img src="{{ pag.imagen_cabecera }}" class="img-fluid">
+</div>
+{% endif %}
+<div class="container contenido">
+
+    <header class="my-5">
+        <h1 class="text-center">{{ pag.titulo }}</h1>
+    </header>
+
+    <div class="row">
+        <section class="{{ pag.estilo }} col-lg-8">
+            {{ markdown(pag.contenido) }}
+            <div class="en-2-columnas">
+                {{ markdown(pag.listado_participantes) }}
+            </div>
+        </section>
+
+    </div>
+</div>
+{% endblock %}

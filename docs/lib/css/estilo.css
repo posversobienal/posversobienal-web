@@ -342,6 +342,10 @@ footer .utiles .menu-pie:hover nav {
   column-count: 3;
   column-gap: 20px;
 }
+.en-2-columnas {
+  column-count: 1;
+  column-gap: 40px;
+}
 .socios a {
   border: none;
 }

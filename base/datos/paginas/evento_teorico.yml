@@ -1,7 +1,7 @@
 ---
 
 titulo: 'Evento teórico'
-html_base: 'pagina.html'
+html_base: 'evento-teorico.html'
 ruta_static: 'pag/evento_teorico/index.html'
 estilo: col-lg-11
 
@@ -14,6 +14,8 @@ contenido: |
   <br><br><hr>
 
   ## Participantes
+
+listado_participantes: |
 
 
   <br>
@@ -196,31 +198,19 @@ contenido: |
 
   <br>
 
-  ![Claudia Kozak](/rec/foto/personas/claudia_kozak.jpg){.foto-izq-parrafo}
-
-  ### [Claudia Kozak](/per/claudia_kozak)
-
-  <br>
-  Doctora en Letras (UBA), investigadora principal del Conicet, profesora titular en la carrera de Comunicación y adjunta en la carrera de Letras, de la Universidad de Buenos Aires. Coordina Ludión. Exploratorio latinoamericano de poéticas/políticas tecnológicas y la Red de Literatura Electrónica Latinoamericana. Integra el Consejo de Directores de la Electronic Literature Organization. Algunos de sus libros más recientes como autora y compiladora son: Antología Lit(e)Lat Vol. 1 (Antología de Literatura Electrónica Latinoamericana y Caribeña, coeditado con Leonardo Flores y Rodolfo Mata, 2020, http://antologia.litelat.net/; Fobias-fonias-fagias. Escritas experimentais e eletrónicas ibero-afro-latinoamericanas (coeditado con Rui Torres, 2019); Tecnopoéticas argentinas. Archivo blando de arte y tecnología (2012, reedición 2015).
-
-
-
-  <br>
-
-  ![Ferran Destemple](/rec/foto/personas/ferran_destemple.jpg){.foto-izq-parrafo}
+  ![Ferran Destemple](/rec/foto/personas/ferran_destemple_2.jpg){.foto-izq-parrafo}
 
   ### [Ferran Destemple](/per/ferran_destemple)
 
   <br>
-  "Soy filólogo de formación, pero siempre he rebuscado en lo visual y en lo sonoro aquello que el texto no me llega a ofrecer. Para mí no hay jerarquía entre estos elementos, se mezclan, se arañan o se fusionan mejor o peor dependiendo del soporte. El soporte determina el contenido y el contenido busca el soporte adecuado. Destripar los interiores del texto, del sonido, de las imágenes y volverlos a montar, como si de un monstruo de Frankenstein se tratara, es un divertimento al que no pienso renunciar. Me considero un amateur y eso me libera de angustias y obligaciones y me permite fracasar y equivocarme más y mejor. Si os pica la curiosidad podéis visitar la web de AutismosAutomáticos que coordino al alimón con Pepa Busqué."
-
+  Licenciado en Filología Hispánica y con estudios de Posgrado en Arte y Estética Contemporánea. Ha trabajado en diferentes campos y lenguajes, intentando siempre crear híbridos y mutaciones. Lo visual, lo poético, lo conceptual y la acción cercana al absurdo se mezclan y contaminan en sus diversas prácticas. Es también un participante activo de la red internacional de arte correo. Ha producido numerosas publicaciones y libros en forma individual y también en colaboración con autores como Pere Sousa, Ana Montenegro, Jaime Rodríguez, entre otros. Junto a Pepa Busqué coordina el blog Autismos Automáticos.
 
 
   <br>
 
-  ![Natalía Silberleib](/rec/foto/personas/natalía_silberleib.jpg){.foto-izq-parrafo}
+  ![Natalia Silberleib](/rec/foto/personas/natalia_silberleib.jpg){.foto-izq-parrafo}
 
-  ### [Natalía Silberleib](/per/natalía_silberleib)
+  ### [Natalia Silberleib](/per/natalia_silberleib)
 
   <br>
   Es Magister en Administración Cultural y Editora (ambas por la Universidad de Buenos Aires). Completó su formación en seminarios y congresos sobre publicaciones de museos en Estados Unidos. Tiene una amplia experiencia tanto en la edición de libros de arte y libros de artista como en la la docencia universitaria y la investigación. Es profesora regular de la materia de Curaduría editorial en la Maestría en Curaduría en Artes Visuales (UNTREF) y consultora académica. Dictó cursos y seminarios en universidades de México, Perú, Colombia y Estados Unidos. Ofreció charlas en diferentes universidades e instituciones  de la Argentina y del extranjero. Obtuvo las becas de investigación Boris Spivacow, otorgada por la Biblioteca Nacional e Investiga Cultura, del Ministerio de Cultura de la Nación. Ha publicado textos sobre publicaciones de museos y libros de artista en Uruguay, Brasil, México y Alemania. Como investigadora, trabaja sobre “las prácticas editoriales en el campo del arte”, la historia del libro de artista y las nuevas tendencias en ese campo. Actualmente, dirige la Escuela Un libro es un libro dedicada a la formación y estudio de las relaciones entre publicaciones y las artes contemporáneas.
@@ -241,9 +231,9 @@ contenido: |
 
   <br>
 
-  ![Silvio De Gracia](/rec/foto/personas/silvio_de_gracia.jpg){.foto-izq-parrafo}
+  ![Silvio De Gracia](/rec/foto/personas/silvio_de_gracia_3.jpg){.foto-izq-parrafo}
 
   ### [Silvio De Gracia](/per/silvio_de_gracia)
 
   <br>
-  Escritor, artista visual, poeta experimental, performer y curador independiente. Su producción se desarrolla en múltiples medios, entre los que destacan la poesía visual, el arte correo, la performance, el vídeo, las acciones poéticas y la práctica editorial. Ha realizado muestras individuales en Brasil, Cuba e Italia, y participado de exhibiciones colectivas en importantes espacios artísticos de Argentina, como el Palais de Glace,  Centro Cultural Recoleta, Centro Cultural de la Cooperación, Centro Cultural Kirchner, entre otros. Ha presentado sus performances, conferencias y proyectos de arte público en Canadá, Italia, Serbia, Reino Unido, Grecia, Portugal, España, Japón y varios países de Latinoamérica.  Fue parte de numerosas exhibiciones colectivas en Argentina y alrededor del mundo, como AGREGUE Y DEVUELVA El Mail Art en las colecciones del MIDE-CIANT, Fundación Antonio Pérez, Cuenca, España (2021); Publizieren als Kunst, Kunsttempel, Kassel (2019); You no speak Americano original, CAM_Casoria Contemporary Art Museum, Napoli (2017) ; FOCUS LATIN AMERICA: ART IS OUR LAST HOPE, Phoenix Art Museum, Phoenix (2014) ; The SECREt eXCHANGE, National Museum of Contemporary Art, Seoul, (2011) ; The Last Book, Aguilar Branch of the New York Public Library, NYC (2011) ; y Reliquaries of Empires Dust, Bereznitsky Gallery, Berlin (2009). Ha participado personalmente en la Décima y Oncena Bienal de La Habana (2009 y 2012), en la 3rd Thessaloniki Biennale, Grecia (2011) y en la I Bienal Internacional de Arte Contemporáneo de Río Negro, Argentina (2022). Además, su trabajo fue incluido en la 8th Kaunas Biennial, Lithuania (2011) y en la 8th Echigo-Tsumari Art Triennale, Yamagata, Japón (2022). Su obra forma parte del acervo de importantes instituciones, como el Museo de Arte Contemporáneo de Barcelona – MACBA, el Instituto Hemisférico de Performance y Política de Nueva York, y Artpool Art Research Center, Budapest, Hungría. Director de la galería HOTEL DADA y Director General de POSVERSO I Bienal Internacional de Poesía Experimental de Argentina.
+  (Junín, Argentina). Artista visual y de performance, poeta experimental, investigador y curador independiente. Su producción teórica comprende ensayos y artículos que han sido publicados en revistas especializadas, libros y sitios web. Textos de su autoría fueron incluidos en los libros Art Action 1998-2018 (Inter Le Lieu, Québec, 2023); Prácticas artísticas e imaginarios sociales (Ediciones Cúpulas, La Habana, 2014); Utopías de la proximidad en el contexto de la globalización. La creación escénica en Iberoamérica (AVAE Archivo Virtual de Artes Escénicas, Universidad de Castilla-La Mancha, 2010); Integración y resistencia en la era global, (Centro de Arte Contemporáneo Wifredo Lam, La Habana, 2009); Performance Presente Futuro (Oi Futuro Foundation/Contracapa, Rio de Janeiro, 2008).  Autor, entre otros, de los libros VIGO Volumen 1 Poesía Visual Argentina (Hotel DaDA editor, 2024); Interferencias - Una década de arte acción 2005-2015 (Hotel DaDA editor, 2020); e Internet y performance - Negociaciones entre cuerpo, virtualidad y telepresencia (Hotel DaDA editor, 2013). Es miembro del comité de redacción internacional de la revista canadiense INTER Art Actuel, colaborando especialmente en la difusión de las prácticas de performance y arte acción de la escena Latinoamericana. En 2009 y 2012 fue conferencista invitado en el Evento Teórico de la Bienal de La Habana. Codirector de la galería HOTEL DADA y Director General de POSVERSO I Bienal Internacional de Poesía Experimental de Argentina.
