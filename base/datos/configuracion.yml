@@ -47,6 +47,10 @@ urls:
   info_bienal_saco: 'https://bienalsaco.com/'
   info_casariolab: 'https://www.casariolab.art/'
   info_mundo_perfo: 'https://mundoperformance.net/'
+  info_et_gilberto_mesa: 'https://etjunin-bue.infd.edu.ar/sitio/'
+  info_cp_dante_balestro: 'https://www.instagram.com/dantebalestro/'
+  info_atsa_junin: 'https://sanidadjunin.com.ar/'
+  info_casa_pronto: 'https://www.instagram.com/casa.pronto/'
 
 menu:
   - titulo: 'BIENAL'
@@ -108,3 +112,161 @@ idiomas_traducibles:
   de: 'Deutsch'
   zh-CN: '中文'
   ja: '日本語'
+
+
+sedes:
+  orden:
+    - hotel_dada
+    - maca
+    - museo_historico
+    - horno_de_grippo
+    - fundacion_casa_pronto
+    - villa_alpina
+    - casa-taller_torviso-sarobe
+    - centro_de_capacitacion_y_cultura_atsa
+    - casa_popular_dante_balestro
+    - casa_del_pueblo
+    - centro_cultural_marea_cultura
+    - conservatorio_de_musica_juan_r_perez_cruz
+    - sociedad_italiana
+    - biblioteca_paz_y_trabajo
+    - par1000_aula_teatro
+    - ccp_horacio_alonso
+    - comedor_los_totoreros
+    - escuela_de_arte_xul_solar
+    - escuela_de_educacion_artistica_victor_grippo
+    - escuela_de_teatro_gilberto_mesa
+    - unnoba_alicia_moreau_de_justo
+
+  nombres:
+    hotel_dada: 'HOTEL DADA Base de Arte Correo y Poesía Experimental'
+    maca: 'MACA Museo de Arte Contemporáneo Argentino "Víctor Grippo"'
+    museo_historico: 'Museo Histórico'
+    horno_de_grippo: 'Horno de Grippo'
+    fundacion_casa_pronto: 'Fundación Casa Pronto'
+    villa_alpina: 'Villa Alpina'
+    casa-taller_torviso-sarobe: 'Casa Taller Torviso-Sarobe'
+    centro_de_capacitacion_y_cultura_atsa: 'Centro de Capacitación y Cultura ATSA'
+    casa_popular_dante_balestro: 'Casa Popular Dante Balestro'
+    casa_del_pueblo: 'Casa del Pueblo'
+    centro_cultural_marea_cultura: 'Centro Cultural Marea Cultura'
+    conservatorio_de_musica_juan_r_perez_cruz: 'Conservatorio de Música "Juan R. Pérez Cruz"'
+    sociedad_italiana: 'Sociedad Italiana Unita'
+    biblioteca_paz_y_trabajo: 'Biblioteca Popular Paz y Trabajo'
+    par1000_aula_teatro: 'PAR1000 Aula Teatro'
+    ccp_horacio_alonso: 'Casa de la Cultura Popular "Horacio Alonso"'
+    comedor_los_totoreros: 'Comedor "Los Totoreros"'
+    escuela_de_arte_xul_solar: 'Escuela de Arte "Xul Solar"'
+    escuela_de_educacion_artistica_victor_grippo: 'Escuela de Educación Artística "Victor Grippo"'
+    escuela_de_teatro_gilberto_mesa: 'Escuela Provincial de Teatro "Gilberto A. Mesa"'
+    unnoba_alicia_moreau_de_justo: '"Edificio Alicia Moreau de Justo" - UNNOBA Escuela de Ciencias Económicas y Jurídicas'
+
+    maca: 'MACA Museo de Arte Contemporáneo Argentino "Víctor Grippo"'
+    conservatorio_de_musica_juan_r_perez_cruz: 'Conservatorio de Música "Juan R. Pérez Cruz"'
+    ccp_horacio_alonso: 'Casa de la Cultura Popular "Horacio Alonso"'
+    comedor_los_totoreros: 'Comedor "Los Totoreros"'
+    escuela_de_arte_xul_solar: 'Escuela de Arte "Xul Solar"'
+    escuela_de_educacion_artistica_victor_grippo: 'Escuela de Educación Artística "Victor Grippo"'
+    escuela_de_teatro_gilberto_mesa: 'Escuela Provincial de Teatro "Gilberto A. Mesa"'
+    unnoba_alicia_moreau_de_justo: '"Edificio Alicia Moreau de Justo" - UNNOBA Escuela de Ciencias Económicas y Jurídicas'
+
+
+
+programa:
+  octubre:
+    18:
+      dia: Viernes
+      eventos:
+
+        '18:30':
+          lugar: maca
+          tipo: 'Apertura muestra central'
+          titulo: 'POÉTICAS DE LA RESISTENCIA'
+          texto: |
+            Curaduría: Silvio De Gracia.
+
+        '20:30':
+          lugar: hotel_dada
+          tipo: 'Exhibición'
+          titulo: 'CÁPSULA SONORA'
+          texto: |
+            Curaduría: Silvio De Gracia y Ana Montenegro.
+
+            Performance: Ana Montenegro (Brasil)
+
+    19:
+      dia: Sábado
+      eventos:
+
+        '10:00':
+          lugar: museo_historico
+          tipo: 'Exhibición'
+          titulo: 'RESIST/EXIST Libro-muestra Homenaje a Juan Carlos Romero'
+          texto: |
+            Organiza: Red Conceptualismos del Sur. Ana Longoni, Lucía Bianchi, Lucía Cañada y Fernando Davis.
+
+        '10:00':
+          lugar: museo_historico
+          tipo: 'Exhibición'
+          titulo: 'EL COLECCIONISTA DE OFICIOS: Ricardo Salido'
+          texto: |
+            Curaduría: Ana Montenegro y Silvio De Gracia.
+
+        '11:00':
+          lugar: museo_historico
+          tipo: 'Conferencia'
+          titulo: 'Archivo Romero por/venir'
+          texto: |
+            Un ejercicio colectivo de imaginación archivística y desobediencia performativa. A cargo de Ana Longoni, Lucía Cañada y Lucía Bianchi.
+
+        '17:30 a 20:00':
+          lugar: maca
+          tipo: 'Performances'
+          titulo: 'Fernando Aguiar (Portugal), Rosemberg Sandoval (Colombia) y Montenegro-Fisher (Chile-Reino Unido)'
+          texto: ''
+
+        '21.00':
+          lugar: 'casa_del_pueblo'
+          tipo: 'Exhibición'
+          titulo: 'OIR PALESTINA'
+          texto: |
+            Organiza Red Conceptualismos del Sur. Curaduría: Ana Longoni, Lucía Cañada, Lucía Bianchi y Fernando Davis.
+
+            Tomar la voz por Palestina - Lectura colectiva de los Monólogos de Gaza.
+
+      20:
+        dia: Domingo
+        eventos:
+
+          '10:30 a 11:30':
+            lugar: 'horno_de_grippo'
+            tipo: 'Acción poética'
+            titulo: 'Pan-paz'
+            texto: |
+              Ricardo Salido y Silvio De Gracia.
+
+          '12:00 a 13:30':
+            lugar: casa-taller_torviso-sarobe
+            tipo: 'Visita guiada'
+            titulo: Espacio Ecopóetico
+            texto: |
+              Visita guiada a los talleres y el entorno natural.
+
+          '13:30':
+            lugar: villa_alpina
+            tipo: 'Exhibición'
+            titulo: 'THE SKY HAS NO PLACE TO GO'
+            texto: |
+                Poetas experimentales de Italia y Alemania.
+
+                Archivo HOTEL DADA. Curaduría: Silvio De Gracia
+
+  octubre:
+    23:
+      dia: Sábado
+      eventos:
+        '21:30':
+          lugar: par1000_aula_teatro
+          tipo: 'Performance'
+          titulo: 'Jaap Blonk (Holanda) Performance sonora'
+          texto: ''

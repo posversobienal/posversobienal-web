@@ -1,5 +1,7 @@
 * {
   font-family: 'Archivo', sans-serif;
+  word-break: break-word;
+  box-sizing: border-box;
 }
 html,
 body {
@@ -323,8 +325,14 @@ footer .utiles .menu-pie:hover nav {
 .lista-subrayada ul li {
   list-style: none;
   padding: 3px 0;
-  border-bottom: 0.5px solid gray;
+  border-bottom: 0.5px solid #bbb;
   margin: 0;
+}
+.titulares-reducidos h2 {
+  font-size: 1.5em;
+}
+.titulares-reducidos h3 {
+  font-size: 1.3em;
 }
 .persona .img-cabecera {
   width: 100%;
@@ -343,8 +351,12 @@ footer .utiles .menu-pie:hover nav {
   column-gap: 20px;
 }
 .en-2-columnas {
-  column-count: 1;
-  column-gap: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.en-2-columnas div.item {
+  width: 30%;
 }
 .socios a {
   border: none;
@@ -488,6 +500,9 @@ a.actual {
 .oculto {
   display: none;
 }
+.rounded-2 {
+  overflow: hidden;
+}
 @keyframes color-cr {
   0% {
     background: #000;
@@ -558,5 +573,10 @@ a.actual {
   }
   .alerta-traduccion.hover span {
     display: block!important;
+  }
+}
+@media (max-width: 800px) {
+  .en-2-columnas div.item {
+    width: 100%;
   }
 }

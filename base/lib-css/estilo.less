@@ -1,5 +1,7 @@
 * {
     font-family: 'Archivo', sans-serif;
+    word-break: break-word;
+    box-sizing: border-box;
 }
 
 html, body {
@@ -369,13 +371,17 @@ footer {
         li {
             list-style: none;
             padding: 3px 0;
-            border-bottom: 0.5px solid gray;
+            border-bottom: 0.5px solid #bbb;
             margin: 0;
         }
     }
 
 }
 
+.titulares-reducidos {
+    h2 { font-size: 1.5em; }
+    h3 { font-size: 1.3em; }
+}
 
 .persona {
     .img-cabecera {
@@ -402,8 +408,13 @@ footer {
 }
 
 .en-2-columnas {
-    column-count: 1;
-    column-gap: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    div.item {
+        width: 30%;
+    }
 }
 
 
@@ -588,6 +599,10 @@ a.actual {
 
 .oculto {
     display: none;
+}
+
+.rounded-2 {
+    overflow: hidden;
 }
 
 @keyframes color-cr {

@@ -13,10 +13,18 @@
     </header>
 
     <div class="row">
-        <section class="{{ pag.estilo }} col-lg-8">
+        <section class="{{ pag.estilo }} col-lg-12">
             {{ markdown(pag.contenido) }}
             <div class="en-2-columnas">
-                {{ markdown(pag.listado_participantes) }}
+                {% for k, v in pag.listado.items() %}
+                <div class="item m-2 border border-black rounded-2">
+                    <div><img src="{{ v.foto }}" class="img-fluid"></div>
+                    <br><div class="p-4">
+                        <h3 class="text-center"><a href="{{ v.link }}">{{ v.nomb }}</a></h3>
+                        <br> {{ markdown(pag.biografias[k]) }}
+                    </div>
+                </div>
+                {% endfor %}
             </div>
         </section>
 

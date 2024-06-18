@@ -1,0 +1,13 @@
+---
+nombre: 'Casa de la Cultura Popular "Horacio Alonso"'
+domicilio: 'Pasaje Santa Fe 124. Barrio Fonavi 144. Junín, Buenos Aires, Argentina.'
+gmaps: 'https://maps.app.goo.gl/zpb8X5zN2VqrMs9TA'
+
+geopos:
+  coord: [-34.57398, -60.96011]
+  icono: pin-sede
+
+fotos:
+  - 'ccp_horacio_alonso.jpg'
+eventos_asociados: []
+descripcion: []

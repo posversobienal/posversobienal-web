@@ -1,0 +1,15 @@
+---
+
+nombre: 'HOTEL DADA Base de Arte Correo y Poesía Experimental'
+domicilio: 'Chávez 69. Junín, Buenos Aires, Argentina.'
+gmaps: ''
+#gmaps: 'https://maps.app.goo.gl/xPAS5Ya9xwjFSMDi6'
+
+geopos:
+  coord: [-34.57819, -60.96115]
+  icono: pin-hoteldada
+
+fotos:
+  - 'hotel_dada.jpg'
+eventos_asociados: []
+descripcion: []
