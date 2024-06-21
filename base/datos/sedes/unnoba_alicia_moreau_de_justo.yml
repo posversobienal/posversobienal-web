@@ -3,6 +3,8 @@ nombre: '"Edificio Alicia Moreau de Justo" - UNNOBA Escuela de Ciencias Económi
 domicilio: 'Av. Roque Saénz Peña 456. Junín, Buenos Aires, Argentina.'
 gmaps: 'https://maps.app.goo.gl/kCw7hJg5R3Vy9sm86'
 
+web: 'https://www.unnoba.edu.ar/'
+
 geopos:
   coord: [-34.58527, -60.94990]
   icono: pin-sede

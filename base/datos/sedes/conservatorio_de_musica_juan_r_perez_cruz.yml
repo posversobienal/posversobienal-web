@@ -4,6 +4,8 @@ nombre: 'Conservatorio de Música "Juan R. Pérez Cruz"'
 domicilio: 'Newbery 129. Junín, Buenos Aires, Argentina.'
 gmaps: 'https://maps.app.goo.gl/4TF5oZuJRYkqA8r1A'
 
+web: 'https://www.conservatorioperezcruz.com/'
+
 geopos:
   coord: [-34.58476, -60.94813]
   icono: pin-sede

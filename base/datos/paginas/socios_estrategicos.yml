@@ -9,39 +9,56 @@ contenido: |
   <br><hr><br>
   ## Socios Institucionales
 
-  ![MACA](/rec/socios/maca_junin.jpg?{{ cfg.cache_actu }}){.logo_socio title="MACA"}
   [![Centro de Arte UNLP](/rec/socios/cau.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_cau }}){title="Centro de Arte UNLP"}
   ![Secretaria de Arte y Cultura UNLP](/rec/socios/sayc.jpg?{{ cfg.cache_actu }}){.logo_socio title="Secretaria de Arte y Cultura UNLP"}
   [![AFA Arquivo Fernando Aguiar](/rec/socios/arquivo_fernando_aguiar.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_afa }}){title="AFA Arquivo Fernando Aguiar"}
-  [![Biblioteca Floresta](/rec/socios/biblioteca_floresta.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_bibliotec_floresta }}){title="Biblioteca Floresta"}
   [![Bienal SACO](/rec/socios/saco.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_bienal_saco }}){title="Bienal SACO"}
-  [![Casa Río Lab](/rec/socios/casa_rio_lab.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_casariolab }}){title="Casa Río Lab"}
   ![Escuela de Arte Xul Solar](/rec/socios/escuela_de_arte_xul_solar.jpg?{{ cfg.cache_actu }}){.logo_socio title="Escuela de Arte Xul Solar"}
+  [![Casa Popular 'Dante Balestro'](/rec/socios/cp_dante_balestro.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_cp_dante_balestro }}){title="Casa Popular 'Dante Balestro'"}
+  [![Centro Cultural Marea Cultura](/rec/socios/cc_marea_cultura.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_marea_cultura }}){title="Centro Cultural Marea Cultura"}
+  [![Conservatorio de Música 'Juan R. Pérez Cruz'](/rec/socios/conservatorio_musica_perez_cruz.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_conservatorio_perez_cruz }}){title="Conservatorio de Música 'Juan R. Pérez Cruz'"}
+  [![Par1000 Aula teatro](/rec/socios/par1000.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_par1000 }}){title="Par1000 Aula teatro"}
+  !['La Victor Grippo' Escuela de educación artistica de Junín](/rec/socios/eea_la_victor_gripo.jpg?{{ cfg.cache_actu }}){.logo_socio title="'La Victor Grippo' Escuela de educación artistica de Junín"}
+  [![Escuela de Teatro 'Gilberto Mesa'](/rec/socios/et_gilberto_mesa.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_et_gilberto_mesa }}){title="Escuela de Teatro 'Gilberto Mesa'"}
 
 
   <br><hr><br>
   ## Socios de Comunicación
 
   [![Arte Online](/rec/socios/arte_online.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_arte_online }}){title="Arte Online"}
-  [![Utsanga](/rec/socios/utsanga.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_utsanga }}){title="Utsanga"}
   [![Be Cult](/rec/socios/becult.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_be_cult }}){title="Be Cult"}
   [![Mundo Perfo](/rec/socios/mundo_perfo.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_mundo_perfo }}){title="Mundo Perfo"}
+  [![La voz de los barrios](/rec/socios/la_voz_de_los_barrios.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_la_voz_de_los_barrios }}){title="La voz de los barrios"}
 
 
   <br><hr><br>
   ## Socios Expositivos
 
-  [![ATSA](/rec/socios/atsa.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_atsa_junin }}){title="ATSA"}
-  [![Fundación Casa Pronto](/rec/socios/fundacion_casa_pronto.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_casa_pronto }}){title="Fundación Casa Pronto"}
   ![MACA](/rec/socios/maca_junin.jpg?{{ cfg.cache_actu }}){.logo_socio title="MACA"}
-  [![Escuela de Teatro 'Gilberto Mesa'](/rec/socios/et_gilberto_mesa.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_et_gilberto_mesa }}){title="Escuela de Teatro 'Gilberto Mesa'"}
-  !['La Victor Grippo' Escuela de educación artistica de Junín](/rec/socios/eea_la_victor_gripo.jpg?{{ cfg.cache_actu }}){.logo_socio title="'La Victor Grippo' Escuela de educación artistica de Junín"}
-  [![Casa Popular 'Dante Balestro'](/rec/socios/cp_dante_balestro.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_cp_dante_balestro }}){title="Casa Popular 'Dante Balestro'"}
-  ![CCP Horacio Alonso](/rec/socios/ccp_horacio_alonso.jpg?{{ cfg.cache_actu }}){.logo_socio title="CCP Horacio Alonso"}
-
+  [![Museo Histórico](/rec/socios/museo_historico.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_museo_historico }}){title="Museo Histórico"}
+  [![Fundación Casa Pronto](/rec/socios/fundacion_casa_pronto.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_casa_pronto }}){title="Fundación Casa Pronto"}
+  [![Villa Alpina](/rec/socios/villa_alpina.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_villa_alpina }}){title="Villa Alpina"}
+  [![Centro de Capacitación y Cultura ATSA](/rec/socios/atsa.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_atsa_junin }}){title="Centro de Capacitación y Cultura ATSA"}
+  [![Casa del Pueblo](/rec/socios/casa_del_pueblo.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_casa_del_pueblo }}){title="Casa del Pueblo"}
+  [![Sociedad Italiana Unita](/rec/socios/sociedad_italiana_unita.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_sociedad_italiana_unita }}){title="Sociedad Italiana Unita"}
+  [![Biblioteca Popular Paz y Trabajo](/rec/socios/bp_paz_y_trabajo.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_bp_paz_y_trabajo }}){title="Biblioteca Popular Paz y Trabajo"}
+  [![Edificio Alicia Moreau de Justo UNNOBA](/rec/socios/unnoba.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_unnoba }}){title="Edificio Alicia Moreau de Justo UNNOBA"}
 
   <br><hr><br>
-  ## Colaboradores
+  ## Apoyan
 
-  ![Taller Gráfico Oberda](/rec/socios/taller_grafico_oberda.jpg?{{ cfg.cache_actu }}){.logo_socio title="Taller Gráfico Oberda"}
+  [![Biblioteca Floresta](/rec/socios/biblioteca_floresta.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_bibliotec_floresta }}){title="Biblioteca Floresta"}
   [![ATSA](/rec/socios/atsa.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_atsa_junin }}){title="ATSA"}
+
+
+extra: |
+
+  # en espera de confirmacion
+
+  [![Utsanga](/rec/socios/utsanga.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_utsanga }}){title="Utsanga"}
+  ![CCP Horacio Alonso](/rec/socios/ccp_horacio_alonso.jpg?{{ cfg.cache_actu }}){.logo_socio title="CCP Horacio Alonso"}
+  ![Taller Gráfico Oberda](/rec/socios/taller_grafico_oberda.jpg?{{ cfg.cache_actu }}){.logo_socio title="Taller Gráfico Oberda"}
+
+
+  para Apoyan
+  [![Casa Río Lab](/rec/socios/casa_rio_lab.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_casariolab }}){title="Casa Río Lab"}

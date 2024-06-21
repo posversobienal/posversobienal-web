@@ -4,6 +4,8 @@ nombre: 'Biblioteca Popular Paz y Trabajo'
 domicilio: 'Primera Junta 307. Junín, Buenos Aires, Argentina.'
 gmaps: 'https://maps.app.goo.gl/HpK71RG9k7cndo4u5'
 
+web: 'https://www.facebook.com/p/Biblioteca-popular-Paz-y-Trabajo-100064620377143/'
+
 geopos:
   coord: [-34.58254, -60.93593]
   icono: pin-sede

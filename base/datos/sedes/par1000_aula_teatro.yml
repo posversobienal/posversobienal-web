@@ -4,11 +4,14 @@ nombre: 'Par 1000 - Aula teatro'
 domicilio: 'Primera Junta 791. Junín, Buenos Aires, Argentina.'
 gmaps: 'https://maps.app.goo.gl/Uqf2DTfjdxoLkt4A6'
 
+web: 'https://www.instagram.com/par1000teatro/'
+
 geopos:
   coord: [-34.57615, -60.94355]
   icono: pin-sede
 
 fotos:
   - 'par1000_aula_teatro.jpg'
+
 eventos_asociados: []
 descripcion: []

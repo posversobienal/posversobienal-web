@@ -4,6 +4,8 @@ nombre: 'Centro Cultural Marea Cultura'
 domicilio: 'General Paz 444. Junín, Buenos Aires, Argentina.'
 gmaps: 'https://maps.app.goo.gl/1ZY8V8CdyJpCYfFv9'
 
+web: 'https://www.instagram.com/mareaculturajunin/'
+
 geopos:
   coord: [-34.58515, -60.94868]
   icono: pin-sede

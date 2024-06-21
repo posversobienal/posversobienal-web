@@ -51,6 +51,17 @@ urls:
   info_cp_dante_balestro: 'https://www.instagram.com/dantebalestro/'
   info_atsa_junin: 'https://sanidadjunin.com.ar/'
   info_casa_pronto: 'https://www.instagram.com/casa.pronto/'
+  info_par1000: 'https://www.instagram.com/par1000teatro/'
+  info_conservatorio_perez_cruz: 'https://www.conservatorioperezcruz.com/'
+  info_marea_cultura: 'https://www.instagram.com/mareaculturajunin/'
+  info_la_voz_de_los_barrios: 'https://lavozdelosbarrios.com/'
+  info_museo_historico: 'https://www.facebook.com/archivohistoricojunin'
+  info_villa_alpina: 'https://www.instagram.com/villaalpina.junin/'
+  info_casa_del_pueblo: 'https://www.facebook.com/casadelpueblojunin/'
+  info_sociedad_italiana_unita: 'https://www.instagram.com/sociedad.italiana.junin/'
+  info_bp_paz_y_trabajo: 'https://www.facebook.com/p/Biblioteca-popular-Paz-y-Trabajo-100064620377143/'
+  info_unnoba: 'https://www.unnoba.edu.ar/'
+
 
 menu:
   - titulo: 'BIENAL'
