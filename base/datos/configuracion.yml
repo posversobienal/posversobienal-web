@@ -136,7 +136,6 @@ sedes:
     - casa-taller_torviso-sarobe
     - centro_de_capacitacion_y_cultura_atsa
     - casa_popular_dante_balestro
-    - casa_del_pueblo
     - centro_cultural_marea_cultura
     - conservatorio_de_musica_juan_r_perez_cruz
     - sociedad_italiana
@@ -159,7 +158,6 @@ sedes:
     casa-taller_torviso-sarobe: 'Casa Taller Torviso-Sarobe'
     centro_de_capacitacion_y_cultura_atsa: 'Centro de Capacitación y Cultura ATSA'
     casa_popular_dante_balestro: 'Casa Popular Dante Balestro'
-    casa_del_pueblo: 'Casa del Pueblo'
     centro_cultural_marea_cultura: 'Centro Cultural Marea Cultura'
     conservatorio_de_musica_juan_r_perez_cruz: 'Conservatorio de Música "Juan R. Pérez Cruz"'
     sociedad_italiana: 'Sociedad Italiana Unita'
