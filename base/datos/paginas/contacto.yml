@@ -19,6 +19,7 @@ contenido: |
   #### Hotel DaDA:
 
   - ![WEB](/rec/grafica/icon-www.svg){.icono} : [{{ url_dominio(cfg.urls.hoteldadabase) }}]({{ cfg.urlshoteldadabase }})
+  - ![INSTAGRAM](/rec/grafica/icon-instagram.svg){.icono} : [{{ id_redsocial(cfg.urls.hoteldada_instagram) }}]({{ cfg.urls.hoteldada_instagram }})
   - ![FACEBOOK](/rec/grafica/icon-facebook.svg){.icono} : [Hotel DaDA]({{ cfg.urls.hoteldada_facebook }})
   - ![YOUTUBE](/rec/grafica/icon-youtube.svg){.icono} : [Hotel DaDA]({{ cfg.urls.hoteldada_youtube }})
   - ![EMAIL](/rec/grafica/icon-email.svg){.icono} : [{{ cfg.emails.hoteldada }}](mailto:{{ cfg.emails.hoteldada }})

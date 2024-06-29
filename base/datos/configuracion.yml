@@ -23,9 +23,15 @@ urls:
   formulario_convocatoria:
     es: 'https://forms.gle/ky4dzY4MrhZSA9nx8'
     en: 'https://forms.gle/Mgq4FxMJQeDYYDra8'
+
   posversobienal: 'https://posversobienal.com.ar/'
   posverso_instagram: 'https://www.instagram.com/posverso_bienal'
   posverso_youtube: 'https://www.youtube.com/@PosversoBienal'
+
+  hoteldadabase: 'http://www.hoteldadabase.org/'
+  hoteldada_instagram: 'https://www.instagram.com/hoteldada_galeria_arte'
+  hoteldada_facebook: 'https://www.facebook.com/profile.php?id=100063732964738'
+  hoteldada_youtube: 'https://www.youtube.com/channel/UC4HS1EiLlyc4l0JDc8_BwFA'
 
   info_omar_khouri: 'http://www.antoniomiranda.com.br/poesia_visual/omar_khouri.html'
   info_cesar_espinosa: 'https://www.heterogenesis.com/H-45/EspinozaCas.htm'
@@ -33,10 +39,6 @@ urls:
   info_eduardo_antonio_vigo: 'http://www.cvaa.com.ar/03biografias/vigo_e.php'
   info_guillermo_deisler: 'http://guillermodeisler.cl/'
   info_dick_higgins: 'https://dickhiggins.org/'
-
-  hoteldadabase: 'http://www.hoteldadabase.org/'
-  hoteldada_facebook: 'https://www.facebook.com/profile.php?id=100063732964738'
-  hoteldada_youtube: 'https://www.youtube.com/channel/UC4HS1EiLlyc4l0JDc8_BwFA'
 
   info_cau: 'https://www.centrodearte.unlp.edu.ar/'
   info_afa: 'https://po-ex.net/taxonomia/transtextualidades/metatextualidades-autografas/arquivo-fernando-aguiar-poesia-experimental-visual-performance-mail-art-fluxus-e-arte-conceptual/'
