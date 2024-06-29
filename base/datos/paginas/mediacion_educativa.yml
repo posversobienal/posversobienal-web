@@ -5,7 +5,7 @@ html_base: 'pagina.html'
 ruta_static: 'pag/mediacion_educativa/index.html'
 estilo: col-lg-11
 
-imagen_cabecera: '/rec/foto/paginas/mediacion_educativa.jpg'
+imagen_cabecera: '/rec/foto/paginas/mediacion_educativa_2.jpg'
 
 contenido: |
   El programa educativo de **POSVERSO BIENAL** tiene como objetivo esencial que el arte contemporáneo y las prácticas poéticas experimentales se vuelvan accesibles a todos. Este programa se enfocará especialmente en los estudiantes de nivel secundario y terciario, y se desarrollará en los meses previos al inicio de la BIENAL y durante el transcurso de la misma.

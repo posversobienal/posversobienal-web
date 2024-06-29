@@ -61,7 +61,7 @@ urls:
   info_sociedad_italiana_unita: 'https://www.instagram.com/sociedad.italiana.junin/'
   info_bp_paz_y_trabajo: 'https://www.facebook.com/p/Biblioteca-popular-Paz-y-Trabajo-100064620377143/'
   info_unnoba: 'https://www.unnoba.edu.ar/'
-
+  info_el_espacio: 'https://www.instagram.com/elespacioyoga'
 
 menu:
   - titulo: 'BIENAL'
@@ -147,6 +147,7 @@ sedes:
     - escuela_de_educacion_artistica_victor_grippo
     - escuela_de_teatro_gilberto_mesa
     - unnoba_alicia_moreau_de_justo
+    - el_espacio
 
   nombres:
     hotel_dada: 'HOTEL DADA Base de Arte Correo y Poesía Experimental'
@@ -169,7 +170,7 @@ sedes:
     escuela_de_educacion_artistica_victor_grippo: 'Escuela de Educación Artística "Victor Grippo"'
     escuela_de_teatro_gilberto_mesa: 'Escuela Provincial de Teatro "Gilberto A. Mesa"'
     unnoba_alicia_moreau_de_justo: '"Edificio Alicia Moreau de Justo" - UNNOBA Escuela de Ciencias Económicas y Jurídicas'
-
+    el_espacio: 'El Espacio'
 
 programa:
   octubre:

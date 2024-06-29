@@ -54,6 +54,8 @@ contenido: |
 
 extra: |
   # en espera
+  [![El Espacio](/rec/socios/el_espacio.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_el_espacio }}){title="El Espacio"}
+
   [![Casa Río Lab](/rec/socios/casa_rio_lab.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_casariolab }}){title="Casa Río Lab"}
   [![Casa del Pueblo](/rec/socios/casa_del_pueblo.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_casa_del_pueblo }}){title="Casa del Pueblo"}
   ![Taller Gráfico Oberda](/rec/socios/taller_grafico_oberda.jpg?{{ cfg.cache_actu }}){.logo_socio title="Taller Gráfico Oberda"}
