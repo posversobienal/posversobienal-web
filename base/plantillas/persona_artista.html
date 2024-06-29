@@ -2,10 +2,12 @@
 
 {% block body %}
 <div class="persona">
+    {% if pag.fotos.obra %}
     <div class="img-cabecera item-galeria" style="background-position:{{ pag.imagen_cabecera_posicion_inicial }}; background-image: url(/rec/foto/obras/{{ pag.fotos.obra }})" src="/rec/foto/obras/{{ pag.fotos.obra }}"></div>
     <div class="text-end">
         <button title="Ver obra completa" class="m-1 btn btn-sm btn-outline-dark ampliar-imagen px-1 py-0" data-url="/rec/foto/obras/{{ pag.fotos.obra }}">+</button>
     </div>
+    {% endif %}
 
     <br><br><br><br>
     <div class="container contenido mb-4">

@@ -1,0 +1,35 @@
+---
+
+nombre: 'Rafael'
+apellido: 'Bresciani'
+seudonimo: ''
+
+nacionalidad: 'Brasil'
+contacto_publico: ''
+
+web: 'https://rafaelbresciani.com'
+
+eventos: []
+
+fotos:
+  persona: 'rafael_bresciani.jpg'
+  #obra: 'rafael_bresciani-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - seleccionado
+
+detalle: |
+  {{ idioma('eng') }}
+  (São Paulo, Brazil, 1982), a musician and journalist with a master's degree in Net Art and Digital Culture, explores the boundaries of media, communication, technology, and sound to raise questions (and sometimes answers) about the individual and society, as part of a transdisciplinary practice. His work addresses themes such as data infrastructure and ethics, human-computer interaction (HCI), societal norms, gender roles and oppression, migration and cultural belonging, politics, power structures, and mass manipulation.
+  {.lang-eng}
+
+  In recent years, he has been particularly interested in the broad idea that language shapes reality. Inspired by decades of massive intermediation of human semiotic experience by the digital world, he has focused his practice and research on exploring concepts that address the relationship between language and technology, that is, how we interact with technology and how technology interacts with us.
+  {.lang-eng}
+
+  Based in Italy and engaged in dialogue with both science and art, Bresciani has participated in exhibitions and performances at venues such as Phonos (Barcelona), C-Base (Berlin), MEET (Milan), and others in Strasbourg, Yekaterinburg, Rome, Genoa, Pisa, and São Paulo. Over nearly 10 years of practice, he has collaborated with theater companies in creating music and soundscapes, sound+photo+light installations, audiovisual works for videomapping and virtual galleries, generative algorithms for sound and visual composition, live coding, and techniques for data sonification and visualization.
+  {.lang-eng}
+
+extra: |
+  {{ idioma('esp') }}

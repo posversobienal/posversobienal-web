@@ -1,0 +1,36 @@
+---
+
+nombre: 'Gaby'
+apellido: 'Lobato Ramos'
+seudonimo: ''
+
+nacionalidad: 'México'
+contacto_publico: ''
+
+web: ''
+
+eventos: []
+
+fotos:
+  persona: 'gaby_lobato.jpg'
+  #obra: 'gaby_lobato-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - seleccionado
+
+detalle: |
+  {{ idioma('esp') }}
+
+  (México, 1990). Artista visual estudiante del Doctorado en Artes Visuales en el Posgrado de la Universidad Nacional Autónoma de México. Ha realizado las residencias artísticas R.A.R.O. (Barcelona, 2024) y Wabisabi (Argentina, 2019). Ha sido acreedora de la beca de producción artística de Jóvenes Creadores, FONCA-SACPC (2022-2023) en la disciplina de dibujo.
+
+  Ganadora del primer lugar en MacroSalón Arte Contemporáneo (Monterrey, 2021) y del Jackson’s Amateur Prize de Pintura (Londres, 2016). Su obra ha sido parte de: Trienal de MiniTextil (Bulgaria, 2023), II Bienal de Arte Contemporáneo BARCO (León, 2023), 9a Bienal Internacional de Artes de la UAEM (Estado de México, 2022), Festival de Videoarte El Escorial (España, 2016) y XVI Bienal de Fotografía del Centro de la Imagen (CDMX, 2015). Ha participado en las ferias de arte: FAMA, CLAVO, MATERIAL e INDEX-KURIMANZUTTO. Ha expuesto individualmente en la Ciudad de México: Una palabra se forma, e incapaz de pronunciarse, se anuda en el aire (7X° Galería, 2023), Los ojos de la piel (Página en blando, 2017) y Deshilando (Galería José Vasconcelos, 2017). Y colectivamente en Berlín, España, Budapest, Londres, EUA, Ecuador, Bulgaria y diversos estados de la República Mexicana.
+
+  Su obra explora plásticamente los cruces afectivos y sensoriales entre imagen y poesía a partir de la dimensión gestual y sonora del habla. Abordando la imagen como un tejido óptico-táctil-sonoro en donde la relación emocional con la palabra adquiere diversos significados a partir de la exploración matérica.
+
+extra: |
+  {{ idioma('eng') }}
+
+  .
+  {.lang-eng}

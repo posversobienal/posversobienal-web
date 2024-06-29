@@ -114,6 +114,8 @@ menu:
     submenu:
       - titulo: 'Invitados'
         url: '/pag/artistas_invitados/'
+      - titulo: 'Seleccionados'
+        url: '/pag/artistas_seleccionados/'
   - titulo: 'PRENSA'
     url: '/pag/prensa/'
 

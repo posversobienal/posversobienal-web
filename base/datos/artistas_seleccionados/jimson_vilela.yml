@@ -1,0 +1,40 @@
+---
+
+nombre: 'Jimson'
+apellido: 'Vilela'
+seudonimo: ''
+
+nacionalidad: 'Brasil'
+contacto_publico: ''
+
+web: 'https://www.jimsonvilela.com'
+
+eventos: []
+
+fotos:
+  persona: 'jimson_vilela.jpg'
+  #obra: 'jimson_vilela-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - seleccionado
+
+detalle: |
+  {{ idioma('prt') }}
+  1987, Rio de Janeiro. Vive e trabalha em São Paulo.
+
+  Jimson nasceu em um dia quente de inverno e recebeu o nome de seu pai. Ele nunca cogitou ser artista, mas quando o pai faleceu compreendeu que esse caminho era inevitável. Durante a infância gostava de imaginar personagens de histórias não escritas, na adolescência preferia escrever equações e fórmulas ao invés de poemas e pichar paredes. Os anos de estudo lhe renderam os títulos de Doutor em Poéticas Visuais (ECA/USP, 2020), Mestre em Poéticas Visuais (ECA/USP, 2015) e Bacharel em Artes Visuais (IART/UERJ, 2010). Ele também realizou algumas exposições, entre as quais se destacam as individuais O mundo não escrito (Museu de Arte de Ribeirão Preto, 2021), Narrativa (Espaço das Artes, 2018) e Adaptável ao espaço que as palavras ocupam (Centro Cultural São Paulo, 2015) e; as coletivas Retrospectiva - 25 anos Programa de Exposições CCSP (Centro Cultural São Paulo, 2015), Convite à viagem (Rumos Itaú Cultural, 2012 e 2013), e 6ª e 7ª Bienal Internacional da Bolívia (SIART, 2009 e 2011).
+
+  Jimson, além de artista, é professor. Ele acredita que lecionar é tão importante quanto criar e, por conta disso, gosta de viver cercado por livros. Se, por um acaso, você tentar visitá-lo e ele não estiver em casa suas obras estão nas coleções públicas do MAC Niterói, MAM-RJ, MAR-RJ e Pinacoteca de São Paulo. Seus vizinhos não sabem, mas ele foi premiado com a Bolsa Funarte de Estímulo à Produção em Artes Visuais (2012), Prêmio Honra ao Mérito Arte e Patrimônio do IPHAN/Centro Cultural Paço Imperial/MinC (2013), o Prêmio Aquisições Marcantonio Vilaça Funarte (2013), Prêmio Aquisição Centro Cultural São Paulo (2014), Prêmio ProAC Artes Visuais do Estado de São Paulo (2014, 2017 e 2019) e Prêmio Estímulo à Jovens Artistas do 22º Cultura Inglesa Festival (2018).
+
+  Ele é uma pessoa introspectiva e afável.
+
+extra: |
+  {{ idioma('esp') }}
+  .
+
+  {{ idioma('eng') }}
+
+  .
+  {.lang-eng}

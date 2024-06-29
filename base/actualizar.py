@@ -104,7 +104,7 @@ def actualizar_personas():
             f.write(html)
 
 
-def actualizar_personas_artistas():
+def actualizar_personas_artistas_invitados():
     # completado de plantillas para PERSONAS ARTISTA
     ruta_in = './datos/artistas_invitados/'
     ruta_out = f'{ruta_public}/per/'
@@ -127,6 +127,32 @@ def actualizar_personas_artistas():
 
         with open(arc_out, 'w') as f:
             f.write(html)
+
+
+def actualizar_personas_artistas_seleccionados():
+    # completado de plantillas para PERSONAS ARTISTA
+    ruta_in = './datos/artistas_seleccionados/'
+    ruta_out = f'{ruta_public}/per/'
+    #borrar_contenido(ruta_out)
+
+    for ar in [a for a in listdir(ruta_in) if a.endswith('.yml')]:
+        print('Artista: ', ar)
+
+        dat_cfg['actualizacion'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+        dat_cfg['cache_actu'] = int(time_ns() / 1000)
+        dat_pag = leer_yml(f'{ruta_in}{ar}')
+        dat_pag['titulo'] = dat_pag['nombre'] + ' ' + dat_pag['apellido']
+
+        nom_ar = splitext(ar)[0]
+        arc_out = f'{ruta_out}/{nom_ar}/index.html'
+        makedirs(dirname(arc_out), exist_ok=True)
+
+        tpl = env_jinja2.get_template('persona_artista.html')
+        html = tpl.render(cfg=dat_cfg, pag=dat_pag, rec=dat_rec)
+
+        with open(arc_out, 'w') as f:
+            f.write(html)
+
 
 
 def actualizar_sedes():
@@ -205,7 +231,8 @@ def actualizar_bitacora():
 
 def actualizar_todo():
     actualizar_personas()
-    actualizar_personas_artistas()
+    actualizar_personas_artistas_invitados()
+    actualizar_personas_artistas_seleccionados()
     actualizar_paginas()
     actualizar_sedes()
     actualizar_bitacora()
@@ -233,6 +260,7 @@ ar_rec_out = f'{ruta_public}dat/rec.js'
 
 rutas_recursos = [
     './datos/artistas_invitados/',
+    './datos/artistas_seleccionados/',
     './datos/personas/',
     './datos/bitacora/',
     './datos/obras/',

@@ -1,0 +1,30 @@
+---
+
+nombre: 'Cláudia'
+apellido: 'Lyrio'
+seudonimo: ''
+
+nacionalidad: 'Brasil'
+contacto_publico: ''
+
+web: ''
+
+eventos: []
+
+fotos:
+  persona: 'claudia_lyrio.jpg'
+  #obra: 'claudia_lyrio-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - seleccionado
+
+detalle: |
+  {{ idioma('eng') }}
+
+  Is a visual artist, born in Rio de Janeiro, Brazil, where she lives and works. Her artistic production seeks crossings between art, literature and environmental context. It thematizes existential issues, the cycle of life, perenniality and ephemerality, loss and resilience. In her most recent works, Lyrio focuses on the development of fictional narratives on large canvases in which the materiality of the word plays a leading role in the visual body. The artist emphasizes gesture and process, visibility and invisibility, legibility and illegibility, while seeking to relate handwritten writing and the drawing of nature in the construction of a possible landscape. Cláudia develops works of painting, engraving, installations, objects and artist's books. She held the solo shows The Melancholic Naturalist, Caixa Cultural Rio/RJ (2023-24); and Redesigning the Landscape, Blumenau Museum of Art/SC. She has been selected for several contemporary art salons, including the Artistas Sem Galeria (2022); Salão das Artes Degeneradas, Ateliê Sanitário, RJ/RJ (2022); 1o Salão Ibeu Online (2021); Novíssimos, Galeria Ibeu, RJ/RJ (2019); Sequestrado, Fortaleza/CE (2017); Guarulhos/SP (2016); e Vinhedo/SP (2016), when he won the Painting Acquisition Award. She did an artistic residency at Casa da Escada Colorida (2023); na Galeria Cândido Portinari, da Universidade do Estado do Rio de Janeiro (2023). She has participated in several group exhibitions, among which the following stand out: The work of the six o'clock bell, Casa da Escada Colorida, Lapa/RJ (2023); The works and the days, Cândido Portinari Gallery, UERJ/RJ (2023); Not always equal days , Palácio do Catete, Catete/RJ (2022); Because my care is yours, Sesc Copacabana/RJ (20220; Rio de Mãos Dada Urban Intervention, SESC-Rio (2021); 7 Ethnographers, dotArt Gallery, Belo Horizonte/MG (2020); The Melancholy of the Landscape, Untitled Art Gallery, Fortaleza/CE (2019); To the Threads I Surrendered the Horizon, Galeria Hiato, Juiz de Fora/MG ( Galeria Hiato, Juiz de Fora/MG (2018); Mirages, Centro Municipal de Artes Hélio Oiticica, Rio de Janeiro/RJ (2017); Beyond the Image, Untitled Art Gallery, Fortaleza/CE (2017) and Immersions, Casa França-Brasil, Rio de Janeiro/RJ (2017). Cláudia Lyrio holds a degree in Painting and Literature from the Federal University of Rio de Janeiro, a Master's degree in Literature (UFRJ) and a Specialization in History of Art and Architecture in Brazil from PUC-RIO. She was a substitute professor in the Painting course at the School of Fine Arts at UFRJ and is currently a doctoral student in the Graduate Program in Visual Arts at UFRJ, in the area of Theory and Experimentation in Art, line of Interdisciplinary Poetics.
+  {.lang-eng}
+
+extra: |
+  {{ idioma('esp') }}

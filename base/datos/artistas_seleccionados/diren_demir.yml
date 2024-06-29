@@ -1,0 +1,30 @@
+---
+
+nombre: 'Demir'
+apellido: 'Diren'
+seudonimo: ''
+
+nacionalidad: 'Turquía'
+contacto_publico: ''
+
+web: 'https://direndemir.art'
+
+eventos: []
+
+fotos:
+  persona: 'diren_demir.jpg'
+  #obra: 'diren_demir-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - seleccionado
+
+detalle: |
+  {{ idioma('eng') }}
+
+  (Istanbul, 1997) He is a Berlin-based interdisciplinary artist and independent curator. Demir’s work seeks transformative solutions to the challenges posed by patriarchal and authoritarian regimes. Demir’s installations and performances frequently deal with revelation and the body-power relationship as a site of conflict. Demir focuses on transformational activism, participatory practices and developing new models of resistance in their artworks. Demir’s work includes queer themes, using their own body to challenge stereotypical gender positions and de-gender memories of place and the city by referring to LGBTIQ+ history in their articles, seminars and workshops. In 2019, their compilation titled “A Night of June: A Biographical Analysis of the Stonewall Revolution” was published. In August 2022, their new poetry and illustration book “Hail to the Fallen” took its place in bookstores. Demir has curated more than 30 guerrilla exhibitions on streets and rural areas, putting the accessibility of art at the forefront, as well as in places such as Akbank Art and Gazhane Museum. Their works and projects were exhibited in many different countries such as Estonia, Turkey, Serbia, Netherlands, Germany, India...
+  {.lang-eng}
+
+extra: |
+  {{ idioma('esp') }}
