@@ -1,0 +1,47 @@
+---
+
+nombre: 'Stephan'
+apellido: 'Groß'
+seudonimo: ''
+
+nacionalidad: 'Alemania'
+contacto_publico: ''
+
+web: 'http://stephangross.net/'
+
+eventos: []
+
+fotos:
+  persona: 'stephan_gross.jpg'
+  #obra: 'stephan_gross-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - seleccionado
+
+detalle: |
+  {{ idioma('eng') }}
+
+  Studied ne arts and mathematics at the University of Bremen with Frieder Nake, among others. His lms have been shown at the ZKM, Karlsruhe, FACT, Liverpool and at the International Short Film Festival in Hamburg. He lives in Berlin and works with the neurologist Dr. Martin Groß on sound art works that were realized at Zeche Zollverein, Essen, and in the Municipal Gallery in Bremen.
+  {.lang-eng}
+
+  2012 Type installation at Opening the Black Box: The Charge is Torture, Sullivan Galleries (School of the Art Institute of Chicago). 2013 Participation in OpenART Örebro in Sweden. 2015 sound installation at the international spatial sound conference GLOBALE: inSonic2015 and video contribution at the Wro Media Art Biennale.
+  {.lang-eng}
+
+  Participation in the res o nant project (2017 to 2019). The Jewish Museum Berlin presented a walk-in light and sound installation by the Düsseldorf conceptual artist Mischa Kuball. 2020 Video contribution at The 7 Memorials for Humanity, Torrance Art Museum, California.
+  {.lang-eng}
+
+  Groß understands his artistic endeavors in the context of a duty of care for all living things. Since 2020 he is a co-curator of Group Global 3000, project space for art and sustainability in Berlin.
+  {.lang-eng}
+
+extra: |
+  {{ idioma('esp') }}
+
+  Estudió ne artes y matemáticas en la Universidad de Bremen con Frieder Nake, entre otros. Sus películas se han proyectado en el ZKM de Karlsruhe, el FACT de Liverpool y el Festival Internacional de Cortometrajes de Hamburgo. Vive en Berlín y trabaja con el neurólogo Dr. Martin Groß en obras de arte sonoro realizadas en Zeche Zollverein, Essen, y en la Galería Municipal de Bremen.
+
+  2012 Instalación tipográfica en Opening the Black Box: The Charge is Torture, Galerías Sullivan (Escuela del Instituto de Arte de Chicago). 2013 Participación en OpenART Örebro en Suecia. 2015 Instalación sonora en la conferencia internacional de sonido espacial GLOBALE: inSonic2015 y contribución en vídeo en la Wro Media Art Biennale.
+
+  Participación en el proyecto res o nant (2017 a 2019). El Museo Judío de Berlín presenta una instalación de luz y sonido del artista conceptual de Düsseldorf Mischa Kuball. 2020 Contribución en vídeo en The 7 Memorials for Humanity, Torrance Art Museum, California.
+
+  Groß entiende sus esfuerzos artísticos en el contexto de un deber de cuidado hacia todos los seres vivos. Desde 2020 es co-curador de Group Global 3000, espacio de proyectos para el arte y la sostenibilidad en Berlín.
