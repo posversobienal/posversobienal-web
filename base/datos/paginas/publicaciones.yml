@@ -1,7 +1,7 @@
 ---
 
 titulo: 'Publicaciones'
-html_base: 'pagina.html'
+html_base: 'publicaciones-menu.html'
 ruta_static: 'pag/publicaciones/index.html'
 estilo: col-lg-11
 
@@ -11,3 +11,7 @@ contenido: |
   **POSVERSO BIENAL** se propone crear una biblioteca de contenidos sobre arte contemporáneo en general, y sobre prácticas poéticas experimentales en específico. Compuesta por material impreso y digital, esta biblioteca reunirá contribuciones de artistas, curadores, teóricos e investigadores, con el objeto de brindar un mayor soporte conceptual y educativo a las actividades de la BIENAL. Las publicaciones, que serán editadas por **HOTEL DADA editor**/**BIENAL POSVERSO** o en colaboración con otros sellos editoriales, incluirán catálogos, periódicos informativos, libros de artista, ensayos y materiales educativos.
 
   Para obtener más información y/o realizar propuestas editoriales, comuníquese con [posversobienal@gmail.com](mailto:posversobienal@gmail.com).
+
+
+lista:
+  - vigo_volumen_1

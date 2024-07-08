@@ -39,11 +39,17 @@ def md_a_html(texto):
 
 
 def datos_de(tipo, archivo):
-    if tipo == 'bitacora':
-        ar = f'./datos/bitacora/{archivo}.yml'
-        with open(ar, 'r') as f:
-            return yaml.safe_load(f)
-    return {}
+    re = {}
+    po = {
+        'bitacora': './datos/bitacora/{archivo}.yml',
+        'publicaciones': './datos/publicaciones/{archivo}.yml',
+        'mediacion_educativa': './datos/mediacion_educativa/{archivo}.yml',
+        }
+
+    if tipo in po:
+        with open(po[tipo].format(archivo=archivo), 'r') as f:
+            re = yaml.safe_load(f)
+    return re
 
 
 def url_dominio(texto):
@@ -230,6 +236,52 @@ def actualizar_bitacora():
         with open(arc_out, 'w') as f:
             f.write(html)
 
+def actualizar_publicaciones():
+    # completado de plantillas de PUBLICACIONES
+    ruta_in = './datos/publicaciones/'
+    ruta_out = f'{ruta_public}pub/'
+    borrar_contenido(ruta_out)
+
+    for ar in [a for a in listdir(ruta_in) if a.endswith('.yml')]:
+        print('Publicaciones: ', ar)
+
+        dat_cfg['actualizacion'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+        dat_cfg['cache_actu'] = int(time_ns() / 1000)
+        dat_pag = leer_yml(f'{ruta_in}{ar}')
+
+        nom_ar = splitext(ar)[0]
+        arc_out = f'{ruta_out}/{nom_ar}/index.html'
+        makedirs(dirname(arc_out), exist_ok=True)
+
+        tpl = env_jinja2.get_template('publicaciones.html')
+        html = tpl.render(cfg=dat_cfg, pag=dat_pag, rec=dat_rec)
+
+        with open(arc_out, 'w') as f:
+            f.write(html)
+
+def actualizar_mediacion_educativa():
+    # completado de plantillas de EVENTOS EDUCATIVOS
+    ruta_in = './datos/mediacion_educativa/'
+    ruta_out = f'{ruta_public}edu/'
+    borrar_contenido(ruta_out)
+
+    for ar in [a for a in listdir(ruta_in) if a.endswith('.yml')]:
+        print('Eventos educativos: ', ar)
+
+        dat_cfg['actualizacion'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+        dat_cfg['cache_actu'] = int(time_ns() / 1000)
+        dat_pag = leer_yml(f'{ruta_in}{ar}')
+
+        nom_ar = splitext(ar)[0]
+        arc_out = f'{ruta_out}/{nom_ar}/index.html'
+        makedirs(dirname(arc_out), exist_ok=True)
+
+        tpl = env_jinja2.get_template('mediacion_educativa.html')
+        html = tpl.render(cfg=dat_cfg, pag=dat_pag, rec=dat_rec)
+
+        with open(arc_out, 'w') as f:
+            f.write(html)
+
 
 def actualizar_todo():
     actualizar_personas()
@@ -238,6 +290,8 @@ def actualizar_todo():
     actualizar_paginas()
     actualizar_sedes()
     actualizar_bitacora()
+    actualizar_publicaciones()
+    actualizar_mediacion_educativa()
     # finalización
     print('--- Actualización completada!')
 
@@ -264,9 +318,11 @@ rutas_recursos = [
     './datos/artistas_invitados/',
     './datos/artistas_seleccionados/',
     './datos/personas/',
-    './datos/bitacora/',
     './datos/obras/',
-    './datos/sedes/'
+    './datos/sedes/',
+    './datos/publicaciones/',
+    './datos/mediacion_educativa/',
+    './datos/bitacora/',
     ]
 
 dat_rec = {}

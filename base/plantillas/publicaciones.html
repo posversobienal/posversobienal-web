@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div class="bitacora">
+    <br><br><br><br>
+    <div class="container contenido mb-4">
+        <div class="row">
+            <div class="col-12 col-lg-4 pe-4 me-4 text-center">
+                {% for  imagen in pag.fotos %}
+                <img class="col-8 col-lg-12 img-fluid item-galeria" src="/rec/publicaciones/{{ imagen }}?{{ cfg.cache_actu }}">
+                <br><br>
+                {% endfor %}
+                <br>
+                {% if pag.contenido_lateral %}
+                {{ markdown(pag.contenido_lateral) }}
+                {% endif %}
+
+            </div>
+            <div class="ms-4 ps-4 col-7">
+                <h1>{{ pag.titulo }}</h1>
+
+                <div class="py-4 border-top border-secondary">
+                    {% if pag.contenido %}
+                    {{ markdown(pag.contenido) }}
+
+                    {% elif pag.detalle %}
+                    {{ markdown(pag.detalle) }}
+
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% if pag.galeria %}
+    <div class="galeria d-flex flex-wrap justify-content-center">
+        {% for it in pag.galeria %}
+        <img class="miniatura item-galeria" src="{{ it.url }}?{{ cfg.cache_actu }}" title="{{ it.titulo }}">
+        {% endfor %}
+    </div>
+    {% endif %}
+    <div class="text-center py-5">
+        <a href="/pag/publicaciones/#lista" class="btn btn-outline-dark fx-ampliar">Historial de PUBLICACIONES</a>
+    </div>
+</div>
+
+
+{% endblock %}

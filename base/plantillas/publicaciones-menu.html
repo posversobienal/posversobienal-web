@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block body %}
+{% if 'imagen_cabecera' in pag %}
+<div class="">
+    <img src="{{ pag.imagen_cabecera }}" class="img-fluid">
+</div>
+{% endif %}
+<div class="container contenido">
+
+    <header class="my-5">
+        <h1 class="text-center">{{ pag.titulo }}</h1>
+    </header>
+
+    <div class="row">
+        <section class="{{ pag.estilo }} col-lg-8">
+            {{ markdown(pag.contenido) }}
+        </section>
+
+        {% if 'contenido_secundario' in pag %}
+        <section class="{{ pag.estilo_cnt_sec }} ms-4 ps-4 border-start border-gray col-lg-3">
+            {{ markdown(pag.contenido_secundario) }}
+        </section>
+        {% endif %}
+
+
+        <section class="lista_publicaciones">
+            <br><hr>
+            <h2 id="lista">Publicaciones disponibles</h2>
+            <br><br>
+            <ul>
+                {% for nid in pag.lista %}
+                {% set dat = datos_de('publicaciones', nid) %}
+                <li class="item">
+                    <div class="miniatura">
+                        <img class="img-fluid" src="/rec/publicaciones/{{ dat.fotos[0] }}?{{ cfg.cache_actu }}">
+                    </div>
+                    <div class="info">
+                        <h5>{{ dat.titulo }}</h5>
+                        {% if dat.autoria %}<div>{{ dat.autoria }}</div>{% endif %}
+                        {% if dat.detalle %}<div>{{ dat.detalle }}</div>{% endif %}
+                        <ul class="etiquetas">
+                            {% for et in dat.etiquetas %}
+                            <li>{{ et }}</li>
+                            {% endfor %}
+
+                        </ul>
+                    </div>
+                    <div class="pe-4"><a class="btn btn-dark" href="{{ dat.url }}"><b>+</b></a></div>
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+
+    </div>
+</div>
+{% endblock %}
