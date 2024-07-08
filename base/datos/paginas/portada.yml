@@ -19,16 +19,21 @@ novedades:
 
 
 deslizador:
-  - {img: 1.jpg, url: '/per/rodolfo_mata/', tit: 'Obra de Rodolfo Mata'}
-  - {img: 2.jpg, url: '/per/elena_marini/', tit: 'Obra de Elena Marini'}
-  - {img: 3.jpg, url: '/per/silvio_de_gracia/', tit: 'Obra de Silvio De Gracia'}
-  - {img: 4.jpg, url: '/per/andrea_hygino/', tit: 'Obra de Andrea Hygino'}
-  - {img: 5.jpg, url: '/per/claudia_del_rio/', tit: 'Obra de Claudia del Río'}
-  - {img: 6.jpg, url: '/per/alberto_couratier/', tit: 'Obra de Alberto Couratier'}
-
+  - {img: 1.jpg, url: '/per/antonio_caro/', tit: 'Obra de Antonio Caro'}
+  - {img: 2.jpg, url: '/per/claudio_mangifesta/', tit: 'Obra de Claudio Omar Mangifesta'}
+  - {img: 3.jpg, url: '/per/j_m_calleja/', tit: 'Obra de J. M. Calleja'}
+  - {img: 4.jpg, url: '/per/marcela_peral/', tit: 'Obra de Marcela Peral'}
+  - {img: 5.jpg, url: '/per/silvina_torviso/', tit: 'Obra de Silvina Torviso'}
 
 deslizador_registro:
   PASADOS:
+    - rodolfo_mata
+    - elena_marini
+    - silvio_de_gracia
+    - andrea_hygino
+    - claudia_del_rio
+    - alberto_couratier
+
     - noiser
     - emmanuel_borao
     - joyce_ribeiro
@@ -63,11 +68,9 @@ deslizador_registro:
     - ana_montenegro
 
   PENDIENTES:
-    - antonio_caro
     - bartolome_ferrando
     - carlos_alberto_macheratti
     - carlos_gallardo
-    - claudio_mangifesta
     - clemente_padin
     - daniel_ontiveros
     - daniel_sarobe
@@ -75,13 +78,12 @@ deslizador_registro:
     - fernando_aguiar
     - ferran_destemple
     - guillermo_perez_raventos
-    - j_m_calleja
+    - jessica_pujol_duran
     - juan_angel_italiano
     - juan_montelpare
     - lucas_di_pascuale
-    - luis_pazos
+    - luciano_pozo
     - marcela_astorga
-    - marcela_peral
     - maria_jose_machado
     - ro_barragan
     - roma_vaquero_diaz
@@ -89,9 +91,7 @@ deslizador_registro:
     - rosemberg_sandoval
     - ruggero_maggi
     - sergio_bonzon
-    - silvina_torviso
     - simone_moraes
     - soledad_sanchez_goldar
     - teresa_pereda
     - tulio_restrepo
-    - luciano_pozo
