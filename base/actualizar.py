@@ -25,6 +25,8 @@ def orden_inverso(l):
     return l[::-1]
 
 
+def fecha_prensa(t):
+    return t.split('_')[0]
 
 def md_a_html(texto):
     global dat_cfg
@@ -288,6 +290,7 @@ env_jinja2.globals.update(listar_id = listar_id)
 env_jinja2.globals.update(idioma = idioma)
 env_jinja2.globals.update(desordenar = desordenar)
 env_jinja2.globals.update(orden_inverso = orden_inverso)
+env_jinja2.globals.update(fecha_prensa = fecha_prensa)
 
 
 

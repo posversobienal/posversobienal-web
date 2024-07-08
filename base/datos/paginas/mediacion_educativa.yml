@@ -22,4 +22,4 @@ contenido: |
 
   **Invitamos a directores, gestores culturales, maestros y formadores** a contactar a [posversobienal@gmail.com](mailto:posversobienal@gmail.com) para integrarse al programa educativo de POSVERSO BIENAL.
 
-  **Si te interesa ser parte del equipo de mediación de POSVERSO BIENAL** y potenciar nuestras propuestas de participación escolar y comunitaria puedes comunicarte a [posversobienal@gmail.com](mailto:posversobienal@gmail.com).
+  **Si te interesa ser parte del equipo de mediación de POSVERSO BIENAL** y potenciar nuestras propuestas de participación escolar y comunitaria puedes comunicarte a [{{ cfg.emails.pveducativo }}](mailto:{{ cfg.emails.pveducativo }}).

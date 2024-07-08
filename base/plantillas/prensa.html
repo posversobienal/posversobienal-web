@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block body %}
+{% if 'imagen_cabecera' in pag %}
+<div class="">
+    <img src="{{ pag.imagen_cabecera }}" class="img-fluid">
+</div>
+{% endif %}
+<div class="container contenido">
+
+    <header class="my-5">
+        <h1 class="text-center">{{ pag.titulo }}</h1>
+    </header>
+
+    <div class="row">
+
+        <section class="{{ pag.estilo }} col-lg-8">
+            {% for itk in pag.publicaciones %}
+            {% set itd = pag.publicaciones[itk] %}
+            {% set itp = pag.publicantes[itd.p] %}
+            <div class="item-prensa">
+                <div class="icono">
+                    <a href="{{ itp.u }}" target="_blank">
+                        <img src="/rec/prensa/{{ itd.p }}.png" title="{{ itp.t}}">
+                    </a>
+                </div>
+                <div class="info">
+                    <h5>{{ fecha_prensa(itk) }}
+                        - <b>{{ itp.t}}</b>
+                    </h5>
+                    <p><a href="{{ itd.u }}" target="_blank">{{ itd.t }}</a></p>
+                </div>
+            </div>
+            {% endfor %}
+        </section>
+
+        {% if 'contenido_secundario' in pag %}
+        <section class="{{ pag.estilo_cnt_sec }} ms-4 ps-4 border-start border-gray col-lg-3">
+            {{ markdown(pag.contenido_secundario) }}
+        </section>
+        {% endif %}
+
+    </div>
+</div>
+{% endblock %}

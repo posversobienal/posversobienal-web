@@ -1,17 +1,211 @@
 ---
 titulo: 'Prensa'
-html_base: 'pagina.html'
+html_base: 'prensa.html'
 ruta_static: 'pag/prensa/index.html'
 estilo: col-lg-8
 estilo_cnt_sec: col-lg-3
 
+
+publicaciones:
+  2024-06-29_0:
+    p: semanariodejunin
+    t: 'Comenzó el programa educativo de la Bienal Posverso'
+    u: 'https://semanariodejunin.com.ar/nota/48804/comenzo-el-programa-educativo-de-la-bienal-posverso/'
+
+  2024-06-28_0:
+    p: lavozdelosbarrios
+    t: 'Se Inició oficialmente el Programa Educativo de la BIENAL POSVERSO'
+    u: https://lavozdelosbarrios.com/se-inicio-oficialmente-el-programa-educativo-de-la-bienal-posverso/)
+
+  2024-06-13_0:
+    p: lavozdelosbarrios
+    t: 'Guillermo Pérez Raventós curador educativo de la BIENAL POSVERSO'
+    u: 'https://lavozdelosbarrios.com/32028-2/'
+
+  2024-06-06_0:
+    p: laverdadonline
+    t: 'La Bienal Posverso fue declarada de Interés municipal y cultural'
+    u: 'https://laverdadonline.com/la-bienal-posverso-fue-declarada-de-interes-municipal-y-cultural/'
+
+  2024-06-04_0:
+    p: junin24
+    t: 'La Bienal Posverso fue declarada de Interés Municipal y Cultural'
+    u: 'https://junin24.com/locales/la-bienal-posverso-fue-declarada-de-interes-municipal-y-cultural/'
+
+  2024-06-02_0:
+    p: lavozdelosbarrios
+    t: 'La Bienal POSVERSO fue declarada de Interés Municipal y Cultural'
+    u: 'https://lavozdelosbarrios.com/la-bienal-posverso-fue-declarada-de-interes-municipal-y-cultural/'
+
+  2024-05-31_0:
+    p: juninnews
+    t: 'Artistas preseleccionados para la bienal Posverso que se hará en Junín'
+    u: 'https://www.juninnews.com/artistas-preseleccionados-para-la-bienal-posverso-que-se-hara-en-junin/'
+
+  2024-05-31_1:
+    p: junin24
+    t: 'Artistas preseleccionados para la bienal Posverso que se hará en Junín'
+    u: 'https://junin24.com/locales/artistas-preseleccionados-para-la-bienal-posverso-que-se-hara-en-junin/'
+
+  2024-05-27_0:
+    p: semanariodejunin
+    t: 'La Bienal Posverso dio a conocer los artistas seleccionados de su convocatoria'
+    u: 'https://semanariodejunin.com.ar/nota/47761/la-bienal-posverso-dio-a-conocer-los-artistas-seleccionados-de-su-convocatoria/'
+
+  2024-05-25_0:
+    p: mundoperformance
+    t: 'POSVERSO Bienal anuncia el listado de artistas preseleccionados de su convocatoria abierta'
+    u: 'https://mundoperformance.net/2024/05/25/posverso-bienal-anuncia-el-listado-de-artistas-preseleccionados-de-su-convocatoria-abierta/'
+
+  2024-04-26_0:
+    p: junin24
+    t: 'Presentaron la revista-libro "Vigo Volumen 1 Poesía Visual Argentina" de Silvio De Gracia'
+    u: 'https://junin24.com/locales/presentaron-la-revista-libro-vigo-volumen-1-poesia-visual-argentina-de-silvio-de-gracia/#google_vignette'
+
+  2024-04-25_0:
+    p: semanariodejunin
+    t: 'Presentaron la revista-libro "VIGO Volumen 1 Poesía Visual Argentina" de Silvio De Gracia'
+    u: 'https://semanariodejunin.com.ar/nota/46751/presentaron-la-revista-libro-vigo-volumen-1-poesia-visual-argentina-de-silvio-de-gracia/'
+
+  2024-04-21_0:
+    p: bbkberlin
+    t: POSVERSO 2024
+    u: https://www.bbk-berlin.de/ausschreibungen/posverso-2024
+
+  2024-04-20_0:
+    p: nuevarioja
+    t: 'Bienal de Poesía Experimental'
+    u: 'https://nuevarioja.com.ar/suplemento-1591/bienal-de-poesia-experimental.htm'
+
+  2024-03-26_0:
+    p: revistabecult
+    t: 'Hotel Dadá. Bienal internacional en la pampa argentina'
+    u: 'https://revistabecult.com.ar/hotel-dada-bienal-internacional-en-la-pampa-argentina/'
+
+  2024-03-14_0:
+    p: universes
+    t: 'POSVERSO - International Biennial of Experimental Poetry of Argentina'
+    u: 'https://universes.art/en/posverso'
+
+  2024-03-13_0:
+    p: mundoperformance
+    t: 'Posverso: construir otras formas de habitar el mundo'
+    u: 'https://mundoperformance.net/2024/03/13/posverso-construir-otras-formas-de-habitar-el-mundo/'
+
+  2024-03-04_0:
+    p: gart
+    t: 'POSVERSO - I Biennale Internazionale di Poesia Sperimentale Argentina'
+    u: 'https://www.gart.bio/_files/ugd/0d3f24_23361bb467b94f4699ac1b0d568c9be9.pdf'
+
+  2024-03-02_0:
+    p: poex
+    t: 'POSVERSO: I Bienal Internacional de Poesía Experimental de Argentina'
+    u: 'https://po-ex.net/noticias/posverso-i-bienal-internacional-de-poesia-experimental-de-argentina/'
+
+  2024-02-29_0:
+    p: acromaticarevista
+    t: 'Convocatoria a la primera Bienal Internacional de Poesía Experimental'
+    u: 'https://acromaticarevista.com/eventos/convocatoria-a-la-primera-bienal-internacional-de-poesia-experimental/'
+
+  2024-02-27_0:
+    p: infobae
+    t: 'La primera Bienal Internacional de Poesía Experimental abrió la convocatoria a artistas de todas las disciplinas'
+    u: 'https://www.infobae.com/cultura/2024/02/27/la-primera-bienal-internacional-de-poesia-experimental-abrio-la-convocatoria-a-artistas-de-todas-las-disciplinas/'
+
+  2024-02-25_0:
+    p: crosses
+    t: 'Mail Art Poetry – Poetry is Resistance'
+    u: 'https://crosses.net/posverso/'
+
+  2024-02-23_0:
+    p: lavozdelosbarrios
+    t: 'Presentaron POSVERSO I Bienal Internacional de Poesía Experimental de Argentina'
+    u: 'https://lavozdelosbarrios.com/presentaron-posverso-i-bienal-internacional-de-poesia-experimental-de-argentina/'
+
+  2024-02-20_1:
+    p: arteonline
+    t: 'Llega Posverso'
+    u: 'https://www.arte-online.net/Notas/Llega-Posverso'
+
+  2024-02-20_0:
+    p: arteonline
+    t: 'Bienal POSVERSO'
+    u: 'https://www.arte-online.net/Agenda/Ferias_y_bienales/Bienal-POSVERSO'
+
+  2024-02-16_0:
+    p: dehoy
+    t: 'Junín será sede de POSVERSO BIENAL INTERNACIONAL de poesia experimental de Argentina'
+    u: 'https://www.dehoy.com.ar/entrada/junin-sera-sede-de-posverso-bienal-internacional-de-poesia-experimental-de-argentina-103649'
+
+  2024-02-15_0:
+    p: junin24
+    t: 'Internacional de Poesía Experimental de Argentina'
+    u: 'https://junin24.com/locales/junin-sera-sede-de-posverso-primera-bienal-internacional-de-poesia-experimental-de-argentina/'
+
+  2024-02-14_0:
+    p: semanariodejunin
+    t: 'Junín será sede de Posverso, 1º Bienal Internacional de Poesía Experimental de Argentina'
+    u: 'https://semanariodejunin.com.ar/nota/44652/junin-sera-sede-de-posverso-1-bienal-internacional-de-poesia-experimental-de-argentina/'
+
+
+
+publicantes:
+  semanariodejunin: {t: 'Semanario de Junín', u: 'https://semanariodejunin.com.ar/'}
+  lavozdelosbarrios: {t: 'La voz de los barrios', u: 'https://lavozdelosbarrios.com/'}
+  laverdadonline: {t: 'La Verdad Online', u: 'https://laverdadonline.com/'}
+  junin24: {t: 'Junín 24', u: 'https://junin24.com/'}
+  juninnews: {t: 'Junín News', u: 'https://www.juninnews.com/'}
+  mundoperformance: {t: 'Mundo Performance', u: 'https://mundoperformance.net/'}
+  bbkberlin: {t: 'bbk berlin', u: 'https://www.bbk-berlin.de/'}
+  nuevarioja: {t: 'Nueva Rioja', u: 'https://nuevarioja.com.ar/'}
+  revistabecult: {t: 'Revista BE CULT', u: 'https://revistabecult.com.ar/'}
+  universes: {t: 'Universes in Universe', u: 'https://universes.art/en/posverso'}
+  gart: {t: 'gart', u: 'https://www.gart.bio/'}
+  poex: {t: 'Arquivo Digital da PO.EX', u: 'https://po-ex.net/'}
+  acromaticarevista: {t: 'Revista Acromática', u: 'https://acromaticarevista.com/'}
+  infobae: {t: 'infobae', u: 'https://www.infobae.com/'}
+  crosses: {t: 'Crosses.Net', u: 'https://crosses.net/'}
+  arteonline: {t: 'Arte Online', u: 'https://www.arte-online.net/'}
+  dehoy: {t: 'De Hoy', u: 'https://www.dehoy.com.ar/'}
+
+
+
 contenido: |
 
+
+
+
+contenido_secundario: |
+
+  #### Dossier de prensa
+
+  [Descargar PDF](/rec/descargas/POSVERSO_BIENAL-dossier_de_prensa_bienal.pdf)
+
+  #### Media kit
+
+  [Descargar ZIP](/rec/descargas/POSVERSO_BIENAL-media_kit.zip)
+
+  #### Novedades
+
+  [Historial](/bit/)
+
+
+
+
+formato_de_contenido_previo: |
+
+  ##### 2024-06-29 - **Semanario de Junín**
+  [Comenzó el programa educativo de la Bienal Posverso](https://semanariodejunin.com.ar/nota/48804/comenzo-el-programa-educativo-de-la-bienal-posverso/)
+
+  <br>
+  ##### 2024-06-28 - **La voz de los barrios**
+  [Se Inició oficialmente el Programa Educativo de la BIENAL POSVERSO](https://lavozdelosbarrios.com/se-inicio-oficialmente-el-programa-educativo-de-la-bienal-posverso/)
+
+  <br>
   ##### 2024-06-13 - **La voz de los barrios**
   [Guillermo Pérez Raventós curador educativo de la BIENAL POSVERSO](https://lavozdelosbarrios.com/32028-2/)
 
   <br>
-
   ##### 2024-06-06 - **La Verdad Online**
   [La Bienal Posverso fue declarada de Interés municipal y cultural](https://laverdadonline.com/la-bienal-posverso-fue-declarada-de-interes-municipal-y-cultural/)
 
@@ -114,17 +308,3 @@ contenido: |
   [Junín será sede de Posverso, 1º Bienal Internacional de Poesía Experimental de Argentina](https://semanariodejunin.com.ar/nota/44652/junin-sera-sede-de-posverso-1-bienal-internacional-de-poesia-experimental-de-argentina/)
 
   <br><br><br>
-
-contenido_secundario: |
-
-  #### Dossier de prensa
-
-  [Descargar PDF](/rec/descargas/POSVERSO_BIENAL-dossier_de_prensa_bienal.pdf)
-
-  #### Media kit
-
-  [Descargar ZIP](/rec/descargas/POSVERSO_BIENAL-media_kit.zip)
-
-  #### Novedades
-
-  [Historial](/bit/)
