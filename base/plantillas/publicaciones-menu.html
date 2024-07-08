@@ -39,12 +39,13 @@
                         <h5>{{ dat.titulo }}</h5>
                         {% if dat.autoria %}<div>{{ dat.autoria }}</div>{% endif %}
                         {% if dat.detalle %}<div>{{ dat.detalle }}</div>{% endif %}
+                        {% if dat.etiquetas %}
                         <ul class="etiquetas">
                             {% for et in dat.etiquetas %}
                             <li>{{ et }}</li>
                             {% endfor %}
-
                         </ul>
+                        {% endif %}
                     </div>
                     <div class="pe-4"><a class="btn btn-dark" href="{{ dat.url }}"><b>+</b></a></div>
                 </li>
