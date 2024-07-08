@@ -21,7 +21,7 @@
                     <div><img src="{{ v.foto }}" class="img-fluid"></div>
                     <br><div class="p-4">
                         <h3 class="text-center"><a href="{{ v.link }}">{{ v.nomb }}</a></h3>
-                        <br> {{ markdown(pag.biografias[k]) }}
+                        <div class="text-small">{{ markdown(pag.biografias[k]) }}</div>
                     </div>
                 </div>
                 {% endfor %}
