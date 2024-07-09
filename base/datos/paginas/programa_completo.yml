@@ -8,4 +8,4 @@ estilo: col-lg-11
 contenido: |
 
   <div class="programa_completo" id="programa_completo_aqui"></div>
-  <script src="/lib/js/acc-programa.js"></script>
+  <script src="/lib/js/acc-programa.js?{{ cfg.cache_actu }}"></script>
