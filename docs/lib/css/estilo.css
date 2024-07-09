@@ -652,8 +652,17 @@ a.actual {
   margin: 0;
   padding: 30px 0;
 }
-.programa_completo .mes .fechas li {
+.programa_completo .mes .mes_titulo {
+  text-align: center;
+  font-size: 1.8em;
+  border-bottom: 1px solid #000;
+}
+.programa_completo .mes .fechas {
   margin: 0;
+  padding: 0;
+}
+.programa_completo .mes .fechas li {
+  margin: 0 1rem;
   padding: 0;
   list-style: none;
   border-bottom: 1px solid #ccc;
@@ -664,6 +673,9 @@ a.actual {
 .programa_completo .mes .fechas li .evento p {
   margin: 0;
   padding: 0;
+}
+.programa_completo .mes .fechas li .evento h5.ev_titulo {
+  font-size: 1.4em;
 }
 .programa_completo .mes .fechas li .evento .tipo {
   font-size: 0.9em;
@@ -678,7 +690,7 @@ a.actual {
   padding: 3px 10px;
 }
 .programa_completo .mes .fechas li .evento .titulo {
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 .programa_completo .mes .fechas li .evento .texto {
   font-size: 0.9em;
