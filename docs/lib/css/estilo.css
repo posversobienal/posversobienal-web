@@ -667,6 +667,9 @@ a.actual {
   list-style: none;
   border-bottom: 1px solid #ccc;
 }
+.programa_completo .mes .fechas li:last-child {
+  border-bottom: none!important;
+}
 .programa_completo .mes .fechas li .evento {
   margin: 20px 30px;
 }
