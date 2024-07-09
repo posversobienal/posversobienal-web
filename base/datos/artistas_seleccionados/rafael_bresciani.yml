@@ -13,9 +13,9 @@ eventos: []
 
 fotos:
   persona: 'rafael_bresciani.jpg'
-  #obra: 'rafael_bresciani-1.jpg'
+  obra: 'rafael_bresciani-1.jpg'
 
-imagen_cabecera_posicion_inicial: 50% 50%
+imagen_cabecera_posicion_inicial: 50% 10%
 
 etiquetas:
   - seleccionado

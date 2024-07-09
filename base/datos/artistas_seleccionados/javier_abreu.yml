@@ -13,9 +13,9 @@ eventos: []
 
 fotos:
   persona: 'javier_abreu.jpg'
-  #obra: 'javier_abreu-1.jpg'
+  obra: 'javier_abreu-1.jpg'
 
-imagen_cabecera_posicion_inicial: 50% 50%
+imagen_cabecera_posicion_inicial: 50% 10%
 
 etiquetas:
   - seleccionado

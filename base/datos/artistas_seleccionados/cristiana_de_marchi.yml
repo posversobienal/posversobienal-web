@@ -13,9 +13,9 @@ eventos: []
 
 fotos:
   persona: 'cristiana_de_marchi.jpg'
-  #obra: 'cristiana_de_marchi-1.jpg'
+  obra: 'cristiana_de_marchi-1.jpg'
 
-imagen_cabecera_posicion_inicial: 50% 50%
+imagen_cabecera_posicion_inicial: 50% 80%
 
 etiquetas:
   - seleccionado

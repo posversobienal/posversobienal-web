@@ -13,7 +13,7 @@ eventos: []
 
 fotos:
   persona: 'diren_demir.jpg'
-  #obra: 'diren_demir-1.jpg'
+  obra: 'diren_demir-1.jpg'
 
 imagen_cabecera_posicion_inicial: 50% 50%
 

@@ -13,7 +13,7 @@ eventos: []
 
 fotos:
   persona: 'mounir_fatmi.jpg'
-  #obra: 'mounir_fatmi-1.jpg'
+  obra: 'mounir_fatmi-1.jpg'
 
 imagen_cabecera_posicion_inicial: 50% 50%
 

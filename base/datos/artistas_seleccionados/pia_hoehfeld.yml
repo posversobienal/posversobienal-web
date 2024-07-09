@@ -13,9 +13,9 @@ eventos: []
 
 fotos:
   persona: 'pia_hoehfeld.jpg'
-  #obra: 'pia_hoehfeld-1.jpg'
+  obra: 'pia_hoehfeld-1.jpg'
 
-imagen_cabecera_posicion_inicial: 50% 50%
+imagen_cabecera_posicion_inicial: 50% 40%
 
 etiquetas:
   - seleccionado

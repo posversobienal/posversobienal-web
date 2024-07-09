@@ -13,9 +13,9 @@ eventos: []
 
 fotos:
   persona: 'claudia_lyrio.jpg'
-  #obra: 'claudia_lyrio-1.jpg'
+  obra: 'claudia_lyrio-1.jpg'
 
-imagen_cabecera_posicion_inicial: 50% 50%
+imagen_cabecera_posicion_inicial: 50% 60%
 
 etiquetas:
   - seleccionado

@@ -13,9 +13,9 @@ eventos: []
 
 fotos:
   persona: 'la_lengua_en_la_calle.jpg'
-  #obra: 'la_lengua_en_la_calle-1.jpg'
+  obra: 'la_lengua_en_la_calle-1.jpg'
 
-imagen_cabecera_posicion_inicial: 50% 50%
+imagen_cabecera_posicion_inicial: 50% 20%
 
 etiquetas:
   - seleccionado

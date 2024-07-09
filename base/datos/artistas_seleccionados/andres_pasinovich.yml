@@ -13,9 +13,9 @@ eventos: []
 
 fotos:
   persona: 'andres_pasinovich.jpg'
-  #obra: 'andres_pasinovich-1.jpg'
+  obra: 'andres_pasinovich-1.jpg'
 
-imagen_cabecera_posicion_inicial: 50% 50%
+imagen_cabecera_posicion_inicial: 50% 10%
 
 etiquetas:
   - seleccionado

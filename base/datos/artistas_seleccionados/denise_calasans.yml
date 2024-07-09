@@ -13,7 +13,7 @@ eventos: []
 
 fotos:
   persona: 'denise_calasans.jpg'
-  #obra: 'denise_calasans-1.jpg'
+  obra: 'denise_calasans-1.jpg'
 
 imagen_cabecera_posicion_inicial: 50% 50%
 

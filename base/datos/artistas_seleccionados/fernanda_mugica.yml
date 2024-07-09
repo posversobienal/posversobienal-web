@@ -13,9 +13,9 @@ eventos: []
 
 fotos:
   persona: 'fernanda_mugica.jpg'
-  #obra: 'fernanda_mugica-1.jpg'
+  obra: 'fernanda_mugica-1.jpg'
 
-imagen_cabecera_posicion_inicial: 50% 50%
+imagen_cabecera_posicion_inicial: 50% 10%
 
 etiquetas:
   - seleccionado

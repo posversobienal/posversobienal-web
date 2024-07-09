@@ -13,7 +13,7 @@ eventos: []
 
 fotos:
   persona: 'tchello_d_barros.jpg'
-  #obra: 'tchello_d_barros-1.jpg'
+  obra: 'tchello_d_barros-1.jpg'
 
 imagen_cabecera_posicion_inicial: 50% 50%
 
