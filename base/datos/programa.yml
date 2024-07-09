@@ -12,6 +12,7 @@ fechas:
           titulo: 'POÉTICAS DE LA RESISTENCIA'
           texto: |
             Curaduría: Silvio De Gracia.
+            <br>Diseño expográfico: Ana Montenegro.
 
         '20:30':
           lugar: hotel_dada
@@ -32,7 +33,7 @@ fechas:
           texto: |
             Organiza: Red Conceptualismos del Sur. Ana Longoni, Lucía Bianchi, Lucía Cañada y Fernando Davis.
 
-        '10:00':
+        '10:00 ':
           lugar: museo_historico
           tipo: 'Exhibición'
           titulo: 'EL COLECCIONISTA DE OFICIOS: Ricardo Salido'
@@ -128,8 +129,8 @@ fechas:
 
         '18:30':
           lugar: escuela_de_teatro_gilberto_mesa
-          tipo: 'Performace'
-          titulo: 'Experimental, sonora y poética'
+          tipo: 'Performance'
+          titulo: 'Poesía fonética y sonora'
           texto: |
             Montenegro-Fisher (Chile-Reino Unido): Lectura/performance experimental/sonora
             <br>Jèssica Pujol Durán (Chile-Reino Unido): Performance poética
@@ -150,7 +151,7 @@ fechas:
         '18:00':
           lugar: conservatorio_de_musica_juan_r_perez_cruz
           tipo: 'Charla'
-          titulo: 'Sobre arte sonoro y experiencias del colectivo Noiser'
+          titulo: 'Arte sonoro y experiencias del colectivo Noiser'
           texto: |
             NOISER (Argentina-Colombia)
 
@@ -192,7 +193,7 @@ fechas:
 
         '11:00':
           lugar: espacio_publico
-          tipo: 'Perfomance'
+          tipo: 'Performance'
           titulo: 'LA CULTURA DE LA FELICIDAD. Activación de acción pública de Luis Pazos'
           texto: |
             Performers: Alumnos de la Escuela Provincial de Teatro “Gilberto Alfredo Mesa”
@@ -289,8 +290,8 @@ fechas:
       dia: Viernes
       eventos:
 
-        '??:??':
-          lugar: espacio_publico
+        'Horario y recorrido a confirmar.':
+          lugar: '??'
           tipo: ''
           titulo: 'ACCIONES POÉTICAS EN EL ESPACIO PÚBLICO'
           texto: |
@@ -309,8 +310,8 @@ fechas:
       dia: Sábado
       eventos:
 
-        '??:??':
-          lugar: espacio_publico
+        'Horario y recorrido a confirmar.':
+          lugar: '??'
           tipo: ''
           titulo: 'ACCIONES POÉTICAS EN EL ESPACIO PÚBLICO'
           texto: |
@@ -366,7 +367,7 @@ fechas:
       dia: Sábado
       eventos:
 
-        '??:??':
+        'Horario a confirmar.':
           lugar: comedor_los_totoreros
           tipo: ''
           titulo: 'Totoreras, Casa Río y Arquitectura Bonaerense: Acción comunitaria'
@@ -408,7 +409,7 @@ fechas:
         '20:00':
           lugar: fundacion_casa_pronto
           tipo: 'Charla'
-          titulo: 'Sobre su obra digital/interactiva Los Pronombres'
+          titulo: 'Acerca de la obra digital/interactiva Los Pronombres'
           texto: |
             Rodolfo Mata (México)
 
@@ -467,7 +468,7 @@ fechas:
       dia: Viernes
       eventos:
 
-        '??:??':
+        '20:00':
           lugar: hotel_dada
           tipo: ''
           titulo: 'Fiesta de cierre'

@@ -8,7 +8,7 @@ class Programa {
                    </h5>
                    <div class="ficha">
                       <p><span class="tipo">{tipo}</span> <span class="titulo">{titulo}</span></p>
-                      <p class="lugar"><small>LUGAR:</small> <a href="/sds/{lugar_id}/">{lugar_nomb}</p>
+                      {lugar}
                       <p class="texto">{texto}</p>
                    </div>
                </div></li>`;
@@ -48,8 +48,7 @@ class Programa {
                         dia_nume: k_dia,
                         dia_nomb: v_dia.dia,
                         horario: k_hora,
-                        lugar_id: v_evento.lugar,
-                        lugar_nomb: this.data.sedes.nombres[v_evento.lugar],
+                        lugar: this.lugar_html(v_evento.lugar),
                         tipo: v_evento.tipo,
                         titulo: v_evento.titulo,
                         texto: v_evento.texto,
@@ -59,6 +58,16 @@ class Programa {
             }
         }
 
+    }
+
+    lugar_html(lugar_id) {
+        let nombre = this.data.sedes.nombres[lugar_id][0],
+            con_link = this.data.sedes.nombres[lugar_id][1];
+        if(nombre !== ''){
+            let info = con_link ? `<a href="/sds/${lugar_id}/">${nombre}</a>` : `<span>${nombre}</span>`;
+            return `<p class="lugar"><small>LUGAR: </small>${info}</p>`;
+        }
+        return '';
     }
 
 }

@@ -156,28 +156,29 @@ sedes:
     - el_espacio
 
   nombres:
-    biblioteca_paz_y_trabajo: 'Biblioteca Popular Paz y Trabajo'
-    casa-taller_torviso-sarobe: 'Casa Taller Torviso-Sarobe'
-    casa_popular_dante_balestro: 'Casa Popular Dante Balestro'
-    ccp_horacio_alonso: 'Casa de la Cultura Popular "Horacio Alonso"'
-    centro_cultural_marea_cultura: 'Centro Cultural Marea Cultura'
-    centro_de_capacitacion_y_cultura_atsa: 'Centro de Capacitación y Cultura ATSA'
-    comedor_los_totoreros: 'Comedor "Los Totoreros"'
-    conservatorio_de_musica_juan_r_perez_cruz: 'Conservatorio de Música "Juan R. Pérez Cruz"'
-    el_espacio: 'El Espacio'
-    escuela_de_arte_xul_solar: 'Escuela de Arte "Xul Solar"'
-    escuela_de_educacion_artistica_victor_grippo: 'Escuela de Educación Artística "Victor Grippo"'
-    escuela_de_teatro_gilberto_mesa: 'Escuela Provincial de Teatro "Gilberto A. Mesa"'
-    espacio_publico: 'Espacio público'
-    fundacion_casa_pronto: 'Fundación Casa Pronto'
-    horno_de_grippo: 'Horno de Grippo'
-    hotel_dada: 'HOTEL DADA Base de Arte Correo y Poesía Experimental'
-    maca: 'MACA Museo de Arte Contemporáneo Argentino "Víctor Grippo"'
-    museo_historico: 'Museo Histórico'
-    par1000_aula_teatro: 'PAR1000 Aula Teatro'
-    sociedad_italiana: 'Sociedad Italiana Unita'
-    unnoba_alicia_moreau_de_justo: '"Edificio Alicia Moreau de Justo" - UNNOBA Escuela de Ciencias Económicas y Jurídicas'
-    villa_alpina: 'Villa Alpina'
-    pnlg: 'Parque Natural "Laguna de Gómez"'
-    eac: 'Espacio a confirmar'
-    plaza_25_de_mayo: "ESPACIO PÚBLICO (Plaza 25 de Mayo y cercanías)"
+    biblioteca_paz_y_trabajo: ['Biblioteca Popular Paz y Trabajo', true]
+    casa-taller_torviso-sarobe: ['Casa Taller Torviso-Sarobe', true]
+    casa_popular_dante_balestro: ['Casa Popular Dante Balestro', true]
+    ccp_horacio_alonso: ['Casa de la Cultura Popular "Horacio Alonso"', true]
+    centro_cultural_marea_cultura: ['Centro Cultural Marea Cultura', true]
+    centro_de_capacitacion_y_cultura_atsa: ['Centro de Capacitación y Cultura ATSA', true]
+    comedor_los_totoreros: ['Comedor "Los Totoreros"', true]
+    conservatorio_de_musica_juan_r_perez_cruz: ['Conservatorio de Música "Juan R. Pérez Cruz"', true]
+    el_espacio: ['El Espacio', true]
+    escuela_de_arte_xul_solar: ['Escuela de Arte "Xul Solar"', true]
+    escuela_de_educacion_artistica_victor_grippo: ['Escuela de Educación Artística "Victor Grippo"', true]
+    escuela_de_teatro_gilberto_mesa: ['Escuela Provincial de Teatro "Gilberto A. Mesa"', true]
+    espacio_publico: ['Espacio público', true]
+    fundacion_casa_pronto: ['Fundación Casa Pronto', true]
+    horno_de_grippo: ['Horno de Grippo', true]
+    hotel_dada: ['HOTEL DADA Base de Arte Correo y Poesía Experimental', true]
+    maca: ['MACA Museo de Arte Contemporáneo Argentino "Víctor Grippo"', true]
+    museo_historico: ['Museo Histórico', true]
+    par1000_aula_teatro: ['PAR1000 Aula Teatro', true]
+    sociedad_italiana: ['Sociedad Italiana Unita', true]
+    unnoba_alicia_moreau_de_justo: ['"Edificio Alicia Moreau de Justo" - UNNOBA Escuela de Ciencias Económicas y Jurídicas', true]
+    villa_alpina: ['Villa Alpina', true]
+    pnlg: ['Parque Natural "Laguna de Gómez"', false]
+    eac: ['Espacio a confirmar', false]
+    plaza_25_de_mayo: ['ESPACIO PÚBLICO (Plaza 25 de Mayo y cercanías)', false]
+    '??': ['', false]
