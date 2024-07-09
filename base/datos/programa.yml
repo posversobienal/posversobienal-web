@@ -62,32 +62,32 @@ fechas:
             <br>Curaduría: Ana Longoni, Lucía Cañada, Lucía Bianchi y Fernando Davis.
             <br>Tomar la voz por Palestina - Lectura colectiva de los Monólogos de Gaza.
 
-      20:
-        dia: Domingo
-        eventos:
+    20:
+      dia: Domingo
+      eventos:
 
-          '10:30 a 11:30':
-            lugar: 'horno_de_grippo'
-            tipo: 'Acción poética'
-            titulo: 'Pan-paz'
-            texto: |
-              Ricardo Salido y Silvio De Gracia.
+        '10:30 a 11:30':
+          lugar: 'horno_de_grippo'
+          tipo: 'Acción poética'
+          titulo: 'Pan-paz'
+          texto: |
+            Ricardo Salido y Silvio De Gracia.
 
-          '12:00 a 13:30':
-            lugar: casa-taller_torviso-sarobe
-            tipo: 'Visita guiada'
-            titulo: 'Espacio Ecopóetico'
-            texto: |
-              Visita guiada a los talleres y el entorno natural.
+        '12:00 a 13:30':
+          lugar: casa-taller_torviso-sarobe
+          tipo: 'Visita guiada'
+          titulo: 'Espacio Ecopóetico'
+          texto: |
+            Visita guiada a los talleres y el entorno natural.
 
-          '13:30':
-            lugar: villa_alpina
-            tipo: 'Exhibición'
-            titulo: 'THE SKY HAS NO PLACE TO GO'
-            texto: |
-                Poetas experimentales de Italia y Alemania.
-                <br>Archivo HOTEL DADA.
-                <br>Curaduría: Silvio De Gracia
+        '13:30':
+          lugar: villa_alpina
+          tipo: 'Exhibición'
+          titulo: 'THE SKY HAS NO PLACE TO GO'
+          texto: |
+            Poetas experimentales de Italia y Alemania.
+            <br>Archivo HOTEL DADA.
+            <br>Curaduría: Silvio De Gracia
 
     21:
       dia: Lunes
@@ -322,7 +322,6 @@ fechas:
           tipo: ''
           titulo: 'Gran desfile de poesía visual'
           texto: |
-
 
     21:
       dia: Jueves
