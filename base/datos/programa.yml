@@ -1,0 +1,474 @@
+---
+
+fechas:
+  octubre:
+    18:
+      dia: Viernes
+      eventos:
+
+        '18:30':
+          lugar: maca
+          tipo: 'Apertura muestra central'
+          titulo: 'POÉTICAS DE LA RESISTENCIA'
+          texto: |
+            Curaduría: Silvio De Gracia.
+
+        '20:30':
+          lugar: hotel_dada
+          tipo: 'Exhibición'
+          titulo: 'CÁPSULA SONORA'
+          texto: |
+            Curaduría: Silvio De Gracia y Ana Montenegro.
+            <br>Performance: Ana Montenegro (Brasil)
+
+    19:
+      dia: Sábado
+      eventos:
+
+        '10:00':
+          lugar: museo_historico
+          tipo: 'Exhibición'
+          titulo: 'RESIST/EXIST Libro-muestra Homenaje a Juan Carlos Romero'
+          texto: |
+            Organiza: Red Conceptualismos del Sur. Ana Longoni, Lucía Bianchi, Lucía Cañada y Fernando Davis.
+
+        '10:00':
+          lugar: museo_historico
+          tipo: 'Exhibición'
+          titulo: 'EL COLECCIONISTA DE OFICIOS: Ricardo Salido'
+          texto: |
+            Curaduría: Ana Montenegro y Silvio De Gracia.
+
+        '11:00':
+          lugar: museo_historico
+          tipo: 'Conferencia'
+          titulo: 'Archivo Romero por/venir'
+          texto: |
+            Un ejercicio colectivo de imaginación archivística y desobediencia performativa. A cargo de Ana Longoni, Lucía Cañada y Lucía Bianchi.
+
+        '17:30 a 20:00':
+          lugar: maca
+          tipo: 'Performances'
+          titulo: 'Fernando Aguiar (Portugal), Rosemberg Sandoval (Colombia) y Montenegro-Fisher (Chile-Reino Unido)'
+          texto: ''
+
+        '21:00':
+          lugar: casa_popular_dante_balestro
+          tipo: 'Exhibición'
+          titulo: 'OIR PALESTINA'
+          texto: |
+            Organiza Red Conceptualismos del Sur.
+            <br>Curaduría: Ana Longoni, Lucía Cañada, Lucía Bianchi y Fernando Davis.
+            <br>Tomar la voz por Palestina - Lectura colectiva de los Monólogos de Gaza.
+
+      20:
+        dia: Domingo
+        eventos:
+
+          '10:30 a 11:30':
+            lugar: 'horno_de_grippo'
+            tipo: 'Acción poética'
+            titulo: 'Pan-paz'
+            texto: |
+              Ricardo Salido y Silvio De Gracia.
+
+          '12:00 a 13:30':
+            lugar: casa-taller_torviso-sarobe
+            tipo: 'Visita guiada'
+            titulo: 'Espacio Ecopóetico'
+            texto: |
+              Visita guiada a los talleres y el entorno natural.
+
+          '13:30':
+            lugar: villa_alpina
+            tipo: 'Exhibición'
+            titulo: 'THE SKY HAS NO PLACE TO GO'
+            texto: |
+                Poetas experimentales de Italia y Alemania.
+                <br>Archivo HOTEL DADA.
+                <br>Curaduría: Silvio De Gracia
+
+    21:
+      dia: Lunes
+      eventos:
+        '13:00 a 15:00':
+          lugar: escuela_de_arte_xul_solar
+          tipo: 'Evento Teórico'
+          titulo: '1: Archivos y Poesía Experimental'
+          texto: |
+            Fernando Aguiar (Portugal) / Archivo Fernando Aguiar
+            <br>Patrizio Peterlini (Italia) / Archivo Fondazione Bonotto
+            <br>Silvio De Gracia (Argentina) / Archivo HOTEL DADA
+
+        '15:00 a 17:00':
+          lugar: escuela_de_arte_xul_solar
+          tipo: 'Charla'
+          titulo: 'Ser artista en un país como Colombia.'
+          texto: |
+            Rosemberg Sandoval (Colombia)
+
+        '19:30':
+          lugar: escuela_de_teatro_gilberto_mesa
+          tipo: ''
+          titulo: 'Lectura de poesía experimental/sonora'
+          texto: |
+            Fernando Aguiar (Portugal)
+
+    23:
+      dia: Miércoles
+      eventos:
+        '10:00':
+          lugar: escuela_de_teatro_gilberto_mesa
+          tipo: 'Evento Teórico'
+          titulo: '2: Poesía e Intermedia'
+          texto: |
+            Giovanni Fontana (Italia)
+            <br>Ana Montenegro (Brasil)
+            <br>Jèssica Pujol Durán (Chile-Reino Unido)
+
+        '18:30':
+          lugar: escuela_de_teatro_gilberto_mesa
+          tipo: 'Performace'
+          titulo: 'Experimental, sonora y poética'
+          texto: |
+            Montenegro-Fisher (Chile-Reino Unido): Lectura/performance experimental/sonora
+            <br>Jèssica Pujol Durán (Chile-Reino Unido): Performance poética
+
+
+    24:
+      dia: Jueves
+      eventos:
+
+        '16:00':
+          lugar: escuela_de_educacion_artistica_victor_grippo
+          tipo: 'Evento Teórico'
+          titulo: '3: Luis Pazos. Poesía y Acción.'
+          texto: |
+            Natalia Giglietti (Argentina)
+            <br>Silvia Gascón (Argentina)
+
+        '18:00':
+          lugar: conservatorio_de_musica_juan_r_perez_cruz
+          tipo: 'Charla'
+          titulo: 'Sobre arte sonoro y experiencias del colectivo Noiser'
+          texto: |
+            NOISER (Argentina-Colombia)
+
+        '20:00':
+          lugar: fundacion_casa_pronto
+          tipo: 'Conferencia'
+          titulo: 'El grabado en el campo expandido'
+          texto: |
+            Carlos Gallardo (Chile)
+
+
+    25:
+      dia: Viernes
+      eventos:
+
+        '17:00':
+          lugar: maca
+          tipo: 'Performance'
+          titulo: 'Carlos Gallardo (Chile)'
+          texto: |
+
+        '19:00':
+          lugar: escuela_de_educacion_artistica_victor_grippo
+          tipo: 'Recital poético'
+          titulo: 'El instante y la eternidad: Leemos a Luis Pazos'
+          texto: |
+            Participan: Silvia Gascón, César Cantoni, Silvio De Gracia y alumnos de la E.E.A. “Víctor Grippo”
+
+        '21:30':
+          lugar: centro_cultural_marea_cultura
+          tipo: 'performance sonora'
+          titulo: 'NOISER (Argentina-Colombia)'
+          texto: |
+
+
+    26:
+      dia: 'Sábado'
+      eventos:
+
+        '11:00':
+          lugar: espacio_publico
+          tipo: 'Perfomance'
+          titulo: 'LA CULTURA DE LA FELICIDAD. Activación de acción pública de Luis Pazos'
+          texto: |
+            Performers: Alumnos de la Escuela Provincial de Teatro “Gilberto Alfredo Mesa”
+
+        '20:00':
+          lugar: unnoba_alicia_moreau_de_justo
+          tipo: 'Exhibición'
+          titulo: 'ESCRITURAS ANCESTRALES Poesía visual mapuche'
+          texto: |
+            Curaduría: Silvio De Gracia, Ana Montenegro y Oscar Farías.
+            <br>Performance: Carina Carriqueo
+
+
+    27:
+      dia: Domingo
+      eventos:
+
+        '17:00':
+          lugar: pnlg
+          tipo: 'Inauguración'
+          titulo: 'Obras in situ Bienal SACO'
+          texto: |
+            Curadora: Dagmara Wyskiel (Polonia)
+
+    29:
+      dia: Martes
+      eventos:
+
+        '18:00 a 20:00':
+          lugar: maca
+          tipo: 'Conferencia'
+          titulo: 'La poética de la aridez. Bienal SACO en el Desierto de Atacama.'
+          texto: |
+            Dagmara Wyskiel (Polonia)
+
+    31:
+      dia: Jueves
+      eventos:
+
+        '20:00':
+          lugar: eac
+          tipo: 'Exhibición'
+          titulo: 'ESPACIO LIMINAR. Poesía Visiva italiana contemporánea'
+          texto: |
+            Curador: Francesco Aprile.
+
+  noviembre:
+    1:
+      dia: Viernes
+      eventos:
+        '20:00':
+          lugar: centro_de_capacitacion_y_cultura_atsa
+          tipo: 'Exhibición'
+          titulo: 'INCITACIONES PARA VER. Resistiendo el presente'
+          texto: |
+            Curaduría: Silvio De Gracia y Ana Montenegro.
+
+    2:
+      dia: Sábado
+      eventos:
+        '19:00':
+          lugar: biblioteca_paz_y_trabajo
+          tipo: 'Exhibición'
+          titulo: 'MAIL ART POETRY. La poesía es resistencia'
+          texto: |
+            Curador: Ruggero Maggi.
+
+    8:
+      dia: Viernes
+      eventos:
+
+        '20:00':
+          lugar: fundacion_casa_pronto
+          tipo: 'Exhibición'
+          titulo: 'MARGINALIA. Notas,visiones y escrituras en los bordes'
+          texto: |
+            Curaduría: Ana Montenegro y Silvio De Gracia.
+            <br>Performances de Diego Melero (Argentina) y Ro Barragán (Argentina)
+
+    14:
+      dia: Jueves
+      eventos:
+
+        '20:00':
+          lugar: hotel_dada
+          tipo: 'Evento Teórico'
+          titulo: '4: Acción Póetica y Espacio Público'
+          texto: |
+            Silvio De Gracia (Argentina)
+            <br>Juan Montelpare (Argentina)
+            <br>Paula Doberti (Argentina)
+
+    15:
+      dia: Viernes
+      eventos:
+
+        '??:??':
+          lugar: espacio_publico
+          tipo: ''
+          titulo: 'ACCIONES POÉTICAS EN EL ESPACIO PÚBLICO'
+          texto: |
+            Curador: Juan Montelpare
+
+
+        '20:00':
+          lugar: centro_cultural_marea_cultura
+          tipo: 'Proyección'
+          titulo: 'VIDEOBARDO. Videopoesía internacional'
+          texto: |
+            Curadores: Javier Robledo y Marisol Bellusci.
+
+
+    16:
+      dia: Sábado
+      eventos:
+
+        '??:??':
+          lugar: espacio_publico
+          tipo: ''
+          titulo: 'ACCIONES POÉTICAS EN EL ESPACIO PÚBLICO'
+          texto: |
+            Curador: Juan Montelpare
+
+        '18:30':
+          lugar: ccp_horacio_alonso
+          tipo: ''
+          titulo: 'Gran desfile de poesía visual'
+          texto: |
+
+
+    21:
+      dia: Jueves
+      eventos:
+
+        '11:00 a 13:00':
+          lugar: plaza_25_de_mayo
+          tipo: 'Activación performance'
+          titulo: 'POESÍA VIVA'
+          texto: |
+            Paulo Bruscky (Brasil)
+
+        '20:00':
+          lugar: hotel_dada
+          tipo: 'Evento Teórico'
+          titulo: '5: Poesía Fonética y Sonora'
+          texto: |
+            Flora Holderbaum (Brasil)
+            <br>Jaap Blonk (Holanda)
+            <br>Paulo Bruscky (Brasil)
+
+    22:
+      dia: Viernes
+      eventos:
+
+        '18:00':
+          lugar: fundacion_casa_pronto
+          tipo: ''
+          titulo: 'Lectura/workshop'
+          texto: |
+             Jaap Blonk (Holanda)
+
+        '21:00':
+          lugar: casa_popular_dante_balestro
+          tipo: ''
+          titulo: 'Lectura de poesía experimental/sonora'
+          texto: |
+            Juan Ángel Italiano (Uruguay) y Javier Robledo (Argentina)
+
+
+    23:
+      dia: Sábado
+      eventos:
+
+        '??:??':
+          lugar: comedor_los_totoreros
+          tipo: ''
+          titulo: 'Totoreras, Casa Río y Arquitectura Bonaerense: Acción comunitaria'
+          texto: ''
+
+        '19:00':
+          lugar: hotel_dada
+          tipo: 'Presentación del libro'
+          titulo: 'VERBOVISUALIDAD ORIENTAL'
+          texto: |
+             Hotel DADA editor.
+             Juan Ángel Italiano (Uruguay)
+
+        '21:30':
+          lugar: par1000_aula_teatro
+          tipo: 'Performance sonora'
+          titulo: 'Jaap Blonk (Holanda)'
+          texto: |
+
+
+    28:
+      dia: Jueves
+      eventos:
+
+        '20:00':
+          lugar: centro_de_capacitacion_y_cultura_atsa
+          tipo: 'Evento Teórico'
+          titulo: '6: Poéticas Electrónicas'
+          texto: |
+            Claudia Kozak (Argentina)
+            <br>Rodolfo Mata (México)
+            <br>Michael Hurtado (Perú)
+
+
+    29:
+      dia: Viernes
+      eventos:
+
+        '20:00':
+          lugar: fundacion_casa_pronto
+          tipo: 'Charla'
+          titulo: 'Sobre su obra digital/interactiva Los Pronombres'
+          texto: |
+            Rodolfo Mata (México)
+
+
+
+  diciembre:
+
+    6:
+      dia: Viernes
+      eventos:
+
+        '20:00':
+          lugar: hotel_dada
+          tipo: 'Evento Teórico'
+          titulo: '7: Pere Sousa. Factoría Merzmail'
+          texto: |
+            Fabiane Pianowski (Brasil)
+            <br>Ferran Destemple (España)
+            <br>Silvio De Gracia (Argentina)
+            <br><br>Performance sonora: Ana Montenegro (Brasil) y Carlos Macheratti (Argentina)
+
+    7:
+      dia: Sábado
+      eventos:
+
+        '20:00':
+          lugar: fundacion_casa_pronto
+          tipo: 'Evento Teórico'
+          titulo: '8: Libros y Ediciones de Artista'
+          texto: |
+            Natalia Silberleib (Argentina)
+            <br>Gonzalo Aguilar (Argentina)
+
+
+    13:
+      dia: Viernes
+      eventos:
+
+        '21:00':
+          lugar: centro_de_capacitacion_y_cultura_atsa
+          tipo: 'Videomapping'
+          titulo: 'Videopoesía internacional'
+          texto: |
+            Curaduría: Alejandro Thornton.
+
+    14:
+      dia: Sábado
+      eventos:
+        '20:00':
+          lugar: hotel_dada
+          tipo: 'Concierto vía online'
+          titulo: 'Yuri Bruscky (Brasil)'
+          texto: |
+
+    20:
+      dia: Viernes
+      eventos:
+
+        '??:??':
+          lugar: hotel_dada
+          tipo: ''
+          titulo: 'Fiesta de cierre'
+          texto: |

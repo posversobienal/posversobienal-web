@@ -779,6 +779,56 @@ a.actual {
     overflow: hidden;
 }
 
+.programa_completo {
+    .mes {
+        margin: 0;
+        padding: 30px 0;
+
+        .fechas {
+            li {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                border-bottom: 1px solid #ccc;
+
+                .evento {
+                    margin: 20px 30px;
+
+                    p {
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    .tipo {
+                        font-size: 0.9em;
+                        background: #000;
+                        color: #fff;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        padding: 3px 6px;
+                        margin-right: 10px;
+
+                        &:empty {
+                            padding: 3px 10px;
+                        }
+                    }
+
+                    .titulo {
+                        font-size: 1.2em;
+                    }
+
+                    .texto {
+                        font-size: 0.9em;
+                    }
+                }
+            }
+
+        }
+
+    }
+
+}
+
 @keyframes color-cr {
     0%   { background: #000; color:#fff; }
     25%  { background: #888; color:#777; }

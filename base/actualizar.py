@@ -302,11 +302,18 @@ markdown_extensiones_config = { 'tables': {}, 'attr_list': {}, 'toc': {}, 'abbr'
 
 ruta_public = '../docs/'
 
-ar_cfg_in = 'datos/configuracion.yml'
+ar_cfg_in = './datos/configuracion.yml'
+ar_programa = './datos/programa.yml'
 ar_cfg_out = f'{ruta_public}dat/cfg.js'
+
+with open(ar_programa, 'r') as f:
+    dat_programa = yaml.safe_load(f)
+
 
 with open(ar_cfg_in, 'r') as f:
     dat_cfg = yaml.safe_load(f)
+    dat_cfg['programa'] = dat_programa['fechas']
+
     with open(ar_cfg_out, 'w') as g:
         g.write('const cfg = ' + json.dumps(dat_cfg))
 

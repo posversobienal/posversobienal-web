@@ -648,6 +648,41 @@ a.actual {
 .rounded-2 {
   overflow: hidden;
 }
+.programa_completo .mes {
+  margin: 0;
+  padding: 30px 0;
+}
+.programa_completo .mes .fechas li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+}
+.programa_completo .mes .fechas li .evento {
+  margin: 20px 30px;
+}
+.programa_completo .mes .fechas li .evento p {
+  margin: 0;
+  padding: 0;
+}
+.programa_completo .mes .fechas li .evento .tipo {
+  font-size: 0.9em;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 3px 6px;
+  margin-right: 10px;
+}
+.programa_completo .mes .fechas li .evento .tipo:empty {
+  padding: 3px 10px;
+}
+.programa_completo .mes .fechas li .evento .titulo {
+  font-size: 1.2em;
+}
+.programa_completo .mes .fechas li .evento .texto {
+  font-size: 0.9em;
+}
 @keyframes color-cr {
   0% {
     background: #000;
