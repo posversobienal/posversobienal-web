@@ -30,6 +30,9 @@ urls:
   posverso_instagram: 'https://www.instagram.com/posverso_bienal'
   posverso_youtube: 'https://www.youtube.com/@PosversoBienal'
 
+  posverso_qr_pdf: '/rec/descargas/qr-web_posverso.pdf'
+  posverso_qr_png: '/rec/descargas/qr-web_posverso.png'
+
   hoteldada_web: 'http://www.hoteldadabase.org/'
   hoteldada_instagram: 'https://www.instagram.com/hoteldada_galeria_arte'
   hoteldada_facebook: 'https://www.facebook.com/profile.php?id=100063732964738'

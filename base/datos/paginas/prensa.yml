@@ -170,13 +170,13 @@ publicantes:
 
 
 
-contenido: ''
+contenido: |
 
 contenido_secundario: |
 
   #### Dossier de prensa
 
-  [Descargar PDF](/rec/descargas/POSVERSO_BIENAL-dossier_de_prensa_bienal.pdf)
+  [Descargar PDF](/rec/descargas/POSVERSO_BIENAL-dossier_de_prensa_bienal.pdf){target=_blank}
 
   #### Media kit
 
@@ -185,3 +185,11 @@ contenido_secundario: |
   #### Novedades
 
   [Historial](/bit/)
+
+  #### QR Web
+
+  ![QR Web de Posverso]({{ cfg.urls.posverso_qr_png }}){.img-fluid}
+
+  Descargas disponibles
+  en [PDF]({{ cfg.urls.posverso_qr_pdf }}){target=_blank}
+  o en [PNG]({{ cfg.urls.posverso_qr_png }}){target=_blank}.
