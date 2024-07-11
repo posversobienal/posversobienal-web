@@ -405,6 +405,7 @@ footer .utiles .menu-pie:hover nav {
   display: none;
   background: #111;
   padding: 20px;
+  min-width: 150px;
 }
 #menu-permanente .selector-idioma .submenu button {
   display: block;
@@ -719,7 +720,8 @@ a.actual {
   display: none;
 }
 .programa_completo .mes .fechas li .evento .titular .titulo {
-  font-size: 1.5em;
+  font-size: 1.3em;
+  letter-spacing: 0.05em;
   background: #000;
   color: #fff;
   padding: 2px 5px;
