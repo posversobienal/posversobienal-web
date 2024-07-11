@@ -108,7 +108,7 @@ fechas:
         '15:00 a 17:00':
           lugar: escuela_de_arte_xul_solar
           tipo: 'Charla'
-          titulo: 'Ser artista en un país como Colombia.'
+          titulo: 'Ser artista en un país como Colombia'
           texto: |
             Rosemberg Sandoval (Colombia).
 
@@ -230,7 +230,7 @@ fechas:
         '18:00 a 20:00':
           lugar: maca
           tipo: 'Conferencia'
-          titulo: 'La poética de la aridez. Bienal SACO en el Desierto de Atacama.'
+          titulo: 'La poética de la aridez. Bienal SACO en el Desierto de Atacama'
           texto: |
             Dagmara Wyskiel (Polonia).
 
