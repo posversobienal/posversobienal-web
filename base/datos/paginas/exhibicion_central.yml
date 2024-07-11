@@ -6,6 +6,10 @@ estilo: col-lg-11 con-lista-en-columnas
 
 
 contenido: |
+  ## - test
+
+  {{ per('alejandro_thornton', 'n+l', 'md') }}
+
   <hr><br>
 
   ## Poéticas de la Resistencia

@@ -51,6 +51,17 @@ def datos_de(tipo, archivo):
             re = yaml.safe_load(f)
     return re
 
+def datos_de_persona(k, tipo='n', modo='md'):
+    if k in dat_rec['personas']:
+        d = dat_rec['personas'][k]
+        if tipo == 'n':
+            return f'{d["nombre"]} {d["apellido]}'
+        elif tipo = 'n+l':
+            return f'[{d["nombre"]} {d["apellido]}](/per/{k}/)'
+    return ''
+
+
+
 
 def url_dominio(texto):
     return texto.split(':')[1].strip('/')
@@ -322,19 +333,23 @@ with open(ar_cfg_in, 'r') as f:
 ar_rec_out = f'{ruta_public}dat/rec.js'
 
 rutas_recursos = [
-    './datos/artistas_invitados/',
-    './datos/artistas_seleccionados/',
-    './datos/personas/',
-    './datos/sedes/',
-    './datos/publicaciones/',
-    './datos/mediacion_educativa/',
-    './datos/bitacora/',
+    ['./datos/artistas_invitados/', 'personas'],
+    ['./datos/artistas_seleccionados/', 'personas'],
+    ['./datos/personas/', 'personas'],
+    ['./datos/sedes/', 'sedes'],
+    ['./datos/publicaciones/', 'publicaciones'],
+    ['./datos/mediacion_educativa/', 'mediacion_educativa'],
+    ['./datos/bitacora/', 'bitacora'],
     ]
 
 dat_rec = {}
-for r in rutas_recursos:
-    idr = r.split('/')[-2]
-    dat_rec[idr] = {splitext(a)[0]: leer_yml(f'{r}{a}') for a in sorted(listdir(r)) if a.endswith('.yml')}
+for d in rutas_recursos:
+    r, k = d
+    if not k in dat_rec:
+        dat_rec[k] = {}
+    for a in sorted(listdir(r)) if a.endswith('.yml'):
+        dat_rec[k][splitext(a)[0]] = leer_yml(f'{r}{a}')
+
 
 with open(ar_rec_out, 'w') as g:
     g.write('const rec = ' + json.dumps(dat_rec))
@@ -353,6 +368,7 @@ env_jinja2.globals.update(idioma = idioma)
 env_jinja2.globals.update(desordenar = desordenar)
 env_jinja2.globals.update(orden_inverso = orden_inverso)
 env_jinja2.globals.update(fecha_prensa = fecha_prensa)
+env_jinja2.globals.update(per = datos_de_persona)
 
 
 
