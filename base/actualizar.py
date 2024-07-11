@@ -51,16 +51,17 @@ def datos_de(tipo, archivo):
             re = yaml.safe_load(f)
     return re
 
-def datos_de_persona(k, tipo='n', modo='md'):
-    if k in dat_rec['personas']:
-        d = dat_rec['personas'][k]
-        if tipo == 'n':
-            return f'{d["nombre"]} {d["apellido]}'
-        elif tipo = 'n+l':
-            return f'[{d["nombre"]} {d["apellido]}](/per/{k}/)'
-    return ''
 
+def datos_de_persona(k, tipo='n+l'):
+    if k in dat_per:
+        d = dat_per[k]
+        nom = d['nombre']
+        ape = d['apellido']
 
+        if tipo == 'n+l':
+            return f'[{nom} {ape}](/per/{k}/)'
+
+    return k
 
 
 def url_dominio(texto):
@@ -333,8 +334,8 @@ with open(ar_cfg_in, 'r') as f:
 ar_rec_out = f'{ruta_public}dat/rec.js'
 
 rutas_recursos = [
-    ['./datos/artistas_invitados/', 'personas'],
-    ['./datos/artistas_seleccionados/', 'personas'],
+    ['./datos/artistas_invitados/', 'artistas_invitados'],
+    ['./datos/artistas_seleccionados/', 'artistas_seleccionados'],
     ['./datos/personas/', 'personas'],
     ['./datos/sedes/', 'sedes'],
     ['./datos/publicaciones/', 'publicaciones'],
@@ -347,8 +348,15 @@ for d in rutas_recursos:
     r, k = d
     if not k in dat_rec:
         dat_rec[k] = {}
-    for a in sorted(listdir(r)) if a.endswith('.yml'):
-        dat_rec[k][splitext(a)[0]] = leer_yml(f'{r}{a}')
+    for a in sorted(listdir(r)):
+        if a.endswith('.yml'):
+            dat_rec[k][splitext(a)[0]] = leer_yml(f'{r}{a}')
+
+dat_per = {}
+for k in ['artistas_invitados', 'artistas_seleccionados', 'personas']:
+    if k in dat_rec:
+        for k2, v2 in dat_rec[k].items():
+            dat_per[k2] = v2
 
 
 with open(ar_rec_out, 'w') as g:

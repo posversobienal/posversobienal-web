@@ -38,7 +38,7 @@ contenido:
 
     ![Silvio De Gracia](/rec/foto/personas/silvio_de_gracia.jpg){.foto-izq-parrafo}
 
-    [**Silvio De Gracia**](/per/silvio_de_gracia/){.fs-5 id="silvio_de_gracia"}
+    **{{ per('silvio_de_gracia') }}**{.fs-5 id="silvio_de_gracia"}
 
     *Director General de POSVERSO*.
 
@@ -49,7 +49,7 @@ contenido:
 
     ![Ana Montenegro](/rec/foto/personas/ana_montenegro.jpg){.foto-izq-parrafo}
 
-    [**Ana Montenegro**](/per/ana_montenegro/){.fs-5 id="ana_montenegro"}
+    **{{ per('ana_montenegro') }}**{.fs-5 id="ana_montenegro"}
 
     *Directora artística de POSVERSO*.
 
@@ -82,7 +82,7 @@ contenido:
 
     ![Silvio De Gracia](/rec/foto/personas/silvio_de_gracia.jpg){.foto-izq-parrafo}
 
-    [**Silvio De Gracia**](/per/silvio_de_gracia/){.fs-5 id="silvio_de_gracia"}
+    **{{ per('silvio_de_gracia') }}**{.fs-5 id="silvio_de_gracia"}
 
     *General Director*.
 
@@ -92,7 +92,7 @@ contenido:
 
     ![Ana Montenegro](/rec/foto/personas/ana_montenegro.jpg){.foto-izq-parrafo}
 
-    [**Ana Montenegro**](/per/ana_montenegro/){.fs-5 id="ana_montenegro"}
+    **{{ per('ana_montenegro') }}**{.fs-5 id="ana_montenegro"}
 
     *Artistic Director*.
 
@@ -107,56 +107,56 @@ contenido_secundario: |
   ## EQUIPO
 
   ### Dirección General
-  + Silvio De Gracia (ARG)
+  + {{ per('silvio_de_gracia') }} (ARG)
 
   ### Dirección Artística
-  + Ana Montenegro (BRA)
+  + {{ per('ana_montenegro') }} (BRA)
 
   ### Comité Internacional de Selección
-  + Fernando Aguiar (PRT)
-  + J.M. Calleja (ESP)
-  + Giovanni Fontana (ITA)
-  + Claudia Kozak (ARG)
-  + Marisa Flórido (BRA)
+  + {{ per('fernando_aguiar') }} (PRT)
+  + {{ per('j_m_calleja') }} (ESP)
+  + {{ per('giovanni_fontana') }} (ITA)
+  + {{ per('claudia_kozak') }} (ARG)
+  + {{ per('marisa_florido') }} (BRA)
 
   ### Comité de Preselección
-  + Ana Montenegro (BRA)
-  + Hilda Paz (ARG)
-  + Natalia Giglietti (ARG
+  + {{ per('ana_montenegro') }} (BRA)
+  + {{ per('hilda_paz') }} (ARG)
+  + {{ per('natalia_giglietti') }} (ARG)
 
   ### Equipo Curatorial POSVERSO
-  + Silvio De Gracia (ARG)
-  + Juan Montelpare (ARG)
-  + Ana Montenegro (BRA)
+  + {{ per('silvio_de_gracia') }} (ARG)
+  + {{ per('juan_montelpare') }} (ARG)
+  + {{ per('ana_montenegro') }} (BRA)
 
   ### Curador Programa Educativo
-  + Guillermo Pérez Raventós (ARG)
+  + {{ per('guillermo_perez_raventos') }} (ARG)
 
   ### Coordinación de proyectos
-  + Ana Montenegro (BRA)
-  + Silvio De Gracia (ARG)
+  + {{ per('ana_montenegro') }} (BRA)
+  + {{ per('silvio_de_gracia') }} (ARG)
 
   ### Prensa
   + HOTEL DADA
 
   ### Coordinación Editorial
-  + Ana Montenegro (BRA)
-  + Silvio De Gracia (ARG)
-  + Guillermo Pérez Raventós (ARG)
+  + {{ per('ana_montenegro') }} (BRA)
+  + {{ per('silvio_de_gracia') }} (ARG)
+  + {{ per('guillermo_perez_raventos') }} (ARG)
 
   ### Producción audiovisual
-  + Guido De Gracia (ARG)
-  + Carlos Macheratti (ARG)
-  + Ana Montenegro (BRA)
+  + {{ per('Guido de Gracia') }} (ARG)
+  + {{ per('carlos_alberto_macheratti') }} (ARG)
+  + {{ per('ana_montenegro') }} (BRA)
 
   ### Desarrollo web
-  + Carlos Macheratti (ARG)
+  + {{ per('carlos_alberto_macheratti') }} (ARG)
 
   ### Diseño de Montaje
-  + Ana Montenegro (BRA)
+  + {{ per('ana_montenegro') }} (BRA)
 
   ### Equipo de producción
-  + Ricardo Salido (ARG)
-  + Ale Montiel (ARG)
-  + Luciano Pozo (ARG)
+  + {{ per('ricardo_omar_salido') }} (ARG)
+  + {{ per('ale_montiel') }} (ARG)
+  + {{ per('luciano_pozo') }} (ARG)
   + Pedro Faroppa (ARG)

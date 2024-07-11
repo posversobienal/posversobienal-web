@@ -9,62 +9,62 @@ contenido: |
 
   ## Cápsula Sonora
 
-  <small>CURADURÍA:</small> Silvio De Gracia y Ana Montenegro.
-  <br><small>DISEÑO EXPOSITIVO:</small> Ana Montenegro.
+  <small>CURADURÍA:</small> {{ per('ana_montenegro') }} y {{ per('silvio_de_gracia') }}.
+  <br><small>DISEÑO EXPOSITIVO:</small> {{ per('ana_montenegro') }}.
   <br><small>SEDE:</small> **[HOTEL DADA. Base de Arte Correo y Poesía Experimental](/sds/hotel_dada/)**
   <br><small>APERTURA:</small> **18 de octubre de 2024**.
 
-  + Ana Montenegro
-  + Bartolomé Ferrando
-  + Cristiana de Marchi
-  + Ferran Destemple
-  + Flora Holderbaum
-  + Giovanni Fontana
-  + Irina Novarese
-  + Jaap Blonk
-  + Juan Ángel Italiano
-  + Montenegro-Fisher
-  + Mónica Mura
-  + Rafael Bresciani
-  + Sthepan Grob
-  + Wilson Sukorski
-  + Yuri Bruscky
+  + {{ per('ana_montenegro') }}
+  + {{ per('bartolome_ferrando') }}
+  + {{ per('cristiana_de_marchi') }}
+  + {{ per('ferran_destemple') }}
+  + {{ per('flora_holderbaum') }}
+  + {{ per('giovanni_fontana') }}
+  + {{ per('irina_novarese') }}
+  + {{ per('jaap_blonk') }}
+  + {{ per('juan_angel_italiano') }}
+  + {{ per('montenegro_fisher') }}
+  + {{ per('monica_mura') }}
+  + {{ per('rafael_bresciani') }}
+  + {{ per('stephan_gross') }}
+  + {{ per('wilson_sukorski') }}
+  + {{ per('yuri_bruscky') }}
 
   <br><hr>
   ## Marginalia
   *Notas,visiones y escrituras en los bordes*
 
-  <small>CURADURÍA:</small> Ana Montenegro y Silvio De Gracia.
-  <br><small>DISEÑO EXPOSITIVO:</small> Ana Montenegro.
+  <small>CURADURÍA:</small> {{ per('ana_montenegro') }} y {{ per('silvio_de_gracia') }}.
+  <br><small>DISEÑO EXPOSITIVO:</small> {{ per('ana_montenegro') }}.
   <br><small>SEDE:</small> **[Fundación Casa Pronto](/sds/fundacion_casa_pronto/)**
   <br><small>APERTURA:</small> **8 de noviembre de 2024**.
 
-  + Ale Montiel
-  + Andrés Pasinovich
-  + Angélica Chio
-  + Ariel Gangi
-  + Carlos Macheratti
-  + Claudio Mangifesta
-  + Cláudia Lyrio
-  + Corporación Semiótica Galega
-  + Demir Diren
-  + Denise Calasans
-  + Diego Melero
-  + Emmanuel Borao
-  + Guillermo Pérez Raventós
-  + Hilda Paz
-  + J.M. Calleja
-  + Javier Abreu
-  + Joyce Ribeiro
-  + Marcela Peral
-  + María Paula Doberti
-  + Maurizio Mancioli
-  + Ro Barragán
-  + Rodolfo Mata
-  + Roma Vaquero Díaz
-  + Rosa Gravino
-  + Sergio Bonzón
-  + Tulio Restrepo
+  + {{ per('ale_montiel') }}
+  + {{ per('andres_pasinovich') }}
+  + {{ per('angelica_chio') }}
+  + {{ per('ariel_gangi') }}
+  + {{ per('carlos_alberto_macheratti') }}
+  + {{ per('claudio_mangifesta') }}
+  + {{ per('claudia_lyrio') }}
+  + {{ per('cosega') }}
+  + {{ per('diren_demir') }}
+  + {{ per('denise_calasans') }}
+  + {{ per('diego_melero') }}
+  + {{ per('emmanuel_borao') }}
+  + {{ per('guillermo_perez_raventos') }}
+  + {{ per('hilda_paz') }}
+  + {{ per('j_m_calleja') }}
+  + {{ per('javier_abreu') }}
+  + {{ per('joyce_ribeiro') }}
+  + {{ per('marcela_peral') }}
+  + {{ per('paula_doberti') }}
+  + {{ per('maurizio_mancioli') }}
+  + {{ per('ro_barragan') }}
+  + {{ per('rodolfo_mata') }}
+  + {{ per('roma_vaquero_diaz') }}
+  + {{ per('rosa_gravino') }}
+  + {{ per('sergio_bonzon') }}
+  + {{ per('tulio_restrepo') }}
 
   <br><hr>
   ## RESIST/EXIST Libro-muestra Homenaje a Juan Carlos Romero
@@ -77,8 +77,8 @@ contenido: |
   <br><hr>
   ## El Coleccionista de Oficios: Ricardo Salido
 
-  <small>CURADURÍA:</small> Ana Montenegro y Silvio De Gracia.
-  <br><small>DISEÑO EXPOSITIVO:</small> Ana Montenegro.
+  <small>CURADURÍA:</small> {{ per('ana_montenegro') }} y {{ per('silvio_de_gracia') }}.
+  <br><small>DISEÑO EXPOSITIVO:</small> {{ per('ana_montenegro') }}.
   <br><small>SEDE:</small> **[Museo Histórico](/sds/museo_historico/)**
   <br><small>APERTURA:</small> **19 de octubre**.
 
@@ -86,18 +86,18 @@ contenido: |
   <br><hr>
   ## Acciones poéticas en el espacio público
 
-  <small>CURADOR:</small> Juan Montelpare.
+  <small>CURADOR:</small> {{ per('juan_montelpare') }}.
   <br>**15 y 16 de noviembre**.
 
-  + Alberto Couratier
-  + Ale Montiel
-  + Joyce Ribeiro
-  + Juan Montelpare
-  + María Paula Doberti
-  + María Zegna
-  + Ro Barragán
-  + Roma Vaquero Díaz
-  + Silvio De Gracia
+  + {{ per('alberto_couratier') }}
+  + {{ per('ale_montiel') }}
+  + {{ per('joyce_ribeiro') }}
+  + {{ per('juan_montelpare') }}
+  + {{ per('paula_doberti') }}
+  + {{ per('maria_zegna') }}
+  + {{ per('ro_barragan') }}
+  + {{ per('roma_vaquero_diaz') }}
+  + {{ per('silvio_de_gracia') }}
 
 
   <br><hr>
@@ -105,18 +105,18 @@ contenido: |
   <small>ESPACIO EXPOSITIVO:</small> **[Web de POSVERSO Bienal]({{ cfg.urls.posversobienal }})**
   <br><small>APERTURA:</small> **18 de octubre**.
 
-  + Enrique Chocair
-  + Fernanda Mugica
-  + María Papi
+  + {{ per('enrique_chocair') }}
+  + {{ per('fernanda_mugica') }}
+  + {{ per('maria_papi') }}
 
   <br><hr>
   ## Poesía (tipo)gráfica
   <small>SEDE:</small> **[Centro de Capacitación y Cultura ATSA](/sds/centro_de_capacitacion_y_cultura_atsa/)**
 
-  + Ánuar Zúñiga Naime
-  + Gaby Lobato
-  + Jimson Vilela
-  + La lengua en la calle
-  + Mariana Chiesa Mateos
-  + Pia Höhfeld
-  + Tchello d'Barros
+  + {{ per('anuar_zuniga_naime') }}
+  + {{ per('gaby_lobato') }}
+  + {{ per('jimson_vilela') }}
+  + {{ per('la_lengua_en_la_calle') }}
+  + {{ per('mariana_chiesa') }}
+  + {{ per('pia_hoehfeld') }}
+  + {{ per('tchello_d_barros') }}

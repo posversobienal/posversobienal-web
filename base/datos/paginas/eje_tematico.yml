@@ -28,7 +28,7 @@ contenido:
 
     POSVERSO llama a los poetas experimentales, artistas visuales, músicos, artistas sonoros, performers, a crear una bienal que, a la utopía realizada de la felicidad obligatoria y el ruido constante del capitalismo, oponga una contra-utopía de desborde y rebelión.
 
-    [Silvio De Gracia](/per/silvio_de_gracia), Curador General de POSVERSO.
+    {{ per('silvio_de_gracia') }}, Curador General de POSVERSO.
     {.text-end}
 
 
@@ -51,5 +51,5 @@ contenido:
 
     POSVERSO calls on experimental poets, visual artists, musicians, sound artists, performers, to create a biennial that, to the realized utopia of obligatory happiness and the constant noise of capitalism, opposes a counter-utopia of overflow and rebellion.
 
-    Curatorial statement by [Silvio De Gracia](/per/silvio_de_gracia).
+    Curatorial statement by {{ per('silvio_de_gracia') }}.
     {.text-end}

@@ -2,7 +2,7 @@
 titulo: 'Proyectos colaterales'
 html_base: 'pagina.html'
 ruta_static: 'pag/proyectos_colaterales/index.html'
-estilo: col-lg-11
+estilo: col-lg-11 con-lista-en-columnas
 
 contenido: |
 

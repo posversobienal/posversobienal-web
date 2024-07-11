@@ -13,12 +13,9 @@ eventos: []
 
 fotos:
   persona: 'luis_pazos.jpg'
-  obra: 'luis_pazos-1.jpg'
+  #obra: 'luis_pazos-1.jpg'
 
 imagen_cabecera_posicion_inicial: 50% 55%
-
-etiquetas:
-  - invitado
 
 detalle: |
   {{ idioma('esp') }}
