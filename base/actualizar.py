@@ -325,7 +325,6 @@ rutas_recursos = [
     './datos/artistas_invitados/',
     './datos/artistas_seleccionados/',
     './datos/personas/',
-    './datos/obras/',
     './datos/sedes/',
     './datos/publicaciones/',
     './datos/mediacion_educativa/',
