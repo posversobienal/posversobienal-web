@@ -786,7 +786,8 @@ a.actual {
 
         .mes_titulo {
             text-align: center;
-            font-size: 1.8em;
+            font-size: 2.1em;
+            padding: 5px;
             border-bottom: 1px solid #000;
         }
 
@@ -804,33 +805,75 @@ a.actual {
                 }
 
                 .evento {
-                    margin: 20px 30px;
+                    margin: 40px 40px;
 
                     p {
                         margin: 0;
                         padding: 0;
                     }
 
-                    h5.ev_titulo {
-                        font-size: 1.4em;
-                    }
 
-                    .tipo {
-                        font-size: 0.9em;
-                        background: #000;
-                        color: #fff;
-                        text-transform: uppercase;
-                        font-weight: bold;
-                        padding: 3px 6px;
-                        margin-right: 10px;
+                    .ev_titulo {
+                        display: flex;
+                        align-items: baseline;
+                        justify-content: flex-start;
+                        padding: 0px;
+                        margin: 0px;
 
-                        &:empty {
-                            padding: 3px 10px;
+                        h5 {
+                            font-size: 1.4em;
+
+                            .dia {
+                                font-weight: 900;
+                                display: inline-block;
+                            }
+
+                            .hora {
+                                font-weight: 200;
+                                margin: 0 4px;
+                                display: inline-block;
+                            }
                         }
                     }
 
-                    .titulo {
-                        font-size: 1.3em;
+                    .titular {
+                        padding: 5px 0;
+                        * {
+                            vertical-align: middle;
+                        }
+
+                        .tipo {
+                            font-size: 0.9em;
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            padding: 5px 7px;
+                            color: #000;
+                            border: 1px solid #000;
+                            border-radius: 4px;
+                            margin-right: 10px;
+                            display: inline-block;
+                            margin: 0 4px;
+
+                            &:empty {
+                                display: none;
+                            }
+                        }
+
+                        .titulo {
+                            font-size: 1.5em;
+                            background: #000;
+                            color: #fff;
+                            padding: 2px 5px;
+                            margin: 4px;
+                            display: inline-block;
+                            border: 4px solid #000;
+
+                            a {
+                                color: #fff;
+                                display: inline-block;
+                            }
+                        }
+
                     }
 
                     .texto {

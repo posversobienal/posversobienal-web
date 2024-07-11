@@ -7,7 +7,7 @@ estilo: col-lg-11 con-lista-en-columnas
 contenido: |
   <hr><br>
 
-  ## Cápsula Sonora
+  ## CÁPSULA SONORA
 
   <small>CURADURÍA:</small> {{ per('ana_montenegro') }} y {{ per('silvio_de_gracia') }}.
   <br><small>DISEÑO EXPOSITIVO:</small> {{ per('ana_montenegro') }}.
@@ -31,7 +31,7 @@ contenido: |
   + {{ per('yuri_bruscky') }}
 
   <br><hr>
-  ## Marginalia
+  ## MARGINALIA
   *Notas,visiones y escrituras en los bordes*
 
   <small>CURADURÍA:</small> {{ per('ana_montenegro') }} y {{ per('silvio_de_gracia') }}.
@@ -110,7 +110,7 @@ contenido: |
   + {{ per('maria_papi') }}
 
   <br><hr>
-  ## Poesía (tipo)gráfica
+  ## INCITACIONES PARA VER. Resistiendo el presente
   <small>SEDE:</small> **[Centro de Capacitación y Cultura ATSA](/sds/centro_de_capacitacion_y_cultura_atsa/)**
 
   + {{ per('anuar_zuniga_naime') }}

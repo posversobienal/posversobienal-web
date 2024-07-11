@@ -3,12 +3,12 @@ class Programa {
     data = undefined;
     html_mes = '<div class="mes" name="{mes_id}"><h3 class="mes_titulo">{mes_nomb}</h3><ul class="fechas"></ul></div>';
     html_evn = `<li><div class="evento">
-                   <h5 class="ev_titulo">
-                      <span>{dia_nomb} {dia_nume}</span> - <b class="hora">{horario}</b>
-                   </h5>
+                   <div class="ev_titulo">
+                      <h5><span class="dia">{dia_nomb} {dia_nume}</span> <span class="hora">({horario})</span></h5>
+                      <p class="px-1">{lugar}</p>
+                   </div>
                    <div class="ficha">
-                      <p><span class="tipo">{tipo}</span> <span class="titulo">{titulo}</span></p>
-                      {lugar}
+                      <p class="titular"><span class="tipo">{tipo}</span> <span class="titulo">{titulo}</span></p>
                       <p class="texto">{texto}</p>
                    </div>
                </div></li>`;
@@ -50,9 +50,10 @@ class Programa {
                         horario: k_hora,
                         lugar: this.lugar_html(v_evento.lugar),
                         tipo: v_evento.tipo,
-                        titulo: v_evento.titulo,
+                        titulo: this.titulo_html(v_evento.titulo, v_evento.url),
                         texto: v_evento.texto,
                     })
+
                     this.elem.querySelector(`[name=${k_mes}] .fechas`).innerHTML += d_evento;
                 }
             }
@@ -65,9 +66,17 @@ class Programa {
             con_link = this.data.sedes.nombres[lugar_id][1];
         if(nombre !== ''){
             let info = con_link ? `<a href="/sds/${lugar_id}/">${nombre}</a>` : `<span>${nombre}</span>`;
-            return `<p class="lugar"><small>LUGAR: </small>${info}</p>`;
+            return `<p class="lugar">${info}</p>`;
         }
         return '';
+    }
+
+    titulo_html(titulo, url) {
+        console.log(titulo, url)
+        if(url !== undefined){
+            return `<a href="${url}">${titulo}</a>`;
+        }
+        return titulo;
     }
 
 }

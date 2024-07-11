@@ -654,7 +654,8 @@ a.actual {
 }
 .programa_completo .mes .mes_titulo {
   text-align: center;
-  font-size: 1.8em;
+  font-size: 2.1em;
+  padding: 5px;
   border-bottom: 1px solid #000;
 }
 .programa_completo .mes .fechas {
@@ -671,29 +672,64 @@ a.actual {
   border-bottom: none!important;
 }
 .programa_completo .mes .fechas li .evento {
-  margin: 20px 30px;
+  margin: 40px 40px;
 }
 .programa_completo .mes .fechas li .evento p {
   margin: 0;
   padding: 0;
 }
-.programa_completo .mes .fechas li .evento h5.ev_titulo {
+.programa_completo .mes .fechas li .evento .ev_titulo {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  padding: 0px;
+  margin: 0px;
+}
+.programa_completo .mes .fechas li .evento .ev_titulo h5 {
   font-size: 1.4em;
 }
-.programa_completo .mes .fechas li .evento .tipo {
+.programa_completo .mes .fechas li .evento .ev_titulo h5 .dia {
+  font-weight: 900;
+  display: inline-block;
+}
+.programa_completo .mes .fechas li .evento .ev_titulo h5 .hora {
+  font-weight: 200;
+  margin: 0 4px;
+  display: inline-block;
+}
+.programa_completo .mes .fechas li .evento .titular {
+  padding: 5px 0;
+}
+.programa_completo .mes .fechas li .evento .titular * {
+  vertical-align: middle;
+}
+.programa_completo .mes .fechas li .evento .titular .tipo {
   font-size: 0.9em;
-  background: #000;
-  color: #fff;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 3px 6px;
+  padding: 5px 7px;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 4px;
   margin-right: 10px;
+  display: inline-block;
+  margin: 0 4px;
 }
-.programa_completo .mes .fechas li .evento .tipo:empty {
-  padding: 3px 10px;
+.programa_completo .mes .fechas li .evento .titular .tipo:empty {
+  display: none;
 }
-.programa_completo .mes .fechas li .evento .titulo {
-  font-size: 1.3em;
+.programa_completo .mes .fechas li .evento .titular .titulo {
+  font-size: 1.5em;
+  background: #000;
+  color: #fff;
+  padding: 2px 5px;
+  margin: 4px;
+  display: inline-block;
+  border: 4px solid #000;
+}
+.programa_completo .mes .fechas li .evento .titular .titulo a {
+  color: #fff;
+  display: inline-block;
 }
 .programa_completo .mes .fechas li .evento .texto {
   font-size: 0.9em;
@@ -768,6 +804,9 @@ a.actual {
   }
   .alerta-traduccion.hover span {
     display: block!important;
+  }
+  .programa_completo .ev_titulo h5 {
+    width: 100%;
   }
 }
 @media (max-width: 800px) {

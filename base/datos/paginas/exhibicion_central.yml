@@ -8,7 +8,7 @@ estilo: col-lg-11 con-lista-en-columnas
 contenido: |
   <hr><br>
 
-  ## Poéticas de la Resistencia
+  ## POÉTICAS DE LA RESISTENCIA
 
   <small>CURADOR:</small> {{ per('silvio_de_gracia') }}.
   <br><small>DISEÑO EXPOSITIVO:</small> {{ per('ana_montenegro') }}.
@@ -16,8 +16,6 @@ contenido: |
   <br><small>APERTURA:</small> **18 de octubre de 2024**
 
   <br><hr><br>
-
-  ## Artistas
 
   + {{ per('alejandro_thornton') }}
   + {{ per('andrea_hygino') }}
