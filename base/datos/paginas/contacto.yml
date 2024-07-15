@@ -12,14 +12,15 @@ contenido: |
   #### POSVERSO:
 
   - ![WEB](/rec/grafica/icon-www.svg){.icono} : [{{ url_dominio(cfg.urls.posversobienal) }}]({{ cfg.urls.posversobienal }})
-  - ![INSTAGRAM](/rec/grafica/icon-instagram.svg){.icono} : [{{ id_redsocial(cfg.urls.posverso_instagram) }}]({{ cfg.urls.posverso_instagram }})
-  - ![YOUTUBE](/rec/grafica/icon-youtube.svg){.icono} : [{{ id_redsocial(cfg.urls.posverso_youtube) }}]({{ cfg.urls.posverso_youtube }})
+  - ![INSTAGRAM](/rec/grafica/icon-instagram.svg){.icono} : [{{ id_redsocial(cfg.urls.posverso_instagram) }}]({{ cfg.urls.posverso_instagram }}){target=_blank}
+  - ![YOUTUBE](/rec/grafica/icon-youtube.svg){.icono} : [{{ id_redsocial(cfg.urls.posverso_youtube) }}]({{ cfg.urls.posverso_youtube }}){target=_blank}
   - ![EMAIL](/rec/grafica/icon-email.svg){.icono} : [{{ cfg.emails.posverso }}](mailto:{{ cfg.emails.posverso }})
 
   #### Hotel DaDA:
 
-  - ![WEB](/rec/grafica/icon-www.svg){.icono} : [{{ url_dominio(cfg.urls.hoteldada_web) }}]({{ cfg.urls.hoteldada_web }})
-  - ![INSTAGRAM](/rec/grafica/icon-instagram.svg){.icono} : [{{ id_redsocial(cfg.urls.hoteldada_instagram) }}]({{ cfg.urls.hoteldada_instagram }})
-  - ![FACEBOOK](/rec/grafica/icon-facebook.svg){.icono} : [Hotel DaDA]({{ cfg.urls.hoteldada_facebook }})
-  - ![YOUTUBE](/rec/grafica/icon-youtube.svg){.icono} : [Hotel DaDA]({{ cfg.urls.hoteldada_youtube }})
+  - ![WEB](/rec/grafica/icon-www.svg){.icono} : [{{ url_dominio(cfg.urls.hoteldada_web) }}]({{ cfg.urls.hoteldada_web }}){target=_blank}
+  - ![INSTAGRAM](/rec/grafica/icon-instagram.svg){.icono} : [{{ id_redsocial(cfg.urls.hoteldada_instagram) }}]({{ cfg.urls.hoteldada_instagram }}){target=_blank}
+  - ![FACEBOOK](/rec/grafica/icon-facebook.svg){.icono} : [Hotel DaDA]({{ cfg.urls.hoteldada_facebook }}){target=_blank}
+  - ![YOUTUBE](/rec/grafica/icon-youtube.svg){.icono} : [Hotel DaDA]({{ cfg.urls.hoteldada_youtube }}){target=_blank}
+  - ![GMAPS](/rec/grafica/icon-geopos.svg){.icono} : [Hotel DaDA]({{ cfg.urls.hoteldada_gmaps }}){target=_blank}
   - ![EMAIL](/rec/grafica/icon-email.svg){.icono} : [{{ cfg.emails.hoteldada }}](mailto:{{ cfg.emails.hoteldada }})
