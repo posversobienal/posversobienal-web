@@ -1,4 +1,4 @@
-class Programa {
+class Cronograma {
     elem = undefined;
     data = undefined;
     html_mes = '<div class="mes" name="{mes_id}"><h3 class="mes_titulo">{mes_nomb}</h3><ul class="fechas"></ul></div>';
@@ -23,7 +23,7 @@ class Programa {
     }
 
     generar() {
-        let k_meses = Object.keys(this.data.programa);
+        let k_meses = Object.keys(this.data.cronograma);
         let cnt = document.createElement('div');
 
         let h_meses = [];
@@ -38,9 +38,9 @@ class Programa {
         this.elem.appendChild(cnt);
 
         for(let k_mes of k_meses){
-            let k_dias = Object.keys(this.data.programa[k_mes]);
+            let k_dias = Object.keys(this.data.cronograma[k_mes]);
             for(let k_dia of k_dias){
-                let v_dia = this.data.programa[k_mes][k_dia];
+                let v_dia = this.data.cronograma[k_mes][k_dia];
                 let k_horas = Object.keys(v_dia.eventos);
                 for(let k_hora of k_horas){
                     let v_evento = v_dia.eventos[k_hora]
@@ -82,5 +82,5 @@ class Programa {
 }
 
 window.addEventListener('load', () => {
-    let pc = new Programa(window.programa_completo_aqui, cfg)
+    let pc = new Cronograma(window.cronograma_completo_aqui, cfg)
 });

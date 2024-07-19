@@ -1,0 +1,11 @@
+---
+titulo: 'Cronograma completo'
+
+html_base: 'pagina.html'
+ruta_static: 'pag/cronograma/index.html'
+estilo: col-lg-11
+
+contenido: |
+
+  <div class="cronograma" id="cronograma_completo_aqui"></div>
+  <script src="/lib/js/acc-cronograma.js?{{ cfg.cache_actu }}"></script>

@@ -23,7 +23,6 @@ contenido: |
   + {{ per('irina_novarese') }}
   + {{ per('jaap_blonk') }}
   + {{ per('juan_angel_italiano') }}
-  + {{ per('montenegro_fisher') }}
   + {{ per('monica_mura') }}
   + {{ per('rafael_bresciani') }}
   + {{ per('stephan_gross') }}
@@ -60,7 +59,6 @@ contenido: |
   + {{ per('paula_doberti') }}
   + {{ per('maurizio_mancioli') }}
   + {{ per('ro_barragan') }}
-  + {{ per('rodolfo_mata') }}
   + {{ per('roma_vaquero_diaz') }}
   + {{ per('rosa_gravino') }}
   + {{ per('sergio_bonzon') }}
@@ -108,12 +106,13 @@ contenido: |
   + {{ per('enrique_chocair') }}
   + {{ per('fernanda_mugica') }}
   + {{ per('maria_papi') }}
+  + {{ per('rodolfo_mata') }}
+  + {{ per('anuar_zuniga_naime') }}
 
   <br><hr>
   ## INCITACIONES PARA VER. Resistiendo el presente
   <small>SEDE:</small> **[Centro de Capacitación y Cultura ATSA](/sds/centro_de_capacitacion_y_cultura_atsa/)**
 
-  + {{ per('anuar_zuniga_naime') }}
   + {{ per('gaby_lobato') }}
   + {{ per('jimson_vilela') }}
   + {{ per('la_lengua_en_la_calle') }}

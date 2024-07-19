@@ -512,11 +512,15 @@ a.actual {
   overflow: hidden;
   background: transparent;
   position: relative;
+  filter: grayscale(100%);
 }
 .item-prensa .icono img {
   display: block;
   width: 100%;
   height: 100%;
+}
+.item-prensa:hover .icono {
+  filter: grayscale(0%);
 }
 .lista_publicaciones > ul {
   margin: 0;
@@ -649,62 +653,62 @@ a.actual {
 .rounded-2 {
   overflow: hidden;
 }
-.programa_completo .mes {
+.cronograma .mes {
   margin: 0;
   padding: 30px 0;
 }
-.programa_completo .mes .mes_titulo {
+.cronograma .mes .mes_titulo {
   text-align: center;
   font-size: 2.1em;
   padding: 5px;
   border-bottom: 1px solid #000;
 }
-.programa_completo .mes .fechas {
+.cronograma .mes .fechas {
   margin: 0;
   padding: 0;
 }
-.programa_completo .mes .fechas li {
+.cronograma .mes .fechas li {
   margin: 0 1rem;
   padding: 0;
   list-style: none;
   border-bottom: 1px solid #ccc;
 }
-.programa_completo .mes .fechas li:last-child {
+.cronograma .mes .fechas li:last-child {
   border-bottom: none!important;
 }
-.programa_completo .mes .fechas li .evento {
+.cronograma .mes .fechas li .evento {
   margin: 40px 40px;
 }
-.programa_completo .mes .fechas li .evento p {
+.cronograma .mes .fechas li .evento p {
   margin: 0;
   padding: 0;
 }
-.programa_completo .mes .fechas li .evento .ev_titulo {
+.cronograma .mes .fechas li .evento .ev_titulo {
   display: flex;
   align-items: baseline;
   justify-content: flex-start;
   padding: 0px;
   margin: 0px;
 }
-.programa_completo .mes .fechas li .evento .ev_titulo h5 {
+.cronograma .mes .fechas li .evento .ev_titulo h5 {
   font-size: 1.4em;
 }
-.programa_completo .mes .fechas li .evento .ev_titulo h5 .dia {
+.cronograma .mes .fechas li .evento .ev_titulo h5 .dia {
   font-weight: 900;
   display: inline-block;
 }
-.programa_completo .mes .fechas li .evento .ev_titulo h5 .hora {
+.cronograma .mes .fechas li .evento .ev_titulo h5 .hora {
   font-weight: 200;
   margin: 0 4px;
   display: inline-block;
 }
-.programa_completo .mes .fechas li .evento .titular {
+.cronograma .mes .fechas li .evento .titular {
   padding: 5px 0;
 }
-.programa_completo .mes .fechas li .evento .titular * {
+.cronograma .mes .fechas li .evento .titular * {
   vertical-align: middle;
 }
-.programa_completo .mes .fechas li .evento .titular .tipo {
+.cronograma .mes .fechas li .evento .titular .tipo {
   font-size: 0.9em;
   text-transform: uppercase;
   font-weight: bold;
@@ -716,10 +720,10 @@ a.actual {
   display: inline-block;
   margin: 0 4px;
 }
-.programa_completo .mes .fechas li .evento .titular .tipo:empty {
+.cronograma .mes .fechas li .evento .titular .tipo:empty {
   display: none;
 }
-.programa_completo .mes .fechas li .evento .titular .titulo {
+.cronograma .mes .fechas li .evento .titular .titulo {
   font-size: 1.3em;
   letter-spacing: 0.05em;
   background: #000;
@@ -729,11 +733,11 @@ a.actual {
   display: inline-block;
   border: 4px solid #000;
 }
-.programa_completo .mes .fechas li .evento .titular .titulo a {
+.cronograma .mes .fechas li .evento .titular .titulo a {
   color: #fff;
   display: inline-block;
 }
-.programa_completo .mes .fechas li .evento .texto {
+.cronograma .mes .fechas li .evento .texto {
   font-size: 0.9em;
 }
 @keyframes color-cr {

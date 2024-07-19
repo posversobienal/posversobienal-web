@@ -611,12 +611,16 @@ a.actual {
         overflow: hidden;
         background: transparent;
         position: relative;
+        filter: grayscale(100%);
 
         img {
             display: block;
             width: 100%;
             height: 100%;
         }
+    }
+    &:hover .icono {
+        filter: grayscale(0%);
     }
 }
 
@@ -780,7 +784,7 @@ a.actual {
     overflow: hidden;
 }
 
-.programa_completo {
+.cronograma {
     .mes {
         margin: 0;
         padding: 30px 0;

@@ -95,6 +95,8 @@ menu:
     submenu:
       - titulo: 'Programa'
         url: '/pag/programa/'
+      - titulo: 'Cronograma completo'
+        url: '/pag/cronograma/'
       - titulo: 'Exhibición central'
         url: '/pag/exhibicion_central/'
       - titulo: 'Otras exhibiciones'
