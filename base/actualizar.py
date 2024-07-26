@@ -124,9 +124,9 @@ def actualizar_personas():
             f.write(html)
 
 
-def actualizar_personas_artistas_invitados():
-    # completado de plantillas para PERSONAS ARTISTA
-    ruta_in = './datos/artistas_invitados/'
+def actualizar_artistas():
+    # completado de plantillas para ARTISTA
+    ruta_in = './datos/artistas/'
     ruta_out = f'{ruta_public}/per/'
     #borrar_contenido(ruta_out)
 
@@ -147,32 +147,6 @@ def actualizar_personas_artistas_invitados():
 
         with open(arc_out, 'w') as f:
             f.write(html)
-
-
-def actualizar_personas_artistas_seleccionados():
-    # completado de plantillas para PERSONAS ARTISTA
-    ruta_in = './datos/artistas_seleccionados/'
-    ruta_out = f'{ruta_public}/per/'
-    #borrar_contenido(ruta_out)
-
-    for ar in [a for a in listdir(ruta_in) if a.endswith('.yml')]:
-        print('Artista: ', ar)
-
-        dat_cfg['actualizacion'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-        dat_cfg['cache_actu'] = int(time_ns() / 1000)
-        dat_pag = leer_yml(f'{ruta_in}{ar}')
-        dat_pag['titulo'] = dat_pag['nombre'] + ' ' + dat_pag['apellido']
-
-        nom_ar = splitext(ar)[0]
-        arc_out = f'{ruta_out}/{nom_ar}/index.html'
-        makedirs(dirname(arc_out), exist_ok=True)
-
-        tpl = env_jinja2.get_template('persona_artista.html')
-        html = tpl.render(cfg=dat_cfg, pag=dat_pag, rec=dat_rec)
-
-        with open(arc_out, 'w') as f:
-            f.write(html)
-
 
 
 def actualizar_sedes():
@@ -297,8 +271,7 @@ def actualizar_mediacion_educativa():
 
 def actualizar_todo():
     actualizar_personas()
-    actualizar_personas_artistas_invitados()
-    actualizar_personas_artistas_seleccionados()
+    actualizar_artistas()
     actualizar_paginas()
     actualizar_sedes()
     actualizar_bitacora()
@@ -334,8 +307,7 @@ with open(ar_cfg_in, 'r') as f:
 ar_rec_out = f'{ruta_public}dat/rec.js'
 
 rutas_recursos = [
-    ['./datos/artistas_invitados/', 'artistas_invitados'],
-    ['./datos/artistas_seleccionados/', 'artistas_seleccionados'],
+    ['./datos/artistas/', 'artistas'],
     ['./datos/personas/', 'personas'],
     ['./datos/sedes/', 'sedes'],
     ['./datos/publicaciones/', 'publicaciones'],
@@ -353,7 +325,7 @@ for d in rutas_recursos:
             dat_rec[k][splitext(a)[0]] = leer_yml(f'{r}{a}')
 
 dat_per = {}
-for k in ['artistas_invitados', 'artistas_seleccionados', 'personas']:
+for k in ['artistas', 'personas']:
     if k in dat_rec:
         for k2, v2 in dat_rec[k].items():
             dat_per[k2] = v2

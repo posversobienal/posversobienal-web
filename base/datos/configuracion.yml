@@ -70,6 +70,8 @@ urls:
   info_bp_paz_y_trabajo: 'https://www.facebook.com/p/Biblioteca-popular-Paz-y-Trabajo-100064620377143/'
   info_unnoba: 'https://www.unnoba.edu.ar/'
   info_el_espacio: 'https://www.instagram.com/elespacioyoga'
+  info_nldffl: 'https://www.letterenfonds.nl/en'
+  info_fpk: 'https://fondspodiumkunsten.nl/en'
 
 menu:
   - titulo: 'BIENAL'
@@ -118,12 +120,7 @@ menu:
   - titulo: 'SEDES'
     url: '/pag/sedes/'
   - titulo: 'ARTISTAS'
-    url: ''
-    submenu:
-      - titulo: 'Invitados'
-        url: '/pag/artistas_invitados/'
-      - titulo: 'Seleccionados'
-        url: '/pag/artistas_seleccionados/'
+    url: '/pag/artistas/'
   - titulo: 'PRENSA'
     url: '/pag/prensa/'
 
