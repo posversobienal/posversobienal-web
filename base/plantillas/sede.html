@@ -9,7 +9,6 @@
                 <img class="img-fluid item-galeria" src="/rec/foto/sedes/{{ pag.fotos[0] }}?{{ cfg.cache_actu }}">
                 <br>
                 <br>
-                <br>
             </div>
             <div class="ms-4 ps-4 col-11 col-lg-7">
                 <h1>{{ pag.nombre }}</h1>
@@ -21,10 +20,17 @@
                 {% endif %}
 
                 <hr>
-                <div class="">
+                <div>
                     {% if pag.descripcion %}
                     {{ markdown(pag.descripcion) }}
                     {% endif %}
+                </div>
+                <div class="cronograma compacto">
+                    <p class="text-end text-secondary text-small">EVENTOS DE ESTA SEDE</p>
+                    <div id="cronograma_por_sede_aqui" data_idsede="{{ pag.idpag }}"></div>
+                    <p class="text-end text-secondary text-small">VER <a href="/pag/cronograma/">CRONOGRAMA COMPLETO</a></p>
+
+                    <script src="/lib/js/acc-cronograma.js?{{ cfg.cache_actu }}"></script>
                 </div>
             </div>
         </div>

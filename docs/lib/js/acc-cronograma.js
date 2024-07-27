@@ -1,6 +1,7 @@
 class Cronograma {
     elem = undefined;
     data = undefined;
+    filtro = undefined;
     html_mes = '<div class="mes" name="{mes_id}"><h3 class="mes_titulo">{mes_nomb}</h3><ul class="fechas"></ul></div>';
     html_evn = `<li><div class="evento">
                    <div class="ev_titulo">
@@ -13,12 +14,43 @@ class Cronograma {
                    </div>
                </div></li>`;
 
-    constructor (el, da) {
+    constructor (el, da, fi) {
         if(this.elem == undefined){
             this.elem = el;
             this.data = da;
+            this.filtro = fi;
 
-            this.generar()
+            this.filtrar();
+            this.generar();
+            this.posprocesar();
+        }
+    }
+
+    filtrar() {
+        if(this.filtro){
+            let k = undefined;
+            for(k of Object.keys(this.filtro)){
+                if(k == 'sede'){
+                    let sede_actual = this.filtro[k];
+                    let data_filtrada = this.data.cronograma;
+                    let k_meses = Object.keys(data_filtrada);
+                    for(let k_mes of k_meses){
+                        let k_dias = Object.keys(data_filtrada[k_mes]);
+                        for(let k_dia of k_dias){
+                            let v_dia = data_filtrada[k_mes][k_dia];
+                            let k_horas = Object.keys(v_dia.eventos);
+                            for(let k_hora of k_horas){
+                                let v_evento = v_dia.eventos[k_hora]
+                                if(!(v_evento.lugar === sede_actual)){
+                                    data_filtrada[k_mes][k_dia]['eventos'][k_hora]['ignorar'] = true;
+                                }
+                            }
+                        }
+                    }
+
+                    this.data.cronograma = data_filtrada;
+                }
+            }
         }
     }
 
@@ -54,11 +86,22 @@ class Cronograma {
                         texto: v_evento.texto,
                     })
 
-                    this.elem.querySelector(`[name=${k_mes}] .fechas`).innerHTML += d_evento;
+                    if(!v_evento.ignorar){
+                        this.elem.querySelector(`[name=${k_mes}] .fechas`).innerHTML += d_evento;
+                    }
+
                 }
             }
         }
+    }
 
+    posprocesar(){
+        // ocultar los meses que no tienen eventos para la sede actual
+        this.elem.querySelectorAll('.fechas').forEach(el => {
+            if(el.innerHTML === ''){
+                el.parentElement.remove();
+            }
+        });
     }
 
     lugar_html(lugar_id) {
@@ -72,15 +115,26 @@ class Cronograma {
     }
 
     titulo_html(titulo, url) {
-        console.log(titulo, url)
         if(url !== undefined){
             return `<a href="${url}">${titulo}</a>`;
         }
         return titulo;
     }
 
+
 }
 
+var cr_completo = window.cronograma_completo_aqui,
+    cr_x_sede = window.cronograma_por_sede_aqui,
+    cc =  undefined,
+    cs =  undefined;
+
 window.addEventListener('load', () => {
-    let pc = new Cronograma(window.cronograma_completo_aqui, cfg)
+    if(cr_completo){ cc = new Cronograma(cr_completo, cfg); }
+    if(cr_x_sede){
+        cs = new Cronograma(
+            cr_x_sede, cfg,
+            {'sede': cr_x_sede.attributes.data_idsede.value}
+        );
+    }
 });

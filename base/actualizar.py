@@ -162,6 +162,7 @@ def actualizar_sedes():
         dat_cfg['cache_actu'] = int(time_ns() / 1000)
         dat_pag = leer_yml(f'{ruta_in}{ar}')
         dat_pag['titulo'] = 'Sede - ' + dat_pag['nombre']
+        dat_pag['idpag'] = splitext(ar)[0]
 
         nom_ar = splitext(ar)[0]
         arc_out = f'{ruta_out}/{nom_ar}/index.html'
