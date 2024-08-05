@@ -1,0 +1,16 @@
+---
+
+nombre: 'Dante Alighieri Junín'
+domicilio: 'Malvinas Argentinas 78. Junín, Buenos Aires, Argentina.'
+gmaps: 'https://maps.app.goo.gl/Chaja2b7sgiUhjV77'
+
+web: 'https://www.instagram.com/dantealighierijunin/'
+
+geopos:
+  coord: [-34.59244, -60.94884]
+  icono: pin-sede
+
+fotos:
+  - 'dante_alighieri_junin.jpg'
+eventos_asociados: []
+descripcion: []

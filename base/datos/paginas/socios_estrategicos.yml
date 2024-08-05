@@ -44,7 +44,7 @@ contenido: |
   [![Fundación Casa Pronto](/rec/socios/fundacion_casa_pronto.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_casa_pronto }}){title="Fundación Casa Pronto" target=_blank}
   ![MACA](/rec/socios/maca_junin.jpg?{{ cfg.cache_actu }}){.logo_socio title="MACA"}
   [![Museo Histórico](/rec/socios/museo_historico.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_museo_historico }}){title="Museo Histórico" target=_blank}
-  [![Sociedad Italiana Unita](/rec/socios/sociedad_italiana_unita.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_sociedad_italiana_unita }}){title="Sociedad Italiana Unita" target=_blank}
+  [![Dante Alighieri Junín](/rec/socios/dante_alighieri_junin.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_dante_alighieri_junin }}){title="Dante Alighieri Junín" target=_blank}
   [![Villa Alpina](/rec/socios/villa_alpina.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_villa_alpina }}){title="Villa Alpina" target=_blank}
 
   <br><hr><br>
@@ -57,6 +57,7 @@ contenido: |
 extra: |
   # en espera
   [![El Espacio](/rec/socios/el_espacio.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_el_espacio }}){title="El Espacio"}
+  [![Sociedad Italiana Unita](/rec/socios/sociedad_italiana_unita.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_sociedad_italiana_unita }}){title="Sociedad Italiana Unita" target=_blank}
 
   [![Casa Río Lab](/rec/socios/casa_rio_lab.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_casariolab }}){title="Casa Río Lab"}
   [![Casa del Pueblo](/rec/socios/casa_del_pueblo.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_casa_del_pueblo }}){title="Casa del Pueblo"}
