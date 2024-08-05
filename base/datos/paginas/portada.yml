@@ -19,14 +19,21 @@ novedades:
 
 
 deslizador:
-  - {img: 1.jpg, url: '/per/antonio_caro/', tit: 'Obra de Antonio Caro'}
-  - {img: 2.jpg, url: '/per/claudio_mangifesta/', tit: 'Obra de Claudio Omar Mangifesta'}
-  - {img: 3.jpg, url: '/per/j_m_calleja/', tit: 'Obra de J. M. Calleja'}
-  - {img: 4.jpg, url: '/per/marcela_peral/', tit: 'Obra de Marcela Peral'}
-  - {img: 5.jpg, url: '/per/silvina_torviso/', tit: 'Obra de Silvina Torviso'}
+  - {img: 1.jpg, url: '/per/carlos_gallardo/', tit: 'Obra de Carlos Gallardo'}
+  - {img: 2.jpg, url: '/per/marcela_astorga/', tit: 'Obra de Marcela Astorga'}
+  - {img: 3.jpg, url: '/per/roma_vaquero_diaz/', tit: 'Obra de Roma Vaquero Díaz'}
+  - {img: 4.jpg, url: '/per/luciano_pozo/', tit: 'Obra de Luciano Pozo'}
+  - {img: 5.jpg, url: '/per/simone_moraes/', tit: 'Obra de Simone Moraes'}
 
 deslizador_registro:
   PASADOS:
+
+    - antonio_caro
+    - claudio_mangifesta
+    - j_m_calleja
+    - marcela_peral
+    - silvina_torviso
+
     - rodolfo_mata
     - elena_marini
     - silvio_de_gracia
@@ -70,7 +77,6 @@ deslizador_registro:
   PENDIENTES:
     - bartolome_ferrando
     - carlos_alberto_macheratti
-    - carlos_gallardo
     - clemente_padin
     - daniel_ontiveros
     - daniel_sarobe
@@ -78,20 +84,16 @@ deslizador_registro:
     - fernando_aguiar
     - ferran_destemple
     - guillermo_perez_raventos
-    - jessica_pujol_duran
     - juan_angel_italiano
     - juan_montelpare
-    - lucas_di_pascuale
-    - luciano_pozo
-    - marcela_astorga
     - maria_jose_machado
     - ro_barragan
-    - roma_vaquero_diaz
+    - lucas_di_pascuale
     - rosa_gravino
     - rosemberg_sandoval
+    - soledad_sanchez_goldar
+    - jessica_pujol_duran
     - ruggero_maggi
     - sergio_bonzon
-    - simone_moraes
-    - soledad_sanchez_goldar
     - teresa_pereda
     - tulio_restrepo
