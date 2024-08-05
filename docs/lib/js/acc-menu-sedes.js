@@ -1,10 +1,11 @@
 const setear_sede = (el) => {
-    const dat = el.attributes['data-geopos'].value.split(';').map(d => d.trim()),
+    const dat = JSON.parse(el.querySelector('script[name=data]').innerText),
           id = el.attributes['id'].value,
-          texto = `<b>${dat[3]}</b><br>${dat[4]}`,
-          ll = new L.LatLng(parseFloat(dat[0]), parseFloat(dat[1])),
-          pos = L.marker(ll, {icon: iconos[dat[2]] }).bindPopup(texto).addTo(mapa),
+          texto = `<b>${dat.nombre}</b><br>${dat.domicilio}`,
+          ll = new L.LatLng(parseFloat(dat.geopos.coord[0]), parseFloat(dat.geopos.coord[1])),
+          pos = L.marker(ll, {icon: iconos[dat.geopos.icono] }).bindPopup(texto).addTo(mapa),
           btn = el.querySelector('button.pin');
+
     btn.addEventListener('click', (ev) => {
         pos.openPopup();
         mapa.setView(ll, 17);
@@ -45,8 +46,5 @@ const onload_acciones = () => {
     mapa.setView(centroJ, 13);
 
     // seleccion de sedes
-    const sedes = document.querySelectorAll('.sede');
-    for(sede of sedes ){
-        setear_sede(sede);
-    }
+    document.querySelectorAll('.sede').forEach(setear_sede);
 };

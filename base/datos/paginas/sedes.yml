@@ -8,8 +8,8 @@ estilo: 'w100 d-flex flex-wrap justify-content-center'
 contenido: |
   {% for id_sede in cfg.sedes.orden %}
   {% set dat_sede = rec.sedes[id_sede] %}
-  <div class="d-grid w300p border border-dark rounded-2 m-2 p-0 sede" id="{{ id_sede }}"
-       data-geopos="{{ dat_sede.geopos.coord[0] }}; {{ dat_sede.geopos.coord[1] }}; {{ dat_sede.geopos.icono }}; {{ dat_sede.nombre }}; {{ dat_sede.domicilio }}" >
+  <div class="d-grid w300p border border-dark rounded-2 m-2 p-0 sede" id="{{ id_sede }}">
+       <script type="text/json" name="data">{{ dat_sede | tojson | safe }}</script>
 
 
     <div class="d-flex flex-column flex-align-items-end">
