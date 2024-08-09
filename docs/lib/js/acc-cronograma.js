@@ -2,6 +2,7 @@ class Cronograma {
     elem = undefined;
     data = undefined;
     filtro = undefined;
+    cLsEventos = 'lista-de-eventos';
     html_mes = '<div class="mes" name="{mes_id}"><h3 class="mes_titulo">{mes_nomb}</h3><ul class="fechas"></ul></div>';
     html_evn = `<li><div class="evento">
                    <div class="ev_titulo">
@@ -47,7 +48,6 @@ class Cronograma {
                             }
                         }
                     }
-
                     this.data.cronograma = data_filtrada;
                 }
             }
@@ -57,6 +57,7 @@ class Cronograma {
     generar() {
         let k_meses = Object.keys(this.data.cronograma);
         let cnt = document.createElement('div');
+        cnt.classList.add(this.cLsEventos);
 
         let h_meses = [];
         for(let k_mes of k_meses){
@@ -102,6 +103,11 @@ class Cronograma {
                 el.parentElement.remove();
             }
         });
+
+        // eliminar todo si no hay eventos para la sede actual
+        if(this.elem.querySelector(`.${this.cLsEventos}`).innerHTML === ''){
+            this.elem.parentElement.remove();
+        }
     }
 
     lugar_html(lugar_id) {

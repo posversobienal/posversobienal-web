@@ -352,6 +352,5 @@ env_jinja2.globals.update(fecha_prensa = fecha_prensa)
 env_jinja2.globals.update(per = datos_de_persona)
 
 
-
 if __name__ == '__main__':
     actualizar_todo()
