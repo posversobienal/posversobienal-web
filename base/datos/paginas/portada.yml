@@ -20,9 +20,9 @@ novedades:
 
 deslizador:
   - {img: 1.jpg, url: '/per/carlos_gallardo/', tit: 'Obra de Carlos Gallardo'}
-  - {img: 2.jpg, url: '/per/marcela_astorga/', tit: 'Obra de Marcela Astorga'}
-  - {img: 3.jpg, url: '/per/roma_vaquero_diaz/', tit: 'Obra de Roma Vaquero Díaz'}
-  - {img: 4.jpg, url: '/per/luciano_pozo/', tit: 'Obra de Luciano Pozo'}
+  - {img: 2.jpg, url: '/per/luciano_pozo/', tit: 'Obra de Luciano Pozo'}
+  - {img: 3.jpg, url: '/per/marcela_astorga/', tit: 'Obra de Marcela Astorga'}
+  - {img: 4.jpg, url: '/per/roma_vaquero_diaz/', tit: 'Obra de Roma Vaquero Díaz'}
   - {img: 5.jpg, url: '/per/simone_moraes/', tit: 'Obra de Simone Moraes'}
 
 deslizador_registro:
