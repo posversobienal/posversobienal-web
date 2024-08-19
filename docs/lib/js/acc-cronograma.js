@@ -144,7 +144,3 @@ window.addEventListener('load', () => {
         );
     }
 });
-
-
-
-//['dom', 'lun', 'mar', 'mie', 'jue', 'vie', 'sab'][new Date(2024, 7, 3).getDay()];
