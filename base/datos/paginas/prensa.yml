@@ -8,6 +8,36 @@ estilo_cnt_sec: col-lg-3
 
 publicaciones:
 
+  2024-08-22_3:
+    p: artfacts
+    t: 'Posverso Bienal'
+    u: 'https://artfacts.net/institution/posverso-bienal/60672'
+
+  2024-08-22_2:
+    p: semanariodejunin
+    t: 'Se presenta la muestra "El Lenguaje de la Acción" de Clemente Padín'
+    u: 'https://semanariodejunin.com.ar/nota/50537/se-presenta-la-muestra-039-el-lenguaje-de-la-accion-039-de-clemente-padin/'
+
+  2024-08-22_1:
+    p: lavozdelosbarrios
+    t: 'Lenguaje en acción: el artista uruguayo Clemente Padín en Hotel Dada'
+    u: 'https://lavozdelosbarrios.com/lenguaje-en-accion-el-artista-uruguayo-clemente-padin-en-hotel-dada/'
+
+  2024-08-22_0:
+    p: semanariodejunin
+    t: 'El programa educativo de la Bienal Posverso desarrolló con una nueva jornada de capacitación'
+    u: 'https://semanariodejunin.com.ar/nota/50441/el-programa-educativo-de-la-bienal-posverso-desarrollo-con-una-nueva-jornada-de-capacitacion/'
+
+  2024-08-20_0:
+    p: juninnews
+    t: 'Jornadas de capacitación en el marco del programa educativo de la Bienal Posverso'
+    u: 'https://www.juninnews.com/jornadas-de-capacitacion-en-el-marco-del-programa-educativo-de-la-bienal-posverso/'
+
+  2024-08-19_0:
+    p: lavozdelosbarrios
+    t: 'Jornadas de capacitación en el marco del programa educativo de la bienal POSVERSO'
+    u: 'https://lavozdelosbarrios.com/jornadas-de-capacitacion-en-el-marco-del-programa-educativo-de-la-bienal-posverso/'
+
   2024-08-06_0:
     p: lavozdelosbarrios
     t: '18 de octubre en Junín: poética de la resistencia'
@@ -173,8 +203,7 @@ publicantes:
   crosses: {t: 'Crosses.Net', u: 'https://crosses.net/'}
   arteonline: {t: 'Arte Online', u: 'https://www.arte-online.net/'}
   dehoy: {t: 'De Hoy', u: 'https://www.dehoy.com.ar/'}
-
-
+  artfacts: {t: 'Artfacts', u: 'https://artfacts.net/'}
 
 contenido: |
 
