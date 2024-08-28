@@ -3,31 +3,18 @@
 fecha: '2024/08/20'
 hora: '00:00'
 estado: []
-url: '/bit/2024-08-20-00-00_jornadas_de_capacitacion/'
+
+url: '/edu/2024-08-13-00-00__jornadas_de_capacitacion/'
+
 titulo: 'Jornadas de Capacitación en el marco del Programa Educativo'
+
 fotos:
   - 2024-08-20-00-00.jpg
 
-galeria:
-  - { url: /rec/bitacora/2024-08-20-00-00-a.jpg, titulo: 'Capacitación 13 y 14 de agosto 2024'}
-  - { url: /rec/bitacora/2024-08-20-00-00-b.jpg, titulo: 'Capacitación 13 y 14 de agosto 2024'}
-  - { url: /rec/bitacora/2024-08-20-00-00-e.jpg, titulo: 'Capacitación 13 y 14 de agosto 2024'}
-  - { url: /rec/bitacora/2024-08-20-00-00-d.jpg, titulo: 'Capacitación 13 y 14 de agosto 2024'}
-  - { url: /rec/bitacora/2024-08-20-00-00-c.jpg, titulo: 'Capacitación 13 y 14 de agosto 2024'}
-  - { url: /rec/bitacora/2024-08-20-00-00-f.jpg, titulo: 'Capacitación 13 y 14 de agosto 2024'}
-  - { url: /rec/bitacora/2024-08-20-00-00-g.jpg, titulo: 'Capacitación 13 y 14 de agosto 2024'}
+galeria: []
 
 detalle: |
   Se desarrollaron las Jornadas de Capacitación en Arte Contemporáneo y poéticas experimentales, co-organizadas por BIENAL POSVERSO e Inspección de Educación Artística, en el marco de la propuesta educativa de la Bienal.
 
 
-contenido: |
-  Se desarrollaron las **Jornadas de Capacitación en Arte Contemporáneo y poéticas experimentales**, co-organizadas por *BIENAL POSVERSO* e *Inspección de Educación Artística*, en el marco de la propuesta educativa de la Bienal.
-
-  Los días 13 y 14 de agosto en el *Centro de Capacitación y Cultura ATSA*, contando con una nutrida asistencia de docentes de Arte en los distintos niveles y modalidades, convocados por las *Inspectoras Viviana Blaiotta* y *María Florencia Correa*.
-
-  La capacitación, cumplida en doble jornada, mañana y tarde, estuvo a cargo de Silvio De Gracia y Ana Montenegro, Director General y Directora Artística de la Bienal, respectivamente, acompañados por Carlos Macheratti, responsable del equipo técnico. Se abordó un amplio temario en torno a arte contemporáneo y poéticas experimentales, como arte intermedia, poesía visual y artes visuales, experiencias poéticas sonoras y poesía-acción. Junto a la instancia teórica, las jornadas incluyeron diversas actividades en las que los docentes pudieron participar de experiencias performativas y sonoras, activar partituras Fluxus e integrarse en un taller de producción de poesía visiva.
-
-  Con estas instancias educativas, la BIENAL POSVERSO apunta a brindar las herramientas conceptuales necesarias para acceder a una mayor comprensión y valoración de su oferta artística y cultural.
-
-  Desde la Inspección de Educación Artística, en tanto, se planteó hacer que estas propuestas vivenciadas puedan trasladarse a las aulas y formar parte de las producciones que se expondrán durante la Semana de las Artes.
+contenido: ''
