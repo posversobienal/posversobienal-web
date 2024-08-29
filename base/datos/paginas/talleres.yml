@@ -1,0 +1,243 @@
+---
+
+titulo: 'Talleres'
+html_base: 'pagina.html'
+ruta_static: 'pag/talleres/index.html'
+estilo: col-lg-11
+
+imagen_cabecera: '/rec/foto/paginas/talleres.jpg'
+
+contenido: |
+
+  ---
+
+  ## Las formas del agua
+  **ALE MONTIEL**
+
+  - SEDE: Casa Popular Dante Balestro.
+  - MATERIALES: hojas tamaño A3 para cada participante, fibrones de varios grosores y fibras en la gama de los azules.
+  - DESTINATARIO: público general.
+  - HORARIO: 17.00 a 19.00.
+  - FECHA: a confirmar.
+
+  ---
+
+  ## Livecoding. Exploración expresiva mediante programación en tiempo real
+  **CARLOS MACHERATTI**
+
+  - SEDE: Centro de Capacitación y Cultura ATSA.
+  - DESTINATARIO: Público general.
+  - MÁXIMO: 20 a 30 personas.
+  - FECHA: a confirmar.
+
+  ---
+
+  ## Taller de Poesía Visual y Experimental
+  **CLAUDIO MANGIFESTA**
+
+  - SEDE: Escuela de Arte Xul Solar.
+  - MATERIALES: Revistas o libros antiguos para RECORTAR imágenes y letras. Hojas o cartón para usar como base. Tijeras, plasticola, Letras (de cualquier tipo). Tipos móviles de las viejas imprentas, sellos, letraset, letras caladas o stencil, etc. Imágenes de diversos tipos.
+  - DESTINATARIO: Público general.
+  - DURACIÓN: 3 horas. Horario a confirmar.
+  - FECHA: Jueves 7 de noviembre.
+
+  ---
+
+  ## Lengua de pájaros
+  **MONTENEGRO-FISHER**
+
+  - SEDE: Escuela Provincial de Teatro “Gilberto A. Mesa.
+  - MATERIALES: 40 hojas de papel, 40 plumones/ lápices de color. Los estudiantes son bienvenidos a traer instrumentos musicales u objetos que produzcan sonido.
+  - DESTINATARIOS: Estudiantes nivel terciario.
+  - MÁXIMO 20 participantes.
+  - FECHAS: 22 y 24 de octubre.
+  - HORARIO: 16.00 a 18.00.
+
+  ---
+
+  ## TIPOESÍA Poesía Tipográfica
+  **RO BARRAGÁN**
+
+  - SEDE: Escuela de Educación Artística “Víctor Grippo.
+  - MATERIALES: Se contará con materiales específicos provistos por Ilusión gráfica.
+  - DESTINATARIOS: Público general. 15 participantes.
+  - FECHA: 15 de noviembre.
+  - HORARIO: 9.30 a 13.30.
+
+  ---
+
+  ## Proposiciones (in) poéticas.
+  **JULIA CISNEROS**
+
+  - SEDE: Centro Cultural Marea Cultura.
+  - MATERIALES: Papel, lapicera, lápices, celular (o algo para grabar), partituras, objetos sonoros (tubitos, cornetas, silbatos, flautas, entre otros).
+  - FECHA: 21 y 22 de noviembre.
+  - DESTINATARIOS: Mayores de 16 años. Máximo 20 participantes.
+  - HORARIO: 17.00 a 20.00.
+
+  ---
+
+  ## Proposiciones (in) poéticas para público infantil. Paisajes sonoros.
+  **JULIA CISNEROS**
+
+  - SEDE: a confirmar.
+  - FECHA Y HORARIO: a confirmar.
+
+  ---
+
+  ## Taller de arte correo
+  **ROSA GRAVINO Y MARCELA PERAL**
+
+  - SEDE: Biblioteca Popular Paz y Trabajo.
+  - DESTINATARIOS: Público en general.
+  - FECHA: 8 Noviembre.
+  - HORARIO: 16.00 a 18.00.
+
+  ---
+
+  ## Rondas creativas
+  **SANDRA GALLI**
+
+  - SEDE: Fundación Casa Pronto.
+  - MATERIALES: Papeles de todo tipo, cartones, revistas, pegamento, hilos, cintas de enmascarar de colores, elásticos, marcadores, lápices, tijeras, letras, botones, postales, lana, pajitas, palitos de helado.
+  - DESTINATARIO: Público adulto.
+  - DURACIÓN: dos horas. Horario a confirmar.
+  - FECHA: a confirmar.
+
+  ---
+
+  ## Objeto y rastro. Taller de arte de performance
+  **ALBERTO COURATIER**
+
+  - SEDE: Escuela Provincial de Teatro ‘Gilberto A. Mesa”.
+  - DESTINATARIOS: Jóvenes de 18 a 25 años.
+  - FECHA: 15 de noviembre.
+  - HORARIO: a confirmar.
+
+  ---
+
+  ## Estrategias didácticas para la educación artística
+  **DANIELA MASTRANDREA**
+
+  - SEDE: Centro de Capacitación y Cultura ATSA.
+  - DESTINATARIOS: Docentes de Educación Artística.
+  - FECHA: 16 de octubre.
+  - HORARIO: a confirmar.
+
+
+c__: |
+
+  ---
+
+  ## Las formas del agua
+  **ALE MONTIEL** (ale.montiel@gmail.com)
+
+  - SEDE: Casa Popular Dante Balestro.
+  - MATERIALES: hojas tamaño A3 para cada participante, fibrones de varios grosores y fibras en la gama de los azules.
+  - DESTINATARIO: público general.
+  - HORARIO: 17.00 a 19.00.
+  - FECHA: a confirmar.
+
+  ---
+
+  ## Livecoding. Exploración expresiva mediante programación en tiempo real
+  **CARLOS MACHERATTI** (nodos.dsnn@gmail.com)
+
+  - SEDE: Centro de Capacitación y Cultura ATSA.
+  - DESTINATARIO: Público general.
+  - MÁXIMO: 20 a 30 personas.
+  - FECHA: a confirmar.
+
+  ---
+
+  ## Taller de Poesía Visual y Experimental
+  **CLAUDIO MANGIFESTA** (mangifesta.claudio@gmail.com)
+
+  - SEDE: Escuela de Arte Xul Solar.
+  - MATERIALES: Revistas o libros antiguos para RECORTAR imágenes y letras. Hojas o cartón para usar como base. Tijeras, plasticola, Letras (de cualquier tipo). Tipos móviles de las viejas imprentas, sellos, letraset, letras caladas o stencil, etc. Imágenes de diversos tipos.
+  - DESTINATARIO: Público general.
+  - DURACIÓN: 3 horas. Horario a confirmar.
+  - FECHA: Jueves 7 de noviembre.
+
+  ---
+
+  ## Lengua de pájaros
+  **MONTENEGRO-FISHER** (montenegrofisher@gmail.com)
+
+  - SEDE: Escuela Provincial de Teatro “Gilberto A. Mesa.
+  - MATERIALES: 40 hojas de papel, 40 plumones/ lápices de color. Los estudiantes son bienvenidos a traer instrumentos musicales u objetos que produzcan sonido.
+  - DESTINATARIOS: Estudiantes nivel terciario.
+  - MÁXIMO 20 participantes.
+  - FECHAS: 22 y 24 de octubre.
+  - HORARIO: 16.00 a 18.00.
+
+  ---
+
+  ## TIPOESÍA Poesía Tipográfica
+  **RO BARRAGÁN** (ro_barragan@yahoo.com.ar)
+
+  - SEDE: Escuela de Educación Artística “Víctor Grippo.
+  - MATERIALES: Se contará con materiales específicos provistos por Ilusión gráfica.
+  - DESTINATARIOS: Público general. 15 participantes.
+  - FECHA: 15 de noviembre.
+  - HORARIO: 9.30 a 13.30.
+
+  ---
+
+  ## Proposiciones (in) poéticas.
+  **JULIA CISNEROS** (jcisneros4@abc.gob.ar)
+
+  - SEDE: Centro Cultural Marea Cultura.
+  - MATERIALES: Papel, lapicera, lápices, celular (o algo para grabar), partituras, objetos sonoros (tubitos, cornetas, silbatos, flautas, entre otros).
+  - FECHA: 21 y 22 de noviembre.
+  - DESTINATARIOS: Mayores de 16 años. Máximo 20 participantes.
+  - HORARIO: 17.00 a 20.00.
+
+  ---
+
+  ## Taller de arte correo
+  **ROSA GRAVINO  Y MARCELA PERAL** (marcegraba@gmail.com)
+
+  - SEDE: Biblioteca Popular Paz y Trabajo.
+  - DESTINATARIOS: Público en general.
+  - FECHA: 8 Noviembre.
+  - HORARIO: 16.00 a 18.00.
+
+  ---
+
+  ## Rondas creativas
+  **SANDRA GALLI** (sandragalli1964@gmail.com)
+
+  - SEDE: Fundación Casa Pronto.
+  - MATERIALES: Papeles de todo tipo, cartones, revistas, pegamento, hilos, cintas de enmascarar de colores, elásticos, marcadores, lápices, tijeras, letras, botones, postales, lana, pajitas, palitos de helado.
+  - DESTINATARIO: Público adulto.
+  - DURACIÓN: dos horas. Horario a confirmar.
+  - FECHA: a confirmar.
+
+  ---
+
+  ## Objeto y rastro. Taller de arte de performance
+  **ALBERTO COURATIER**
+
+  - SEDE: Escuela Provincial de Teatro ‘Gilberto A. Mesa”.
+  - DESTINATARIOS: Jóvenes de 18 a 25 años.
+  - FECHA: 15 de noviembre.
+  - HORARIO: a confirmar.
+
+  ---
+
+  ## Proposiciones (in) poéticas para público infantil. Paisajes sonoros.
+  **JULIA CISNEROS**
+
+  SEDE: a confirmar.
+  FECHA Y HORARIO: a confirmar.
+
+  ---
+
+  ## Estrategias didácticas para la educación artística
+  **Daniela Mastrandrea**
+
+  - SEDE: Centro de Capacitación y Cultura ATSA.
+  - DESTINATARIOS: Docentes de Educación Artística.
+  - FECHA: 16 de octubre.
+  - HORARIO: a confirmar.
