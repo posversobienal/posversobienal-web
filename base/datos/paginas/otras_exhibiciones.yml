@@ -42,12 +42,12 @@ contenido: |
   + {{ per('andres_pasinovich') }}
   + {{ per('angelica_chio') }}
   + {{ per('carlos_alberto_macheratti') }}
-  + {{ per('claudio_mangifesta') }}
   + {{ per('claudia_lyrio') }}
+  + {{ per('claudio_mangifesta') }}
   + {{ per('cosega') }}
-  + {{ per('diren_demir') }}
   + {{ per('denise_calasans') }}
   + {{ per('diego_melero') }}
+  + {{ per('diren_demir') }}
   + {{ per('emmanuel_borao') }}
   + {{ per('guillermo_perez_raventos') }}
   + {{ per('hilda_paz') }}
@@ -55,8 +55,9 @@ contenido: |
   + {{ per('javier_abreu') }}
   + {{ per('joyce_ribeiro') }}
   + {{ per('marcela_peral') }}
-  + {{ per('paula_doberti') }}
+  + {{ per('marcio_almeida') }}
   + {{ per('maurizio_mancioli') }}
+  + {{ per('paula_doberti') }}
   + {{ per('ro_barragan') }}
   + {{ per('roma_vaquero_diaz') }}
   + {{ per('rosa_gravino') }}

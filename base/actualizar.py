@@ -57,10 +57,16 @@ def datos_de_persona(k, tipo='n+l'):
         d = dat_per[k]
         nom = d['nombre']
         ape = d['apellido']
-
         if tipo == 'n+l':
             return f'[{nom} {ape}](/per/{k}/)'
+    return k
 
+def datos_de_sede(k, tipo='n+l'):
+    if k in dat_sds:
+        d = dat_sds[k]
+        nom = d['nombre']
+        if tipo == 'n+l':
+            return f'[{nom}](/sds/{k}/)'
     return k
 
 
@@ -331,6 +337,12 @@ for k in ['artistas', 'personas']:
         for k2, v2 in dat_rec[k].items():
             dat_per[k2] = v2
 
+dat_sds = {}
+for k in ['sedes']:
+    if k in dat_rec:
+        for k2, v2 in dat_rec[k].items():
+            dat_sds[k2] = v2
+
 
 with open(ar_rec_out, 'w') as g:
     g.write('const rec = ' + json.dumps(dat_rec))
@@ -350,6 +362,7 @@ env_jinja2.globals.update(desordenar = desordenar)
 env_jinja2.globals.update(orden_inverso = orden_inverso)
 env_jinja2.globals.update(fecha_prensa = fecha_prensa)
 env_jinja2.globals.update(per = datos_de_persona)
+env_jinja2.globals.update(sds = datos_de_sede)
 
 
 if __name__ == '__main__':

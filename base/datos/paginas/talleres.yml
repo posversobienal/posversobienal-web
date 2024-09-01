@@ -11,127 +11,111 @@ contenido: |
 
   ---
 
-  ## Las formas del agua
-  **ALE MONTIEL**
+  ## Estrategias didácticas para la educación artística.
+  **{{ per('daniela_mastrandrea') }}**{.text-uppercase}
 
-  - SEDE: Casa Popular Dante Balestro.
-  - MATERIALES: hojas tamaño A3 para cada participante, fibrones de varios grosores y fibras en la gama de los azules.
-  - DESTINATARIO: público general.
-  - FECHA: a confirmar.
-  - HORARIO: 17.00 a 19.00.
 
-  ---
-
-  ## Livecoding. Exploración expresiva mediante programación en tiempo real
-  **CARLOS MACHERATTI**
-
-  - SEDE: Centro de Capacitación y Cultura ATSA.
-  - DESTINATARIO: Público general.
-  - MÁXIMO: 20 a 30 personas.
-  - FECHA: a confirmar.
+  - <small>FECHA:</small> **Miércoles 16 de octubre**. <small>HORARIO:</small> a confirmar.
+  - <small>SEDE:</small> {{ sds('centro_de_capacitacion_y_cultura_atsa')}}.
+  - <small>DESTINATARIOS:</small> Docentes de Educación Artística.
 
   ---
 
-  ## Taller de Poesía Visual y Experimental
-  **CLAUDIO MANGIFESTA**
+  ## Lengua de pájaros.
+  **{{ per('montenegro_fisher') }}**{.text-uppercase}
 
-  - SEDE: Escuela de Arte Xul Solar.
-  - MATERIALES: Revistas o libros antiguos para RECORTAR imágenes y letras. Hojas o cartón para usar como base. Tijeras, plasticola, Letras (de cualquier tipo). Tipos móviles de las viejas imprentas, sellos, letraset, letras caladas o stencil, etc. Imágenes de diversos tipos.
-  - DESTINATARIO: Público general.
-  - DURACIÓN: 3 horas. Horario a confirmar.
-  - FECHA: Jueves 7 de noviembre.
-
-  ---
-
-  ## Lengua de pájaros
-  **MONTENEGRO-FISHER**
-
-  - SEDE: Escuela Provincial de Teatro “Gilberto A. Mesa.
-  - MATERIALES: 40 hojas de papel, 40 plumones/ lápices de color. Los estudiantes son bienvenidos a traer instrumentos musicales u objetos que produzcan sonido.
-  - DESTINATARIOS: Estudiantes nivel terciario.
-  - MÁXIMO: 20 participantes.
-  - FECHAS: 22 y 24 de octubre.
-  - HORARIO: 16.00 a 18.00.
+  - <small>FECHAS:</small> **Martes 22 y miércoles 24 de octubre**. <small>HORARIO:</small> **16.00 a 18.00**.
+  - <small>SEDE:</small> {{ sds('escuela_de_teatro_gilberto_mesa') }}.
+  - <small>DESTINATARIOS:</small> Estudiantes nivel terciario.
+  - <small>MÁXIMO:</small> 20 participantes.
+  - <small>MATERIALES:</small> 40 hojas de papel, 40 plumones/ lápices de color. Los estudiantes son bienvenidos a traer instrumentos musicales u objetos que produzcan sonido.
 
   ---
 
-  ## TIPOESÍA Poesía Tipográfica
-  **RO BARRAGÁN**
+  ## Taller de Poesía Visual y Experimental.
+  **{{ per('claudio_mangifesta') }}**{.text-uppercase}
 
-  - SEDE: Escuela de Educación Artística “Víctor Grippo.
-  - MATERIALES: Se contará con materiales específicos provistos por Ilusión gráfica.
-  - DESTINATARIOS: Público general. 15 participantes.
-  - FECHA: 15 de noviembre.
-  - HORARIO: 9.30 a 13.30.
+  - <small>FECHA:</small> **Jueves 7 de noviembre**. <small>HORARIO:</small> a confirmar.
+  - <small>SEDE:</small> {{ sds('escuela_de_arte_xul_solar') }}.
+  - <small>DESTINATARIO:</small> Público general.
+  - <small>DURACIÓN:</small> 3 horas.
+  - <small>MATERIALES:</small> Revistas o libros antiguos para RECORTAR imágenes y letras. Hojas o cartón para usar como base. Tijeras, plasticola, Letras (de cualquier tipo). Tipos móviles de las viejas imprentas, sellos, letraset, letras caladas o stencil, etc. Imágenes de diversos tipos.
+
+  ---
+
+  ## Taller de arte correo.
+  **{{ per('rosa_gravino') }}**{.text-uppercase} Y **{{ per('marcela_peral' )}}**{.text-uppercase}
+
+  - <small>FECHA:</small> **Viernes 8 noviembre**. <small>HORARIO:</small> **16.00 a 18.00**.
+  - <small>SEDE:</small> {{ sds('biblioteca_paz_y_trabajo') }}.
+  - <small>DESTINATARIOS:</small> Público en general.
+
+  ---
+
+  ## TIPOESÍA Poesía Tipográfica.
+  **{{ per('ro_barragan') }}**{.text-uppercase}
+
+  - <small>FECHA:</small> **Viernes 15 de noviembre**. <small>HORARIO:</small> **9.30 a 13.30**.
+  - <small>SEDE:</small> {{ sds('escuela_de_educacion_artistica_victor_grippo') }}.
+  - <small>MATERIALES:</small> Se contará con materiales específicos provistos por Ilusión gráfica.
+  - <small>DESTINATARIOS:</small> Público general.
+  - <small>MÁXIMO:</small> 15 participantes.
+
+  ---
+
+  ## Objeto y rastro. Taller de arte de performance.
+  **{{ per('alberto_couratier') }}**{.text-uppercase}
+
+  - <small>FECHA:</small> **Viernes 15 de noviembre**. <small>HORARIO:</small> a confirmar.
+  - <small>SEDE:</small> {{ sds('escuela_de_teatro_gilberto_mesa') }}.
+  - <small>DESTINATARIOS:</small> Jóvenes de 18 a 25 años.
 
   ---
 
   ## Proposiciones (in) poéticas.
   **JULIA CISNEROS**
 
-  - SEDE: Centro Cultural Marea Cultura.
-  - MATERIALES: Papel, lapicera, lápices, celular (o algo para grabar), partituras, objetos sonoros (tubitos, cornetas, silbatos, flautas, entre otros).
-  - DESTINATARIOS: Mayores de 16 años. Máximo 20 participantes.
-  - FECHA: 21 y 22 de noviembre.
-  - HORARIO: 17.00 a 20.00.
+  - <small>FECHA:</small> **Jueves 21 y viernes 22 de noviembre**. <small>HORARIO:</small> **17.00 a 20.00**.
+  - <small>SEDE:</small> {{ sds('centro_cultural_marea_cultura') }}.
+  - <small>DESTINATARIOS:</small> Mayores de 16 años.
+  - <small>MÁXIMO:</small> 20 participantes.
+  - <small>MATERIALES:</small> Papel, lapicera, lápices, celular (o algo para grabar), partituras, objetos sonoros (tubitos, cornetas, silbatos, flautas, entre otros).
+
+  ---
+
+  ## Las formas del agua.
+  **{{ per('ale_montiel' )}}**{.text-uppercase}
+
+  - <small>FECHA:</small> a confirmar. <small>HORARIO:</small> **17.00 a 19.00**.
+  - <small>SEDE:</small> {{ sds('casa_popular_dante_balestro') }}.
+  - <small>DESTINATARIO:</small> público general.
+  - <small>MATERIALES:</small> Hojas tamaño A3 para cada participante, fibrones de varios grosores y fibras en la gama de los azules.
+
+  ---
+
+  ## Livecoding. Exploración expresiva mediante programación en tiempo real.
+  **{{ per('carlos_alberto_macheratti') }}**{.text-uppercase}
+
+  - <small>FECHA:</small> a confirmar. <small>HORARIO:</small> a confirmar.
+  - <small>SEDE:</small> {{ sds('centro_de_capacitacion_y_cultura_atsa') }}.
+  - <small>DESTINATARIO:</small> Público general.
+  - <small>MÁXIMO:</small> 20 a 30 personas.
 
   ---
 
   ## Proposiciones (in) poéticas para público infantil. Paisajes sonoros.
   **JULIA CISNEROS**
 
-  - SEDE: a confirmar.
-  - FECHA Y HORARIO: a confirmar.
+  - <small>FECHA:</small> a confirmar. <small>HORARIO:</small> a confirmar.
+  - <small>SEDE:</small> a confirmar.
 
   ---
 
-  ## Taller de arte correo
-  **ROSA GRAVINO Y MARCELA PERAL**
-
-  - SEDE: Biblioteca Popular Paz y Trabajo.
-  - DESTINATARIOS: Público en general.
-  - FECHA: 8 Noviembre.
-  - HORARIO: 16.00 a 18.00.
-
-  ---
-
-  ## Rondas creativas
+  ## Rondas creativas.
   **SANDRA GALLI**
 
-  - SEDE: Fundación Casa Pronto.
-  - MATERIALES: Papeles de todo tipo, cartones, revistas, pegamento, hilos, cintas de enmascarar de colores, elásticos, marcadores, lápices, tijeras, letras, botones, postales, lana, pajitas, palitos de helado.
-  - DESTINATARIOS: Público adulto.
-  - DURACIÓN: dos horas. Horario a confirmar.
-  - FECHA: a confirmar.
-
-  ---
-
-  ## Objeto y rastro. Taller de arte de performance
-  **ALBERTO COURATIER**
-
-  - SEDE: Escuela Provincial de Teatro ‘Gilberto A. Mesa”.
-  - DESTINATARIOS: Jóvenes de 18 a 25 años.
-  - FECHA: 15 de noviembre.
-  - HORARIO: a confirmar.
-
-  ---
-
-  ## Estrategias didácticas para la educación artística
-  **DANIELA MASTRANDREA**
-
-  - SEDE: Centro de Capacitación y Cultura ATSA.
-  - DESTINATARIOS: Docentes de Educación Artística.
-  - FECHA: 16 de octubre.
-  - HORARIO: a confirmar.
-
-
-emmails: |
-
-  **ALE MONTIEL** (ale.montiel@gmail.com)
-  **CARLOS MACHERATTI** (nodos.dsnn@gmail.com)
-  **CLAUDIO MANGIFESTA** (mangifesta.claudio@gmail.com)
-  **MONTENEGRO-FISHER** (montenegrofisher@gmail.com)
-  **RO BARRAGÁN** (ro_barragan@yahoo.com.ar)
-  **JULIA CISNEROS** (jcisneros4@abc.gob.ar)
-  **ROSA GRAVINO  Y MARCELA PERAL** (marcegraba@gmail.com)
-  **SANDRA GALLI** (sandragalli1964@gmail.com)
+  - <small>FECHA:</small> a confirmar. <small>HORARIO:</small> a confirmar.
+  - <small>SEDE:</small> {{ sds('fundacion_casa_pronto') }}.
+  - <small>DESTINATARIOS:</small> Público adulto.
+  - <small>DURACIÓN:</small> 2 horas.
+  - <small>MATERIALES:</small> Papeles de todo tipo, cartones, revistas, pegamento, hilos, cintas de enmascarar de colores, elásticos, marcadores, lápices, tijeras, letras, botones, postales, lana, pajitas, palitos de helado.
