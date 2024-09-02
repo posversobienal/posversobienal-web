@@ -1,0 +1,14 @@
+---
+
+nombre: 'La Luz Buena - Arte de ocupación'
+domicilio: 'Agustín Roca, Buenos Aires, Argentina.'
+gmaps: 'https://maps.app.goo.gl/SMBAA6vTiVghjx6AA'
+
+geopos:
+  coord: [-34.511466, -60.86764]
+  icono: pin-sede
+
+fotos:
+  - 'la_luz_buena.jpg'
+eventos_asociados: []
+descripcion: []

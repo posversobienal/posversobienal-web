@@ -164,6 +164,7 @@ sedes:
     - escuela_de_teatro_gilberto_mesa
     - unnoba_alicia_moreau_de_justo
     - el_espacio
+    - la_luz_buena
 
   nombres:
     biblioteca_paz_y_trabajo: ['Biblioteca Popular Paz y Trabajo', true]
@@ -191,4 +192,5 @@ sedes:
     eac: ['Espacio a confirmar', false]
     plaza_25_de_mayo: ['Espacio público (Plaza 25 de Mayo y cercanías)', false]
     espacio_publico: ['Espacio público', false]
+    la_luz_buena: ['La Luz Buena - Arte de ocupación', true]
     '??': ['', false]

@@ -51,10 +51,17 @@ fechas:
           texto: |
             A cargo de Ana Longoni, Lucía Cañada y Lucía Bianchi.
 
+        '13:30':
+          lugar: la_luz_buena
+          tipo: 'Visita grupal'
+          titulo: 'URBANISMO. Visita a la obra in situ de Marcela Astorga.'
+          url: ''
+          texto: ''
+
         '17:30 a 20:00':
           lugar: maca
           tipo: 'Performances'
-          titulo: 'Fernando Aguiar (Portugal), Rosemberg Sandoval (Colombia) y Montenegro-Fisher (Chile-Reino Unido)'
+          titulo: 'Fernando Aguiar (Portugal), y Montenegro-Fisher (Chile-Reino Unido)'
           texto: ''
 
         '21:00':
@@ -108,9 +115,9 @@ fechas:
         '15:00 a 17:00':
           lugar: escuela_de_arte_xul_solar
           tipo: 'Charla'
-          titulo: 'Ser artista en un país como Colombia'
+          titulo: ''
           texto: |
-            Rosemberg Sandoval (Colombia).
+            Andrea Hygino (Brasil).
 
         '19:30':
           lugar: escuela_de_teatro_gilberto_mesa
