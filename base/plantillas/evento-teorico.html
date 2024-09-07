@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
 {% block body %}
+
 {% if 'imagen_cabecera' in pag %}
 <div class="">
     <img src="{{ pag.imagen_cabecera }}" class="img-fluid">
@@ -16,7 +17,8 @@
 
         <section class="{{ pag.estilo }} col-lg-12">
             <div>{{ markdown(pag.contenido) }}</div>
-            <br><hr><br>
+            <br><br>
+
             <div id="lista" class="en-2-columnas participantes-evento-teorico">
                 {% for k, v in pag.listado.items() %}
                 <div class="item m-2 border border-black rounded-2">
@@ -34,6 +36,13 @@
 
     </div>
 </div>
+<br><br><hr>
+<h2 id="cronograma" class="text-center">Cronograma de Eventos teóricos</h2>
+<div class="border border-dark m-5 p-5">
+    <div class="cronograma" id="cronograma_completo_aqui" data-cfg='{"menu_filtrado": false, "filtro_x_tipo": "Evento Teórico"}'></div>
+</div>
+<script src="/lib/js/acc-cronograma.js?{{ cfg.cache_actu }}"></script>
+
 <script>
  let btns_ampliacion_bio = document.querySelectorAll("[name=ampliar_bio]");
  btns_ampliacion_bio.forEach(el => {

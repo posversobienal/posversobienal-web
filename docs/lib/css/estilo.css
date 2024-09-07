@@ -675,6 +675,47 @@ a.actual {
     color: #fff;
   }
 }
+.cronograma {
+  position: relative;
+}
+.cronograma .ocultar {
+  display: none;
+}
+.cronograma .menu-filtrado {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.cronograma .menu-filtrado .icono {
+  width: 100%;
+  text-align: right;
+  margin: 10px;
+}
+.cronograma .menu-filtrado .contenido {
+  color: #fff;
+  padding: 6px;
+  background: #000;
+  border: 1px solid #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  display: none;
+}
+.cronograma .menu-filtrado:hover .contenido {
+  display: block;
+}
+.cronograma .menu-filtrado button {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  margin: 2px;
+  background: #fff;
+  padding: 2px 3px;
+  display: block;
+  text-align: left;
+  border-radius: 4px;
+}
+.cronograma .menu-filtrado button:hover {
+  background: #444;
+  color: #fff;
+  transition: 0.2s all ease;
+}
 .cronograma .mes {
   margin: 0;
   padding: 30px 0;

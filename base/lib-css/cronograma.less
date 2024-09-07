@@ -1,4 +1,49 @@
 .cronograma {
+    position: relative;
+    .ocultar {
+        display: none;
+    }
+    .menu-filtrado {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+
+        .icono {
+            width: 100%;
+            text-align: right;
+            margin: 10px;
+        }
+        .contenido {
+            color: #fff;
+            padding: 6px;
+            background: #000;
+            border: 1px solid #fff;
+            box-shadow: 0 0 20px rgba(0,0,0,.3);
+            display: none;
+        }
+
+        &:hover {
+            .contenido {
+                display: block;
+            }
+        }
+
+        button {
+            border: 1px solid rgba(0,0,0,.3);
+            margin: 2px;
+            background: #fff;
+            padding: 2px 3px;
+            display: block;
+            text-align: left;
+            border-radius: 4px;
+            &:hover {
+                background: #444;
+                color: #fff;
+                transition: 0.2s all ease;
+            }
+        }
+    }
     .mes {
         margin: 0;
         padding: 30px 0;

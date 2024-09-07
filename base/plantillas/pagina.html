@@ -2,10 +2,15 @@
 
 {% block body %}
 {% if 'imagen_cabecera' in pag %}
-<div class="">
+<div>
     <img src="{{ pag.imagen_cabecera }}" class="img-fluid">
+    {% if 'imagen_cabecera_creditos' in pag %}
+    <div class="text-end text-small mx-3">{{ markdown(pag.imagen_cabecera_creditos) }}</div>
+    {% endif %}
 </div>
 {% endif %}
+
+
 <div class="container contenido">
 
     <header class="my-5">

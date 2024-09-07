@@ -2,6 +2,7 @@ class Cronograma {
     elem = undefined;
     data = undefined;
     filtro = undefined;
+    cfg = undefined;
     cLsEventos = 'lista-de-eventos';
     html_mes = '<div class="mes" name="{mes_id}"><h3 class="mes_titulo">{mes_nomb}</h3><ul class="fechas"></ul></div>';
     html_evn = `<li><div class="evento">
@@ -20,10 +21,20 @@ class Cronograma {
             this.elem = el;
             this.data = da;
             this.filtro = fi;
+            this.cfg = JSON.parse(this.elem.attributes['data-cfg'].value);
 
             this.filtrar();
             this.generar();
             this.posprocesar();
+
+            if(this.cfg.menu_filtrado){
+                this.utilidad_filtrado();
+            }
+
+            if(this.cfg.filtro_x_tipo){
+                this.filtrar_por_tipo(this.cfg.filtro_x_tipo);
+            }
+
         }
     }
 
@@ -107,6 +118,54 @@ class Cronograma {
         // eliminar todo si no hay eventos para la sede actual
         if(this.elem.querySelector(`.${this.cLsEventos}`).innerHTML === ''){
             this.elem.parentElement.remove();
+        }
+    }
+
+    utilidad_filtrado(){
+        let menu = document.createElement('div');
+        menu.innerHTML = '<button>Mostrar Todos</button><span>o filtrar por:</span><br>';
+        menu.classList.add('menu-filtrado');
+        let tipos = [];
+        let tagtipo = this.elem.querySelectorAll('span.tipo');
+        tagtipo.forEach(el => {
+            let v = el.innerHTML;
+            if(v == ''){ v = '-Sin definir-'}
+            if( !tipos.includes(v)){
+                tipos.push(v);
+            }
+        });
+        tipos.sort().forEach(v=>{
+            let btn = document.createElement('button');
+            btn.innerHTML = v
+            menu.appendChild(btn);
+        });
+
+        menu.innerHTML = `<div class="icono" title="Filtrado por TIPO"><img src="/rec/grafica/icon-filtrar.svg" width="30"></div><div class="contenido">${menu.innerHTML}</div>`;
+
+        this.elem.appendChild(menu);
+
+        menu.querySelectorAll('button').forEach(el=>{
+            el.addEventListener('click', ev=>{
+                this.filtrar_por_tipo(el.innerHTML);
+            })
+        });
+
+    }
+
+    filtrar_por_tipo(id_tipo){
+        let cOc = 'ocultar';
+        let eventos = this.elem.querySelectorAll('.evento');
+        eventos.forEach(el=>{ el.parentElement.classList.remove(cOc) });
+        if(id_tipo !== 'Mostrar Todos'){
+            if(id_tipo == '-Sin definir-'){
+                id_tipo = '';
+            }
+            eventos.forEach(el=>{
+                let tipo = el.querySelector('.tipo');
+                if(tipo.innerHTML !== id_tipo){
+                    el.parentElement.classList.add(cOc);
+                }
+            });
         }
     }
 

@@ -6,6 +6,8 @@ ruta_static: 'pag/talleres/index.html'
 estilo: col-lg-11
 
 imagen_cabecera: '/rec/foto/paginas/talleres.jpg'
+imagen_cabecera_creditos: |
+  Foto de obra de [Ale Montiel](/per/ale_montiel/)
 
 contenido: |
 

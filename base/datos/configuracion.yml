@@ -123,13 +123,14 @@ menu:
       - titulo: 'Talleres'
         url: '/pag/talleres/'
 
-
   - titulo: 'SEDES'
     url: '/pag/sedes/'
   - titulo: 'ARTISTAS'
     url: '/pag/artistas/'
   - titulo: 'PRENSA'
     url: '/pag/prensa/'
+  - titulo: 'VIDEOS'
+    url: '/pag/videos/'
 
 
 idiomas_traducibles:

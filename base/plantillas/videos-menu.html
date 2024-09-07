@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block body %}
+{% if 'imagen_cabecera' in pag %}
+<div class="">
+    <img src="{{ pag.imagen_cabecera }}" class="img-fluid">
+</div>
+{% endif %}
+
+<div class="container contenido">
+
+    <header class="my-5">
+        <h1 class="text-center">{{ pag.titulo }}</h1>
+    </header>
+
+    <div class="row">
+
+        <section class="{{ pag.estilo }} col-lg-12">
+            <div>{{ markdown(pag.contenido) }}</div>
+            <br><hr><br>
+
+            <div id="lista" class="">
+                {% for v in pag.listado %}
+                <div class="rounded-2">
+                    {% if v.emisor == 'youtube' %}
+                    <iframe width="100%" height="580"
+                            src="https://www.youtube.com/embed/{{ v.id }}" title="{{v.titulo}}"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <!-- <h3>{{v.titulo}}</h3> -->
+                    {% endif %}
+                </div>
+                <br><br>
+                {% endfor %}
+            </div>
+        </section>
+
+    </div>
+</div>
+
+{% endblock %}
