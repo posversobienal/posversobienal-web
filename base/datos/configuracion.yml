@@ -114,6 +114,8 @@ menu:
     submenu:
       - titulo: 'Evento teórico'
         url: '/pag/evento_teorico/'
+      - titulo: 'Cronograma de Evento teórico'
+        url: '/pag/evento_teorico/#cronograma'
       - titulo: 'Mediación educativa'
         url: '/pag/mediacion_educativa/'
       - titulo: 'Publicaciones'
