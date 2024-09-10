@@ -115,9 +115,9 @@ fechas:
         '15:00 a 17:00':
           lugar: escuela_de_arte_xul_solar
           tipo: 'Charla'
-          titulo: ''
+          titulo: 'A cadeira, o Levante, a ginga'
           texto: |
-            Andrea Hygino (Brasil).
+            Andréa Hygino (Brasil).
 
         '19:30':
           lugar: escuela_de_teatro_gilberto_mesa
@@ -345,13 +345,6 @@ fechas:
       dia: Jueves
       eventos:
 
-        '11:00 a 13:00':
-          lugar: plaza_25_de_mayo
-          tipo: 'Activación performance'
-          titulo: 'POESÍA VIVA'
-          texto: |
-            Paulo Bruscky (Brasil).
-
         '20:00':
           lugar: hotel_dada
           tipo: 'Evento Teórico'
@@ -417,19 +410,6 @@ fechas:
             Claudia Kozak (Argentina).
             <br>Rodolfo Mata (México).
             <br>Michael Hurtado (Perú).
-
-
-    29:
-      dia: Viernes
-      eventos:
-
-        '20:00':
-          lugar: fundacion_casa_pronto
-          tipo: 'Charla'
-          titulo: 'Acerca de la obra digital/interactiva Los Pronombres'
-          texto: |
-            Rodolfo Mata (México)
-
 
 
   diciembre:
