@@ -39,7 +39,6 @@ contenido: |
   <br><small>APERTURA:</small> **8 de noviembre de 2024**.
 
   + {{ per('ale_montiel') }}
-  + {{ per('andres_pasinovich') }}
   + {{ per('angelica_chio') }}
   + {{ per('carlos_alberto_macheratti') }}
   + {{ per('claudia_lyrio') }}

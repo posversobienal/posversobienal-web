@@ -19,6 +19,7 @@ contenido: |
 
   + {{ per('alejandro_thornton') }}
   + {{ per('andrea_hygino') }}
+  + {{ per('andres_pasinovich') }}
   + {{ per('antonio_caro') }}
   + {{ per('carlos_gallardo') }}
   + {{ per('claudia_del_rio') }}
