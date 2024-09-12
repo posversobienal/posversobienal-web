@@ -1,0 +1,31 @@
+---
+
+nombre: 'Alejandro'
+apellido: 'Meitin'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://ar.linkedin.com/in/alejandro-meitin-1697b033'
+
+eventos: []
+
+fotos:
+  persona: 'alejandro_meitin.jpg'
+  obra: 'alejandro_meitin-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 20%
+
+etiquetas:
+  - invitado
+
+detalle: |
+  {{ idioma('esp') }}
+
+  (La Plata, Argentina). Artista, abogado e innovador social con una sólida trayectoria en la creación de iniciativas artísticas y medioambientales impactantes. Alejandro comenzó su carrera trabajando en los Parques Nacionales de la Patagonia. Su compromiso con el arte y el activismo ambiental lo llevó a fundar Ala Plástica en 1991, una organización dedicada a promover conexiones ecológicas, sociales y artísticas. Ha participado en exposiciones y conferencias en todo el mundo, explorando temas como la relación entre el arte y el medio ambiente, la sostenibilidad y la justicia ambiental. En 2017, fundó Casa Río Lab, un espacio de investigación que utiliza métodos artísticos para generar análisis y prácticas orientadas a promover el desarrollo y nuevas políticas públicas. Este laboratorio se enfoca en la dimensión ecosistémica de la planificación del uso de las zonas costeras, integrándose en marcos de políticas medioambientales nacionales e internacionales. Con una visión amplia y comprometida, Alejandro Meitin continúa liderando iniciativas innovadoras que promueven la intersección entre el arte, el medio ambiente y el activismo social a nivel global.
+
+  {{ idioma('eng') }}
+
+  (La Plata, Argentina). Is an artist, lawyer, and social innovator with a strong track record in creating impactful artistic and environmental initiatives. Alejandro began his career working in the National Parks of Patagonia. His commitment to art and environmental activism led him to found Ala Plástica in 1991, an organization dedicated to promoting ecological, social, and artistic connections. He has participated in exhibitions and conferences worldwide, exploring themes such as the relationship between art and the environment, sustainability, and environmental justice. In 2017, he founded Casa Río Lab, a research space that uses artistic methods to generate analysis and practices aimed at promoting development and new public policies. This laboratory focuses on the ecosystemic dimension of coastal zone use planning, integrating into national and international environmental policy frameworks. With a broad and committed vision, Alejandro Meitin continues to lead innovative initiatives that promote the intersection of art, the environment, and social activism globally.
+  {.lang-eng}

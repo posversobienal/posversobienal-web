@@ -22,6 +22,7 @@ etiquetas:
 
 detalle: |
   {{ idioma('esp') }}
+
   Como profesor de Artes Visuales con maestría en educación artística y cómo artista visual, su trayectoria se ha destacado por su participación activa en encuentros con artistas internacionales. Su trabajo se centra en establecer un vínculo entre las artes visuales y la pedagogía, el cual comparte a través de talleres, charlas y exposiciones tanto a nivel nacional como internacional. Ha tenido el privilegio de compartir su arte y conocimientos en diversos países, incluyendo Chile, Argentina, Perú, Bolivia, Venezuela, Estados Unidos, México y Dinamarca. Esta experiencia le ha permitido enriquecer su práctica artística.
 
   {{ idioma('eng') }}
