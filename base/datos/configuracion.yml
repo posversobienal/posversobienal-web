@@ -22,11 +22,11 @@ emails:
   pvweb: 'web.posversobienal@gmail.com'
 
 urls:
+  formulario_mediadores: 'https://forms.gle/hJM7cU9euwRMom527'
+  formulario_talleres: 'https://forms.gle/XfDbBHWNRaAprcBAA'
   formulario_convocatoria:
     es: 'https://forms.gle/ky4dzY4MrhZSA9nx8'
     en: 'https://forms.gle/Mgq4FxMJQeDYYDra8'
-
-  formulario_mediadores: 'https://forms.gle/hJM7cU9euwRMom527'
 
   posversobienal: 'https://posversobienal.com.ar/'
   posverso_instagram: 'https://instagram.com/posverso_bienal'

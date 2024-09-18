@@ -11,9 +11,21 @@ imagen_cabecera_creditos: |
 
 contenido: |
 
+  Los talleres son todos presenciales y algunos tienen cupos limitados. Necesitamos que quienes tengan interés y disposición de participar se inscriban previamente a los talleres correspondientes mediante el
+  [Formulario de Inscripción a Talleres]({{ cfg.urls.formulario_talleres }}){.btn .btn-outline-dark .py-1 .px-2 target=_blank}.
+
+  Algunos no tienen definido aún sus datos de fecha, hora y/o lugar. Para esos casos solicitamos que vuelvan a consultar periódicamente esta página.
+
+  Respecto de los talleres con cupos limitados, informaremos por esta página cuando estén agotados los cupos, y también por email a quienes envien la inscripción.
+
+  <br><br>
+
+
+  ## CRONOGRAMA {.text-center}
+
   ---
 
-  ## Estrategias didácticas para la educación artística.
+  ### Estrategias didácticas para la educación artística.
   **{{ per('daniela_mastrandrea') }}**{.text-uppercase}
 
 
@@ -23,10 +35,10 @@ contenido: |
 
   ---
 
-  ## Lengua de pájaros.
+  ### Lengua de pájaros.
   **{{ per('montenegro_fisher') }}**{.text-uppercase}
 
-  - <small>FECHAS:</small> **Martes 22 y miércoles 24 de octubre**. <small>HORARIO:</small> **16.00 a 18.00**.
+  - <small>FECHAS:</small> **Martes 22 de octubre**. <small>HORARIO:</small> **16.00 a 18.00**.
   - <small>SEDE:</small> {{ sds('escuela_de_teatro_gilberto_mesa') }}.
   - <small>DESTINATARIOS:</small> Estudiantes nivel terciario.
   - <small>MÁXIMO:</small> 20 participantes.
@@ -34,7 +46,7 @@ contenido: |
 
   ---
 
-  ## Taller de Poesía Visual y Experimental.
+  ### Taller de Poesía Visual y Experimental.
   **{{ per('claudio_mangifesta') }}**{.text-uppercase}
 
   - <small>FECHA:</small> **Jueves 7 de noviembre**. <small>HORARIO:</small> a confirmar.
@@ -45,7 +57,7 @@ contenido: |
 
   ---
 
-  ## Taller de arte correo.
+  ### Taller de arte correo.
   **{{ per('rosa_gravino') }}**{.text-uppercase} Y **{{ per('marcela_peral' )}}**{.text-uppercase}
 
   - <small>FECHA:</small> **Viernes 8 noviembre**. <small>HORARIO:</small> **16.00 a 18.00**.
@@ -54,7 +66,7 @@ contenido: |
 
   ---
 
-  ## TIPOESÍA Poesía Tipográfica.
+  ### TIPOESÍA. Poesía Tipográfica.
   **{{ per('ro_barragan') }}**{.text-uppercase}
 
   - <small>FECHA:</small> **Viernes 15 de noviembre**. <small>HORARIO:</small> **9.30 a 13.30**.
@@ -65,7 +77,7 @@ contenido: |
 
   ---
 
-  ## Objeto y rastro. Taller de arte de performance.
+  ### Objeto y rastro. Taller de arte de performance.
   **{{ per('alberto_couratier') }}**{.text-uppercase}
 
   - <small>FECHA:</small> **Viernes 15 de noviembre**. <small>HORARIO:</small> a confirmar.
@@ -74,7 +86,17 @@ contenido: |
 
   ---
 
-  ## Proposiciones (in) poéticas.
+  ### Livecoding. Exploración expresiva mediante programación en tiempo real.
+  **{{ per('carlos_alberto_macheratti') }}**{.text-uppercase}
+
+  - <small>FECHA:</small> **Martes 19 de noviembre**. <small>HORARIO:</small> **17:00 a 20:00**.
+  - <small>SEDE:</small> {{ sds('centro_de_capacitacion_y_cultura_atsa') }}.
+  - <small>DESTINATARIO:</small> Público general.
+  - <small>MÁXIMO:</small> 20 a 30 personas.
+
+  ---
+
+  ### Proposiciones (in) poéticas.
   **Julia Cisneros, Julio Lamilla y Alan Courtis**{.text-uppercase}
 
   - <small>FECHA:</small> **Jueves 21 y viernes 22 de noviembre**. <small>HORARIO:</small> **17.00 a 20.00**.
@@ -85,7 +107,7 @@ contenido: |
 
   ---
 
-  ## Las formas del agua.
+  ### Las formas del agua.
   **{{ per('ale_montiel' )}}**{.text-uppercase}
 
   - <small>FECHA:</small> a confirmar. <small>HORARIO:</small> **17.00 a 19.00**.
@@ -95,18 +117,7 @@ contenido: |
 
   ---
 
-  ## Livecoding. Exploración expresiva mediante programación en tiempo real.
-  **{{ per('carlos_alberto_macheratti') }}**{.text-uppercase}
-
-  - <small>FECHA:</small> a confirmar. <small>HORARIO:</small> a confirmar.
-  - <small>SEDE:</small> {{ sds('centro_de_capacitacion_y_cultura_atsa') }}.
-  - <small>DESTINATARIO:</small> Público general.
-  - <small>MÁXIMO:</small> 20 a 30 personas.
-
-  ---
-
-
-  ## Rondas creativas.
+  ### Rondas creativas.
   **SANDRA GALLI**
 
   - <small>FECHA:</small> a confirmar. <small>HORARIO:</small> a confirmar.
@@ -118,7 +129,7 @@ contenido: |
 
 extra: |
 
-  ## Proposiciones (in) poéticas para público infantil. Paisajes sonoros.
+  ### Proposiciones (in) poéticas para público infantil. Paisajes sonoros.
   **JULIA CISNEROS**
 
   - <small>FECHA:</small> a confirmar. <small>HORARIO:</small> a confirmar.
