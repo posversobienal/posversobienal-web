@@ -19,14 +19,24 @@ novedades:
 
 
 deslizador:
-  - {img: 1.jpg, url: '/per/carlos_gallardo/', tit: 'Obra de Carlos Gallardo'}
-  - {img: 2.jpg, url: '/per/luciano_pozo/', tit: 'Obra de Luciano Pozo'}
-  - {img: 3.jpg, url: '/per/marcela_astorga/', tit: 'Obra de Marcela Astorga'}
-  - {img: 4.jpg, url: '/per/roma_vaquero_diaz/', tit: 'Obra de Roma Vaquero Díaz'}
-  - {img: 5.jpg, url: '/per/simone_moraes/', tit: 'Obra de Simone Moraes'}
+  - {img: 1.jpg, url: '/per/maria_papi/', tit: 'Obra de María Papi'}
+  - {img: 2.jpg, url: '/per/ro_barragan/', tit: 'Obra de Ro Barragán'}
+  - {img: 3.jpg, url: '/per/daniel_sarobe/', tit: 'Obra de Daniel Sarobe'}
+  - {img: 4.jpg, url: '/per/tchello_d_barros/', tit: 'Obra de Tchello d’Barros'}
+  - {img: 5.jpg, url: '/per/juan_angel_italiano/', tit: 'Obra de Juan Ángel Italiano'}
+  - {img: 6.jpg, url: '/per/andres_pasinovich/', tit: 'Obra de Andrés Pasinovich'}
+  - {img: 7.jpg, url: '/per/soledad_sanchez_goldar/', tit: 'Obra de Soledad Sanchez Goldar'}
+
 
 deslizador_registro:
+
   PASADOS:
+
+    - carlos_gallardo
+    - luciano_pozo
+    - marcela_astorga
+    - roma_vaquero_diaz
+    - simone_moraes
 
     - antonio_caro
     - claudio_mangifesta
@@ -64,35 +74,54 @@ deslizador_registro:
     - hilda_paz
     - ale_montiel
 
-    - marie orensanz
-    - matilde marin
-    - ale thorton
-    - giovanni fontana
-    - javier del olmo
-    - jurgen olbrich
-    - luc fierens
+    - marie_orensanz
+    - matilde_marin
+    - alejandro_thornton
+    - giovanni_fontana
+    - javier_del_olmo
+    - jurgen_o_olbrich
+    - luc_fierens
     - ana_montenegro
 
   PENDIENTES:
+
+    - alejandro_meitin
+    - angelica_chio
+    - anuar_zuniga_naime
     - bartolome_ferrando
     - carlos_alberto_macheratti
+    - claudia_lyrio
     - clemente_padin
+    - cosega
+    - cristiana_de_marchi
     - daniel_ontiveros
-    - daniel_sarobe
+    - denise_calasans
     - diego_melero
+    - diren_demir
+    - edith_derdyk
+    - enrique_chocair
+    - fernanda_mugica
     - fernando_aguiar
     - ferran_destemple
+    - gaby_lobato
     - guillermo_perez_raventos
-    - juan_angel_italiano
-    - juan_montelpare
-    - maria_jose_machado
-    - ro_barragan
-    - lucas_di_pascuale
-    - rosa_gravino
-    - soledad_sanchez_goldar
+    - irina_novarese
+    - javier_abreu
     - jessica_pujol_duran
+    - jimson_vilela
+    - juan_montelpare
+    - la_lengua_en_la_calle
+    - lucas_di_pascuale
+    - marcio_almeida
+    - maria_jose_machado
+    - maria_zegna
+    - mariana_chiesa
+    - mounir_fatmi
+    - pia_hoehfeld
+    - rafael_bresciani
+    - rosa_gravino
     - ruggero_maggi
     - sergio_bonzon
+    - stephan_gross
     - teresa_pereda
     - tulio_restrepo
-    - marcio_almeida
