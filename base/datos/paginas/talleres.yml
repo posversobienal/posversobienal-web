@@ -93,6 +93,7 @@ contenido: |
   - <small>SEDE:</small> {{ sds('centro_de_capacitacion_y_cultura_atsa') }}.
   - <small>DESTINATARIO:</small> Público general.
   - <small>MÁXIMO:</small> 20 a 30 personas.
+  - <small>MATERIALES:</small> Se recomienda, para una mayor comodidad en la exploración de códigos durante las actividades, llevar su propia tablet o notebook.
 
   ---
 
