@@ -82,10 +82,13 @@ listado:
   jessica_pujol_duran: {nomb: 'Jèssica Pujol Duran', foto: '/rec/foto/personas/jessica_pujol_duran.jpg', link: '/per/jessica_pujol_duran'}
   juan_montelpare: {nomb: 'Juan Montelpare', foto: '/rec/foto/personas/juan_montelpare.jpg', link: '/per/juan_montelpare'}
   michael_hurtado: {nomb: 'Michael Hurtado', foto: '/rec/foto/personas/michael_hurtado.jpg', link: '/per/michael_hurtado'}
-  natalia_giglietti: {nomb: 'Natalia Giglietti', foto: '/rec/foto/personas/natalia_giglietti.jpg', link: '/per/natalia_giglietti'}
   natalia_silberleib: {nomb: 'Natalia Silberleib', foto: '/rec/foto/personas/natalia_silberleib.jpg', link: '/per/natalia_silberleib'}
   patrizio_peterlini: {nomb: 'Patrizio Peterlini', foto: '/rec/foto/personas/patrizio_peterlini.jpg', link: '/per/patrizio_peterlini'}
   paula_doberti: {nomb: 'Paula Doberti', foto: '/rec/foto/personas/paula_doberti.jpg', link: '/per/paula_doberti'}
   paulo_bruscky: {nomb: 'Paulo Bruscky', foto: '/rec/foto/personas/paulo_bruscky.jpg', link: '/per/paulo_bruscky'}
   rodolfo_mata: {nomb: 'Rodolfo Mata', foto: '/rec/foto/personas/rodolfo_mata.jpg', link: '/per/rodolfo_mata'}
   silvio_de_gracia: {nomb: 'Silvio De Gracia', foto: '/rec/foto/personas/silvio_de_gracia_3.jpg', link: '/per/silvio_de_gracia'}
+
+
+extra:
+  natalia_giglietti: {nomb: 'Natalia Giglietti', foto: '/rec/foto/personas/natalia_giglietti.jpg', link: '/per/natalia_giglietti'}

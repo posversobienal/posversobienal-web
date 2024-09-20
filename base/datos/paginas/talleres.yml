@@ -38,7 +38,7 @@ contenido: |
   ### Lengua de pájaros.
   **{{ per('montenegro_fisher') }}**{.text-uppercase}
 
-  - <small>FECHAS:</small> **Martes 22 de octubre**. <small>HORARIO:</small> **16.00 a 18.00**.
+  - <small>FECHA:</small> **Martes 22 de octubre**. <small>HORARIO:</small> **16:00 a 18:00**.
   - <small>SEDE:</small> {{ sds('escuela_de_teatro_gilberto_mesa') }}.
   - <small>DESTINATARIOS:</small> Estudiantes nivel terciario.
   - <small>MÁXIMO:</small> 20 participantes.
@@ -60,20 +60,41 @@ contenido: |
   ### Taller de arte correo.
   **{{ per('rosa_gravino') }}**{.text-uppercase} Y **{{ per('marcela_peral' )}}**{.text-uppercase}
 
-  - <small>FECHA:</small> **Viernes 8 noviembre**. <small>HORARIO:</small> **16.00 a 18.00**.
+  - <small>FECHA:</small> **Viernes 8 noviembre**. <small>HORARIO:</small> **16:00 a 18:00**.
   - <small>SEDE:</small> {{ sds('biblioteca_paz_y_trabajo') }}.
   - <small>DESTINATARIOS:</small> Público en general.
+
+  ---
+
+  ### Las formas del agua.
+  **{{ per('ale_montiel' )}}**{.text-uppercase}
+
+  - <small>FECHA:</small> **Miércoles 13 de noviembre**. <small>HORARIO:</small> **17:00 a 19:00**.
+  - <small>SEDE:</small> {{ sds('casa_popular_dante_balestro') }}.
+  - <small>DESTINATARIO:</small> público general.
+  - <small>MATERIALES:</small> Hojas tamaño A3 para cada participante, fibrones de varios grosores y fibras en la gama de los azules.
 
   ---
 
   ### TIPOESÍA. Poesía Tipográfica.
   **{{ per('ro_barragan') }}**{.text-uppercase}
 
-  - <small>FECHA:</small> **Viernes 15 de noviembre**. <small>HORARIO:</small> **9.30 a 13.30**.
+  - <small>FECHA:</small> **Viernes 15 de noviembre**. <small>HORARIO:</small> **9:30 a 13:30**.
   - <small>SEDE:</small> {{ sds('escuela_de_educacion_artistica_victor_grippo') }}.
   - <small>MATERIALES:</small> Se contará con materiales específicos provistos por Ilusión gráfica.
   - <small>DESTINATARIOS:</small> Público general.
   - <small>MÁXIMO:</small> 15 participantes.
+
+  ---
+
+  ### Rondas creativas.
+  **SANDRA GALLI**
+
+  - <small>FECHA:</small> **Viernes 15 de noviembre**. <small>HORARIO:</small> **18:00 a 20:00**.
+  - <small>SEDE:</small> {{ sds('fundacion_casa_pronto') }}.
+  - <small>DESTINATARIOS:</small> Público adulto.
+  - <small>DURACIÓN:</small> 2 horas.
+  - <small>MATERIALES:</small> Papeles de todo tipo, cartones, revistas, pegamento, hilos, cintas de enmascarar de colores, elásticos, marcadores, lápices, tijeras, letras, botones, postales, lana, pajitas, palitos de helado.
 
   ---
 
@@ -100,38 +121,8 @@ contenido: |
   ### Proposiciones (in) poéticas.
   **Julia Cisneros, Julio Lamilla y Alan Courtis**{.text-uppercase}
 
-  - <small>FECHA:</small> **Jueves 21 y viernes 22 de noviembre**. <small>HORARIO:</small> **17.00 a 20.00**.
+  - <small>FECHA:</small> **Jueves 21 de noviembre**. <small>HORARIO:</small> **17:00 a 20:00**.
   - <small>SEDE:</small> {{ sds('centro_cultural_marea_cultura') }}.
   - <small>DESTINATARIOS:</small> Mayores de 16 años.
   - <small>MÁXIMO:</small> 20 participantes.
   - <small>MATERIALES:</small> Papel, lapicera, lápices, celular (o algo para grabar), partituras, objetos sonoros (tubitos, cornetas, silbatos, flautas, entre otros).
-
-  ---
-
-  ### Las formas del agua.
-  **{{ per('ale_montiel' )}}**{.text-uppercase}
-
-  - <small>FECHA:</small> a confirmar. <small>HORARIO:</small> **17.00 a 19.00**.
-  - <small>SEDE:</small> {{ sds('casa_popular_dante_balestro') }}.
-  - <small>DESTINATARIO:</small> público general.
-  - <small>MATERIALES:</small> Hojas tamaño A3 para cada participante, fibrones de varios grosores y fibras en la gama de los azules.
-
-  ---
-
-  ### Rondas creativas.
-  **SANDRA GALLI**
-
-  - <small>FECHA:</small> a confirmar. <small>HORARIO:</small> a confirmar.
-  - <small>SEDE:</small> {{ sds('fundacion_casa_pronto') }}.
-  - <small>DESTINATARIOS:</small> Público adulto.
-  - <small>DURACIÓN:</small> 2 horas.
-  - <small>MATERIALES:</small> Papeles de todo tipo, cartones, revistas, pegamento, hilos, cintas de enmascarar de colores, elásticos, marcadores, lápices, tijeras, letras, botones, postales, lana, pajitas, palitos de helado.
-
-
-extra: |
-
-  ### Proposiciones (in) poéticas para público infantil. Paisajes sonoros.
-  **JULIA CISNEROS**
-
-  - <small>FECHA:</small> a confirmar. <small>HORARIO:</small> a confirmar.
-  - <small>SEDE:</small> a confirmar.

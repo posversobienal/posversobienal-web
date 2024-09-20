@@ -151,15 +151,6 @@ fechas:
       dia: Jueves
       eventos:
 
-        '16:00':
-          lugar: escuela_de_educacion_artistica_victor_grippo
-          tipo: 'Evento Teórico'
-          titulo: '3: Luis Pazos. Poesía y Acción.'
-          url: '/pag/artistas_homenajeados/#luis-pazos-1940-2023'
-          texto: |
-            Natalia Giglietti (Argentina).
-            <br>Silvia Gascón (Argentina).
-
         '18:00':
           lugar: conservatorio_de_musica_juan_r_perez_cruz
           tipo: 'Charla'
