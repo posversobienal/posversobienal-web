@@ -26,7 +26,6 @@ contenido: |
   + {{ per('monica_mura') }}
   + {{ per('rafael_bresciani') }}
   + {{ per('stephan_gross') }}
-  + {{ per('wilson_sukorski') }}
   + {{ per('yuri_bruscky') }}
 
   <br><hr>
