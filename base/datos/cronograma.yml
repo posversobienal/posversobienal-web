@@ -58,11 +58,19 @@ fechas:
           url: ''
           texto: ''
 
-        '17:30 a 20:00':
+        '17:30 a 19:00':
           lugar: maca
           tipo: 'Performance'
           titulo: 'Fernando Aguiar (Portugal), y Montenegro-Fisher (Chile-Reino Unido)'
           texto: ''
+
+        '19:30':
+          lugar: maca
+          tipo: 'Performance'
+          titulo: 'Andrés Pasinovich (Argentina). Recorrido en espacio público.'
+          texto: |
+            Performance / intervención urbana.
+            <br>Salida desde el MACA.
 
         '21:00':
           lugar: casa_popular_dante_balestro
@@ -263,8 +271,8 @@ fechas:
 
         '17:00 a 18:30':
           lugar: maca
-          tipo: 'Performance'
-          titulo: 'Luis Pazos. Poesía y Acción'
+          tipo: 'Charla'
+          titulo: 'Luis Pazos Poesía y acciónuis Pazos. Poesía y Acción'
           url: ''
           texto: |
             Mesa-homenaje con la participación de Ro Barragán, Silvio De Gracia y Claudio Mangifesta.
@@ -424,7 +432,7 @@ fechas:
       eventos:
 
         '18:00':
-          lugar: eac
+          lugar: maca
           tipo: 'Performance'
           titulo: 'The Missing show de Mounir Fatmi (Marruecos)'
           texto: |
@@ -450,14 +458,20 @@ fechas:
           titulo: 'Totoreras, Casa Río y Arquitectura Bonaerense: Acción comunitaria'
           texto: |
 
-        '20:00':
+        '19:00':
           lugar: hotel_dada
           tipo: 'Evento Teórico'
-          titulo: '6: Libros y ediciones en el campo expandido'
+          titulo: '6: Libros y ediciones de artista'
           texto: |
-            Gonzalo Aguilar (Argentina)
+            Edith Derdyk (Brasil)
             <br>Natalia Silberleib (Argentina)
 
+        '20:00':
+          lugar: hotel_dada
+          tipo: 'Charla'
+          titulo: 'La poesía en el campo expandido'
+          texto: |
+            Gonzalo Aguilar (Argentina)
 
   diciembre:
 
