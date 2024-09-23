@@ -152,21 +152,25 @@ class Cronograma {
 
     }
 
-    filtrar_por_tipo(id_tipo){
+    filtrar_por_tipo(tipos){
+        if(typeof tipos === 'string'){ tipos = [tipos]; }
+
         let cOc = 'ocultar';
         let eventos = this.elem.querySelectorAll('.evento');
-        eventos.forEach(el=>{ el.parentElement.classList.remove(cOc) });
-        if(id_tipo !== 'Mostrar Todos'){
-            if(id_tipo == '-Sin definir-'){
-                id_tipo = '';
-            }
-            eventos.forEach(el=>{
-                let tipo = el.querySelector('.tipo');
-                if(tipo.innerHTML !== id_tipo){
-                    el.parentElement.classList.add(cOc);
+        eventos.forEach(el=>{ el.parentElement.classList.add(cOc) });
+        tipos.forEach(id_tipo=>{
+            if(id_tipo !== 'Mostrar Todos'){
+                if(id_tipo == '-Sin definir-'){
+                    id_tipo = '';
                 }
-            });
-        }
+                eventos.forEach(el=>{
+                    let tipo = el.querySelector('.tipo');
+                    if(tipo.innerHTML === id_tipo){
+                        el.parentElement.classList.remove(cOc);
+                    }else{}
+                });
+            }
+        });
     }
 
     lugar_html(lugar_id) {
