@@ -33,6 +33,7 @@ contenido: |
   [![Mundo Perfo](/rec/socios/mundo_perfo.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_mundo_perfo }}){title="Mundo Perfo" target=_blank}
   [![La voz de los barrios](/rec/socios/la_voz_de_los_barrios.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_la_voz_de_los_barrios }}){title="La voz de los barrios" target=_blank}
   [![Utsanga](/rec/socios/utsanga.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_utsanga }}){title="Utsanga" target=_blank}
+  [![Owl Call Radio](/rec/socios/owl_call_radio.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_owlcallradio }}){title="Owl Call Radio" target=_blank}
 
 
   <br><hr><br>
