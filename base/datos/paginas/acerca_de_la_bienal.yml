@@ -113,10 +113,10 @@ contenido_secundario: |
   + {{ per('ana_montenegro') }} (BRA)
 
   ### Comité Internacional de Selección
-  + {{ per('fernando_aguiar') }} (PRT)
-  + {{ per('j_m_calleja') }} (ESP)
-  + {{ per('giovanni_fontana') }} (ITA)
   + {{ per('claudia_kozak') }} (ARG)
+  + {{ per('fernando_aguiar') }} (PRT)
+  + {{ per('giovanni_fontana') }} (ITA)
+  + {{ per('j_m_calleja') }} (ESP)
   + {{ per('marisa_florido') }} (BRA)
 
   ### Comité de Preselección
@@ -125,9 +125,9 @@ contenido_secundario: |
   + {{ per('natalia_giglietti') }} (ARG)
 
   ### Equipo Curatorial POSVERSO
-  + {{ per('silvio_de_gracia') }} (ARG)
-  + {{ per('juan_montelpare') }} (ARG)
   + {{ per('ana_montenegro') }} (BRA)
+  + {{ per('juan_montelpare') }} (ARG)
+  + {{ per('silvio_de_gracia') }} (ARG)
 
   ### Curador Programa Educativo
   + {{ per('guillermo_perez_raventos') }} (ARG)
@@ -142,29 +142,31 @@ contenido_secundario: |
   ### Coordinación Editorial
   + {{ per('ana_montenegro') }} (BRA)
   + {{ per('silvio_de_gracia') }} (ARG)
-  + {{ per('guillermo_perez_raventos') }} (ARG)
 
   ### Producción audiovisual
-  + {{ per('Guido de Gracia') }} (ARG)
-  + {{ per('carlos_alberto_macheratti') }} (ARG)
   + {{ per('ana_montenegro') }} (BRA)
+  + {{ per('carlos_alberto_macheratti') }} (ARG)
+  + {{ per('Guido de Gracia') }} (ARG)
 
   ### Desarrollo web
   + {{ per('carlos_alberto_macheratti') }} (ARG)
 
-  ### Diseño de Montaje
+  ### Diseño expográfico
   + {{ per('ana_montenegro') }} (BRA)
-  + Daniela Bustamante (ARG)
-  + Macarena Cobos (ARG)
-  + Rocío Morganti (ARG)
-  + Jorge Sosa (ARG)
-  + Nehuén Greco (ARG)
+
+  ### Equipo de montaje
   + Camila Paulucci (ARG)
+  + Daniela Bustamante (ARG)
+  + Jorge Sosa (ARG)
+  + Macarena Cobos (ARG)
+  + Nehuén Greco (ARG)
+  + Rocío Morganti (ARG)
 
   ### Equipo de producción
-  + {{ per('ricardo_omar_salido') }} (ARG)
   + {{ per('ale_montiel') }} (ARG)
-  + {{ per('luciano_pozo') }} (ARG)
-  + Pedro Faroppa (ARG)
-  + Fabricio Echevarría (ARG)
   + Carlos Dabul (ARG)
+  + Fabricio Echevarría (ARG)
+  + {{ per('luciano_pozo') }} (ARG)
+  + {{ per('ricardo_omar_salido') }} (ARG)
+  + Julieta Civalero (ARG)
+  + Jorge Echeverria (ARG)

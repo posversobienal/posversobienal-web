@@ -7,12 +7,19 @@ seudonimo: ''
 nacionalidad: 'Argentina'
 contacto_publico: ''
 
-eventos: []
+web: 'https://linktr.ee/videobardo'
 
-web: '/'
+eventos: []
 
 fotos:
   persona: 'javier_robledo.jpg'
+  obra: 'javier_robledo-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 20%
+
+etiquetas:
+  - invitado
+
 
 detalle: |
   {{ idioma('esp') }}

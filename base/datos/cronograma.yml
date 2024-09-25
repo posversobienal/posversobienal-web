@@ -54,14 +54,14 @@ fechas:
         '13:30':
           lugar: la_luz_buena
           tipo: 'Visita grupal'
-          titulo: 'URBANISMO. Oobra in situ de Marcela Astorga.'
+          titulo: 'URBANISMO. Obra in situ de Marcela Astorga.'
           url: ''
           texto: ''
 
         '17:30 a 19:00':
           lugar: maca
           tipo: 'Performance'
-          titulo: 'Fernando Aguiar (Portugal), y Montenegro-Fisher (Chile-Reino Unido)'
+          titulo: 'Fernando Aguiar (Portugal), Carlos Gallardo (Chile) y Montenegro-Fisher (Chile-Reino Unido)'
           texto: ''
 
         '19:30':
@@ -137,7 +137,7 @@ fechas:
 
         '19:30':
           lugar: escuela_de_teatro_gilberto_mesa
-          tipo: ''
+          tipo: 'Performance'
           titulo: 'Lectura de poesía experimental/sonora'
           texto: |
             Fernando Aguiar (Portugal).
@@ -185,12 +185,6 @@ fechas:
     25:
       dia: Viernes
       eventos:
-
-        '18:00':
-          lugar: maca
-          tipo: 'Performance'
-          titulo: 'Carlos Gallardo (Chile)'
-          texto: |
 
         '21:30':
           lugar: centro_cultural_marea_cultura
@@ -348,7 +342,7 @@ fechas:
 
         '18:30':
           lugar: ccp_horacio_alonso
-          tipo: ''
+          tipo: 'Acción en espacio público'
           titulo: 'Gran desfile de poesía visual'
           texto: |
 
@@ -388,7 +382,7 @@ fechas:
 
         '21:30':
           lugar: casa_popular_dante_balestro
-          tipo: ''
+          tipo: 'Performance'
           titulo: 'Lectura de poesía experimental/sonora'
           texto: |
             Juan Ángel Italiano (Uruguay) y Javier Robledo (Argentina).
@@ -457,6 +451,11 @@ fechas:
           tipo: ''
           titulo: 'Totoreras, Casa Río y Arquitectura Bonaerense: Acción comunitaria'
           texto: |
+            Alejandro Meitin.
+            <br>Jesu Antuña.
+            <br>Franco Palacios Beltrán.
+            <br>Carlos Gorard.
+
 
         '19:00':
           lugar: hotel_dada
@@ -482,10 +481,17 @@ fechas:
         '21:00':
           lugar: centro_de_capacitacion_y_cultura_atsa
           tipo: 'Videomapping'
-          titulo: 'Proyección en espacio público. Videopoesía internacional'
+          titulo: ''
           url: ''
           texto: |
-            Macheratti, Montenegro, De Gracia
+            Macheratti, Montenegro y De Gracia.
+
+        '21:00':
+          lugar: centro_de_capacitacion_y_cultura_atsa
+          tipo: 'Proyección en espacio público'
+          titulo: 'Videopoesía internacional'
+          url: ''
+          texto: |
             <small>CURADURÍA:</small> Alejandro Thornton.
 
 
