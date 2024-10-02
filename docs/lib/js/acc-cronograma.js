@@ -25,7 +25,6 @@ class Cronograma {
 
             this.filtrar();
             this.generar();
-            this.posprocesar();
 
             if(this.cfg.menu_filtrado){
                 this.utilidad_filtrado();
@@ -35,6 +34,7 @@ class Cronograma {
                 this.filtrar_por_tipo(this.cfg.filtro_x_tipo);
             }
 
+            this.posprocesar();
         }
     }
 
@@ -171,6 +171,15 @@ class Cronograma {
                 });
             }
         });
+
+        if(this.cfg.eliminar_ocultos){
+            eventos.forEach(el=>{
+                if(el.parentElement.classList.contains(cOc)){
+                    el.parentElement.remove();
+                }
+            });
+        }
+
     }
 
     lugar_html(lugar_id) {
