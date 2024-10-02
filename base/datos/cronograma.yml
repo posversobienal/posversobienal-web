@@ -67,7 +67,7 @@ fechas:
         '19:30':
           lugar: maca
           tipo: 'Performance'
-          titulo: 'Andrés Pasinovich (Argentina). Recorrido en espacio público.'
+          titulo: 'Andrés Pasinovich (Argentina). ¿Tengo que usar palabras cuando te hablo?'
           texto: |
             Performance / intervención urbana.
             <br>Salida desde el MACA.
@@ -173,6 +173,14 @@ fechas:
           titulo: 'Arte sonoro y experiencias del colectivo Noiser'
           texto: |
             NOISER (Argentina-Colombia).
+
+        '19:30':
+          lugar: conservatorio_de_musica_juan_r_perez_cruz
+          tipo: 'Streaming'
+          titulo: 'Concerto Grosso'
+          texto: |
+            Para teclado, peixe, baixo totem e gran corda.
+            Wilson Sukorski (Brasil).
 
         '20:00':
           lugar: fundacion_casa_pronto
