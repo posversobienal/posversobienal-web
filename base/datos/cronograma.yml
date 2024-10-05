@@ -99,15 +99,6 @@ fechas:
           texto: |
             Silvina Torviso - Daniel Sarobe.
 
-        '13:30':
-          lugar: villa_alpina
-          tipo: 'Exhibición'
-          titulo: 'THE SKY HAS NO PLACE TO GO'
-          texto: |
-            Poetas experimentales de Italia y Alemania.
-            <br>Archivo HOTEL DADA.
-            <br><small>CURADURÍA:</small> Silvio De Gracia.
-
     21:
       dia: Lunes
       eventos:
@@ -167,15 +158,8 @@ fechas:
       dia: Jueves
       eventos:
 
-        '18:00':
-          lugar: conservatorio_de_musica_juan_r_perez_cruz
-          tipo: 'Charla'
-          titulo: 'Arte sonoro y experiencias del colectivo Noiser'
-          texto: |
-            NOISER (Argentina-Colombia).
-
         '19:30':
-          lugar: conservatorio_de_musica_juan_r_perez_cruz
+          lugar: fundacion_casa_pronto
           tipo: 'Streaming'
           titulo: 'Concerto Grosso'
           texto: |
@@ -201,19 +185,6 @@ fechas:
           texto: |
 
 
-    26:
-      dia: 'Sábado'
-      eventos:
-
-        '20:00':
-          lugar: unnoba_alicia_moreau_de_justo
-          tipo: 'Exhibición'
-          titulo: 'ESCRITURAS ANCESTRALES. Poesía visual mapuche'
-          texto: |
-            <small>CURADURÍA:</small> Silvio De Gracia, Ana Montenegro y Oscar Farías.
-            <br><small>PERFORMANCE:</small> Carina Carriqueo.
-
-
     27:
       dia: Domingo
       eventos:
@@ -229,7 +200,7 @@ fechas:
       dia: Martes
       eventos:
 
-        '18:00 a 20:00':
+        '17:00 a 19:00':
           lugar: maca
           tipo: 'Conferencia'
           titulo: 'La poética de la aridez. Bienal SACO en el Desierto de Atacama'
@@ -259,6 +230,19 @@ fechas:
           url: '/pag/proyectos_colaterales/#mail_art_poetry'
           texto: |
             <small>CURADOR:</small> Ruggero Maggi.
+
+    2:
+      dia: Sábado
+      eventos:
+        '19:30':
+          lugar: unnoba_alicia_moreau_de_justo
+          tipo: 'Proyección'
+          titulo: 'Videopoéticas'
+          url: '/pag/proyectos_colaterales/#mail_art_poetry'
+          texto: |
+            En el marco del <b>FELí Festival de Editoriales y Librerxs Independientes</b>.
+            <br><small>CURADOR:</small> Silvio De Gracia.
+
 
     7:
       dia: Jueves
@@ -309,6 +293,18 @@ fechas:
           texto: |
             <small>CURADURÍA:</small> Ana Montenegro y Silvio De Gracia.
             <br>Performances de Diego Melero (Argentina) y Ro Barragán (Argentina).
+
+    9:
+      dia: Sábado
+      eventos:
+        '11:00':
+          lugar: villa_alpina
+          tipo: 'Exhibición'
+          titulo: 'THE SKY HAS NO PLACE TO GO'
+          texto: |
+            Poetas experimentales de Italia y Alemania.
+            <br>Archivo HOTEL DADA.
+            <br><small>CURADURÍA:</small> Silvio De Gracia y Ana Montenegro.
 
     14:
       dia: Jueves
