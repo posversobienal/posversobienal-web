@@ -240,7 +240,7 @@ fechas:
           titulo: 'Videopoéticas'
           url: '/pag/proyectos_colaterales/#mail_art_poetry'
           texto: |
-            En el marco del <b>FELí Festival de Editoriales y Librerxs Independientes</b>.
+            En el marco de <b>La Feli: Feria de Editoriales y Librerías Independientes</b>.
             <br><small>CURADOR:</small> Silvio De Gracia.
 
 
@@ -355,7 +355,7 @@ fechas:
       eventos:
 
         '19:00':
-          lugar: hotel_dada
+          lugar: fundacion_casa_pronto
           tipo: 'Evento Teórico'
           titulo: '4: Poesía Fonética y Sonora'
           url: ''
