@@ -355,7 +355,7 @@ fechas:
       eventos:
 
         '19:00':
-          lugar: fundacion_casa_pronto
+          lugar: hotel_dada
           tipo: 'Evento Teórico'
           titulo: '4: Poesía Fonética y Sonora'
           url: ''
@@ -378,7 +378,7 @@ fechas:
       eventos:
 
         '18:00':
-          lugar: par1000_aula_teatro
+          lugar: fundacion_casa_pronto
           tipo: ''
           titulo: 'Lectura/workshop'
           texto: |
