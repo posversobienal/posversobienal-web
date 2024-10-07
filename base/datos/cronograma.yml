@@ -61,7 +61,7 @@ fechas:
         '17:30 a 19:00':
           lugar: maca
           tipo: 'Performance'
-          titulo: 'Fernando Aguiar (Portugal), Carlos Gallardo (Chile) y Montenegro-Fisher (Chile-Reino Unido)'
+          titulo: 'Fernando Aguiar (Portugal)  y Montenegro-Fisher (Chile-Reino Unido)'
           texto: ''
 
         '19:30':
@@ -282,8 +282,7 @@ fechas:
           titulo: 'El instante y la eternidad: Leemos a Luis Pazos'
           url: ''
           texto: |
-            <small>PARTICIPAN:</small> Silvio De Gracia, Claudio Mangifesta y alumnos de la E.E.A. "Víctor Grippo".
-
+            <small>PARTICIPAN:</small> Silvio De Gracia, Claudio Mangifesta, Rubén Liggera, Enrique Scarpatti, Susana Griffin, Héctor Azil y alumnos de la E.E.A. "Víctor Grippo".
 
         '20:30':
           lugar: fundacion_casa_pronto

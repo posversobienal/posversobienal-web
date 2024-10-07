@@ -15,7 +15,6 @@ contenido: |
   ![CCP Horacio Alonso](/rec/socios/ccp_horacio_alonso.jpg?{{ cfg.cache_actu }}){.logo_socio title="CCP Horacio Alonso"}
   [![Centro Cultural Marea Cultura](/rec/socios/cc_marea_cultura.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_marea_cultura }}){title="Centro Cultural Marea Cultura" target=_blank}
   [![Centro de Arte UNLP](/rec/socios/cau.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_cau }}){title="Centro de Arte UNLP" target=_blank}
-  [![Conservatorio de Música 'Juan R. Pérez Cruz'](/rec/socios/conservatorio_musica_perez_cruz.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_conservatorio_perez_cruz }}){title="Conservatorio de Música 'Juan R. Pérez Cruz'" target=_blank}
   [![Dutch Foundation for literature](/rec/socios/nldffl.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_nldffl }}){title="Dutch Foundation for literature" target=_blank}
   ![Escuela de Arte Xul Solar](/rec/socios/escuela_de_arte_xul_solar.jpg?{{ cfg.cache_actu }}){.logo_socio title="Escuela de Arte Xul Solar"}
   [![Escuela de Teatro 'Gilberto Mesa'](/rec/socios/et_gilberto_mesa.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_et_gilberto_mesa }}){title="Escuela de Teatro 'Gilberto Mesa'" target=_blank}
