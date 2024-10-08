@@ -63,11 +63,15 @@ biografias:
     Chile, 1954. Licenciado en Artes y en Estética por la Universidad Católica de Chile, con estudios posteriores en el Sistema de Zonas de fotografía cinematográfica de Ansel Adam con el cineasta argentino Andrés Silvart. La obra de Carlos Gallardo se considera parte de lo que la teórica del arte franco-chilena Nelly Richard denominó Escena de Avanzada, panorama referido a los artistas e intelectuales chilenos que desarrollaron prácticas y discursos experimentales y conceptuales durante la dictadura militar en Chile (1973-1990), marginados del circuito artístico oficial. En 1982, fue invitado por Richard a formar parte de la presentación chilena en la XII Bienal de París.
     Desde finales de los setenta hasta principios de los ochenta, el artista trabajó principalmente en el grabado y la performance, siendo su obra A la Carne de Chile (1978 - 1983), una serie de acciones y registros fotográficos en mataderos de Santiago, una de las creaciones más relevantes del arte chileno de la época.
     Su obra reciente continúa investigando el medio fotográfico y la imagen en movimiento, pero desde un soporte digital. Su producción artística ha sido distinguida con diversos premios, destacando las becas de la Corporación Amigos del Arte y de la Fundación Pacífico. La obra del artista ha sido presentada en importantes bienales del mundo, como la de Chile, Argentina, Colombia, Suiza, Polonia, Francia y Finlandia, y forma parte de importantes colecciones públicas y privadas en Chile, Argentina, Colombia, Estados Unidos, Reino Unido y Francia. Vive y trabaja en Santiago.
+  archivo_romero_por_venir: |
+        Es un proyecto colectivo impulsado por *Lucía Bianchi*, *Lucía Cañada*, *Fernando Davis* y *Ana Longoni* (Red Conceptualismos del Sur) desde 2021, ante la pérdida del archivo perdido (vendido, dispersado) de nuestro querido amigo, el artista Juan Carlos Romero. Imaginamos el nuevo archivo  no como un reemplazo, sino un gesto que repare, replique y multiplique sus modos de hacer. Un organismo vivo desde donde activar críticamente en el presente, su potencia insurgente, capaz de contribuir a la construcción de una memoria agitativa y rebelde.
+
 
 
 
 listado:
   ana_montenegro: {nomb: 'Ana Montenegro', foto: '/rec/foto/personas/ana_montenegro.jpg', link: '/per/ana_montenegro'}
+  archivo_romero_por_venir: {nomb: 'Archivo Romero por/venir', foto: '/rec/foto/personas/archivo_romero_por_venir.jpg', link: '/per/archivo_romero_por_venir'}
   carlos_gallardo: {nomb: 'Carlos Gallardo', foto: '/rec/foto/personas/carlos_gallardo.jpg', link: '/per/carlos_gallardo'}
   claudia_kozak: {nomb: 'Claudia Kozak', foto: '/rec/foto/personas/claudia_kozak.jpg', link: '/per/claudia_kozak'}
   dagmara_wyskiel: {nomb: 'Dagmara Wyskiel', foto: '/rec/foto/personas/dagmara_wyskiel.jpg', link: '/per/dagmara_wyskiel'}
@@ -88,7 +92,3 @@ listado:
   paulo_bruscky: {nomb: 'Paulo Bruscky', foto: '/rec/foto/personas/paulo_bruscky.jpg', link: '/per/paulo_bruscky'}
   rodolfo_mata: {nomb: 'Rodolfo Mata', foto: '/rec/foto/personas/rodolfo_mata.jpg', link: '/per/rodolfo_mata'}
   silvio_de_gracia: {nomb: 'Silvio De Gracia', foto: '/rec/foto/personas/silvio_de_gracia_3.jpg', link: '/per/silvio_de_gracia'}
-
-
-extra:
-  natalia_giglietti: {nomb: 'Natalia Giglietti', foto: '/rec/foto/personas/natalia_giglietti.jpg', link: '/per/natalia_giglietti'}

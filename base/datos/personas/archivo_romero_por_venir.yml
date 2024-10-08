@@ -1,0 +1,20 @@
+---
+
+nombre: 'Archivo Romero por/venir'
+apellido: ''
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+eventos: []
+
+web: 'https://redcsur.net/2022/08/02/archivo-romero-por-venir/'
+
+fotos:
+  persona: 'archivo_romero_por_venir.jpg'
+
+detalle: |
+  {{ idioma('esp') }}
+
+  Es un proyecto colectivo impulsado por **Lucía Bianchi**, **Lucía Cañada**, **Fernando Davis** y **Ana Longoni** (Red Conceptualismos del Sur) desde 2021, ante la pérdida del archivo perdido (vendido, dispersado) de nuestro querido amigo, el artista Juan Carlos Romero. Imaginamos el nuevo archivo  no como un reemplazo, sino un gesto que repare, replique y multiplique sus modos de hacer. Un organismo vivo desde donde activar críticamente en el presente, su potencia insurgente, capaz de contribuir a la construcción de una memoria agitativa y rebelde.
