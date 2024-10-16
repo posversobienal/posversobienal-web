@@ -102,11 +102,11 @@ contenido: |
   <small>ESPACIO EXPOSITIVO:</small> **[Web de POSVERSO Bienal]({{ cfg.urls.posversobienal }})**
   <br><small>APERTURA:</small> **18 de octubre**.
 
+  + {{ per('anuar_zuniga_naime') }}
   + {{ per('enrique_chocair') }}
   + {{ per('fernanda_mugica') }}
   + {{ per('maria_papi') }}
   + {{ per('rodolfo_mata') }}
-  + {{ per('anuar_zuniga_naime') }}
 
   <br><hr>
   ## INCITACIONES PARA VER. Resistiendo el presente

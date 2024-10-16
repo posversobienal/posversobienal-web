@@ -194,7 +194,9 @@ fechas:
           tipo: 'Inauguración'
           titulo: 'Obras in situ Bienal SACO'
           texto: |
-            <small>CURADORA:</small> Dagmara Wyskiel (Polonia).
+            <small>CURADORA:</small> Dagmara Wyskiel (Polonia-Chile).
+            <small>ARTISTAS:</small> Graciela González (Bolivia); Anna Uścińska (Polonia-España); Colectiva Poética de la Urgencia: Paula Carmona y Nicolás Cox (Chile-España)
+
 
     29:
       dia: Martes
@@ -205,7 +207,7 @@ fechas:
           tipo: 'Conferencia'
           titulo: 'La poética de la aridez. Bienal SACO en el Desierto de Atacama'
           texto: |
-            Dagmara Wyskiel (Polonia).
+            Dagmara Wyskiel y Carlos Rendón.
 
     31:
       dia: Jueves
