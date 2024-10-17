@@ -109,6 +109,8 @@ menu:
         url: '/pag/otras_exhibiciones/'
       - titulo: 'Proyectos colaterales'
         url: '/pag/proyectos_colaterales/'
+     # - titulo: 'Sala Poéticas electrónicas'
+     #   url: '/pag/sala-poeticas_electronicas/'
 
   - titulo: 'PROGRAMA EDUCATIVO'
     url: ''

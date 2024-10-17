@@ -133,6 +133,15 @@ fechas:
           texto: |
             Fernando Aguiar (Portugal).
 
+    22:
+      dia: Martes
+      eventos:
+        '18:00':
+          lugar: maca
+          tipo: 'Performance'
+          titulo: 'Carlos Gallardo (Chile)'
+          texto: |
+
     23:
       dia: Miércoles
       eventos:
