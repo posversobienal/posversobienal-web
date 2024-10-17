@@ -1,0 +1,32 @@
+---
+
+titulo: 'Piel Digital (Tecnopoéticas expandidas)'
+html_base: 'pagina.html'
+ruta_static: 'pag/pe-pieldigital/index.html'
+estilo: col-lg-11
+
+contenido: |
+
+  ![Piel Digital](/rec/foto/poeticas_electronicas/pieldigital.jpg?{{ cfg.cache_actu }}){.img-fluid}
+
+  <br>
+
+  **María Papi** (CABA, Argentina, 1976) y **Narda Milin** (San Miguel de Tucumán, Tucumán, Argentina)
+
+  <small>FECHA DE PUBLICACIÓN:</small> 2022
+  <br>
+  <small>ACCESO:</small> Esta obra se explora desde diversas materialidades digitales
+
+  + Mapeo multimedia [Miro](https://miro.com/app/board/o9J_ltXUDEk=/?invite_link_id=494141450252){.btn .btn-dark .btn-sm target=_blank}
+  + Dossier con textos y fotografías de la investigación y producción artística [Issuu](https://issuu.com/mariapapi/docs/pieldigital_dossier){.btn .btn-dark .btn-sm target=_blank}
+  + Cortometraje experimental [Vimeo](https://vimeo.com/video/665080566){.btn .btn-dark .btn-sm target=_blank} Requiere clave de acceso, que es: ADO2022
+  + Reel Manifiesto Tecnopoético [Youtube](https://www.youtube.com/watch?v=KFJUKCoSCmM){.btn .btn-dark .btn-sm target=_blank}
+  + Información centralizada y links del proyecto [ContactIn](http://pieldigital.contactin.bio/){.btn .btn-dark .btn-sm target=_blank}
+
+  <br><hr><br>
+
+  *“Memorias de una distopía cotidiana en una sociedad virtualizada.”*
+
+  *“Piel Digital” indaga en la experiencia vincular digital y la transformación de la dimensión táctil.*
+
+  *Fué realizada en ASPO en la ciudad de Buenos Aires, presenta un proceso creativo transdisciplinario multimedia que surge de una investigación artística sobre la experiencia personal durante el aislamiento social. Mediante diversos dispositivos, se despliegan una serie de resistencias poéticas para subvertir las distancias obligatorias y la digitalización de cuerpos, identidades y vínculos en la experiencia virtual cotidiana. En esta distopía, lo digital sería otra piel posible, capa y frontera de una sociedad virtualizada.*

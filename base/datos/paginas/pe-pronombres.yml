@@ -1,0 +1,22 @@
+---
+
+titulo: 'Pronombres'
+html_base: 'pagina.html'
+ruta_static: 'pag/pe-pronombres/index.html'
+estilo: col-lg-11
+
+contenido: |
+
+  ![Pronombres](/rec/foto/poeticas_electronicas/pronombres.jpg?{{ cfg.cache_actu }}){.img-fluid}
+
+  <br>
+
+  **Rodolfo Mata** (Ciudad de México, México, 1960) y **Carole Chargueron** (Provenza, Francia, 1966)
+
+  <small>FECHA DE PUBLICACIÓN:</small> 2018
+  <br>
+  <small>ACCESO:</small> [Pronombres](http://www.horizonte.unam.mx/rmata/pronombresfin.html){.btn .btn-dark .btn-sm target=_blank}
+
+  <br><hr><br>
+
+  *La palabra escrita y hablada; la voz y la imagen fija o en movimiento. La interactividad genera poesía en los medios electrónicos.*

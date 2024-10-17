@@ -15,7 +15,7 @@ contenido: |
 
   <small>FECHA DE PUBLICACIÓN:</small> 2020
   <br>
-  <small>ACCESOS:</small>
+  <small>ACCESO:</small>
   Esta obra se presenta en tres actos:
   [Acto 1](https://www.youtube.com/watch?v=pW7VHfxq2Kg){.btn .btn-dark .btn-sm target=_blank},
   [Acto 2](https://www.youtube.com/watch?v=-hXwtR6hAiA){.btn .btn-dark .btn-sm target=_blank},
@@ -49,9 +49,9 @@ contenido: |
 
   ---
 
-  ## Soñé
-
   ![Soñe](/rec/foto/poeticas_electronicas/sonie.jpg?{{ cfg.cache_actu }}){.img-fluid}
+
+  ## Soñé
 
   **Fernanda Mugica** (Mar del Plata, Argentina, 1987)
 

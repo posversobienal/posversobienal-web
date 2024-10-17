@@ -653,6 +653,9 @@ a.actual {
 .rounded-2 {
   overflow: hidden;
 }
+.boton-sombra:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
 @keyframes color-cr {
   0% {
     background: #000;

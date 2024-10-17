@@ -1,0 +1,47 @@
+---
+
+titulo: 'Sala POÉTICAS ELECTRÓNICAS'
+html_base: 'pagina.html'
+ruta_static: 'pag/sala-poeticas_electronicas/index.html'
+estilo: col-lg-11
+
+contenido: |
+
+  <div class="d-flex flex-wrap text-center justify-content-center">
+
+  <div class="fx-ampliar boton-sombra border border-dark rounded m-3 text-center">
+    <a href="/pag/pe-monitron2020/">
+      <img width="300" alt="Monitrón 20.20" class="img-fluid" src="/rec/foto/poeticas_electronicas/monitron2020-mn.jpg?{{ cfg.cache_actu }}">
+      <h4 class="p-3">Monitrón 20.20</h4>
+    </a>
+  </div>
+
+  <div class="fx-ampliar boton-sombra border border-dark rounded m-3 text-center">
+    <a href="/pag/pe-scrappy/">
+      <img width="300" alt="SCRAP.PY" class="img-fluid" src="/rec/foto/poeticas_electronicas/scrappy-mn.jpg?{{ cfg.cache_actu }}">
+      <h4 class="p-3">SCRAP.PY</h4>
+    </a>
+  </div>
+
+  <div class="fx-ampliar boton-sombra border border-dark rounded m-3 text-center">
+    <a href="/pag/pe-sonie/">
+      <img width="300" alt="Soñe" class="img-fluid" src="/rec/foto/poeticas_electronicas/sonie-mn.jpg?{{ cfg.cache_actu }}">
+      <h4 class="p-3">Soñe</h4>
+    </a>
+  </div>
+
+  <div class="fx-ampliar boton-sombra border border-dark rounded m-3 text-center">
+    <a href="/pag/pe-pieldigital/">
+      <img width="300" alt="Piel Digital" class="img-fluid" src="/rec/foto/poeticas_electronicas/pieldigital-mn.jpg?{{ cfg.cache_actu }}">
+      <h4 class="p-3">Piel Digital</h4>
+    </a>
+  </div>
+
+  <div class="fx-ampliar boton-sombra border border-dark rounded m-3 text-center">
+    <a href="/pag/pe-pronombres/">
+      <img width="300" alt="Pronombres" class="img-fluid" src="/rec/foto/poeticas_electronicas/pronombres-mn.jpg?{{ cfg.cache_actu }}">
+      <h4 class="p-3">Pronombres</h4>
+    </a>
+  </div>
+
+  </div>

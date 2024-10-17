@@ -1,0 +1,34 @@
+---
+
+titulo: 'Monitrón 20.20'
+html_base: 'pagina.html'
+ruta_static: 'pag/pe-monitron2020/index.html'
+estilo: col-lg-11
+
+contenido: |
+
+  ![Monitrón 20.20](/rec/foto/poeticas_electronicas/monitron2020.jpg?{{ cfg.cache_actu }}){.img-fluid}
+
+  <br>
+
+  **Ánuar Zúñiga Naime** (Ciudad de México, México, 1982) y **Los KFGC** (Ciudad de México, México, 2009)
+
+  <small>FECHA DE PUBLICACIÓN:</small> 2020
+  <br>
+  <small>ACCESO:</small>
+  Esta obra es parte del espectáculo en vivo homónimo de *Los KFGC* que puede aprecirse
+  [aquí](https://www.youtube.com/watch?v=2u-cfAzJh8M){target=_blank}
+  y se presenta en tres actos:
+  [Acto 1](https://www.youtube.com/watch?v=pW7VHfxq2Kg){.btn .btn-dark .btn-sm target=_blank},
+  [Acto 2](https://www.youtube.com/watch?v=-hXwtR6hAiA){.btn .btn-dark .btn-sm target=_blank} y
+  [Acto 3](https://www.youtube.com/watch?v=uqBCxa_Se7o){.btn .btn-dark .btn-sm target=_blank}.
+
+  <br><hr><br>
+
+  *Monitrón 20.20 es una manera didáctica de acercar la poesía al público ya que se presenta no solo como una forma de arte y cultura, sino como una opción de entretenimiento en la que intervienen distintas disciplinas artísticas como la música, el performance, la dramaturgia y las artes visuales entre otras, poniendo de manifiesto tres premisas fundamentales:*
+
+  1. *La identidad del autor no es necesaria para acercarse a una obra.*
+  2. *La poesía no tiene porque ser una actividad solemne y puede ser una forma de entretenimiento.*
+  3. *La producción y el consumo de poesía pueden ser actividades colectivas.*
+
+  *Monitrón 20.20 es una presentación de spoken word en tres actos en la que intervienen recursos visuales, sonoros y performáticos con una duración total de 50 minutos. Durante la presentación, los integrantes del colectivo recitamos de forma dramatizada mientras los apoyos visuales se proyectan al fondo del escenario en formato dd video y al frente con secuencia de luces. La presentación es sonorizada en vivo con música electrónica generada en el mismo escenario en tiempo real.*

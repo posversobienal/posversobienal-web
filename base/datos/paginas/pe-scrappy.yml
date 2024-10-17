@@ -1,0 +1,24 @@
+---
+
+titulo: 'SCRAP.PY'
+html_base: 'pagina.html'
+ruta_static: 'pag/pe-scrappy/index.html'
+estilo: col-lg-11
+
+contenido: |
+
+  ![SCRAP.PY](/rec/foto/poeticas_electronicas/scrappy.jpg?{{ cfg.cache_actu }}){.img-fluid}
+
+  <br>
+
+  **Enrique Chocair** (1994, Hermosillo, Sonora, México)
+
+  <small>FECHA DE PUBLICACIÓN:</small> 2020
+  <br>
+  <small>ACCESO:</small> [chocair.pythonanywhere.com/scrappy](http://chocair.pythonanywhere.com/scrappy){.btn .btn-dark .btn-sm target=_blank}
+
+  <br><hr><br>
+
+  *SCRAP.PY navega las tensiones y posibilidades en el lenguaje y los pactos ficticios, la soledad, la nostalgia y el futuro. Mediante transmisiones de un bot chatarrero que recolecta restos, los registra y recicla, este proyecto intenta experimentar con el potencial poético que surge de la aleatoriedad y el pacto ficticio generado por la suma de distintos medios, como la programación, lo sonoro, lo visual y lo verbal; también la tensión en el lenguaje entre lo sintagmático y lo paradigmático, creada a partir de un “juego” verbal, con una gramática definida, o un juego con sus propias reglas. Nuestro personaje trabaja en soledad: sus registros no contienen ninguna interacción con otro personaje. Las transmisiones de SCRAP.PY son generativas: todos los días, desde el 0, están registrados en potencia, al igual que sus acciones. El pasado es la base del trabajo de SCRAP.PY: encuentra restos, los registra y los recicla, mira hacia un pasado que no se puede recuperar e intenta crear un futuro a partir de las ruinas y restos encontrados. Este bot, al igual que un balón Wilsón, permite una identificación con un objeto sin consciencia: la búsqueda de un acompañamiento que llega del eco propio en momentos de supervivencia.*
+
+  *SCRAP.PY nace durante el aislamiento de la pandemia por COVID, cuando hubo un incremento en la interacción con la interfaz digital. Con esto surgió una búsqueda por “hablar” con la computadora, una herramienta que pasó a ser parte de uno, una sinécdoque por extensión. En momentos de soledad una caja que genera texto puede ser un consuelo con el pacto ficticio que se genera a partir de la intermedialidad: unos ojos de plástico, una cara pintada en el balón Wilson. Con un lenguaje de programación universal y accesible se creó SCRAP.PY, un bot de poesía generativa escrito en Python y Tracery. Este personaje registra sus hallazgos durante sus labores chatarreras en lugares aislados. Los textos que genera SCRAP.PY son resultado de una “gramática” programada que elije la estructura general, día, acciones, circunstancias, objetos y lugares. El campo semántico que compone esta gramática remite a un futuro que mira sus ruinas, al espacio exterior, soledad y melancolía. Bajo circunstancias de chatarra y reciclaje, el vocabulario de este bot chatarrero retoma como elementos de la tabla periódica, animales, restos, formas de registros y acciones que pueden estar fuera de nuestro alcance por cuestiones tecnológicas. Actualmente, fragmentos de la bitácora discontinua de SCRAP.PY pueden ser encontradas en internet, y, como transmisiones lejanas, no se pueden recuperar.*
