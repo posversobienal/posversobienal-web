@@ -8,7 +8,7 @@ estilo: col-lg-11
 contenido: |
 
 
-  ![Soñe](/rec/foto/poeticas_electronicas/sonie.jpg?{{ cfg.cache_actu }}){.img-fluid}
+  ![Soñé](/rec/foto/poeticas_electronicas/sonie.jpg?{{ cfg.cache_actu }}){.img-fluid}
 
   <br>
 

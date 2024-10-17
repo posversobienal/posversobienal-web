@@ -25,8 +25,8 @@ contenido: |
 
   <div class="fx-ampliar boton-sombra border border-dark rounded m-3 text-center">
     <a href="/pag/pe-sonie/">
-      <img width="300" alt="Soñe" class="img-fluid" src="/rec/foto/poeticas_electronicas/sonie-mn.jpg?{{ cfg.cache_actu }}">
-      <h4 class="p-3">Soñe</h4>
+      <img width="300" alt="Soñé" class="img-fluid" src="/rec/foto/poeticas_electronicas/sonie-mn.jpg?{{ cfg.cache_actu }}">
+      <h4 class="p-3">Soñé</h4>
     </a>
   </div>
 
