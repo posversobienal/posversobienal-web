@@ -19,18 +19,25 @@ novedades:
 
 
 deslizador:
-  - {img: 1.jpg, url: '/per/maria_papi/', tit: 'Obra de María Papi'}
-  - {img: 2.jpg, url: '/per/ro_barragan/', tit: 'Obra de Ro Barragán'}
-  - {img: 3.jpg, url: '/per/daniel_sarobe/', tit: 'Obra de Daniel Sarobe'}
-  - {img: 4.jpg, url: '/per/tchello_d_barros/', tit: 'Obra de Tchello d’Barros'}
-  - {img: 5.jpg, url: '/per/juan_angel_italiano/', tit: 'Obra de Juan Ángel Italiano'}
-  - {img: 6.jpg, url: '/per/andres_pasinovich/', tit: 'Obra de Andrés Pasinovich'}
-  - {img: 7.jpg, url: '/per/soledad_sanchez_goldar/', tit: 'Obra de Soledad Sanchez Goldar'}
+  - {img: 1.jpg, url: '/pag/exhibicion_central/', tit: 'VISITÁ LA EXHIBICIÓN!'}
+  - {img: 2.jpg, url: '/pag/otras_exhibiciones/#capsula-sonora', tit: 'VISITÁ LA EXHIBICIÓN!'}
+  - {img: 3.jpg, url: '/pag/sala-poeticas_electronicas/', tit: 'VISITÁ LA EXHIBICIÓN!'}
+  - {img: 4.jpg, url: '/pag/sala-poeticas_electronicas/', tit: 'VISITÁ LA EXHIBICIÓN!'}
+  - {img: 5.jpg, url: '/pag/sala-poeticas_electronicas/', tit: 'VISITÁ LA EXHIBICIÓN!'}
+  - {img: 6.jpg, url: '/pag/sala-poeticas_electronicas/', tit: 'VISITÁ LA EXHIBICIÓN!'}
+  - {img: 7.jpg, url: '/pag/sala-poeticas_electronicas/', tit: 'VISITÁ LA EXHIBICIÓN!'}
 
 
 deslizador_registro:
 
   PASADOS:
+
+    - ro_barragan
+    - daniel_sarobe
+    - tchello_d_barros
+    - juan_angel_italiano
+    - andres_pasinovich
+    - soledad_sanchez_goldar
 
     - carlos_gallardo
     - luciano_pozo
