@@ -807,7 +807,7 @@ a.actual {
   font-size: 0.9em;
 }
 .cronograma .mes .fechas li .evento.estado_cancelada:before {
-  content: 'ACTIVIDAD CANCELADA';
+  content: 'ACTIVIDAD SUSPENDIDA';
   color: #a00;
 }
 .cronograma .mes .fechas li .evento.estado_pasada {
