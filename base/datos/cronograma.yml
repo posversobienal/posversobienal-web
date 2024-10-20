@@ -7,6 +7,7 @@ fechas:
       eventos:
 
         '18:30':
+          estado: pasada
           lugar: maca
           tipo: 'Apertura muestra central'
           titulo: 'POÉTICAS DE LA RESISTENCIA'
@@ -16,6 +17,7 @@ fechas:
             <br><small>DISEÑO EXPOGRÁFICO:</small> Ana Montenegro.
 
         '20:30':
+          estado: pasada
           lugar: hotel_dada
           tipo: 'Exhibición'
           titulo: 'CÁPSULA SONORA'
@@ -29,6 +31,7 @@ fechas:
       eventos:
 
         '10:00':
+          estado: pasada
           lugar: museo_historico
           tipo: 'Exhibición'
           titulo: 'RESIST/EXIST Libro-muestra Homenaje a Juan Carlos Romero'
@@ -37,6 +40,7 @@ fechas:
             <small>ORGANIZA:</small> Red Conceptualismos del Sur. Ana Longoni, Lucía Bianchi, Lucía Cañada y Fernando Davis.
 
         '10:00 ':
+          estado: pasada
           lugar: museo_historico
           tipo: 'Exhibición'
           titulo: 'EL COLECCIONISTA DE OFICIOS: Ricardo Salido'
@@ -45,6 +49,7 @@ fechas:
             <small>CURADURÍA:</small> Ana Montenegro y Silvio De Gracia.
 
         '11:00':
+          estado: pasada
           lugar: fundacion_casa_pronto
           tipo: 'Conferencia'
           titulo: 'Archivo Romero por/venir. Un ejercicio colectivo de imaginación archivística y desobediencia performativa'
@@ -52,6 +57,7 @@ fechas:
             A cargo de Ana Longoni, Lucía Cañada y Lucía Bianchi.
 
         '13:30':
+          estado: pasada
           lugar: la_luz_buena
           tipo: 'Visita grupal'
           titulo: 'URBANISMO. Obra in situ de Marcela Astorga.'
@@ -59,12 +65,14 @@ fechas:
           texto: ''
 
         '17:30 a 19:00':
+          estado: pasada
           lugar: maca
           tipo: 'Performance'
           titulo: 'Fernando Aguiar (Portugal)  y Montenegro-Fisher (Chile-Reino Unido)'
           texto: ''
 
         '19:30':
+          estado: pasada
           lugar: maca
           tipo: 'Performance'
           titulo: 'Andrés Pasinovich (Argentina). ¿Tengo que usar palabras cuando te hablo?'
@@ -73,6 +81,7 @@ fechas:
             <br>Salida desde el MACA.
 
         '21:00':
+          estado: pasada
           lugar: casa_popular_dante_balestro
           tipo: 'Exhibición'
           titulo: 'OIR PALESTINA'
@@ -86,6 +95,7 @@ fechas:
       eventos:
 
         '10:30 a 11:30':
+          estado: cancelada
           lugar: 'horno_de_grippo'
           tipo: 'Acción poética'
           titulo: 'Pan-paz'

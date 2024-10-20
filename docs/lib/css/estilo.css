@@ -806,6 +806,16 @@ a.actual {
 .cronograma .mes .fechas li .evento .texto {
   font-size: 0.9em;
 }
+.cronograma .mes .fechas li .evento.estado_cancelada:before {
+  content: 'ACTIVIDAD CANCELADA';
+  color: #a00;
+}
+.cronograma .mes .fechas li .evento.estado_pasada {
+  opacity: 0.5;
+}
+.cronograma .mes .fechas li .evento.estado_pasada:hover {
+  opacity: 1;
+}
 .cronograma.compacto {
   border: 1px solid #000;
   padding: 10px;

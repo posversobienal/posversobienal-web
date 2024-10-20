@@ -5,10 +5,10 @@ class Cronograma {
     cfg = undefined;
     cLsEventos = 'lista-de-eventos';
     html_mes = '<div class="mes" name="{mes_id}"><h3 class="mes_titulo">{mes_nomb}</h3><ul class="fechas"></ul></div>';
-    html_evn = `<li><div class="evento">
+    html_evn = `<li><div class="evento estado_{estado}">
                    <div class="ev_titulo">
                       <h5><span class="dia">{dia_nomb} {dia_nume}</span> <span class="hora">({horario})</span></h5>
-                      <p class="px-1">{lugar}</p>
+                      <p class="px-1 lugar">{lugar}</p>
                    </div>
                    <div class="ficha">
                       <p class="titular"><span class="tipo">{tipo}</span> <span class="titulo">{titulo}</span></p>
@@ -96,6 +96,7 @@ class Cronograma {
                         tipo: v_evento.tipo,
                         titulo: this.titulo_html(v_evento.titulo, v_evento.url),
                         texto: v_evento.texto,
+                        estado: v_evento.estado,
                     })
 
                     if(!v_evento.ignorar){

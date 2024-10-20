@@ -144,6 +144,21 @@
                     .texto {
                         font-size: 0.9em;
                     }
+
+                    &.estado_cancelada {
+                        &:before {
+                            content: 'ACTIVIDAD CANCELADA';
+                            color: #a00;
+                        }
+                    }
+
+                    &.estado_pasada {
+                        opacity: 0.5;
+                        &:hover {
+                            opacity: 1;
+                        }
+                    }
+
                 }
             }
 
