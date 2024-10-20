@@ -94,15 +94,8 @@ fechas:
       dia: Domingo
       eventos:
 
-        '10:30 a 11:30':
-          estado: cancelada
-          lugar: 'horno_de_grippo'
-          tipo: 'Acción poética'
-          titulo: 'Pan-paz'
-          texto: |
-            Ricardo Salido y Silvio De Gracia.
-
         '12:00 a 13:30':
+          estado: pasada
           lugar: casa-taller_torviso-sarobe
           tipo: 'Visita'
           titulo: 'Taller abierto'
@@ -176,6 +169,13 @@ fechas:
     24:
       dia: Jueves
       eventos:
+
+        '11:00 a 12:00':
+          lugar: 'horno_de_grippo'
+          tipo: 'Acción poética'
+          titulo: 'Pan-paz'
+          texto: |
+            Ricardo Salido y Silvio De Gracia.
 
         '19:30':
           lugar: fundacion_casa_pronto
