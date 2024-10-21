@@ -837,15 +837,45 @@ a.actual {
 .cronograma .mes .fechas li .evento .texto {
   font-size: 0.9em;
 }
+.cronograma .mes .fechas li .evento .ampliar_evento {
+  border: 1px solid #000;
+  padding: 2px 8px;
+  border-radius: 20px;
+  display: none;
+  cursor: pointer;
+}
 .cronograma .mes .fechas li .evento.estado_cancelada:before {
   content: 'ACTIVIDAD SUSPENDIDA';
   color: #a00;
 }
 .cronograma .mes .fechas li .evento.estado_pasada {
   opacity: 0.5;
+  display: flex;
+  margin: 2px;
+  padding: 0px;
+  align-items: center;
 }
 .cronograma .mes .fechas li .evento.estado_pasada:hover {
   opacity: 1;
+}
+.cronograma .mes .fechas li .evento.estado_pasada * {
+  _display: inline-block;
+  vertical-align: middle;
+}
+.cronograma .mes .fechas li .evento.estado_pasada .ev_titulo,
+.cronograma .mes .fechas li .evento.estado_pasada .texto {
+  display: none;
+}
+.cronograma .mes .fechas li .evento.estado_pasada .ampliar_evento {
+  display: inline-block;
+}
+.cronograma .mes .fechas li .evento.estado_pasada.info_ampliada {
+  opacity: 1;
+  display: block;
+}
+.cronograma .mes .fechas li .evento.estado_pasada.info_ampliada .ev_titulo,
+.cronograma .mes .fechas li .evento.estado_pasada.info_ampliada .texto {
+  display: block;
 }
 .cronograma.compacto {
   border: 1px solid #000;

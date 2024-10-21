@@ -3,9 +3,11 @@ class Cronograma {
     data = undefined;
     filtro = undefined;
     cfg = undefined;
+    ampliar = undefined;
     cLsEventos = 'lista-de-eventos';
     html_mes = '<div class="mes" name="{mes_id}"><h3 class="mes_titulo">{mes_nomb}</h3><ul class="fechas"></ul></div>';
     html_evn = `<li><div class="evento estado_{estado}">
+                   <div class="ampliar_evento">+</div>
                    <div class="ev_titulo">
                       <h5><span class="dia">{dia_nomb} {dia_nume}</span> <span class="hora">({horario})</span></h5>
                       <p class="px-1 lugar">{lugar}</p>
@@ -14,6 +16,7 @@ class Cronograma {
                       <p class="titular"><span class="tipo">{tipo}</span> <span class="titulo">{titulo}</span></p>
                       <p class="texto">{texto}</p>
                    </div>
+
                </div></li>`;
 
     constructor (el, da, fi) {
@@ -106,6 +109,12 @@ class Cronograma {
                 }
             }
         }
+
+        this.elem.querySelectorAll('.ampliar_evento').forEach(e => {
+            e.addEventListener('click', ev => {
+                e.parentElement.classList.toggle('info_ampliada');
+            });
+        });
     }
 
     posprocesar(){
