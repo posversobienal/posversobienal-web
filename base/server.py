@@ -25,7 +25,7 @@ def main():
     server.watch('./datos/', shell('./actualizar.py'))
     server.watch('./plantillas/', shell('./actualizar.py'))
 
-    server.watch('./lib-css/*.less', shell('lessc ./lib-css/estilo.less', output='../docs/lib/css/estilo.css'))
+    server.watch('./lib-css/', shell('lessc ./lib-css/estilo.less', output='../docs/lib/css/estilo.css'))
 
     server.watch('../docs/lib/', shell(''))
     server.watch('../docs/lib/css/', shell(''))

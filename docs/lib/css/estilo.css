@@ -678,6 +678,37 @@ a.actual {
     color: #fff;
   }
 }
+.filtrador {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+}
+.filtrador .icono {
+  height: 35px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+.filtrador .icono:hover {
+  opacity: 1;
+}
+.filtrador .campo {
+  display: none;
+  transition: all 0.3s ease-in-out;
+}
+.filtrador .campo input {
+  margin: 10px;
+  padding: 7px 12px;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  outline: none;
+  border-radius: 15px;
+}
+.filtrador.activo .campo {
+  display: inline-block;
+}
+.filtrador_ocultar_item {
+  display: none!important;
+}
 .cronograma {
   position: relative;
 }

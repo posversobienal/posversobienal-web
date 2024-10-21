@@ -3,7 +3,8 @@
 {% block body %}
 <div class="container">
     <header class="my-5 text-center">
-        <h1>{{ pag.titulo }}</h1>
+        <h1  class="d-inline-block align-middle">{{ pag.titulo }}</h1>
+        {% if pag.filtrador %}{{ pag.filtrador }}{% endif %}
     </header>
 
     <section class="{{ pag.estilo }}">

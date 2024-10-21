@@ -5,10 +5,14 @@ html_base: 'sedes-menu.html'
 ruta_static: 'pag/sedes/index.html'
 estilo: 'w100 d-flex flex-wrap justify-content-center'
 
+filtrador: |
+  <div id="filtrador_aqui" data-cfg='{"tipo":"filtro-sede"}'></div>
+
+
 contenido: |
   {% for id_sede in cfg.sedes.orden %}
   {% set dat_sede = rec.sedes[id_sede] %}
-  <div class="d-grid w300p border border-dark rounded-2 m-2 p-0 sede" id="{{ id_sede }}">
+  <div class="filtro-sede d-grid w300p border border-dark rounded-2 m-2 p-0 sede" id="{{ id_sede }}">
        <script type="text/json" name="data">{{ dat_sede | tojson | safe }}</script>
 
 

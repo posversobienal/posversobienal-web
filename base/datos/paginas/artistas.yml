@@ -5,11 +5,14 @@ html_base: 'pagina-menu.html'
 ruta_static: 'pag/artistas/index.html'
 estilo: container d-flex flex-wrap justify-content-center
 
+filtrador: |
+  <div id="filtrador_aqui" data-cfg='{"tipo":"filtro-artista"}'></div>
+
 contenido: |
 
   {% for id_art, dat_art  in rec.artistas.items() %}
 
-  <div id="{{ id_art }}" class="w250p border border-dark rounded-2 m-2 p-0">
+  <div id="{{ id_art }}" class="filtro-artista w250p border border-dark rounded-2 m-2 p-0">
     <div><img src="/rec/foto/personas/{{ dat_art.fotos.persona }}" class="img-fluid m-0"></div>
     <div class="d-flex flex-column align-items-center align-content-between p-1 m-0">
       <br>
