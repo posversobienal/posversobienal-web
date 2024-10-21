@@ -107,6 +107,7 @@ fechas:
       eventos:
 
         '10:30 a 12:00':
+          estado: pasada
           lugar: escuela_de_teatro_gilberto_mesa
           tipo: 'Charla'
           titulo: 'Romper las reglas sin quebrantar reglamentos'
@@ -114,6 +115,7 @@ fechas:
             María José Machado (Ecuador).
 
         '13:00 a 15:00':
+          estado: pasada
           lugar: escuela_de_arte_xul_solar
           tipo: 'Evento Teórico'
           titulo: '1: Archivos y Poesía Experimental'
@@ -123,6 +125,7 @@ fechas:
             <br>Silvio De Gracia (Argentina) / Archivo HOTEL DaDA.
 
         '15:00 a 17:00':
+          estado: pasada
           lugar: escuela_de_arte_xul_solar
           tipo: 'Charla'
           titulo: 'A cadeira, o Levante, a ginga'
