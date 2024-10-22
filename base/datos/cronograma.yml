@@ -133,6 +133,7 @@ fechas:
             Andréa Hygino (Brasil).
 
         '19:30':
+          estado: pasada
           lugar: escuela_de_teatro_gilberto_mesa
           tipo: 'Performance'
           titulo: 'Lectura de poesía experimental/sonora'
