@@ -154,6 +154,7 @@ fechas:
       dia: Miércoles
       eventos:
         '10:00':
+          estado: pasada
           lugar: escuela_de_teatro_gilberto_mesa
           tipo: 'Evento Teórico'
           titulo: '2: Poesía e Intermedia'
