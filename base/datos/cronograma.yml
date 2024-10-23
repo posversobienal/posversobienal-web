@@ -143,8 +143,8 @@ fechas:
     22:
       dia: Martes
       eventos:
-        estado: pasada
         '18:00':
+          estado: pasada
           lugar: maca
           tipo: 'Performance'
           titulo: 'Carlos Gallardo (Chile)'
