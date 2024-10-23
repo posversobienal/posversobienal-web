@@ -143,6 +143,7 @@ fechas:
     22:
       dia: Martes
       eventos:
+        estado: pasada
         '18:00':
           lugar: maca
           tipo: 'Performance'
