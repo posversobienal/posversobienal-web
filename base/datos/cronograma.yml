@@ -163,6 +163,7 @@ fechas:
             <br>Jèssica Pujol Durán (España).
 
         '18:30':
+          estado: pasada
           lugar: escuela_de_teatro_gilberto_mesa
           tipo: 'Performance'
           titulo: 'Poesía fonética y sonora'
