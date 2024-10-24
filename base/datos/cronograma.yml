@@ -203,6 +203,13 @@ fechas:
       dia: Viernes
       eventos:
 
+        '19:00 a 20:30':
+          lugar: fundacion_casa_pronto
+          tipo: 'Conferencia'
+          titulo: 'La poética de la aridez. Bienal SACO en el Desierto de Atacama'
+          texto: |
+            Dagmara Wyskiel y Carlos Rendón.
+
         '21:30':
           lugar: centro_cultural_marea_cultura
           tipo: 'performance sonora'
@@ -222,17 +229,6 @@ fechas:
             <small>CURADORA:</small> Dagmara Wyskiel (Polonia-Chile).
             <small>ARTISTAS:</small> Graciela González (Bolivia); Anna Uścińska (Polonia-España); Colectiva Poética de la Urgencia: Paula Carmona y Nicolás Cox (Chile-España)
 
-
-    29:
-      dia: Martes
-      eventos:
-
-        '17:00 a 19:00':
-          lugar: maca
-          tipo: 'Conferencia'
-          titulo: 'La poética de la aridez. Bienal SACO en el Desierto de Atacama'
-          texto: |
-            Dagmara Wyskiel y Carlos Rendón.
 
     31:
       dia: Jueves
