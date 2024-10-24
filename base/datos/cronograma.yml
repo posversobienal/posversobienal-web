@@ -177,6 +177,7 @@ fechas:
       eventos:
 
         '11:00 a 12:00':
+          estado: pasada
           lugar: 'horno_de_grippo'
           tipo: 'Acción poética'
           titulo: 'Pan-paz'
