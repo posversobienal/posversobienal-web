@@ -123,8 +123,6 @@ menu:
         url: '/pag/mediacion_educativa/'
       - titulo: 'Publicaciones'
         url: '/pag/publicaciones/'
-      - titulo: 'Inscripción para Mediadores'
-        url: '/pag/inscripcion_mediadores/'
       - titulo: 'Talleres'
         url: '/pag/talleres/'
 
