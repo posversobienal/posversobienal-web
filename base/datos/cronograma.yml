@@ -185,6 +185,7 @@ fechas:
             Ricardo Salido y Silvio De Gracia.
 
         '19:30':
+          estado: pasada
           lugar: fundacion_casa_pronto
           tipo: 'Streaming'
           titulo: 'Concerto Grosso'
@@ -193,6 +194,7 @@ fechas:
             Wilson Sukorski (Brasil).
 
         '20:00':
+          estado: pasada
           lugar: fundacion_casa_pronto
           tipo: 'Conferencia'
           titulo: 'El grabado en el campo expandido'
@@ -205,6 +207,7 @@ fechas:
       eventos:
 
         '19:00 a 20:30':
+          estado: pasada
           lugar: fundacion_casa_pronto
           tipo: 'Conferencia'
           titulo: 'La poética de la aridez. Bienal SACO en el Desierto de Atacama'
@@ -212,6 +215,7 @@ fechas:
             Dagmara Wyskiel y Carlos Rendón.
 
         '21:30':
+          estado: pasada
           lugar: centro_cultural_marea_cultura
           tipo: 'performance sonora'
           titulo: 'NOISER (Argentina-Colombia)'
