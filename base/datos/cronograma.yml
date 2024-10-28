@@ -227,6 +227,7 @@ fechas:
       eventos:
 
         '17:00':
+          estado: pasada
           lugar: pnlg
           tipo: 'Inauguración'
           titulo: 'Obras in situ Bienal SACO'
@@ -251,7 +252,7 @@ fechas:
     1:
       dia: Viernes
       eventos:
-        '19:30':
+        '18:00':
           lugar: biblioteca_paz_y_trabajo
           tipo: 'Exhibición'
           titulo: 'MAIL ART POETRY. La poesía es resistencia'
