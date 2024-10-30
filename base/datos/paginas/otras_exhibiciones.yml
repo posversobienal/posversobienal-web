@@ -56,7 +56,6 @@ contenido: |
   + {{ per('marcela_peral') }}
   + {{ per('marcio_almeida') }}
   + {{ per('maurizio_mancioli') }}
-  + {{ per('paula_doberti') }}
   + {{ per('ro_barragan') }}
   + {{ per('roma_vaquero_diaz') }}
   + {{ per('rosa_gravino') }}
