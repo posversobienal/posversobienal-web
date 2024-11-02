@@ -241,6 +241,7 @@ fechas:
       eventos:
 
         '20:00':
+          estado: pasada
           lugar: dante_alighieri_junin
           tipo: 'Exhibición'
           titulo: 'ESPACIO LIMINAR. Poesía Visiva italiana contemporánea'
@@ -253,6 +254,7 @@ fechas:
       dia: Viernes
       eventos:
         '18:00':
+          estado: pasada
           lugar: biblioteca_paz_y_trabajo
           tipo: 'Exhibición'
           titulo: 'MAIL ART POETRY. La poesía es resistencia'
@@ -399,7 +401,6 @@ fechas:
           url: ''
           texto: |
             <small>CURADORES:</small> Javier Robledo y Marisol Bellusci.
-
 
     22:
       dia: Viernes

@@ -25,28 +25,35 @@ contenido: |
 
   ---
 
-  ### Estrategias didácticas para la educación artística.
-  **{{ per('daniela_mastrandrea') }}**{.text-uppercase}
-
-
-  - <small>FECHA:</small> **Miércoles 16 de octubre**. <small>HORARIO:</small> a confirmar.
-  - <small>SEDE:</small> {{ sds('centro_de_capacitacion_y_cultura_atsa')}}.
-  - <small>DESTINATARIOS:</small> Docentes de Educación Artística.
-
-  ---
-
-  ### Lengua de pájaros.
-  **{{ per('montenegro_fisher') }}**{.text-uppercase}
-
-  - <small>FECHA:</small> **Martes 22 de octubre**. <small>HORARIO:</small> **16:00 a 18:00**.
-  - <small>SEDE:</small> {{ sds('escuela_de_teatro_gilberto_mesa') }}.
-  - <small>DESTINATARIOS:</small> Estudiantes nivel terciario.
-  - <small>MÁXIMO:</small> 20 participantes.
-  - <small>MATERIALES:</small> 40 hojas de papel, 40 plumones/ lápices de color. Los estudiantes son bienvenidos a traer instrumentos musicales u objetos que produzcan sonido.
+  <div class="taller-pasado">
+    <h3>Estrategias didácticas para la educación artística.</h3>
+    <p class="text-uppercase"><b>{{ per('daniela_mastrandrea', formato='html') }}</b></p>
+    <ul>
+      <li><small>FECHA:</small> <b>Miércoles 16 de octubre</b>. <small>HORARIO:</small> a confirmar.</li>
+      <li><small>SEDE:</small> {{ sds('centro_de_capacitacion_y_cultura_atsa', formato='html') }}.</li>
+      <li><small>DESTINATARIOS:</small> Docentes de Educación Artística.</li>
+    </ul>
+  </div>
 
   ---
 
-  ### Taller de Poesía Visual y Experimental.
+  <div class="taller-pasado">
+    <h3>Lengua de pájaros.</h3>
+    <p class="text-uppercase"><b>{{ per('montenegro_fisher', formato='html') }}</b></p>
+    <ul>
+      <li><small>FECHA:</small> <b>Martes 22 de octubre</b>. <small>HORARIO:</small> <b>16:00 a 18:00</b>.</li>
+      <li><small>SEDE:</small> {{ sds('escuela_de_teatro_gilberto_mesa', formato='html') }}.</li>
+      <li><small>DESTINATARIOS:</small> Estudiantes nivel terciario.</li>
+      <li><small>MÁXIMO:</small> 20 participantes.</li>
+      <li><small>MATERIALES:</small> 40 hojas de papel, 40 plumones/ lápices de color. Los estudiantes son bienvenidos a traer instrumentos musicales u objetos que produzcan sonido.</li>
+    </ul>
+  </div>
+
+  ---
+
+
+  ### Taller de Poesía Visual y Experimental. { .taller-proximo }
+
   **{{ per('claudio_mangifesta') }}**{.text-uppercase}
 
   - <small>FECHA:</small> **Jueves 7 de noviembre**. <small>HORARIO:</small> a confirmar.
@@ -63,6 +70,7 @@ contenido: |
   - <small>FECHA:</small> **Viernes 8 noviembre**. <small>HORARIO:</small> **16:00 a 18:00**.
   - <small>SEDE:</small> {{ sds('biblioteca_paz_y_trabajo') }}.
   - <small>DESTINATARIOS:</small> Público en general.
+
 
   ---
 
@@ -126,3 +134,6 @@ contenido: |
   - <small>DESTINATARIOS:</small> Mayores de 16 años.
   - <small>MÁXIMO:</small> 20 participantes.
   - <small>MATERIALES:</small> Papel, lapicera, lápices, celular (o algo para grabar), partituras, objetos sonoros (tubitos, cornetas, silbatos, flautas, entre otros).
+
+
+  <script>document.querySelector('.taller-proximo').scrollIntoViewIfNeeded(); </script>

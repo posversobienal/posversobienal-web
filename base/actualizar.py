@@ -52,21 +52,27 @@ def datos_de(tipo, archivo):
     return re
 
 
-def datos_de_persona(k, tipo='n+l'):
+def datos_de_persona(k, tipo='n+l', formato='md'):
     if k in dat_per:
         d = dat_per[k]
         nom = d['nombre']
         ape = d['apellido']
         if tipo == 'n+l':
-            return f'[{nom} {ape}](/per/{k}/)'
+            if formato == 'md':
+                return f'[{nom} {ape}](/per/{k}/)'
+            elif formato == 'html':
+                return f'<a href="/per/{k}/">{nom} {ape}</a>'
     return k
 
-def datos_de_sede(k, tipo='n+l'):
+def datos_de_sede(k, tipo='n+l', formato='md'):
     if k in dat_sds:
         d = dat_sds[k]
         nom = d['nombre']
         if tipo == 'n+l':
-            return f'[{nom}](/sds/{k}/)'
+            if formato == 'md':
+                return f'[{nom}](/sds/{k}/)'
+            elif formato == 'html':
+                return f'<a href="/sds/{k}/">{nom}</a>'
     return k
 
 

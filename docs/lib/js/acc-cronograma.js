@@ -38,6 +38,10 @@ class Cronograma {
             }
 
             this.posprocesar();
+
+            if(this.cfg.foco_en_proxima_actividad){
+                this.enfocar_proxima_actividad();
+            }
         }
     }
 
@@ -99,7 +103,7 @@ class Cronograma {
                         tipo: v_evento.tipo,
                         titulo: this.titulo_html(v_evento.titulo, v_evento.url),
                         texto: v_evento.texto,
-                        estado: v_evento.estado,
+                        estado: v_evento.estado !== undefined ? v_evento.estado : 'proxima',
                     })
 
                     if(!v_evento.ignorar){
@@ -129,6 +133,10 @@ class Cronograma {
         if(this.elem.querySelector(`.${this.cLsEventos}`).innerHTML === ''){
             this.elem.parentElement.remove();
         }
+    }
+
+    enfocar_proxima_actividad(){
+        this.elem.querySelector('.evento.estado_proxima').scrollIntoViewIfNeeded();
     }
 
     utilidad_filtrado(){

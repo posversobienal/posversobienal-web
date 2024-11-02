@@ -644,6 +644,16 @@ a.actual {
 .participantes-evento-teorico .item .btn-ampliar.ampliado:before {
   content: '-';
 }
+.taller-pasado {
+  opacity: 0.4;
+}
+.taller-pasado:hover {
+  opacity: 0.9;
+}
+.taller-proximo {
+  padding-left: 10px;
+  border-left: 10px solid #000;
+}
 .boton {
   cursor: pointer;
 }

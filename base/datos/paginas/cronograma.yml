@@ -7,5 +7,5 @@ estilo: col-lg-11
 
 contenido: |
 
-  <div class="cronograma" id="cronograma_completo_aqui" data-cfg='{"menu_filtrado": true}'></div>
+  <div class="cronograma" id="cronograma_completo_aqui" data-cfg='{"menu_filtrado": true, "foco_en_proxima_actividad": true}'></div>
   <script src="/lib/js/acc-cronograma.js?{{ cfg.cache_actu }}"></script>
