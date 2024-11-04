@@ -266,6 +266,7 @@ fechas:
       dia: Sábado
       eventos:
         '19:30':
+          estado: pasada
           lugar: unnoba_alicia_moreau_de_justo
           tipo: 'Proyección'
           titulo: 'Videopoéticas'
