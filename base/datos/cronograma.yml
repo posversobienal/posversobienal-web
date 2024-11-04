@@ -34,8 +34,8 @@ fechas:
           estado: pasada
           lugar: museo_historico
           tipo: 'Exhibición'
-          titulo: 'RESIST/EXIST Libro-muestra Homenaje a Juan Carlos Romero'
-          url: '/pag/otras_exhibiciones/#resistexist-libro-muestra-homenaje-a-juan-carlos-romero'
+          titulo: 'RESIST/EXIST Libro-muestra'
+          url: '/pag/otras_exhibiciones/#resistexist-libro-muestra'
           texto: |
             <small>ORGANIZA:</small> Red Conceptualismos del Sur. Ana Longoni, Lucía Bianchi, Lucía Cañada y Fernando Davis.
 
