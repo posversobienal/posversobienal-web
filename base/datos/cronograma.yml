@@ -325,18 +325,6 @@ fechas:
             <small>CURADURÍA:</small> Ana Montenegro y Silvio De Gracia.
             <br>Performances de Diego Melero (Argentina) y Ro Barragán (Argentina).
 
-    9:
-      dia: Sábado
-      eventos:
-        '11:00':
-          lugar: villa_alpina
-          tipo: 'Exhibición'
-          titulo: 'THE SKY HAS NO PLACE TO GO'
-          texto: |
-            Poetas experimentales de Italia y Alemania.
-            <br>Archivo HOTEL DADA.
-            <br><small>CURADURÍA:</small> Silvio De Gracia y Ana Montenegro.
-
     14:
       dia: Jueves
       eventos:
@@ -537,3 +525,19 @@ fechas:
           tipo: 'Concierto vía online'
           titulo: 'Yuri Bruscky (Brasil)'
           texto: |
+
+
+
+
+en_espera:
+    9:
+      dia: Sábado
+      eventos:
+        '11:00':
+          lugar: villa_alpina
+          tipo: 'Exhibición'
+          titulo: 'THE SKY HAS NO PLACE TO GO'
+          texto: |
+            Poetas experimentales de Italia y Alemania.
+            <br>Archivo HOTEL DADA.
+            <br><small>CURADURÍA:</small> Silvio De Gracia y Ana Montenegro.
