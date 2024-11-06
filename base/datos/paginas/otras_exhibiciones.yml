@@ -37,6 +37,7 @@ contenido: |
   <br><small>DISEÑO EXPOSITIVO:</small> {{ per('ana_montenegro') }}.
   <br><small>SEDE:</small> **[Fundación Casa Pronto](/sds/fundacion_casa_pronto/)**
   <br><small>APERTURA:</small> **8 de noviembre de 2024**.
+  <br><small>CIERRE:</small> **20 de diciembre de 2024**.
 
   + {{ per('ale_montiel') }}
   + {{ per('angelica_chio') }}
@@ -110,6 +111,8 @@ contenido: |
   <br><hr>
   ## INCITACIONES PARA VER. Resistiendo el presente
   <small>SEDE:</small> **[Centro de Capacitación y Cultura ATSA](/sds/centro_de_capacitacion_y_cultura_atsa/)**
+  <br><small>APERTURA:</small> **7 de noviembre de 2024**.
+  <br><small>CIERRE:</small> **30 de noviembre de 2024**.
 
   + {{ per('gaby_lobato') }}
   + {{ per('jimson_vilela') }}
