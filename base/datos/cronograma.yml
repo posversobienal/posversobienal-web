@@ -280,6 +280,7 @@ fechas:
       dia: Jueves
       eventos:
         '11:00':
+          estado: pasada
           lugar: espacio_publico
           tipo: 'Performance'
           titulo: 'LA CULTURA DE LA FELICIDAD. Activación de acción pública de Luis Pazos'
@@ -288,6 +289,7 @@ fechas:
             <small>PERFORMERS:</small> Alumnos de la Escuela Provincial de Teatro "Gilberto Alfredo Mesa".
 
         '17:00 a 18:30':
+          estado: pasada
           lugar: maca
           tipo: 'Charla'
           titulo: 'Luis Pazos. Poesía y acción'
@@ -296,6 +298,7 @@ fechas:
             Mesa-homenaje con la participación de Ro Barragán, Silvio De Gracia y Claudio Mangifesta.
 
         '20:00':
+          estado: pasada
           lugar: centro_de_capacitacion_y_cultura_atsa
           tipo: 'Exhibición'
           titulo: 'INCITACIONES PARA VER. Resistiendo el presente'
