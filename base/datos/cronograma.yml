@@ -312,6 +312,7 @@ fechas:
       eventos:
 
         '18:00 a 19:30':
+          estado: pasada
           lugar: escuela_de_educacion_artistica_victor_grippo
           tipo: 'Recital poético'
           titulo: 'El instante y la eternidad: Leemos a Luis Pazos'
@@ -320,6 +321,7 @@ fechas:
             <small>PARTICIPAN:</small> Silvio De Gracia, Claudio Mangifesta, Rubén Liggera, Enrique Scarpatti, Susana Griffin y Héctor Azil.
 
         '20:30':
+          estado: pasada
           lugar: fundacion_casa_pronto
           tipo: 'Exhibición'
           titulo: 'MARGINALIA. Notas, visiones y escrituras en los bordes'
