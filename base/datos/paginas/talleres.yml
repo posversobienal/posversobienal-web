@@ -51,26 +51,29 @@ contenido: |
 
   ---
 
-
-  ### Taller de Poesía Visual y Experimental. { .taller-proximo }
-
-  **{{ per('claudio_mangifesta') }}**{.text-uppercase}
-
-  - <small>FECHA:</small> **Viernes 8 de noviembre**. <small>HORARIO:</small> <b>9.30 a 12.30</b>.
-  - <small>SEDE:</small> Escuela de Educación Artística "Víctor Grippo".
-  - <small>DESTINATARIO:</small> Público general.
-  - <small>DURACIÓN:</small> 3 horas.
-  - <small>MATERIALES:</small> Revistas o libros antiguos para RECORTAR imágenes y letras. Hojas o cartón para usar como base. Tijeras, plasticola, Letras (de cualquier tipo). Tipos móviles de las viejas imprentas, sellos, letraset, letras caladas o stencil, etc. Imágenes de diversos tipos.
+  <div class="taller-pasado">
+    <h3>Taller de Poesía Visual y Experimental.</h3>
+    <p class="text-uppercase"><b>{{ per('claudio_mangifesta', formato='html') }}</b></p>
+    <ul>
+      <li><small>FECHA:</small> <b>Viernes 8 de noviembre**.</b>. <small>HORARIO:</small> <b>9.30 a 12.30</b>.</li>
+      <li><small>SEDE:</small> {{ sds('escuela_de_educacion_artistica_victor_grippo', formato='html') }}.</li>
+      <li><small>DESTINATARIOS:</small> Público general.</li>
+      <li><small>DURACIÓN:</small> 3 horas.</li>
+      <li><small>MATERIALES:</small> Revistas o libros antiguos para RECORTAR imágenes y letras. Hojas o cartón para usar como base. Tijeras, plasticola, Letras (de cualquier tipo). Tipos móviles de las viejas imprentas, sellos, letraset, letras caladas o stencil, etc. Imágenes de diversos tipos.</li>
+    </ul>
+  </div>
 
   ---
 
-  ### Taller de arte correo.
-  **{{ per('rosa_gravino') }}**{.text-uppercase} Y **{{ per('marcela_peral' )}}**{.text-uppercase}
-
-  - <small>FECHA:</small> **Viernes 8 noviembre**. <small>HORARIO:</small> **16:00 a 18:00**.
-  - <small>SEDE:</small> {{ sds('biblioteca_paz_y_trabajo') }}.
-  - <small>DESTINATARIOS:</small> Público en general.
-
+  <div class="taller-pasado">
+    <h3>Taller de arte correo.</h3>
+    <p class="text-uppercase"><b>{{ per('rosa_gravino', formato='html') }}</b> Y <b>{{ per('marcela_peral', formato='html') }}</b></p>
+    <ul>
+      <li><small>FECHA:</small> <b>Viernes 8 de noviembre**.</b>. <small>HORARIO:</small> <b>16:00 a 18:00</b>.</li>
+      <li><small>SEDE:</small> {{ sds('biblioteca_paz_y_trabajo', formato='html') }}.</li>
+      <li><small>DESTINATARIOS:</small> Público general.</li>
+    </ul>
+  </div>
 
   ---
 
