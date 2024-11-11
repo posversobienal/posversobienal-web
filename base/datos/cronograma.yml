@@ -330,8 +330,19 @@ fechas:
             <small>CURADURÍA:</small> Ana Montenegro y Silvio De Gracia.
             <br>Performances de Diego Melero (Argentina) y Ro Barragán (Argentina).
 
-    14:
-      dia: Jueves
+    12:
+      dia: Martes
+      eventos:
+
+        '20:00':
+          lugar: hotel_dada
+          tipo: 'Charla'
+          titulo: 'SER TERRITORIO / lo sutil da origen a lo denso'
+          texto: |
+            Ale Montiel (Argentina).
+
+    15:
+      dia: Viernes
       eventos:
 
         '20:00':
@@ -340,20 +351,7 @@ fechas:
           titulo: '3: Acción Póetica y Espacio Público'
           texto: |
             Silvio De Gracia (Argentina).
-            <br>Juan Montelpare (Argentina).
             <br>Paula Doberti (Argentina).
-
-    15:
-      dia: Viernes
-      eventos:
-
-        'Horario y recorrido a confirmar':
-          lugar: '??'
-          tipo: ''
-          titulo: 'ACCIONES POÉTICAS EN EL ESPACIO PÚBLICO'
-          url: '/pag/otras_exhibiciones/#acciones-poeticas-en-el-espacio-publico'
-          texto: |
-            <small>CURADOR:</small> Juan Montelpare.
 
 
     16:
@@ -368,11 +366,14 @@ fechas:
           texto: |
             <small>CURADOR:</small> Juan Montelpare.
 
-        '18:30':
-          lugar: ccp_horacio_alonso
-          tipo: 'Acción en espacio público'
-          titulo: 'Gran desfile de poesía visual'
+        '17:00':
+          lugar: centro_de_capacitacion_y_cultura_atsa
+          tipo: 'Relato oral/performático'
+          titulo: 'EPIFANÍAS DEL ANDAR'
+          url: ''
           texto: |
+            María Zegna (Argentina) con diseño sonoro de Bruno Mesz.
+
 
     21:
       dia: Jueves
@@ -439,13 +440,13 @@ fechas:
       eventos:
 
         '20:00':
-          lugar: centro_de_capacitacion_y_cultura_atsa
-          tipo: 'Evento Teórico'
-          titulo: '5: Poéticas Electrónicas'
+          lugar: hotel_dada
+          tipo: 'Charla'
+          titulo: 'Pere Sousa. Factoría Merzmail'
           texto: |
-            Claudia Kozak (Argentina).
-            <br>Rodolfo Mata (México).
-            <br>Michael Hurtado (Perú).
+            Fabiane Pianowski (Brasil)
+            <br>Ferran Destemple (España)
+            <br><small>Performance sonora:</small> Ana Montenegro (Brasil) y Carlos Macheratti (Argentina).
 
 
     29:
@@ -460,13 +461,14 @@ fechas:
             Activación a cargo de Silvio De Gracia.
 
         '20:00':
-          lugar: hotel_dada
-          tipo: 'Charla'
-          titulo: 'Pere Sousa. Factoría Merzmail'
+          lugar: centro_de_capacitacion_y_cultura_atsa
+          tipo: 'Evento Teórico'
+          titulo: '5: Poéticas Electrónicas'
           texto: |
-            Fabiane Pianowski (Brasil)
-            <br>Ferran Destemple (España)
-            <br><small>Performance sonora:</small> Ana Montenegro (Brasil) y Carlos Macheratti (Argentina).
+            Claudia Kozak (Argentina).
+            <br>Rodolfo Mata (México).
+            <br>Michael Hurtado (Perú).
+
 
 
     30:
@@ -535,9 +537,8 @@ fechas:
 
 
 en_espera:
-    9:
-      dia: Sábado
       eventos:
+
         '11:00':
           lugar: villa_alpina
           tipo: 'Exhibición'
@@ -546,3 +547,9 @@ en_espera:
             Poetas experimentales de Italia y Alemania.
             <br>Archivo HOTEL DADA.
             <br><small>CURADURÍA:</small> Silvio De Gracia y Ana Montenegro.
+
+        '18:30':
+          lugar: ccp_horacio_alonso
+          tipo: 'Acción en espacio público'
+          titulo: 'Gran desfile de poesía visual'
+          texto: |

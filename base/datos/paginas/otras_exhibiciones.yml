@@ -93,7 +93,6 @@ contenido: |
   + {{ per('paula_doberti') }}
   + {{ per('maria_zegna') }}
   + {{ per('ro_barragan') }}
-  + {{ per('roma_vaquero_diaz') }}
   + {{ per('silvio_de_gracia') }}
 
 
@@ -117,6 +116,7 @@ contenido: |
   + {{ per('gaby_lobato') }}
   + {{ per('jimson_vilela') }}
   + {{ per('la_lengua_en_la_calle') }}
+  + {{ per('maria_zegna') }}
   + {{ per('mariana_chiesa') }}
   + {{ per('pia_hoehfeld') }}
   + {{ per('tchello_d_barros') }}
