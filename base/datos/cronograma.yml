@@ -341,9 +341,32 @@ fechas:
           texto: |
             Ale Montiel (Argentina).
 
+
+    14:
+      dia: Jueves
+      eventos:
+
+        '17:30':
+          lugar: pnlg
+          tipo: ''
+          titulo: 'ACCIONES POÉTICAS EN EL ESPACIO PÚBLICO'
+          texto: |
+            Ale Montiel (Argentina).
+            <br>Joyce Ribeiro (Brasil).
+            <br>María Zegna (Argentina).
+
+
     15:
       dia: Viernes
       eventos:
+
+        '11:00':
+          lugar: espacio_urbano
+          tipo: ''
+          titulo: 'ACCIONES POÉTICAS EN EL ESPACIO PÚBLICO'
+          url: '/pag/otras_exhibiciones/#acciones-poeticas-en-el-espacio-publico'
+          texto: |
+            Ro Barragán (Argentina).
 
         '20:00':
           lugar: hotel_dada
@@ -353,18 +376,19 @@ fechas:
             Silvio De Gracia (Argentina).
             <br>Paula Doberti (Argentina).
 
-
     16:
       dia: Sábado
       eventos:
 
-        'Horario y recorrido a confirmar':
-          lugar: '??'
+        '11:00':
+          lugar: espacio_urbano_cc
           tipo: ''
           titulo: 'ACCIONES POÉTICAS EN EL ESPACIO PÚBLICO'
           url: '/pag/otras_exhibiciones/#acciones-poeticas-en-el-espacio-publico'
           texto: |
-            <small>CURADOR:</small> Juan Montelpare.
+            Paula Doberti (Argentina).
+            <br>Alberto Couratier (Chile).
+            <br>Silvio De Gracia (Argentina).
 
         '17:00':
           lugar: centro_de_capacitacion_y_cultura_atsa

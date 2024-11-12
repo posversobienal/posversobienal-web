@@ -83,13 +83,11 @@ contenido: |
   <br><hr>
   ## Acciones poéticas en el espacio público
 
-  <small>CURADOR:</small> {{ per('juan_montelpare') }}.
   <br>**15 y 16 de noviembre**.
 
   + {{ per('alberto_couratier') }}
   + {{ per('ale_montiel') }}
   + {{ per('joyce_ribeiro') }}
-  + {{ per('juan_montelpare') }}
   + {{ per('paula_doberti') }}
   + {{ per('maria_zegna') }}
   + {{ per('ro_barragan') }}
@@ -119,4 +117,11 @@ contenido: |
   + {{ per('maria_zegna') }}
   + {{ per('mariana_chiesa') }}
   + {{ per('pia_hoehfeld') }}
+  + {{ per('ruben_liggera') }}
   + {{ per('tchello_d_barros') }}
+
+
+extra: |
+  de acciones en el espacio publico
+  <small>CURADOR:</small> {{ per('juan_montelpare') }}.
+  + {{ per('juan_montelpare') }}

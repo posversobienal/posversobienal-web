@@ -116,7 +116,6 @@ deslizador_registro:
     - javier_abreu
     - jessica_pujol_duran
     - jimson_vilela
-    - juan_montelpare
     - la_lengua_en_la_calle
     - lucas_di_pascuale
     - marcio_almeida
@@ -132,3 +131,6 @@ deslizador_registro:
     - stephan_gross
     - teresa_pereda
     - tulio_restrepo
+
+extra: |
+  - juan_montelpare

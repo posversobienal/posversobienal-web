@@ -126,7 +126,6 @@ contenido_secundario: |
 
   ### Equipo Curatorial POSVERSO
   + {{ per('ana_montenegro') }} (BRA)
-  + {{ per('juan_montelpare') }} (ARG)
   + {{ per('silvio_de_gracia') }} (ARG)
 
   ### Curador Programa Educativo
@@ -170,3 +169,8 @@ contenido_secundario: |
   + {{ per('ricardo_omar_salido') }} (ARG)
   + Julieta Civalero (ARG)
   + Jorge Echeverria (ARG)
+
+
+extra: |
+    estaba en equipo curatorial
+    + {{ per('juan_montelpare') }} (ARG)

@@ -35,6 +35,8 @@ contenido: |
 
   <br>
 
+
+extra: |
   ![Juan Montelpare](/rec/foto/personas/juan_montelpare_2.jpg){.foto-izq-parrafo}
 
   ## {{ per('juan_montelpare') }}{id=juan_montelpare}
