@@ -26,18 +26,6 @@ contenido: |
   ---
 
   <div class="taller-pasado">
-    <h3>Estrategias didácticas para la educación artística.</h3>
-    <p class="text-uppercase"><b>{{ per('daniela_mastrandrea', formato='html') }}</b></p>
-    <ul>
-      <li><small>FECHA:</small> <b>Miércoles 16 de octubre</b>. <small>HORARIO:</small> a confirmar.</li>
-      <li><small>SEDE:</small> {{ sds('centro_de_capacitacion_y_cultura_atsa', formato='html') }}.</li>
-      <li><small>DESTINATARIOS:</small> Docentes de Educación Artística.</li>
-    </ul>
-  </div>
-
-  ---
-
-  <div class="taller-pasado">
     <h3>Lengua de pájaros.</h3>
     <p class="text-uppercase"><b>{{ per('montenegro_fisher', formato='html') }}</b></p>
     <ul>
@@ -69,7 +57,7 @@ contenido: |
     <h3>Taller de arte correo.</h3>
     <p class="text-uppercase"><b>{{ per('rosa_gravino', formato='html') }}</b> Y <b>{{ per('marcela_peral', formato='html') }}</b></p>
     <ul>
-      <li><small>FECHA:</small> <b>Viernes 8 de noviembre**.</b>. <small>HORARIO:</small> <b>16:00 a 18:00</b>.</li>
+      <li><small>FECHA:</small> <b>Viernes 8 de noviembre.</b>. <small>HORARIO:</small> <b>16:00 a 18:00</b>.</li>
       <li><small>SEDE:</small> {{ sds('biblioteca_paz_y_trabajo', formato='html') }}.</li>
       <li><small>DESTINATARIOS:</small> Público general.</li>
     </ul>
@@ -77,13 +65,16 @@ contenido: |
 
   ---
 
-  ### Las formas del agua.
-  **{{ per('ale_montiel' )}}**{.text-uppercase}
-
-  - <small>FECHA:</small> **Miércoles 13 de noviembre**. <small>HORARIO:</small> **16:00 a 18:00**.
-  - <small>SEDE:</small> {{ sds('casa_popular_dante_balestro') }}.
-  - <small>DESTINATARIO:</small> público general.
-  - <small>MATERIALES:</small> Hojas tamaño A3 para cada participante, fibrones de varios grosores y fibras en la gama de los azules.
+  <div class="taller-pasado">
+    <h3>Las formas del agua.</h3>
+    <p class="text-uppercase"><b>{{ per('ale_montiel', formato='html') }}</b></p>
+    <ul>
+      <li><small>FECHA:</small> <b>Miércoles 13 de noviembre.</b>. <small>HORARIO:</small> <b>16:00 a 18:00</b>.</li>
+      <li><small>SEDE:</small> {{ sds('casa_popular_dante_balestro', formato='html') }}.</li>
+      <li><small>DESTINATARIOS:</small> Público general.</li>
+      <li><small>MATERIALES:</small> Hojas tamaño A3 para cada participante, fibrones de varios grosores y fibras en la gama de los azules.</li>
+    </ul>
+  </div>
 
   ---
 
@@ -106,15 +97,6 @@ contenido: |
   - <small>DESTINATARIOS:</small> Público adulto.
   - <small>DURACIÓN:</small> 2 horas.
   - <small>MATERIALES:</small> Papeles de todo tipo, cartones, revistas, pegamento, hilos, cintas de enmascarar de colores, elásticos, marcadores, lápices, tijeras, letras, botones, postales, lana, pajitas, palitos de helado.
-
-  ---
-
-  ### Objeto y rastro. Taller de arte de performance.
-  **{{ per('alberto_couratier') }}**{.text-uppercase}
-
-  - <small>FECHA:</small> **Viernes 15 de noviembre**. <small>HORARIO:</small> a confirmar.
-  - <small>SEDE:</small> {{ sds('escuela_de_teatro_gilberto_mesa') }}.
-  - <small>DESTINATARIOS:</small> Jóvenes de 18 a 25 años.
 
   ---
 
