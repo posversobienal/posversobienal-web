@@ -77,11 +77,11 @@ contenido: |
   </div>
 
   ---
-
+  <span class="taller-proximo"></span>
   ### TIPOESÍA. Poesía Tipográfica.
   **{{ per('ro_barragan') }}**{.text-uppercase}
 
-  - <small>FECHA:</small> **Viernes 15 de noviembre**. <small>HORARIO:</small> **9:30 a 13:30**.
+  - <small>FECHA:</small> **Viernes 15 de noviembre**. <small>HORARIO:</small> **13:30 a 16:30**.
   - <small>SEDE:</small> {{ sds('escuela_de_educacion_artistica_victor_grippo') }}.
   - <small>MATERIALES:</small> Se contará con materiales específicos provistos por Ilusión gráfica.
   - <small>DESTINATARIOS:</small> Público general.

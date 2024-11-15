@@ -335,6 +335,7 @@ fechas:
       eventos:
 
         '20:00':
+          estado: pasada
           lugar: hotel_dada
           tipo: 'Charla'
           titulo: 'SER TERRITORIO / lo sutil da origen a lo denso'
@@ -347,26 +348,19 @@ fechas:
       eventos:
 
         '17:30':
+          estado: pasada
           lugar: pnlg
           tipo: ''
           titulo: 'ACCIONES POÉTICAS EN EL ESPACIO PÚBLICO'
           texto: |
-            Ale Montiel (Argentina).
+            María Zegna (Argentina).
             <br>Joyce Ribeiro (Brasil).
-            <br>María Zegna (Argentina).
+            <br>Ale Montiel (Argentina).
 
 
     15:
       dia: Viernes
       eventos:
-
-        '11:00':
-          lugar: espacio_urbano
-          tipo: ''
-          titulo: 'ACCIONES POÉTICAS EN EL ESPACIO PÚBLICO'
-          url: '/pag/otras_exhibiciones/#acciones-poeticas-en-el-espacio-publico'
-          texto: |
-            Ro Barragán (Argentina).
 
         '20:00':
           lugar: hotel_dada
@@ -375,6 +369,7 @@ fechas:
           texto: |
             Silvio De Gracia (Argentina).
             <br>Paula Doberti (Argentina).
+
 
     16:
       dia: Sábado
@@ -387,8 +382,10 @@ fechas:
           url: '/pag/otras_exhibiciones/#acciones-poeticas-en-el-espacio-publico'
           texto: |
             Paula Doberti (Argentina).
+            <br>Ro Barragán (Argentina).
             <br>Alberto Couratier (Chile).
             <br>Silvio De Gracia (Argentina).
+
 
         '17:00':
           lugar: centro_de_capacitacion_y_cultura_atsa
@@ -498,17 +495,6 @@ fechas:
     30:
       dia: Sábado
       eventos:
-
-        '11:00':
-          lugar: comedor_los_totoreros
-          tipo: ''
-          titulo: 'Totoreras, Casa Río y Arquitectura Bonaerense: Acción comunitaria'
-          texto: |
-            Alejandro Meitin.
-            <br>Jesu Antuña.
-            <br>Franco Palacios Beltrán.
-            <br>Carlos Gorard.
-
 
         '19:00':
           lugar: hotel_dada
