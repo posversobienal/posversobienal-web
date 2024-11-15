@@ -77,18 +77,22 @@ contenido: |
   </div>
 
   ---
-  <span class="taller-proximo"></span>
-  ### TIPOESÍA. Poesía Tipográfica.
-  **{{ per('ro_barragan') }}**{.text-uppercase}
 
-  - <small>FECHA:</small> **Viernes 15 de noviembre**. <small>HORARIO:</small> **13:30 a 16:30**.
-  - <small>SEDE:</small> {{ sds('escuela_de_educacion_artistica_victor_grippo') }}.
-  - <small>MATERIALES:</small> Se contará con materiales específicos provistos por Ilusión gráfica.
-  - <small>DESTINATARIOS:</small> Público general.
-  - <small>MÁXIMO:</small> 15 participantes.
+  <div class="taller-pasado">
+    <h3>TIPOESÍA. Poesía Tipográfica.</h3>
+    <p class="text-uppercase"><b>{{ per('ro_barragan', formato='html') }}</b></p>
+    <ul>
+      <li><small>FECHA:</small> <b>Viernes 15 de noviembre.</b>. <small>HORARIO:</small> <b>13:30 a 16:30</b>.</li>
+      <li><small>SEDE:</small> {{ sds('escuela_de_educacion_artistica_victor_grippo', formato='html') }}.</li>
+      <li><small>DESTINATARIOS:</small> Público general.</li>
+      <li><small>MATERIALES:</small> Se contará con materiales específicos provistos por Ilusión gráfica.</li>
+      <li><small>MÁXIMO:</small> 15 participantes.</li>
+    </ul>
+  </div>
 
   ---
 
+  <span class="taller-proximo"></span>
   ### Rondas creativas.
   **SANDRA GALLI**
 
@@ -108,17 +112,6 @@ contenido: |
   - <small>DESTINATARIO:</small> Público general.
   - <small>MÁXIMO:</small> 20 a 30 personas.
   - <small>MATERIALES:</small> Se recomienda, para una mayor comodidad en la exploración de códigos durante las actividades, llevar su propia tablet o notebook.
-
-  ---
-
-  ### Proposiciones (in) poéticas.
-  **Julia Cisneros, Julio Lamilla y Alan Courtis**{.text-uppercase}
-
-  - <small>FECHA:</small> **Jueves 21 de noviembre**. <small>HORARIO:</small> **17:00 a 20:00**.
-  - <small>SEDE:</small> {{ sds('centro_cultural_marea_cultura') }}.
-  - <small>DESTINATARIOS:</small> Mayores de 16 años.
-  - <small>MÁXIMO:</small> 20 participantes.
-  - <small>MATERIALES:</small> Papel, lapicera, lápices, celular (o algo para grabar), partituras, objetos sonoros (tubitos, cornetas, silbatos, flautas, entre otros).
 
 
   <script>document.querySelector('.taller-proximo').scrollIntoViewIfNeeded(); </script>
