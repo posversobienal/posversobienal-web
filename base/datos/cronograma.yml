@@ -363,6 +363,7 @@ fechas:
       eventos:
 
         '20:00':
+          estado: pasada
           lugar: hotel_dada
           tipo: 'Evento Teórico'
           titulo: '3: Acción Póetica y Espacio Público'
@@ -383,9 +384,15 @@ fechas:
           texto: |
             Paula Doberti (Argentina).
             <br>Ro Barragán (Argentina).
-            <br>Alberto Couratier (Chile).
             <br>Silvio De Gracia (Argentina).
 
+        '16:30':
+          lugar: espacio_urbano_cc
+          tipo: ''
+          titulo: 'ACCIONES POÉTICAS EN EL ESPACIO PÚBLICO'
+          url: '/pag/otras_exhibiciones/#acciones-poeticas-en-el-espacio-publico'
+          texto: |
+            Alberto Couratier (Chile).
 
         '17:00':
           lugar: centro_de_capacitacion_y_cultura_atsa

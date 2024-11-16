@@ -92,17 +92,20 @@ contenido: |
 
   ---
 
-  <span class="taller-proximo"></span>
-  ### Rondas creativas.
-  **SANDRA GALLI**
-
-  - <small>FECHA:</small> **Viernes 15 de noviembre**. <small>HORARIO:</small> **18:00 a 20:00**.
-  - <small>SEDE:</small> {{ sds('fundacion_casa_pronto') }}.
-  - <small>DESTINATARIOS:</small> Público adulto.
-  - <small>DURACIÓN:</small> 2 horas.
-  - <small>MATERIALES:</small> Papeles de todo tipo, cartones, revistas, pegamento, hilos, cintas de enmascarar de colores, elásticos, marcadores, lápices, tijeras, letras, botones, postales, lana, pajitas, palitos de helado.
+    <div class="taller-pasado">
+    <h3>Rondas creativas.</h3>
+    <p class="text-uppercase"><b>SANDRA GALLI</b></p>
+    <ul>
+      <li><small>FECHA:</small> <b>Viernes 15 de noviembre.</b>. <small>HORARIO:</small> <b>18:00 a 20:00</b>.</li>
+      <li><small>SEDE:</small> {{ sds('fundacion_casa_pronto', formato='html') }}.</li>
+      <li><small>DESTINATARIOS:</small> Público general.</li>
+      <li><small>MATERIALES:</small> Papeles de todo tipo, cartones, revistas, pegamento, hilos, cintas de enmascarar de colores, elásticos, marcadores, lápices, tijeras, letras, botones, postales, lana, pajitas, palitos de helado.</li>
+    </ul>
+  </div>
 
   ---
+
+  <span class="taller-proximo"></span>
 
   ### Livecoding. Exploración expresiva mediante programación en tiempo real.
   **{{ per('carlos_alberto_macheratti') }}**{.text-uppercase}
