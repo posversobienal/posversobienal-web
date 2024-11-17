@@ -377,6 +377,7 @@ fechas:
       eventos:
 
         '11:00':
+          estado: pasada
           lugar: espacio_urbano_cc
           tipo: ''
           titulo: 'ACCIONES POÉTICAS EN EL ESPACIO PÚBLICO'
@@ -387,6 +388,7 @@ fechas:
             <br>Silvio De Gracia (Argentina).
 
         '16:30':
+          estado: pasada
           lugar: espacio_urbano_cc
           tipo: ''
           titulo: 'ACCIONES POÉTICAS EN EL ESPACIO PÚBLICO'
@@ -395,6 +397,7 @@ fechas:
             Alberto Couratier (Chile).
 
         '17:00':
+          estado: pasada
           lugar: centro_de_capacitacion_y_cultura_atsa
           tipo: 'Relato oral/performático'
           titulo: 'EPIFANÍAS DEL ANDAR'
