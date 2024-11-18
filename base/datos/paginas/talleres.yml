@@ -110,11 +110,10 @@ contenido: |
   ### Livecoding. Exploración expresiva mediante programación en tiempo real.
   **{{ per('carlos_alberto_macheratti') }}**{.text-uppercase}
 
-  - <small>FECHA:</small> **Martes 19 de noviembre**. <small>HORARIO:</small> **17:00 a 20:00**.
+  - <small>FECHA:</small> **Martes 19 de noviembre**. <small>HORARIO:</small> **17:00 a 19:00**.
   - <small>SEDE:</small> {{ sds('centro_de_capacitacion_y_cultura_atsa') }}.
   - <small>DESTINATARIO:</small> Público general.
   - <small>MÁXIMO:</small> 20 a 30 personas.
   - <small>MATERIALES:</small> Se recomienda, para una mayor comodidad en la exploración de códigos durante las actividades, llevar su propia tablet o notebook.
-
 
   <script>document.querySelector('.taller-proximo').scrollIntoViewIfNeeded(); </script>
