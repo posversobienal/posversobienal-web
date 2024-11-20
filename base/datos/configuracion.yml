@@ -152,7 +152,6 @@ sedes:
     - museo_historico
     - horno_de_grippo
     - fundacion_casa_pronto
-    - villa_alpina
     - casa-taller_torviso-sarobe
     - centro_de_capacitacion_y_cultura_atsa
     - casa_popular_dante_balestro
@@ -161,13 +160,14 @@ sedes:
     - biblioteca_paz_y_trabajo
     - par1000_aula_teatro
     - ccp_horacio_alonso
-    - comedor_los_totoreros
     - escuela_de_arte_xul_solar
     - escuela_de_educacion_artistica_victor_grippo
     - escuela_de_teatro_gilberto_mesa
     - unnoba_alicia_moreau_de_justo
     - el_espacio
     - la_luz_buena
+    - pnlg
+
 
   nombres:
     biblioteca_paz_y_trabajo: ['Biblioteca Popular Paz y Trabajo', true]

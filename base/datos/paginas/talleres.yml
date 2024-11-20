@@ -105,15 +105,16 @@ contenido: |
 
   ---
 
-  <span class="taller-proximo"></span>
 
-  ### Livecoding. Exploración expresiva mediante programación en tiempo real.
-  **{{ per('carlos_alberto_macheratti') }}**{.text-uppercase}
-
-  - <small>FECHA:</small> **Martes 19 de noviembre**. <small>HORARIO:</small> **17:00 a 19:00**.
-  - <small>SEDE:</small> {{ sds('centro_de_capacitacion_y_cultura_atsa') }}.
-  - <small>DESTINATARIO:</small> Público general.
-  - <small>MÁXIMO:</small> 20 a 30 personas.
-  - <small>MATERIALES:</small> Se recomienda, para una mayor comodidad en la exploración de códigos durante las actividades, llevar su propia tablet o notebook.
+  <div class="taller-pasado">
+    <h3>Livecoding. Exploración expresiva mediante programación en tiempo real.</h3>
+    <p class="text-uppercase"><b>{{ per('carlos_alberto_macheratti', formato='html') }}</b></p>
+    <ul>
+      <li><small>FECHA:</small> <b>Martes 19 de noviembre.</b>. <small>HORARIO:</small> <b>17:00 a 19:00</b>.</li>
+      <li><small>SEDE:</small> {{ sds('centro_de_capacitacion_y_cultura_atsa', formato='html') }}.</li>
+      <li><small>DESTINATARIOS:</small> Público general.</li>
+      <li><small>MATERIALES:</small> Se recomienda, para una mayor comodidad en la exploración de códigos durante las actividades, llevar su propia tablet o notebook.</li>
+    </ul>
+  </div>
 
   <script>document.querySelector('.taller-proximo').scrollIntoViewIfNeeded(); </script>

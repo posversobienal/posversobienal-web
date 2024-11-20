@@ -404,7 +404,6 @@ fechas:
           texto: |
             María Zegna (Argentina) con diseño sonoro de Bruno Mesz.
 
-
     21:
       dia: Jueves
       eventos:
@@ -431,7 +430,7 @@ fechas:
       dia: Viernes
       eventos:
 
-        '18:00':
+        '17:30':
           lugar: fundacion_casa_pronto
           tipo: ''
           titulo: 'Lectura/workshop'
@@ -471,27 +470,31 @@ fechas:
 
         '20:00':
           lugar: hotel_dada
+          tipo: 'Exhibición'
+          titulo: 'Factoría Pere Sousa'
+          texto: |
+            <small>CURADURÍA:</small> Silvio De Gracia y Ana Montenegro.
+
+        '20:15':
+          lugar: hotel_dada
           tipo: 'Charla'
           titulo: 'Pere Sousa. Factoría Merzmail'
           texto: |
-            Fabiane Pianowski (Brasil)
-            <br>Ferran Destemple (España)
-            <br><small>Performance sonora:</small> Ana Montenegro (Brasil) y Carlos Macheratti (Argentina).
-
+            Fabiane Pianowski (Brasil).
 
     29:
       dia: Viernes
       eventos:
 
-        '18:00':
+        '17:30':
           lugar: maca
-          tipo: 'Performance'
+          tipo: 'Lectura / Performance'
           titulo: 'The Missing show de Mounir Fatmi (Marruecos)'
           texto: |
             Activación a cargo de Silvio De Gracia.
 
         '20:00':
-          lugar: centro_de_capacitacion_y_cultura_atsa
+          lugar: fundacion_casa_pronto
           tipo: 'Evento Teórico'
           titulo: '5: Poéticas Electrónicas'
           texto: |
@@ -500,10 +503,15 @@ fechas:
             <br>Michael Hurtado (Perú).
 
 
-
     30:
       dia: Sábado
       eventos:
+
+        '11:00':
+          lugar: el_espacio
+          tipo: 'Apertura exhibición'
+          titulo: 'SALA DE VIDEO'
+          texto: |
 
         '19:00':
           lugar: hotel_dada
@@ -520,19 +528,13 @@ fechas:
           texto: |
             Gonzalo Aguilar (Argentina)
 
+
+
   diciembre:
 
     6:
       dia: Viernes
       eventos:
-
-        '21:00':
-          lugar: centro_de_capacitacion_y_cultura_atsa
-          tipo: 'Videomapping'
-          titulo: ''
-          url: ''
-          texto: |
-            Macheratti, Montenegro y De Gracia.
 
         '21:00':
           lugar: centro_de_capacitacion_y_cultura_atsa
@@ -546,29 +548,66 @@ fechas:
     7:
       dia: Sábado
       eventos:
+        '19:00':
+          lugar: hotel_dada
+          tipo: 'Evento Teórico'
+          titulo: '6: Libros y ediciones de artista'
+          texto: |
+            Edith Derdyk (Brasil).
+            <br>Natalia Silberleib (Argentina).
+
+        '20:00':
+          lugar: hotel_dada
+          tipo: 'Charla'
+          titulo: 'La poesía en el campo expandido'
+          texto: |
+            Gonzalo Aguilar (Argentina)
+
+
+    12:
+      dia: Jueves
+      eventos:
+        '20:00':
+          lugar: hotel_dada
+          tipo: 'Exhibición'
+          titulo: 'Hugo Catolino (Suecia) y Paulo Bruscky (Brasil)'
+          texto: |
+
+    13:
+      dia: Viernes
+      eventos:
+        '11:00':
+          lugar: espacio_publico
+          tipo: ''
+          titulo: 'POESÍA VIVA. Activación de acción pública de Paulo Bruscky'
+          texto: |
+
+    14:
+      dia: Sábado
+      eventos:
+        '19:00':
+          lugar: ccp_horacio_alonso
+          tipo: 'Acción en espacio público'
+          titulo: 'Gran desfile de poesía visual'
+          texto: |
+
+
+    20:
+      dia: Viernes
+      eventos:
         '20:00':
           lugar: hotel_dada
           tipo: 'Concierto vía online'
           titulo: 'Yuri Bruscky (Brasil)'
           texto: |
-
-
+            Cierre de la BIENAL.
 
 
 en_espera:
-      eventos:
-
-        '11:00':
-          lugar: villa_alpina
-          tipo: 'Exhibición'
-          titulo: 'THE SKY HAS NO PLACE TO GO'
+        '21:30':
+          lugar: centro_de_capacitacion_y_cultura_atsa
+          tipo: 'Videomapping'
+          titulo: ''
+          url: ''
           texto: |
-            Poetas experimentales de Italia y Alemania.
-            <br>Archivo HOTEL DADA.
-            <br><small>CURADURÍA:</small> Silvio De Gracia y Ana Montenegro.
-
-        '18:30':
-          lugar: ccp_horacio_alonso
-          tipo: 'Acción en espacio público'
-          titulo: 'Gran desfile de poesía visual'
-          texto: |
+            Macheratti, Montenegro y De Gracia.

@@ -1,0 +1,16 @@
+---
+
+nombre: 'Parque Natural "Laguna de Gómez"'
+domicilio: 'Avenida Eva Perón, Balneario Laguna de Gómez, Junín, Buenos Aires, Argentina.'
+gmaps: 'https://maps.app.goo.gl/q4MAR7X4UomQNi1g8'
+
+web: 'https://es.wikipedia.org/wiki/Parque_natural_Laguna_de_G%C3%B3mez'
+
+geopos:
+  coord: [-34.65664, -61.02084]
+  icono: pin-sede
+
+fotos:
+  - 'pnlg.jpg'
+eventos_asociados: []
+descripcion: []
