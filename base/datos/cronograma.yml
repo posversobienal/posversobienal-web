@@ -513,22 +513,6 @@ fechas:
           titulo: 'SALA DE VIDEO'
           texto: |
 
-        '19:00':
-          lugar: hotel_dada
-          tipo: 'Evento Teórico'
-          titulo: '6: Libros y ediciones de artista'
-          texto: |
-            Edith Derdyk (Brasil)
-            <br>Natalia Silberleib (Argentina)
-
-        '20:00':
-          lugar: hotel_dada
-          tipo: 'Charla'
-          titulo: 'La poesía en el campo expandido'
-          texto: |
-            Gonzalo Aguilar (Argentina)
-
-
 
   diciembre:
 
@@ -601,13 +585,3 @@ fechas:
           titulo: 'Yuri Bruscky (Brasil)'
           texto: |
             Cierre de la BIENAL.
-
-
-en_espera:
-        '21:30':
-          lugar: centro_de_capacitacion_y_cultura_atsa
-          tipo: 'Videomapping'
-          titulo: ''
-          url: ''
-          texto: |
-            Macheratti, Montenegro y De Gracia.
