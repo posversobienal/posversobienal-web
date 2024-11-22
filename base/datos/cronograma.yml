@@ -439,6 +439,14 @@ fechas:
           texto: |
              Jaap Blonk (Holanda).
 
+        '18:30':
+          lugar: fundacion_casa_pronto
+          tipo: 'Presentación del libro'
+          titulo: 'VERBOVISUALIDAD ORIENTAL'
+          texto: |
+             Hotel DaDA editor.
+             <br>Juan Ángel Italiano (Uruguay).
+
         '21:30':
           lugar: casa_popular_dante_balestro
           tipo: 'Performance'
@@ -450,14 +458,6 @@ fechas:
     23:
       dia: Sábado
       eventos:
-
-        '19:00':
-          lugar: hotel_dada
-          tipo: 'Presentación del libro'
-          titulo: 'VERBOVISUALIDAD ORIENTAL'
-          texto: |
-             Hotel DaDA editor.
-             <br>Juan Ángel Italiano (Uruguay).
 
         '21:30':
           lugar: par1000_aula_teatro
