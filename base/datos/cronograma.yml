@@ -409,6 +409,7 @@ fechas:
       eventos:
 
         '19:00':
+          estado: pasada
           lugar: hotel_dada
           tipo: 'Evento Teórico'
           titulo: '4: Poesía Fonética y Sonora'
@@ -419,6 +420,7 @@ fechas:
             <br>Paulo Bruscky (Brasil).
 
         '21:30':
+          estado: pasada
           lugar: centro_cultural_marea_cultura
           tipo: 'Proyección'
           titulo: 'VIDEOBARDO. Videopoesía internacional'
