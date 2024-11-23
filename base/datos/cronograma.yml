@@ -433,6 +433,7 @@ fechas:
       eventos:
 
         '17:30':
+          estado: pasada
           lugar: fundacion_casa_pronto
           tipo: ''
           titulo: 'Lectura/workshop'
@@ -440,6 +441,7 @@ fechas:
              Jaap Blonk (Holanda).
 
         '18:30':
+          estado: pasada
           lugar: fundacion_casa_pronto
           tipo: 'Presentación del libro'
           titulo: 'VERBOVISUALIDAD ORIENTAL'
@@ -448,6 +450,7 @@ fechas:
              <br>Juan Ángel Italiano (Uruguay).
 
         '21:30':
+          estado: pasada
           lugar: casa_popular_dante_balestro
           tipo: 'Performance'
           titulo: 'Lectura de poesía experimental/sonora'
