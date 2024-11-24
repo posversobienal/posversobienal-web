@@ -533,26 +533,6 @@ fechas:
           texto: |
             <small>CURADURÍA:</small> Alejandro Thornton.
 
-
-    7:
-      dia: Sábado
-      eventos:
-        '19:00':
-          lugar: hotel_dada
-          tipo: 'Evento Teórico'
-          titulo: '6: Libros y ediciones de artista'
-          texto: |
-            Edith Derdyk (Brasil).
-            <br>Natalia Silberleib (Argentina).
-
-        '20:00':
-          lugar: hotel_dada
-          tipo: 'Charla'
-          titulo: 'La poesía en el campo expandido'
-          texto: |
-            Gonzalo Aguilar (Argentina)
-
-
     12:
       dia: Jueves
       eventos:
@@ -590,3 +570,23 @@ fechas:
           titulo: 'Yuri Bruscky (Brasil)'
           texto: |
             Cierre de la BIENAL.
+
+
+extra: |
+      7:
+      dia: Sábado
+      eventos:
+        '19:00':
+          lugar: hotel_dada
+          tipo: 'Evento Teórico'
+          titulo: '6: Libros y ediciones de artista'
+          texto: |
+            Edith Derdyk (Brasil).
+            <br>Natalia Silberleib (Argentina).
+
+        '20:00':
+          lugar: hotel_dada
+          tipo: 'Charla'
+          titulo: 'La poesía en el campo expandido'
+          texto: |
+            Gonzalo Aguilar (Argentina)
