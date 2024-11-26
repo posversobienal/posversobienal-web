@@ -509,17 +509,6 @@ fechas:
             <br>Michael Hurtado (Perú).
 
 
-    30:
-      dia: Sábado
-      eventos:
-
-        '11:00':
-          lugar: el_espacio
-          tipo: 'Apertura exhibición'
-          titulo: 'SALA DE VIDEO'
-          texto: |
-
-
   diciembre:
 
     6:
@@ -533,6 +522,16 @@ fechas:
           url: ''
           texto: |
             <small>CURADURÍA:</small> Alejandro Thornton.
+
+    7:
+      dia: Sábado
+      eventos:
+
+        '11:00':
+          lugar: el_espacio
+          tipo: 'Apertura exhibición'
+          titulo: 'SALA DE VIDEO'
+          texto: |
 
     12:
       dia: Jueves
