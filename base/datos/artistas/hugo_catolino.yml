@@ -1,0 +1,88 @@
+---
+
+nombre: 'Hugo'
+apellido: 'Catolino'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://www.facebook.com/hugo.catolino/'
+
+eventos: []
+
+fotos:
+  persona: 'hugo_catolino.jpg'
+  obra: 'hugo_catolino-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - invitado
+
+detalle: |
+  {{ idioma('esp') }}
+  Buenos Aires 1954-79
+
+  + Teaterskola/ Teatro de objetos74-77(Fray Mocho escuela)
+  + Estudio de cine con David Kohn(Teatro San Martin)
+  + Telecinema/Cameraman 76-79 (Adios Reino Animal,Direccion Jonny Chroeder)
+
+  España 1979-82
+
+  + Crea el Teatro de objetos Pome da Pi (Palma de Mallorca). Participa en festivales en España, Suecia, Suiza, Francia y Polonia.
+
+  Francia 1982-83
+
+  + Asistente de dirección de Maurice Guillaud, Centre Culturell du Marais,Paris.Produccion LÒpera Blanc (La ópera blanca).
+  + Performance en el Espacio Boris Vian, Paris, junto a los artistas Jorge Pell y Tania Rohelens.
+
+  Suecia 1983-
+
+  + Estudios de Pedagogia-Escuela superior Mälardalens 1985-87.
+  + Pedagogo de teatro/productor de exposiciones de arte (Dirección de Cultura Ciudad de Västerås) 1988-94.
+  + Director de Cultura General (Municipalidad de Ciudad de Västerås-Secretaria de Cultura) 1994-2001.
+  + Secretario de Cultura General (Municipalidad de Ciudad de Västerås-Secretaria de Cultura) 2001-2017. Trabajo independiente como artista en Suecia y productor de exposiciones de arte y festivales en colaboracion con los paises de Brasil, Suiza, México, Australia, Noruega, Africa del Este-Mali,India, España,Finlandia:  1988- hasta el presente. Después de 2019 trabaja en colaboracion con Editorial SaSoll de Palma de Mallorca en la produccion de Artbox con diferentes artistas de la Poesia Visual Experimental:  Uruguay: Clemente Padin (Homenaje al Cuadrado). España: JM Calleja, Bartolomé Ferrando, Lucia Peiro, Cesar Reglero Campos. Colombia: Maria Uribe.
+  + Actualmente trabaja en su projecto By Sweden Art Project – Amazonas Unpublished y Sweden Unpublished. Tambien en colaboracion con el artista brasileño Paulo Bruscky en el projecto POETRY BANK.
+
+  ---
+  <small>Foto personal por Jorge Pell.</small>
+
+extra: |
+  {{ idioma('eng') }}
+
+  Buenos Aires 1954-79
+  {.lang-eng}
+
+  + Teaterskola/ Theater of objects74-77 (Fray Mocho school).
+  + Film study with David Kohn (Teatro San Martin).
+  + Telecinema/Cameraman 76-79 (Goodbye Animal Kingdom, Director Jonny Chroeder).
+  {.lang-eng}
+
+  Spain 1979-82
+  {.lang-eng}
+
+  + Creates the Pome da Pi Object Theater (Palma de Mallorca) Participates in festivals in Spain, Sweden, Switzerland, France and Poland.
+  {.lang-eng}
+
+  France 1982-83
+  {.lang-eng}
+
+  + Assistant director of Maurice Guillaud, Center Culturell du Marais, Paris. Production LÒpera Blanc (The White Opera).
+  + Performance at the Boris Vian Space, Paris with the artists Jorge Pell and Tania Rohelens.
+  {.lang-eng}
+
+  Sweden 1983-
+  {.lang-eng}
+
+  + Pedagogy Studies-Mälardalens Higher School 1985-87.
+  + Theater pedagogue/art exhibition producer (Culture Directorate City of Västerås) 1988-94.
+  + Director of General Culture (Västerås City Municipality-Secretary of Culture) 1994-2001.
+  + Secretary of General Culture (Västerås City Municipality-Secretary of Culture) 2001-2017.
+  + Independent work as an artist in Sweden and producer of art exhibitions and festivals in collaboration with the countries of Brazil, Switzerland, Mexico, Australia, Norway, East Africa-Mali, India, Spain, Finland: 1988-i to the present.
+  + After 2019, he works in collaboration with Editorial SaSoll of Palma de Mallorca in the production of Artbox with different artists of Experimental Visual Poetry: Uruguay: Clemente Padin (Homenaje al Cuadrado). Spain: JM Calleja, Bartolomeo Ferrando, Lucia Peiro, Cesar Reguero Campos. Colombia: Maria Uribe.
+  + He is currently working on his project By Sweden Art Project – Amazonas Unpublished and Sweden Unpublished. Also in collaboration with the Brazilian artist Paulo Bruscky in the project: POETRY BANK.
+  {.lang-eng}
+
+  ---
+  <small>Personal photo by Jorge Pell.</small>
