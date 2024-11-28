@@ -533,14 +533,22 @@ fechas:
           titulo: 'SALA DE VIDEO'
           texto: |
 
-    12:
-      dia: Jueves
-      eventos:
+
         '20:00':
           lugar: hotel_dada
           tipo: 'Exhibición'
-          titulo: 'Hugo Catolino (Suecia) y Paulo Bruscky (Brasil)'
+          titulo: 'POETRY BANK'
           texto: |
+            Paulo Bruscky (Brasil)
+
+
+        '20:00 ':
+          lugar: hotel_dada
+          tipo: 'Exhibición'
+          titulo: 'UNPUBLISHED - SWEDEN Bosque sueco no editado'
+          texto: |
+             Hugo Catolino (Argentina-Suecia)
+
 
     13:
       dia: Viernes
