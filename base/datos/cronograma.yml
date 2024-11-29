@@ -475,6 +475,7 @@ fechas:
       eventos:
 
         '20:00':
+          estado: pasada
           lugar: hotel_dada
           tipo: 'Exhibición'
           titulo: 'Factoría Pere Sousa'
@@ -482,6 +483,7 @@ fechas:
             <small>CURADURÍA:</small> Silvio De Gracia y Ana Montenegro.
 
         '20:15':
+          estado: pasada
           lugar: hotel_dada
           tipo: 'Charla'
           titulo: 'Pere Sousa. Factoría Merzmail'
