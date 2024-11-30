@@ -75,10 +75,10 @@ listado:
   carlos_gallardo: {nomb: 'Carlos Gallardo', foto: '/rec/foto/personas/carlos_gallardo.jpg', link: '/per/carlos_gallardo'}
   claudia_kozak: {nomb: 'Claudia Kozak', foto: '/rec/foto/personas/claudia_kozak.jpg', link: '/per/claudia_kozak'}
   dagmara_wyskiel: {nomb: 'Dagmara Wyskiel', foto: '/rec/foto/personas/dagmara_wyskiel.jpg', link: '/per/dagmara_wyskiel'}
-  edith_derdyk: {nomb: 'Edith Derdyk', foto: '/rec/foto/personas/edith_derdyk.jpg', link: '/per/edith_derdyk'}
+  #edith_derdyk: {nomb: 'Edith Derdyk', foto: '/rec/foto/personas/edith_derdyk.jpg', link: '/per/edith_derdyk'}
   fabiane_pianowski: {nomb: 'Fabiane Pianowski', foto: '/rec/foto/personas/fabiane_pianowski.jpg', link: '/per/fabiane_pianowski'}
   fernando_aguiar: {nomb: 'Fernando Aguiar', foto: '/rec/foto/personas/fernando_aguiar.jpg', link: '/per/fernando_aguiar'}
-  ferran_destemple: {nomb: 'Ferran Destemple', foto: '/rec/foto/personas/ferran_destemple_2.jpg', link: '/per/ferran_destemple'}
+  #ferran_destemple: {nomb: 'Ferran Destemple', foto: '/rec/foto/personas/ferran_destemple_2.jpg', link: '/per/ferran_destemple'}
   flora_holderbaum: {nomb: 'Flora Holderbaum', foto: '/rec/foto/personas/flora_holderbaum.jpg', link: '/per/flora_holderbaum'}
   giovanni_fontana: {nomb: 'Giovanni Fontana', foto: '/rec/foto/personas/giovanni_fontana.jpg', link: '/per/giovanni_fontana'}
   #gonzalo_aguilar: {nomb: 'Gonzalo Aguilar', foto: '/rec/foto/personas/gonzalo_aguilar.jpg', link: '/per/gonzalo_aguilar'}

@@ -495,6 +495,7 @@ fechas:
       eventos:
 
         '17:30':
+          estado: pasada
           lugar: maca
           tipo: 'Lectura / Performance'
           titulo: 'The Missing show de Mounir Fatmi (Marruecos)'
@@ -502,6 +503,7 @@ fechas:
             Activación a cargo de Silvio De Gracia.
 
         '20:00':
+          estado: pasada
           lugar: fundacion_casa_pronto
           tipo: 'Evento Teórico'
           titulo: '5: Poéticas Electrónicas'
