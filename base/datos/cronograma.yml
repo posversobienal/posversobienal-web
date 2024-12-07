@@ -520,6 +520,7 @@ fechas:
       eventos:
 
         '21:00':
+          estado: pasada
           lugar: centro_de_capacitacion_y_cultura_atsa
           tipo: 'Proyección en espacio público'
           titulo: 'Videopoesía internacional'
@@ -532,6 +533,7 @@ fechas:
       eventos:
 
         '11:00':
+          estado: pasada
           lugar: el_espacio
           tipo: 'Apertura exhibición'
           titulo: 'SALA DE VIDEO'
