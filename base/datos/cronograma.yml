@@ -541,6 +541,7 @@ fechas:
 
 
         '20:00':
+          estado: pasada
           lugar: hotel_dada
           tipo: 'Exhibición'
           titulo: 'POETRY BANK'
@@ -549,31 +550,25 @@ fechas:
 
 
         '20:00 ':
+          estado: pasada
           lugar: hotel_dada
           tipo: 'Exhibición'
           titulo: 'UNPUBLISHED - SWEDEN Bosque sueco no editado'
           texto: |
              Hugo Catolino (Argentina-Suecia)
 
-
-    13:
-      dia: Viernes
-      eventos:
-        '11:00':
-          lugar: espacio_publico
-          tipo: ''
-          titulo: 'POESÍA VIVA. Activación de acción pública de Paulo Bruscky'
-          texto: |
-
     14:
       dia: Sábado
       eventos:
-        '19:00':
-          lugar: ccp_horacio_alonso
-          tipo: 'Acción en espacio público'
-          titulo: 'Gran desfile de poesía visual'
+        '18.30':
+          lugar: fundacion_casa_pronto
+          tipo: 'Encuentro remoto'
+          titulo: 'Poéticas Electrónicas'
           texto: |
-
+            <small>PARTICIPAN:</small>
+            <br>Enrique Chocair (Méxixo).
+            <br>Fernanda Mugica (Argentina).
+            <br>María Papi (Argentina).
 
     20:
       dia: Viernes
