@@ -21,7 +21,6 @@ contenido: |
   [![Par1000 Aula teatro](/rec/socios/par1000.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_par1000 }}){title="Par1000 Aula teatro" target=_blank}
   [![Performing Arts Fund](/rec/socios/fpk.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_fpk }}){title="Performing Arts Fund" target=_blank}
   ![Secretaria de Arte y Cultura UNLP](/rec/socios/sayc.jpg?{{ cfg.cache_actu }}){.logo_socio title="Secretaria de Arte y Cultura UNLP"}
-  [![El Espacio](/rec/socios/el_espacio.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_el_espacio }}){title="El Espacio"}
   [![Colectivo Juana Azurduy](/rec/socios/colectivo_juana_azurduy.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_colectivo_juana_azurduy }}){title="Colectivo Juana Azurduy" target=_blank}
 
 
@@ -46,10 +45,14 @@ contenido: |
   ![MACA](/rec/socios/maca_junin.jpg?{{ cfg.cache_actu }}){.logo_socio title="MACA"}
   [![Museo Histórico](/rec/socios/museo_historico.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_museo_historico }}){title="Museo Histórico" target=_blank}
   [![Dante Alighieri Junín](/rec/socios/dante_alighieri_junin.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_dante_alighieri_junin }}){title="Dante Alighieri Junín" target=_blank}
-  [![Villa Alpina](/rec/socios/villa_alpina.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_villa_alpina }}){title="Villa Alpina" target=_blank}
+  [![El Espacio](/rec/socios/el_espacio.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_el_espacio }}){title="El Espacio"}
 
   <br><hr><br>
   ## Apoyan
 
   [![ATSA](/rec/socios/atsa.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_atsa_junin }}){title="ATSA" target=_blank}
   [![Biblioteca Floresta](/rec/socios/biblioteca_floresta.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_bibliotec_floresta }}){title="Biblioteca Floresta" target=_blank}
+
+
+extra: |
+  [![Villa Alpina](/rec/socios/villa_alpina.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_villa_alpina }}){title="Villa Alpina" target=_blank}
