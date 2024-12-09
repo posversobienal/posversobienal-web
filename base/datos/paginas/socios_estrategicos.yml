@@ -12,7 +12,6 @@ contenido: |
   [![AFA Arquivo Fernando Aguiar](/rec/socios/arquivo_fernando_aguiar.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_afa }}){title="AFA Arquivo Fernando Aguiar" target=_blank}
   [![Bienal SACO](/rec/socios/saco.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_bienal_saco }}){title="Bienal SACO" target=_blank}
   [![Casa Popular 'Dante Balestro'](/rec/socios/cp_dante_balestro.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_cp_dante_balestro }}){title="Casa Popular 'Dante Balestro'" target=_blank}
-  ![CCP Horacio Alonso](/rec/socios/ccp_horacio_alonso.jpg?{{ cfg.cache_actu }}){.logo_socio title="CCP Horacio Alonso"}
   [![Centro Cultural Marea Cultura](/rec/socios/cc_marea_cultura.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_marea_cultura }}){title="Centro Cultural Marea Cultura" target=_blank}
   [![Centro de Arte UNLP](/rec/socios/cau.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_cau }}){title="Centro de Arte UNLP" target=_blank}
   [![Dutch Foundation for literature](/rec/socios/nldffl.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_nldffl }}){title="Dutch Foundation for literature" target=_blank}
@@ -22,6 +21,8 @@ contenido: |
   [![Par1000 Aula teatro](/rec/socios/par1000.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_par1000 }}){title="Par1000 Aula teatro" target=_blank}
   [![Performing Arts Fund](/rec/socios/fpk.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_fpk }}){title="Performing Arts Fund" target=_blank}
   ![Secretaria de Arte y Cultura UNLP](/rec/socios/sayc.jpg?{{ cfg.cache_actu }}){.logo_socio title="Secretaria de Arte y Cultura UNLP"}
+  [![El Espacio](/rec/socios/el_espacio.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_el_espacio }}){title="El Espacio"}
+  [![Colectivo Juana Azurduy](/rec/socios/colectivo_juana_azurduy.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_colectivo_juana_azurduy }}){title="Colectivo Juana Azurduy" target=_blank}
 
 
   <br><hr><br>
@@ -52,13 +53,3 @@ contenido: |
 
   [![ATSA](/rec/socios/atsa.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_atsa_junin }}){title="ATSA" target=_blank}
   [![Biblioteca Floresta](/rec/socios/biblioteca_floresta.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_bibliotec_floresta }}){title="Biblioteca Floresta" target=_blank}
-
-
-extra: |
-  # en espera
-  [![El Espacio](/rec/socios/el_espacio.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_el_espacio }}){title="El Espacio"}
-  [![Sociedad Italiana Unita](/rec/socios/sociedad_italiana_unita.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_sociedad_italiana_unita }}){title="Sociedad Italiana Unita" target=_blank}
-
-  [![Casa Río Lab](/rec/socios/casa_rio_lab.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_casariolab }}){title="Casa Río Lab"}
-  [![Casa del Pueblo](/rec/socios/casa_del_pueblo.jpg?{{ cfg.cache_actu }}){.logo_socio}]({{ cfg.urls.info_casa_del_pueblo }}){title="Casa del Pueblo"}
-  ![Taller Gráfico Oberda](/rec/socios/taller_grafico_oberda.jpg?{{ cfg.cache_actu }}){.logo_socio title="Taller Gráfico Oberda"}

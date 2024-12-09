@@ -76,6 +76,7 @@ urls:
   info_fpk: 'https://fondspodiumkunsten.nl/en'
   info_dante_alighieri_junin: 'https://www.instagram.com/dantealighierijunin/'
   info_owlcallradio: 'https://owlcallradio.org/'
+  info_colectivo_juana_azurduy: 'https://juanaazurduyjunin.com.ar/'
 
 menu:
   - titulo: 'BIENAL'
@@ -159,7 +160,7 @@ sedes:
     - dante_alighieri_junin
     - biblioteca_paz_y_trabajo
     - par1000_aula_teatro
-    - ccp_horacio_alonso
+    - colectivo_juana_azurduy
     - escuela_de_arte_xul_solar
     - escuela_de_educacion_artistica_victor_grippo
     - escuela_de_teatro_gilberto_mesa
@@ -198,4 +199,5 @@ sedes:
     espacio_urbano: ['Espacio urbano', false]
     espacio_urbano_cc: ['Espacio urbano / calles céntricas', false]
     la_luz_buena: ['La Luz Buena - Arte de ocupación', true]
+    colectivo_juana_azurduy: ['Colectivo Juana Azurduy', true]
     '??': ['', false]

@@ -1,0 +1,15 @@
+---
+nombre: 'Colectivo Juana Azurduy'
+domicilio: 'Oviedo 339. Junín, Buenos Aires, Argentina.'
+gmaps: 'https://maps.app.goo.gl/jcuWngmUuuB6vwEP9'
+
+web: 'https://juanaazurduyjunin.com.ar/'
+
+geopos:
+  coord: [-34.592959, -60.928553]
+  icono: pin-sede
+
+fotos:
+  - 'colectivo_juana_azurduy.jpg'
+eventos_asociados: []
+descripcion: []
