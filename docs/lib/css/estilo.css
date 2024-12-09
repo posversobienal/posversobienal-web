@@ -859,7 +859,7 @@ a.actual {
   color: #a00;
 }
 .cronograma .mes .fechas li .evento.estado_pasada {
-  opacity: 0.5;
+  opacity: 0.8;
   display: flex;
   margin: 2px;
   padding: 0px;
@@ -869,7 +869,6 @@ a.actual {
   opacity: 1;
 }
 .cronograma .mes .fechas li .evento.estado_pasada * {
-  _display: inline-block;
   vertical-align: middle;
 }
 .cronograma .mes .fechas li .evento.estado_pasada .ev_titulo,
