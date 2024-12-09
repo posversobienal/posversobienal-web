@@ -8,6 +8,11 @@ estilo_cnt_sec: col-lg-3
 
 publicaciones:
 
+  2024-10-16_0:
+    p: plazaweb
+    t: 'Posverso, la primera Bienal Internacional de Poesía Experimental'
+    u: 'https://plazaweb.com.ar/posverso-la-primera-bienal-internacional-de-poesia-experimental/'
+
   2024-08-22_3:
     p: artfacts
     t: 'Posverso Bienal'
@@ -204,6 +209,7 @@ publicantes:
   arteonline: {t: 'Arte Online', u: 'https://www.arte-online.net/'}
   dehoy: {t: 'De Hoy', u: 'https://www.dehoy.com.ar/'}
   artfacts: {t: 'Artfacts', u: 'https://artfacts.net/'}
+  plazaweb: {t: 'Plaza Web', u: 'https://plazaweb.com.ar/'}
 
 contenido: |
 
