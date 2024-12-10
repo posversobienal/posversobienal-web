@@ -557,10 +557,20 @@ fechas:
           texto: |
              Hugo Catolino (Argentina-Suecia)
 
+    10:
+      dia: Martes
+      eventos:
+        '19:00':
+          lugar: fundacion_casa_pronto
+          tipo: 'Charla'
+          titulo: 'By Sweden. Art Project y Ediciones Sa Soll.'
+          texto: |
+            Hugo Catolino (Argentina-Suecia)
+
     14:
       dia: Sábado
       eventos:
-        '18.30':
+        '18:30':
           lugar: fundacion_casa_pronto
           tipo: 'Encuentro remoto'
           titulo: 'Poéticas Electrónicas'
