@@ -589,7 +589,7 @@ fechas:
           titulo: 'Concierto online'
           texto: |
             Yuri Bruscky (Brasil).
-            <br>Transmitido desde [youtube.com/@PosversoBienal](https://www.youtube.com/@PosversoBienal).
+            <br><small>Transmitido desde <a href="https://www.youtube.com/@PosversoBienal">youtube.com/@PosversoBienal</a></small>
 
 
 extra: |
