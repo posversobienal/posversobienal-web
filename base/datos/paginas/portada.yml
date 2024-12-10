@@ -19,19 +19,14 @@ novedades:
 
 
 deslizador:
-  - {img: 1.jpg, url: '/pag/exhibicion_central/', tit: 'VISITÁ: Poéticas de la resistencia'}
-  - {img: 2.jpg, url: '/pag/otras_exhibiciones/#capsula-sonora', tit: 'VISITÁ: Cápsula sonora'}
   - {img: 3.jpg, url: '/pag/sala-poeticas_electronicas/', tit: 'VISITÁ: Poéticas electrónicas'}
   - {img: 4.jpg, url: '/pag/proyectos_colaterales/#hacia-los-espacios-liminales', tit: 'VISITÁ: Espacio Liminar'}
-  - {img: 5.jpg, url: '/pag/proyectos_colaterales/#mail_art_poetry', tit: 'VISITÁ: Mail Art Poetry'}
-  - {img: 6.jpg, url: '/pag/otras_exhibiciones#incitaciones-para-ver-resistiendo-el-presente', tit: 'VISITÁ: Incitaciones para ver'}
   - {img: 7.jpg, url: '/pag/otras_exhibiciones#marginalia', tit: 'VISITÁ: Marginalia'}
 
 
 deslizador_registro:
 
   PASADOS:
-
     - ro_barragan
     - daniel_sarobe
     - tchello_d_barros

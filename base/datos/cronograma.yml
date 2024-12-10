@@ -580,15 +580,16 @@ fechas:
             <br>Fernanda Mugica (Argentina).
             <br>María Papi (Argentina).
 
-    20:
-      dia: Viernes
+    19:
+      dia: Jueves
       eventos:
         '20:00':
           lugar: hotel_dada
-          tipo: 'Concierto vía online'
-          titulo: 'Yuri Bruscky (Brasil)'
+          tipo: 'Streaming en VIVO'
+          titulo: 'Concierto online'
           texto: |
-            Cierre de la BIENAL.
+            Yuri Bruscky (Brasil).
+            <br>Transmitido desde [youtube.com/@PosversoBienal](https://www.youtube.com/@PosversoBienal).
 
 
 extra: |
