@@ -561,6 +561,7 @@ fechas:
       dia: Martes
       eventos:
         '19:00':
+          estado: pasada
           lugar: fundacion_casa_pronto
           tipo: 'Charla'
           titulo: 'By Sweden. Art Project y Ediciones Sa Soll.'
