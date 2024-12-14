@@ -591,23 +591,3 @@ fechas:
           texto: |
             Yuri Bruscky (Brasil).
             <br><small>Transmitido desde <a href="https://www.youtube.com/@PosversoBienal">youtube.com/@PosversoBienal</a></small>
-
-
-extra: |
-      7:
-      dia: Sábado
-      eventos:
-        '19:00':
-          lugar: hotel_dada
-          tipo: 'Evento Teórico'
-          titulo: '6: Libros y ediciones de artista'
-          texto: |
-            Edith Derdyk (Brasil).
-            <br>Natalia Silberleib (Argentina).
-
-        '20:00':
-          lugar: hotel_dada
-          tipo: 'Charla'
-          titulo: 'La poesía en el campo expandido'
-          texto: |
-            Gonzalo Aguilar (Argentina)
