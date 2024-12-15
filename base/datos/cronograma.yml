@@ -572,6 +572,7 @@ fechas:
       dia: Sábado
       eventos:
         '18:30':
+          estado: pasada
           lugar: fundacion_casa_pronto
           tipo: 'Encuentro remoto'
           titulo: 'Poéticas Electrónicas'
