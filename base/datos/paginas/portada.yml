@@ -25,7 +25,8 @@ deslizador:
   - {img: 5.jpg, url: '/pag/sala-poeticas_electronicas/', tit: 'VISITÁ: Poéticas electrónicas'}
   - {img: 6.jpg, url: '/pag/sala-poeticas_electronicas/', tit: 'VISITÁ: Poéticas electrónicas'}
   - {img: 4.jpg, url: '/pag/proyectos_colaterales/#hacia-los-espacios-liminales', tit: 'VISITÁ: Espacio Liminar'}
-  - {img: 7.jpg, url: '/pag/otras_exhibiciones#marginalia', tit: 'VISITÁ: Marginalia'}
+  - {img: 8.jpg, url: '/pag/artistas_homenajeados/#pere-sousa-1955-2023', tit: 'VISITÁ: Factoria Pere Sousa'}
+  - {img: 9.jpg, url: '/pag/otras_exhibiciones/#marginalia', tit: 'VISITÁ: Marginalia'}
 
 
 deslizador_registro:
