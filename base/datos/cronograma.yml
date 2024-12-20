@@ -586,9 +586,11 @@ fechas:
       dia: Jueves
       eventos:
         '20:00':
+          estado: pasada
           lugar: hotel_dada
           tipo: 'Streaming en VIVO'
-          titulo: 'Concierto online'
+          titulo: 'Concierto online: TRAVA-LINGUA'
           texto: |
             Yuri Bruscky (Brasil).
             <br><small>Transmitido desde <a href="https://www.youtube.com/@PosversoBienal">youtube.com/@PosversoBienal</a></small>
+            <br><br>Acceso: <a href="https://www.youtube.com/watch?v=21q429rT7bo" target="_blank">YURI BRUSCKY - TRAVA-LINGUA</a>
