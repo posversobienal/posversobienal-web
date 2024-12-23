@@ -19,14 +19,22 @@ novedades:
 
 
 deslizador:
-  - {img: 1.jpg, url: '/pag/sala-poeticas_electronicas/', tit: 'VISITÁ: Poéticas electrónicas'}
-  - {img: 2.jpg, url: '/pag/sala-poeticas_electronicas/', tit: 'VISITÁ: Poéticas electrónicas'}
-  - {img: 3.jpg, url: '/pag/sala-poeticas_electronicas/', tit: 'VISITÁ: Poéticas electrónicas'}
-  - {img: 5.jpg, url: '/pag/sala-poeticas_electronicas/', tit: 'VISITÁ: Poéticas electrónicas'}
-  - {img: 6.jpg, url: '/pag/sala-poeticas_electronicas/', tit: 'VISITÁ: Poéticas electrónicas'}
-  - {img: 4.jpg, url: '/pag/proyectos_colaterales/#hacia-los-espacios-liminales', tit: 'VISITÁ: Espacio Liminar'}
-  - {img: 8.jpg, url: '/pag/artistas_homenajeados/#pere-sousa-1955-2023', tit: 'VISITÁ: Factoria Pere Sousa'}
-  - {img: 9.jpg, url: '/pag/otras_exhibiciones/#marginalia', tit: 'VISITÁ: Marginalia'}
+  - {img: 1.jpg, url: '/pag/sala-poeticas_electronicas/', tit: 'Poéticas electrónicas'}
+  - {img: 2.jpg, url: '/pag/sala-poeticas_electronicas/', tit: 'Poéticas electrónicas'}
+  - {img: 3.jpg, url: '/pag/sala-poeticas_electronicas/', tit: 'Poéticas electrónicas'}
+  - {img: 4.jpg, url: '/pag/sala-poeticas_electronicas/', tit: 'Poéticas electrónicas'}
+  - {img: 5.jpg, url: '/pag/sala-poeticas_electronicas/', tit: 'Poéticas electrónicas'}
+
+  - {img: 6.jpg, url: '/pag/proyectos_colaterales/#hacia-los-espacios-liminales', tit: 'Espacio Liminar'}
+  - {img: 7.jpg, url: '/pag/exhibicion_central/', tit: 'Poéticas de la resistencia'}
+  - {img: 8.jpg, url: '/pag/artistas_homenajeados/#pere-sousa-1955-2023', tit: 'Factoria Pere Sousa'}
+  - {img: 9.jpg, url: '/pag/otras_exhibiciones/#marginalia', tit: 'Marginalia'}
+
+  - {img: 10.jpg, url: '/pag/proyectos_colaterales/#mail_art_poetry', tit: 'Mail Art Poetry'}
+  #  - {img: 11.jpg, url: '/pag/otras_exhibiciones/#capsula-sonora', tit: 'Cápsula sonora'}
+  - {img: 12.jpg, url: '/pag/otras_exhibiciones/#resistexist-libro-muestra', tit: 'RESIST/EXIST Libro-muestra'}
+  - {img: 13.jpg, url: '/pag/otras_exhibiciones/#el-coleccionista-de-oficios-ricardo-salido', tit: 'El Coleccionista de Oficios: Ricardo Salido'}
+  - {img: 14.jpg, url: '/pag/otras_exhibiciones/#incitaciones-para-ver-resistiendo-el-presente', tit: 'Incitaciones para ver. Resistiendo el presente'}
 
 
 deslizador_registro:
@@ -130,6 +138,3 @@ deslizador_registro:
     - stephan_gross
     - teresa_pereda
     - tulio_restrepo
-
-extra: |
-  - juan_montelpare
