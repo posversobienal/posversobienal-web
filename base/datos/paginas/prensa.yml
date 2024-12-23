@@ -8,6 +8,14 @@ estilo_cnt_sec: col-lg-3
 
 publicaciones:
 
+
+
+  2024-12-23_0:
+    p: clarin
+    t: 'Posverso, la primera Bienal Internacional de Poesía Experimental'
+    u: 'https://www.clarin.com/cultura/bienal-poesia-experimental-revoluciona-arte-contemporaneo-junin_0_AdiZPo0Wu3.html'
+
+
   2024-10-16_0:
     p: plazaweb
     t: 'Posverso, la primera Bienal Internacional de Poesía Experimental'
@@ -210,6 +218,7 @@ publicantes:
   dehoy: {t: 'De Hoy', u: 'https://www.dehoy.com.ar/'}
   artfacts: {t: 'Artfacts', u: 'https://artfacts.net/'}
   plazaweb: {t: 'Plaza Web', u: 'https://plazaweb.com.ar/'}
+  clarin: {t: 'Clarín', u: 'https://www.clarin.com/'}
 
 contenido: |
 
