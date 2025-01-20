@@ -10,6 +10,13 @@ publicaciones:
 
 
 
+
+  2024-12-30_0:
+    p: artishock
+    t: 'Posverso: Primera Bienal Internacional de Poesía Experimental'
+    u: 'https://artishockrevista.com/2024/12/30/posverso-bienal-poesia-experimental/'
+
+
   2024-12-23_0:
     p: clarin
     t: 'Posverso, la primera Bienal Internacional de Poesía Experimental'
@@ -219,6 +226,7 @@ publicantes:
   artfacts: {t: 'Artfacts', u: 'https://artfacts.net/'}
   plazaweb: {t: 'Plaza Web', u: 'https://plazaweb.com.ar/'}
   clarin: {t: 'Clarín', u: 'https://www.clarin.com/'}
+  artishock: {t: 'Artishock', u: 'https://artishockrevista.com/'}
 
 contenido: |
 
