@@ -9,8 +9,9 @@ contenido: |
 
 
 listado:
+  - {id: 'GPQ6pd8x6wA', emisor: youtube, tags: ['POSVERSO', 'CAPSULA', 'SONORA'], titulo: 'Exhibición CÁPSULA SONORA - En Hotel DaDA' }
   - {id: 'FZzdwcGzyRg', emisor: youtube, tags: ['POSVERSO', 'BIENAL SACO'], titulo: '"La poética de la aridez" - Bienal SACO en Bienal POSVERSO' }
-  - {id: 'zih4_TQm85o', emisor: youtube, tags: ['POSVERSO'], titulo: 'Inauguración: POÉTICAS DE LA RESISTENCIA' }
+  - {id: 'zih4_TQm85o', emisor: youtube, tags: ['POSVERSO', 'POETICAS', 'RESISTENCIA'], titulo: 'Inauguración: POÉTICAS DE LA RESISTENCIA' }
   - {id: 'bK0XZPRhocc', emisor: youtube, tags: ['POSVERSO'], titulo: 'Muestra: Clemente Padín. El lenguaje de la acción - 23/08/2024 - POSVERSO' }
   - {id: 'nrN4glnO8mg', emisor: youtube, tags: ['POSVERSO'], titulo: 'Bienal POSVERSO - Video promocional' }
   - {id: '2VYwqrrn06o', emisor: youtube, tags: ['POSVERSO'], titulo: 'POSVERSO - Presentación' }
