@@ -9,11 +9,9 @@ fotos:
   - 2025-01-20-19-00.jpg
 
 galeria:
-  - { url: /rec/bitacora/2025-01-20-19-00_a.jpg, titulo: 'Obra de Clemente Padin' }
   - { url: /rec/bitacora/2025-01-20-19-00_b.jpg, titulo: 'Performance Paz Pan' }
   - { url: /rec/bitacora/2025-01-20-19-00_c.jpg, titulo: 'Obra de Daniel Ontiveros' }
   - { url: /rec/bitacora/2025-01-20-19-00_d.jpg, titulo: 'Obras de exhibición Marginalia' }
-  - { url: /rec/bitacora/2025-01-20-19-00_e.jpg, titulo: 'Oir Palestina' }
   - { url: /rec/bitacora/2025-01-20-19-00_f.jpg, titulo: 'Obra de Silvio De Gracia' }
   - { url: /rec/bitacora/2025-01-20-19-00_g.jpg, titulo: 'Obra de Marcela Astorga' }
 
