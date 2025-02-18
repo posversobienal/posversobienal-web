@@ -7,7 +7,9 @@ titulo: 'Bienal en tránsito. Cápsulas 2025'
 fotos:
   - 2025-02-18-18-30.jpg
 
-galeria: []
+galeria:
+  - { url: /rec/bitacora/2025-02-18-18-30.jpg, titulo: 'Performance de Montenegro-Fisher.' }
+  - { url: /rec/bitacora/2025-02-18-18-30_a.jpg, titulo: 'Performance de Ale Montiel.' }
 
 detalle: |
   Abrimos una instancia de post-bienal para llevar a otras geografías y territorios la fuerza y la singularidad de POSVERSO BIENAL, poniendo en diálogo a nuestros artistas y nuestras prácticas curatoriales con otras comunidades.
