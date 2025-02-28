@@ -8,24 +8,25 @@ estilo_cnt_sec: col-lg-3
 
 publicaciones:
 
-
   2025-02-18_0:
     p: dotbox
     t: 'POSVERSO Bienal Internacional de Poesia Experimental de Argentina / MALINCONIA il mondo comincia a confondersi'
     u: 'https://www.dotbox.it/main/posverso-bienal-internacional-de-poesia-experimental-de-argentina-malinconia-il-mondo-comincia-a-confondersi/'
-
 
   2024-12-30_0:
     p: artishock
     t: 'Posverso: Primera Bienal Internacional de Poesía Experimental'
     u: 'https://artishockrevista.com/2024/12/30/posverso-bienal-poesia-experimental/'
 
-
   2024-12-23_0:
     p: clarin
     t: 'Posverso, la primera Bienal Internacional de Poesía Experimental'
     u: 'https://www.clarin.com/cultura/bienal-poesia-experimental-revoluciona-arte-contemporaneo-junin_0_AdiZPo0Wu3.html'
 
+  2024-10-22_0:
+    p: almaplus
+    t: 'I Bienal de poesía experimental argentina defiende a Palestina'
+    u: 'https://www.almaplus.tv/cultura-y-arte/6403/i-bienal-de-poes%C3%ADa-experimental-argentina-defiende-a-palesti'
 
   2024-10-16_0:
     p: plazaweb
@@ -232,7 +233,7 @@ publicantes:
   clarin: {t: 'Clarín', u: 'https://www.clarin.com/'}
   artishock: {t: 'Artishock', u: 'https://artishockrevista.com/'}
   dotbox: {t: 'VISUALCONTAINER[.BOX]', u: 'https://www.dotbox.it'}
-
+  almaplus: {t: 'AlmaPlusTV', u: 'https://www.almaplus.tv/'}
 
 contenido: ''
 
