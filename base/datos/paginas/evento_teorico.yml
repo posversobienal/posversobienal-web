@@ -65,28 +65,47 @@ biografias:
     Su obra reciente continúa investigando el medio fotográfico y la imagen en movimiento, pero desde un soporte digital. Su producción artística ha sido distinguida con diversos premios, destacando las becas de la Corporación Amigos del Arte y de la Fundación Pacífico. La obra del artista ha sido presentada en importantes bienales del mundo, como la de Chile, Argentina, Colombia, Suiza, Polonia, Francia y Finlandia, y forma parte de importantes colecciones públicas y privadas en Chile, Argentina, Colombia, Estados Unidos, Reino Unido y Francia. Vive y trabaja en Santiago.
   archivo_romero_por_venir: |
         Es un proyecto colectivo impulsado por *Lucía Bianchi*, *Lucía Cañada*, *Fernando Davis* y *Ana Longoni* (Red Conceptualismos del Sur) desde 2021, ante la pérdida del archivo perdido (vendido, dispersado) de nuestro querido amigo, el artista Juan Carlos Romero. Imaginamos el nuevo archivo  no como un reemplazo, sino un gesto que repare, replique y multiplique sus modos de hacer. Un organismo vivo desde donde activar críticamente en el presente, su potencia insurgente, capaz de contribuir a la construcción de una memoria agitativa y rebelde.
+  maria_jose_machado: |
+    (Ecuador, 1984) María José, actualmente cursa un doctorado en Educación e Innovación en la UIIX de México. Posee un Máster en Teoría y Filosofía del Arte y una Licenciatura en Artes con mención en Artes Aplicadas. Ha dedicado una década a la docencia en la Universidad de Cuenca, además de participar como capacitadora en varias instituciones académicas y culturales en Ecuador. En el ámbito de la gestión cultural, ha desempeñado roles importantes en la Dirección de Cultura, Recreación y Conocimiento de la Alcaldía de Cuenca, así como en la Facultad de Artes de la Universidad de Cuenca. Es propietaria y curadora de Cu. Gallery, una galería de artes aplicadas y diseño de autor, y co-fundadora de eventos culturales independientes como Cuarto Aparte y Salida de Emergencia. Como artista se ha dedicado al arte acción, el performance y la práctica comunitaria desde el año 2007. En 2016 fue invitada a la Bienal Deformes en Chile, en 2018 artista invitada a Interdicta, Primer Encuentro de Performance en Bolivia, designada como artista del año en la Bienal Internacional de Cuenca y en ese mismo año ganadora del programa de becas y comisiones en 2019 de CIFO ART exponiendo en el Museo del Barrio de New York. En 2021 es seleccionada para la comisión de performance por la Unidad de Creatividad y Cultura del Banco Interamericano de Desarrollo para la cumbre mundial El poder del arte como motor de transformación social en la era pospandémica / Cómo sanar un mundo herido. Ganadora del segundo premio en la Bienal Internacional de Río Negro en Valcheta-Argentina. Su obra ha sido expuesta en Colombia, Bolivia, Estados Unidos, México, Francia, Chile, Argentina y España. Actualmente desarrolla su trabajo y discurso artístico desde la premisa e investigación para enfocar al arte como función social y dentro de la función como gestor cultural investiga y aplica el reconocimiento de economía circular creativa.
+  hugo_catolino: |
+      Buenos Aires 1954-79
 
+      + Teaterskola/ Teatro de objetos74-77(Fray Mocho escuela)
+      + Estudio de cine con David Kohn(Teatro San Martin)
+      + Telecinema/Cameraman 76-79 (Adios Reino Animal,Direccion Jonny Chroeder)
 
+      España 1979-82
+
+      + Crea el Teatro de objetos Pome da Pi (Palma de Mallorca). Participa en festivales en España, Suecia, Suiza, Francia y Polonia.
+
+      Francia 1982-83
+
+      + Asistente de dirección de Maurice Guillaud, Centre Culturell du Marais,Paris.Produccion LÒpera Blanc (La ópera blanca).
+      + Performance en el Espacio Boris Vian, Paris, junto a los artistas Jorge Pell y Tania Rohelens.
+
+      Suecia 1983-
+
+      + Estudios de Pedagogia-Escuela superior Mälardalens 1985-87.
+      + Pedagogo de teatro/productor de exposiciones de arte (Dirección de Cultura Ciudad de Västerås) 1988-94.
+      + Director de Cultura General (Municipalidad de Ciudad de Västerås-Secretaria de Cultura) 1994-2001.
+      + Secretario de Cultura General (Municipalidad de Ciudad de Västerås-Secretaria de Cultura) 2001-2017. Trabajo independiente como artista en Suecia y productor de exposiciones de arte y festivales en colaboracion con los paises de Brasil, Suiza, México, Australia, Noruega, Africa del Este-Mali,India, España,Finlandia:  1988- hasta el presente. Después de 2019 trabaja en colaboracion con Editorial SaSoll de Palma de Mallorca en la produccion de Artbox con diferentes artistas de la Poesia Visual Experimental:  Uruguay: Clemente Padin (Homenaje al Cuadrado). España: JM Calleja, Bartolomé Ferrando, Lucia Peiro, Cesar Reglero Campos. Colombia: Maria Uribe.
+      + Actualmente trabaja en su projecto By Sweden Art Project – Amazonas Unpublished y Sweden Unpublished. Tambien en colaboracion con el artista brasileño Paulo Bruscky en el projecto POETRY BANK.
 
 
 listado:
-  #ana_montenegro: {nomb: 'Ana Montenegro', foto: '/rec/foto/personas/ana_montenegro.jpg', link: '/per/ana_montenegro'}
   archivo_romero_por_venir: {nomb: 'Archivo Romero por/venir', foto: '/rec/foto/personas/archivo_romero_por_venir.jpg', link: '/per/archivo_romero_por_venir'}
   carlos_gallardo: {nomb: 'Carlos Gallardo', foto: '/rec/foto/personas/carlos_gallardo.jpg', link: '/per/carlos_gallardo'}
   claudia_kozak: {nomb: 'Claudia Kozak', foto: '/rec/foto/personas/claudia_kozak.jpg', link: '/per/claudia_kozak'}
   dagmara_wyskiel: {nomb: 'Dagmara Wyskiel', foto: '/rec/foto/personas/dagmara_wyskiel.jpg', link: '/per/dagmara_wyskiel'}
-  #edith_derdyk: {nomb: 'Edith Derdyk', foto: '/rec/foto/personas/edith_derdyk.jpg', link: '/per/edith_derdyk'}
   fabiane_pianowski: {nomb: 'Fabiane Pianowski', foto: '/rec/foto/personas/fabiane_pianowski.jpg', link: '/per/fabiane_pianowski'}
   fernando_aguiar: {nomb: 'Fernando Aguiar', foto: '/rec/foto/personas/fernando_aguiar.jpg', link: '/per/fernando_aguiar'}
-  #ferran_destemple: {nomb: 'Ferran Destemple', foto: '/rec/foto/personas/ferran_destemple_2.jpg', link: '/per/ferran_destemple'}
   flora_holderbaum: {nomb: 'Flora Holderbaum', foto: '/rec/foto/personas/flora_holderbaum.jpg', link: '/per/flora_holderbaum'}
   giovanni_fontana: {nomb: 'Giovanni Fontana', foto: '/rec/foto/personas/giovanni_fontana.jpg', link: '/per/giovanni_fontana'}
-  #gonzalo_aguilar: {nomb: 'Gonzalo Aguilar', foto: '/rec/foto/personas/gonzalo_aguilar.jpg', link: '/per/gonzalo_aguilar'}
+  hugo_catolino: {nomb: 'Hugo Catolino' , foto: '/rec/foto/personas/hugo_catolino.jpg', link: '/per/hugo_catolino'}
   jaap_blonk: {nomb: 'Jaap Blonk', foto: '/rec/foto/personas/jaap_blonk.jpg', link: '/per/jaap_blonk'}
   jessica_pujol_duran: {nomb: 'Jèssica Pujol Duran', foto: '/rec/foto/personas/jessica_pujol_duran.jpg', link: '/per/jessica_pujol_duran'}
-  #juan_montelpare: {nomb: 'Juan Montelpare', foto: '/rec/foto/personas/juan_montelpare.jpg', link: '/per/juan_montelpare'}
+  maria_jose_machado: {nomb: 'María José Machado', foto: '/rec/foto/personas/maria_jose_machado.jpg', link: '/per/maria_jose_machado' }
   michael_hurtado: {nomb: 'Michael Hurtado', foto: '/rec/foto/personas/michael_hurtado.jpg', link: '/per/michael_hurtado'}
-  #natalia_silberleib: {nomb: 'Natalia Silberleib', foto: '/rec/foto/personas/natalia_silberleib.jpg', link: '/per/natalia_silberleib'}
   patrizio_peterlini: {nomb: 'Patrizio Peterlini', foto: '/rec/foto/personas/patrizio_peterlini.jpg', link: '/per/patrizio_peterlini'}
   paula_doberti: {nomb: 'Paula Doberti', foto: '/rec/foto/personas/paula_doberti.jpg', link: '/per/paula_doberti'}
   paulo_bruscky: {nomb: 'Paulo Bruscky', foto: '/rec/foto/personas/paulo_bruscky.jpg', link: '/per/paulo_bruscky'}
