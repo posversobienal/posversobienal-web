@@ -94,8 +94,8 @@ menu:
         url: '/pag/artistas_homenajeados/'
       - titulo: 'Convocatoria abierta'
         url: '/pag/convocatoria_abierta/'
-      - titulo: 'Socios estratégicos'
-        url: '/pag/socios_estrategicos/'
+      - titulo: 'Socios'
+        url: '/pag/socios/'
 
   - titulo: 'PROGRAMA'
     url: ''
