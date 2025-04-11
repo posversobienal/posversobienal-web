@@ -14,17 +14,17 @@
 <div class="container contenido">
 
     <header class="my-5">
-        <h1 class="text-center">{{ pag.titulo }}</h1>
+        <h1 class="text-center">{{ markdown(pag.titulo) }}</h1>
     </header>
 
     <div class="row">
         <section class="{{ pag.estilo }} col-lg-8">
-            {{ markdown(pag.contenido) }}
+            {{ markdown(pag.contenido, pag) }}
         </section>
 
         {% if 'contenido_secundario' in pag %}
-        <section class="{{ pag.estilo_cnt_sec }} ms-4 ps-4 border-start border-gray col-lg-3">
-            {{ markdown(pag.contenido_secundario) }}
+        <section class="{{ pag.estilo_cnt_sec }}  ms-4 ps-4 border-start border-gray col-lg-3">
+            {{ markdown(pag.contenido_secundario, pag) }}
         </section>
         {% endif %}
 

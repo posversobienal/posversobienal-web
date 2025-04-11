@@ -28,12 +28,12 @@ def orden_inverso(l):
 def fecha_prensa(t):
     return t.split('_')[0]
 
-def md_a_html(texto):
+def md_a_html(texto, pag_propia={}):
     global dat_cfg
     global dat_rec
     global env_jinja2
     tpl = env_jinja2.from_string(texto)
-    texto = tpl.render(cfg=dat_cfg, rec=dat_rec)
+    texto = tpl.render(cfg=dat_cfg, rec=dat_rec, pag=pag_propia)
     md = Markdown(extensions=markdown_extensiones, extension_configs=markdown_extensiones_config)
     return md.convert(texto)
 
@@ -212,6 +212,31 @@ def actualizar_paginas():
                 f.write(html)
 
 
+def actualizar_obras():
+    # completado de plantillas de OBRAS
+    ruta_in = './datos/obras/'
+    ruta_out = f'{ruta_public}obr/'
+    borrar_contenido(ruta_out)
+
+    for ar in [a for a in listdir(ruta_in) if a.endswith('.yml')]:
+        print('Página de obra: ', ar)
+
+        dat_cfg['actualizacion'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+        dat_cfg['cache_actu'] = int(time_ns() / 1000)
+        dat_pag = leer_yml(f'{ruta_in}{ar}')
+
+        if dat_pag['ruta_static']:
+
+            arc_out = ruta_public + dat_pag['ruta_static']
+            makedirs(dirname(arc_out), exist_ok=True)
+
+            tpl = env_jinja2.get_template(dat_pag['html_base'])
+            html = tpl.render(cfg=dat_cfg, pag=dat_pag, rec=dat_rec)
+
+            with open(arc_out, 'w') as f:
+                f.write(html)
+
+
 def actualizar_bitacora():
     # completado de plantillas de BITACORA
     ruta_in = './datos/bitacora/'
@@ -287,6 +312,7 @@ def actualizar_todo():
     actualizar_artistas()
     actualizar_paginas()
     actualizar_sedes()
+    actualizar_obras()
     actualizar_bitacora()
     actualizar_publicaciones()
     actualizar_mediacion_educativa()
@@ -299,21 +325,27 @@ markdown_extensiones = [ 'tables', 'attr_list', 'toc', 'abbr', 'footnotes' ]
 markdown_extensiones_config = { 'tables': {}, 'attr_list': {}, 'toc': {}, 'abbr': {}, 'footnotes': {}}
 
 ruta_public = '../docs/'
-
-ar_cfg_in = './datos/configuracion.yml'
-ar_cronograma = './datos/cronograma.yml'
+ruta_cfg_in = './datos/configuracion/'
+ar_cronograma = './datos/cronograma/2024.yml'
 ar_cfg_out = f'{ruta_public}dat/cfg.js'
 
+
+# carga de configuraciones
+dat_cfg = {}
+for ar_cfg in listdir(ruta_cfg_in):
+    if ar_cfg.endswith('.yml'):
+        idc = splitext(ar_cfg)[0]
+        with open(f'{ruta_cfg_in}{ar_cfg}', 'r') as f:
+            dat_cfg[idc] = yaml.safe_load(f)
+
+# incorporación de cronograma a la configuración
 with open(ar_cronograma, 'r') as f:
     dat_cronograma = yaml.safe_load(f)
-
-
-with open(ar_cfg_in, 'r') as f:
-    dat_cfg = yaml.safe_load(f)
     dat_cfg['cronograma'] = dat_cronograma['fechas']
 
-    with open(ar_cfg_out, 'w') as g:
-        g.write('const cfg = ' + json.dumps(dat_cfg))
+# exportación unificada de configuración
+with open(ar_cfg_out, 'w') as g:
+    g.write('const cfg = ' + json.dumps(dat_cfg))
 
 
 # ------ compilaciones de recursos
@@ -322,6 +354,7 @@ ar_rec_out = f'{ruta_public}dat/rec.js'
 rutas_recursos = [
     ['./datos/artistas/', 'artistas'],
     ['./datos/personas/', 'personas'],
+    ['./datos/obras/', 'obras'],
     ['./datos/sedes/', 'sedes'],
     ['./datos/publicaciones/', 'publicaciones'],
     ['./datos/mediacion_educativa/', 'mediacion_educativa'],

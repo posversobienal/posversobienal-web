@@ -373,6 +373,55 @@ footer .utiles .menu-pie:hover nav {
   border: 1px solid;
   margin: 10px;
   border-radius: 10px;
+  filter: grayscale(100%);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+.socios .logo_socio:hover {
+  filter: grayscale(0);
+}
+.carrusel-socios {
+  position: relative;
+}
+.carrusel-socios .grupo {
+  overflow: auto;
+}
+.carrusel-socios .grupo ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+.carrusel-socios .grupo ul li {
+  white-space: nowrap;
+  list-style: none;
+  margin: 0;
+  padding: 0 20px;
+  filter: grayscale(100%);
+}
+.carrusel-socios .grupo ul li img {
+  display: inline-block;
+  width: 100px;
+}
+.carrusel-socios .grupo ul li:hover {
+  filter: grayscale(0);
+}
+.carrusel-socios .grupo ul li.categoria {
+  opacity: 0.7;
+  font-size: 0.9em;
+}
+.destacado .item {
+  min-height: 345px;
+}
+.destacado a {
+  border-bottom: none;
+}
+.bienal-proxima {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  background: #111 linear-gradient(to bottom, #111, #000);
+}
+.bienal-proxima * {
+  color: #fff !important;
 }
 #menu-permanente {
   z-index: 100;
@@ -665,6 +714,14 @@ a.actual {
 }
 .boton-sombra:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+/* notas al pie */
+.npr {
+  _font-size: 0.8em;
+  color: #666;
+}
+.npt {
+  margin: 0 10px 0 0;
 }
 @keyframes color-cr {
   0% {

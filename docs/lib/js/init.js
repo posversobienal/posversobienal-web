@@ -10,6 +10,8 @@ window.addEventListener('load', () => {
     if(typeof onload_acciones === 'function') onload_acciones();
 
     Galeria.activar();
+
+    notas_al_pie();
 });
 
 

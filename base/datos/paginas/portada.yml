@@ -4,13 +4,29 @@ titulo: ''
 html_base: 'portada.html'
 ruta_static: 'index.html'
 
-tematica:
+
+bienal_2026:
+  nombre: 'DEL ENCANTAMIENTO Y EL HORROR'
+  url: ''
+  fecha: |
+    Del 22 de agosto al 3 de octubre de **2026**. Junín, Buenos Aires.
+
+bienal_2024:
   nombre: 'POÉTICAS DE LA RESISTENCIA'
   url: '/pag/acerca_de_la_bienal/'
   fecha: |
-    Del **18 de octubre** al **20 de diciembre** de 2024.
-    **Junín**, Buenos Aires.
+    Del 18 de octubre al 20 de diciembre de **2024**. Junín, Buenos Aires.
+  destacados:
+    - {titulo: 'EXHIBICIONES', imagen: '/rec/foto/portada/destacados/2024-exhibiciones.jpg', url: '/pag/exhibiciones_2024/'}
+    - {titulo: 'POESÍA FONÉTICA Y SONORA / ARTE SONORO', imagen: '/rec/foto/portada/destacados/2024-poesia_fonetica_y_sonora.jpg', url: '/pag/exhibicion_capsula_sonora/'}
+    - {titulo: 'ACCIONES Y PERFORMANCES', imagen: '/rec/foto/portada/destacados/2024-acciones_performances.jpg', url: '/pag/exhibicion_la_poetica_de_la_aridez/'}
+    - {titulo: 'POÉTICAS ELECTRÓNICAS', imagen: '/rec/foto/portada/destacados/2024-poeticas_electronicas.jpg', url: '/pag/sala-poeticas_electronicas/'}
+    - {titulo: 'EVENTO TEÓRICO', imagen: '/rec/foto/portada/destacados/2024-evento_teorico.jpg', url: '/pag/evento_teorico/'}
+    - {titulo: 'EDUCATIVO', imagen: '/rec/foto/portada/destacados/2024-educativo.jpg', url: '/pag/mediacion_educativa_2024/'}
 
+# deslizador de socios
+socios:
+  - 'en breve'
 
 novedades:
   maximo: 3

@@ -5,14 +5,12 @@ gmaps: 'https://maps.app.goo.gl/Byi19L1WH9j2SVaa9'
 
 web: 'https://www.instagram.com/elespacioyoga'
 
-links:
-  - 'https://www.facebook.com/elespacioyogajunin'
-
 geopos:
   coord: [-34.58303, -60.94205]
   icono: pin-sede
 
 fotos:
   - 'el_espacio.jpg'
+
 eventos_asociados: []
 descripcion: []

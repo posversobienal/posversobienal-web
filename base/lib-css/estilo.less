@@ -420,20 +420,15 @@ footer {
 
 
 .socios {
-
     a {
         border: none;
-
         .logo_socio {
             border-bottom-width: 2px;
-
             &:hover {
                 border-bottom-style: dashed;
             }
         }
-
     }
-
 
     .logo_socio {
         width: 200px;
@@ -441,8 +436,63 @@ footer {
         border: 1px solid;
         margin: 10px;
         border-radius: 10px;
+        filter: grayscale(100%);
+        border-color: rgba(0,0,0,0.2);
+        &:hover {
+            filter: grayscale(0);
+        }
     }
+}
 
+.carrusel-socios {
+    position: relative;
+    .grupo {
+        overflow: auto;
+
+        ul {
+            display: flex;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+
+            li {
+                white-space: nowrap;
+                list-style: none;
+                margin: 0;
+                padding: 0 20px;
+                filter: grayscale(100%);
+
+                img {
+                    display: inline-block;
+                    width: 100px;
+                }
+
+                &:hover {
+                    filter: grayscale(0);
+                }
+
+                &.categoria {
+                    opacity: 0.7;
+                    font-size: 0.9em;
+                }
+            }
+        }
+    }
+}
+
+.destacado {
+    .item {
+        min-height: 345px;
+    }
+    a { border-bottom: none; }
+}
+
+
+.bienal-proxima {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    background: #111 linear-gradient(to bottom, #111, #000);
+    * { color: #fff!important; }
 }
 
 #menu-permanente {
@@ -801,12 +851,29 @@ a.actual {
     box-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
 
+/* notas al pie */
+.npr {
+    display: inline-block;
+    padding: 0 3px
+    color: #666;
+}
+.npt {
+    margin: 0 10px 0 0;
+}
+
 @keyframes color-cr {
     0%   { background: #000; color:#fff; }
     25%  { background: #888; color:#777; }
     50%  { background: #fff; color:#000; }
     75%  { background: #777; color: #888; }
     100% { background: #000; color:#fff; }
+}
+
+.ficha-exhibicion {
+    background: #f00!important;
+    padding: 10px!important;
+    margin: 20px 5px!important;
+    border: 1px solid rgba(0,0,0,0.3);
 }
 
 

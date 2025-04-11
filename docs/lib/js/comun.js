@@ -131,6 +131,21 @@ const abrir_imagen_externamente = (url) => {
     window.location.href = url;
 }
 
+const notas_al_pie = () => {
+    let np = document.querySelectorAll('np');
+    let npt = document.querySelectorAll('npt');
+
+    np.forEach(e => {
+        let n = e.innerText;
+        e.innerHTML = `<a class="npr" href="#npt${n}" id="np${n}"><sup>${n}</sup></a>`
+    });
+
+    npt.forEach(e => {
+        let n = e.innerText;
+        e.innerHTML = `<a class="npt" href="#np${n}" id="npt${n}">[${n}]</a>`
+    });
+}
+
 
 /* formateo de string estilo plantilla */
 if (!String.prototype.format) {

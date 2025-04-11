@@ -5,6 +5,7 @@ titulo:
   en: 'About POSVERSO Biennial'
 html_base: 'pagina-es_en.html'
 ruta_static: 'pag/acerca_de_la_bienal/index.html'
+
 estilo_cnt_sec: 'lista-subrayada titulares-reducidos'
 
 contenido:
