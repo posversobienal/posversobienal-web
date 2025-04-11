@@ -1,0 +1,83 @@
+---
+titulo: 'Exhibición **VIDEOPOÉTICAS**'
+html_base: 'pagina.html'
+ruta_static: 'pag/exhibicion_videopoeticas/index.html'
+
+estilo: col-lg-8
+estilo_cnt_sec: titulares-reducidos
+
+
+contenido: |
+
+  OBRAS EXHIBIDAS:
+
+  <br><hr><br>
+  _BIS NICHTS MEHR ÜBRIG IST / HASTA QUE NO SOBRE NADA_
+  <br><small>AUTORIA:</small> **Stephan Groß** (Alemania)
+  <br><small>AÑO DE PRODUCCIÓN:</small> 2012
+  <br><small>DURACIÓN:</small> 3’44”
+
+  El vídeo _“BIS NICHTS MEHR ÜBRIG IST”_ muestra sucesivamente una cita de cinco líneas del colectivo de escritores James Boys: _“hasta que no quede nada, hasta que no quede nada, hasta que no quede nada, no quede nada, nada”_.
+
+  El sonido se basa en cinco tonos que se tocan mediante varias muestras instrumentales. Este acorde de novena se reduce en un sonido cada vez que una palabra desaparece de la pantalla, “hasta que no quede nada”. Esta ruptura sistemática de la palabra y el sonido parafrasea el viaje de las sociedades enfermas hacia la (sobre) explotación, la aniquilación, la extinción, el exterminio, la desaparición, la nada.
+
+
+  <br><hr><br>
+  _LISTA PARA GUSTAR_
+  <br><small>AUTORIA:</small> **Corporación Semiótica Galega** (España)
+  <br><small>AÑO DE PRODUCCIÓN:</small> 2018
+  <br><small>DURACIÓN:</small> 4’10”
+
+  Nacido de un libro de poemas (Facer sen mans, Rois, 2018), donde el autor apelara a un estrategia semejante, el video retoma la utilización del lenguaje de la publicidad como recurso expresivo. Mediante el enunciado de 99 eslóganes publicitarios recogidos de la red y de las revistas, el artista compone una serie significativa con el afán crítico de desnudar el papel de la publicidad como agente de enajenación del sistema de dominio capitalista.
+
+
+  <br><hr><br>
+  _BREVE FRAGMENTO DE UNA ETERNA DANZA_
+  <br><small>AUTORIA:</small> **Rosa Gravino** (Argentina)
+  <br><small>AÑO DE PRODUCCIÓN:</small> 2024
+  <br><small>DURACIÓN:</small> 1’48”
+  <br><small>DISEÑO DE SONIDO:</small> Carlos Macheratti
+
+  A partir del juego entre imagen y palabra, el movimiento agrega o despliega significantes y cierta sintaxis, abriendo múltiples posibilidades de lectura. En el encuentro de las imágenes en movimiento y el sonido experimental, se establece una especie de danza que otorga a los signos una dimensión performativa
+
+
+  <br><hr><br>
+  _MONITRÓN 20.20 Acto 1. No se le puede atraer, no se le puede rechazar_
+  <br><small>AUTORIA:</small> **Ánuar Zúñiga Naime y Los KFGC** (México)
+  <br><small>AÑO DE PRODUCCIÓN:</small> 2020
+  <br><small>DURACIÓN:</small> 8’03”
+
+  Este trabajo es un lyric video del _Acto 1 de Monitrón 20.20_ del colectivo **KFGC**. _Monitrón 20.20_ es el título de un espectáculo de spoken word en el que intervienen recursos visuales, sonoros y performáticos. En la presentación en vivo, los integrantes del colectivo recitan de forma dramatizada, mientras interactúan con apoyos visuales, luces y música electrónica generada en tiempo real.
+
+
+  <br><hr><br>
+  _ESCUPE MENTIRAS, NAÚSEAS DA_
+  <br><small>AUTORIA:</small> **La Lengua En La Calle.** Colectivo transdisciplinario integrado por Laura Bilbao, Toia Bonino, Lina Boselli, Luján Funes, Bárbara Kaplan y Julia Masvernat. (Argentina)
+  <br><small>AÑO DE PRODUCCIÓN:</small> 2024
+  <br><small>DURACIÓN:</small> 1’48”
+
+  En este videopoema, la frase Escupe mentiras, naúseas da irrumpe en la costa argentina como una instalación de grandes letras de cartón, creando una nota de extrañeza en el cotidiano de un balneario bonaerense. Voces de distintas mujeres se superponen, ampliando y reforzando el texto original con nuevas frases que precisan el mensaje. Consciente del poder de las palabras,  el colectivo apunta su lengua insumisa contra la crueldad del Estado enemigo del feminismo, y contra las múltiples politicas  que expresan su misoginia, su homofobia y su racismo.
+
+  <br><hr><br><br>
+
+
+
+contenido_secundario: |
+  <small>CURADURÍA:</small>
+  <br>{{ per('silvio_de_gracia') }}.
+
+  <small>SEDE:</small>
+  <br>["Edificio Alicia Moreau de Justo" - UNNOBA Escuela de Ciencias Económicas y Jurídicas](/sds/unnoba_alicia_moreau_de_justo/)
+
+  <small>PRESENTACIÓN:</small>
+  <br>2 de noviembre de 2024
+  <br>En el marco de La Feli: Feria de Editoriales y Librerías Independientes.
+
+  <br><br>
+  <small>ARTISTAS EXHIBIDOS:</small>
+
+  + {{ per('stephan_gross') }}
+  + {{ per('cosega') }}
+  + {{ per('rosa_gravino') }}
+  + {{ per('anuar_zuniga_naime') }}
+  + {{ per('la_lengua_en_la_calle') }}

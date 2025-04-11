@@ -1,0 +1,137 @@
+---
+
+titulo: 'Mediación educativa'
+html_base: 'mediacion_educativa_y_talleres-menu.html'
+ruta_static: 'pag/mediacion_educativa_2024/index.html'
+estilo: col-lg-11
+
+imagen_cabecera: '/rec/foto/paginas/mediacion_educativa_3.jpg'
+
+contenido: |
+  El programa educativo de **POSVERSO BIENAL** tiene como objetivo esencial que el arte contemporáneo y las prácticas poéticas experimentales se vuelvan accesibles a todos. Este programa se enfocará especialmente en los estudiantes de nivel secundario y terciario, y se desarrollará en los meses previos al inicio de la BIENAL y durante el transcurso de la misma.
+
+  A través de talleres, charlas, y diferentes instancias de intercambio y aprendizaje a cargo de artistas y especialistas, se apuntará a brindar las herramientas conceptuales necesarias para acceder a una mayor comprensión y valoración de la oferta artística y cultural de la BIENAL.
+
+  Las actividades podrán ser en formato virtual o presencial.
+
+  Para contribuir en la tarea formativa, se trabajará en la producción de contenidos educativos digitales que serán disponibles en la web de la BIENAL.
+
+  Un aspecto privilegiado del programa educativo será la mediación entre las diferentes audiencias y las múltiples propuestas artísticas presentadas durante la BIENAL. Las formas de mediación podrán ser caminatas, recorridos y conversaciones en los que se abordarán distintos aspectos de las obras y proyectos.
+
+  Para ser viable y significativo este programa requiere de la colaboración y soporte de centros educativos y culturales y sedes asociadas al cronograma de exhibiciones de la BIENAL.
+
+  **Invitamos a directores, gestores culturales, maestros y formadores** a contactar a [posversobienal@gmail.com](mailto:posversobienal@gmail.com) para integrarse al programa educativo de POSVERSO BIENAL.
+
+  **Si te interesa ser parte del equipo de mediación de POSVERSO BIENAL** y potenciar nuestras propuestas de participación escolar y comunitaria puedes comunicarte a [{{ cfg.emails.pveducativo }}](mailto:{{ cfg.emails.pveducativo }}).
+
+
+lista:
+  - 2024-09-23-18-00__capacitacion_en_instituto_129
+  - 2024-08-13-00-00__jornadas_de_capacitacion
+  - 2024-06-27-08-30__inicio_programa_educativo
+  - 2024-06-26-08-00__aproximacion_a_la_poesia_experimental
+
+
+contenido_talleres: |
+
+  <br><br><br>
+  ## CRONOGRAMA DE TALLERES  {.text-center}
+
+  REALIZADOS EN 2024
+  {.text-center}
+
+  ---
+
+  <div class="taller-pasado">
+    <h3>Lengua de pájaros.</h3>
+    <p class="text-uppercase"><b>{{ per('montenegro_fisher', formato='html') }}</b></p>
+    <ul>
+      <li><small>FECHA:</small> <b>Martes 22 de octubre</b>. <small>HORARIO:</small> <b>16:00 a 18:00</b>.</li>
+      <li><small>SEDE:</small> {{ sds('escuela_de_teatro_gilberto_mesa', formato='html') }}.</li>
+      <li><small>DESTINATARIOS:</small> Estudiantes nivel terciario.</li>
+      <li><small>MÁXIMO:</small> 20 participantes.</li>
+      <li><small>MATERIALES:</small> 40 hojas de papel, 40 plumones/ lápices de color. Los estudiantes son bienvenidos a traer instrumentos musicales u objetos que produzcan sonido.</li>
+    </ul>
+  </div>
+
+  ---
+
+  <div class="taller-pasado">
+    <h3>Taller de Poesía Visual y Experimental.</h3>
+    <p class="text-uppercase"><b>{{ per('claudio_mangifesta', formato='html') }}</b></p>
+    <ul>
+      <li><small>FECHA:</small> <b>Viernes 8 de noviembre**.</b>. <small>HORARIO:</small> <b>9.30 a 12.30</b>.</li>
+      <li><small>SEDE:</small> {{ sds('escuela_de_educacion_artistica_victor_grippo', formato='html') }}.</li>
+      <li><small>DESTINATARIOS:</small> Público general.</li>
+      <li><small>DURACIÓN:</small> 3 horas.</li>
+      <li><small>MATERIALES:</small> Revistas o libros antiguos para RECORTAR imágenes y letras. Hojas o cartón para usar como base. Tijeras, plasticola, Letras (de cualquier tipo). Tipos móviles de las viejas imprentas, sellos, letraset, letras caladas o stencil, etc. Imágenes de diversos tipos.</li>
+    </ul>
+  </div>
+
+  ---
+
+  <div class="taller-pasado">
+    <h3>Taller de arte correo.</h3>
+    <p class="text-uppercase"><b>{{ per('rosa_gravino', formato='html') }}</b> Y <b>{{ per('marcela_peral', formato='html') }}</b></p>
+    <ul>
+      <li><small>FECHA:</small> <b>Viernes 8 de noviembre.</b>. <small>HORARIO:</small> <b>16:00 a 18:00</b>.</li>
+      <li><small>SEDE:</small> {{ sds('biblioteca_paz_y_trabajo', formato='html') }}.</li>
+      <li><small>DESTINATARIOS:</small> Público general.</li>
+    </ul>
+  </div>
+
+  ---
+
+  <div class="taller-pasado">
+    <h3>Las formas del agua.</h3>
+    <p class="text-uppercase"><b>{{ per('ale_montiel', formato='html') }}</b></p>
+    <ul>
+      <li><small>FECHA:</small> <b>Miércoles 13 de noviembre.</b>. <small>HORARIO:</small> <b>16:00 a 18:00</b>.</li>
+      <li><small>SEDE:</small> {{ sds('casa_popular_dante_balestro', formato='html') }}.</li>
+      <li><small>DESTINATARIOS:</small> Público general.</li>
+      <li><small>MATERIALES:</small> Hojas tamaño A3 para cada participante, fibrones de varios grosores y fibras en la gama de los azules.</li>
+    </ul>
+  </div>
+
+  ---
+
+  <div class="taller-pasado">
+    <h3>TIPOESÍA. Poesía Tipográfica.</h3>
+    <p class="text-uppercase"><b>{{ per('ro_barragan', formato='html') }}</b></p>
+    <ul>
+      <li><small>FECHA:</small> <b>Viernes 15 de noviembre.</b>. <small>HORARIO:</small> <b>13:30 a 16:30</b>.</li>
+      <li><small>SEDE:</small> {{ sds('escuela_de_educacion_artistica_victor_grippo', formato='html') }}.</li>
+      <li><small>DESTINATARIOS:</small> Público general.</li>
+      <li><small>MATERIALES:</small> Se contará con materiales específicos provistos por Ilusión gráfica.</li>
+      <li><small>MÁXIMO:</small> 15 participantes.</li>
+    </ul>
+  </div>
+
+  ---
+
+    <div class="taller-pasado">
+    <h3>Rondas creativas.</h3>
+    <p class="text-uppercase"><b>SANDRA GALLI</b></p>
+    <ul>
+      <li><small>FECHA:</small> <b>Viernes 15 de noviembre.</b>. <small>HORARIO:</small> <b>18:00 a 20:00</b>.</li>
+      <li><small>SEDE:</small> {{ sds('fundacion_casa_pronto', formato='html') }}.</li>
+      <li><small>DESTINATARIOS:</small> Público general.</li>
+      <li><small>MATERIALES:</small> Papeles de todo tipo, cartones, revistas, pegamento, hilos, cintas de enmascarar de colores, elásticos, marcadores, lápices, tijeras, letras, botones, postales, lana, pajitas, palitos de helado.</li>
+    </ul>
+  </div>
+
+  ---
+
+
+  <div class="taller-pasado">
+    <h3>Livecoding. Exploración expresiva mediante programación en tiempo real.</h3>
+    <p class="text-uppercase"><b>{{ per('carlos_alberto_macheratti', formato='html') }}</b></p>
+    <ul>
+      <li><small>FECHA:</small> <b>Martes 19 de noviembre.</b>. <small>HORARIO:</small> <b>17:00 a 19:00</b>.</li>
+      <li><small>SEDE:</small> {{ sds('centro_de_capacitacion_y_cultura_atsa', formato='html') }}.</li>
+      <li><small>DESTINATARIOS:</small> Público general.</li>
+      <li><small>MATERIALES:</small> Se recomienda, para una mayor comodidad en la exploración de códigos durante las actividades, llevar su propia tablet o notebook.</li>
+    </ul>
+  </div>
+
+  <script>document.querySelector('.taller-proximo').scrollIntoViewIfNeeded(); </script>

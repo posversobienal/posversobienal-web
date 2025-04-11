@@ -1,0 +1,122 @@
+---
+titulo: 'Exhibición **VIDEOBARDO**'
+html_base: 'pagina.html'
+ruta_static: 'pag/exhibicion_videobardo/index.html'
+
+estilo: col-lg-8
+estilo_cnt_sec: titulares-reducidos
+
+
+contenido: |
+
+  ## Muestra de videopoesía
+
+  <br><hr><br>
+  _Compost 02_
+  <br><small>AUTORIA:</small> **White & Vicious**
+  <br><small>AÑO DE PRODUCCIÓN:</small> 2023
+  <br><small>DURACIÓN:</small> 2’ 05”
+
+  Experiencia individual y efímera de búsqueda, experimentación y registro. Sin afán de generación de producto final alguno, todo el peso de esta aventura de exploración recae en el propio proceso creativo, en el presente más absoluto. Una deriva que persigue la sensación y termina generando una nueva materia prima reciclada, fruto de los registros de la experiencia misma.
+
+
+  <br><hr><br>
+  _P-O-E-S-Í-A_
+  <br><small>AUTORIA:</small> **Javier Robledo**
+  <br><small>AÑO DE PRODUCCIÓN:</small> 2010
+  <br><small>DURACIÓN:</small> 5’12”
+
+  El poema visual es puesto en acción, a rodar sobre la calle que lo origina, generando así diversas palabras aleatorias, al caer del azar de ese dado de piedra que interactúa con los otros adoquines mudos y duros de la calle. El poeta avanza, retrocede, juega con esa poesía concretizada en materia, mágicamente retorna a su mano, poesía que busca al poeta. Al fin, logra el reposo en la galería de arte como objeto exhibido.
+
+
+  <br><hr><br>
+  _Secuencia_
+  <br><small>AUTORIA:</small> **Marisol Bellusci**
+  <br><small>AÑO DE PRODUCCIÓN:</small> 2021
+  <br><small>DURACIÓN:</small> 1’36”
+
+  Reutilización de celuloide encontrado. Intervenciones plásticas y analógicas con materiales traslúcidos mediando entre la proyección y el dispositivo construido. Captura y edición digital subvirtiendo la continuidad y apuntando a las posibilidades de reutilizar expresivamente el material fílmico.
+
+
+  <br><hr><br>
+  _Lick Fire_
+  <br><small>AUTORIA:</small> **Jeff Zorrilla**
+  <br><small>AÑO DE PRODUCCIÓN:</small> 2023
+  <br><small>DURACIÓN:</small> 6’05”
+
+  Una exploración con imágenes de IA sobre la relación entre la imaginación y el arte, y cómo vivir en las historias y sueños de otros puede afectar su propia existencia.
+
+
+  <br><hr><br>
+  _Content Moderator_
+  <br><small>AUTORIA:</small> **Marte Hodne Haugens**
+  <br><small>AÑO DE PRODUCCIÓN:</small> 2022
+  <br><small>DURACIÓN:</small> 8’
+
+  Video musical basado en la experiencia de Haugens trabajando como moderador de contenido para una gran empresa de redes sociales. Revisas los informes de contenido violento, sexual y perturbador y, a través de un conjunto de reglas, decides si puede permanecer en línea o debe eliminarse. La canción es de composición propia y describe diferentes aspectos de su trabajo.
+
+
+  <br><hr><br>
+  _SLJHRÚL_
+  <br><small>AUTORIA:</small> **Anna Mancuso**
+  <br><small>AÑO DE PRODUCCIÓN:</small> 2023
+  <br><small>DURACIÓN:</small> 11’
+
+  El espectador se sumerge en el mundo de las palomas.  a la vez muy real y completamente imaginario: las palomas interactúan entre sí, comentan lo que ven, se quejan o hacen preguntas.  Aunque la voz que escuchamos es humana, el texto leído fue escrito por las propias palomas (picoteando pan en una computadora). Lectores interpretaron los poemas de paloma con libertad y de una manera muy personal, dejándose llevar por el ritmo particular, los sonidos.
+
+
+  <br><hr><br>
+  _There is no reverse metamorphosis_
+  <br><small>AUTORIA:</small> **Michel Pavlou**
+  <br><small>AÑO DE PRODUCCIÓN:</small> 2023
+  <br><small>DURACIÓN:</small> 3’
+
+  El tiempo, la rotación incesante de todo sobre sí mismo y alrededor de los demás. Cuando nuestras órbitas a veces se alinean, construimos memoria, ganamos duración. Imágenes mutantes, texturas abstractas animadas y el texto/voz componen el flujo de este video-poema. Saca a la luz la relación mutua/conflictiva entre el contenido y las imágenes de la interfaz
+
+
+  <br><hr><br>
+  _For the skeptical_
+  <br><small>AUTORIA:</small> **Dawn Westlake**
+  <br><small>AÑO DE PRODUCCIÓN:</small> 2022
+  <br><small>DURACIÓN:</small> 3’ 25”
+
+  En las democracias, los ciudadanos gozan de una protección extraordinaria. Sin embargo, en el ámbito de la información esta libertad trae consigo una pesada obligación. La prensa y los líderes sociales a quienes ofrece cobertura, tienen la obligación de buscar la verdad; no para inflamar o entretener, sino para iluminar y educar. Existe una nueva presión sobre los proveedores de información para brindar calor en lugar de arrojar luz porque la tecnología y los flujos de ingresos están cambiando.
+
+
+  <br><hr><br>
+  _Cómo pintar un pájaro_
+  <br><small>AUTORIA:</small> **Pat Van Boeckel**
+  <br><small>AÑO DE PRODUCCIÓN:</small> 2022
+  <br><small>DURACIÓN:</small> 4’
+
+  Video-poema sobre el misterio de la pintura. Poema: Jacques Prévert.
+
+  <br><hr><br><br>
+
+
+
+contenido_secundario: |
+  <small>CURADORÍA:</small>
+  <br>Javier Robledo y Marisol Bellusci.
+
+  <small>DISEÑO EXPOSITIVO:</small>
+  <br>{{ per('ana_montenegro') }}.
+
+  <small>SEDE:</small>
+  <br>[Centro Cultural Marea Cultura](/sds/centro_cultural_marea_cultura/)
+
+  <small>PRESENTACIÓN:</small>
+  <br>21 de noviembre de 2024
+
+  <br><br>
+  <small>ARTISTAS:</small>
+
+  + White & Vicious (España)
+  + {{ per('javier_robledo') }} (Argentina)
+  + Marisol Bellusci (Argentina)
+  + Jeff Zorrilla (USA)
+  + Marte Hodne Haugens (Noruega)
+  + Anna Mancuso (Bélgica)
+  + Michel Pavlou (Grecia)
+  + Dawn Westlake (USA)
+  + Pat van Boeckel (Países Bajos)

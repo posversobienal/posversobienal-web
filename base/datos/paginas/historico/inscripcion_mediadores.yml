@@ -1,0 +1,16 @@
+---
+
+titulo: 'Inscripción para Mediadores'
+html_base: 'pagina.html'
+ruta_static: 'pag/inscripcion_mediadores/index.html'
+estilo: col-lg-11
+
+contenido: |
+
+  POSVERSO BIENAL **abre la inscripición para aspirantes a mediadores educativos**, quienes actuarán como portavoces y guias en las variadas actividades que se realizarán en la bienal.
+
+  *Esta actividad se inscribe dentro de las prácticas entendidas como VOLUNTARIADO, y contará con el expedido de CERTIFICACIÓN para quien lo requiera.*
+
+  Quienes tengan interés pueden completar la solicitud desde el
+  [Formulario de Inscripción para Mediadores]({{ cfg.urls.formulario_mediadores }}){.btn .btn-outline-dark .mx-2 .py-1 .px-2 target=_blank}
+  {.m-4 .p-3 .border .border-secondary}

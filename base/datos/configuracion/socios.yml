@@ -1,0 +1,143 @@
+---
+
+- nombre: 'AFA Arquivo Fernando Aguiar'
+  imagen: arquivo_fernando_aguiar.jpg
+  url: 'https://po-ex.net/taxonomia/transtextualidades/metatextualidades-autografas/arquivo-fernando-aguiar-poesia-experimental-visual-performance-mail-art-fluxus-e-arte-conceptual/'
+  tag: [institucional, 2024]
+
+- nombre: 'Bienal SACO'
+  imagen: saco.jpg
+  url: 'https://bienalsaco.com/'
+  tag: [institucional, 2024]
+
+- nombre: "Casa Popular 'Dante Balestro'"
+  imagen: cp_dante_balestro.jpg
+  url: '/sds/casa_popular_dante_balestro/'
+  tag: [institucional, 2024]
+
+- nombre: "Centro Cultural 'Marea Cultura'"
+  imagen: cc_marea_cultura.jpg
+  url: '/sds/centro_cultural_marea_cultura/'
+  tag: [institucional, 2024]
+
+- nombre: 'Centro de Arte UNLP'
+  imagen: cau.jpg
+  url: 'https://www.centrodearte.unlp.edu.ar/'
+  tag: [institucional, 2024]
+
+- nombre: 'Dutch Foundation for literature'
+  imagen: nldffl.jpg
+  url: 'https://www.letterenfonds.nl/en'
+  tag: [institucional, 2024]
+
+- nombre: "Escuela de Arte 'Xul Solar'"
+  imagen: escuela_de_arte_xul_solar.jpg
+  url: '/sds/escuela_de_arte_xul_solar/'
+  tag: [institucional, 2024]
+
+- nombre: "Escuela de Teatro 'Gilberto Mesa'"
+  imagen: et_gilberto_mesa.jpg
+  url: '/sds/escuela_de_teatro_gilberto_mesa/'
+  tag: [institucional, 2024]
+
+- nombre: "Escuela de educación artística de Junín 'Victor Grippo'"
+  imagen: eea_la_victor_gripo.jpg
+  url: '/sds/escuela_de_educacion_artistica_victor_grippo/'
+  tag: [institucional, 2024]
+
+- nombre: 'Par1000 Aula teatro'
+  imagen: par1000.jpg
+  url: '/sds/par1000_aula_teatro/'
+  tag: [institucional, 2024]
+
+- nombre: 'Performing Arts Fund'
+  imagen: fpk.jpg
+  url: 'https://fondspodiumkunsten.nl/en'
+  tag: [institucional, 2024]
+
+- nombre: 'Secretaria de Arte y Cultura UNLP'
+  imagen: sayc.jpg
+  url: ''
+  tag: [institucional, 2024]
+
+- nombre: 'Colectivo Juana Azurduy'
+  imagen: colectivo_juana_azurduy.jpg
+  url: '/sds/colectivo_juana_azurduy/'
+  tag: [institucional, 2024]
+
+- nombre: 'Biblioteca Floresta'
+  imagen: biblioteca_floresta.jpg
+  url: 'https://www.simonemoraes.net/editora-biblioteca-floresta'
+  tag: [institucional, 2024]
+
+
+- nombre: 'Arte Online'
+  imagen: arte_online.jpg
+  url: 'https://www.arte-online.net/'
+  tag: [comunicacion, 2024]
+
+- nombre: 'Be Cult'
+  imagen: becult.jpg
+  url: 'https://revistabecult.com.ar/'
+  tag: [comunicacion, 2024]
+
+- nombre: 'Mundo Perfo'
+  imagen: mundo_perfo.jpg
+  url: 'https://mundoperformance.net/'
+  tag: [comunicacion, 2024]
+
+- nombre: 'La voz de los barrios'
+  imagen: la_voz_de_los_barrios.jpg
+  url: 'https://lavozdelosbarrios.com/'
+  tag: [comunicacion, 2024]
+
+- nombre: 'Utsanga'
+  imagen: utsanga.jpg
+  url: 'https://www.utsanga.it/'
+  tag: [comunicacion, 2024]
+
+- nombre: 'Owl Call Radio'
+  imagen: owl_call_radio.jpg
+  url: 'https://owlcallradio.org/'
+  tag: [comunicacion, 2024]
+
+
+- nombre: 'Biblioteca Popular Paz y Trabajo'
+  imagen: bp_paz_y_trabajo.jpg
+  url: '/sds/biblioteca_paz_y_trabajo/'
+  tag: [expositivo, 2024]
+
+- nombre: 'Centro de Capacitación y Cultura ATSA'
+  imagen: atsa_ccyc.jpg
+  url: '/sds/centro_de_capacitacion_y_cultura_atsa/'
+  tag: [expositivo, 2024]
+
+- nombre: 'Edificio Alicia Moreau de Justo UNNOBA'
+  imagen: unnoba.jpg
+  url: '/sds/unnoba_alicia_moreau_de_justo/'
+  tag: [expositivo, 2024]
+
+- nombre: 'Fundación Casa Pronto'
+  imagen: fundacion_casa_pronto.jpg
+  url: '/sds/fundacion_casa_pronto/'
+  tag: [expositivo, 2024]
+
+- nombre: 'MACA'
+  imagen: maca_junin.jpg
+  url: '/sds/maca/'
+  tag: [expositivo, 2024]
+
+- nombre: 'Museo Histórico'
+  imagen: museo_historico.jpg
+  url: '/sds/museo_historico/'
+  tag: [expositivo, 2024]
+
+- nombre: 'Dante Alighieri Junín'
+  imagen: dante_alighieri_junin.jpg
+  url: '/sds/dante_alighieri_junin/'
+  tag: [expositivo, 2024]
+
+- nombre: 'El Espacio'
+  imagen: el_espacio.jpg
+  url: '/sds/el_espacio/'
+  tag: [expositivo, 2024]

@@ -1,0 +1,11 @@
+---
+titulo: 'Cronograma 2024'
+
+html_base: 'pagina.html'
+ruta_static: 'pag/cronograma/index.html'
+estilo: col-lg-11
+
+contenido: |
+
+  <div class="cronograma" id="cronograma_completo_aqui" data-cfg='{"menu_filtrado": true, "foco_en_proxima_actividad": true}'></div>
+  <script src="/lib/js/acc-cronograma.js?{{ cfg.cache_actu }}"></script>

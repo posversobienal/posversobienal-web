@@ -1,0 +1,24 @@
+---
+
+titulo: 'Soñé'
+html_base: 'pagina.html'
+ruta_static: 'pag/pe-sonie/index.html'
+estilo: col-lg-11
+
+contenido: |
+
+
+  ![Soñé](/rec/foto/poeticas_electronicas/sonie.jpg?{{ cfg.cache_actu }}){.img-fluid}
+
+  <br>
+
+  [**Fernanda Mugica**](/per/fernanda_mugica/) (Mar del Plata, Argentina, 1987)
+
+  <small>FECHA DE PUBLICACIÓN:</small> 2008-2020
+  <br>
+  <small>ACCESO:</small> [Soñe](https://fernandamugica.com/index_sonie.html){.btn .btn-dark .btn-sm target=_blank}
+
+  <br><hr><br>
+  *Se trata de una obra que trabaja con las sugerencias de Google a modo de sombras lingüísticas que no llegan a realizarse, en un refilón similar al de algunos sueños.*
+
+  *Obra digital programada en Javascript. Recupera el uso de la palabra “soñé” en mi cuenta de Twitter (@vanityfer) a lo largo de 12 años (2008-2020). En diálogo con gifs de Canek Zapata.*

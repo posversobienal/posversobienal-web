@@ -1,0 +1,127 @@
+---
+titulo: 'Otras exhibiciones'
+html_base: 'pagina.html'
+ruta_static: 'pag/otras_exhibiciones/index.html'
+estilo: col-lg-11 con-lista-en-columnas
+
+contenido: |
+  <hr><br>
+
+  ## CÁPSULA SONORA
+
+  <small>CURADURÍA:</small> {{ per('ana_montenegro') }} y {{ per('silvio_de_gracia') }}.
+  <br><small>DISEÑO EXPOSITIVO:</small> {{ per('ana_montenegro') }}.
+  <br><small>SEDE:</small> **[HOTEL DADA. Base de Arte Correo y Poesía Experimental](/sds/hotel_dada/)**
+  <br><small>APERTURA:</small> **18 de octubre de 2024**.
+
+  + {{ per('ana_montenegro') }}
+  + {{ per('bartolome_ferrando') }}
+  + {{ per('cristiana_de_marchi') }}
+  + {{ per('ferran_destemple') }}
+  + {{ per('flora_holderbaum') }}
+  + {{ per('giovanni_fontana') }}
+  + {{ per('irina_novarese') }}
+  + {{ per('jaap_blonk') }}
+  + {{ per('juan_angel_italiano') }}
+  + {{ per('monica_mura') }}
+  + {{ per('rafael_bresciani') }}
+  + {{ per('stephan_gross') }}
+  + {{ per('yuri_bruscky') }}
+
+
+  <br><hr>
+  ## MARGINALIA
+  *Notas,visiones y escrituras en los bordes*
+
+  <small>CURADURÍA:</small> {{ per('ana_montenegro') }} y {{ per('silvio_de_gracia') }}.
+  <br><small>DISEÑO EXPOSITIVO:</small> {{ per('ana_montenegro') }}.
+  <br><small>SEDE:</small> **[Fundación Casa Pronto](/sds/fundacion_casa_pronto/)**
+  <br><small>APERTURA:</small> **8 de noviembre de 2024**.
+  <br><small>CIERRE:</small> **20 de diciembre de 2024**.
+
+  + {{ per('ale_montiel') }}
+  + {{ per('angelica_chio') }}
+  + {{ per('carlos_alberto_macheratti') }}
+  + {{ per('claudia_lyrio') }}
+  + {{ per('claudio_mangifesta') }}
+  + {{ per('cosega') }}
+  + {{ per('denise_calasans') }}
+  + {{ per('diego_melero') }}
+  + {{ per('diren_demir') }}
+  + {{ per('emmanuel_borao') }}
+  + {{ per('guillermo_perez_raventos') }}
+  + {{ per('hilda_paz') }}
+  + {{ per('j_m_calleja') }}
+  + {{ per('javier_abreu') }}
+  + {{ per('joyce_ribeiro') }}
+  + {{ per('marcela_peral') }}
+  + {{ per('marcio_almeida') }}
+  + {{ per('maurizio_mancioli') }}
+  + {{ per('ro_barragan') }}
+  + {{ per('roma_vaquero_diaz') }}
+  + {{ per('rosa_gravino') }}
+  + {{ per('sergio_bonzon') }}
+  + {{ per('tulio_restrepo') }}
+
+  <br><hr>
+  ## RESIST/EXIST Libro-muestra
+
+  <br><small>ORGANIZA:</small> Red Conceptualismos del Sur. Ana Longoni, Lucía Bianchi, Lucía Cañada y Fernando Davis.
+  <br><small>SEDE:</small> **[Museo Histórico](/sds/museo_historico/)**
+  <br><small>APERTURA:</small> **19 de octubre**.
+
+
+  <br><hr>
+  ## El Coleccionista de Oficios: Ricardo Salido
+
+  <small>CURADURÍA:</small> {{ per('ana_montenegro') }} y {{ per('silvio_de_gracia') }}.
+  <br><small>DISEÑO EXPOSITIVO:</small> {{ per('ana_montenegro') }}.
+  <br><small>SEDE:</small> **[Museo Histórico](/sds/museo_historico/)**
+  <br><small>APERTURA:</small> **19 de octubre**.
+
+
+  <br><hr>
+  ## Acciones poéticas en el espacio público
+
+  <br>**15 y 16 de noviembre**.
+
+  + {{ per('alberto_couratier') }}
+  + {{ per('ale_montiel') }}
+  + {{ per('joyce_ribeiro') }}
+  + {{ per('paula_doberti') }}
+  + {{ per('maria_zegna') }}
+  + {{ per('ro_barragan') }}
+  + {{ per('silvio_de_gracia') }}
+
+
+  <br><hr>
+  ## Poéticas electrónicas
+  <small>ESPACIO EXPOSITIVO:</small> **[Web de POSVERSO Bienal]({{ cfg.urls.posversobienal }})**
+  <br><small>APERTURA:</small> **18 de octubre**.
+
+  + {{ per('anuar_zuniga_naime') }}
+  + {{ per('enrique_chocair') }}
+  + {{ per('fernanda_mugica') }}
+  + {{ per('maria_papi') }}
+  + {{ per('rodolfo_mata') }}
+
+  <br><hr>
+  ## INCITACIONES PARA VER. Resistiendo el presente
+  <small>SEDE:</small> **[Centro de Capacitación y Cultura ATSA](/sds/centro_de_capacitacion_y_cultura_atsa/)**
+  <br><small>APERTURA:</small> **7 de noviembre de 2024**.
+  <br><small>CIERRE:</small> **30 de noviembre de 2024**.
+
+  + {{ per('gaby_lobato') }}
+  + {{ per('jimson_vilela') }}
+  + {{ per('la_lengua_en_la_calle') }}
+  + {{ per('maria_zegna') }}
+  + {{ per('mariana_chiesa') }}
+  + {{ per('pia_hoehfeld') }}
+  + {{ per('ruben_liggera') }}
+  + {{ per('tchello_d_barros') }}
+
+
+extra: |
+  de acciones en el espacio publico
+  <small>CURADOR:</small> {{ per('juan_montelpare') }}.
+  + {{ per('juan_montelpare') }}

@@ -1,0 +1,83 @@
+---
+titulo: 'Exhibición **MARGINALIA**'
+html_base: 'pagina.html'
+ruta_static: 'pag/exhibicion_marginalia/index.html'
+
+estilo: col-lg-8
+estilo_cnt_sec: titulares-reducidos
+
+
+contenido: |
+
+  ## Notas, visiones y escrituras en los bordes
+
+  <br>
+  _Marginalia_ remite, por definición, a una nota manuscrita, dibujo o signo trazado al margen de un texto por un lector o copista. La marginalia se compone de un amplio repertorio de textos escritos y, principalmente, icónicos, que se pueden hallar en los bordes de las páginas de los libros o manuscritos occidentales, sobre todo durante la Baja Edad Media. Desde su irrupción, a nivel intersticial, por fuera de la caja de texto y hasta el límite del soporte empleado, esta imaginería marginal se desplegó preferentemente en biblias, breviarios y manuscritos dedicados a la oración y al culto, con una variedad de notas, glosas y diseños de índole satírica, fantástica y simbólica<np>1</np>.
+
+  <br>
+  En nuestro mundo contemporáneo, la realidad es una creación puramente visual, sostenida sobre el culto o adoración de las imágenes que instrumenta el _semiocapitalismo_<np>2</np>. Imágenes falsas, desprovistas de toda riqueza semántica, son consumidas y compartidas continuamente y a ritmo acelerado, y se integran en una iconosfera que ficcionaliza lo real. Como apunta Hans Belting, refiriéndose a este predominio de las imágenes, “la idolatría que suscitan es su más segura protección contra el peligro de que miremos a través de ellas”<np>3</np>.  Mirar a través de ellas, o desde los bordes de ellas, constituye (aún) un desafío a enfrentar desde la dimensión más provocadora y subversiva de las prácticas poéticas experimentales. En este sentido, la poesía visual ampliada se reconfigura como “una iconoclastia poética en una época de idolatría visual”<np>4</np>.
+
+  En la presente exposición, la marginalia explota en notaciones, imágenes y escrituras que asaltan la realidad para abrir fisuras en su lógica de ficcionalización alucinatoria. Así, las obras exhibidas se diagraman como interfaces divergentes, multifocales, contra-estéticas, apuntadas a desprogramar los brillantes artificios de la hiper-visión. Ya sea que tengan carácter bidimensional, objetual o audiovisual, se trata de propuestas inscriptas en un territorio intermedial, donde se transgreden los límites entre poesía experimental y artes visuales.
+
+  En el conjunto de obras, altamente heterodoxo, se pueden señalar algunas líneas de investigación: videos que condensan el tiempo y la presencia, como en Ale Montiel y Maurizio Mancioli; escrituras visuales mínimas que se revuelven contra la estandarización del lenguaje a escala global, como en Javier Abreu, J.M. Calleja y Claudio Mangifesta; imágenes-disenso, como en Guillermo Pérez Raventós y Diego Melero; textos inventados o contra-textos, como los de Ro Barragán y Angélica Chio;   micro-narrativas locales o imaginarias, como las que ensayan Joyce Ribeiro y Cláudia Lyrio; resignificaciones poéticas de objetos que vehiculizan semánticas disonantes, como en Sergio Bonzón, Marcela Peral, Tulio Restrepo y Denise Calasans; operaciones críticas que emplean los signos  para desnudarlos en su propia condición de simulacro, como en los trabajos de Corporación Semiótica Galega y Emmanuel Borao; experimentaciones con la palabra desde el grafismo, la imagen en movimiento, la poesía visual y el ejercicio exploratorio y participativo, como en Hilda Paz, Rosa Gravino, Márcio Almeida y Demir Diren; escrituras-código y partituras, como en Carlos Macheratti y Roma Vaquero Díaz.
+
+  En este recorrido por los bordes -desde las prácticas poéticas experimentales pensadas como _marginalia_- la marginalidad se convierte en una forma de resistencia frente a la cultura visual dominante. En el _desborde del borde_, como acostumbraba decir Edgardo Antonio Vigo, las poéticas experimentales trafican textualidades alternativas, textualidades que exceden la cualidad estética para activarse a nivel informacional, promoviendo disrupciones, relecturas y escrituras contra-discursivas.
+
+  <br>
+  Silvio De Gracia, 16 de septiembre de 2024.
+  {.text-end}
+
+  <br><br><hr><br>
+  NOTAS:
+
+  + <npt>1</npt> Eran frecuentes las imágenes de animales fabulosos o extraños, escenas de guerras entre especies, ilustraciones de índole sexual, sobre todo protagonizadas por clérigos, y observaciones y comentarios cómicos, e incluso filosóficos, acerca de los inconvenientes acarreados por el oficio de copista.
+  + <npt>2</npt> El semiocapitalismo es un concepto desarrollado por el filosófo italiano Franco “Bifo” Berardi. Refiere a un modo de producción en el cual la acumulación de capital se consigue, esencialmente, por medio de una producción y una acumulación de signos: bienes inmateriales que actúan sobre la mente colectiva, sobre la atención, la imaginación y el psiquismo social.
+  + <npt>3</npt> Hans Belting, “La idolatría hoy”, en _Iconoclastia, la ambivalencia de la mirada_, (Carlos A. Otero, ed.), La oficina de arte y ediciones, Madrid, 2012, p. 91.
+  + <npt>4</npt> Adolfo Montejo Navas, “Utopias da linguagem (Anotacoes práticas), en História da Poesia Visual Brasileira (Org. Paulo Bruscky, Raíza Bruscky e Yuri Bruscky), MAMAM, Recife, 2016, p.40.
+
+  <br><hr><br><br>
+
+
+
+contenido_secundario: |
+  <small>CURADURÍA:</small>
+  <br>{{ per('ana_montenegro') }} y {{ per('silvio_de_gracia') }}.
+
+  <small>DISEÑO EXPOSITIVO:</small>
+  <br>{{ per('ana_montenegro') }}.
+
+  <small>SEDE:</small>
+  <br>[Fundación Casa Pronto](/sds/fundacion_casa_pronto/)
+
+  <small>APERTURA:</small>
+  <br>8 de noviembre de 2024.
+
+  <small>CIERRE:</small>
+  <br>20 de diciembre de 2024.
+
+  <br><br>
+  <small>ARTISTAS:</small>
+
+  + {{ per('ale_montiel') }}
+  + {{ per('angelica_chio') }}
+  + {{ per('carlos_alberto_macheratti') }}
+  + {{ per('claudia_lyrio') }}
+  + {{ per('claudio_mangifesta') }}
+  + {{ per('cosega') }}
+  + {{ per('denise_calasans') }}
+  + {{ per('diego_melero') }}
+  + {{ per('diren_demir') }}
+  + {{ per('emmanuel_borao') }}
+  + {{ per('guillermo_perez_raventos') }}
+  + {{ per('hilda_paz') }}
+  + {{ per('j_m_calleja') }}
+  + {{ per('javier_abreu') }}
+  + {{ per('joyce_ribeiro') }}
+  + {{ per('marcela_peral') }}
+  + {{ per('marcio_almeida') }}
+  + {{ per('maurizio_mancioli') }}
+  + {{ per('ro_barragan') }}
+  + {{ per('roma_vaquero_diaz') }}
+  + {{ per('rosa_gravino') }}
+  + {{ per('sergio_bonzon') }}
+  + {{ per('tulio_restrepo') }}

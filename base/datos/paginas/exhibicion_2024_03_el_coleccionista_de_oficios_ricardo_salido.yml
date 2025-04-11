@@ -1,0 +1,54 @@
+---
+titulo: 'Exhibición **EL COLECCIONISTA DE OFICIOS: RICARDO SALIDO**'
+html_base: 'pagina.html'
+ruta_static: 'pag/exhibicion_el_coleccionista_de_oficios_ricardo_salido/index.html'
+
+estilo: col-lg-8
+estilo_cnt_sec: titulares-reducidos
+
+
+contenido: |
+
+  Ricardo Salido no es un artista experimental, sino experimentador. Lo de experimentador está signado, por un lado, por los diversos conocimientos y técnicas que nutren sus prácticas creativas; por otro, por una trayectoria vital arriesgada y azarosa, en la que el arte y lo cotidiano se yuxtaponen con insistencia y naturalidad.
+
+  El carácter de experimentador permanente que Ricardo Salido revela en su trato con el arte y con la vida es, sin duda, una clave para comprender las múltiples derivas de su aproximación al acto creativo. En su temprana relación con los oficios (incluso los de la supervivencia diaria), se puede rastrear una matriz productiva que informa a todas sus prácticas. Pero, en su caso, se trata del oficio ejercido no como arte menor, sino como experiencia transformadora y sacralizadora del esfuerzo humano. En este sentido, adquieren intensa resonancia las palabras de Víctor Grippo (de quien Salido fue un entrañable amigo y colaborador), al señalar que “cuando el hombre construyó su primera herramienta, creó simultáneamente el primer objeto útil y la primera obra de arte”. Para Salido, al momento de desarrollar sus oficios, cobra completa carnadura aquello de que “el hombre pregunta y la herramienta responde –la herramienta pregunta, el hombre responde, en el largo proceso de modificación de la naturaleza”<np>1</np>.
+
+  En la colección de oficios de Ricardo Salido, siempre impredecible y móvil, podemos apuntar una lista que no puede ser exhaustiva, por ser esencialmente inacabada: imprentero, pintor, carpintero, editor, constructor, cocinero, productor de vinos, escritor, gestor cultural.  Este nomadismo de sus quehaceres se replica, por vía de los avatares del vivir, en sus desplazamientos por diversas geografías y ciudades, incluyendo demoradas “escalas” en Caracas y Madrid. Viajero de latitudes y de herramientas y trabajos, Salido se presenta con las marcas de la vida y de las memorias de lo vivido.
+
+  Las herramientas, en su humilde materialidad, apuntalan un diálogo que recupera la   potencialidad político-poética de las prácticas laborales como formas de resistencia. Así, Salido exhibe herramientas, a modo de dispositivos de conciencia. Algunas herramientas que testimonian algunos oficios. Pero de todos los oficios, el de tipógrafo es el que denota centralidad, casi al punto de resultar la línea que anuda todos los movimientos del artista. Por esto, pese a la multitud de elementos, la exhibición parece cifrarse entre las mesas tipográficas y los tipos de gran tamaño que permiten construir la palabra “paz”.
+
+  Como se desprende del subversivo poema visual Paz-Pan del poeta experimental uruguayo Clemente Padín, no hay paz sin pan. Salido encarna esta poética del encuentro comunitario cuando, en el 2022, en el marco del homenaje que la ciudad tributa a Víctor Grippo, asume la construcción de un horno popular para hacer pan que replica al original de su maestro y amigo. Aquí caben los registros fotográficos de ese trabajo. Más allá, pero no menos impregnados por una sensibilidad social montada sobre la afectividad y la colaboración, quedan otras instancias documentales: la construcción colectiva del Ranchorión (casa cultural de intensa historia aún no escrita); la práctica editorial enfocada en libros de poetas y teóricos situados en los bordes; el ejercicio de una gestión cultural silenciosa, pero nunca solitaria.
+
+  Como nota de extrañeza, y del singular afán creativo del artista, se presenta una serie de reproducciones de sus pinturas. Aquí, Salido nos sumerge en espacios casi extraterrenos que, sin embargo, se asientan fuertemente en la apropiación de motivos arquitectónicos del pasado precolombino, que, una vez revisitados, nos reafirman su vocación por una opción latinoamericana, insumisa a los imaginarios y a los dictados de los poderes coloniales.
+
+  La presente muestra opera en un doble sentido: por un lado, como rescate de una figura central (aunque solapada) en la historia cultural de la ciudad; por el otro, como dispositivo crítico, que instala una reflexión profunda sobre las vinculaciones entre arte, trabajo y cotidianidad. Cuando Joseph Beuys afirma que “todo hombre es un artista”, lo que hace es expandir la condición artística a toda esfera de la vida humana, de donde se deriva que toda acción puede ser reivindicada como una obra de arte. Esto mismo es lo que se advierte en cada una de las incursiones de Ricardo Salido en el mundo de los trabajos y los oficios. Salido es un artista en el acto mismo de vivir: sus manifestaciones artísticas específicas y sus actividades laborales se conjugan en su modo particular de entender el arte como vida y la vida como arte.
+
+  <br>
+  Silvio De Gracia, 10 de julio de 2024.
+  {.text-end}
+
+  <br><br><hr><br>
+  NOTAS:
+
+  + <npt>1</npt> Víctor Grippo, texto incluido en catálogo de _Algunos oficios_, exhibición presentada en galería Artemúltiple, Buenos Aires, 14 de julio al 2 de agosto, 1976.
+
+  <br><hr><br><br>
+
+
+
+
+contenido_secundario: |
+  <small>CURADURÍA:</small>
+  <br>{{ per('ana_montenegro') }} y {{ per('silvio_de_gracia') }}.
+
+  <small>DISEÑO EXPOSITIVO:</small>
+  <br>{{ per('ana_montenegro') }}.
+
+  <small>SEDE:</small>
+  <br>[Museo Histórico](/sds/museo_historico/)
+
+  <small>APERTURA:</small>
+  <br>19 de octubre de 2024.
+
+  <small>CIERRE:</small>
+  <br>30 de noviembre de 2024.

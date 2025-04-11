@@ -1,0 +1,63 @@
+---
+titulo: 'Exhibición **LA POÉTICA DE LA ARIDEZ**'
+html_base: 'pagina.html'
+ruta_static: 'pag/exhibicion_la_poetica_de_la_aridez/index.html'
+
+estilo: col-lg-8
+estilo_cnt_sec: titulares-reducidos
+
+
+contenido: |
+
+  SACO en Posverso: Del desierto más árido del mundo a la pampa argentina
+
+  En 2023, la Bienal SACO recibe la invitación de parte de los directores de la Bienal Internacional de Poesía Experimental, Posverso, para participar en este nuevo evento artístico internacional, con una selección de obras que llevaran de forma simbólica el desierto más árido del mundo a la pampa argentina.
+
+  En este contexto, a pocos días de inaugurarse POSVERSO llegaron hasta Junín (Argentina), la directora de SACO, Dagmara Wyskiel; el encargado de vinculación, Carlos Rendón; y el productor general, Christian Núñez, para participar del montaje e inauguración de las obras, además de brindar una conferencia pública para contar sobre el trabajo de la bienal.
+
+
+  El viernes 25 de octubre, Dagmara Wyskiel y Carlos  Rendón brindaron la conferencia **La poética de la aridez. Bienal SACO en el Desierto de Atacama** en Fundación Casa Pronto. Mientras que las obras in situ fueron inauguradas el domingo 27 de octubre en el Parque Natural Laguna de Gómez.
+
+  <br><hr><br>
+
+  Desde Bienal SACO expresaron: _“Valoramos mucho la invitación que nos hizo Posverso para participar en su bienal. Obedece a la lógica de que, como bienales, no somos eventos aislados en un punto del mapa, sino parte de una red más grande que puede apoyarse y potenciarse mutuamente. Esperamos, como siempre en estos casos, que esto proyecte futuras vinculaciones y una relación a largo plazo”._
+
+
+  <br><br>
+
+  ## LA POÉTICA DE LA ARIDEZ
+
+  > Curaduría de Dagmara Wyskiel
+
+  <br>
+  La selección  consistió en tres obras con directa relación con el eje físico y existencial: tierra, cuerpo, cielo. Las intervenciones en el paisaje que dieron vida a la exposición _La poética de la aridez_ en el Parque Natural "Laguna de Gómez" fueron: _Mi cuarto, cuatro paredes_ - Graciela González (Bolivia) _Arrebatado_ - Colectiva Poética de la Urgencia, conformada por Paula Carmona y Nicolás Cox (Chile-España) y _Paisajes volátiles_ de Ania de Rohas (Polonia-España).
+
+  <br>
+  _Mi cuarto, cuatro paredes_, de **Graciela González** (Bolivia), obra que nos devolvía a los tiempos de la pandemia. En su propuesta, la artista nos encierra con ella en su habitación del tamaño de una hoja de máquina de escribir y con paredes de palabras, para acordarnos de nuestras propias rutinas de aquel apocalipsis. La adaptación curatorial consistió en una impresión a mayor escala dispuesta en el cemento del parque natural, en la que los asistentes pudieran caminar sobre ella.
+
+  <br>
+  _Arrebatado_, de la dupla Colectiva Poética de la Urgencia, conformada por **Paula Carmona** y **Nicolás Cox** (Chile-España), arrancó un pedazo del cielo argentino. Una obra que cuestionó el espacio que le damos a las banderas, junto con el gesto fálico de izar. La ubicación de las banderas exige que siempre las miremos hacia arriba.
+
+  <br>
+  _Paisajes volátiles_ de **Ania de Rohas**, (Polonia-España), presentó diez espejos redondos acostados en la tierra en la orilla de la laguna que reflejaban el cielo, reconstruyendo la relación entre el arriba y el abajo, permitiendo al espectador poner su cara en el medio y verse con el cielo detrás y la tierra seca delante.
+
+  <br><hr><br><br>
+
+
+
+contenido_secundario: |
+  <small>CURADOR:</small>
+  <br>{{ per('dagmara_wyskiel') }}
+
+  <small>SEDE:</small>
+  <br>[Parque Natural “Laguna de Gómez”](/sds/pnlg/)
+
+  <small>APERTURA:</small>
+  <br>27 de octubre de 2024
+
+  <br><br>
+  <small>ARTISTAS:</small>
+
+  - Graciela González (Bolivia)
+  - Colectiva Poética de la Urgencia: Paula Carmona y Nicolás Cox (Chile-España)
+  - Ania de Rohas (Polonia-España)

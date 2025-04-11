@@ -1,0 +1,80 @@
+---
+titulo: 'Exhibición **ESPACIO LIMINAR**'
+html_base: 'pagina.html'
+ruta_static: 'pag/exhibicion_poesia_liminar/index.html'
+
+estilo: col-lg-8
+estilo_cnt_sec: titulares-reducidos
+
+
+contenido: |
+
+  ## Poesía visiva italiana contemporánea
+
+  <br>
+
+  **UTSANGA 10 años (2014-2024) Espacio liminar – Poesía visiva italiana contemporánea**
+
+  Utsanga.it es una revista online sobre análisis liminal. El término "utsanga" es una palabra sánscrita que significa "útero, abrazo". La revista fue fundada por Francesco Aprile y Cristiano Caggiula en 2014 y cuenta con un equipo editorial internacional: Bartolomé Ferrando, Nico Vassilakis, Volodymyr Bilyk, Wellington Amancio Silva, Egidio Marullo.
+
+  Inmediatamente, Aprile y Caggiula han configurado Utsanga no sólo como revista, sino como centro de investigación, producción y archivo sobre poesía experimental: poesía visual, sonora y concreta, escritura asémica, arte glitch, vídeo, performance, arte correo, poesía en código, literatura electrónica. etc.
+
+  Como archivo, Utsanga tiene una importante colección basada en la poesía visual y concreta, y también en escritura asémica y arte y escritura glitch. Forman parte del archivo algunos de los autores internacionales más importantes de la poesía visual y la escritura asémica desde los años setenta hasta la actualidad.
+
+  Como centro de producción, Utsanga propuso la primera exposición de escritura asémica en Italia y una cantidad de exposiciones y conferencias.
+
+  <br><hr><br><br>
+
+  **Hacia los Espacios Liminales**
+
+  Por _Francesco Aprile_
+
+  <br>
+  El escenario poético experimental se abre como una guerra de guerrillas, o, más precisamente, como una ira, pero ¿hacia qué? La idea, en este caso, me parece muy cercana a cierta dinámica desarrollada por Deleuze y Guattari. La filosofía, entonces, sería la del enojo hacia el contexto histórico, hacia el propio tiempo. La filosofía no es poder. Sin embargo, el poder entra en la vida de todos, a pesar de ellos mismos. Pasa por temas y filosofías. La naturaleza de la filosofía es ser un _pourparler_, convertirse en una guerra de guerrillas del sujeto contra sí mismo y su tiempo.
+
+  La historia de la escritura contemporánea, desde los antecedentes experimentales del siglo XIX hasta el siglo XX y hasta nuestros días, es aquella en la que vemos retroceder la gran era de la escritura. En el avance mediático, combinado con la reformulación de nuevos caminos, asistimos al triunfo de la imagen y al retorno de la oralidad (pensemos en ciertas prácticas onomatopéyicas y sonoras de Vielé-Griffin, Verlaine, Nodier, Gautier o Rimbaud, hasta los experimentos sonoros de los futuristas, los dadaístas, los letristas, los poetas concretos y visuales), que ya no es primario sino disperso.
+
+  La gran máquina de escribir retrocede, dejando residuos y fragmentos delante y detrás de ella. En su relación exclusiva con el significado, el imperialismo del significante muestra sus grietas, en beneficio de espacios y flujos asémicos. Estos espacios mínimos, que rechazan la interpretación, atestiguan el carácter autoritario del significante y del significado. La escritura se convierte en una operación física. Permite un redescubrimiento de la materia al entrar en contacto con otros materiales y otros elementos.
+
+  La tiranía de la pareja significante/significado aparece en la imagen del _Angelus Novus_ de Walter Benjamin: es esa figura quien, al darle la espalda al futuro, acumula escombros, fragmentos y ruinas detrás de ella. En esta epopeya de las ruinas, el concepto de escritura se reformula como una acumulación de escombros, objetos amontonados y superficies invasoras sin anclaje, sin centro, una acumulación sin montaje.
+
+  Ya no asistimos a un ensamblaje de materiales, sino a un amontonamiento de ellos, donde las superficies que se invaden remiten a la intercambiabilidad entre fines y medios, al intercambio de roles; y en la falta de puntos de anclaje revelan fallas, grietas, y elementos que emergen y rompen la homogeneidad de la igualdad, mostrando presencias, y por tanto, existencias singulares e infinitas, donde el infinito representa la grandeza de otro significado, externo a la crisis, así como la ausencia de un proyecto unitario. Esto último se convierte en los continuos aplazamientos, en un “Real” en el que la frontera entre diferentes superficies se vuelve cada vez más lábil.
+
+  Estos restos forman referencias continuas y se manifiestan en forma de "conjunción". Es decir, se convierten en un balbuceo creativo. La lengua, de este modo, ya no se utiliza sujeta a su tiranía; pero el autor podría hacer de ella un uso "extranjero". El futuro es el de los hablantes extranjeros que esbozan fragmentos de lenguas. Los objetos digitales se convierten en objetos de lenguaje, objetos de fragmentos, fragmentos de objetos, balbuceo constante. Esta conjunción entre escombros se convierte en una apertura a la multiplicidad, a la diversidad, al ser extraño en uno mismo. Son fórmulas de “escritura” abiertas a la proliferación. Ya no asistimos a una escritura tiránica, sino al triunfo de una escritura que todavía va "hacia la poesía total", un proceso constante hacia algo múltiple, dentro del cual coexisten diferentes umbrales. La escritura y el autor se convierten en espacios liminales.
+
+  <br><hr><br><br>
+
+
+
+
+contenido_secundario: |
+  <small>CURADURÍA:</small>
+  <br>Francesco Aprile.
+
+  <small>SEDE:</small>
+  <br>[Asociación Cultural Dante Alighieri](/sds/dante_alighieri_junin/)
+
+  <small>APERTURA:</small>
+  <br>31 de octubre de 2024
+
+  <small>CIERRE:</small>
+  <br>20 de diciembre de 2024
+
+  <br><br>
+  <small>ARTISTAS EXHIBIDOS:</small>
+
+  + Egidio Marullo
+  + Cristiano Caggiula
+  + Andrea Astolfi
+  + Giuseppe Calandriello
+  + Martina Stella
+  + Clotilde Palasciano
+  + Alessandra Greco
+  + Lorenzo Basile Baldassarre
+  + Annalisa Retico
+  + Davide Galipò
+  + Elena Bonanni
+  + Alessio Guano
+  + Paola Silvia Dolci
+  + Paola Mancinelli
+  + Federico Federici

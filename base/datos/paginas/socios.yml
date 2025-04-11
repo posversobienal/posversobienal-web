@@ -1,0 +1,47 @@
+---
+titulo: 'Socios'
+html_base: 'pagina.html'
+ruta_static: 'pag/socios/index.html'
+estilo: col-lg-11 text-center socios
+
+contenido: |
+
+  <hr><br>
+  ## Socios Institucionales
+  <br>
+  {% for socio in cfg.socios -%}
+    {%- if 'institucional' in socio.tag -%}
+      {%- if socio.url == '' -%}
+        ![{{ socio.nombre }}](/rec/socios/{{ socio.imagen }}?{{ cfg.cache_actu }}){.logo_socio title="{{ socio.nombre }}"}
+      {%- else -%}
+        [![{{ socio.nombre }}](/rec/socios/{{ socio.imagen }}?{{ cfg.cache_actu }}){.logo_socio}]({{ socio.url }}){title="{{ socio.nombre }}" target=_blank}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor %}
+
+  <br><hr><br>
+  ## Socios de Comunicación
+  <br>
+  {% for socio in cfg.socios -%}
+    {%- if 'comunicacion' in socio.tag -%}
+      {%- if socio.url == '' -%}
+        ![{{ socio.nombre }}](/rec/socios/{{ socio.imagen }}?{{ cfg.cache_actu }}){.logo_socio title="{{ socio.nombre }}"}
+      {%- else -%}
+        [![{{ socio.nombre }}](/rec/socios/{{ socio.imagen }}?{{ cfg.cache_actu }}){.logo_socio}]({{ socio.url }}){title="{{ socio.nombre }}" target=_blank}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor %}
+
+
+  <br><hr><br>
+  ## Socios Expositivos
+  <br>
+  {% for socio in cfg.socios -%}
+    {%- if 'expositivo' in socio.tag -%}
+      {%- if socio.url == '' -%}
+        ![{{ socio.nombre }}](/rec/socios/{{ socio.imagen }}?{{ cfg.cache_actu }}){.logo_socio title="{{ socio.nombre }}"}
+      {%- else -%}
+        [![{{ socio.nombre }}](/rec/socios/{{ socio.imagen }}?{{ cfg.cache_actu }}){.logo_socio}]({{ socio.url }}){title="{{ socio.nombre }}" target=_blank}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor %}

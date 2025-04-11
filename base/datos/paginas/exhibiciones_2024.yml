@@ -1,0 +1,60 @@
+---
+titulo: 'Exhibiciones'
+html_base: 'pagina.html'
+ruta_static: 'pag/exhibiciones_2024/index.html'
+estilo: col-lg-11 con-lista-en-columnas
+
+
+menu:
+  - {id: exhibicion_poeticas_de_la_resistencia, tit: 'Poéticas de la resistencia'}
+  - {id: exhibicion_capsula_sonora, tit: 'Cápsula sonora'}
+  - {id: exhibicion_el_coleccionista_de_oficios_ricardo_salido, tit: 'El coleccionista de oficios: Ricardo Salido'}
+  - {id: exhibicion_resist_exist, tit: 'Resist/Exist'}
+  - {id: exhibicion_viva_palestina_viva, tit: '¡Viva Palestina viva!'}
+  - {id: exhibicion_la_poetica_de_la_aridez, tit: 'La poética de la aridez'}
+  - {id: exhibicion_poesia_liminar, tit: 'Espacio liminar'}
+  - {id: exhibicion_mail_art_poetry, tit: 'Mail Art Poetry'}
+  - {id: exhibicion_videopoeticas, tit: 'Videopoéticas'}
+  - {id: exhibicion_incitaciones_para_ver, tit: 'Incitaciones para ver'}
+  - {id: exhibicion_marginalia, tit: 'Marginalia'}
+  - {id: exhibicion_videobardo, tit: 'Videobardo'}
+
+
+
+contenido: |
+  ---
+
+  {% for item in pag.menu %}
+  #### [{{ item.tit }}](/pag/{{ item.id }}/)
+
+  ---
+  {% endfor %}
+
+
+
+
+xx: |
+  <br><hr>
+  ## Acciones poéticas en el espacio público
+
+  <br>**15 y 16 de noviembre**.
+
+  + {{ per('alberto_couratier') }}
+  + {{ per('ale_montiel') }}
+  + {{ per('joyce_ribeiro') }}
+  + {{ per('paula_doberti') }}
+  + {{ per('maria_zegna') }}
+  + {{ per('ro_barragan') }}
+  + {{ per('silvio_de_gracia') }}
+
+
+  <br><hr>
+  ## Poéticas electrónicas
+  <small>ESPACIO EXPOSITIVO:</small> **[Web de POSVERSO Bienal]({{ cfg.urls.posversobienal }})**
+  <br><small>APERTURA:</small> **18 de octubre**.
+
+  + {{ per('anuar_zuniga_naime') }}
+  + {{ per('enrique_chocair') }}
+  + {{ per('fernanda_mugica') }}
+  + {{ per('maria_papi') }}
+  + {{ per('rodolfo_mata') }}
