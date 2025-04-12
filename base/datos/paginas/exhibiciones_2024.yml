@@ -6,26 +6,112 @@ estilo: col-lg-11 con-lista-en-columnas
 
 
 menu:
-  - {id: exhibicion_poeticas_de_la_resistencia, tit: 'Poéticas de la resistencia'}
-  - {id: exhibicion_capsula_sonora, tit: 'Cápsula sonora'}
-  - {id: exhibicion_el_coleccionista_de_oficios_ricardo_salido, tit: 'El coleccionista de oficios: Ricardo Salido'}
-  - {id: exhibicion_resist_exist, tit: 'Resist/Exist'}
-  - {id: exhibicion_viva_palestina_viva, tit: '¡Viva Palestina viva!'}
-  - {id: exhibicion_la_poetica_de_la_aridez, tit: 'La poética de la aridez'}
-  - {id: exhibicion_poesia_liminar, tit: 'Espacio liminar'}
-  - {id: exhibicion_mail_art_poetry, tit: 'Mail Art Poetry'}
-  - {id: exhibicion_videopoeticas, tit: 'Videopoéticas'}
-  - {id: exhibicion_incitaciones_para_ver, tit: 'Incitaciones para ver'}
-  - {id: exhibicion_marginalia, tit: 'Marginalia'}
-  - {id: exhibicion_videobardo, tit: 'Videobardo'}
+  - id: exhibicion_poeticas_de_la_resistencia
+    img: /rec/foto/exhibiciones/2024/e01_0-r.jpg
+    tit: 'Poéticas de la resistencia'
+    tex: |
+      <small>SEDE:</small> [MACA Museo de Arte Contemporáneo Argentino “Víctor Grippo”](/sds/maca/)
+      <br>18/10 al 30/11 de 2024
 
+  - id: exhibicion_capsula_sonora
+    img: /rec/foto/exhibiciones/2024/e02_0-r.jpg
+    tit: 'Cápsula sonora'
+    tex: |
+      <small>SEDE:</small> [HOTEL DADA. Base de Arte Correo y Poesía Experimental](/sds/hotel_dada/)
+      <br>18/10 2024 al 30/11 de 2024
+
+  - id: exhibicion_el_coleccionista_de_oficios_ricardo_salido
+    img: /rec/foto/exhibiciones/2024/e03_0-r.jpg
+    tit: 'El coleccionista de oficios: Ricardo Salido'
+    tex: |
+      <small>SEDE:</small> [Museo Histórico](/sds/museo_historico/)
+      <br>19/10 de 30/11 de 2024
+
+  - id: exhibicion_resist_exist
+    img: /rec/foto/exhibiciones/2024/e04_0-r.jpg
+    tit: 'Resist/Exist'
+    tex: |
+      <small>SEDE:</small> [Museo Histórico](/sds/museo_historico/)
+      <br>19/10 al 30/11 de 2024
+
+  - id: exhibicion_viva_palestina_viva
+    img: /rec/foto/exhibiciones/2024/e05_0-r.jpg
+    tit: '¡Viva Palestina viva!'
+    tex: |
+      <small>SEDE:</small> [Casa Cultural y Popular Dante Balestro](/sds/casa_popular_dante_balestro/)
+      <br>19/10 al 20/11 de 2024
+
+  - id: exhibicion_la_poetica_de_la_aridez
+    img: /rec/foto/exhibiciones/2024/e06_0-r.jpg
+    tit: 'La poética de la aridez'
+    tex: |
+      <small>SEDE:</small> [Parque Natural “Laguna de Gómez”](/sds/pnlg/)
+      <br><small>PRESENTACIÓN:</small> 27/10 del 2024.
+
+
+  - id: exhibicion_poesia_liminar
+    img: /rec/foto/exhibiciones/2024/e07_0-r.jpg
+    tit: 'Espacio liminar'
+    tex: |
+      <small>SEDE:</small> [Asociación Cultural Dante Alighieri](/sds/dante_alighieri_junin/)
+      <br>31/10 al 20/11 de 2024
+
+  - id: exhibicion_mail_art_poetry
+    img: /rec/foto/exhibiciones/2024/e08_0-r.jpg
+    tit: 'Mail Art Poetry'
+    tex: |
+      <small>SEDE:</small> [Biblioteca Popular “Paz y trabajo”](/sds/biblioteca_paz_y_trabajo/)
+      <br>1/10 al 20/11 de 2024
+
+  - id: exhibicion_videopoeticas
+    img: /rec/foto/exhibiciones/2024/e09_0-r.jpg
+    tit: 'Videopoéticas'
+    tex: |
+      <small>SEDE:</small> ["Edificio Alicia Moreau de Justo" - UNNOBA Escuela de Ciencias Económicas y Jurídicas](/sds/unnoba_alicia_moreau_de_justo/)
+      <br><small>PRESENTACIÓN:</small> 2 de noviembre de 2024
+
+  - id: exhibicion_incitaciones_para_ver
+    img: /rec/foto/exhibiciones/2024/e10_0-r.jpg
+    tit: 'Incitaciones para ver'
+    tex: |
+      <small>SEDE:</small> [Centro de Capacitación y Cultura ATSA](/sds/centro_de_capacitacion_y_cultura_atsa/)
+      <br>7 al 30 de noviembre de 2024
+
+  - id: exhibicion_marginalia
+    img: /rec/foto/exhibiciones/2024/e11_0-r.jpg
+    tit: 'Marginalia'
+    tex: |
+      <small>SEDE:</small> [Fundación Casa Pronto](/sds/fundacion_casa_pronto/)
+      <br>8/11 al 20/12 de 2024
+
+  - id: exhibicion_videobardo
+    img: /rec/foto/exhibiciones/2024/e12_0-r.jpg
+    tit: 'Videobardo'
+    tex: |
+      <small>SEDE:</small> [Centro Cultural Marea Cultura](/sds/centro_cultural_marea_cultura/)
+      <small>PRESENTACIÓN:</small> 21 de noviembre de 2024
 
 
 contenido: |
   ---
 
   {% for item in pag.menu %}
-  #### [{{ item.tit }}](/pag/{{ item.id }}/)
+  <div>
+
+  <div class="d-flex">
+    <div>
+      <img src="{{ item.img }}" style="max-width: 300px">
+    </div>
+
+  <div class="mx-3">
+    <div class="fs-2">
+      <a href="/pag/{{ item.id }}/">{{ item.tit }}</a>
+    </div>
+    <div>{{ markdown(item.tex) }}</div>
+  </div>
+
+  </div>
+  </div>
 
   ---
   {% endfor %}

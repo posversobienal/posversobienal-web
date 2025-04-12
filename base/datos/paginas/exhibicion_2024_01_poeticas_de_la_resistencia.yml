@@ -1,10 +1,27 @@
 ---
 titulo: 'Exhibición **POÉTICAS DE LA RESISTENCIA**'
-html_base: 'pagina.html'
+html_base: 'pagina-exhibicion.html'
 ruta_static: 'pag/exhibicion_poeticas_de_la_resistencia/index.html'
 
 estilo: col-lg-8
 estilo_cnt_sec: titulares-reducidos
+
+
+#/rec/foto/exhibiciones/2024/e01_0-r.jpg
+imagen_cabecera: /rec/foto/exhibiciones/2024/e01_0.jpg
+galeria:
+  - { url: /rec/foto/exhibiciones/2024/e01_001.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e01_002.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e01_003.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e01_004.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e01_005.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e01_006.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e01_007.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e01_008.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e01_009.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e01_010.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e01_011.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e01_012.jpg, titulo: '' }
 
 
 contenido: |

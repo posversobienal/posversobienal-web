@@ -1,10 +1,18 @@
 ---
 titulo: 'Exhibición **CAMPAÑA GRÁFICA ¡VIVA PALESTINA VIVA!**'
-html_base: 'pagina.html'
+html_base: 'pagina-exhibicion.html'
 ruta_static: 'pag/exhibicion_viva_palestina_viva/index.html'
 
 estilo: col-lg-8
 estilo_cnt_sec: titulares-reducidos
+
+
+#/rec/foto/exhibiciones/2024/e05_0-r.jpg
+imagen_cabecera: /rec/foto/exhibiciones/2024/e05_0.jpg
+galeria:
+  - { url: /rec/foto/exhibiciones/2024/e05_01.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e05_02.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e05_03.jpg, titulo: '' }
 
 
 contenido: |

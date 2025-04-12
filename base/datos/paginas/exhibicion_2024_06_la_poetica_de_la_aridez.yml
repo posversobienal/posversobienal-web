@@ -1,10 +1,22 @@
 ---
 titulo: 'Exhibición **LA POÉTICA DE LA ARIDEZ**'
-html_base: 'pagina.html'
+html_base: 'pagina-exhibicion.html'
 ruta_static: 'pag/exhibicion_la_poetica_de_la_aridez/index.html'
 
 estilo: col-lg-8
 estilo_cnt_sec: titulares-reducidos
+
+
+#/rec/foto/exhibiciones/2024/e06_0-r.jpg
+imagen_cabecera: /rec/foto/exhibiciones/2024/e06_0.jpg
+galeria:
+  - { url: /rec/foto/exhibiciones/2024/e06_ania_de_rohas_1.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e06_ania_de_rohas_2.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e06_colectivo_1.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e06_colectivo_2.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e06_colectivo_3.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e06_mi_cuarto_1.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e06_mi_cuarto_2.jpg, titulo: '' }
 
 
 contenido: |

@@ -1,10 +1,23 @@
 ---
 titulo: 'Exhibición **ESPACIO LIMINAR**'
-html_base: 'pagina.html'
+html_base: 'pagina-exhibicion.html'
 ruta_static: 'pag/exhibicion_poesia_liminar/index.html'
 
 estilo: col-lg-8
 estilo_cnt_sec: titulares-reducidos
+
+
+#/rec/foto/exhibiciones/2024/e07_0-r.jpg
+imagen_cabecera: /rec/foto/exhibiciones/2024/e07_0.jpg
+galeria:
+  - { url: /rec/foto/exhibiciones/2024/e07_01.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e07_02.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e07_03.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e07_04.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e07_05.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e07_06.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e07_07.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e07_08.jpg, titulo: '' }
 
 
 contenido: |

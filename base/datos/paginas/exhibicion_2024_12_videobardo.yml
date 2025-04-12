@@ -1,11 +1,25 @@
 ---
 titulo: 'Exhibición **VIDEOBARDO**'
-html_base: 'pagina.html'
+html_base: 'pagina-exhibicion.html'
 ruta_static: 'pag/exhibicion_videobardo/index.html'
 
 estilo: col-lg-8
 estilo_cnt_sec: titulares-reducidos
 
+
+#/rec/foto/exhibiciones/2024/e12_0-r.jpg
+imagen_cabecera: /rec/foto/exhibiciones/2024/e12_0.jpg
+galeria:
+  - { url: /rec/foto/exhibiciones/2024/e12_como_pintar_un_pajaro.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e12_compost_02.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e12_content_moderator.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e12_for_the_skeptical.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e12_lick_fire.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e12_logo_videobardo.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e12_p-o-e-s-i-a.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e12_secuencia.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e12_sljhrul.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e12_there_is_no_reverse_metamorphosis.jpg, titulo: '' }
 
 contenido: |
 

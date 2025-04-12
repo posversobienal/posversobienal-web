@@ -1,10 +1,22 @@
 ---
 titulo: 'Exhibición **INCITACIONES PARA VER**'
-html_base: 'pagina.html'
+html_base: 'pagina-exhibicion.html'
 ruta_static: 'pag/exhibicion_incitaciones_para_ver/index.html'
 
 estilo: col-lg-8
 estilo_cnt_sec: titulares-reducidos
+
+
+#/rec/foto/exhibiciones/2024/e10_0-r.jpg
+imagen_cabecera: /rec/foto/exhibiciones/2024/e10_0.jpg
+galeria:
+  - { url: /rec/foto/exhibiciones/2024/e10_01.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e10_02.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e10_03.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e10_04.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e10_05.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e10_06.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e10_07.jpg, titulo: '' }
 
 
 contenido: |

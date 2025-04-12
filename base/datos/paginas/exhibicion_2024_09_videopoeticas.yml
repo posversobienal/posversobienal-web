@@ -1,10 +1,17 @@
 ---
 titulo: 'Exhibición **VIDEOPOÉTICAS**'
-html_base: 'pagina.html'
+html_base: 'pagina-exhibicion.html'
 ruta_static: 'pag/exhibicion_videopoeticas/index.html'
 
 estilo: col-lg-8
 estilo_cnt_sec: titulares-reducidos
+
+
+#/rec/foto/exhibiciones/2024/e09_0-r.jpg
+imagen_cabecera: /rec/foto/exhibiciones/2024/e09_0.jpg
+galeria:
+  - { url: /rec/foto/exhibiciones/2024/e09_01.jpg, titulo: '' }
+  - { url: /rec/foto/exhibiciones/2024/e09_02.jpg, titulo: '' }
 
 
 contenido: |
