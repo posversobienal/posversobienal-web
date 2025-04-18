@@ -96,17 +96,16 @@
         <footer>
             <div  class="d-flex justify-content-around">
                 <div class="d-flex">
-                    <a href="/" class="mx-4">
+                    <a class="logo posverso mx-4 fx-ampliar" href="/">
                         <img height="20px" src="{{ cfg.metadatos.logo_posverso_a }}?{{ cfg.cache_actu }}" title="POSVERSO">
                     </a>
                     <span class="border-dark border-start"></span>
-                    <a class="mx-4" href="{{ cfg.urls.hoteldadabase }}">
+                    <a class="mx-4 fx-ampliar" href="{{ cfg.urls.hoteldadabase }}">
                         <img height="25px" src="{{ cfg.metadatos.logo_hoteldada_a }}?{{ cfg.cache_actu }}" title="Hotel DaDA">
                     </a>
                 </div>
                 <div>&nbsp;</div>
                 <div class="d-inline-block">
-
                     <a class="d-inline-block px-2 py-1 fx-ampliar" href="{{ cfg.urls.posverso_instagram }}">
                         <img class="icono" src="/rec/grafica/icon-instagram.svg?{{ cfg.cache_actu }}" alt="Instagram">
                     </a>
@@ -119,16 +118,9 @@
                     <a class="d-inline-block px-2 py-1 fx-ampliar" href="/pag/contacto/" title="Contacto">
                         <img class="icono" src="/rec/grafica/icon-contacto_neg.svg?{{ cfg.cache_actu }}" alt="Contacto">
                     </a>
-
-                    <span>&nbsp; &nbsp; &nbsp;</span>
-
-                    <a class="d-inline-block px-2 py-1 fx-ampliar" href="/pag/socios/"><b>SOCIOS</b></a>
-
-                    <!--
-                         <a class="d-inline-block px-2 py-1 fx-ampliar" href="/pag/cronograma/">
-                         <img class="icono" src="/rec/grafica/icon-cronograma_neg.svg?{{ cfg.cache_actu }}" alt="Cronograma">
-                         </a>
-                    -->
+                    <a class="d-inline-block px-2 py-1 fx-ampliar" href="/pag/socios/">
+                        <img class="icono" src="/rec/grafica/icon-socios_neg.svg?{{ cfg.cache_actu }}" alt="Socios">
+                    </a>
                 </div>
             </div>
 
@@ -158,28 +150,30 @@
 
         <nav id="menu-permanente">
             <ul class="row" title="Ir a la portada">
-                <li class="col mostrar-si-pagina-desplazada fx-ampliar">
-                    <a href="/"><img class="fx-invert" height="10px" src="{{ cfg.metadatos.logo_posverso_a }}?{{ cfg.cache_actu }}" title="POSVERSO"></a>
+                <li class="mx-3 col mostrar-si-pagina-desplazada fx-ampliar">
+                    <a href="/">
+                        <img class="fx-invert" height="15px" src="{{ cfg.metadatos.logo_posverso_a }}?{{ cfg.cache_actu }}" title="POSVERSO">
+                    </a>
                 </li>
-                <li class="col mx-2 fx-ampliar" title="Contacto">
+                <li class="col mx-1 fx-ampliar" title="Contacto">
                     <a href="/pag/contacto/">
                         <img height="20px" src="/rec/grafica/icon-contacto_bla.svg?{{ cfg.cache_actu }}" title="Datos de contacto">
                     </a>
                 </li>
-                <li class="col mx-2 fx-ampliar" title="Cronograma">
-                    <a class="d-inline-block px-2 py-1 fx-ampliar" href="/pag/cronograma/">
-                        <img class="icono" height="17px" src="/rec/grafica/icon-cronograma_bla.svg?{{ cfg.cache_actu }}" alt="Cronograma">
+                <li class="col mx-1 fx-ampliar" title="Instagram">
+                    <a href="{{ cfg.urls.posverso_instagram }}">
+                        <img height="20px" src="/rec/grafica/icon-instagram_bla.svg?{{ cfg.cache_actu }}" title="Instagram">
                     </a>
                 </li>
-                <li class="col me-2 selector-idioma" title="Traducir página con Google Translate">
-                    <img height="15px" src="/rec/grafica/icon-traducir.svg?{{ cfg.cache_actu }}">
+                <li class="col mx-1 selector-idioma" title="Traducir página con Google Translate">
+                    <img height="20px" src="/rec/grafica/icon-traducir.svg?{{ cfg.cache_actu }}">
                     <div class="submenu">
                         {% for k, v in cfg.idiomas_traducibles.items() %}
                         <button onclick="redirigir_a_traduccion('{{ k }}')">{{ v }}</button>
                         {% endfor %}
                     </div>
                 </li>
-                <li class="col mostrar-si-pagina-desplazada" title="Desplazarse al inicio de la página">
+                <li class="col mx-1 mostrar-si-pagina-desplazada" title="Desplazarse al inicio de la página">
                     <button onclick="window.scrollTo(0,0)">
                         <img height="20px" src="/rec/grafica/icon-subir.svg?{{ cfg.cache_actu }}">
                     </button>

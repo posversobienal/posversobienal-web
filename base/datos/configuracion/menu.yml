@@ -3,31 +3,22 @@
 - titulo: 'BIENAL'
   url: ''
   submenu:
-    - {titulo: 'Acerca de la bienal', url: '/pag/acerca_de_la_bienal/'}
-    - {titulo: 'Eje temático', url: '/pag/eje_tematico_2024/'}
-    - {titulo: 'Equipo curatorial', url: '/pag/equipo_curatorial/'}
-    - {titulo: 'Sedes', url: '/pag/sedes/'}
-    - {titulo: 'Publicaciones', url: '/pag/publicaciones/'}
-    #- {titulo: 'Convocatoria abierta', url: '/pag/convocatoria_abierta/'}
-    #- {titulo: 'Curadores invitados', url: '/pag/curadores_invitados/'}
+    - {titulo: 'Acerca nosotros', url: '/pag/acerca_de_la_bienal/'}
+    - {titulo: 'POSVERSO 2024', url: '/pag/bienal_2024/'}
 
-- titulo: 'PROGRAMA'
+
+- titulo: 'ARTISTAS'
   url: ''
   submenu:
-    - {titulo: 'Exhibiciones', url: '/pag/exhibiciones_2024/'}
-    - {titulo: 'Cronograma', url: '/pag/cronograma/'}
-    - {titulo: 'Sala Poéticas electrónicas', url: '/pag/sala-poeticas_electronicas/'}
-    - {titulo: 'Artistas homenajeados', url: '/pag/artistas_homenajeados/'}
-    - {titulo: 'Proyectos colaterales', url: '/pag/proyectos_colaterales/'}
-    - {titulo: 'Mediación educativa', url: '/pag/mediacion_educativa_2024/'}
-    - {titulo: 'Evento teórico', url: '/pag/evento_teorico/'}
+    - {titulo: '2026', url: '/pag/artistas_2026/'}
+    - {titulo: '2024', url: '/pag/artistas_2024/'}
 
-    #- {titulo: 'Programa', url: '/pag/programa/'}
-    #- {titulo: 'Exhibición central', url: '/pag/exhibicion_central/'}
-    #- {titulo: 'Otras exhibiciones', url: '/pag/otras_exhibiciones/'}
 
-- {titulo: 'ARTISTAS', url: '/pag/artistas/'}
+- {titulo: 'NOVEDADES', url: '/bit/'}
 
-- {titulo: 'PRENSA', url: '/pag/prensa/'}
-
-- {titulo: 'VIDEOS', url: '/pag/videos/'}
+- titulo: 'MEDIA'
+  url: ''
+  submenu:
+    - {titulo: 'Prensa', url: '/pag/prensa/'}
+    - {titulo: 'Publicaciones', url: '/pag/publicaciones/'}
+    - {titulo: 'Videos', url: '/pag/videos/'}

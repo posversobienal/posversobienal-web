@@ -1,0 +1,51 @@
+---
+titulo: 'Acciones y Performances'
+html_base: 'pagina-exhibicion.html'
+ruta_static: 'pag/exhibiciones_acciones_y_performances_2024/index.html'
+
+estilo: col-lg-8
+estilo_cnt_sec: titulares-reducidos
+
+imagen_cabecera: /rec/foto/exhibiciones/2024/acciones_perfomances/0.jpg
+galeria: []
+#  - { url: /rec/foto/exhibiciones/2024/e12_como_pintar_un_pajaro.jpg, titulo: '' }
+
+
+contenido: |
+  - Marcela Astorga
+  - Andrés Pasinovich
+  - Red Conceptualismos del Sur
+  - Grupo de Teatro de la Casa Popular Dante Balestro
+  - Carlos Gallardo
+  - Silvio De Gracia y Ricardo Salido
+  - Corina Markart y alumnos de la Escuela Provincial de Teatro “Gilberto Alfredo Mesa”
+  - Diego Melero
+  - Ro Barragán
+  - María Zegna
+  - Joyce Ribeiro
+  - Ale Montiel
+  - Paula Doberti
+  - Alberto Couratier
+  - Mounir Fatmi. (Activación a cargo de Silvio De Gracia)
+
+referencia: |
+  - MARCELA ASTORGA – Urbanismo
+  - ANDRÉS PASINOVICH - ¿Tengo que usar palabras cuando te hablo?
+  - RED CONCEPTUALISMOS DEL SUR – Tomar la voz por Palestina. Lectura colectiva de los Monólogos de Gaza
+  - Grupo de la Dante Balestro
+  - CARLOS GALLARDO
+  - SILVIO DE GRACIA Y RICARDO SALIDO – Pan-paz
+  - CORINA MARKART Y ALUMNOS DE LA ESCUELA PROVINCIAL DE TEATRO “GILBERTO ALFREDO MESA” – La cultura de la felicidad
+  - DIEGO MELERO
+  - RO BARRAGÁN (2 acciones, CASA PRONTO y espacio público)
+  - MARÍA ZEGNA
+  - JOYCE RIBEIRO
+  - ALE MONTIEL
+  - PAULA DOBERTI
+  - ALBERTO COURATIER
+  - MOUNIR FATMI – The missing show. Activación a cargo de Silvio De Gracia
+
+
+contenido_secundario: |
+  CONTENIDO **EN DESARROLLO**
+  {.small}

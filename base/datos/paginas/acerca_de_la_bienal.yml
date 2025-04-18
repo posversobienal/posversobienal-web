@@ -113,25 +113,6 @@ contenido_secundario: |
   ### Dirección Artística
   + {{ per('ana_montenegro') }} (BRA)
 
-  ### Comité Internacional de Selección
-  + {{ per('claudia_kozak') }} (ARG)
-  + {{ per('fernando_aguiar') }} (PRT)
-  + {{ per('giovanni_fontana') }} (ITA)
-  + {{ per('j_m_calleja') }} (ESP)
-  + {{ per('marisa_florido') }} (BRA)
-
-  ### Comité de Preselección
-  + {{ per('ana_montenegro') }} (BRA)
-  + {{ per('hilda_paz') }} (ARG)
-  + {{ per('natalia_giglietti') }} (ARG)
-
-  ### Equipo Curatorial POSVERSO
-  + {{ per('ana_montenegro') }} (BRA)
-  + {{ per('silvio_de_gracia') }} (ARG)
-
-  ### Curador Programa Educativo
-  + {{ per('guillermo_perez_raventos') }} (ARG)
-
   ### Coordinación de proyectos
   + {{ per('ana_montenegro') }} (BRA)
   + {{ per('silvio_de_gracia') }} (ARG)
@@ -150,28 +131,3 @@ contenido_secundario: |
 
   ### Desarrollo web
   + {{ per('carlos_alberto_macheratti') }} (ARG)
-
-  ### Diseño expográfico
-  + {{ per('ana_montenegro') }} (BRA)
-
-  ### Equipo de montaje
-  + Camila Paulucci (BRA)
-  + Daniela Bustamante (ARG)
-  + Jorge Sosa (ARG)
-  + Macarena Cobos (ARG)
-  + Nehuén Greco (ARG)
-  + Rocío Morganti (ARG)
-
-  ### Equipo de producción
-  + {{ per('ale_montiel') }} (ARG)
-  + Carlos Dabul (ARG)
-  + Fabricio Echevarría (ARG)
-  + {{ per('luciano_pozo') }} (ARG)
-  + {{ per('ricardo_omar_salido') }} (ARG)
-  + Julieta Civalero (ARG)
-  + Jorge Echeverria (ARG)
-
-
-extra: |
-    estaba en equipo curatorial
-    + {{ per('juan_montelpare') }} (ARG)

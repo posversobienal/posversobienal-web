@@ -1,0 +1,46 @@
+---
+
+titulo: 'Bienal 2024'
+html_base: 'reporte.html'
+ruta_static: 'pag/bienal_2024/index.html'
+estilo: col-lg-12 con-lista-en-columnas
+
+logo: '/rec/grafica/logo_pv_2024.svg'
+
+bienal:
+  titulo: |
+    POÉTICAS DE LA RESISTENCIA
+  fecha: |
+    Del 18 de octubre al 20 de diciembre de **2024**. Junín, Buenos Aires.
+
+
+menu:
+  - {titulo: 'Eje temático', url: '/pag/eje_tematico_2024/'}
+  - {titulo: 'Equipo curatorial', url: '/pag/equipo_curatorial_2024/'}
+  - {titulo: 'Evento teórico', url: '/pag/evento_teorico_2024/'}
+  - {titulo: 'Educativo', url: '/pag/mediacion_educativa_2024/'}
+  - {titulo: 'Exhibiciones', url: '/pag/exhibiciones_2024/'}
+  - {titulo: 'Sala Poéticas electrónicas', url: '/pag/sala-poeticas_electronicas_2024/'}
+  - {titulo: 'Cronograma', url: '/pag/cronograma_2024/'}
+  - {titulo: 'Artistas homenajeados', url: '/pag/artistas_homenajeados_2024/'}
+  - {titulo: 'Artistas', url: '/pag/artistas_2024/'}
+  - {titulo: 'Sedes', url: '/pag/sedes_2024/'}
+
+
+contenido: |
+  <br><br><hr><br>
+
+  <ul>
+  {%- for item in pag.menu -%}
+  <li class=""><a href="{{ item.url }}">{{ item.titulo }}</a></li>
+  {%- endfor -%}
+  </ul>
+
+
+destacados:
+  - {titulo: 'EXHIBICIONES', imagen: '/rec/foto/portada/destacados/2024-exhibiciones.jpg', url: '/pag/exhibiciones_2024/'}
+  - {titulo: 'POESÍA FONÉTICA Y SONORA / ARTE SONORO', imagen: '/rec/foto/portada/destacados/2024-poesia_fonetica_y_sonora.jpg', url: '/pag/exhibiciones_poesia_fonetica_y_arte_sonoro_2024/'}
+  - {titulo: 'ACCIONES Y PERFORMANCES', imagen: '/rec/foto/portada/destacados/2024-acciones_performances.jpg', url: '/pag/exhibiciones_acciones_y_performances_2024/'}
+  - {titulo: 'POÉTICAS ELECTRÓNICAS', imagen: '/rec/foto/portada/destacados/2024-poeticas_electronicas.jpg', url: '/pag/sala-poeticas_electronicas_2024/'}
+  - {titulo: 'EVENTO TEÓRICO', imagen: '/rec/foto/portada/destacados/2024-evento_teorico.jpg', url: '/pag/evento_teorico_2024/'}
+  - {titulo: 'EDUCATIVO', imagen: '/rec/foto/portada/destacados/2024-educativo.jpg', url: '/pag/mediacion_educativa_2024/'}

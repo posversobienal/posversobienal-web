@@ -58,7 +58,7 @@ a.no-decoration {
   background: #000;
   display: flex;
   text-align: center;
-  padding: 60px 0;
+  padding: 90px 0;
 }
 .menu .items-movile b {
   display: none;
@@ -88,11 +88,8 @@ a.no-decoration {
 .menu ul li a:hover {
   color: #fff;
 }
-.menu ul li.desactivado {
-  _display: none;
-}
 .menu ul li.desactivado a {
-  opacity: 0.5;
+  opacity: 0.6;
   cursor: default;
   border: none;
 }
@@ -120,6 +117,9 @@ a.no-decoration {
 .menu ul li.hover .submenu,
 .menu ul li:hover .submenu {
   display: inline-block;
+}
+.menu ul li .logo {
+  opacity: 1!important;
 }
 .menu ul li .logo.posverso img {
   width: 140px;
@@ -198,6 +198,9 @@ footer .utiles .menu-pie nav {
 footer .utiles .menu-pie:hover nav {
   display: inline-block;
 }
+footer .logo.posverso {
+  opacity: 1!important;
+}
 .fx-invert {
   filter: invert(1);
 }
@@ -209,6 +212,9 @@ footer .utiles .menu-pie:hover nav {
 }
 .fx-ampliar:hover {
   transform: scale(1.05);
+}
+a.no-decoration {
+  text-decoration: none!important;
 }
 .lang {
   padding-top: 20px;
@@ -409,33 +415,35 @@ footer .utiles .menu-pie:hover nav {
   opacity: 0.7;
   font-size: 0.9em;
 }
+.carrusel-socios .auto-scroll {
+  overflow: hidden;
+}
 .destacado .item {
   min-height: 345px;
 }
 .destacado a {
   border-bottom: none;
 }
-.bienal-proxima {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-  background: #111 linear-gradient(to bottom, #111, #000);
-}
-.bienal-proxima * {
-  color: #fff !important;
+.pagina-desplazada #menu-permanente {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
 }
 #menu-permanente {
   z-index: 100;
   position: fixed;
+  width: 100%;
   top: 0;
   right: 0;
   padding: 3px 6px;
   padding-left: 15px;
   background: #000;
-  display: block;
-  border-bottom-left-radius: 9px;
+  display: none;
+  _border-bottom-left-radius: 9px;
 }
 #menu-permanente a {
   border: none;
+  opacity: 1!important;
 }
 #menu-permanente * {
   color: #fff;
@@ -717,7 +725,8 @@ a.actual {
 }
 /* notas al pie */
 .npr {
-  _font-size: 0.8em;
+  display: inline-block;
+  padding: 0 3px;
   color: #666;
 }
 .npt {
@@ -744,6 +753,12 @@ a.actual {
     background: #000;
     color: #fff;
   }
+}
+.ficha-exhibicion {
+  background: #f00 !important;
+  padding: 10px!important;
+  margin: 20px 5px!important;
+  border: 1px solid rgba(0, 0, 0, 0.3);
 }
 .filtrador {
   display: inline-block;

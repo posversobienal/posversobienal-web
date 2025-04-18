@@ -1,0 +1,53 @@
+---
+titulo: 'Poesía Fonética y Sonora / Arte Sonoro'
+html_base: 'pagina-exhibicion.html'
+ruta_static: 'pag/exhibiciones_poesia_fonetica_y_arte_sonoro_2024/index.html'
+
+estilo: col-lg-8
+estilo_cnt_sec: titulares-reducidos
+
+imagen_cabecera: /rec/foto/exhibiciones/2024/arte_sonoro/0.jpg
+galeria: []
+#  - { url: /rec/foto/exhibiciones/2024/e12_como_pintar_un_pajaro.jpg, titulo: '' }
+
+contenido: |
+  ## POESÍA FONÉTICA Y SONORA
+
+  - Fernando Aguiar
+  - Montenegro-Fisher
+  - Jessica Pujol Durán
+  - Juan Ángel Italiano
+  - Javier Robledo
+  - Jaap Blonk
+
+  <br><hr><br>
+  ## ARTE SONORO
+
+  - Wilson Sukorski
+  - Noiser
+  - Yuri Bruscky
+
+
+
+referencia: |
+  ## POESÍA FONÉTICA Y SONORA
+
+  1. FERNANDO AGUIAR Escuela de Teatro y MACA
+  2. MONTENEGRO FISHER Escuela de Teatro y MACA
+  3. JESSICA PUJOL DURÁN Escuela de Teatro
+  4. JUAN ÁNGEL ITALIANO Dante Balestro
+  5. JAVIER ROBLEDO Dante Balestro
+  6. JAAP BLONK Par1000
+
+  <br><hr><br>
+  ## ARTE SONORO
+
+  1. WILSON SUKORSKI (extraer 2 imágenes del vídeo)
+  2. NOISER
+  3. YURI BRUSCKY (extraer 2 imágenes del vídeo)
+
+
+
+contenido_secundario: |
+  CONTENIDO **EN DESARROLLO**
+  {.small}

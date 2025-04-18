@@ -6,22 +6,24 @@ ruta_static: 'index.html'
 
 
 bienal_2026:
+  miniatura_video: '/rec/video/portada_2026_miniatura.jpg'
   nombre: 'DEL ENCANTAMIENTO Y EL HORROR'
+  texto: |
+    El tema de la segunda edición de POSVERSO, _Del encantamiento y el horror_, busca rescatar, a través del arte y las poéticas experimentales, la relación perdida entre la humanidad y las formas de conocimiento precientíficas y precapitalistas.
   url: ''
   fecha: |
     Del 22 de agosto al 3 de octubre de **2026**. Junín, Buenos Aires.
 
 bienal_2024:
+  logo: '/rec/grafica/logo_pv_2024.svg'
   nombre: 'POÉTICAS DE LA RESISTENCIA'
-  url: '/pag/acerca_de_la_bienal/'
-  fecha: |
-    Del 18 de octubre al 20 de diciembre de **2024**. Junín, Buenos Aires.
+  url: '/pag/bienal_2024/'
   destacados:
     - {titulo: 'EXHIBICIONES', imagen: '/rec/foto/portada/destacados/2024-exhibiciones.jpg', url: '/pag/exhibiciones_2024/'}
-    - {titulo: 'POESÍA FONÉTICA Y SONORA / ARTE SONORO', imagen: '/rec/foto/portada/destacados/2024-poesia_fonetica_y_sonora.jpg', url: '/pag/exhibicion_capsula_sonora/'}
-    - {titulo: 'ACCIONES Y PERFORMANCES', imagen: '/rec/foto/portada/destacados/2024-acciones_performances.jpg', url: '/pag/exhibicion_la_poetica_de_la_aridez/'}
-    - {titulo: 'POÉTICAS ELECTRÓNICAS', imagen: '/rec/foto/portada/destacados/2024-poeticas_electronicas.jpg', url: '/pag/sala-poeticas_electronicas/'}
-    - {titulo: 'EVENTO TEÓRICO', imagen: '/rec/foto/portada/destacados/2024-evento_teorico.jpg', url: '/pag/evento_teorico/'}
+    - {titulo: 'POESÍA FONÉTICA Y SONORA / ARTE SONORO', imagen: '/rec/foto/portada/destacados/2024-poesia_fonetica_y_sonora.jpg', url: '/pag/exhibiciones_poesia_fonetica_y_arte_sonoro_2024/'}
+    - {titulo: 'ACCIONES Y PERFORMANCES', imagen: '/rec/foto/portada/destacados/2024-acciones_performances.jpg', url: '/pag/exhibiciones_acciones_y_performances_2024/'}
+    - {titulo: 'POÉTICAS ELECTRÓNICAS', imagen: '/rec/foto/portada/destacados/2024-poeticas_electronicas.jpg', url: '/pag/sala-poeticas_electronicas_2024/'}
+    - {titulo: 'EVENTO TEÓRICO', imagen: '/rec/foto/portada/destacados/2024-evento_teorico.jpg', url: '/pag/evento_teorico_2024/'}
     - {titulo: 'EDUCATIVO', imagen: '/rec/foto/portada/destacados/2024-educativo.jpg', url: '/pag/mediacion_educativa_2024/'}
 
 # deslizador de socios
@@ -34,123 +36,5 @@ novedades:
   lista: []
 
 
-deslizador:
-  - {img: 1.jpg, url: '/pag/sala-poeticas_electronicas/', tit: 'Poéticas electrónicas'}
-  - {img: 2.jpg, url: '/pag/sala-poeticas_electronicas/', tit: 'Poéticas electrónicas'}
-  - {img: 3.jpg, url: '/pag/sala-poeticas_electronicas/', tit: 'Poéticas electrónicas'}
-  - {img: 4.jpg, url: '/pag/sala-poeticas_electronicas/', tit: 'Poéticas electrónicas'}
-  - {img: 5.jpg, url: '/pag/sala-poeticas_electronicas/', tit: 'Poéticas electrónicas'}
-
-  - {img: 6.jpg, url: '/pag/proyectos_colaterales/#hacia-los-espacios-liminales', tit: 'Espacio Liminar'}
-  - {img: 7.jpg, url: '/pag/exhibicion_central/', tit: 'Poéticas de la resistencia'}
-  - {img: 8.jpg, url: '/pag/artistas_homenajeados/#pere-sousa-1955-2023', tit: 'Factoria Pere Sousa'}
-  - {img: 9.jpg, url: '/pag/otras_exhibiciones/#marginalia', tit: 'Marginalia'}
-
-  - {img: 10.jpg, url: '/pag/proyectos_colaterales/#mail_art_poetry', tit: 'Mail Art Poetry'}
-  #  - {img: 11.jpg, url: '/pag/otras_exhibiciones/#capsula-sonora', tit: 'Cápsula sonora'}
-  - {img: 12.jpg, url: '/pag/otras_exhibiciones/#resistexist-libro-muestra', tit: 'RESIST/EXIST Libro-muestra'}
-  - {img: 13.jpg, url: '/pag/otras_exhibiciones/#el-coleccionista-de-oficios-ricardo-salido', tit: 'El Coleccionista de Oficios: Ricardo Salido'}
-  - {img: 14.jpg, url: '/pag/otras_exhibiciones/#incitaciones-para-ver-resistiendo-el-presente', tit: 'Incitaciones para ver. Resistiendo el presente'}
-
-
-deslizador_registro:
-
-  PASADOS:
-    - ro_barragan
-    - daniel_sarobe
-    - tchello_d_barros
-    - juan_angel_italiano
-    - andres_pasinovich
-    - soledad_sanchez_goldar
-
-    - carlos_gallardo
-    - luciano_pozo
-    - marcela_astorga
-    - roma_vaquero_diaz
-    - simone_moraes
-
-    - antonio_caro
-    - claudio_mangifesta
-    - j_m_calleja
-    - marcela_peral
-    - silvina_torviso
-
-    - rodolfo_mata
-    - elena_marini
-    - silvio_de_gracia
-    - andrea_hygino
-    - claudia_del_rio
-    - alberto_couratier
-
-    - noiser
-    - emmanuel_borao
-    - joyce_ribeiro
-    - jaap_blonk
-    - rosana_fuertes
-
-    - leila_danziger
-    - paula_doberti
-    - yuri_bruscky
-
-    - daniela_mastrandrea
-    - ricardo_omar_salido
-    - flora_holderbaum
-    - wilson_sukorski
-    - gabriela_golder
-
-    - maurizio_mancioli
-    - montenegro_fisher
-    - paulo_bruscky
-    - monica_mura
-    - hilda_paz
-    - ale_montiel
-
-    - marie_orensanz
-    - matilde_marin
-    - alejandro_thornton
-    - giovanni_fontana
-    - javier_del_olmo
-    - jurgen_o_olbrich
-    - luc_fierens
-    - ana_montenegro
-
-  PENDIENTES:
-
-    - angelica_chio
-    - anuar_zuniga_naime
-    - bartolome_ferrando
-    - carlos_alberto_macheratti
-    - claudia_lyrio
-    - clemente_padin
-    - cosega
-    - cristiana_de_marchi
-    - daniel_ontiveros
-    - denise_calasans
-    - diego_melero
-    - diren_demir
-    - edith_derdyk
-    - enrique_chocair
-    - fernanda_mugica
-    - fernando_aguiar
-    - ferran_destemple
-    - gaby_lobato
-    - guillermo_perez_raventos
-    - irina_novarese
-    - javier_abreu
-    - jessica_pujol_duran
-    - jimson_vilela
-    - la_lengua_en_la_calle
-    - lucas_di_pascuale
-    - marcio_almeida
-    - maria_jose_machado
-    - maria_zegna
-    - mariana_chiesa
-    - mounir_fatmi
-    - pia_hoehfeld
-    - rafael_bresciani
-    - rosa_gravino
-    - ruggero_maggi
-    - sergio_bonzon
-    - stephan_gross
-    - teresa_pereda
-    - tulio_restrepo
+deslizador: []
+  # - {img: 1.jpg, url: '/pag/sala-poeticas_electronicas/', tit: 'Poéticas electrónicas'}

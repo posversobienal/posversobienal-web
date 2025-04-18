@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block body %}
+{% if 'imagen_cabecera' in pag %}
+
+<div>
+    <img src="{{ pag.imagen_cabecera }}" class="img-fluid">
+    {% if 'imagen_cabecera_creditos' in pag %}
+    <div class="text-end text-small mx-3">{{ markdown(pag.imagen_cabecera_creditos) }}</div>
+    {% endif %}
+</div>
+{% endif %}
+
+
+<div class="container contenido">
+    <div class="container text-center mt-5">
+        <img class="img-fluid" src="{{ pag.logo }}?{{ cfg.cache_actu }}">
+    </div>
+
+    <div class="display-3 text-center my-2">
+        {{ markdown(pag.bienal.titulo) }}
+    </div>
+
+    <div class="fs-3 my-3 text-center">
+        {{ markdown(pag.bienal.fecha) }}
+    </div>
+
+    <br><hr><br>
+</div>
+
+<div class="container">
+    <div class="row">
+        {% for item in pag.destacados %}
+        <div class="destacado d-grid col-lg-4 mt-4">
+            <a href="{{ item.url }}" class="fx-ampliar">
+                <div class="item d-flex flex-column flex-align-items-end border border-black rounded-2">
+                    <div>
+                        <img class="img-fluid" src="{{ item.imagen }}?{{ cfg.cache_actu }}">
+                    </div>
+                    <div class="py-4 px-5 text-center">
+                        <p class="h5 fw-bold">{{ item.titulo }}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <section class="{{ pag.estilo }} col-lg-8">
+            {{ markdown(pag.contenido, pag) }}
+        </section>
+    </div>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,12 @@
+---
+
+titulo: 'Artistas 2026'
+html_base: 'pagina-menu.html'
+ruta_static: 'pag/artistas_2026/index.html'
+estilo: container d-flex flex-wrap justify-content-center
+
+filtrador: |
+  <div id="filtrador_aqui" data-cfg='{"tipo":"filtro-artista"}'></div>
+
+contenido: |
+  Lista preliminar en breve.

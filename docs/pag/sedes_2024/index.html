@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html>
+    
+      
+    
+
+    
+    
+    <head>
+        <meta charset="utf-8">
+
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta content="true" name="HandheldFriendly">
+        <meta content="width" name="MobileOptimized">
+        <meta content="on" http-equiv="cleartype">
+
+        <title>Bienal POSVERSO - Sedes</title>
+
+        <meta content="Bienal POSVERSO . Bienal Internacional de Poesía Experimental de Argentina" name="description">
+	    <meta content="index, follow" name="robots">
+
+	    <meta property="og:image" content="https://posversobienal.com.ar//rec/grafica/logo-posverso_compartir.png">
+		<meta property="og:image:secure_url" content="https://posversobienal.com.ar//rec/grafica/logo-posverso_compartir.png">
+	    <meta property="og:image:type" content="image/jpg">
+		<meta property="og:image:width" content="600" />
+		<meta property="og:image:height" content="600" />
+	    <meta property="og:title" content="Bienal POSVERSO - Sedes">
+	    <meta property="og:site_name" content="posversobienal.com.ar">
+	    <meta property="og:description" content="Bienal POSVERSO . Bienal Internacional de Poesía Experimental de Argentina">
+	    <meta property="og:locale" content="es_AR">
+
+	    <link rel="canonical" href="https://posversobienal.com.ar/">
+	    <link rel="image_src" href="https://posversobienal.com.ar//rec/grafica/logo-posverso_compartir.png">
+
+
+        <!-- bootstrap  -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+        <!-- estilo personalizado -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+        <link href="/lib/css/estilo.css?1744952183666913" rel="stylesheet">
+
+        <link rel="shortcut icon" href="/rec/grafica/favicon.svg" type="image/x-icon" />
+
+
+        <script src="/dat/cfg.js?1744952183666913"></script>
+        <script src="/dat/rec.js?1744952183666913"></script>
+        <script src="/lib/js/comun.js?1744952183666913"></script>
+    </head>
+    <body name="">
+
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a class="logo posverso" href="/">
+                        <img class="d-block fx-invert fx-ampliar" src="/rec/grafica/logo-posverso.svg?1744952183666913" title="POSVERSO">
+                    </a>
+                </li>
+            </ul>
+
+            <div class="items-movile hover-on-click">
+                <b><img class="fx-invert " height="20px" src="/rec/grafica/icon-menu.svg?1744952183666913"></b>
+                <ul class="d-flex wrap">
+                    
+                    <li class="hover-on-click">
+                        
+                        <span>BIENAL</span>
+                        
+                        
+                        <span class="smi">&#9662;</span>
+                        <ul class="submenu">
+                            
+                            <li><a href="/pag/acerca_de_la_bienal/">Acerca nosotros</a></li>
+                            
+                            <li><a href="/pag/bienal_2024/">POSVERSO 2024</a></li>
+                            
+                        </ul>
+                        
+                    </li>
+                    
+                    <li class="hover-on-click">
+                        
+                        <span>ARTISTAS</span>
+                        
+                        
+                        <span class="smi">&#9662;</span>
+                        <ul class="submenu">
+                            
+                            <li><a href="/pag/artistas_2026/">2026</a></li>
+                            
+                            <li><a href="/pag/artistas_2024/">2024</a></li>
+                            
+                        </ul>
+                        
+                    </li>
+                    
+                    <li class="hover-on-click">
+                        
+                        <a href="/bit/">NOVEDADES</a>
+                        
+                        
+                    </li>
+                    
+                    <li class="hover-on-click">
+                        
+                        <span>MEDIA</span>
+                        
+                        
+                        <span class="smi">&#9662;</span>
+                        <ul class="submenu">
+                            
+                            <li><a href="/pag/prensa/">Prensa</a></li>
+                            
+                            <li><a href="/pag/publicaciones/">Publicaciones</a></li>
+                            
+                            <li><a href="/pag/videos/">Videos</a></li>
+                            
+                        </ul>
+                        
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
+
+        <div class="cuerpo">
+            
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet"/>
+
+
+<div id="osm-map"></div>
+
+<header class="text-center py-4">
+    <h1 class="d-inline-block align-middle">Sedes</h1>
+    <div id="filtrador_aqui" data-cfg='{"tipo":"filtro-sede"}'></div>
+
+</header>
+
+<div class="container contenido">
+
+    <div class="row">
+        <section class="w100 d-flex flex-wrap justify-content-center col-lg-8">
+            <div class="filtro-sede d-grid w300p border border-dark rounded-2 m-2 p-0 sede" id="hotel_dada">
+     <script type="text/json" name="data">{"descripcion": [], "domicilio": "Ch\u00e1vez 69. Jun\u00edn, Buenos Aires, Argentina.", "eventos_asociados": [], "fotos": ["hotel_dada.jpg"], "geopos": {"coord": [-34.57819, -60.96115], "icono": "pin-hoteldada"}, "gmaps": "https://maps.app.goo.gl/y8ztHaqcaZvjcANT6", "nombre": "HOTEL DADA Base de Arte Correo y Poes\u00eda Experimental"}</script>
+
+
+  <div class="d-flex flex-column flex-align-items-end">
+    <div><img src="/rec/foto/sedes/hotel_dada.jpg" class="img-fluid m-0"></div>
+    <div class="px-4 py-3">
+      <b class="d-inline">HOTEL DADA Base de Arte Correo y Poesía Experimental</b>
+      <br><small class="d-inline">Chávez 69. Junín, Buenos Aires, Argentina.</small>
+    </div>
+    <div class="mt-auto col-12 text-center pb-3">
+      <hr>
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/hotel_dada/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+    </div>
+  </div>
+
+</div>
+
+<div class="filtro-sede d-grid w300p border border-dark rounded-2 m-2 p-0 sede" id="maca">
+     <script type="text/json" name="data">{"descripcion": [], "domicilio": "Newbery 357. Jun\u00edn, Buenos Aires, Argentina.", "eventos_asociados": [], "fotos": ["maca.jpg"], "geopos": {"coord": [-34.58276, -60.94316], "icono": "pin-sede"}, "gmaps": "https://maps.app.goo.gl/jBHJLVWL5LUjBJsv9", "nombre": "MACA Museo de Arte Contempor\u00e1neo Argentino \"V\u00edctor Grippo\""}</script>
+
+
+  <div class="d-flex flex-column flex-align-items-end">
+    <div><img src="/rec/foto/sedes/maca.jpg" class="img-fluid m-0"></div>
+    <div class="px-4 py-3">
+      <b class="d-inline">MACA Museo de Arte Contemporáneo Argentino "Víctor Grippo"</b>
+      <br><small class="d-inline">Newbery 357. Junín, Buenos Aires, Argentina.</small>
+    </div>
+    <div class="mt-auto col-12 text-center pb-3">
+      <hr>
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/maca/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+    </div>
+  </div>
+
+</div>
+
+<div class="filtro-sede d-grid w300p border border-dark rounded-2 m-2 p-0 sede" id="museo_historico">
+     <script type="text/json" name="data">{"descripcion": [], "domicilio": "Quintana y Newbery. Jun\u00edn, Buenos Aires, Argentina.", "eventos_asociados": [], "fotos": ["museo_historico.jpg"], "geopos": {"coord": [-34.58455, -60.9474], "icono": "pin-sede"}, "gmaps": "https://maps.app.goo.gl/ZQZjVE9R7tyMtmo98", "nombre": "Museo Hist\u00f3rico de Jun\u00edn", "web": "https://www.facebook.com/archivohistoricojunin"}</script>
+
+
+  <div class="d-flex flex-column flex-align-items-end">
+    <div><img src="/rec/foto/sedes/museo_historico.jpg" class="img-fluid m-0"></div>
+    <div class="px-4 py-3">
+      <b class="d-inline">Museo Histórico de Junín</b>
+      <br><small class="d-inline">Quintana y Newbery. Junín, Buenos Aires, Argentina.</small>
+    </div>
+    <div class="mt-auto col-12 text-center pb-3">
+      <hr>
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/museo_historico/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+    </div>
+  </div>
+
+</div>
+
+<div class="filtro-sede d-grid w300p border border-dark rounded-2 m-2 p-0 sede" id="horno_de_grippo">
+     <script type="text/json" name="data">{"descripcion": [], "domicilio": "Newbery y Borges. Jun\u00edn, Buenos Aires, Argentina.", "eventos_asociados": [], "fotos": ["horno_de_grippo.jpg"], "geopos": {"coord": [-34.58221, -60.94297], "icono": "pin-sede"}, "gmaps": "https://maps.app.goo.gl/pi97fmp31PHGQoMu6", "nombre": "Horno de Grippo"}</script>
+
+
+  <div class="d-flex flex-column flex-align-items-end">
+    <div><img src="/rec/foto/sedes/horno_de_grippo.jpg" class="img-fluid m-0"></div>
+    <div class="px-4 py-3">
+      <b class="d-inline">Horno de Grippo</b>
+      <br><small class="d-inline">Newbery y Borges. Junín, Buenos Aires, Argentina.</small>
+    </div>
+    <div class="mt-auto col-12 text-center pb-3">
+      <hr>
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/horno_de_grippo/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+    </div>
+  </div>
+
+</div>
+
+<div class="filtro-sede d-grid w300p border border-dark rounded-2 m-2 p-0 sede" id="fundacion_casa_pronto">
+     <script type="text/json" name="data">{"descripcion": [], "domicilio": "Espa\u00f1a 383. Jun\u00edn, Buenos Aires, Argentina.", "eventos_asociados": [], "fotos": ["fundacion_casa_pronto.jpg"], "geopos": {"coord": [-34.58335, -60.94219], "icono": "pin-sede"}, "gmaps": "https://maps.app.goo.gl/o6w7hb8FzhRYUSZw6", "nombre": "Fundaci\u00f3n Casa Pronto", "web": "https://www.instagram.com/casa.pronto/"}</script>
+
+
+  <div class="d-flex flex-column flex-align-items-end">
+    <div><img src="/rec/foto/sedes/fundacion_casa_pronto.jpg" class="img-fluid m-0"></div>
+    <div class="px-4 py-3">
+      <b class="d-inline">Fundación Casa Pronto</b>
+      <br><small class="d-inline">España 383. Junín, Buenos Aires, Argentina.</small>
+    </div>
+    <div class="mt-auto col-12 text-center pb-3">
+      <hr>
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/fundacion_casa_pronto/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+    </div>
+  </div>
+
+</div>
+
+<div class="filtro-sede d-grid w300p border border-dark rounded-2 m-2 p-0 sede" id="casa-taller_torviso-sarobe">
+     <script type="text/json" name="data">{"descripcion": [], "domicilio": "Puente del Inca 895. Jun\u00edn, Buenos Aires, Argentina.", "eventos_asociados": [], "fotos": ["casa-taller_torviso-sarobe.jpg"], "geopos": {"coord": [-34.61657, -60.95408], "icono": "pin-sede"}, "gmaps": "https://maps.app.goo.gl/6gpVd7VF5BMWHYCx5", "nombre": "Casa Taller Torviso-Sarobe"}</script>
+
+
+  <div class="d-flex flex-column flex-align-items-end">
+    <div><img src="/rec/foto/sedes/casa-taller_torviso-sarobe.jpg" class="img-fluid m-0"></div>
+    <div class="px-4 py-3">
+      <b class="d-inline">Casa Taller Torviso-Sarobe</b>
+      <br><small class="d-inline">Puente del Inca 895. Junín, Buenos Aires, Argentina.</small>
+    </div>
+    <div class="mt-auto col-12 text-center pb-3">
+      <hr>
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/casa-taller_torviso-sarobe/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+    </div>
+  </div>
+
+</div>
+
+<div class="filtro-sede d-grid w300p border border-dark rounded-2 m-2 p-0 sede" id="centro_de_capacitacion_y_cultura_atsa">
+     <script type="text/json" name="data">{"descripcion": [], "domicilio": "Brasil 22. Jun\u00edn, Buenos Aires, Argentina.", "eventos_asociados": [], "fotos": ["centro_de_capacitacion_y_cultura_atsa.jpg"], "geopos": {"coord": [-34.59532, -60.94986], "icono": "pin-sede"}, "gmaps": "https://maps.app.goo.gl/XntG6qnyGho4seQK7", "nombre": "Centro de Capacitaci\u00f3n y Cultura ATSA", "web": "https://sanidadjunin.com.ar/"}</script>
+
+
+  <div class="d-flex flex-column flex-align-items-end">
+    <div><img src="/rec/foto/sedes/centro_de_capacitacion_y_cultura_atsa.jpg" class="img-fluid m-0"></div>
+    <div class="px-4 py-3">
+      <b class="d-inline">Centro de Capacitación y Cultura ATSA</b>
+      <br><small class="d-inline">Brasil 22. Junín, Buenos Aires, Argentina.</small>
+    </div>
+    <div class="mt-auto col-12 text-center pb-3">
+      <hr>
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/centro_de_capacitacion_y_cultura_atsa/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+    </div>
+  </div>
+
+</div>
+
+<div class="filtro-sede d-grid w300p border border-dark rounded-2 m-2 p-0 sede" id="casa_popular_dante_balestro">
+     <script type="text/json" name="data">{"descripcion": [], "domicilio": "General Paz 765. Jun\u00edn, Buenos Aires, Argentina.", "eventos_asociados": [], "fotos": ["casa_popular_dante_balestro.jpg"], "geopos": {"coord": [-34.5823, -60.95051], "icono": "pin-sede"}, "gmaps": "https://maps.app.goo.gl/Ug63tEd9Eg7wZZSRA", "nombre": "Casa Popular Dante Balestro", "web": "https://www.instagram.com/dantebalestro/"}</script>
+
+
+  <div class="d-flex flex-column flex-align-items-end">
+    <div><img src="/rec/foto/sedes/casa_popular_dante_balestro.jpg" class="img-fluid m-0"></div>
+    <div class="px-4 py-3">
+      <b class="d-inline">Casa Popular Dante Balestro</b>
+      <br><small class="d-inline">General Paz 765. Junín, Buenos Aires, Argentina.</small>
+    </div>
+    <div class="mt-auto col-12 text-center pb-3">
+      <hr>
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/casa_popular_dante_balestro/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+    </div>
+  </div>
+
+</div>
+
+<div class="filtro-sede d-grid w300p border border-dark rounded-2 m-2 p-0 sede" id="centro_cultural_marea_cultura">
+     <script type="text/json" name="data">{"descripcion": [], "domicilio": "General Paz 444. Jun\u00edn, Buenos Aires, Argentina.", "eventos_asociados": [], "fotos": ["centro_cultural_marea_cultura.jpg"], "geopos": {"coord": [-34.58515, -60.94868], "icono": "pin-sede"}, "gmaps": "https://maps.app.goo.gl/1ZY8V8CdyJpCYfFv9", "nombre": "Centro Cultural Marea Cultura", "web": "https://www.instagram.com/mareaculturajunin/"}</script>
+
+
+  <div class="d-flex flex-column flex-align-items-end">
+    <div><img src="/rec/foto/sedes/centro_cultural_marea_cultura.jpg" class="img-fluid m-0"></div>
+    <div class="px-4 py-3">
+      <b class="d-inline">Centro Cultural Marea Cultura</b>
+      <br><small class="d-inline">General Paz 444. Junín, Buenos Aires, Argentina.</small>
+    </div>
+    <div class="mt-auto col-12 text-center pb-3">
+      <hr>
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/centro_cultural_marea_cultura/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+    </div>
+  </div>
+
+</div>
+
+<div class="filtro-sede d-grid w300p border border-dark rounded-2 m-2 p-0 sede" id="dante_alighieri_junin">
+     <script type="text/json" name="data">{"descripcion": [], "domicilio": "Malvinas Argentinas 78. Jun\u00edn, Buenos Aires, Argentina.", "eventos_asociados": [], "fotos": ["dante_alighieri_junin.jpg"], "geopos": {"coord": [-34.59244, -60.94884], "icono": "pin-sede"}, "gmaps": "https://maps.app.goo.gl/Chaja2b7sgiUhjV77", "nombre": "Dante Alighieri Jun\u00edn", "web": "https://www.instagram.com/dantealighierijunin/"}</script>
+
+
+  <div class="d-flex flex-column flex-align-items-end">
+    <div><img src="/rec/foto/sedes/dante_alighieri_junin.jpg" class="img-fluid m-0"></div>
+    <div class="px-4 py-3">
+      <b class="d-inline">Dante Alighieri Junín</b>
+      <br><small class="d-inline">Malvinas Argentinas 78. Junín, Buenos Aires, Argentina.</small>
+    </div>
+    <div class="mt-auto col-12 text-center pb-3">
+      <hr>
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/dante_alighieri_junin/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+    </div>
+  </div>
+
+</div>
+
+<div class="filtro-sede d-grid w300p border border-dark rounded-2 m-2 p-0 sede" id="biblioteca_paz_y_trabajo">
+     <script type="text/json" name="data">{"descripcion": [], "domicilio": "Primera Junta 307. Jun\u00edn, Buenos Aires, Argentina.", "eventos_asociados": [], "fotos": ["biblioteca_paz_y_trabajo.jpg"], "geopos": {"coord": [-34.58254, -60.93593], "icono": "pin-sede"}, "gmaps": "https://maps.app.goo.gl/HpK71RG9k7cndo4u5", "nombre": "Biblioteca Popular Paz y Trabajo", "web": "https://www.facebook.com/p/Biblioteca-popular-Paz-y-Trabajo-100064620377143/"}</script>
+
+
+  <div class="d-flex flex-column flex-align-items-end">
+    <div><img src="/rec/foto/sedes/biblioteca_paz_y_trabajo.jpg" class="img-fluid m-0"></div>
+    <div class="px-4 py-3">
+      <b class="d-inline">Biblioteca Popular Paz y Trabajo</b>
+      <br><small class="d-inline">Primera Junta 307. Junín, Buenos Aires, Argentina.</small>
+    </div>
+    <div class="mt-auto col-12 text-center pb-3">
+      <hr>
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/biblioteca_paz_y_trabajo/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+    </div>
+  </div>
+
+</div>
+
+<div class="filtro-sede d-grid w300p border border-dark rounded-2 m-2 p-0 sede" id="par1000_aula_teatro">
+     <script type="text/json" name="data">{"descripcion": [], "domicilio": "Primera Junta 791. Jun\u00edn, Buenos Aires, Argentina.", "eventos_asociados": [], "fotos": ["par1000_aula_teatro.jpg"], "geopos": {"coord": [-34.57615, -60.94355], "icono": "pin-sede"}, "gmaps": "https://maps.app.goo.gl/Uqf2DTfjdxoLkt4A6", "nombre": "Par 1000 - Aula teatro", "web": "https://www.instagram.com/par1000teatro/"}</script>
+
+
+  <div class="d-flex flex-column flex-align-items-end">
+    <div><img src="/rec/foto/sedes/par1000_aula_teatro.jpg" class="img-fluid m-0"></div>
+    <div class="px-4 py-3">
+      <b class="d-inline">Par 1000 - Aula teatro</b>
+      <br><small class="d-inline">Primera Junta 791. Junín, Buenos Aires, Argentina.</small>
+    </div>
+    <div class="mt-auto col-12 text-center pb-3">
+      <hr>
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/par1000_aula_teatro/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+    </div>
+  </div>
+
+</div>
+
+<div class="filtro-sede d-grid w300p border border-dark rounded-2 m-2 p-0 sede" id="colectivo_juana_azurduy">
+     <script type="text/json" name="data">{"descripcion": [], "domicilio": "Oviedo 339. Jun\u00edn, Buenos Aires, Argentina.", "eventos_asociados": [], "fotos": ["colectivo_juana_azurduy.jpg"], "geopos": {"coord": [-34.592959, -60.928553], "icono": "pin-sede"}, "gmaps": "https://maps.app.goo.gl/jcuWngmUuuB6vwEP9", "nombre": "Colectivo Juana Azurduy", "web": "https://juanaazurduyjunin.com.ar/"}</script>
+
+
+  <div class="d-flex flex-column flex-align-items-end">
+    <div><img src="/rec/foto/sedes/colectivo_juana_azurduy.jpg" class="img-fluid m-0"></div>
+    <div class="px-4 py-3">
+      <b class="d-inline">Colectivo Juana Azurduy</b>
+      <br><small class="d-inline">Oviedo 339. Junín, Buenos Aires, Argentina.</small>
+    </div>
+    <div class="mt-auto col-12 text-center pb-3">
+      <hr>
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/colectivo_juana_azurduy/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+    </div>
+  </div>
+
+</div>
+
+<div class="filtro-sede d-grid w300p border border-dark rounded-2 m-2 p-0 sede" id="escuela_de_arte_xul_solar">
+     <script type="text/json" name="data">{"descripcion": [], "domicilio": "Saavedra 245. Jun\u00edn, Buenos Aires, Argentina.", "eventos_asociados": [], "fotos": ["escuela_de_arte_xul_solar.jpg"], "geopos": {"coord": [-34.59692, -60.94287], "icono": "pin-sede"}, "gmaps": "https://maps.app.goo.gl/WBJ7Qh44mWwT8h6s6", "nombre": "Escuela de Arte \"Xul Solar\""}</script>
+
+
+  <div class="d-flex flex-column flex-align-items-end">
+    <div><img src="/rec/foto/sedes/escuela_de_arte_xul_solar.jpg" class="img-fluid m-0"></div>
+    <div class="px-4 py-3">
+      <b class="d-inline">Escuela de Arte "Xul Solar"</b>
+      <br><small class="d-inline">Saavedra 245. Junín, Buenos Aires, Argentina.</small>
+    </div>
+    <div class="mt-auto col-12 text-center pb-3">
+      <hr>
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/escuela_de_arte_xul_solar/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+    </div>
+  </div>
+
+</div>
+
+<div class="filtro-sede d-grid w300p border border-dark rounded-2 m-2 p-0 sede" id="escuela_de_educacion_artistica_victor_grippo">
+     <script type="text/json" name="data">{"descripcion": [], "domicilio": "Francia 95. Jun\u00edn, Buenos Aires, Argentina.", "eventos_asociados": [], "fotos": ["escuela_de_educacion_artistica_victor_grippo.jpg"], "geopos": {"coord": [-34.59313, -60.94865], "icono": "pin-sede"}, "gmaps": "https://maps.app.goo.gl/c7WCQCtC1PM6eKNm7", "nombre": "Escuela de Educaci\u00f3n Art\u00edstica \"Victor Grippo\""}</script>
+
+
+  <div class="d-flex flex-column flex-align-items-end">
+    <div><img src="/rec/foto/sedes/escuela_de_educacion_artistica_victor_grippo.jpg" class="img-fluid m-0"></div>
+    <div class="px-4 py-3">
+      <b class="d-inline">Escuela de Educación Artística "Victor Grippo"</b>
+      <br><small class="d-inline">Francia 95. Junín, Buenos Aires, Argentina.</small>
+    </div>
+    <div class="mt-auto col-12 text-center pb-3">
+      <hr>
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/escuela_de_educacion_artistica_victor_grippo/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+    </div>
+  </div>
+
+</div>
+
+<div class="filtro-sede d-grid w300p border border-dark rounded-2 m-2 p-0 sede" id="escuela_de_teatro_gilberto_mesa">
+     <script type="text/json" name="data">{"descripcion": [], "domicilio": "Mayor L\u00f3pez 73. Jun\u00edn, Buenos Aires, Argentina.", "eventos_asociados": [], "fotos": ["escuela_de_teatro_gilberto_mesa.jpg"], "geopos": {"coord": [-34.59464, -60.94715], "icono": "pin-sede"}, "gmaps": "https://maps.app.goo.gl/tWKZXbEc8vZW89527", "nombre": "Escuela Provincial de Teatro \"Gilberto A. Mesa\"", "web": "https://etjunin-bue.infd.edu.ar/sitio/"}</script>
+
+
+  <div class="d-flex flex-column flex-align-items-end">
+    <div><img src="/rec/foto/sedes/escuela_de_teatro_gilberto_mesa.jpg" class="img-fluid m-0"></div>
+    <div class="px-4 py-3">
+      <b class="d-inline">Escuela Provincial de Teatro "Gilberto A. Mesa"</b>
+      <br><small class="d-inline">Mayor López 73. Junín, Buenos Aires, Argentina.</small>
+    </div>
+    <div class="mt-auto col-12 text-center pb-3">
+      <hr>
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/escuela_de_teatro_gilberto_mesa/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+    </div>
+  </div>
+
+</div>
+
+<div class="filtro-sede d-grid w300p border border-dark rounded-2 m-2 p-0 sede" id="unnoba_alicia_moreau_de_justo">
+     <script type="text/json" name="data">{"descripcion": [], "domicilio": "Av. Roque Sa\u00e9nz Pe\u00f1a 456. Jun\u00edn, Buenos Aires, Argentina.", "eventos_asociados": [], "fotos": ["unnoba_alicia_moreau_de_justo.jpg"], "geopos": {"coord": [-34.58527, -60.9499], "icono": "pin-sede"}, "gmaps": "https://maps.app.goo.gl/kCw7hJg5R3Vy9sm86", "nombre": "\"Edificio Alicia Moreau de Justo\" - UNNOBA Escuela de Ciencias Econ\u00f3micas y Jur\u00eddicas", "web": "https://www.unnoba.edu.ar/"}</script>
+
+
+  <div class="d-flex flex-column flex-align-items-end">
+    <div><img src="/rec/foto/sedes/unnoba_alicia_moreau_de_justo.jpg" class="img-fluid m-0"></div>
+    <div class="px-4 py-3">
+      <b class="d-inline">"Edificio Alicia Moreau de Justo" - UNNOBA Escuela de Ciencias Económicas y Jurídicas</b>
+      <br><small class="d-inline">Av. Roque Saénz Peña 456. Junín, Buenos Aires, Argentina.</small>
+    </div>
+    <div class="mt-auto col-12 text-center pb-3">
+      <hr>
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/unnoba_alicia_moreau_de_justo/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+    </div>
+  </div>
+
+</div>
+
+<div class="filtro-sede d-grid w300p border border-dark rounded-2 m-2 p-0 sede" id="el_espacio">
+     <script type="text/json" name="data">{"descripcion": [], "domicilio": "Espa\u00f1a 402, esquina Coronel Borges. Jun\u00edn, Buenos Aires, Argentina.", "eventos_asociados": [], "fotos": ["el_espacio.jpg"], "geopos": {"coord": [-34.58303, -60.94205], "icono": "pin-sede"}, "gmaps": "https://maps.app.goo.gl/Byi19L1WH9j2SVaa9", "nombre": "El Espacio", "web": "https://www.instagram.com/elespacioyoga"}</script>
+
+
+  <div class="d-flex flex-column flex-align-items-end">
+    <div><img src="/rec/foto/sedes/el_espacio.jpg" class="img-fluid m-0"></div>
+    <div class="px-4 py-3">
+      <b class="d-inline">El Espacio</b>
+      <br><small class="d-inline">España 402, esquina Coronel Borges. Junín, Buenos Aires, Argentina.</small>
+    </div>
+    <div class="mt-auto col-12 text-center pb-3">
+      <hr>
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/el_espacio/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+    </div>
+  </div>
+
+</div>
+
+<div class="filtro-sede d-grid w300p border border-dark rounded-2 m-2 p-0 sede" id="la_luz_buena">
+     <script type="text/json" name="data">{"descripcion": [], "domicilio": "Agust\u00edn Roca, Buenos Aires, Argentina.", "eventos_asociados": [], "fotos": ["la_luz_buena.jpg"], "geopos": {"coord": [-34.511466, -60.86764], "icono": "pin-sede"}, "gmaps": "https://maps.app.goo.gl/SMBAA6vTiVghjx6AA", "nombre": "La Luz Buena - Arte de ocupaci\u00f3n"}</script>
+
+
+  <div class="d-flex flex-column flex-align-items-end">
+    <div><img src="/rec/foto/sedes/la_luz_buena.jpg" class="img-fluid m-0"></div>
+    <div class="px-4 py-3">
+      <b class="d-inline">La Luz Buena - Arte de ocupación</b>
+      <br><small class="d-inline">Agustín Roca, Buenos Aires, Argentina.</small>
+    </div>
+    <div class="mt-auto col-12 text-center pb-3">
+      <hr>
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/la_luz_buena/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+    </div>
+  </div>
+
+</div>
+
+<div class="filtro-sede d-grid w300p border border-dark rounded-2 m-2 p-0 sede" id="pnlg">
+     <script type="text/json" name="data">{"descripcion": [], "domicilio": "Avenida Eva Per\u00f3n, Balneario Laguna de G\u00f3mez, Jun\u00edn, Buenos Aires, Argentina.", "eventos_asociados": [], "fotos": ["pnlg.jpg"], "geopos": {"coord": [-34.65664, -61.02084], "icono": "pin-sede"}, "gmaps": "https://maps.app.goo.gl/q4MAR7X4UomQNi1g8", "nombre": "Parque Natural \"Laguna de G\u00f3mez\"", "web": "https://es.wikipedia.org/wiki/Parque_natural_Laguna_de_G%C3%B3mez"}</script>
+
+
+  <div class="d-flex flex-column flex-align-items-end">
+    <div><img src="/rec/foto/sedes/pnlg.jpg" class="img-fluid m-0"></div>
+    <div class="px-4 py-3">
+      <b class="d-inline">Parque Natural "Laguna de Gómez"</b>
+      <br><small class="d-inline">Avenida Eva Perón, Balneario Laguna de Gómez, Junín, Buenos Aires, Argentina.</small>
+    </div>
+    <div class="mt-auto col-12 text-center pb-3">
+      <hr>
+      <button title="Localizar en el mapa" class="pin fx-ampliar btn btn-outline-gray btn-sm"><img width="16px" class="pt-1 d-inline" src="/rec/grafica/icon-pin.svg"></button>
+      <a title="Ir a la ficha de la sede" href="/sds/pnlg/" class="m-0 btn btn-sm py-0 px-2 btn-dark fx-ampliar"><span class="fs-5">+</span></a>
+    </div>
+  </div>
+
+</div>
+        </section>
+
+        
+
+    </div>
+</div>
+
+<script sync src="/lib/js/acc-menu-sedes.js?1744952183666913"></script>
+
+
+        </div>
+
+        <footer>
+            <div  class="d-flex justify-content-around">
+                <div class="d-flex">
+                    <a class="logo posverso mx-4 fx-ampliar" href="/">
+                        <img height="20px" src="/rec/grafica/logo-posverso.svg?1744952183666913" title="POSVERSO">
+                    </a>
+                    <span class="border-dark border-start"></span>
+                    <a class="mx-4 fx-ampliar" href="">
+                        <img height="25px" src="/rec/grafica/logo-hoteldada.svg?1744952183666913" title="Hotel DaDA">
+                    </a>
+                </div>
+                <div>&nbsp;</div>
+                <div class="d-inline-block">
+                    <a class="d-inline-block px-2 py-1 fx-ampliar" href="https://instagram.com/posverso_bienal">
+                        <img class="icono" src="/rec/grafica/icon-instagram.svg?1744952183666913" alt="Instagram">
+                    </a>
+                    <a class="d-inline-block px-2 py-1 fx-ampliar" href="https://youtube.com/@PosversoBienal">
+                        <img class="icono" src="/rec/grafica/icon-youtube.svg?1744952183666913" alt="Youtube">
+                    </a>
+                    <a class="d-inline-block px-2 py-1 fx-ampliar" href="mailto:posversobienal@gmail.com">
+                        <img class="icono" src="/rec/grafica/icon-email.svg?1744952183666913" alt="Email">
+                    </a>
+                    <a class="d-inline-block px-2 py-1 fx-ampliar" href="/pag/contacto/" title="Contacto">
+                        <img class="icono" src="/rec/grafica/icon-contacto_neg.svg?1744952183666913" alt="Contacto">
+                    </a>
+                    <a class="d-inline-block px-2 py-1 fx-ampliar" href="/pag/socios/">
+                        <img class="icono" src="/rec/grafica/icon-socios_neg.svg?1744952183666913" alt="Socios">
+                    </a>
+                </div>
+            </div>
+
+            <div class="utiles">
+
+                <div class="d-inline-block menu-pie" title="Menú">
+                    <img class="fx-invert " height="20px" src="/rec/grafica/icon-menu.svg?1744952183666913">
+                    <nav>
+                        
+                          
+                          <a href=""><small>BIENAL</small></a>
+                          
+                          <a href="/pag/acerca_de_la_bienal/">&nbsp;&nbsp;Acerca nosotros</a>
+                          
+                          <a href="/pag/bienal_2024/">&nbsp;&nbsp;POSVERSO 2024</a>
+                          
+                          
+                        
+                          
+                          <a href=""><small>ARTISTAS</small></a>
+                          
+                          <a href="/pag/artistas_2026/">&nbsp;&nbsp;2026</a>
+                          
+                          <a href="/pag/artistas_2024/">&nbsp;&nbsp;2024</a>
+                          
+                          
+                        
+                          
+                          <a href="/bit/">NOVEDADES</a>
+                          
+                        
+                          
+                          <a href=""><small>MEDIA</small></a>
+                          
+                          <a href="/pag/prensa/">&nbsp;&nbsp;Prensa</a>
+                          
+                          <a href="/pag/publicaciones/">&nbsp;&nbsp;Publicaciones</a>
+                          
+                          <a href="/pag/videos/">&nbsp;&nbsp;Videos</a>
+                          
+                          
+                        
+                        <a href="/pag/contacto/"><small>CONTACTO</small></a>
+                        <br>
+                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2025-04-18 04:56:23</b></span>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+
+
+        <nav id="menu-permanente">
+            <ul class="row" title="Ir a la portada">
+                <li class="mx-3 col mostrar-si-pagina-desplazada fx-ampliar">
+                    <a href="/">
+                        <img class="fx-invert" height="15px" src="/rec/grafica/logo-posverso.svg?1744952183666913" title="POSVERSO">
+                    </a>
+                </li>
+                <li class="col mx-1 fx-ampliar" title="Contacto">
+                    <a href="/pag/contacto/">
+                        <img height="20px" src="/rec/grafica/icon-contacto_bla.svg?1744952183666913" title="Datos de contacto">
+                    </a>
+                </li>
+                <li class="col mx-1 fx-ampliar" title="Instagram">
+                    <a href="https://instagram.com/posverso_bienal">
+                        <img height="20px" src="/rec/grafica/icon-instagram_bla.svg?1744952183666913" title="Instagram">
+                    </a>
+                </li>
+                <li class="col mx-1 selector-idioma" title="Traducir página con Google Translate">
+                    <img height="20px" src="/rec/grafica/icon-traducir.svg?1744952183666913">
+                    <div class="submenu">
+                        
+                        <button onclick="redirigir_a_traduccion('en')">English</button>
+                        
+                        <button onclick="redirigir_a_traduccion('pt')">Português</button>
+                        
+                        <button onclick="redirigir_a_traduccion('fr')">Français</button>
+                        
+                        <button onclick="redirigir_a_traduccion('de')">Deutsch</button>
+                        
+                        <button onclick="redirigir_a_traduccion('zh-CN')">中文</button>
+                        
+                        <button onclick="redirigir_a_traduccion('ja')">日本語</button>
+                        
+                    </div>
+                </li>
+                <li class="col mx-1 mostrar-si-pagina-desplazada" title="Desplazarse al inicio de la página">
+                    <button onclick="window.scrollTo(0,0)">
+                        <img height="20px" src="/rec/grafica/icon-subir.svg?1744952183666913">
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+
+        <div id="imagen_ampliada">
+            <div class="container">
+                <div class="text-end pb-3">
+                    <button class="btn btn-sm btn-outline-light anterior" title="ANTERIOR imagen"><</button>
+                    <button class="btn btn-sm btn-outline-light posterior" title="POSTERIOR imagen">></button>
+                    <button class="btn btn-sm btn-outline-light cerrar" title="CERRAR imagen ampliada">X</button>
+                </div>
+                <div class="espacio_imagen">
+                    <img class="img-fluid imagen" src="">
+                </div>
+            </div>
+        </div>
+
+        <div class="alerta-traduccion hover-on-click">
+            <b>!</b>
+            <span>Está página es traducida de forma automática por <i id="tr-by"></i>, causando posibles diferencias de significado sobre el texto original.</span>
+        </div>
+
+        <script src="/lib/js/init.js?1744952183666913"></script>
+        <script src="/lib/js/acc-filtrador.js?1744952183666913"></script>
+    </body>
+</html>
