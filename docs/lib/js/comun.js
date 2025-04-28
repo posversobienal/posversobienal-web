@@ -70,7 +70,7 @@ const Galeria = {
                 let el = Galeria.its[i];
                 el.addEventListener('click', ()=> {
                     Galeria.act = i;
-                    ampliar_imagen(el.attributes['src'].value);
+                    ampliar_imagen(el.attributes['src'].value, el.attributes['title'].value);
                 });
             }
         }
@@ -91,11 +91,12 @@ const Galeria = {
 
 };
 
-const ampliar_imagen = (url)=>{
+const ampliar_imagen = (url, title)=>{
     let cAct = 'activa',
         cBlo = 'bloqueado',
         panel = document.querySelector('#imagen_ampliada'),
         img = panel.querySelector('.imagen'),
+        tit = panel.querySelector('.titulo'),
         cerrar = panel.querySelector('.cerrar'),
         anterior = panel.querySelector('.anterior'),
         posterior = panel.querySelector('.posterior');
@@ -106,6 +107,8 @@ const ampliar_imagen = (url)=>{
         panel.classList.remove(cAct);
         document.body.classList.remove(cBlo);
         img.attributes['src'].value = '';
+        tit.innerText = '';
+
     });
 
     if(Galeria.its.length == 1){
@@ -117,6 +120,8 @@ const ampliar_imagen = (url)=>{
     posterior.addEventListener('click', Galeria.posterior);
 
     img.attributes['src'].value = url;
+    tit.innerText = title;
+
 
     // ajustado a dimensiones disponibles
     img.style.maxWidth = `${window.innerWidth - 10}px`;
