@@ -71,7 +71,7 @@ fichas:
 
   - artista: [[Carlos Gallardo, /per/carlos_gallardo]]
     obra: ''
-    texto: 'Acción en el MACA.'
+    texto: 'Performance en el MACA.'
     fotos:
       - {url: '/rec/foto/obras/2024_acciones_y_performances/carlos_gallardo_01.jpg', txt: 'Ph. Guido De Gracia'}
       - {url: '/rec/foto/obras/2024_acciones_y_performances/carlos_gallardo_02.jpg', txt: 'Ph. Guido De Gracia'}
@@ -97,7 +97,7 @@ fichas:
 
   - artista: [[Diego Melero, /per/diego_melero]]
     obra: ''
-    texto: 'Acción en Casa Pronto.'
+    texto: 'Performance en Casa Pronto.'
     fotos:
       - {url: '/rec/foto/obras/2024_acciones_y_performances/diego_melero_01.jpg', txt: 'Ph. Guido De Gracia'}
       - {url: '/rec/foto/obras/2024_acciones_y_performances/diego_melero_02.jpg', txt: 'Ph. Guido De Gracia'}
@@ -160,5 +160,5 @@ fichas:
 
   - artista: [[Mounir Fatmi, /per/mounir_fatmi]]
     obra: 'The missing show'
-    texto: 'Acción en el MACA. Activación a cargo de Silvio De Gracia.'
+    texto: 'Performance en el MACA. Activación a cargo de Silvio De Gracia.'
     fotos: []
