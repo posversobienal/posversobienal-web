@@ -701,6 +701,19 @@ a.actual {
 .participantes-evento-teorico .item .btn-ampliar.ampliado:before {
   content: '-';
 }
+.video-container-fluid {
+  position: relative;
+  display: block;
+}
+.video-container-fluid video {
+  width: 100%;
+}
+.video-container-fluid .video-sound-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
 .taller-pasado:hover ul {
   display: block;
 }

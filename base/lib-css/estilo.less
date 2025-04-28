@@ -831,6 +831,21 @@ a.actual {
     }
 }
 
+.video-container-fluid {
+    position: relative;
+    display: block;
+    video {
+        width: 100%;
+    }
+    .video-sound-button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+    }
+}
+
+
 .taller-pasado {
     &:hover {
         ul { display: block; }
@@ -883,6 +898,8 @@ a.actual {
     margin: 20px 5px!important;
     border: 1px solid rgba(0,0,0,0.3);
 }
+
+
 
 
 @import url("filtrador.less");

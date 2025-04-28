@@ -2,9 +2,50 @@
 
 {% block body %}
 
-<div>
-    <img class="img-fluid" src="{{ pag.bienal_2026.miniatura_video }}">
+<style>
+ .video-container-fluid {
+     position: relative;
+     display: block;
+
+     video {
+         width: 100%;
+     }
+     .video-sound-button {
+         position: absolute;
+         top: 10px;
+         right: 10px;
+         cursor: pointer;
+     }
+ }
+</style>
+
+<div class="video-container-fluid">
+    <video id="video_portada" class="img-fluid" autoplay loop muted playsinline width="1280" height="720">
+        <source src="{{ pag.bienal_2026.video }}" type="video/mp4">
+        <img width="1280" height="720" class="img-fluid" src="{{ pag.bienal_2026.video }}">
+    </video>
+    <button id="soundButton" class="video-sound-button btn btn-outline-light">Habilitar Sonido</button>
 </div>
+
+<script>
+ document.addEventListener('DOMContentLoaded', () => {
+     const video = document.getElementById('video_portada');
+     const soundButton = document.getElementById('soundButton');
+
+     soundButton.addEventListener('click', () => {
+         if (video.muted) {
+             video.muted = false;
+             soundButton.textContent = 'Silenciar';
+         } else {
+             video.muted = true;
+             soundButton.textContent = 'Habilitar Sonido';
+         }
+     });
+     //setTimeout(() => { if (video.muted) { video.muted = false; } }, 1000);
+ });
+
+
+</script>
 
 <div class=" text-center">
     <br><br><br>
