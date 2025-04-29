@@ -28,7 +28,7 @@
             {{ markdown(pag.contenido_secundario, pag) }}
 
             {% if pag.galeria %}
-            <div class="galeria d-flex flex-wrap justify-content-center">
+            <div class="galeria d-flex flex-wrap px-3 justify-content-center">
                 {% for it in pag.galeria %}
                 <img class="miniatura item-galeria" src="{{ it.url }}?{{ cfg.cache_actu }}" title="{{ it.titulo }}">
                 {% endfor %}

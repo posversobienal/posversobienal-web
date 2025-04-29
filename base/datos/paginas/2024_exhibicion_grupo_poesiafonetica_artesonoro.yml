@@ -3,51 +3,137 @@ titulo: 'Poesía Fonética y Sonora / Arte Sonoro'
 html_base: 'pagina-exhibicion.html'
 ruta_static: 'pag/exhibiciones_poesia_fonetica_y_arte_sonoro_2024/index.html'
 
-estilo: col-lg-8
-estilo_cnt_sec: titulares-reducidos
+estilo: col-lg-12
 
-imagen_cabecera: /rec/foto/exhibiciones/2024/arte_sonoro/0.jpg
-galeria: []
-#  - { url: /rec/foto/exhibiciones/2024/e12_como_pintar_un_pajaro.jpg, titulo: '' }
+imagen_cabecera: /rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/0.jpg
 
 contenido: |
   ## POESÍA FONÉTICA Y SONORA
 
-  - Fernando Aguiar
-  - Montenegro-Fisher
-  - Jessica Pujol Durán
-  - Juan Ángel Italiano
-  - Javier Robledo
-  - Jaap Blonk
+  {% for ficha in pag.fichas.poesiafonetica  %}
+  <br><hr><br>
+  <h5>
+    {% for artista in ficha.artista  %}
+    <a href="{{ artista[1] }}">{{ artista[0] }}</a>
+    {% endfor  %}
+  </h5>
+  <h3>{{ ficha.obra }}</h3>
+  <p>{{ markdown(ficha.texto) }}</p>
+  <br>
+  <div class="galeria d-flex flex-wrap justify-content-center">
+    {% for item in ficha.fotos %}
+    <img class="miniatura item-galeria" src="{{ item.url }}?{{ cfg.cache_actu }}" title="{{ item.txt }}">
+    {% endfor %}
+  </div>
+  {% endfor %}
+
 
   <br><hr><br>
+
   ## ARTE SONORO
 
-  - Wilson Sukorski
-  - Noiser
-  - Yuri Bruscky
-
-
-
-referencia: |
-  ## POESÍA FONÉTICA Y SONORA
-
-  1. FERNANDO AGUIAR Escuela de Teatro y MACA
-  2. MONTENEGRO FISHER Escuela de Teatro y MACA
-  3. JESSICA PUJOL DURÁN Escuela de Teatro
-  4. JUAN ÁNGEL ITALIANO Dante Balestro
-  5. JAVIER ROBLEDO Dante Balestro
-  6. JAAP BLONK Par1000
-
+  {% for ficha in pag.fichas.artesonoro  %}
   <br><hr><br>
-  ## ARTE SONORO
+  <h5>
+    {% for artista in ficha.artista  %}
+    <a href="{{ artista[1] }}">{{ artista[0] }}</a>
+    {% endfor  %}
+  </h5>
+  <h3>{{ ficha.obra }}</h3>
+  <p>{{ markdown(ficha.texto) }}</p>
+  <br>
+  <div class="galeria d-flex flex-wrap justify-content-center">
+    {% for item in ficha.fotos %}
+    <img class="miniatura item-galeria" src="{{ item.url }}?{{ cfg.cache_actu }}" title="{{ item.txt }}">
+    {% endfor %}
+  </div>
+  {% endfor %}
 
-  1. WILSON SUKORSKI (extraer 2 imágenes del vídeo)
-  2. NOISER
-  3. YURI BRUSCKY (extraer 2 imágenes del vídeo)
 
 
+fichas:
+  poesiafonetica:
 
-contenido_secundario: |
-  CONTENIDO **EN DESARROLLO**
-  {.small}
+    - artista: [['Fernando Aguiar', /per/fernando_aguiar/]]
+      obra: ''
+      texto: 'En el [MACA Museo de Arte Contemporáneo Argentino "Víctor Grippo"](/sds/maca/) y en la [Escuela Provincial de Teatro "Gilberto A. Mesa"](/sds/escuela_de_teatro_gilberto_mesa/)'
+      fotos:
+
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/fernando_aguiar_en_maca_01.jpg', txt: 'En el MACA'}
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/fernando_aguiar_en_escuela_de_teatro_01.jpg', txt: 'En la Escuela de Teatro "Gilberto Mesa"'}
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/fernando_aguiar_en_escuela_de_teatro_02.jpg', txt: 'En la Escuela de Teatro "Gilberto Mesa"'}
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/fernando_aguiar_en_escuela_de_teatro_03.jpg', txt: 'En la Escuela de Teatro "Gilberto Mesa"'}
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/fernando_aguiar_en_escuela_de_teatro_04.jpg', txt: 'En la Escuela de Teatro "Gilberto Mesa"'}
+
+    - artista: [['Montenegro-Fisher', /per/montenegro_fisher/]]
+      obra: ''
+      texto: 'En el [MACA Museo de Arte Contemporáneo Argentino "Víctor Grippo"](/sds/maca/) y en la [Escuela Provincial de Teatro "Gilberto A. Mesa"](/sds/escuela_de_teatro_gilberto_mesa/)'
+      fotos:
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/montenegro_fisher_en_maca_01.jpg', txt: 'En el MACA'}
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/montenegro_fisher_en_escuela_de_teatro_01.jpg', txt: 'En la Escuela de Teatro "Gilberto Mesa'}
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/montenegro_fisher_en_escuela_de_teatro_02.jpg', txt: 'En la Escuela de Teatro "Gilberto Mesa'}
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/montenegro_fisher_en_escuela_de_teatro_03.jpg', txt: 'En la Escuela de Teatro "Gilberto Mesa'}
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/montenegro_fisher_en_escuela_de_teatro_04.jpg', txt: 'En la Escuela de Teatro "Gilberto Mesa'}
+
+    - artista: [['Jessica Pujol Durán', /per/jessica_pujol_duran/]]
+      obra: ''
+      texto: 'En la [Escuela Provincial de Teatro "Gilberto A. Mesa"](/sds/escuela_de_teatro_gilberto_mesa/)'
+      fotos:
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/jessica_pujol_en_escuela_de_teatro_01.jpg', txt: 'En la Escuela de Teatro "Gilberto Mesa"'}
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/jessica_pujol_en_escuela_de_teatro_02.jpg', txt: 'En la Escuela de Teatro "Gilberto Mesa"'}
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/jessica_pujol_en_escuela_de_teatro_03.jpg', txt: 'En la Escuela de Teatro "Gilberto Mesa"'}
+
+    - artista: [['Juan Ángel Italiano', /per/juan_angel_italiano/]]
+      obra: ''
+      texto: 'En la [Casa Popular Dante Balestro](/sds/casa_popular_dante_balestro/)'
+      fotos:
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/juan_angel_italiano_en_dante_balestro_01.jpg', txt: 'En la Dante Balestro'}
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/juan_angel_italiano_en_dante_balestro_02.jpg', txt: 'En la Dante Balestro'}
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/italiano_y_robledo_en_dante_balestro_01.jpg', txt: 'Italiano y Robledo en la Dante Balestro'}
+
+    - artista: [['Javier Robledo', /per/javier_robledo/]]
+      obra: ''
+      texto: 'En la [Casa Popular Dante Balestro](/sds/casa_popular_dante_balestro/)'
+      fotos:
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/javier_robledo_en_dante_balestro_01.jpg', txt: 'En la Dante Balestro'}
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/javier_robledo_en_dante_balestro_02.jpg', txt: 'En la Dante Balestro'}
+
+
+    - artista: [['Jaap Blonk', /per/jaap_blonk/]]
+      obra: ''
+      texto: 'En [Par 1000 - Aula teatro](/sds/par1000_aula_teatro/)'
+      fotos:
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/jaap_blonk_en_par1000_01.jpg', txt: 'En Par 1000'}
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/jaap_blonk_en_par1000_02.jpg', txt: 'En Par 1000'}
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/jaap_blonk_en_par1000_03.jpg', txt: 'En Par 1000'}
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/jaap_blonk_en_par1000_04.jpg', txt: 'En Par 1000'}
+
+
+  artesonoro:
+
+    - artista: [['Wilson Sukorski', /per/wilson_sukorski/]]
+      obra: 'Concerto Grosso'
+      texto: 'Para teclado, peixe, baixo totem e gran corda. [Disponible online](https://youtu.be/gYGg0xOSbq0){target=_blank}.'
+      fotos:
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/wilson_sukorski_01.jpg', txt: ''}
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/wilson_sukorski_02.jpg', txt: ''}
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/wilson_sukorski_03.jpg', txt: ''}
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/wilson_sukorski_04.jpg', txt: ''}
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/wilson_sukorski_05.jpg', txt: ''}
+
+    - artista: [['Noiser', /per/noiser/]]
+      obra: ''
+      texto: 'Performance sonora en el [Centro Cultural Marea Cultura](/sds/centro_cultural_marea_cultura/)'
+      fotos:
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/noiser_en_marea_cultura_01.jpg', txt: 'En Marea Cultura'}
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/noiser_en_marea_cultura_02.jpg', txt: 'En Marea Cultura'}
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/noiser_en_marea_cultura_03.jpg', txt: 'En Marea Cultura'}
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/noiser_en_marea_cultura_04.jpg', txt: 'En Marea Cultura'}
+
+    - artista: [['Yuri Bruscky', /per/yuri_bruscky/]]
+      obra: 'Trava-Lingua'
+      texto: 'Performance sonora transmitida en vivo. [Disponible online](https://youtu.be/21q429rT7bo){target=_blank}.'
+      fotos:
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/yuri_bruscky_01.jpg', ''}
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/yuri_bruscky_02.jpg', ''}
+        - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/yuri_bruscky_03.jpg', ''}

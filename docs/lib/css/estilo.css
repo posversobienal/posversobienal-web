@@ -768,10 +768,9 @@ a.actual {
   }
 }
 .ficha-exhibicion {
-  background: #f00 !important;
+  position: relative;
   padding: 10px!important;
-  margin: 20px 5px!important;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  margin: 20px 10px!important;
 }
 .filtrador {
   display: inline-block;

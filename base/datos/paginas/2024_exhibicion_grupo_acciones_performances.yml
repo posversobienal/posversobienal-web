@@ -4,7 +4,8 @@ html_base: 'pagina-exhibicion.html'
 ruta_static: 'pag/exhibiciones_acciones_y_performances_2024/index.html'
 
 estilo: col-lg-12
-imagen_cabecera: /rec/foto/exhibiciones/2024/acciones_perfomances/0.jpg
+imagen_cabecera: /rec/foto/exhibiciones/2024/acciones_y_performances/0.jpg
+
 
 
 contenido: |
@@ -33,36 +34,36 @@ fichas:
     obra: 'Urbanismo'
     texto: 'Fotos de Tato Giannini, Gerardo Ferrarotti y Carlos Gallardo.'
     fotos:
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/marcela_astorga_01.jpg', txt: 'Ph. Tato Giannini'}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/marcela_astorga_02.jpg', txt: 'Ph. Tato Giannini'}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/marcela_astorga_03.jpg', txt: 'Ph. Tato Giannini'}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/marcela_astorga_04.jpg', txt: 'Ph. Gerardo Ferrarotti'}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/marcela_astorga_05.jpg', txt: 'Ph. Gerardo Ferrarotti'}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/marcela_astorga_06.jpg', txt: 'Ph. Gerardo Ferrarotti'}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/marcela_astorga_07.jpg', txt: 'Ph. Gerardo Ferrarotti'}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/marcela_astorga_08.jpg', txt: 'Ph. Carlos Gallardo'}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/marcela_astorga_09.jpg', txt: 'Ph. Carlos Gallardo'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/marcela_astorga_01.jpg', txt: 'Ph. Tato Giannini'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/marcela_astorga_02.jpg', txt: 'Ph. Tato Giannini'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/marcela_astorga_03.jpg', txt: 'Ph. Tato Giannini'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/marcela_astorga_04.jpg', txt: 'Ph. Gerardo Ferrarotti'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/marcela_astorga_05.jpg', txt: 'Ph. Gerardo Ferrarotti'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/marcela_astorga_06.jpg', txt: 'Ph. Gerardo Ferrarotti'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/marcela_astorga_07.jpg', txt: 'Ph. Gerardo Ferrarotti'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/marcela_astorga_08.jpg', txt: 'Ph. Carlos Gallardo'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/marcela_astorga_09.jpg', txt: 'Ph. Carlos Gallardo'}
 
 
   - artista: [[Andrés Pasinovich, /per/andres_pasinovich]]
     obra: '¿Tengo que usar palabras cuando te hablo?'
     texto: 'Fotos de Eugenia Gozzi y Amalia Pasinovich.'
     fotos:
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/andres_pasinovich_01.jpg', txt: ''}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/andres_pasinovich_02.jpg', txt: ''}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/andres_pasinovich_03.jpg', txt: ''}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/andres_pasinovich_04.jpg', txt: ''}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/andres_pasinovich_05.jpg', txt: ''}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/andres_pasinovich_06.jpg', txt: ''}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/andres_pasinovich_07.jpg', txt: ''}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/andres_pasinovich_08.jpg', txt: ''}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/andres_pasinovich_01.jpg', txt: ''}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/andres_pasinovich_02.jpg', txt: ''}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/andres_pasinovich_03.jpg', txt: ''}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/andres_pasinovich_04.jpg', txt: ''}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/andres_pasinovich_05.jpg', txt: ''}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/andres_pasinovich_06.jpg', txt: ''}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/andres_pasinovich_07.jpg', txt: ''}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/andres_pasinovich_08.jpg', txt: ''}
 
   - artista: [[Red Conceptualismos del Sur, /per/archivo_romero_por_venir]]
     obra: 'Tomar la voz por Palestina. Lectura colectiva de los Monólogos de Gaza'
     texto: ''
     fotos:
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/archivo_romero_por_venir_01.jpg', txt: 'Ph. Guido De Gracia'}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/archivo_romero_por_venir_02.jpg', txt: 'Ph. Guido De Gracia'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/archivo_romero_por_venir_01.jpg', txt: 'Ph. Guido De Gracia'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/archivo_romero_por_venir_02.jpg', txt: 'Ph. Guido De Gracia'}
 
   - artista: [[Grupo de Teatro de la Casa Popular Dante Balestro, /sds/casa_popular_dante_balestro]]
     obra: ''
@@ -73,90 +74,90 @@ fichas:
     obra: ''
     texto: 'Performance en el MACA.'
     fotos:
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/carlos_gallardo_01.jpg', txt: 'Ph. Guido De Gracia'}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/carlos_gallardo_02.jpg', txt: 'Ph. Guido De Gracia'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/carlos_gallardo_01.jpg', txt: 'Ph. Guido De Gracia'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/carlos_gallardo_02.jpg', txt: 'Ph. Guido De Gracia'}
 
 
   - artista: [[Silvio De Gracia, /per/silvio_de_gracia], [Ricardo Omar Salido, /per/ricardo_omar_salido]]
     obra: 'Pan-paz'
     texto: 'Acción en el espacio público.'
     fotos:
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/de_gracia_y_salido_01.jpg', txt: ''}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/de_gracia_y_salido_02.jpg', txt: ''}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/de_gracia_y_salido_03.jpg', txt: ''}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/de_gracia_y_salido_04.jpg', txt: ''}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/de_gracia_y_salido_01.jpg', txt: ''}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/de_gracia_y_salido_02.jpg', txt: ''}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/de_gracia_y_salido_03.jpg', txt: ''}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/de_gracia_y_salido_04.jpg', txt: ''}
 
   - artista: [[Corina Markart y alumnos de La Escuela Provincial de Teatro “Gilberto Alfredo Mesa”, /sds/escuela_de_teatro_gilberto_mesa]]
     obra: 'La cultura de la felicidad'
     texto: 'Acción en el espacio público.'
     fotos:
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/corina_markart_aetgm_01.jpg', txt: ''}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/corina_markart_aetgm_02.jpg', txt: ''}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/corina_markart_aetgm_03.jpg', txt: ''}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/corina_markart_aetgm_04.jpg', txt: ''}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/corina_markart_aetgm_01.jpg', txt: ''}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/corina_markart_aetgm_02.jpg', txt: ''}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/corina_markart_aetgm_03.jpg', txt: ''}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/corina_markart_aetgm_04.jpg', txt: ''}
 
   - artista: [[Diego Melero, /per/diego_melero]]
     obra: ''
     texto: 'Performance en Casa Pronto.'
     fotos:
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/diego_melero_01.jpg', txt: 'Ph. Guido De Gracia'}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/diego_melero_02.jpg', txt: 'Ph. Guido De Gracia'}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/diego_melero_03.jpg', txt: 'Ph. Guido De Gracia'}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/diego_melero_04.jpg', txt: 'Ph. Guido De Gracia'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/diego_melero_01.jpg', txt: 'Ph. Guido De Gracia'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/diego_melero_02.jpg', txt: 'Ph. Guido De Gracia'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/diego_melero_03.jpg', txt: 'Ph. Guido De Gracia'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/diego_melero_04.jpg', txt: 'Ph. Guido De Gracia'}
 
   - artista: [[Ro Barragán, /per/ro_barragan]]
     obra: ''
     texto: 'Acción en Casa Pronto.'
     fotos:
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/ro_barragan_cp_01.jpg', txt: 'Ph. Guido De Gracia'}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/ro_barragan_cp_02.jpg', txt: 'Ph. Guido De Gracia'}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/ro_barragan_cp_03.jpg', txt: 'Ph. Guido De Gracia'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/ro_barragan_cp_01.jpg', txt: 'Ph. Guido De Gracia'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/ro_barragan_cp_02.jpg', txt: 'Ph. Guido De Gracia'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/ro_barragan_cp_03.jpg', txt: 'Ph. Guido De Gracia'}
 
   - artista: [[Ro Barragán, /per/ro_barragan]]
     obra: ''
     texto: 'Acción en el espacio público.'
     fotos:
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/ro_barragan_ep_01.jpg', txt: 'Ph. Guido De Gracia'}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/ro_barragan_ep_02.jpg', txt: 'Ph. Guido De Gracia'}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/ro_barragan_ep_03.jpg', txt: 'Ph. Guido De Gracia'}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/ro_barragan_ep_04.jpg', txt: 'Ph. Guido De Gracia'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/ro_barragan_ep_01.jpg', txt: 'Ph. Guido De Gracia'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/ro_barragan_ep_02.jpg', txt: 'Ph. Guido De Gracia'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/ro_barragan_ep_03.jpg', txt: 'Ph. Guido De Gracia'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/ro_barragan_ep_04.jpg', txt: 'Ph. Guido De Gracia'}
 
   - artista: [[María Zegna, /per/maria_zegna]]
     obra: ''
     texto: 'Acción en el espacio público.'
     fotos:
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/maria_zegna_01.jpg', txt: 'Ph. Guido De Gracia'}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/maria_zegna_02.jpg', txt: 'Ph. Guido De Gracia'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/maria_zegna_01.jpg', txt: 'Ph. Guido De Gracia'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/maria_zegna_02.jpg', txt: 'Ph. Guido De Gracia'}
 
   - artista: [[Joyce Ribeiro, /per/joyce_ribeiro]]
     obra: ''
     texto: 'Acción en el espacio público.'
     fotos:
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/yoice_ribeiro_01.jpg', txt: 'Ph. Guido De Gracia'}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/yoice_ribeiro_02.jpg', txt: 'Ph. Guido De Gracia'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/yoice_ribeiro_01.jpg', txt: 'Ph. Guido De Gracia'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/yoice_ribeiro_02.jpg', txt: 'Ph. Guido De Gracia'}
 
   - artista: [[Ale Montiel, /per/ale_montiel]]
     obra: ''
     texto: 'Acción en el espacio público.'
     fotos:
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/ale_montiel_01.jpg', txt: 'Ph. Guido De Gracia'}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/ale_montiel_02.jpg', txt: 'Ph. Guido De Gracia'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/ale_montiel_01.jpg', txt: 'Ph. Guido De Gracia'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/ale_montiel_02.jpg', txt: 'Ph. Guido De Gracia'}
 
   - artista: [[Paula Doberti, /per/paula_doberti]]
     obra: ''
     texto: 'Acción en el espacio público.'
     fotos:
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/paula_doberti_01.jpg', txt: ''}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/paula_doberti_02.jpg', txt: ''}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/paula_doberti_03.jpg', txt: ''}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/paula_doberti_01.jpg', txt: ''}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/paula_doberti_02.jpg', txt: ''}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/paula_doberti_03.jpg', txt: ''}
 
   - artista: [[Alberto Couratier, /per/alberto_couratier]]
     obra: ''
     texto: 'Acción en Casa Pronto.'
     fotos:
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/alberto_couratier_01.jpg', txt: 'Ph. Guido De Gracia'}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/alberto_couratier_02.jpg', txt: 'Ph. Guido De Gracia'}
-      - {url: '/rec/foto/obras/2024_acciones_y_performances/alberto_couratier_03.jpg', txt: 'Ph. Guido De Gracia'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/alberto_couratier_01.jpg', txt: 'Ph. Guido De Gracia'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/alberto_couratier_02.jpg', txt: 'Ph. Guido De Gracia'}
+      - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/alberto_couratier_03.jpg', txt: 'Ph. Guido De Gracia'}
 
   - artista: [[Mounir Fatmi, /per/mounir_fatmi]]
     obra: 'The missing show'
