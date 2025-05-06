@@ -4,7 +4,7 @@
   url: ''
   submenu:
     - {titulo: 'Acerca de nosotros', url: '/pag/acerca_de_la_bienal/'}
-    - {titulo: '2024', url: '/pag/bienal_2024/'}
+    - {titulo: 'POSVERSO 2024', url: '/pag/bienal_2024/'}
 
 
 - titulo: 'ARTISTAS'
