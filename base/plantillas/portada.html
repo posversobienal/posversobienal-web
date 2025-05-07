@@ -10,18 +10,20 @@
         <source src="{{ pag.bienal_2026.video }}" type="video/mp4">
         <img width="1280" height="720" class="img-fluid" src="{{ pag.bienal_2026.video }}">
     </video>
-    <button id="video_sound_button" class="video-sound-button btn btn-outline-light">HABILITAR SONIDO</button>
+    <button id="video_sound_button" class="video-sound-button btn-sonido sonido-silencio">&nbsp;</button>
     <script>
      document.addEventListener('DOMContentLoaded', () => {
          const video = document.getElementById('video_portada');
          const soundButton = document.getElementById('video_sound_button');
+
          soundButton.addEventListener('click', () => {
+             const cAct = 'sonido-silencio';
              if (video.muted) {
                  video.muted = false;
-                 soundButton.textContent = 'SILENCIAR';
+                 soundButton.classList.remove(cAct);
              } else {
                  video.muted = true;
-                 soundButton.textContent = 'HABILITAR SONIDO';
+                 soundButton.classList.add(cAct);
              }
          });
          //setTimeout(() => { if (video.muted) { video.muted = false; } }, 1000);

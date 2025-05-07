@@ -17,7 +17,7 @@ contenido: |
     {% endfor  %}
   </h5>
   <h3>{{ ficha.obra }}</h3>
-  <p>{{ ficha.texto }}</p>
+  <p>{{ markdown(ficha.texto) }}</p>
   <br>
   <div class="galeria d-flex flex-wrap justify-content-center">
     {% for item in ficha.fotos %}
@@ -32,7 +32,24 @@ fichas:
 
   - artista: [[Marcela Astorga, /per/marcela_astorga]]
     obra: 'Urbanismo'
-    texto: 'Fotos de Tato Giannini, Gerardo Ferrarotti y Carlos Gallardo.'
+    texto: |
+
+      _LA LUZ BUENA arte de ocupación_, Agustín Roca, Junín, Buenos Aires
+
+      Una de las obras más importantes y significativas de POSVERSO 2024 fue URBANISMO, un proyecto de carácter monumental realizado en el pueblo de Agustín Roca, cercano a Junín. Allí, durante un período de residencia de diez días la artista Marcela Astorga desarrolló una obra destinada a transformar la fisonomía del lugar. Es una obra que enorgullece a la Bienal no solo por el esfuerzo de producción afrontado, sino por la oportunidad de llevar el arte contemporáneo a un entorno rural y contribuir a ampliar la mirada estética de sus vecinos.
+
+      **URBANISMO, Marcela Astorga, 2024.**
+      <br>**Obra producida y curada por BIENAL POSVERSO.**
+      <br><small>EQUIPO DE PRODUCCIÓN EN AGUSTÍN ROCA:</small> Julieta Civalero, Joaquín Reynoso y Juan Guzmán.
+      <br><small>REGISTROS FOTOGRÁFICOS:</small> Tato Giannini, Gerardo Ferrarotti y Carlos Gallardo.
+
+      La intervención se realizó sobre una casa abandonada, donde, entre los años 2018 y 2023, funcionó _LA LUZ BUENA – arte de ocupación_, espacio de arte experimental dirigido y curado por Silvio De Gracia y Ana Montenegro.
+
+      _"En Urbanismo (2024), Marcela Astorga nos presenta el registro de una intervención sobre la fachada de una casa destinada a convertirse en ruinas, a la cual va adhiriendo una fina tela de algodón blanca a modo de gasa. En la singular gramática visual de Astorga, la construcción edilicia puede asociarse a una piel con- tenedora de los seres que en ella habitaron. Con el despliegue de un gran velo protector, sobreponiendo una nueva piel a los muros, la artista cumple un ritual de despedida y agradecimiento hacia una construcción que pronto dejará de existir. A través del señalamiento de un proceso de modificación del paisaje, la obra pulsa sentidos en torno a cuestiones profundas de memoria, identidad y pertenencia"_
+      <br><small>(texto curatorial, Silvio De Gracia, catálogo POSVERSO BIENAL, Hotel Dada editor, 2024).</small>
+
+
+
     fotos:
       - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/marcela_astorga_01.jpg', txt: 'Ph. Tato Giannini'}
       - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/marcela_astorga_02.jpg', txt: 'Ph. Tato Giannini'}

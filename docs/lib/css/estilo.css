@@ -767,6 +767,22 @@ a.actual {
     color: #fff;
   }
 }
+.btn-sonido {
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: transparent;
+  border: none;
+  opacity: 0.6;
+  background-image: url('/rec/grafica/icon-btn-sonido.svg');
+}
+.btn-sonido.sonido-silencio {
+  background-image: url('/rec/grafica/icon-btn-sonido-silencio.svg');
+}
+.btn-sonido:hover {
+  opacity: 0.9;
+}
 .ficha-exhibicion {
   position: relative;
   padding: 10px!important;
