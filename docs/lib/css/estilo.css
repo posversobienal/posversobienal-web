@@ -1070,6 +1070,13 @@ a.actual {
   .programa_completo .ev_titulo h5 {
     width: 100%;
   }
+  .movile-d-flex {
+    flex-direction: column;
+  }
+  .movile-d-flex img {
+    width: 100%!important;
+    max-width: 100%!important;
+  }
 }
 @media (max-width: 800px) {
   .en-2-columnas div.item {
