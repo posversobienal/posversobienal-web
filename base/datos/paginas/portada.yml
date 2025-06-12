@@ -6,8 +6,12 @@ ruta_static: 'index.html'
 
 
 bienal_2026:
-  video: '/rec/video/portada_2026_v2.mp4'
-  video_miniatura: '/rec/video/portada_2026_miniatura.jpg'
+  video: '/rec/video/portada_video_c.mp4'
+  #video: '/rec/video/video_c_3.mp4'
+  video_miniatura: '/rec/video/portada_miniatura_c.jpg'
+  video_creditos: 'Crédito del video: MAURIZIO MANCIOLI.'
+
+
   nombre: 'DEL ENCANTAMIENTO Y EL HORROR'
   texto: |
     El tema de la segunda edición de POSVERSO, _Del encantamiento y el horror_, busca rescatar, a través del arte y las poéticas experimentales, la relación perdida entre la humanidad y las formas de conocimiento precientíficas y precapitalistas.

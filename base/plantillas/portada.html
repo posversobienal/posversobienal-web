@@ -5,12 +5,13 @@
 <style>
 </style>
 
-<div class="video-container-fluid">
+<div class="bg-black video-container-fluid">
     <video id="video_portada" class="img-fluid" autoplay loop muted playsinline width="1280" height="720">
         <source src="{{ pag.bienal_2026.video }}" type="video/mp4">
         <img width="1280" height="720" class="img-fluid" src="{{ pag.bienal_2026.video }}">
     </video>
     <button id="video_sound_button" class="video-sound-button btn-sonido sonido-silencio">&nbsp;</button>
+    <div class="text-secondary text-end text-small px-3">{{ pag.bienal_2026.video_creditos }}</div>
     <script>
      document.addEventListener('DOMContentLoaded', () => {
          const video = document.getElementById('video_portada');
@@ -29,19 +30,16 @@
      });
     </script>
 </div>
-
-
-<div class=" text-center">
+<div class="bg-black text-center">
     <br><br><br>
-    <div class="display-4 px-3">{{ pag.bienal_2026.nombre }}</div>
-    <div class="fs-3 p-3">{{ markdown(pag.bienal_2026.fecha) }}</div>
+    <div class="text-white display-4 px-3">{{ pag.bienal_2026.nombre }}</div>
+    <div class="text-white fs-3 p-3">{{ markdown(pag.bienal_2026.fecha) }}</div>
     <div class="fs-4 px-5">
-        <div class="px-5">
+        <div class="text-white px-5">
             {{ markdown(pag.bienal_2026.texto) }}
         </div>
     </div>
     <br><br>
-
     <br><br>
     <br><br>
 </div>
