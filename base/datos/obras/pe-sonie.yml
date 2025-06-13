@@ -2,7 +2,7 @@
 
 titulo: 'Soñé'
 html_base: 'pagina.html'
-ruta_static: 'pag/pe-sonie/index.html'
+ruta_static: 'obr/pe-sonie/index.html'
 estilo: col-lg-11
 
 contenido: |

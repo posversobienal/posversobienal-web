@@ -2,7 +2,7 @@
 
 titulo: 'SCRAP.PY'
 html_base: 'pagina.html'
-ruta_static: 'pag/pe-scrappy/index.html'
+ruta_static: 'obr/pe-scrappy/index.html'
 estilo: col-lg-11
 
 contenido: |

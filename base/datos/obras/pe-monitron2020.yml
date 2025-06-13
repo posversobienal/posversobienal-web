@@ -2,7 +2,7 @@
 
 titulo: 'Monitrón 20.20'
 html_base: 'pagina.html'
-ruta_static: 'pag/pe-monitron2020/index.html'
+ruta_static: 'obr/pe-monitron2020/index.html'
 estilo: col-lg-11
 
 contenido: |

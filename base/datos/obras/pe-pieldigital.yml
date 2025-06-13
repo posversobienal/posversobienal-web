@@ -2,7 +2,7 @@
 
 titulo: 'Piel Digital (Tecnopoéticas expandidas)'
 html_base: 'pagina.html'
-ruta_static: 'pag/pe-pieldigital/index.html'
+ruta_static: 'obr/pe-pieldigital/index.html'
 estilo: col-lg-11
 
 contenido: |

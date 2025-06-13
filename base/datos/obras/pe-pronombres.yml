@@ -2,7 +2,7 @@
 
 titulo: 'Pronombres'
 html_base: 'pagina.html'
-ruta_static: 'pag/pe-pronombres/index.html'
+ruta_static: 'obr/pe-pronombres/index.html'
 estilo: col-lg-11
 
 contenido: |

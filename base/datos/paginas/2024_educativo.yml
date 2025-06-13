@@ -1,6 +1,6 @@
 ---
 
-titulo: 'Mediación educativa'
+titulo: 'Educativo'
 html_base: 'mediacion_educativa_y_talleres-menu.html'
 ruta_static: 'pag/mediacion_educativa_2024/index.html'
 estilo: col-lg-11
@@ -12,17 +12,6 @@ contenido: |
 
   A través de talleres, charlas, y diferentes instancias de intercambio y aprendizaje, a cargo de artistas y especialistas, se apuntó a brindar las herramientas conceptuales necesarias para acceder a una mayor comprensión y valoración de la oferta artística y cultural de la BIENAL.
 
-  Las actividades podrán ser en formato virtual o presencial.
-
-  Para contribuir en la tarea formativa, se trabajará en la producción de contenidos educativos digitales que serán disponibles en la web de la BIENAL.
-
-  Un aspecto privilegiado del programa educativo será la mediación entre las diferentes audiencias y las múltiples propuestas artísticas presentadas durante la BIENAL. Las formas de mediación podrán ser caminatas, recorridos y conversaciones en los que se abordarán distintos aspectos de las obras y proyectos.
-
-  Para ser viable y significativo este programa requiere de la colaboración y soporte de centros educativos y culturales y sedes asociadas al cronograma de exhibiciones de la BIENAL.
-
-  **Invitamos a directores, gestores culturales, maestros y formadores** a contactar a [posversobienal@gmail.com](mailto:posversobienal@gmail.com) para integrarse al programa educativo de POSVERSO BIENAL.
-
-  **Si te interesa ser parte del equipo de mediación de POSVERSO BIENAL** y potenciar nuestras propuestas de participación escolar y comunitaria puedes comunicarte a [{{ cfg.emails.pveducativo }}](mailto:{{ cfg.emails.pveducativo }}).
 
 lista:
   - 2024-09-23-18-00__capacitacion_en_instituto_129
@@ -44,7 +33,7 @@ otros: |
 contenido_talleres: |
 
   <br><br><br>
-  ## CRONOGRAMA DE TALLERES  {.text-center}
+  ## TALLERES  {.text-center}
 
   REALIZADOS EN 2024
   {.text-center}
