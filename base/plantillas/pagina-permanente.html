@@ -1,0 +1,33 @@
+{% extends "base-pag_permanente.html" %}
+
+{% block body %}
+{% if 'imagen_cabecera' in pag %}
+<div>
+    <img src="{{ pag.imagen_cabecera }}" class="img-fluid">
+    {% if 'imagen_cabecera_creditos' in pag %}
+    <div class="text-end text-small mx-3">{{ markdown(pag.imagen_cabecera_creditos) }}</div>
+    {% endif %}
+</div>
+{% endif %}
+
+
+<div class="container contenido">
+
+    <header class="my-5">
+        <h1 class="text-center">{{ markdown(pag.titulo) }}</h1>
+    </header>
+
+    <div class="row">
+        <section class="{{ pag.estilo }} col-lg-8">
+            {{ markdown(pag.contenido, pag) }}
+        </section>
+
+        {% if 'contenido_secundario' in pag %}
+        <section class="{{ pag.estilo_cnt_sec }}  ms-4 ps-4 border-start border-gray col-lg-3">
+            {{ markdown(pag.contenido_secundario, pag) }}
+        </section>
+        {% endif %}
+
+    </div>
+</div>
+{% endblock %}

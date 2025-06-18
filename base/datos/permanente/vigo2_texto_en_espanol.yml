@@ -1,0 +1,19 @@
+---
+titulo: 'Vigo 2'
+
+metadatos:
+  imagen_compartir: '/rec/pag_permanente/vigo2-compartir.png'
+
+
+html_base: 'pagina-permanente.html'
+ruta_static: 'perm/vigo2_esp/index.html'
+estilo: col-lg-12
+estilo_cnt_sec:
+
+
+contenido: |
+  Traducción del texto en español, por Silvio De Gracia.
+
+  (...)
+
+contenido_secundario: ''

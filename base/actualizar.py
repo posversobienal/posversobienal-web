@@ -212,6 +212,31 @@ def actualizar_paginas():
                 f.write(html)
 
 
+def actualizar_permanentes():
+    # completado de plantillas de PÁGINAS PERMANENTES
+    ruta_in = './datos/permanente/'
+    ruta_out = f'{ruta_public}perm/'
+    borrar_contenido(ruta_out)
+
+    for ar in [a for a in listdir(ruta_in) if a.endswith('.yml')]:
+        print('Página permanente: ', ar)
+
+        dat_cfg['actualizacion'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+        dat_cfg['cache_actu'] = int(time_ns() / 1000)
+        dat_pag = leer_yml(f'{ruta_in}{ar}')
+
+        if dat_pag['ruta_static']:
+
+            arc_out = ruta_public + dat_pag['ruta_static']
+            makedirs(dirname(arc_out), exist_ok=True)
+
+            tpl = env_jinja2.get_template(dat_pag['html_base'])
+            html = tpl.render(cfg=dat_cfg, pag=dat_pag, rec=dat_rec)
+
+            with open(arc_out, 'w') as f:
+                f.write(html)
+
+
 def actualizar_obras():
     # completado de plantillas de OBRAS
     ruta_in = './datos/obras/'
@@ -311,6 +336,7 @@ def actualizar_todo():
     actualizar_personas()
     actualizar_artistas()
     actualizar_paginas()
+    actualizar_permanentes()
     actualizar_sedes()
     actualizar_obras()
     actualizar_bitacora()
