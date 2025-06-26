@@ -13,9 +13,11 @@
 
 <div class="container contenido">
 
+    {% if pag.titulo_automatico %}
     <header class="my-5">
         <h1 class="text-center">{{ markdown(pag.titulo) }}</h1>
     </header>
+    {% endif %}
 
     <div class="row">
         <section class="{{ pag.estilo }} col-lg-8">
