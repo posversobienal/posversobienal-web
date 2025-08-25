@@ -14,7 +14,8 @@ web: ''
 fotos:
   persona: 'natalia_giglietti.jpg'
 
-detalle: |
-  {{ idioma('esp') }}
+etiquetas:
+  - participo_en_2024
 
+detalle: |
   Doctora en Artes, licenciada y profesora en Historia de las Artes Visuales por la Facultad de Artes de la Universidad Nacional de La Plata (FDA-UNLP) y Especialista en Crítica de Artes por la Universidad Nacional de las Artes (UNA). Cursó la Maestría en Curaduría en Artes Visuales en la Universidad Nacional de Tres de Febrero (UNTREF). Se desempeña como Titular ordinaria en la cátedra Teoría de la Historia y como titular en el seminario Historia de la Fotografía (FDA-UNLP). Fue becaria de investigación tipo A y B de la UNLP. Sus últimas publicaciones trabajan en torno a los archivos personales de artistas. Dirige NIMIO. Revista de la cátedra Teoría de la Historia, publicación especializada en arte y archivos, y el Proyecto de Investigación Arte, archivos y cultura visual entre 1980 y 2001. Acervos personales de artistas visuales y de diseñadores de la ciudad de La Plata (PPID-UNLP). Entre 2011 y 2014, fue Directora de Arte de la Prosecretaría de Arte y Cultura de la UNLP. Actualmente, es Prosecretaria de Arte de la Secretaría de Arte y Cultura de la UNLP, tiene a su cargo el Centro de Arte de la UNLP.

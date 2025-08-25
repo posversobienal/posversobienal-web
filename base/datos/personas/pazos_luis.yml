@@ -13,15 +13,17 @@ eventos: []
 
 fotos:
   persona: 'luis_pazos.jpg'
-  #obra: 'luis_pazos-1.jpg'
 
 imagen_cabecera_posicion_inicial: 50% 55%
 
+etiquetas:
+  - participo_en_2024
+
 detalle: |
-  {{ idioma('esp') }}
 
   (La Plata, 1940-2023). Artista conceptual, performer y poeta. Recibió el Premio Distinción a la Trayectoria de la Academia Nacional de Bellas Artes (ANBA, 2020) y el Premio Nacional a la Trayectoria Artística 2020/2021 (Palais de Glace, 2021). Integró los grupos Esmilodonte, Grupo La Plata, Movimiento Diagonal Cero, Grupo de los 13, CAyC (Centro de Arte y Comunicación) y Grupo Escombros. Publicó los libro-objeto: El dios del laberinto y La Corneta en 1967, editados por la Revista Diagonal Cero, dirigida por Edgardo Antonio Vigo. Publicó junto a Claudio Mangifesta los libros de poesía visual, Letra suelta (2015), Del Silencio como mirada (2016) y La escritura de la ciudad (2020). Publicó los libros El cazador metafísico. Poesía Reunida I (2011), El Fabricante de modos de vida. Acciones, Cuerpo, Poesía. Document Art (2012), escrito por Fernando Davis, Señor de la alucinación (2013), Poesía Reunida II. El Señor de la Alucinación y el Cantar de Godofredo de Bouillon. La espada de Dios (2019); Mulata (2021) y Poema inconcluso para Luisa Pazos (2021). Su obra integra colecciones de instituciones públicas y privadas como el Museo Nacional Centro de Arte Reina Sofía (MNCARS), The Museum of Modern Art (MoMA), el Museo de Arte Moderno de Buenos Aires (MAMBA) y el Centro de Arte Experimental Vigo (CAEV) y el Archivo de Arte del Centro de Arte (UNLP).
 
+extra: |
   {{ idioma('eng') }}
 
   (La Plata, 1940-2023). Conceptual artist, performer and poet. He received the Distinction Award for Lifetime Achievement from the National Academy of Fine Arts (ANBA, 2020) and the National Award for Artistic Lifetime Achievement 2020/2021 (Palais de Glace, 2021). He was a member of the groups Esmilodonte, Grupo La Plata, Movimiento Diagonal Cero, Grupo de los 13, CAyC (Center for Art and Communication) and Grupo Escombros. He published the book-objects: El dios del laberinto and La Corneta in 1967, edited by the Diagonal Cero Magazine, directed by Edgardo Antonio Vigo. Together with Claudio Mangifesta, he published the books of visual poetry, Letra suelta (2015), Del Silencio como mirada (2016) and La escritura de la ciudad (2020). He published the books El cazador metafísico. Poesía Reunida I (2011), El Fabricante de modos de vida. Acciones, Cuerpo, Poesía. Document Art (2012), written by Fernando Davis, Señor de la alucinación (2013), Poesía Reunida II. El Señor de la Alucinación y el Cantar de Godofredo de Bouillon. La espada de Dios (2019); Mulata (2021) and Poema inconcluso para Luisa Pazos (2021). His work integrates collections of public and private institutions such as the Museo Nacional Centro de Arte Reina Sofía (MNCARS), The Museum of Modern Art (MoMA), the Museum of Modern Art of Buenos Aires (MAMBA) and the Centro de Arte Experimental Vigo ( CAEV) and the Art Archive of the Art Center (UNLP).

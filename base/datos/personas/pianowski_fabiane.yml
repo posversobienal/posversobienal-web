@@ -14,11 +14,17 @@ web: ''
 fotos:
   persona: 'fabiane_pianowski.jpg'
 
-detalle: |
-  {{ idioma('esp') }}
+etiquetas:
+  - participo_en_2024
 
+detalle: |
+  Nacida en Castro/PR/Brasil (1974). Investigadora, profesora y artista. Desde 2013, actua como profesora adjunta del Instituto de Letras y Artes (ILA) de la Universidad Federal de Río Grande - FURG. Doctora en Historia, Teoría y Crítica por la Universidad de Barcelona. Coordina proyectos de investigación, docencia y extensión en comunicación visual, arte correo, poesía visual y educación artística. Entre sus principales proyectos universitarios estan _Miradas Enredadas/Networking Glances_ (@networkingglances) y Nave – Núcleo Artes Visuais en Extensión (@navefurg). Acaba de realizar una estancia postdoctoral en la Universidad de Barcelona y participar en el programa de investigadores invitados del Centro de Estudios y Documentación (CED) del Museu d'Art Contemporani de Barcelona (MACBA) para investigar la obra de Pere Sousa.
+
+
+_detalle: |
   Nacida en Castro/PR/Brasil (1974). Investigadora, profesora y artista. Desde 2013, actua como profesora adjunta del Instituto de Letras y Artes (ILA) de la Universidad Federal de Río Grande - FURG. Doctora en Historia, Teoría y Crítica por la Universidad de Barcelona. Coordina proyectos de investigación, docencia y extensión en comunicación visual, arte correo, poesía visual y educación artística. Entre sus principales proyectos universitarios estan Miradas Enredadas/Networking Glances (@networkingglances) y Nave – Núcleo Artes Visuais en Extensión (@navefurg). Acaba de realizar  una estancia postdoctoral en la Universidad de Barcelona y participar en el programa de investigadores invitados del Centro de Estudios y Documentación (CED) del Museu d'Art Contemporani de Barcelona (MACBA) para investigar la obra de Pere Sousa.
 
+extra: |
   {{ idioma('eng') }}
 
   Born in Castro/PR/Brazil (1974). Researcher, teacher and artist. Since 2013, she acts as an adjunct professor at the Institute of Letters and Arts (ILA) of the Federal University of Rio Grande-FURG. She holds a doctorate in History, Theory and Criticism from the University of Barcelona. She coordinates research, teaching and extension projects in visual communication, mail art, visual poetry and artistic education. Among her main university projects are Miradas Enredadas / Networking Glances (@networkingglances) and Nave – Núcleo Artes Visuais en Extension (@navefurg). She has just completed a postdoctoral stay at the University of Barcelona and participated in the guest researchers program of the Center for Studies and Documentation (CED) of the Museu d'Art Contemporani de Barcelona (MACBA) to investigate the work of Pere Sousa.

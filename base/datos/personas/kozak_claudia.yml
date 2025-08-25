@@ -14,7 +14,8 @@ web: ''
 fotos:
   persona: 'claudia_kozak.jpg'
 
-detalle: |
-  {{ idioma('esp') }}
+etiquetas:
+  - participo_en_2024
 
+detalle: |
   Doctora en Letras (UBA), investigadora principal del Conicet, profesora titular en la carrera de Comunicación y adjunta en la carrera de Letras, de la Universidad de Buenos Aires. Coordina Ludión. Exploratorio latinoamericano de poéticas/políticas tecnológicas y la Red de Literatura Electrónica Latinoamericana. Integra el Consejo de Directores de la Electronic Literature Organization. Algunos de sus libros más recientes como autora y compiladora son: Antología Lit(e)Lat Vol. 1 (Antología de Literatura Electrónica Latinoamericana y Caribeña, coeditado con Leonardo Flores y Rodolfo Mata, 2020, [antologia.litelat.net](http://antologia.litelat.net/); Fobias-fonias-fagias. Escritas experimentais e eletrónicas ibero-afro-latinoamericanas (coeditado con Rui Torres, 2019); Tecnopoéticas argentinas. Archivo blando de arte y tecnología (2012, reedición 2015).
