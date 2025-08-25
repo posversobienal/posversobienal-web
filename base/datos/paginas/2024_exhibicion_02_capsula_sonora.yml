@@ -88,10 +88,10 @@ contenido: |
 
 contenido_secundario: |
   <small>CURADURÍA:</small>
-  <br>{{ per('ana_montenegro') }} y {{ per('silvio_de_gracia') }}.
+  <br>{{ per('montenegro_ana') }} y {{ per('de_gracia_silvio') }}.
 
   <small>DISEÑO EXPOSITIVO:</small>
-  <br>{{ per('ana_montenegro') }}.
+  <br>{{ per('montenegro_ana') }}.
 
   <small>SEDE:</small>
   <br>[HOTEL DADA. Base de Arte Correo y Poesía Experimental](/sds/hotel_dada/)
@@ -105,15 +105,15 @@ contenido_secundario: |
   <br><br>
   <small>ARTISTAS:</small>
 
-  + {{ per('bartolome_ferrando') }}
-  + {{ per('cristiana_de_marchi') }}
-  + {{ per('ferran_destemple') }}
-  + {{ per('flora_holderbaum') }}
-  + {{ per('giovanni_fontana') }}
-  + {{ per('irina_novarese') }}
-  + {{ per('jaap_blonk') }}
-  + {{ per('juan_angel_italiano') }}
-  + {{ per('monica_mura') }}
-  + {{ per('rafael_bresciani') }}
-  + {{ per('stephan_gross') }}
-  + {{ per('yuri_bruscky') }}
+  + {{ per('blonk_jaap') }}
+  + {{ per('bresciani_rafael') }}
+  + {{ per('bruscky_yuri') }}
+  + {{ per('de_marchi_cristiana') }}
+  + {{ per('destemple_ferran') }}
+  + {{ per('ferrando_bartolome') }}
+  + {{ per('fontana_giovanni') }}
+  + {{ per('gross_stephan') }}
+  + {{ per('holderbaum_flora') }}
+  + {{ per('italiano_juan_angel') }}
+  + {{ per('mura_monica') }}
+  + {{ per('novarese_irina') }}

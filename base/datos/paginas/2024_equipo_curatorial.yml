@@ -12,7 +12,7 @@ contenido: |
 
   ![Silvio De Gracia](/rec/foto/personas/silvio_de_gracia.jpg){.foto-izq-parrafo}
 
-  ### {{ per('silvio_de_gracia') }}{id=silvio_de_gracia}
+  ### {{ per('de_gracia_silvio') }}{id=silvio_de_gracia}
 
   <br>
   Escritor, artista visual, poeta experimental, performer y curador independiente, nacido en Junín, Argentina. Entre 2002 y 2015 fue director y curador de varios eventos y festivales de videoarte y performance en su ciudad, como Festival de la interferencia – In memoriam Edgardo Antonio Vigo (2007) y Participación – Encuentro Latinoamericano de Performance (2015).  Entre 2002 y 2022, dirigió la revista de arte correo y poesía visual HOTEL DADA. Entre sus curadurías, presentadas en varios países alrededor del mundo, destacan: La Persistencia del Cuerpo - Rastros del Arte de Performance en América Latina, EAC Espacio de Arte Contemporáneo, Montevideo, Uruguay, 2018; Cuerpos en disidencia - Documents in photography and video of Performance Art in South American in the 1970s and 1980s, Venice International Performance Art Week, Venecia, Italia, 2014; Flyers - Programa Colateral de la Oncena Bienal de La Habana, Cuba (2012). Miembro del comité de redacción internacional de la revista canadiense Inter art actuel. Co-director de la galería HOTEL DADA. Curador asociado en BIENALSUR 2023, Bienal Internacional de Arte Contemporáneo del Sur.
@@ -25,24 +25,10 @@ contenido: |
 
   ![Ana Montenegro](/rec/foto/personas/ana_montenegro.jpg){.foto-izq-parrafo}
 
-  ### {{ per('ana_montenegro') }}{id=ana_montenegro}
+  ### {{ per('montenegro_ana') }}{id=ana_montenegro}
 
   <br>
   Artista visual y performer brasileña, basada en Argentina. Con formación en arquitectura, escenografía y semiótica peirceana, desarrolla cursos de Proceso Artístico con base en la semiótica, talleres, charlas y asesorías para artistas. Co-directora de la galería HOTEL DADA, donde se ocupa de la dirección artística y de la presentación de distintos proyectos editoriales y curatoriales. Con una amplia trayectoria nacional e internacional en el campo del arte de performance, se destaca por la práctica de la performance sonora y la poesia experimental en diversos soportes. Responsable de curadurías en Argentina y Brasil, fue curadora asociada en BIENALSUR 2023, Bienal Internacional de Arte Contemporáneo del Sur.
-
-  _
-  {.no-flota}
-
-  <br>
-
-
-extra: |
-  ![Juan Montelpare](/rec/foto/personas/juan_montelpare_2.jpg){.foto-izq-parrafo}
-
-  ## {{ per('juan_montelpare') }}{id=juan_montelpare}
-
-  <br>
-  Artista de la ciudad de Valcheta, Río Negro, Patagonia Argentina. Estudió artes visuales en Argentina y Cuba. Realizó acciones en diferentes medios y disciplinas artísticas centrados en el espacio público y el paisaje a partir de la presencia o ausencia del cuerpo. Curador y director de encuentros y muestras latinoamericanas e internacionales de performance y land art. Actualmente dirige la Bienal Internacional de Arte de Río Negro y es Director de Museos, Arte y Comunidad de la Secretaria de Cultura de Río Negro. Posee publicados textos de performance en espacios de arte de Latinoamérica y Europa.
 
   _
   {.no-flota}

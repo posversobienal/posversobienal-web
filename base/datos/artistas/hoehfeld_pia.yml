@@ -1,0 +1,61 @@
+---
+
+nombre: 'Pia'
+apellido: 'Höhfeld'
+seudonimo: ''
+
+nacionalidad: 'Alemania'
+contacto_publico: ''
+
+web: ''
+
+eventos: []
+
+fotos:
+  persona: 'pia_hoehfeld.jpg'
+  obra: 'pia_hoehfeld-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 40%
+
+etiquetas:
+  - seleccionado
+  - participo_en_2024
+
+detalle: |
+  Nacida en 1996, en Berlín. Con formación profesional como diseñadora de medios impresos (2019-2022), y becada por la "Verein für die schwarzen Künste" para la impresión tipográfica tradicional (2023). Desde 2024, realiza estudios de licenciatura en Comunicación Visual, Escuela de Arte Weißensee de Berlín. Entre sus exposiciones colectivas se pueden destacar: "Plaster - Festival internacional de carteles y tipografía",Torun, Polonia, 2022; 4th Block Anti-War Poster exhibition, Springfield, Missouri, 2023; "Papier Global 6- Trienal internacional de las artes del papel", Deggendorf, Alemania, 2024; y "Home- A Journey to Belonging"; Berlín, Alemania, 2024.
+
+
+_detalle: |
+  {{ idioma('esp') }}
+  Nacida en 1996, Berlín (Alemania).
+
+  + 2019-2022: formación profesional como diseñadora de medios impresos
+  + 2023: beca de la "Verein für die schwarzen Künste" para la impresión tipográfica tradicional
+  + Desde 2024: estudios de licenciatura en Comunicación Visual, Escuela de Arte Weißensee de Berlín
+
+  Exposiciones seleccionadas:
+
+  + "Plaster - Festival internacional de carteles y tipografía"; Torun, Polonia; 2022
+  + 4th Block Anti-War Poster exhibition; Springfield, Missouri; 2023
+  + "Papier Global 6- Trienal internacional de las artes del papel"; Deggendorf, Alemania; 2024
+  + "Home- A Journey to Belonging"; Berlín, Alemania; 2024
+
+
+
+  {{ idioma('eng') }}
+  Born 1996 in Berlin (Germany).
+  {.lang-eng}
+
+  + 2019-2022: Professional training as a Media Designer for print
+  + 2023: scholarship from the "Verein für die schwarzen Künste" for traditional letterpress printing
+  + Since 2024: Bachelor-Studies Visual Communications, Weißensee Art-School Berlin
+  {.lang-eng}
+
+  Selected exhibitions:
+  {.lang-eng}
+
+  + "Plaster - International Poster and Typography Festival"; Torun, Poland; 2022
+  + 4th Block Anti-War Poster exhibition; Springfield, Missouri (USA); 2023
+  + "Papier Global 6- International Paper Arts Triennal"; Deggendorf, Germany; 2024
+  + "Home- A Journey to Belonging"; Berlin, Germany; 2024
+  {.lang-eng}

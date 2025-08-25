@@ -1,0 +1,46 @@
+---
+
+nombre: 'Jaap'
+apellido: 'Blonk'
+seudonimo: ''
+
+nacionalidad: 'Holanda'
+contacto_publico: ''
+
+web: 'http://jaapblonk.com/'
+
+eventos: []
+
+fotos:
+  persona: 'jaap_blonk.jpg'
+  obra: 'jaap_blonk-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - invitado
+  - participo_en_2024
+
+detalle: |
+  (Woerden, Holanda, 1953) Es un compositor, performer y poeta autodidacta. A finales de la década de 1970 empezó a tocar el saxofón y empezó a componer música. Unos años más tarde descubrió su potencial como intérprete vocal, primero en la recitación de poesía y luego en improvisaciones y composiciones propias. Durante casi dos décadas la voz fue su principal medio para el descubrimiento y desarrollo de nuevos sonidos. Alrededor del año 2000, comenzó a trabajar con la electrónica, al principio usando muestras de su propia voz, luego ampliando el campo para incluir la síntesis de sonido puro y trabajando con sintetizadores analógicos. Como vocalista, Jaap Blonk es único por su poderosa presencia en el escenario y su libertad casi infantil en la improvisación, combinada con una aguda comprensión de la estructura. Ha actuado en todo el mundo, en todos los continentes. Con el uso de electrónica en vivo y visuales interactivos, el alcance de sus conciertos ha adquirido una extensión considerable. Además de trabajar como solista, ha colaborado con muchos músicos y conjuntos en el campo de la música contemporánea e improvisada, como Maja Ratkje, Mats Gustafsson, Joan La Barbara, The Ex, el Dutch Wind Ensemble y la Ebony Band.
+
+
+_detalle: |
+  {{ idioma('esp') }}
+
+  (Woerden, Holanda, 1953) Es un compositor, performer y poeta autodidacta. Fue a la universidad para estudiar matemáticas y musicología, pero no terminó esos estudios. A finales de la década de 1970 empezó a tocar el saxofón y empezó a componer música. Unos años más tarde descubrió su potencial como intérprete vocal, primero en la recitación de poesía y luego en improvisaciones y composiciones propias. Durante casi dos décadas la voz fue su principal medio para el descubrimiento y desarrollo de nuevos sonidos. Alrededor del año 2000, Blonk comenzó a trabajar con la electrónica, al principio usando muestras de su propia voz, luego ampliando el campo para incluir la síntesis de sonido puro y trabajando con sintetizadores analógicos.
+
+  Como vocalista, Jaap Blonk es único por su poderosa presencia en el escenario y su libertad casi infantil en la improvisación, combinada con una aguda comprensión de la estructura. Ha actuado en todo el mundo, en todos los continentes. Con el uso de electrónica en vivo y visuales interactivos, el alcance de sus conciertos ha adquirido una extensión considerable. Además de trabajar como solista, ha colaborado con muchos músicos y conjuntos en el campo de la música contemporánea e improvisada, como Maja Ratkje, Mats Gustafsson, Joan La Barbara, The Ex, el Dutch Wind Ensemble y la Ebony Band. Estrenó varias composiciones de la compositora alemana Carola Bauckholt, incluida una pieza para voz y orquesta. El Donaueschinger Musiktage encargó una pieza para voz solista. En varias ocasiones colaboró ​​con el artista visual informático Golan Levin, para el Festival Ars Electronica.
+
+  Tiene su propio sello discográfico, Kontrans, con un total de 29 lanzamientos hasta el momento. Otras grabaciones de Blonk aparecieron en varios sellos, como Staalplaat, Basta, VICTO, Ecstatic Peace, Monotype Records, Terp y Relative Pitch. Hybriden-Verlag, Berlín, publicó varios libros con su obra visual, cada uno con un CD y un dibujo original. Otros libros se publicaron en Simulacrum Press y Xexoxial. En 2013 apareció una colección completa de su poesía sonora en forma de libro con 2 CD, bajo el título "KLINKT".
+
+  {{ idioma('eng') }}
+
+  (Woerden, Holland, 1953) Blonk is a self-taught composer, performer and poet.He went to university for mathematics and musicology but did not finish those studies. In the late 1970s he took up saxophone and started to compose music. A few years later he discovered his potential as a vocal performer, at first in reciting poetry and later on in improvisations and his own compositions. For almost two decades the voice was his main means for the discovery and development of new sounds. From around the year 2000 on Blonk started work with electronics, at first using samples of his own voice, then extending the field to include pure sound synthesis as well as work with analog synthesizers.
+  {.lang-eng}
+
+  As a vocalist, Jaap Blonk is unique for his powerful stage presence and almost childlike freedom in improvisation, combined with a keen grasp of structure. He has performed around the world, on all continents. With the use of live electronics and interactive visuals the scope and range of his concerts has acquired a considerable extension. Besides working as a soloist, he collaborated with many musicians and ensembles in the field of contemporary and improvised music, like Maja Ratkje, Mats Gustafsson, Joan La Barbara, The Ex, the Netherlands Wind Ensemble and the Ebony Band. He premiered several compositions by the German composer Carola Bauckholt, including a piece for voice and orchestra. A solo voice piece was commissioned by the Donaueschinger Musiktage. On several occasions he collaborated with visual computer artist Golan Levin, for the Ars Electronica Festival.
+  {.lang-eng}
+
+  He has his own record label, Kontrans, featuring a total of 29 releases so far. Other Blonk recordings appeared on various labels, such as Staalplaat, Basta, VICTO, Ecstatic Peace, Monotype Records, Terp and Relative Pitch. Several books with his visual work were published by Hybriden-Verlag, Berlin, each one with a CD and an original drawing. Other books came out at Simulacrum Press and Xexoxial. A comprehensive collection of his sound poetry appeared as a book with 2 CDs in 2013, entitled "KLINKT".
+  {.lang-eng}

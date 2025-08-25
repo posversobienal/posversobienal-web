@@ -13,5 +13,8 @@ geopos:
 fotos:
   - 'par1000_aula_teatro.jpg'
 
+etiquetas:
+  - participo_en_2024
+
 eventos_asociados: []
 descripcion: []

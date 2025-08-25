@@ -1,0 +1,46 @@
+---
+
+nombre: 'Marcela'
+apellido: 'Astorga'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://www.instagram.com/marce_astorga/'
+
+eventos: []
+
+fotos:
+  persona: 'marcela_astorga.jpg'
+  obra: 'marcela_astorga-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 40%
+
+etiquetas:
+  - invitado
+  - participo_en_2024
+
+detalle: |
+  Nació en Mendoza en una familia de inmigrantes. Estaba fascinada por la naturaleza. Se mudó a la capital de Argentina, donde comenzó a estudiar diseño, carrera que no terminó. Hubo un punto de inflexión, a principios de la década pasada cuando dejó la pintura al darse cuenta de que su trabajo evolucionaba alrededor de la piel de la manera más amplia y profunda. Trabaja con cuero, cerda de caballo y lana, con mantas y textiles, escombros y ladrillos, considerados la piel arquitectónica. Ella ha encontrado y continúa ampliando su propio lenguaje visual con diversidad de materialidades, pero siempre reconocible: abstracto, con pocos colores y una invitación a la asociación poética. Sus exposiciones incluyen la 12a Bienal del Mercosur, Brasil; Parque de la Memoria; Centro Cultural CCK Kirchner y Centro Cultural Recoleta, Buenos Aires, Argentina; La Maison Rouge y el Centro Pompidou, París, Francia; MUAC Museo Universitario de Arte Contemporáneo, Ciudad de México, México; MUMOK. Museo de Arte Contemporáneo de Viena, Austria; Fundación de Arte Cisneros Fontanals CIFO, Miami, EE.UU.; y en la Colección Zabludowicz, Project Space 176, Londres, Reino Unido.
+
+
+_detalle: |
+  {{ idioma('esp') }}
+
+  Nació en Mendoza en una familia de inmigrantes. Estaba fascinada por la naturaleza.
+
+  Se mudó a la capital de Argentina, donde comenzó a estudiar diseño, carrera que no terminó. Hubo un punto de inflexión, a principios de la década pasada cuando dejó la pintura al darse cuenta de que su trabajo evolucionaba alrededor de la piel de la manera más amplia y profunda. Trabaja con cuero, cerda de caballo y lana, con mantas y textiles, escombros y ladrillos, considerados la piel arquitectónica. Ella ha encontrado y continúa ampliando su propio lenguaje visual con diversidad de materialidades, pero siempre reconocible: abstracto, con pocos colores y una invitación a la asociación poética.
+
+  Sus exposiciones incluyen la 12a Bienal del Mercosur, Brasil; Parque de la Memoria; Centro Cultural CCK Kirchner y Centro Cultural Recoleta, Buenos Aires, Argentina; La Maison Rouge y el Centro Pompidou, París, Francia; MUAC Museo Universitario de Arte Contemporáneo, Ciudad de México, México; MUMOK. Museo de Arte Contemporáneo de Viena, Austria; Fundación de Arte Cisneros Fontanals CIFO, Miami, EE.UU.; y en la Colección Zabludowicz. Project Space 176. Londres, Reino Unido.
+
+  {{ idioma('eng') }}
+
+  Born in Mendoza to a family of immigrants. She was mesmerized by nature.
+  {.lang-eng}
+
+  She moved to the capital of Argentina, where she started studying design – a career path she did not finish. There was a turning point at the beginning of the last decade when she left painting realizing her work evolved around the skin in the broadest and most profound way. The artist works with leather, horse bristle and wool, with blankets and textiles, debrish and bricks, considered the architectural skin. She has found and continues to expand her own visual language with a diversity in materiality, yet always recognizably hers: abstract, with few colors, and an invitation for poetic association.
+  {.lang-eng}
+
+  Your exhibitions include the 12th Mercosur Biennial, Brazil; Parque de la Memoria; CCK Kirchner Cultural Center and Recoleta Cultural Center, Buenos Aires, Argentina; The Maison Rouge and Centre Pompidou, Paris, France; MUAC University Museum of Contemporary Art, Mexico City, Mexico; MUMOK. Museum of Contemporary Art in Vienna, Austria; Cisneros Fontanals Art Foundation CIFO, Miami, USA; and in the Zabludowicz Collection. Project Space 176. London, UK.
+  {.lang-eng}

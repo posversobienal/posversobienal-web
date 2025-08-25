@@ -1,0 +1,36 @@
+---
+
+nombre: 'Marie'
+apellido: 'Orensanz'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://www.marieorensanz.com/'
+
+eventos: []
+
+fotos:
+  persona: 'marie_orensanz.jpg'
+  obra: 'marie_orensanz-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 0%
+
+etiquetas:
+  - invitado
+  - participo_en_2024
+
+detalle: |
+  Nació en Mar del Plata en 1936. Estudió en el taller de Emilio Pettoruti y Antonio Seguí. Entre 1972 y 1975 se estableció en Milán; en la actualidad, comparte su residencia entre Buenos Aires, Argentina y Paris, Francia. Comenzó a exponer en 1963, en Buenos Aires. Participó en importantes muestras colectivas como "Nuevas técnicas, nuevos materiales", en el Museo Nacional de Bellas Artes. En 1971 integró la exposición "Arte de Sistema", en el Museo de Arte Moderno de Buenos Aires, que fue la mayor exhibición internacional de arte conceptual realizada en el país. En una exposición en Milán, titulada _Eros as Language_ (1974), Orensanz colgó un manifiesto en el que escribió “Il pensare è un fatto rivoluzionario” (Pensar es un acto revolucionario), que anunciaba lo que sería una frase seminal en su arte. En 1975 se instaló con su familia de forma permanente en París y comenzó a desarrollar la teoría del fragmentismo. Desde mediados de la década de 1980, Orensanz ha realizado varias obras públicas monumentales, entre ellas instalaciones en Art Basel Miami, Puerto Madero de Buenos Aires, el Parque de la Memoria de Buenos Aires, el Liceo Blanc-Mesnil de París, la Universidad San Martín de Buenos Aires y el Museo Nacional de Ciencias, Técnicas e Industrias de París. Su obra se encuentra en colecciones públicas y privadas de todo el mundo, como el Centro Pompidou de París, el Museo Nacional de Bellas Artes de Buenos Aires, la Colección Jorge Perez, Miami; Crans-Montana Ville, Suiza; Fond National d’Art Contemporain, Paris; Bremen Museum, Alemania; Centro de Multimedia Internacional, São Paulo, Brasil; M2A2 Musée Martiniquais des Arts des Amériques, Le Lamentin, Martinique; Museo de Arte Latinoamericano Contemporáneo de Managua, Nicaragua, entre otros.
+
+
+_detalle: |
+  {{ idioma('esp') }}
+
+  Nació en Mar del Plata en 1936. Estudió en el taller de Emilio Pettoruti y Antonio Seguí. Entre 1972 y 1975 se estableció en Milán; en la actualidad, comparte su residencia entre Buenos Aires, Argentina y Paris, Francia. Comenzó a exponer en 1963, en Buenos Aires. Participó en importantes muestras colectivas como "Nuevas técnicas, nuevos materiales", en el Museo Nacional de Bellas Artes. En 1971 integró la exposición "Arte de Sistema", en el Museo de Arte Moderno de Buenos Aires, que fue la mayor exhibición internacional de arte conceptual realizada en el país. En una exposición en Milán titulada Eros as Language (1974), Orensanz colgó un manifiesto en el que escribió “Il pensare èun fatto rivoluzionario” (Pensar es un acto revolucionario), que anunciaba lo que sería una frase seminal en su arte. En 1975 se instaló con su familia de forma permanente en París y comenzó a desarrollar la teoría del fragmentismo. Desde mediados de la década de 1980, Orensanz ha realizado varias obras públicas monumentales, entre ellas instalaciones en Art Basel Miami, Puerto Madero de Buenos Aires, el Parque de la Memoria de Buenos Aires, el Liceo Blanc-Mesnil de París, la Universidad San Martín de Buenos Aires y el Museo Nacional de Ciencias, Técnicas e Industrias de París. Su obra se encuentra en colecciones públicas y privadas de todo el mundo, como el Centro Pompidou de París, el Museo Nacional de Bellas Artes de Buenos Aires, la Colección Jorge Perez, Miami; Crans-Montana Ville, Suiza; Fond National d’Art Contemporain, Paris; Bremen Museum, Alemania; Centro de Multimedia Internacional, São Paulo, Brasil; M2A2 Musée Martiniquais des Arts des Amériques, Le Lamentin, Martinique; Museo de Arte Latinoamericano Contemporáneo de Managua, Nicaragua, entre otros.
+
+  {{ idioma('eng') }}
+
+  Born in Mar del Plata, Argentina. She's a key figure of the South American art. She's began her artistic career studying painting with two of the foundational artists of Argentine Modernism: Emilio Pettoruti and Antonio Seguí. An active member of the art scene in Buenos Aires in the 1960s and 1970s, she participated in the exhibitions and cultural activities organized by the Instituto Torcuato Di Tella, and she was involved with the Centro de Arte y Comunicación. In 1972, she moved to Milan. The proximity to Carrara and its marble quarries sparked her early production in stone. She has continued to work with fragments of marble, making them into books and sculptures, since the 1970s. Christina M. Harrison writes, “Orensanz uses material and symbolic fragments—of marble, of line, of signs—to represent thoughts. … An interpretation of the work, in Orensanz’s conception, depends on the intersection of the fragments with the viewer’s own thoughts and experiences.”
+  {.lang-eng}

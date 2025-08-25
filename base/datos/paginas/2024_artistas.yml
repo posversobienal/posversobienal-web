@@ -11,6 +11,7 @@ filtrador: |
 contenido: |
 
   {% for id_art, dat_art  in rec.artistas.items() %}
+  {% if 'participo_en_2024' in dat_art.etiquetas %}
 
   <div id="{{ id_art }}" class="filtro-artista w250p border border-dark rounded-2 m-2 p-0">
     <div><img src="/rec/foto/personas/{{ dat_art.fotos.persona }}" class="img-fluid m-0"></div>
@@ -26,5 +27,5 @@ contenido: |
     </div>
   </div>
 
-
+  {% endif %}
   {% endfor %}

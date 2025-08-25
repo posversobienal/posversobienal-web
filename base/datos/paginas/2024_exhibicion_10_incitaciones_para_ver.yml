@@ -67,10 +67,10 @@ contenido: |
 contenido_secundario: |
 
   <small>CURADURÍA:</small>
-  <br>{{ per('silvio_de_gracia') }} y {{ per('ana_montenegro') }}.
+  <br>{{ per('de_gracia_silvio') }} y {{ per('montenegro_ana') }}.
 
   <small>DISEÑO EXPOSITIVO:</small>
-  <br>{{ per('ana_montenegro') }}.
+  <br>{{ per('montenegro_ana') }}.
 
   <small>SEDE:</small>
   [Centro de Capacitación y Cultura ATSA](/sds/centro_de_capacitacion_y_cultura_atsa/)
@@ -85,11 +85,11 @@ contenido_secundario: |
   <br><br>
   <small>ARTISTAS:</small>
 
-  + {{ per('gaby_lobato') }}
-  + {{ per('jimson_vilela') }}
+  + {{ per('chiesa_mariana') }}
+  + {{ per('d_barros_tchello') }}
+  + {{ per('hoehfeld_pia') }}
   + {{ per('la_lengua_en_la_calle') }}
-  + {{ per('maria_zegna') }}
-  + {{ per('mariana_chiesa') }}
-  + {{ per('pia_hoehfeld') }}
-  + {{ per('ruben_liggera') }}
-  + {{ per('tchello_d_barros') }}
+  + {{ per('liggera_ruben') }}
+  + {{ per('lobato_gaby') }}
+  + {{ per('vilela_jimson') }}
+  + {{ per('zegna_maria') }}

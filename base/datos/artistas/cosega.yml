@@ -19,8 +19,15 @@ imagen_cabecera_posicion_inicial: 50% 50%
 
 etiquetas:
   - seleccionado
+  - participo_en_2024
 
 detalle: |
+  Bajo el nombre de Corporación semiótica galega se esconde la obra artística de Lois Gil Magariños, profesor de filosofía nacido en Pontecesures, Pontevedra, en 1964; poeta visual, performer y artecorreísta en ejercicio desde 1995. Ha autoeditado varios blogs de poesía visual y discursiva que ha distribuido a través de la red de arte correo durante los últimos años. Actualmente forma parte del grupo de acción poético-musical Ad Hoc.
+
+  (Corporación semiótica galega nació de una iniciativa de autoedición compartida a principios de los noventa, en la que tuvieron cabida la poesía discursiva y el arte visual: poesía visual, artecorreísmo y búsqueda experimental de la expresión poética que acabó tomando cuerpo en varias publicaciones electrográficas de pequeño formato, distribuidas a través de la red de mail art, y en la participación en encuentros de arte de acción de la mano del grupo de acción poético-musical AD HOC).
+
+
+_detalle: |
   {{ idioma('esp') }}
   Bajo el nombre de Corporación semiótica galega se esconde la obra artística de Lois Gil Magariños, profesor de filosofía nacido en Pontecesures, Pontevedra, en 1964; poeta visual, performer y artecorreísta en ejercicio desde 1995. Ha autoeditado varios blogs de poesía visual y discursiva que ha distribuido a través de la red de arte correo durante los últimos años. Actualmente forma parte del grupo de acción poético-musical Ad Hoc.
 

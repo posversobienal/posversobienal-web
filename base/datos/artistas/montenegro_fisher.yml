@@ -19,8 +19,14 @@ imagen_cabecera_posicion_inicial: 50% 20%
 
 etiquetas:
   - invitado
+  - participo_en_2024
+
 
 detalle: |
+  Luna Montenegro y Adrian Fisher son poetas y artistavisuales que viven y trabajan en Londres, colaborando en un espacio fluido de investigación visual, física y sonora. Su trabajo investiga las ideas de improvisación, participación, política, poética, localidad y transformación social explorando los límites de la existencia humana y no humana. Colaboran hace 24 años en la creación de performances, textos poéticos, videos, instalaciones visuales y sonoras, imágenes y proyectos curatoriales. Han mostrado su trabajo internacionalmente en 25 países, incluido el Instituto de Arte Contemporáneo, ICA y Southbank Centre en Londres, CCCB, Centro de Cultura Contemporánea, Barcelona, MAC, Museo de Arte Contemporáneo en Santiago, Bienal de Venecia, Bibliothèque Nationale de France, así como en diversas galerías de arte, museos, festivales, residencias, proyectos de sitio específico, internet y radio. Han sido seleccionados en Residencias de Arte Internacionales en Francia, México, Bélgica, Italia, Chile, Noruega, Suiza e India. Su trabajo trabajo ha sido publicados por Crater Press UK, Errant Bodies Berlin, Grapheme Germany, Dostoyevsky Wannabe, Poem Atlas, Visible Binary, Boiler House, ESLA, English Studies in Latin America, El Rizo Robado, México, Poetry Wales, Word For/Word USA, diSONARE México, Pocket Litter, Alba Berlin, RGR Río Grande Review Texas, datableed, Erotoplasty, Splinter, Tentacular, Tonic y Droste Effect, entre otras publicaciones de poesía y arte.
+
+
+_detalle: |
   {{ idioma('esp') }}
 
   **Luna Montenegro** y **Adrian Fisher** son poetas y artistas visuales que viven y trabajan en Londres, colaborando en un espacio fluido de investigación visual, física y sonora.

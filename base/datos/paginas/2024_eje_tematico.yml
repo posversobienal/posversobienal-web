@@ -29,7 +29,7 @@ contenido:
 
     POSVERSO llama a los poetas experimentales, artistas visuales, músicos, artistas sonoros, performers, a crear una bienal que, a la utopía realizada de la felicidad obligatoria y el ruido constante del capitalismo, oponga una contra-utopía de desborde y rebelión.
 
-    {{ per('silvio_de_gracia') }}, Curador General de POSVERSO.
+    {{ per('de_gracia_silvio') }}, Curador General de POSVERSO.
     {.text-end}
 
 
@@ -52,7 +52,7 @@ contenido:
 
     POSVERSO calls on experimental poets, visual artists, musicians, sound artists, performers, to create a biennial that, to the realized utopia of obligatory happiness and the constant noise of capitalism, opposes a counter-utopia of overflow and rebellion.
 
-    Curatorial statement by {{ per('silvio_de_gracia') }}.
+    Curatorial statement by {{ per('de_gracia_silvio') }}.
     {.text-end}
 
 
@@ -61,51 +61,51 @@ contenido_secundario: |
   ## EQUIPO
 
   ### Dirección General
-  + {{ per('silvio_de_gracia') }} (ARG)
+  + {{ per('de_gracia_silvio') }} (ARG)
 
   ### Dirección Artística
-  + {{ per('ana_montenegro') }} (BRA)
+  + {{ per('montenegro_ana') }} (BRA)
 
   ### Comité Internacional de Selección
-  + {{ per('claudia_kozak') }} (ARG)
-  + {{ per('fernando_aguiar') }} (PRT)
-  + {{ per('giovanni_fontana') }} (ITA)
-  + {{ per('j_m_calleja') }} (ESP)
-  + {{ per('marisa_florido') }} (BRA)
+  + {{ per('kozak_claudia') }} (ARG)
+  + {{ per('aguiar_fernando') }} (PRT)
+  + {{ per('fontana_giovanni') }} (ITA)
+  + {{ per('calleja_j_m') }} (ESP)
+  + {{ per('florido_marisa') }} (BRA)
 
   ### Comité de Preselección
-  + {{ per('ana_montenegro') }} (BRA)
-  + {{ per('hilda_paz') }} (ARG)
-  + {{ per('natalia_giglietti') }} (ARG)
+  + {{ per('montenegro_ana') }} (BRA)
+  + {{ per('paz_hilda') }} (ARG)
+  + {{ per('giglietti_natalia') }} (ARG)
 
   ### Equipo Curatorial POSVERSO
-  + {{ per('ana_montenegro') }} (BRA)
-  + {{ per('silvio_de_gracia') }} (ARG)
+  + {{ per('montenegro_ana') }} (BRA)
+  + {{ per('de_gracia_silvio') }} (ARG)
 
   ### Curador Programa Educativo
-  + {{ per('guillermo_perez_raventos') }} (ARG)
+  + {{ per('perez_raventos_guillermo') }} (ARG)
 
   ### Coordinación de proyectos
-  + {{ per('ana_montenegro') }} (BRA)
-  + {{ per('silvio_de_gracia') }} (ARG)
+  + {{ per('montenegro_ana') }} (BRA)
+  + {{ per('de_gracia_silvio') }} (ARG)
 
   ### Prensa
   + HOTEL DADA
 
   ### Coordinación Editorial
-  + {{ per('ana_montenegro') }} (BRA)
-  + {{ per('silvio_de_gracia') }} (ARG)
+  + {{ per('montenegro_ana') }} (BRA)
+  + {{ per('de_gracia_silvio') }} (ARG)
 
   ### Producción audiovisual
-  + {{ per('ana_montenegro') }} (BRA)
-  + {{ per('carlos_alberto_macheratti') }} (ARG)
+  + {{ per('montenegro_ana') }} (BRA)
+  + {{ per('alberto_macheratti_carlos') }} (ARG)
   + {{ per('Guido de Gracia') }} (ARG)
 
   ### Desarrollo web
-  + {{ per('carlos_alberto_macheratti') }} (ARG)
+  + {{ per('macheratti_carlos_alberto') }} (ARG)
 
   ### Diseño expográfico
-  + {{ per('ana_montenegro') }} (BRA)
+  + {{ per('montenegro_ana') }} (BRA)
 
   ### Equipo de montaje
   + Camila Paulucci (BRA)
@@ -116,10 +116,10 @@ contenido_secundario: |
   + Rocío Morganti (ARG)
 
   ### Equipo de producción
-  + {{ per('ale_montiel') }} (ARG)
+  + {{ per('montiel_ale') }} (ARG)
   + Carlos Dabul (ARG)
   + Fabricio Echevarría (ARG)
-  + {{ per('luciano_pozo') }} (ARG)
-  + {{ per('ricardo_omar_salido') }} (ARG)
+  + {{ per('pozo_luciano') }} (ARG)
+  + {{ per('salido_ricardo_omar') }} (ARG)
   + Julieta Civalero (ARG)
   + Jorge Echeverria (ARG)

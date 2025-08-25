@@ -298,10 +298,10 @@ contenido: |
 
 contenido_secundario: |
   <small>CURADOR:</small>
-  <br>{{ per('silvio_de_gracia') }}.
+  <br>{{ per('de_gracia_silvio') }}.
 
   <small>DISEÑO EXPOSITIVO:</small>
-  <br>{{ per('ana_montenegro') }}.
+  <br>{{ per('montenegro_ana') }}.
 
   <small>SEDE:</small>
   <br>[MACA Museo de Arte Contemporáneo Argentino “Víctor Grippo”](/sds/maca/)
@@ -315,38 +315,38 @@ contenido_secundario: |
   <br><br>
   <small>ARTISTAS:</small>
 
-  + {{ per('alejandro_thornton') }}
-  + {{ per('andrea_hygino') }}
-  + {{ per('andres_pasinovich') }}
-  + {{ per('antonio_caro') }}
-  + {{ per('carlos_gallardo') }}
-  + {{ per('claudia_del_rio') }}
-  + {{ per('clemente_padin') }}
-  + {{ per('daniel_ontiveros') }}
-  + {{ per('daniel_sarobe') }}
-  + {{ per('daniela_mastrandrea') }}
-  + {{ per('edith_derdyk') }}
-  + {{ per('elena_marini') }}
-  + {{ per('fernando_aguiar') }}
-  + {{ per('gabriela_golder') }}
-  + {{ per('javier_del_olmo') }}
-  + {{ per('jurgen_o_olbrich') }}
-  + {{ per('leila_danziger') }}
-  + {{ per('luc_fierens') }}
-  + {{ per('lucas_di_pascuale') }}
-  + {{ per('luciano_pozo') }}
-  + {{ per('luis_pazos') }}
-  + {{ per('marcela_astorga') }}
-  + {{ per('marie_orensanz') }}
-  + {{ per('maria_jose_machado') }}
-  + {{ per('matilde_marin') }}
+  + {{ per('aguiar_fernando') }}
+  + {{ per('astorga_marcela') }}
+  + {{ per('bruscky_paulo') }}
+  + {{ per('caro_antonio') }}
+  + {{ per('danziger_leila') }}
+  + {{ per('de_gracia_silvio') }}
+  + {{ per('del_olmo_javier') }}
+  + {{ per('del_rio_claudia') }}
+  + {{ per('derdyk_edith') }}
+  + {{ per('di_pascuale_lucas') }}
+  + {{ per('fatmi_mounir') }}
+  + {{ per('fierens_luc') }}
+  + {{ per('fuertes_rosana') }}
+  + {{ per('gallardo_carlos') }}
+  + {{ per('golder_gabriela') }}
+  + {{ per('hygino_andrea') }}
+  + {{ per('machado_maria_jose') }}
+  + {{ per('maggi_ruggero') }}
+  + {{ per('marin_matilde') }}
+  + {{ per('marini_elena') }}
+  + {{ per('mastrandrea_daniela') }}
   + {{ per('montenegro_fisher') }}
-  + {{ per('mounir_fatmi') }}
-  + {{ per('paulo_bruscky') }}
-  + {{ per('rosana_fuertes') }}
-  + {{ per('ruggero_maggi') }}
-  + {{ per('silvina_torviso') }}
-  + {{ per('silvio_de_gracia') }}
-  + {{ per('simone_moraes') }}
-  + {{ per('soledad_sanchez_goldar') }}
-  + {{ per('teresa_pereda') }}
+  + {{ per('moraes_simone') }}
+  + {{ per('olbrich_jurgen_o') }}
+  + {{ per('ontiveros_daniel') }}
+  + {{ per('orensanz_marie') }}
+  + {{ per('padin_clemente') }}
+  + {{ per('pasinovich_andres') }}
+  + {{ per('pazos_luis') }}
+  + {{ per('pereda_teresa') }}
+  + {{ per('pozo_luciano') }}
+  + {{ per('sanchez_goldar_soledad') }}
+  + {{ per('sarobe_daniel') }}
+  + {{ per('thornton_alejandro') }}
+  + {{ per('torviso_silvina') }}

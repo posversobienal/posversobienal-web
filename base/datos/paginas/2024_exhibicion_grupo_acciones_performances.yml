@@ -30,7 +30,7 @@ contenido: |
 
 fichas:
 
-  - artista: [[Marcela Astorga, /per/marcela_astorga]]
+  - artista: [[Marcela Astorga, /per/astorga_marcela]]
     obra: 'Urbanismo'
     texto: |
 
@@ -62,7 +62,7 @@ fichas:
       - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/marcela_astorga_09.jpg', txt: 'Ph. Carlos Gallardo'}
 
 
-  - artista: [[Andrés Pasinovich, /per/andres_pasinovich]]
+  - artista: [[Andrés Pasinovich, /per/pasinovich_andres]]
     obra: '¿Tengo que usar palabras cuando te hablo?'
     texto: 'Fotos de Eugenia Gozzi y Amalia Pasinovich.'
     fotos:
@@ -87,7 +87,7 @@ fichas:
     texto: 'Acción escénica en la Casa Popular Dante Balestro.'
     fotos: []
 
-  - artista: [[Carlos Gallardo, /per/carlos_gallardo]]
+  - artista: [[Carlos Gallardo, /per/gallardo_carlos]]
     obra: ''
     texto: 'Performance en el MACA.'
     fotos:
@@ -95,7 +95,7 @@ fichas:
       - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/carlos_gallardo_02.jpg', txt: 'Ph. Guido De Gracia'}
 
 
-  - artista: [[Silvio De Gracia, /per/silvio_de_gracia], [Ricardo Omar Salido, /per/ricardo_omar_salido]]
+  - artista: [[Silvio De Gracia, /per/de_gracia_silvio], [Ricardo Omar Salido, /per/salido_ricardo_omar]]
     obra: 'Pan-paz'
     texto: 'Acción en el espacio público.'
     fotos:
@@ -113,7 +113,7 @@ fichas:
       - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/corina_markart_aetgm_03.jpg', txt: ''}
       - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/corina_markart_aetgm_04.jpg', txt: ''}
 
-  - artista: [[Diego Melero, /per/diego_melero]]
+  - artista: [[Diego Melero, /per/melero_diego]]
     obra: ''
     texto: 'Performance en Casa Pronto.'
     fotos:
@@ -122,7 +122,7 @@ fichas:
       - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/diego_melero_03.jpg', txt: 'Ph. Guido De Gracia'}
       - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/diego_melero_04.jpg', txt: 'Ph. Guido De Gracia'}
 
-  - artista: [[Ro Barragán, /per/ro_barragan]]
+  - artista: [[Ro Barragán, /per/barragan_ro]]
     obra: ''
     texto: 'Acción en Casa Pronto.'
     fotos:
@@ -130,7 +130,7 @@ fichas:
       - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/ro_barragan_cp_02.jpg', txt: 'Ph. Guido De Gracia'}
       - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/ro_barragan_cp_03.jpg', txt: 'Ph. Guido De Gracia'}
 
-  - artista: [[Ro Barragán, /per/ro_barragan]]
+  - artista: [[Ro Barragán, /per/barragan_ro]]
     obra: ''
     texto: 'Acción en el espacio público.'
     fotos:
@@ -139,28 +139,28 @@ fichas:
       - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/ro_barragan_ep_03.jpg', txt: 'Ph. Guido De Gracia'}
       - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/ro_barragan_ep_04.jpg', txt: 'Ph. Guido De Gracia'}
 
-  - artista: [[María Zegna, /per/maria_zegna]]
+  - artista: [[María Zegna, /per/zegna_maria]]
     obra: ''
     texto: 'Acción en el espacio público.'
     fotos:
       - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/maria_zegna_01.jpg', txt: 'Ph. Guido De Gracia'}
       - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/maria_zegna_02.jpg', txt: 'Ph. Guido De Gracia'}
 
-  - artista: [[Joyce Ribeiro, /per/joyce_ribeiro]]
+  - artista: [[Joyce Ribeiro, /per/ribeiro_joyce]]
     obra: ''
     texto: 'Acción en el espacio público.'
     fotos:
       - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/yoice_ribeiro_01.jpg', txt: 'Ph. Guido De Gracia'}
       - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/yoice_ribeiro_02.jpg', txt: 'Ph. Guido De Gracia'}
 
-  - artista: [[Ale Montiel, /per/ale_montiel]]
+  - artista: [[Ale Montiel, /per/montiel_ale]]
     obra: ''
     texto: 'Acción en el espacio público.'
     fotos:
       - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/ale_montiel_01.jpg', txt: 'Ph. Guido De Gracia'}
       - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/ale_montiel_02.jpg', txt: 'Ph. Guido De Gracia'}
 
-  - artista: [[Paula Doberti, /per/paula_doberti]]
+  - artista: [[Paula Doberti, /per/doberti_paula]]
     obra: ''
     texto: 'Acción en el espacio público.'
     fotos:
@@ -168,7 +168,7 @@ fichas:
       - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/paula_doberti_02.jpg', txt: ''}
       - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/paula_doberti_03.jpg', txt: ''}
 
-  - artista: [[Alberto Couratier, /per/alberto_couratier]]
+  - artista: [[Alberto Couratier, /per/couratier_alberto]]
     obra: ''
     texto: 'Acción en Casa Pronto.'
     fotos:
@@ -176,7 +176,7 @@ fichas:
       - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/alberto_couratier_02.jpg', txt: 'Ph. Guido De Gracia'}
       - {url: '/rec/foto/exhibiciones/2024/acciones_y_performances/alberto_couratier_03.jpg', txt: 'Ph. Guido De Gracia'}
 
-  - artista: [[Mounir Fatmi, /per/mounir_fatmi]]
+  - artista: [[Mounir Fatmi, /per/fatmi_mounir]]
     obra: 'The missing show'
     texto: 'Performance en el MACA. Activación a cargo de Silvio De Gracia.'
     fotos: []

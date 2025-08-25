@@ -1,0 +1,36 @@
+---
+
+nombre: 'Alberto'
+apellido: 'Couratier'
+seudonimo: ''
+
+nacionalidad: 'Chile'
+contacto_publico: ''
+
+web: 'https://albertocouratier1.wixsite.com/albertocouratier/'
+
+eventos: []
+
+fotos:
+  persona: 'alberto_couratier.jpg'
+  obra: 'alberto_couratier-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 30%
+
+etiquetas:
+  - invitado
+  - participo_en_2024
+
+detalle: |
+  Como profesor de Artes Visuales con maestría en educación artística y cómo artista visual, su trayectoria se ha destacado por su participación activa en encuentros con artistas internacionales. Su trabajo se centra en establecer un vínculo entre las artes visuales y la pedagogía, proceso que comparte a través de talleres, charlas y exposiciones, tanto a nivel nacional como internacional. Ha presentado su práctica artística en diversos países, incluyendo Argentina, Perú, Bolivia, Venezuela, Estados Unidos, México y Dinamarca.
+
+
+_detalle: |
+  {{ idioma('esp') }}
+
+  Como profesor de Artes Visuales con maestría en educación artística y cómo artista visual, su trayectoria se ha destacado por su participación activa en encuentros con artistas internacionales. Su trabajo se centra en establecer un vínculo entre las artes visuales y la pedagogía, el cual comparte a través de talleres, charlas y exposiciones tanto a nivel nacional como internacional. Ha tenido el privilegio de compartir su arte y conocimientos en diversos países, incluyendo Chile, Argentina, Perú, Bolivia, Venezuela, Estados Unidos, México y Dinamarca. Esta experiencia le ha permitido enriquecer su práctica artística.
+
+  {{ idioma('eng') }}
+
+  As a teacher of Visual Arts with a master's degree in art education and as a visual artist, his career has been highlighted by his active participation in meetings with international artists. His work focuses on establishing a link between visual arts and pedagogy, which he shares through workshops, talks and exhibitions both nationally and internationally. He has had the privilege of sharing his art and knowledge in various countries, including Chile, Argentina, Peru, Bolivia, Venezuela, the United States, Mexico and Denmark. This experience has allowed him to enrich his artistic practice.
+  {.lang-eng}

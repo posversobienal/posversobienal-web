@@ -1,0 +1,52 @@
+---
+
+nombre: 'Ferran'
+apellido: 'Destemple'
+seudonimo: ''
+
+nacionalidad: 'España'
+contacto_publico: ''
+
+web: 'https://www.autismosautomaticos.net/'
+
+eventos: []
+
+fotos:
+  persona: 'ferran_destemple.jpg'
+  obra: 'ferran_destemple-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 60%
+
+etiquetas:
+  - invitado
+  - participo_en_2024
+
+detalle: |
+  Filólogo con estudios de posgrado en arte contemporáneo. Diletante, intenta olvidar todo lo aprendido, cosa en la que se aplica con afán. Sus intereses gravitan en torno a la poesía, el arte sonoro, la escritura como acto físico y el libro como soporte. Web _Autismo Automáticos_.
+
+
+
+_detalle: |
+  {{ idioma('esp') }}
+
+  Soy filólogo de formación, pero siempre he rebuscado en lo visual y en lo sonoro aquello que el texto no me llega a ofrecer. Para mí no hay jerarquía entre estos elementos, se mezclan, se arañan o se fusionan mejor o peor dependiendo del soporte. El soporte determina el contenido y el contenido busca el soporte adecuado.
+
+  Destripar los interiores del texto, del sonido, de las imágenes y volverlos a montar, como si de un monstruo de Frankenstein se tratara, es un divertimento al que no pienso renunciar.
+
+  Me considero un amateur y eso me libera de angustias y obligaciones y me permite fracasar y equivocarme más y mejor.
+
+  Si os pica la curiosidad podéis visitar la web de AutismosAutomáticos que coordino al alimón con Pepa Busqué.
+
+  {{ idioma('eng') }}
+
+  I am a philologist by training, but I have always searched in the visual and sound for what the text cannot offer me. For me there is no hierarchy between these elements, they mix, scratch or fuse better or worse depending on the support. The support determines the content and the content seeks the appropriate support.
+  {.lang-eng}
+
+  Eviscerating the interiors of the text, the sound, the images and reassembling them, as if it were a Frankenstein monster, is a fun that I do not intend to give up.
+  {.lang-eng}
+
+  I consider myself an amateur and that frees me from anxieties and obligations and allows me to fail and make more and better mistakes.
+  {.lang-eng}
+
+  If you are curious, you can visit the AutismosAutomáticos website, which I coordinate with Pepa Busqué.
+  {.lang-eng}

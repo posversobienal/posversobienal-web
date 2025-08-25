@@ -39,7 +39,7 @@ contenido:
 
     ![Silvio De Gracia](/rec/foto/personas/silvio_de_gracia.jpg){.foto-izq-parrafo}
 
-    **{{ per('silvio_de_gracia') }}**{.fs-5 id="silvio_de_gracia"}
+    **{{ per('de_gracia_silvio') }}**{.fs-5 id="silvio_de_gracia"}
 
     *Director General de POSVERSO*.
 
@@ -50,7 +50,7 @@ contenido:
 
     ![Ana Montenegro](/rec/foto/personas/ana_montenegro.jpg){.foto-izq-parrafo}
 
-    **{{ per('ana_montenegro') }}**{.fs-5 id="ana_montenegro"}
+    **{{ per('montenegro_ana') }}**{.fs-5 id="ana_montenegro"}
 
     *Directora artística de POSVERSO*.
 
@@ -83,7 +83,7 @@ contenido:
 
     ![Silvio De Gracia](/rec/foto/personas/silvio_de_gracia.jpg){.foto-izq-parrafo}
 
-    **{{ per('silvio_de_gracia') }}**{.fs-5 id="silvio_de_gracia"}
+    **{{ per('de_gracia_silvio') }}**{.fs-5 id="silvio_de_gracia"}
 
     *General Director*.
 
@@ -93,7 +93,7 @@ contenido:
 
     ![Ana Montenegro](/rec/foto/personas/ana_montenegro.jpg){.foto-izq-parrafo}
 
-    **{{ per('ana_montenegro') }}**{.fs-5 id="ana_montenegro"}
+    **{{ per('montenegro_ana') }}**{.fs-5 id="ana_montenegro"}
 
     *Artistic Director*.
 
@@ -108,26 +108,26 @@ contenido_secundario: |
   ## EQUIPO
 
   ### Dirección General
-  + {{ per('silvio_de_gracia') }} (ARG)
+  + {{ per('de_gracia_silvio') }} (ARG)
 
   ### Dirección Artística
-  + {{ per('ana_montenegro') }} (BRA)
+  + {{ per('montenegro_ana') }} (BRA)
 
   ### Coordinación de proyectos
-  + {{ per('ana_montenegro') }} (BRA)
-  + {{ per('silvio_de_gracia') }} (ARG)
+  + {{ per('montenegro_ana') }} (BRA)
+  + {{ per('de_gracia_silvio') }} (ARG)
 
   ### Prensa
   + HOTEL DADA
 
   ### Coordinación Editorial
-  + {{ per('ana_montenegro') }} (BRA)
-  + {{ per('silvio_de_gracia') }} (ARG)
+  + {{ per('montenegro_ana') }} (BRA)
+  + {{ per('de_gracia_silvio') }} (ARG)
 
   ### Producción audiovisual
-  + {{ per('ana_montenegro') }} (BRA)
-  + {{ per('carlos_alberto_macheratti') }} (ARG)
+  + {{ per('montenegro_ana') }} (BRA)
+  + {{ per('macheratti_carlos_alberto') }} (ARG)
   + {{ per('Guido de Gracia') }} (ARG)
 
   ### Desarrollo web
-  + {{ per('carlos_alberto_macheratti') }} (ARG)
+  + {{ per('macheratti_carlos_alberto') }} (ARG)
