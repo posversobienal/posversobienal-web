@@ -819,8 +819,11 @@ a.actual {
 }
 .filtrador {
   display: inline-block;
-  vertical-align: middle;
-  padding: 10px;
+  border: 1px solid #ddd;
+  padding: 3px 10px;
+  vertical-align: top;
+  border-radius: 10px;
+  overflow: hidden;
 }
 .filtrador .icono {
   height: 35px;
@@ -835,15 +838,21 @@ a.actual {
   transition: all 0.3s ease-in-out;
 }
 .filtrador .campo input {
-  margin: 10px;
+  margin: 0 0 0 10px;
   padding: 7px 12px;
   border: none;
   background: rgba(0, 0, 0, 0.2);
   outline: none;
-  border-radius: 15px;
+}
+.filtrador.activo {
+  padding: 0;
+  margin: 0;
+  padding-left: 10px;
+  margin-left: 20px;
 }
 .filtrador.activo .campo {
   display: inline-block;
+  margin: 0;
 }
 .filtrador_ocultar_item {
   display: none!important;
