@@ -555,6 +555,35 @@ a.actual {
 .item-galeria:hover {
   opacity: 0.95;
 }
+.prensa-destacados {
+  margin-bottom: 30px;
+  user-select: none;
+}
+.prensa-destacados a:hover .item {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.prensa-destacados a .item {
+  border-radius: 3px;
+  padding: 30px;
+  margin: 30px 0;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.prensa-destacados a .item .frase {
+  font-size: 1.2em;
+  font-weight: lighter;
+  text-align: center;
+  font-style: italic;
+}
+.prensa-destacados a .item .autor {
+  text-align: right;
+}
+.prensa-destacados a .item .autor .periodista {
+  font-size: 0.8em;
+}
+.prensa-destacados a .item .autor .medio img {
+  margin-left: 10px;
+  width: 30px;
+}
 .item-prensa {
   display: flex;
   flex-direction: row;

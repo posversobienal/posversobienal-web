@@ -12,21 +12,38 @@
         <h1 class="text-center">{{ pag.titulo }}</h1>
     </header>
 
+    <section class="prensa-destacados">
+        {% for it in pag.publicaciones_destacadas %}
+        <a href="{{ it.u }}" target="_blank">
+            <div class="item">
+                <p class="frase">{{ it.t }}</p>
+                <div class="autor">
+                    <span class="periodista">{{ it.a }}</span>
+                    <span class="medio">
+                        <img src="/rec/prensa/{{ it.m }}.png?{{ cfg.cache_actu }}" title="{{ pag.medios[it.m].t }}">
+                    </span>
+                </div>
+            </div>
+        </a>
+        {% endfor %}
+    </section>
+    <br>
+
     <div class="row">
 
         <section class="{{ pag.estilo }} col-lg-8">
             {% for itk in pag.publicaciones %}
             {% set itd = pag.publicaciones[itk] %}
-            {% set itp = pag.publicantes[itd.p] %}
+            {% set itm = pag.medios[itd.m] %}
             <div class="item-prensa">
                 <div class="icono">
-                    <a href="{{ itp.u }}" target="_blank">
-                        <img src="/rec/prensa/{{ itd.p }}.png?{{ cfg.cache_actu }}" title="{{ itp.t}}">
+                    <a href="{{ itm.u }}" target="_blank">
+                        <img src="/rec/prensa/{{ itd.m }}.png?{{ cfg.cache_actu }}" title="{{ itm.t }}">
                     </a>
                 </div>
                 <div class="info">
                     <h5>{{ fecha_prensa(itk) }}
-                        - <b>{{ itp.t}}</b>
+                        - <b>{{ itm.t}}</b>
                     </h5>
                     <p><a href="{{ itd.u }}" target="_blank">{{ itd.t }}</a></p>
                 </div>
