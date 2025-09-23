@@ -23,30 +23,4 @@ etiquetas:
 
 
 detalle: |
-  Nació el 10 de agosto de 1979, en Junín, Buenos Aires, Argentina. Estudió diseño gráfico en la Escuela de Arte Xul Solar. Se desempeña como desarrollador web y diseñador gráfico. Entusiasta del software libre y aprendiz autodidacta de diversos lenguajes de programación y tecnologías de manipulación de datos y multimedia. Actualmente explora técnicas de livecoding para generación de imagen y audio en tiempo real, entre ellas lenguajes como Hydra, TidalCycles. También explora técnicas relacionadas a la encuadernación y la reutilización de papeles. Con Andrea Ciaravino realizó la muestra sobre fractales llamada SomosCaos. Participó en los colectivos artísticos Ecolectivo y Desolvidándonos. Realizó edición audiovisual para Las Cuenteras de la Esquina y Proyecto Totoral. Es miembro de la _Asociación Civil Colectivo Juana Azurduy_. Integra el grupo musical _Bábaro_, encargándose de las visuales en vivo. Es parte del equipo de _Bienal Posverso_.
-
-
-_detalle: |
-  {{ idioma('esp') }}
-
-  Nació el 10 de agosto de 1979, en Junín, Buenos Aires, Argentina. Estudió diseño gráfico en la Escuela de Arte Xul Solar. Se desempeña como desarrollador web y diseñador gráfico. Entusiasta del software libre y aprendiz autodidacta de diversos lenguajes de programación y tecnologías de manipulación de datos y multimedia. Actualmente explora técnicas de livecoding para generación de imagen y audio en tiempo real, entre ellas lenguajes como Hydra, TidalCycles. También explora técnicas relacionadas a la encuadernación y la reutilización de papeles.
-
-  Con Andrea Ciaravino realizó la muestra sobre fractales llamada SomosCaos. Participó en los colectivos artísticos Ecolectivo y Desolvidándonos. Realizó edición audiovisual para Las Cuenteras de la Esquina y Proyecto Totoral.
-
-  Es miembro de la Asociación Civil Colectivo Juana Azurduy. Integra el grupo musical Bábaro, encargándose de las visuales en vivo. Es parte del equipo de Bienal Posverso.
-
-  *Foto personal de Gerardo Ferrarotti.*
-
-  {{ idioma('eng') }}
-
-  Born on August 10, 1979, in Junín, Buenos Aires, Argentina. He studied graphic design at the Xul Solar Art School. He works as a web developer and graphic designer. He is a free software enthusiast and self-taught in several programming languages and data manipulation and multimedia technologies. He is currently exploring livecoding techniques for image and audio generation in real time, including languages such as Hydra, TidalCycles. He also explores techniques related to bookbinding and paper reuse.
-  {.lang-eng}
-
-  With Andrea Ciaravino, he made an exhibition on fractals called SomosCaos. He participated in the art collectives Ecolectivo and Desolvidándonos. He did audiovisual editing for Las Cuenteras de la Esquina and Proyecto Totoral.
-  {.lang-eng}
-
-  He is a member of the Asociación Civil Colectivo Juana Azurduy. He is a member of the musical group Bábaro, in charge of live visuals. He is part of the Bienal Posverso team.
-  {.lang-eng}
-
-  *Personal photo by Gerardo Ferrarotti.*
-  {.lang-eng}
+  (1979 - Junín, Buenos Aires, Argentina) Estudió diseño gráfico en la Escuela de Arte Xul Solar. Se desempeña como desarrollador web y técnico gráfico. Entusiasta del software libre y aprendiz autodidacta de diversos lenguajes de programación y tecnologías de manipulación de datos y multimedia. Actualmente explora técnicas de livecoding para generación de imagen y audio en tiempo real, entre ellas lenguajes como Hydra, TidalCycles. También explora técnicas relacionadas a la encuadernación y la reutilización de papeles. Con Andrea Ciaravino realizó la muestra sobre fractales llamada SomosCaos. Participó en los colectivos artísticos Ecolectivo y Desolvidándonos. Realizó edición audiovisual para Las Cuenteras de la Esquina y Proyecto Totoral. Es miembro de la _Asociación Civil Colectivo Juana Azurduy_. Integra el grupo musical _Bábaro_, encargándose de las visuales en vivo. Es parte del equipo de _Bienal Posverso_.
