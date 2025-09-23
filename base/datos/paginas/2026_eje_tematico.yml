@@ -1,0 +1,128 @@
+---
+
+titulo: 'POSVERSO 2026 - Del encantamiento y el horror'
+html_base: 'pagina.html'
+ruta_static: 'pag/2026_eje_tematico/index.html'
+estilo: col-lg-8
+estilo_cnt_sec: 'lista-subrayada titulares-reducidos'
+
+contenido: |
+  El tema de la segunda edición de POSVERSO, _Del encantamiento y el horror_, busca rescatar, a través del arte y las poéticas experimentales, la relación perdida entre la humanidad y las formas de conocimiento precientíficas y precapitalistas. En la etapa actual del antropoceno, signada por la distopía y la extenuación del sistema capitalista, volverse hacia múltiples encarnaciones del arte y la poesía constituye un movimiento táctico, cuyo sentido se cifra en una posibilidad concreta de explorar modos de disidencia.
+
+  En tiempos arcaicos, previos a la simplificación de la realidad por vía de la racionalización, la poesía encarnaba una palabra de poder, destinada a traducir la magia y el asombro del mundo. En esta poesía del encantamiento y la revelación, sostenida como una suerte de acto de fe, confluían tendencias irracionales, resonancias espiritualistas y fuerzas misteriosas. La poesía encauzaba, a contrapelo de su propia desmesura y dispersión, prácticas de exploración de lo invisible y lo sobrenatural, intentos de mediación con lo desconocido y lo temible, impulsos de la imaginación en búsqueda de otros universos posibles.
+
+  En nuestro mundo actual, los artistas y poetas contemporáneos son quizá los únicos que mantienen esa potencia de origen de la poesía, siendo actualizadores y catalizadores de las energías antiguas de la palabra de poder, lo que los convierte en los nuevos brujos y encantadores de un mundo desprovisto de misterios y secretos. Contra la racionalización y la lógica del productivismo, POSVERSO reivindica la poesía y el arte como dispositivos críticos de la vida, herramientas apuntadas a cuestionar la realidad y desamarrar la humanidad de sus carencias espirituales.
+
+  Se trata de recuperar saberes ancestrales, revitalizar cosmogonías no hegemónicas, adelantar el curso de la vida hacia la integración de todos los seres que habitan el planeta. Practicar la poesía y el arte como formas de abrir brechas en la realidad, volver a echar luz sobre los conocimientos proscriptos, confrontar nuevos miedos e insistir en indisciplinar los cuerpos y los pensamientos.
+
+  POSVERSO, _Del encantamiento y el horror_, convoca artistas y poetas que trabajen en la búsqueda de nuevas magias que alumbren la oscuridad, que trasunten un intento supremo de rebelión, y que nos den la posibilidad de re-encantarnos con nuestro mundo y con nuestra humanidad.
+
+  Silvio De Gracia, 6 de abril de 2025.
+  {.firma}
+
+
+
+contenido_secundario: |
+
+  ### EQUIPO DE LA BIENAL
+
+  **Silvio De Gracia**
+  <br>(Argentina)
+  <br>Director General
+
+  **Ana Montenegro**
+  <br>(Brasil / Argentina)
+  <br>Directora Artística
+
+  **Carlos Macheratti**
+  <br>(Argentina)
+  <br>Desarrollo web, diseño gráfico y editorial
+
+  **Guillermo Pérez Raventós**
+  <br>(Argentina)
+  <br>Vinculación y producción
+
+  **Luciano Pozo**
+  <br>(Argentina)
+  <br>Mediación educativa
+
+  **Fernando Pineda**
+  <br>(Colombia / Argentina)
+  <br>Documentación en video
+
+  **Gabs Martinez**
+  <br>(Argentina)
+  <br>Documentación y registro
+
+  **Lía Palmieri**
+  <br>(Argentina)
+  <br>Documentación y registro
+
+
+sec_previo: |
+
+  ## EQUIPO
+
+  ### Dirección General
+  + {{ per('de_gracia_silvio') }} (ARG)
+
+  ### Dirección Artística
+  + {{ per('montenegro_ana') }} (BRA)
+
+  ### Comité Internacional de Selección
+  + {{ per('kozak_claudia') }} (ARG)
+  + {{ per('aguiar_fernando') }} (PRT)
+  + {{ per('fontana_giovanni') }} (ITA)
+  + {{ per('calleja_j_m') }} (ESP)
+  + {{ per('florido_marisa') }} (BRA)
+
+  ### Comité de Preselección
+  + {{ per('montenegro_ana') }} (BRA)
+  + {{ per('paz_hilda') }} (ARG)
+  + {{ per('giglietti_natalia') }} (ARG)
+
+  ### Equipo Curatorial POSVERSO
+  + {{ per('montenegro_ana') }} (BRA)
+  + {{ per('de_gracia_silvio') }} (ARG)
+
+  ### Curador Programa Educativo
+  + {{ per('perez_raventos_guillermo') }} (ARG)
+
+  ### Coordinación de proyectos
+  + {{ per('montenegro_ana') }} (BRA)
+  + {{ per('de_gracia_silvio') }} (ARG)
+
+  ### Prensa
+  + HOTEL DADA
+
+  ### Coordinación Editorial
+  + {{ per('montenegro_ana') }} (BRA)
+  + {{ per('de_gracia_silvio') }} (ARG)
+
+  ### Producción audiovisual
+  + {{ per('montenegro_ana') }} (BRA)
+  + {{ per('alberto_macheratti_carlos') }} (ARG)
+  + {{ per('Guido de Gracia') }} (ARG)
+
+  ### Desarrollo web
+  + {{ per('macheratti_carlos_alberto') }} (ARG)
+
+  ### Diseño expográfico
+  + {{ per('montenegro_ana') }} (BRA)
+
+  ### Equipo de montaje
+  + Camila Paulucci (BRA)
+  + Daniela Bustamante (ARG)
+  + Jorge Sosa (ARG)
+  + Macarena Cobos (ARG)
+  + Nehuén Greco (ARG)
+  + Rocío Morganti (ARG)
+
+  ### Equipo de producción
+  + {{ per('montiel_ale') }} (ARG)
+  + Carlos Dabul (ARG)
+  + Fabricio Echevarría (ARG)
+  + {{ per('pozo_luciano') }} (ARG)
+  + {{ per('salido_ricardo_omar') }} (ARG)
+  + Julieta Civalero (ARG)
+  + Jorge Echeverria (ARG)
