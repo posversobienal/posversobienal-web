@@ -1,0 +1,31 @@
+---
+titulo: 'Hotel DaDA base de arte correo y poesía experimental'
+
+metadatos:
+  imagen_compartir: '/rec/permanente/hoteldada_compartir.png'
+
+plantilla_css: hoteldada-estilo.css
+html_base: 'pagina-permanente.html'
+ruta_static: '/perm/hoteldadabase/index.html'
+estilo: ''
+estilo_cnt_sec: ''
+
+titulo_automatico: false
+
+contenido: |
+
+  ![Hotel DaDA](/rec/permanente/hoteldada_logo.svg){.logo}
+  <br><br>
+
+  PÁGINA EN CONSTRUCCIÓN
+  {.en-construccion}
+
+  <br>
+
+  **Seguinos en redes:**
+
+  - ![INSTAGRAM](/rec/grafica/icon-instagram.svg){.icono} &nbsp; [{{ id_redsocial(cfg.urls.hoteldada_instagram) }}]({{ cfg.urls.hoteldada_instagram }}){target=_blank}
+  - ![FACEBOOK](/rec/grafica/icon-facebook.svg){.icono} &nbsp; [Hotel DaDA]({{ cfg.urls.hoteldada_facebook }}){target=_blank}
+  - ![YOUTUBE](/rec/grafica/icon-youtube.svg){.icono} &nbsp; [Hotel DaDA]({{ cfg.urls.hoteldada_youtube }}){target=_blank}
+  - ![GMAPS](/rec/grafica/icon-geopos.svg){.icono} &nbsp; [Hotel DaDA]({{ cfg.urls.hoteldada_gmaps }}){target=_blank}
+  - ![EMAIL](/rec/grafica/icon-email.svg){.icono} &nbsp; [{{ cfg.emails.hoteldada }}](mailto:{{ cfg.emails.hoteldada }})

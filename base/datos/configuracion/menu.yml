@@ -3,6 +3,7 @@
 - titulo: 'BIENAL'
   url: ''
   submenu:
+    - {titulo: 'Eje temático', url: '/pag/2026_eje_tematico/'}
     - {titulo: 'Acerca de nosotros', url: '/pag/acerca_de_la_bienal/'}
     - {titulo: 'POSVERSO 2024', url: '/pag/bienal_2024/'}
 

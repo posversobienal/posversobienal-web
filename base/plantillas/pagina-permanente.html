@@ -1,5 +1,10 @@
 {% extends "base-pag_permanente.html" %}
 
+{% block style %}
+<link href="/lib/css/{{ pag.plantilla_css }}?{{ cfg.cache_actu }}" rel="stylesheet">
+{% endblock %}
+
+
 {% block body %}
 {% if 'imagen_cabecera' in pag %}
 <div>
@@ -20,7 +25,7 @@
     {% endif %}
 
     <div class="row">
-        <section class="{{ pag.estilo }} col-lg-8">
+        <section class="{{ pag.estilo }}">
             {{ markdown(pag.contenido, pag) }}
         </section>
 

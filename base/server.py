@@ -25,7 +25,9 @@ def main():
     server.watch('./datos/', shell('./actualizar.py'))
     server.watch('./plantillas/', shell('./actualizar.py'))
 
-    server.watch('./lib-css/', shell('lessc ./lib-css/estilo.less', output='../docs/lib/css/estilo.css'))
+    server.watch('./lib-css/posverso/', shell('lessc ./lib-css/posverso/estilo.less', output='../docs/lib/css/estilo.css'))
+    server.watch('./lib-css/vigo2/', shell('lessc ./lib-css/vigo2/estilo.less', output='../docs/lib/css/vigo2-estilo.css'))
+    server.watch('./lib-css/hoteldada/', shell('lessc ./lib-css/hoteldada/estilo.less', output='../docs/lib/css/hoteldada-estilo.css'))
 
     server.watch('../docs/lib/', shell(''))
     server.watch('../docs/lib/css/', shell(''))

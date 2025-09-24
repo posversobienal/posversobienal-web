@@ -2,11 +2,12 @@
 titulo: 'VIGO - Volumen 2 - Poesía visual portuguesa - Español'
 
 metadatos:
-  imagen_compartir: '/rec/pag_permanente/vigo2-compartir.png'
+  imagen_compartir: '/rec/permanente/vigo2-compartir.png'
 
 
+plantilla_css: vigo2-estilo.css
 html_base: 'pagina-permanente.html'
-ruta_static: 'perm/vigo2_esp/index.html'
+ruta_static: '/perm/vigo2_esp/index.html'
 estilo: col-lg-8
 estilo_cnt_sec: col-lg-2
 
