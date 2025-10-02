@@ -1,0 +1,32 @@
+---
+
+nombre: 'Andrés'
+apellido: 'Denegri'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://andresdenegri.com'
+#https://www.instagram.com/andresdenegri
+
+
+eventos: []
+
+fotos:
+  persona: 'denegri_andres.jpg'
+  obra: 'denegri_andres-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - seleccionado
+  - participo_en_2026
+
+
+detalle: |
+  (Buenos Aires, 1975) Artista visual que trabaja mayormente en cine, video, instalaciones y fotografía. En sus procesos de creación, las tecnologías utilizadas no solo son herramientas de producción, sino también objetos de reflexión y transformación. Al manipular, desarmar o subvertir estos dispositivos, Denegri pone en evidencia sus implicancias culturales, históricas y políticas. A visual artist who works primarily with film, video, installations, and photography. In his creative processes, the technologies he employs are not only production tools but also objects of reflection and transformation. By manipulating, dismantling, or subverting these devices, Denegri reveals their cultural, historical, and political implications.
+
+  Su trabajo ha recibido el Premio Colección del 73 Salón Nacional de Rosario (Rosario, 2019), el Gran Premio del Salón Nacional de Artes Visuales (Buenos Aires, 2015), el Primer Premio del Premio Itaú Cultural a las Artes Visuales (Buenos Aires, 2013), la Medalla Dorada al mejor film experimental del Festival de Cine Documental de Belgrado (Belgrado, 2012), el Primer Premio del Alternative Film/Video Festival (Belgrado, 2009), el Gran Premio del Concurso de Arte y Nuevas Tecnologías MAMBA/Fundación Telefónica (Buenos Aires, 2009), el Premio al Mejor Cortometraje del Festival de Cine de Mar del Plata (Mar del Plata, 2008), el Premio Juan Downey de la Bienal de Video y Nuevos Medios de Santiago (Santiago de Chile, 2007) y el Golden Impakt Award (Utrecht, 2005), Premio 25fps (Zagreb, 2005) y el Premio Leonardo (Buenos Aires, 2002), entre otros reconocimientos. Sus obras han sido exhibidas internacionalmente y forman parte de colecciones privadas e institucionales.
+
+  Denegri es coordinador y profesor de la Licenciatura en Artes Electrónicas de la UNTREF. Durante diez años (2013-2023) fue curador de cine y video en el MAMBA. Fue director de la Bienal de la Imagen en Movimiento por 6 ediciones (2012-2022) y coordinador del Área de Cine Video y Multimedia del Centro Cultural Rojas (1997-2002).

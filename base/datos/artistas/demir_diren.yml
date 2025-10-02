@@ -24,13 +24,3 @@ etiquetas:
 
 detalle: |
   (Estambul, 1997) Es un artista interdisciplinario y curador independiente con sede en Berlín. En su trabajo busca soluciones transformadoras a los desafíos que plantean los regímenes patriarcales y autoritarios. Sus instalaciones y performances se ocupan con frecuencia de la revelación y la relación cuerpo-poder como lugar de conflicto. Demir se centra en el activismo transformador, las prácticas participativas y el desarrollo de nuevos modelos de resistencia en sus obras de arte. El trabajo de Demir incluye temas queer, usando su propio cuerpo para desafiar posiciones estereotipadas de género, y ocupándose de la historia LGBTIQ en sus artículos, seminarios y talleres. En 2019, se publicó su compilación titulada _“A Night of June: A Biographical Analysis of the Stonewall Revolution”_. Demir ha comisariado más de 30 exposiciones guerrilleras en calles y zonas rurales, poniendo la accesibilidad del arte a la vanguardia, así como en lugares como Akbank Art y el Museo Gazhane. Sus obras y proyectos se exhibieron en muchos países diferentes como Estonia, Turquía, Serbia, Holanda, Alemania, India.
-
-
-_detalle: |
-  {{ idioma('eng') }}
-
-  (Istanbul, 1997) He is a Berlin-based interdisciplinary artist and independent curator. Demir’s work seeks transformative solutions to the challenges posed by patriarchal and authoritarian regimes. Demir’s installations and performances frequently deal with revelation and the body-power relationship as a site of conflict. Demir focuses on transformational activism, participatory practices and developing new models of resistance in their artworks. Demir’s work includes queer themes, using their own body to challenge stereotypical gender positions and de-gender memories of place and the city by referring to LGBTIQ+ history in their articles, seminars and workshops. In 2019, their compilation titled “A Night of June: A Biographical Analysis of the Stonewall Revolution” was published. In August 2022, their new poetry and illustration book “Hail to the Fallen” took its place in bookstores. Demir has curated more than 30 guerrilla exhibitions on streets and rural areas, putting the accessibility of art at the forefront, as well as in places such as Akbank Art and Gazhane Museum. Their works and projects were exhibited in many different countries such as Estonia, Turkey, Serbia, Netherlands, Germany, India...
-  {.lang-eng}
-
-extra: |
-  {{ idioma('esp') }}

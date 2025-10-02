@@ -1,0 +1,36 @@
+---
+
+nombre: 'Bartolomé'
+apellido: 'Ferrando'
+seudonimo: ''
+
+nacionalidad: 'España'
+contacto_publico: ''
+
+web: 'https://bferrando.com/'
+
+eventos: []
+
+fotos:
+  persona: 'bartolome_ferrando.jpg'
+  obra: 'bartolome_ferrando-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 60%
+
+etiquetas:
+  - invitado
+  - participo_en_2024
+
+detalle: |
+  Ha sido profesor titular de performance de la Universitat Politècnica de València. Participa en multitud de eventos y festivales de performance en Europa, América y Asia, y coordina a su vez festivales internacionales de performance en el IVAM, en el MNCARS y en el EAC. Fue miembro de los grupos Flatus Vocis Trio, Rojo, y ahora de JOP, SIC, Bregues de Moixos, Trio poesía acción y dosentredos, dedicados al desarrollo de prácticas creativas situadas a medio camino entre la música, la poesía y el arte de acción. Ha publicado poesía y ensayo, y ha hecho grabaciones en MC, LP y CD, así como varios DVD de performance.
+
+
+_detalle: |
+  {{ idioma('esp') }}
+
+  Ha sido profesor titular de performance de la Universitat Politècnica de València. Participa en multitud de eventos y festivales de performance en Europa, América y Asia, y coordina a su vez festivales internacionales de performance en el IVAM, en el MNCARS y en el EAC. Fue miembro de los grupos Flatus Vocis Trio, Rojo, y ahora de JOP, SIC, Bregues de Moixos, Trio poesía acción y dosentredos dedicados al desarrollo de prácticas creativas situadas a medio camino entre la música, la poesía y el arte de acción. Ha publicado poesía y ensayo, y ha hecho grabaciones en MC, LP y CD, así como varios DVD de performance.
+
+  {{ idioma('eng') }}
+
+  He has been a professor of performance at the Polytechnic University of Valencia. He participates in a multitude of performance events and festivals in Europe, America and Asia, and also coordinates international performance festivals at the IVAM, the MNCARS and the EAC. He was a member of the groups Flatus Vocis Trio, Rojo, and now JOP, SIC, Bregues de Moixos, Trio poetry action and dosentredos dedicated to the development of creative practices located halfway between music, poetry and action art. He has published poetry and essays, and has made recordings on MC, LP and CD, as well as several performance DVDs.
+  {.lang-eng}

@@ -23,25 +23,3 @@ etiquetas:
 
 detalle: |
   (Buenos Aires, 1948) es una artista contemporánea y académica argentina que desarrolla obra en múltiples disciplinas incluyendo grabado, fotografía y video. Marín ha sido profesora visitante dictando seminarios de posgrado en universidades de Argentina, Chile y España. Fellow del Institut d’Études Avancées de Nantes, Francia (2020). Se gradúa como escultora en la Escuela de Bellas Artes de Buenos Aires y continúa sus estudios en la Kunstgewerbeschule de Zúrich, Suiza, donde realiza un entrenamiento en técnicas gráficas. Inicia su trabajo con la obra sobre papel en una constante búsqueda por romper con las normativas tradicionales de la disciplina y, desde finales de los noventa, incorpora a su obra la fotografía y el vídeo, realizando instalaciones de gran formato. Desde el año 2008 es Académica de Número y a partir del 2022 Presidenta de la Academia Nacional de Bellas Artes, Argentina (período 2022-2024). Es Presidenta de la Fundación Federico Jorge Klemm en Buenos Aires, Argentina. Marín ha trabajado y vivido en Caracas, Venezuela, Zurich, Suiza, Washington, EEUU. Vive y trabaja en Buenos Aires, Argentina.
-
-
-_detalle: |
-
-  {{ idioma('esp') }}
-
-  (Buenos Aires, 1948) es una artista contemporánea y académica argentina que desarrolla obra en múltiples disciplinas incluyendo grabado, fotografía y video. Marín ha sido profesora visitante dictando seminarios de posgrado en universidades de Argentina, Chile y España. Fellow del Institut d’Études Avancées de Nantes, Francia (2020).
-
-  Se gradúa como escultora en la Escuela de Bellas Artes de Buenos Aires y continúa sus estudios en la Kunstgewerbeschule de Zúrich, Suiza, donde realiza un entrenamiento en técnicas gráficas. Inicia su trabajo con la obra sobre papel en una constante búsqueda por romper con las normativas tradicionales de la disciplina y, desde finales de los noventa, incorpora a su obra la fotografía y el vídeo, realizando instalaciones de gran formato.
-
-  Desde el año 2008 es Académica de Número y a partir del 2022 Presidenta de la Academia Nacional de Bellas Artes, Argentina (período 2022-2024). Es Presidenta de la Fundación Federico Jorge Klemm en Buenos Aires, Argentina. Marín ha trabajado y vivido en Caracas, Venezuela, Zurich, Suiza, Washington, EEUU. Vive y trabaja en Buenos Aires, Argentina.
-
-  {{ idioma('eng') }}
-
-  (Buenos Aires, 1948) is an Argentine contemporary artist and academic who develops work in multiple disciplines including printmaking, photography and video. Marín has been a visiting professor giving postgraduate seminars at universities in Argentina, Chile and Spain. Fellow of the Institut d’Études Avancées de Nantes, France (2020).
-  {.lang-eng}
-
-  She graduated as a sculptor from the School of Fine Arts in Buenos Aires and continued her studies at the Kunstgewerbeschule in Zürich, Switzerland, where she trained in graphic techniques. She began her work on paper in a constant search to break with the traditional techniques of the discipline and since the late nineties she has incorporated photography and video into her artistic practice, creating large-format installations.
-  {.lang-eng}
-
-  Since 2008 she has been a Full Member and as of 2022 President of the National Academy of Fine Arts, Argentina (2022-2024 period). She is the President of the Federico Jorge Klemm Foundation in Buenos Aires, Argentina. Marín has worked and lived in Caracas, Venezuela, Zurich, Switzerland, and Washington, USA. She lives and works in Buenos Aires, Argentina.
-  {.lang-eng}

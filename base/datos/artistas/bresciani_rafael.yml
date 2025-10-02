@@ -23,22 +23,3 @@ etiquetas:
 
 detalle: |
   (São Paulo, Brasil, 1982), músico y periodista con una maestría en Net Art y Cultura Digital, explora las fronteras de los medios, la comunicación, la tecnología y el sonido para plantear preguntas (y, en ocasiones, respuestas) sobre el individuo y la sociedad, como parte de una práctica transdisciplinaria. Su trabajo aborda temas como la infraestructura de datos y la ética, la interacción persona-computadora (IHC), las normas sociales, los roles de género y la opresión, la migración y la pertenencia cultural, la política, las estructuras de poder y la manipulación de masas. En los últimos años, se ha interesado especialmente por la idea general de que el lenguaje configura la realidad. Inspirado por décadas de intermediación masiva de la experiencia semiótica humana por el mundo digital, ha centrado su práctica e investigación en la exploración de conceptos que abordan la relación entre el lenguaje y la tecnología, es decir, cómo interactuamos con la tecnología y cómo la tecnología interactúa con nosotros. Radicado en Italia y comprometido con la ciencia y el arte, Bresciani ha participado en exposiciones y performances en espacios como Phonos (Barcelona), C-Base (Berlín), MEET (Milán) y otros en Estrasburgo, Ekaterimburgo, Roma, Génova, Pisa y São Paulo. A lo largo de casi 10 años de trayectoria, ha colaborado con compañías de teatro en la creación de música y paisajes sonoros, instalaciones de sonido, foto y luz, obras audiovisuales para videomapping y galerías virtuales, algoritmos generativos para la composición sonora y visual, programación en vivo y técnicas de sonificación y visualización de datos.
-
-
-_detalle: |
-  {{ idioma('eng') }}
-  (São Paulo, Brazil, 1982), a musician and journalist with a master's degree in Net Art and Digital Culture, explores the boundaries of media, communication, technology, and sound to raise questions (and sometimes answers) about the individual and society, as part of a transdisciplinary practice. His work addresses themes such as data infrastructure and ethics, human-computer interaction (HCI), societal norms, gender roles and oppression, migration and cultural belonging, politics, power structures, and mass manipulation.
-  {.lang-eng}
-
-  In recent years, he has been particularly interested in the broad idea that language shapes reality. Inspired by decades of massive intermediation of human semiotic experience by the digital world, he has focused his practice and research on exploring concepts that address the relationship between language and technology, that is, how we interact with technology and how technology interacts with us.
-  {.lang-eng}
-
-  Based in Italy and engaged in dialogue with both science and art, Bresciani has participated in exhibitions and performances at venues such as Phonos (Barcelona), C-Base (Berlin), MEET (Milan), and others in Strasbourg, Yekaterinburg, Rome, Genoa, Pisa, and São Paulo. Over nearly 10 years of practice, he has collaborated with theater companies in creating music and soundscapes, sound+photo+light installations, audiovisual works for videomapping and virtual galleries, generative algorithms for sound and visual composition, live coding, and techniques for data sonification and visualization.
-  {.lang-eng}
-
-  ---
-  Photo of work by [Lorenzo Antei](https://lorenzoantei.netlify.app/){target=_blank}.
-  {.text-small}
-
-extra: |
-  {{ idioma('esp') }}

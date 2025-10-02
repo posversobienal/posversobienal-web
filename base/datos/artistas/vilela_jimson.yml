@@ -23,23 +23,3 @@ etiquetas:
 
 detalle: |
   1987, Rio de Janeiro. Vive y trabaja en São Paulo. Doctor en Poéticas Visuales (ECA/USP, 2020), Maestro en Poéticas Visuales (ECA/USP, 2015) y Licenciado en Artes Visuales (IART/UERJ, 2010). Entre sus exposiciones individuales, se destacan: _O mundo não escrito_ (Museu de Arte de Ribeirão Preto, 2021); _Narrativa_ (Espaço das Artes, 2018) y _Adaptável ao espaço que as palavras ocupam_ (Centro Cultural São Paulo, 2015). Entre las colectivas se pueden mencionar: _Retrospectiva - 25 anos Programa de Exposições_ CCSP (Centro Cultural São Paulo, 2015), _Convite à viagem_ (Rumos Itaú Cultural, 2012 y 2013), y 6ª y 7ª Bienal Internacional dde Bolivia (SIART, 2009 y 2011). Su obra integra las coleciones públicas del MAC Niterói, MAM-RJ, MAR-RJ y Pinacoteca de São Paulo. Recibió la Bolsa Funarte de Estímulo à Produção em Artes Visuais (2012), Prêmio Honra ao Mérito Arte e Patrimônio do IPHAN/Centro Cultural Paço Imperial/MinC (2013), y Prêmio Aquisições Marcantonio Vilaça Funarte (2013), Prêmio Aquisição Centro Cultural São Paulo (2014), Prêmio ProAC Artes Visuais do Estado de São Paulo (2014, 2017 y 2019) y Prêmio Estímulo à Jovens Artistas do 22º Cultura Inglesa Festival (2018).
-
-
-_detalle: |
-  {{ idioma('prt') }}
-  1987, Rio de Janeiro. Vive e trabalha em São Paulo.
-
-  Jimson nasceu em um dia quente de inverno e recebeu o nome de seu pai. Ele nunca cogitou ser artista, mas quando o pai faleceu compreendeu que esse caminho era inevitável. Durante a infância gostava de imaginar personagens de histórias não escritas, na adolescência preferia escrever equações e fórmulas ao invés de poemas e pichar paredes. Os anos de estudo lhe renderam os títulos de Doutor em Poéticas Visuais (ECA/USP, 2020), Mestre em Poéticas Visuais (ECA/USP, 2015) e Bacharel em Artes Visuais (IART/UERJ, 2010). Ele também realizou algumas exposições, entre as quais se destacam as individuais O mundo não escrito (Museu de Arte de Ribeirão Preto, 2021), Narrativa (Espaço das Artes, 2018) e Adaptável ao espaço que as palavras ocupam (Centro Cultural São Paulo, 2015) e; as coletivas Retrospectiva - 25 anos Programa de Exposições CCSP (Centro Cultural São Paulo, 2015), Convite à viagem (Rumos Itaú Cultural, 2012 e 2013), e 6ª e 7ª Bienal Internacional da Bolívia (SIART, 2009 e 2011).
-
-  Jimson, além de artista, é professor. Ele acredita que lecionar é tão importante quanto criar e, por conta disso, gosta de viver cercado por livros. Se, por um acaso, você tentar visitá-lo e ele não estiver em casa suas obras estão nas coleções públicas do MAC Niterói, MAM-RJ, MAR-RJ e Pinacoteca de São Paulo. Seus vizinhos não sabem, mas ele foi premiado com a Bolsa Funarte de Estímulo à Produção em Artes Visuais (2012), Prêmio Honra ao Mérito Arte e Patrimônio do IPHAN/Centro Cultural Paço Imperial/MinC (2013), o Prêmio Aquisições Marcantonio Vilaça Funarte (2013), Prêmio Aquisição Centro Cultural São Paulo (2014), Prêmio ProAC Artes Visuais do Estado de São Paulo (2014, 2017 e 2019) e Prêmio Estímulo à Jovens Artistas do 22º Cultura Inglesa Festival (2018).
-
-  Ele é uma pessoa introspectiva e afável.
-
-extra: |
-  {{ idioma('esp') }}
-  .
-
-  {{ idioma('eng') }}
-
-  .
-  {.lang-eng}

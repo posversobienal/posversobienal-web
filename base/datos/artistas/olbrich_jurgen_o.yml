@@ -25,19 +25,3 @@ detalle: |
   *1955 en Bielefeld, vive en Kassel/Alemania.
 
   Todo lo demás acaba de pasar.
-
-_detalle: |
-
-  {{ idioma('esp') }}
-
-  *1955 en Bielefeld, vive en Kassel/Alemania.
-
-  Todo lo demás acaba de pasar.
-
-  {{ idioma('eng') }}
-
-  *1955 in Bielefeld, live in Kassel/Germany
-  {.lang-eng}
-
-  Everything else just happened
-  {.lang-eng}

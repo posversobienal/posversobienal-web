@@ -23,24 +23,3 @@ etiquetas:
 
 detalle: |
   Nació el 05/09/1971 en Buenos Aires. Artista visual, investigadora, curadora y profesora en Argentina y en el exterior. También es profesora, curadora del Programa de Vídeo y Cine Experimental del Museo de Arte Moderno de Buenos Aires y directora de la BIM (Bienal de Imagen en Movimiento, en Buenos Aires). Trabaja fundamentalmente con imagen en movimiento y su práctica artística plantea principalmente cuestiones relacionadas con la memoria, la identidad, la violencia institucional y el mundo del trabajo.Sus vídeos, películas e instalaciones, por los que ha obtenido varios premios, se han presentado en numerosos lugares de exposición y festivales de todo el mundo. Entre otros: Espacio de Artes y Memoria Fragmentos, Bogotá, Colombia; 15th Sharjah Biennial, EAU; Museo Nacional de Grabado, Buenos Aires, Argentina; Museo Nacional de Bellas Artes de Chile; Bienal de Arte Contemporánea Sesc_Videobrasil, Sao Paulo; Bienalsur, Buenos Aires; Bienal de Jakarta; Whitechapel Gallery, Londres; Dazibao, Montréal; La Maison Rouge, París; Dissonance, Getty Center, Los Ángeles; DEAF, Rotterdam; Museum Morsbroich, Leverkusen, Alemania; Monitoring, Kassel; Center for Contemporary Art Ujazdowski Castle, Varsovia; X Bienal de La Habana.
-
-
-_detalle: |
-  {{ idioma('esp') }}
-
-  Nació el 05/09/1971 en Buenos Aires. Artista visual, investigadora, curadora y profesora en Argentina y en el exterior. También es profesora, curadora del Progrma de Vídeo y Cine Experimental del Museo de Arte Moderno de Buenos Aires y directora de la BIM (Bienal de Imagen en Movimiento, en Buenos Aires). Trabaja fundamentalmente con imagen en movimiento y su práctica artística plantea principalmente cuestiones relacionadas con la memoria, la identidad, la violencia institucional y el mundo del trabajo.
-
-  Sus vídeos, películas e instalaciones, por los que ha obtenido varios premios, se han presentado en numerosos lugares de exposición y festivales de todo el mundo.
-
-  Entre otros: Espacio de Artes y Memoria Fragmentos, Bogotá, Colombia; 15th Sharjah Biennial, EAU; Museo Nacional de Grabado, Buenos Aires, Argentina; Museo Nacional de Bellas Artes de Chile; Bienal de Arte Contemporánea Sesc_Videobrasil, Sao Paulo; Bienalsur, Buenos Aires; Bienal de Jakarta; Whitechapel Gallery, Londres; Dazibao, Montréal; La Maison Rouge, París; Dissonance, Getty Center, Los Ángeles; DEAF, Rotterdam; Museum Morsbroich, Leverkusen, Alemania; Monitoring, Kassel; Center for Contemporary Art Ujazdowski Castle, Varsovia; X Bienal de La Habana.
-
-  {{ idioma('eng') }}
-
-  Born on 09/05/1971 in Buenos Aires. She is a visual artist, researcher, curator and teacher in Argentina and abroad. She is also a professor, curator of the Experimental Video and Film Program of the Museum of Modern Art of Buenos Aires and director of the BIM (Moving Image Biennial, in Buenos Aires). She works fundamentally with moving images and her artistic practice mainly raises questions related to memory, identity, institutional violence and the world of work.
-  {.lang-eng}
-
-  Her videos, films and installations, for which she has won several awards, have been presented at numerous exhibition venues and festivals around the world.
-  {.lang-eng}
-
-  Among others: Fragmentos Arts and Memory Space, Bogotá, Colombia; 15th Sharjah Biennial, UAE; National Museum of Engraving, Buenos Aires, Argentina; National Museum of Fine Arts of Chile; Sesc_Videobrasil Contemporary Art Biennial, Sao Paulo; Bienalsur, Buenos Aires; Jakarta Biennale; Whitechapel Gallery, London; Dazibao, Montreal; La Maison Rouge, Paris; Dissonance, Getty Center, Los Angeles; DEAF, Rotterdam; Museum Morsbroich, Leverkusen, Germany; Monitoring, Kassel; Center for Contemporary Art Ujazdowski Castle, Warsaw; 10th Havana Biennial.
-  {.lang-eng}

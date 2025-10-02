@@ -12,23 +12,21 @@ web: 'https://sanchezgoldar.blogspot.com/'
 eventos: []
 
 fotos:
-  persona: 'soledad_sanchez_goldar.jpg'
+  persona: 'soledad_sanchez_goldar-1.jpg'
   obra: 'soledad_sanchez_goldar-1.jpg'
 
 etiquetas:
   - invitado
   - participo_en_2024
+  - participo_en_2026
 
 detalle: |
+  (1977, Capital Federal) Vive y trabaja entre Córdoba y Salta. Es licenciada en Teatro por la Universidad Nacional de Córdoba. Actualmente cursa el Doctorado en Artes de la UNC. Es artista y gestora cultural. Es docente y coordinadora de la Lic. de Artes Plásticas de la Facultad de Educación  de UCASAL.
+
+  A mediados de los noventa comenzó a trabajar como diseñadora de iluminación y técnica en obras de teatro, a finales de esa década conforma el grupo Azul Phtalo con quienes gestiona y diseña exposiciones interdisciplinarias, también comienza su relación con el arte de acción, actividad a la que se dedica en la actualidad, ya sea en la gestión de festivales y eventos, talleres, residencias y su propia práctica vinculada a la tensión entre el olvido y la memoria con un fuerte anclaje en el arte y la política.
+
+  Actualmente participa del diseño y construcción del Archivo de memoria oral sobre performance en Argentina junto a Inti Pujol. Ha participado de la gestión del Continuo Latidoamericano de Performance Nodo ARG. junto a Graciela Ovejero Postigo en 2019. Forma parte del proyecto de investigación y producción en artes Escrituras Performáticas: Cuerpo y Acción en Efimerodramas radicado en el CePIA, UNC. Formó parte del proyecto de gestión La nariz en la taza junto a María del Carmen Cachín y ha participado en la organización de festivales y ciclos de performance, algunos de ellos son:  Convergencias, encuentro regional de performance en el NOA; Aún sin título Arte de Acción; Huvaiti, salir al encuentro; Nómades, Festival de performance e intervenciones urbanas; Mutaciones, entre otros. Ha recibido el primer premio en el 95 Salón de Mayo del Museo Rosa Galisteo (2017) y en el 35 Premio y Salón de Arte Córdoba (2015). Su obra forma parte de colecciones públicas y privadas.
+
+
+detalle_previo: |
   (Buenos Aires, 1977) Vive y trabaja entre Córdoba y Salta. Licenciada em Teatro por la UNC. Es artista, gestora cultural, docente y coordinadora de la Licenciatura de Artes Plásticas de la Facultad de Educación de UCASAL. Participa del diseño y construcción del Archivo de memoria oral sobre performance junto a Inti Pujol. Ha participado de la gestión del Continuo Latidoamericano de Performance Nodo ARG, junto a Graciela Ovejero Postigo. Forma parte del proyecto de investigación y producción en artes Efímerodramas, que estuvo radicado en el CePIA, UNC y obtuvo una beca del INT. Formó parte del proyecto de gestión _La nariz en la taza_, junto a María del Carmen Cachín. Ha participado en la organización de festivales y ciclos de performance, como _Aún sin título_, _Huvaití_, _Nómades_, _Mutaciones_, entre otros. Su trabajo se presentó en numerosos espacios culturales, teatros y festivales de performance en Argentina, Alemania, Brasil, China, Colombia, México, Chile, entre otros países. Ha recibido el primer galardón en el XLII Salón Provincial de Artes Visuales de Salta (2022), el primer premio en el 95 Salón de Mayo del Museo Rosa Galisteo (2017), en el 35 Premio y Salón de Arte Córdoba (2015), y Premio en obra ArteBA (2021).
-
-
-_detalle: |
-  {{ idioma('esp') }}
-
-  (Buenos Aires, 1977) Vive y trabaja entre Córdoba y Salta. Licenciada em Teatro por la UNC. Es artista, gestora cultural, docente y coordinadora de la Licenciatura de Artes Plásticas de la Facultad de Educación de UCASAL. Participa del diseño y construcción del Archivo de memoria oral sobre performance junto a Inti Pujol. Ha participado de la gestión del Continuo Latidoamericano de Performance Nodo ARG, junto a Graciela Ovejero Postigo. Forma parte del proyecto de investigación y producción en artes Efímerodramas, que estuvo radicado en el CePIA, UNC y obtuvo una beca del INT. Formó parte del proyecto de gestión La nariz en la taza, junto a María del Carmen Cachín. Ha participado en la organización de festivales y ciclos de performance, como Aún sin título, Huvaití, Nómades, Mutaciones, entre otros. Su trabajo se presentó en numerosos espacios culturales, teatros y festivales de performance en Argentina, Alemania, Brasil, China, Colombia, México, Chile, entre otros países. Ha recibido el primer galardón en el XLII Salón Provincial de Artes Visuales de Salta (2022), el primer premio en el 95 Salón de Mayo del Museo Rosa Galisteo (2017) y en el 35 Premio y Salón de Arte Córdoba (2015), y Premio en obra ArteBA (2021).
-
-  {{ idioma('eng') }}
-
-  (Buenos Aires, 1977) She lives and works between Córdoba and Salta. She graduated in Theater from UNC. She is an artist, cultural manager, teacher and coordinator of the Plastic Arts Degree at the UCASAL Faculty of Education. She participates in the design and construction of the Oral Memory Archive on Performance with Inti Pujol. She has participated in the management of the Latin American Continuum of Performance Nodo ARG, together with Graciela Ovejero Postigo. She is part of the research and production project in the arts Efímerodramas, which was based at CePIA, UNC and obtained a scholarship from the INT. She was part of the management project La naríz en la taza, along with María del Carmen Cachín. She has participated in the organization of festivals and performance cycles, such as Aún sin título, Huvaití, Nómades, Mutaciones, among others. Her work was presented in numerous cultural spaces, theaters and performance festivals in Argentina, Germany, Brazil, China, Colombia, Mexico, Chile, among other countries. He has received the first award at the XLII Provincial Hall of Visual Arts of Salta (2022), the first prize at the 95th Salón de Mayo of the Rosa Galisteo Museum (2017) and at the 35th Córdoba Prize and Art Hall (2015), and ArteBA work award (2021).
-  {.lang-eng}

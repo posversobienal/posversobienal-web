@@ -1,0 +1,43 @@
+---
+
+nombre: 'Ana'
+apellido: 'Montenegro'
+seudonimo: ''
+
+nacionalidad: 'Brasil'
+contacto_publico: ''
+
+eventos: []
+
+web: 'https://anamontenegro.weebly.com/biografiacutea.html'
+
+fotos:
+  persona: 'ana_montenegro.jpg'
+  obra: 'ana_montenegro-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 51%
+
+etiquetas:
+  - invitado
+  - participo_en_2024
+
+detalle: |
+  (Brasil/Argentina) Artista visual, performer y poeta experimental. Con formación en arquitectura, escenografía y semiótica peirceana, desarrolla cursos de Proceso Artístico con base en la semiótica, talleres, charlas y asesorías para artistas. Vive y trabaja entre Brasil y Argentina. En Brasil, fue incluida en algunas de las muestras y eventos más prestigiosos dedicados al arte de performance, tales como Mostra Verbo, en San Pablo; Festival Performance Arte Brasil, en el MAM de Río de Janeiro; Performance Presente Futuro, en Oi Futuro, Río de Janeiro; MIP 3 III Manifestação Internacional de Performance, en Belo Horizonte, entre otros. Se destacan sus participaciones a nivel internacional en importantes muestras y festivales como FONLAD, Festival Internacional de Video Arte e Performance, 16a edición, Portugal (2021); _Another version of the life_, RLAP, Le Lieu, centre en art actuel, Québec, Canadá (2021); IMAF 2021, 23rd International Multimedial Art Festival, Odzaci-Novi Sad, Serbia (2021); _The Amazon Must Live_, Museo Diotti, Casalmaggiore (CR), Italia (2021); _LA PERSISTENCIA DEL CUERPO Rastros del Arte de Performance en América Latina_, en el EAC Espacio de Arte Contemporáneo, Montevideo, Uruguay (2018); CUARTO APARTE CA5.0, Cuenca, Ecuador (2018); LATITUDES – Festival Internacional de Performance Art, Santa Cruz de la Sierra, Bolivia (2018). Desde 2020, codirige la galería HOTEL DADA Base de Arte Correo y Poesía Experimental, profundizando sus investigaciones en el campo de la poesía acción, la performance sonora y los libros de artista. En 2022, fue seleccionada para participar en la I Bienal Internacional de Arte Contemporáneo de Río Negro, en Patagonia Argentina. Su trabajo ha aparecido en prestigiosas publicaciones especializadas como Arte Brasileiros (Brasil), Inter art actuel (Canadá) y Utsanga (Italia). Curadora asociada en BIENALSUR Bienal Internacional de Arte Contemporáneo del Sur 2023. Directora artística en POSVERSO, I Bienal Internacional de Poesía Experimental de Argentina.
+
+
+_detalle: |
+  {{ idioma('esp') }}
+
+  (Brasil/Argentina) Artista visual, performer y poeta experimental. Con formación en arquitectura, escenografía y semiótica peirceana, desarrolla cursos de Proceso Artístico con base en la semiótica, talleres, charlas y asesorías para artistas. Vive y trabaja entre Brasil y Argentina. En Brasil, fue incluida en algunas de las muestras y eventos más prestigiosos dedicados al arte de performance, tales como Mostra Verbo, en San Pablo; Festival Performance Arte Brasil, en el MAM de Río de Janeiro; Performance Presente Futuro, en Oi Futuro, Río de Janeiro; MIP 3 III Manifestação Internacional de Performance, en Belo Horizonte, entre otros. Se destacan sus participaciones a nivel internacional en importantes muestras y festivales como FONLAD, Festival Internacional de Video Arte e Performance, 16a edición, Portugal (2021): Another version of the life, RLAP, Le Lieu, centre en art actuel, Québec, Canadá (2021): IMAF 2021, 23rd International Multimedial Art Festival, Odzaci-Novi Sad, Serbia (2021): The Amazon Must Live, Museo Diotti, Casalmaggiore (CR), Italia (2021):
+
+  LA PERSISTENCIA DEL CUERPO Rastros del Arte de Performance en América Latina, en el EAC Espacio de Arte Contemporáneo, Montevideo, Uruguay (2018); CUARTO APARTE CA5.0, Cuenca, Ecuador (2018); LATITUDES – Festival Internacional de Performance Art, Santa Cruz de la Sierra, Bolivia (2018).
+
+  Desde 2020, codirige la galería HOTEL DADA Base de Arte Correo y Poesía Experimental, profundizando sus investigaciones en el campo de la poesía acción, la poesía visual y los libros de artista. En 2022, fue seleccionada para participar en la I Bienal Internacional de Arte Contemporáneo de Río Negro, en Patagonia Argentina. Su trabajo ha aparecido en prestigiosas publicaciones especializadas como Arte Brasileiros (Brasil), Inter art actuel (Canadá) y Utsanga (Italia).Curadora asociada en BIENALSUR Bienal Internacional de Arte Contemporáneo del Sur 2023. Directora artística en POSVERSO, I Bienal Internacional de Poesía Experimental de Argentina.
+
+  {{ idioma('eng') }}
+
+  Visual artist and performer. With training in architecture, scenography and Peircean semiotics, she develops Artistic Process courses based on semiotics, workshops, talks and advice for artists. She lives and works between Brazil and Argentina. In Brazil, she was included in some of the most prestigious exhibitions and events dedicated to performance art, such as Mostra Verbo, in São Paulo; Performance Art Brazil Festival, at the MAM in Rio de Janeiro; Performance Presente Futuro, at Oi Futuro, Rio de Janeiro; MIP 3 III International Performance Manifestação, in Belo Horizonte, among others. Her international participation in important exhibitions and festivals such as FONLAD, International Festival of Video Art and Performance, 16th edition, Portugal (2021): Another version of the life, RLAP, Le Lieu, center en art actuel, Quebec, Canada (2021): IMAF 2021, 23rd International Multimedial Art Festival, Odzaci-Novi Sad, Serbia (2021): The Amazon Must Live, Museo Diotti, Casalmaggiore (CR), Italy (2021): THE PERSISTENCE OF THE BODY Traces of Performance Art in Latin America, at the EAC Espacio de Arte Contemporáneo, Montevideo, Uruguay (2018); APART ROOM CA5.0, Cuenca, Ecuador (2018); LATITUDES – International Performance Art Festival, Santa Cruz de la Sierra, Bolivia (2018).
+  {.lang-eng}
+
+  Since 2020, she co-directs the gallery HOTEL DADA Base de Arte Correo y Poesía Experimental, deepening her research in the field of action poetry, visual poetry and artist books. In 2022, she was selected to participate in the 1st International Biennial of Contemporary Art in Río Negro, in Patagonia Argentina. His work has appeared in prestigious specialized publications such as Arte Brasileiros (Brazil), Inter art actuel (Canada) and Utsanga (Italy).Associate curator at BIENALSUR International Biennial of Contemporary Art of the South 2023. Artistic director at POSVERSO, I International Biennial of Experimental Poetry of Argentina.
+  {.lang-eng}

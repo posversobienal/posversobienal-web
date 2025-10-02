@@ -13,13 +13,14 @@ eventos: []
 
 fotos:
   persona: 'carlos_alberto_macheratti.jpg'
-  obra: 'carlos_alberto_macheratti-1.jpg'
+  obra: 'carlos_alberto_macheratti-2.jpg'
 
 imagen_cabecera_posicion_inicial: 49% 50%
 
 etiquetas:
   - invitado
   - participo_en_2024
+  - participo_en_2026
 
 
 detalle: |
