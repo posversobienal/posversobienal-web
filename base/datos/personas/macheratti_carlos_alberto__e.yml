@@ -1,0 +1,22 @@
+---
+
+nombre: 'Carlos Alberto'
+apellido: 'Macheratti'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://caalma.net.ar'
+
+eventos: []
+
+fotos:
+  persona: 'macheratti_carlos_alberto__e.jpg'
+
+etiquetas:
+  - participo_en_2024
+  - participo_en_2026
+
+detalle: |
+  Es técnico gráfico egresado de la Escuela de Arte Xul Solar de Junín. Artista electrónico, interesado en diversas formas de creación basadas en códigos computacionales. Activo participante de colectivos artísticos y culturales de la ciudad. Responsable del sitio web y diseño gráfico de BIENAL POSVERSO, así como del desarrollo editorial de las publicaciones asociadas a la Bienal.

@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+{% if 'imagen_cabecera' in pag %}
+<div class="">
+    <img src="{{ pag.imagen_cabecera }}" class="img-fluid">
+</div>
+{% endif %}
+<div class="container contenido">
+
+    <header class="my-5">
+        <h1 class="text-center">{{ pag.titulo }}</h1>
+    </header>
+
+    <div class="row">
+
+        <section class="{{ pag.estilo }}">
+            <div>{{ markdown(pag.contenido) }}</div>
+        </section>
+
+        {% if 'contenido_secundario' in pag %}
+        <section class="{{ pag.estilo_cnt_sec }}  ms-4 ps-4 border-start border-gray col-lg-3">
+            {{ markdown(pag.contenido_secundario, pag) }}
+        </section>
+        {% endif %}
+
+    </div>
+
+    <div class="row">
+
+        <section class="my-5 col-lg-12">
+
+            <div id="lista" class="en-2-columnas participantes-evento-teorico">
+                {% for k, v in pag.listado.items() %}
+                <div class="item m-2 border border-black rounded-2 ampliado">
+                    <div><img src="{{ v.foto }}" class="img-fluid"></div>
+                    <div class="p-4">
+                        <h3 class="text-center"><a href="{{ v.link }}">{{ v.nomb }}</a></h3>
+                        <p class="text-center my-3">{{ v.rol }}</p>
+                        <div class="bio">{{ markdown(pag.biografias[k]) }}</div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+
+    </div>
+
+</div>
+
+{% endblock %}

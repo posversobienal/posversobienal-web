@@ -55,5 +55,9 @@ contenido: |
 
   <br>
 
+  ![Carlos Alberto Macheratti](/rec/foto/personas/macheratti_carlos_alberto__e.jpg){.foto-izq-parrafo}
 
-contenido_secundario: ''
+  **{{ per('macheratti_carlos_alberto__e') }}**{.fs-5 id="carlos_alberto_macheratti"}
+
+  *Responsable del desarrollo web, diseño gráfico y editorial*.
+  Es técnico gráfico egresado de la Escuela de Arte Xul Solar de Junín. Artista electrónico, interesado en diversas formas de creación basadas en códigos computacionales. Activo participante de colectivos artísticos y culturales de la ciudad.

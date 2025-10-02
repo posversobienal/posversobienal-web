@@ -1,7 +1,7 @@
 ---
 
 titulo: 'POSVERSO 2026 - Del encantamiento y el horror'
-html_base: 'pagina.html'
+html_base: 'eje_tematico-2026.html'
 ruta_static: 'pag/eje_tematico_2026/index.html'
 estilo: col-lg-8
 estilo_cnt_sec: 'lista-subrayada titulares-reducidos'
@@ -25,135 +25,63 @@ contenido: |
 contenido_secundario: |
 
   ### EQUIPO DE LA BIENAL
-
-  **Silvio De Gracia**
-  <br>(Argentina)
-  <br>Director General
-
-  **Ana Montenegro**
-  <br>(Brasil / Argentina)
-  <br>Directora Artística
-
-  **Carlos Macheratti**
-  <br>(Argentina)
-  <br>Desarrollo web, diseño gráfico y editorial
-
-  **Guillermo Pérez Raventós**
-  <br>(Argentina)
-  <br>Vinculación y producción
-
-  **Luciano Pozo**
-  <br>(Argentina)
-  <br>Mediación educativa
-
-  **Fernando Pineda**
-  <br>(Colombia / Argentina)
-  <br>Documentación en video
-
-  **Gabs Martinez**
-  <br>(Argentina)
-  <br>Documentación y registro
-
-  **Lía Palmieri**
-  <br>(Argentina)
-  <br>Documentación y registro
-
-
-
-contenido_secundario__ref_equipo_bienal: |
-  ## EQUIPO
+  <br>
 
   ### Dirección General
-  + {{ per('de_gracia_silvio') }} (ARG)
+  + {{ per('de_gracia_silvio__e') }} (ARG)
 
   ### Dirección Artística
-  + {{ per('montenegro_ana') }} (BRA)
+  + {{ per('montenegro_ana__e') }} (BRA/ARG)
 
-  ### Coordinación de proyectos
-  + {{ per('montenegro_ana') }} (BRA)
-  + {{ per('de_gracia_silvio') }} (ARG)
+  ### Desarrollo web, diseño gráfico y editorial
+  + {{ per('macheratti_carlos_alberto__e') }} (ARG)
 
-  ### Prensa
-  + HOTEL DADA
+  ### Vinculación y producción
+  + {{ per('perez_raventos_guillermo__e') }} (ARG)
 
-  ### Coordinación Editorial
-  + {{ per('montenegro_ana') }} (BRA)
-  + {{ per('de_gracia_silvio') }} (ARG)
+  ### Mediación educativa
+  + {{ per('pozo_luciano__e') }} (ARG)
 
-  ### Producción audiovisual
-  + {{ per('montenegro_ana') }} (BRA)
-  + {{ per('macheratti_carlos_alberto') }} (ARG)
-  + {{ per('Guido de Gracia') }} (ARG)
+  ### Documentación en video
+  + {{ per('pineda_fernando__e') }} (COL/ARG)
 
-  ### Desarrollo web
-  + {{ per('macheratti_carlos_alberto') }} (ARG)
+  ### Documentación y registro
+  + {{ per('martinez_gabs__e') }} (ARG)
+  + {{ per('palmieri_lia__e') }} (ARG)
 
 
+listado:
+  de_gracia_silvio: {nomb: 'Silvio De Gracia', foto: '/rec/foto/personas/de_gracia_silvio__e.jpg', link: '/per/de_gracia_silvio__e', rol: 'Director General'}
+  montenegro_ana: {nomb: 'Ana Montenegro', foto: '/rec/foto/personas/montenegro_ana__e.jpg', link: '/per/montenegro_ana__e', rol: 'Directora Artística'}
+  macheratti_carlos_alberto: {nomb: 'Carlos Macheratti', foto: '/rec/foto/personas/macheratti_carlos_alberto__e.jpg', link: '/per/macheratti_carlos_alberto__e', rol: 'Desarrollo web, diseño gráfico y editorial'}
+  perez_raventos_guillermo: {nomb: 'Guillermo Pérez Raventós', foto: '/rec/foto/personas/perez_raventos_guillermo__e.jpg', link: '/per/perez_raventos_guillermo__e', rol: 'Vinculación y producción'}
+  pozo_luciano: {nomb: 'Luciano Pozo', foto: '/rec/foto/personas/pozo_luciano__e.jpg', link: '/per/pozo_luciano__e', rol: 'Mediación educativa'}
+  pineda_fernando: {nomb: 'Fernando Pineda', foto: '/rec/foto/personas/pineda_fernando__e.jpg', link: '/per/pineda_fernando__e', rol: 'Documentación en video'}
+  martinez_gabs: {nomb: 'Gabs Martinez', foto: '/rec/foto/personas/martinez_gabs__e.jpg', link: '/per/martinez_gabs__e', rol: 'Documentación y registro'}
+  palmieri_lia: {nomb: 'Lía Palmieri', foto: '/rec/foto/personas/palmieri_lia__e.jpg', link: '/per/palmieri_lia__e', rol: 'Documentación y registro'}
 
-sec_previo: |
 
-  ## EQUIPO
+biografias:
+  de_gracia_silvio: |
+    Escritor, artista visual, poeta experimental, performer y curador independiente, nacido en Junín, Argentina. Con casi 30 años de gestión cultural en su ciudad, ha sido impulsor y curador de numerosos festivales, encuentros, exhibiciones y eventos enfocados en arte contemporáneo. A nivel internacional, ha presentado curadurías en diversos países del mundo, destacando proyectos expositivos en la 7ma Bienal do Sertao (2025), BIENALSUR (2023) y Oncena Bienal de La Habana (2012). Co-director de la galería HOTEL DADA y Director General de BIENAL POSVERSO.
 
-  ### Dirección General
-  + {{ per('de_gracia_silvio') }} (ARG)
+  montenegro_ana: |
+    Artista visual y performer brasileña, basada en Argentina. Con formación en arquitectura, escenografía y semiótica peirceana, desarrolla cursos de Proceso Artístico con base en la semiótica, talleres, charlas y asesorías para artistas. Co-directora de la galería HOTEL DADA, donde se ocupa de la dirección artística y de la presentación de distintos proyectos editoriales y curatoriales. Responsable de curadurías en Argentina y Brasil, fue curadora asociada en BIENALSUR 2023, Bienal Internacional de Arte Contemporáneo del Sur.
 
-  ### Dirección Artística
-  + {{ per('montenegro_ana') }} (BRA)
+  macheratti_carlos_alberto: |
+    Es técnico gráfico egresado de la Escuela de Arte Xul Solar de Junín. Artista electrónico, interesado en diversas formas de creación basadas en códigos computacionales. Activo participante de colectivos artísticos y culturales de la ciudad. Responsable del sitio web y diseño gráfico de BIENAL POSVERSO, así como del desarrollo editorial de las publicaciones asociadas a la Bienal.
 
-  ### Comité Internacional de Selección
-  + {{ per('kozak_claudia') }} (ARG)
-  + {{ per('aguiar_fernando') }} (PRT)
-  + {{ per('fontana_giovanni') }} (ITA)
-  + {{ per('calleja_j_m') }} (ESP)
-  + {{ per('florido_marisa') }} (BRA)
+  perez_raventos_guillermo: |
+    Nacido en Salta en 1966, reside en La Plata. Artista visual, editor y gestor cultural. Fue director de arte y editorial de revista Malabia, de la colección “pensar en arte” de editorial “al margen” y del desarrollo del proyecto para la web “apilable al infinito”. Curador Educativo de BIENAL POSVERSO 2024. Encargado de Vinculación y producción en BIENAL POSVERSO 2026.
 
-  ### Comité de Preselección
-  + {{ per('montenegro_ana') }} (BRA)
-  + {{ per('paz_hilda') }} (ARG)
-  + {{ per('giglietti_natalia') }} (ARG)
+  pozo_luciano: |
+    Nacido en Junín, Buenos Aires, Argentina. Es Candidato Doctoral en Arte y Tecnoestéticas por la UNTREF. Es licenciado en Artes por la UNSAM, y finalizó el posgrado en Historia del Arte Argentino y Latinoamericano E-IDAES, UNSAM. Es docente e investigador en la Universidad Nacional Noroeste – Buenos Aires UNNOBA. Entre sus áreas de investigación se destacan los estudios culturales, con especial atención en la conformación del campo cultural de Junín, y la investigación del campo de la gráfica expandida/experimental. Es Director Artístico del Espacio Arte de Fundación Casa Pronto, en la ciudad de Junín. 
 
-  ### Equipo Curatorial POSVERSO
-  + {{ per('montenegro_ana') }} (BRA)
-  + {{ per('de_gracia_silvio') }} (ARG)
+  pineda_fernando: |
+    Realizador audiovisual y editor con una profunda pasión por el arte contemporáneo y el registro audiovisual como medio de expresión y exploración. A lo largo de su vida ha cultivado una mirada sensible, creativa y crítica. Apasionado por conocer culturas diferentes, encuentra inspiración en lo urbano y lo cotidiano, documentando realidades. En su labor como realizador, abarca múltiples formatos, desde registros documentales hasta piezas experimentales, manteniendo siempre un compromiso con la calidad, la reflexión y la sensibilidad artística.
 
-  ### Curador Programa Educativo
-  + {{ per('perez_raventos_guillermo') }} (ARG)
+  martinez_gabs: |
+    Nacida en Buenos Aires. Artista visual, fotógrafa. Capacitadora técnica en lenguajes visuales con especialización en el lenguaje fotográfico. Docente en escuela Motivarte y Taller El Aleph. Participó en el proyecto internacional “Making Mothers Visible". Fue fotógrafa en MACBA y fundación Madres Víctimas de Trata. Presentaciones en Fototeca Latinoamericana, Casa Museo de Victor Magariños, Centro Cultural San Martín, Centro de Arte Sonoro en la Casa Nacional del Bicentenario, entre otras.
 
-  ### Coordinación de proyectos
-  + {{ per('montenegro_ana') }} (BRA)
-  + {{ per('de_gracia_silvio') }} (ARG)
-
-  ### Prensa
-  + HOTEL DADA
-
-  ### Coordinación Editorial
-  + {{ per('montenegro_ana') }} (BRA)
-  + {{ per('de_gracia_silvio') }} (ARG)
-
-  ### Producción audiovisual
-  + {{ per('montenegro_ana') }} (BRA)
-  + {{ per('alberto_macheratti_carlos') }} (ARG)
-  + {{ per('Guido de Gracia') }} (ARG)
-
-  ### Desarrollo web
-  + {{ per('macheratti_carlos_alberto') }} (ARG)
-
-  ### Diseño expográfico
-  + {{ per('montenegro_ana') }} (BRA)
-
-  ### Equipo de montaje
-  + Camila Paulucci (BRA)
-  + Daniela Bustamante (ARG)
-  + Jorge Sosa (ARG)
-  + Macarena Cobos (ARG)
-  + Nehuén Greco (ARG)
-  + Rocío Morganti (ARG)
-
-  ### Equipo de producción
-  + {{ per('montiel_ale') }} (ARG)
-  + Carlos Dabul (ARG)
-  + Fabricio Echevarría (ARG)
-  + {{ per('pozo_luciano') }} (ARG)
-  + {{ per('salido_ricardo_omar') }} (ARG)
-  + Julieta Civalero (ARG)
-  + Jorge Echeverria (ARG)
+  palmieri_lia: |
+    Lía Palmieri (Junín, Buenos Aires) es fotógrafa profesional egresada de la Escuela de Arte Xul Solar. Su experiencia incluye fotografía documental, fotoperiodismo y cobertura de eventos sociales, con participación en muestras colectivas en Junín, la región y CABA. Su trabajo se centra en los barrios periféricos de su ciudad, desde una mirada íntima y social. Explora la fotografía estenopeica como herramienta estética y de inclusión, dictando talleres en centros comunitarios y espacios de educación no formal.

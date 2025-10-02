@@ -1,0 +1,23 @@
+---
+
+nombre: 'Luciano'
+apellido: 'Pozo'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://www.lucianopozo.com/'
+
+eventos: []
+
+fotos:
+  persona: 'pozo_luciano__e.jpg'
+
+etiquetas:
+  - invitado
+  - participo_en_2024
+  - participo_en_2026
+
+detalle: |
+  Nacido en Junín, Buenos Aires, Argentina. Es Candidato Doctoral en Arte y Tecnoestéticas por la UNTREF. Es licenciado en Artes por la UNSAM, y finalizó el posgrado en Historia del Arte Argentino y Latinoamericano E-IDAES, UNSAM. Es docente e investigador en la Universidad Nacional Noroeste – Buenos Aires UNNOBA. Entre sus áreas de investigación se destacan los estudios culturales, con especial atención en la conformación del campo cultural de Junín, y la investigación del campo de la gráfica expandida/experimental. Es Director Artístico del Espacio Arte de Fundación Casa Pronto, en la ciudad de Junín. 
