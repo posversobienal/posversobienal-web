@@ -1,0 +1,21 @@
+---
+
+nombre: 'Alejandro'
+apellido: 'Zuy'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: ''
+
+eventos: []
+
+fotos:
+  persona: 'zuy_alejandro__c.jpg'
+
+etiquetas:
+  - participo_en_2026
+
+detalle: |
+  Curador independiente y redactor especializado en medios de prensa de Argentina y Latinoamérica. Es Licenciado en Historia de las Artes y Curaduría, recibido en la Universidad del Museo Social Argentino. En la actualidad es miembro de la AACA (Asociación Argentina de Críticos de Arte).

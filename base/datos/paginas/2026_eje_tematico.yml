@@ -2,7 +2,7 @@
 
 titulo: 'POSVERSO 2026 - Del encantamiento y el horror'
 html_base: 'pagina.html'
-ruta_static: 'pag/2026_eje_tematico/index.html'
+ruta_static: 'pag/eje_tematico_2026/index.html'
 estilo: col-lg-8
 estilo_cnt_sec: 'lista-subrayada titulares-reducidos'
 
@@ -57,6 +57,37 @@ contenido_secundario: |
   **Lía Palmieri**
   <br>(Argentina)
   <br>Documentación y registro
+
+
+
+contenido_secundario__ref_equipo_bienal: |
+  ## EQUIPO
+
+  ### Dirección General
+  + {{ per('de_gracia_silvio') }} (ARG)
+
+  ### Dirección Artística
+  + {{ per('montenegro_ana') }} (BRA)
+
+  ### Coordinación de proyectos
+  + {{ per('montenegro_ana') }} (BRA)
+  + {{ per('de_gracia_silvio') }} (ARG)
+
+  ### Prensa
+  + HOTEL DADA
+
+  ### Coordinación Editorial
+  + {{ per('montenegro_ana') }} (BRA)
+  + {{ per('de_gracia_silvio') }} (ARG)
+
+  ### Producción audiovisual
+  + {{ per('montenegro_ana') }} (BRA)
+  + {{ per('macheratti_carlos_alberto') }} (ARG)
+  + {{ per('Guido de Gracia') }} (ARG)
+
+  ### Desarrollo web
+  + {{ per('macheratti_carlos_alberto') }} (ARG)
+
 
 
 sec_previo: |

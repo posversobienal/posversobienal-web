@@ -1,0 +1,112 @@
+---
+
+titulo: 'Equipo curatorial'
+html_base: 'pagina.html'
+ruta_static: 'pag/equipo_curatorial_2026/index.html'
+estilo: col-lg-11
+
+contenido: |
+
+
+  <br>
+
+  ![Silvio De Gracia](/rec/foto/personas/de_gracia_silvio__c.jpg){.foto-izq-parrafo}
+
+  ### {{ per('de_gracia_silvio__c') }}{id=silvio_de_gracia}
+  _Argentina_
+
+  <br>
+  Escritor, artista visual, poeta experimental, performer y curador independiente, nacido en Junín, Argentina. Con casi 30 años de gestión cultural en su ciudad, ha sido impulsor y curador de numerosos festivales, encuentros, exhibiciones y eventos enfocados en arte contemporáneo. A nivel internacional, ha presentado curadurías en diversos países del mundo, destacando proyectos expositivos en la 7ma Bienal do Sertao (2025), BIENALSUR (2023) y Oncena Bienal de La Habana (2012). Como curador de arte de performance, ha trabajado con grandes referentes de la escena latino-americana, como Carlos Martiel, María José Arjona, Elvira Santamaría y Rosemberg Sandoval. Creador y promotor de la poética de la interferencia (2005). Co-director de la galería HOTEL DADA y Director General de BIENAL POSVERSO.
+
+  _
+  {.no-flota}
+
+
+  <br>
+
+
+  ![Ana Montenegro](/rec/foto/personas/montenegro_ana__c.jpg){.foto-izq-parrafo}
+
+  ### {{ per('montenegro_ana__c') }}{id=ana_montenegro}
+  _Brasil / Argentina_
+
+  <br>
+  Artista visual y performer brasileña, basada en Argentina. Con formación en arquitectura, escenografía y semiótica peirceana, desarrolla cursos de Proceso Artístico con base en la semiótica, talleres, charlas y asesorías para artistas. Co-directora de la galería HOTEL DADA, donde se ocupa de la dirección artística y de la presentación de distintos proyectos editoriales y curatoriales. Responsable de curadurías en Argentina y Brasil, fue curadora asociada en BIENALSUR 2023, Bienal Internacional de Arte Contemporáneo del Sur. Es Directora Artística, curadora, y responsable de la expografía general de BIENAL POSVERSO.
+
+
+  _
+  {.no-flota}
+
+
+  <br>
+
+
+  ![Soledad Sánchez Goldar](/rec/foto/personas/sanchez_goldar_soledad__c.jpg){.foto-izq-parrafo}
+
+  ### {{ per('sanchez_goldar_soledad__c') }}{id=soledad_sanchez_goldar}
+  _Argentina_
+
+  <br>
+  Nacida en Buenos Aires. Vive y trabaja entre Córdoba y Salta. Es licenciada en Teatro por la Universidad Nacional de Córdoba. Actualmente cursa el Doctorado en Artes de la UNC. Es artista y gestora cultural. Es docente y coordinadora de la Lic. de Artes Plásticas de la Facultad de Educación  de UCASAL. Participa del diseño y construcción del Archivo de memoria oral sobre performance en Argentina junto a Inti Pujol. Ha participado de la gestión del Continuo Latidoamericano de Performance Nodo ARG. junto a Graciela Ovejero Postigo en 2019. Forma parte del proyecto de investigación y producción en artes Escrituras Performáticas: Cuerpo y Acción en Efimerodramas radicado en el CePIA, UNC. Formó parte del proyecto de gestión La nariz en la taza junto a María del Carmen Cachín y ha participado en la organización de festivales y ciclos de performance:  Convergencias, encuentro regional de performance en el NOA; Aún sin título Arte de Acción; Huvaiti, salir al encuentro; Nómades, Festival de performance e intervenciones urbanas; Mutaciones, entre otros.
+
+  _
+  {.no-flota}
+
+  <br>
+
+
+  ![Claudia Kozak](/rec/foto/personas/kozak_claudia__c.jpg){.foto-izq-parrafo}
+
+  ### {{ per('kozak_claudia__c') }}{id=claudia_kozak}
+  _Argentina_
+
+  <br>
+  Investiga cruces entre arte y tecnología desde una perspectiva situada en Latinoamérica, con especial énfasis en poesía digital experimental. Fue curadora de las muestras: Luz Propia (Centro Cultural de España en Buenos Aires, 2025); Poextrónica. Pasado y presente de la literatura digital (Zona Futuro, 42a Feria Internacional del Libro de Buenos Aires, 2016); Expansiones. El tiempo de la literatura digital (MUNTREF / Centro de Arte Contemporáneo, 2015). Algunos de sus libros son : [Antología Lit(e)Lat. Vol. 1](https://antologia.litelat.net/) (Antología de literatura electrónica latinoamericana y caribeña, Leonardo Flores, Claudia Kozak, Rodolfo Mata, eds, 2020); [Fobias - fonias – fagias. Escritas experimentais e eletrónicas ibero-afro-latinoamericanas](https://bdigital.ufp.pt/bitstreams/2b0f5952-e416-456a-a4f9-bdef0cb28870/download) (Rui Torres y Claudia Kozak eds. Publicações Universidade Fernando Pessoa, 2019); Poéticas/políticas tecnológicas en Argentina (1910-2010) (Claudia Kozak comp., Fundación La hendija, 2014); Tecnopoéticas argentinas. Archivo blando de arte y tecnología (Claudia Kozak ed., Caja Negra, 2012; reedición 2015 y 2023).
+
+  _
+  {.no-flota}
+
+  <br>
+
+
+  ![Michael Hurtado](/rec/foto/personas/hurtado_michael__c.jpg){.foto-izq-parrafo}
+
+  ### {{ per('hurtado_michael__c') }}{id=michael_hurtado}
+  _Perú_
+
+  <br>
+  Es matemático, tecnólogo, artista de nuevos medios y poeta. Es investigador en poesía electrónica, becario del programa FabLearn de la Universidad de Columbia, coeditor de la Antología de Literatura Electrónica Latinoamericana Lit(e)lat, organizador de la 3ra Jornada Internacional de Poesía Visual y codirector de Masmédulab, un laboratorio dedicado a la exploración de la poesía y los nuevos medios. A lo largo de su trayectoria, ha sido reconocido con el premio VIDA16 de la Fundación Telefónica y la primera edición del premio Hub Musical Chile. Su obra poética ha sido publicada en diversas plataformas y antologías, incluyendo Nós da Poesia Volume 08, la I y II Mostra Virtual de Poesia Visual en Brasil, la revista Bufo de poesía experimental, Tokyo Poetry Journal, las revistas digitales illitera.com y Taper. Además, sus poemas electrónicos forman parte de importantes colecciones como la Electronic Literature Collection Volume 4 y la Cartografía Digital Latinoamericana de la Universidad Diego Portales en Chile.
+
+  _
+  {.no-flota}
+
+  <br>
+
+
+  ![Yuri Bruscky](/rec/foto/personas/bruscky_yuri__c.jpg){.foto-izq-parrafo}
+
+  ### {{ per('bruscky_yuri__c') }}{id=yuri_bruscky}
+  _Brasil_
+
+  <br>
+  Artista e investigador, doctor en Sociología por la UFPE. Explora intersecciones entre ruido, lenguaje, mediaciones sociotécnicas y prácticas cotidianas. Imparte docencia en los programas de Producción Fonográfica y Cine de Uniaeso/PE. Desde 2010, dirige el sello de música experimental Estranhas Ocupações. Es cocreador del ciclo de arte sonoro Rumor, del festival Muído y del programa de seminarios y residencias artísticas (Entre) Lugares Sonoros. Es coautor del libro História da Poesia Visual Brasileira (Cepe, 2018).
+
+  _
+  {.no-flota}
+
+
+  <br>
+
+
+  ![Alejandro Zuy](/rec/foto/personas/zuy_alejandro__c.jpg){.foto-izq-parrafo}
+
+  ### {{ per('zuy_alejandro__c') }}{id=alejandro_zuy}
+  _Argentina_
+
+  <br>
+  Curador independiente y redactor especializado en medios de prensa de Argentina y Latinoamérica. Es Licenciado en Historia de las Artes y Curaduría, recibido en la Universidad del Museo Social Argentino. En la actualidad es miembro de la AACA (Asociación Argentina de Críticos de Arte).
+
+  _
+  {.no-flota}
+
+  <br>

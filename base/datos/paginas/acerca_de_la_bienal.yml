@@ -1,133 +1,59 @@
 ---
 
-titulo:
-  es: 'Acerca de la bienal'
-  en: 'About POSVERSO Biennial'
-html_base: 'pagina-es_en.html'
+titulo: 'Acerca de la bienal'
+html_base: 'pagina.html'
 ruta_static: 'pag/acerca_de_la_bienal/index.html'
 
+estilo: col-lg-11
 estilo_cnt_sec: 'lista-subrayada titulares-reducidos'
 
-contenido:
-  es: |
+contenido: |
+  **POSVERSO** es una bienal enfocada en las múltiples prácticas de la poesía intersemiótica, que es generada desde [*HOTEL DADA Base de Arte Correo y Poesía Experimental*]( {{ cfg.urls.hoteldadabase }}), en Argentina.
 
-    **POSVERSO** es una bienal enfocada en las múltiples prácticas de la poesía intersemiótica, que es generada desde [*HOTEL DADA Base de Arte Correo y Poesía Experimental*]( {{ cfg.urls.hoteldadabase }}), en Argentina.
+  El término *pós-verso* proviene de un desarrollo teórico del poeta brasileño [Omar Khouri]({{ cfg.urls.info_omar_khouri}}), quien lo acuñó para referirse a las manifestaciones de la poesía brasileña a partir de los años 70, y especialmente a los grupos nucleados en torno a las revistas Navilouca, Pólen, Código y Artéria. De acuerdo a los planteos de Khouri, esa poesía de la era pós-verso, que no excluye la práctica del verso convencional, tiene como carácter distintivo su migrar de un medio para otro, empleando diversos códigos para su “transmutación” o traducción intersemiótica.
 
-    El término *pós-verso* proviene de un desarrollo teórico del poeta brasileño [Omar Khouri]({{ cfg.urls.info_omar_khouri}}), quien lo acuñó para referirse a las manifestaciones de la poesía brasileña a partir de los años 70, y especialmente a los grupos nucleados en torno a las revistas Navilouca, Pólen, Código y Artéria. De acuerdo a los planteos de Khouri, esa poesía de la era pós-verso, que no excluye la práctica del verso convencional, tiene como carácter distintivo su migrar de un medio para otro, empleando diversos códigos para su “transmutación” o traducción intersemiótica.
+  La BIENAL POSVERSO retoma este concepto que apuntala la existencia de una poesía expandida, marcada intensamente por su naturaleza híbrida y migrante, pero procura llevarlo a un nuevo nivel de transgresión.  Hoy la poesía no es un territorio restringido a los poetas, verbales o experimentales, sino una zona fluctuante y dispersiva en la que se mueven creadores que, de manera incesante y acumulativa, promueven desbordes intersígnicos entre distintas artes.
 
-    La BIENAL POSVERSO retoma este concepto que apuntala la existencia de una poesía expandida, marcada intensamente por su naturaleza híbrida y migrante, pero procura llevarlo a un nuevo nivel de transgresión.  Hoy la poesía no es un territorio restringido a los poetas, verbales o experimentales, sino una zona fluctuante y dispersiva en la que se mueven creadores que, de manera incesante y acumulativa, promueven desbordes intersígnicos entre distintas artes.
+  Desde POSVERSO, consideramos que la poesía experimental constituye un lenguaje intermedial, una frontera abierta y difusa, siempre permeable a las más variadas aproximaciones. Y es en el campo de las artes visuales donde este lenguaje logra desenvolverse con una intensidad inusitada, y donde se enriquece y repotencializa, manifestándose en obras en las que la interacción entre sistemas de signos asume una forma privilegiada del carácter subversivo de la poesía.
 
-    Desde POSVERSO, consideramos que la poesía experimental constituye un lenguaje intermedial, una frontera abierta y difusa, siempre permeable a las más variadas aproximaciones. Y es en el campo de las artes visuales donde este lenguaje logra desenvolverse con una intensidad inusitada, y donde se enriquece y repotencializa, manifestándose en obras en las que la interacción entre sistemas de signos asume una forma privilegiada del carácter subversivo de la poesía.
+  POSVERSO es una bienal descentrada, inserta en la pampa argentina, alejada de los centros hegemónicos del país, y que desde este emplazamiento estratégico se proyecta como una plataforma alternativa y democrática, con una identidad profundamente latinoamericana, ligada a la reflexión crítica sobre el contexto inmediato, en su dimensión local y global.
 
-    POSVERSO es una bienal descentrada, inserta en la pampa argentina, alejada de los centros hegemónicos del país, y que desde este emplazamiento estratégico se proyecta como una plataforma alternativa y democrática, con una identidad profundamente latinoamericana, ligada a la reflexión crítica sobre el contexto inmediato, en su dimensión local y global.
+  <br><br>
 
-    <br><br>
+  ## Organización
+  ---
 
-    ## Organización
-    ---
+  ![Hotel DaDA](/rec/foto/sedes/hotel_dada-2.jpg){.foto-izq-parrafo}
 
-    ![Hotel DaDA](/rec/foto/sedes/hotel_dada-2.jpg){.foto-izq-parrafo}
+  [**Hotel DaDA**](/sds/01_hotel_dada/){.fs-5 id="hotel_dada"}
 
-    [**Hotel DaDA**](/sds/01_hotel_dada/){.fs-5 id="hotel_dada"}
+  Localizada en la ciudad de Junín, en el noroeste de la provincia de Buenos Aires, HOTEL DADA es una galería especializada en arte correo y poesía experimental. Ideada y fundada en enero de 2020 por los artistas Silvio De Gracia y Ana Montenegro, tiene su origen en la revista homónima que se comenzó a editar en 2002 y que concluyó en 2022.
 
-    Localizada en la ciudad de Junín, en el noroeste de la provincia de Buenos Aires, HOTEL DADA es una galería especializada en arte correo y poesía experimental. Ideada y fundada en enero de 2020 por los artistas Silvio De Gracia y Ana Montenegro, tiene su origen en la revista homónima que se comenzó a editar en 2002 y que concluyó en 2022.
+  Con un enfoque histórico y actual, la galería busca dar visibilidad a una serie de artistas vinculados a los distintos géneros del arte correo y la exploración del lenguaje poético en sus múltiples posibilidades. De acuerdo a este perfil curatorial, HOTEL DADA está comprometida con la difusión, exhibición y producción teórica en torno a expresiones consideradas marginales, entendiendo lo marginal como una categoría estético-política. La intención es contribuir al reconocimiento y posicionamiento de manifestaciones alternativas, como sellos de artistas, revistas ensambladas, rubberstamps, poema-objeto, libro de artista, sticker art, afichismo artístico, poesía visual, videopoema, poesía acción, poesía fonética y sonora, collages, fotocopia-arte, entre otras muchas propuestas que expanden los límites de las artes visuales.
+  [hoteldadabase.org]({{ cfg.urls.hoteldadabase }})
 
-    Con un enfoque histórico y actual, la galería busca dar visibilidad a una serie de artistas vinculados a los distintos géneros del arte correo y la exploración del lenguaje poético en sus múltiples posibilidades. De acuerdo a este perfil curatorial, HOTEL DADA está comprometida con la difusión, exhibición y producción teórica en torno a expresiones consideradas marginales, entendiendo lo marginal como una categoría estético-política. La intención es contribuir al reconocimiento y posicionamiento de manifestaciones alternativas, como sellos de artistas, revistas ensambladas, rubberstamps, poema-objeto, libro de artista, sticker art, afichismo artístico, poesía visual, videopoema, poesía acción, poesía fonética y sonora, collages, fotocopia-arte, entre otras muchas propuestas que expanden los límites de las artes visuales.
-    [hoteldadabase.org]({{ cfg.urls.hoteldadabase }})
+  <br>
 
-    <br>
+  ![Silvio De Gracia](/rec/foto/personas/silvio_de_gracia.jpg){.foto-izq-parrafo}
 
-    ![Silvio De Gracia](/rec/foto/personas/silvio_de_gracia.jpg){.foto-izq-parrafo}
+  **{{ per('de_gracia_silvio') }}**{.fs-5 id="silvio_de_gracia"}
 
-    **{{ per('de_gracia_silvio') }}**{.fs-5 id="silvio_de_gracia"}
+  *Director General de POSVERSO*.
 
-    *Director General de POSVERSO*.
-
-    Silvio De Gracia es escritor, artista visual, poeta experimental, performer y curador independiente, nacido en Junín, Argentina. Entre 2002 y 2015 fue director y curador de varios eventos y festivales de videoarte y performance en su ciudad, como Festival de la interferencia – In memoriam Edgardo Antonio Vigo (2007) y Participación – Encuentro Latinoamericano de Performance (2015).  Entre 2002 y 2022, dirigió la revista de arte correo y poesía visual HOTEL DADA. Entre sus curadurías, presentadas en varios países alrededor del mundo, destacan: La Persistencia del Cuerpo - Rastros del Arte de Performance en América Latina, EAC Espacio de Arte Contemporáneo, Montevideo, Uruguay, 2018; Cuerpos en disidencia - Documents in photography and video of Performance Art in South American in the 1970s and 1980s, Venice International Performance Art Week, Venecia, Italia, 2014; Flyers - Programa Colateral de la Oncena Bienal de La Habana, Cuba (2012). Miembro del comité de redacción internacional de la revista canadiense Inter art actuel. Co-director de la galería HOTEL DADA. Curador asociado en BIENALSUR 2023, Bienal Internacional de Arte Contemporáneo del Sur.
+  Silvio De Gracia es escritor, artista visual, poeta experimental, performer y curador independiente, nacido en Junín, Argentina. Entre 2002 y 2015 fue director y curador de varios eventos y festivales de videoarte y performance en su ciudad, como Festival de la interferencia – In memoriam Edgardo Antonio Vigo (2007) y Participación – Encuentro Latinoamericano de Performance (2015).  Entre 2002 y 2022, dirigió la revista de arte correo y poesía visual HOTEL DADA. Entre sus curadurías, presentadas en varios países alrededor del mundo, destacan: La Persistencia del Cuerpo - Rastros del Arte de Performance en América Latina, EAC Espacio de Arte Contemporáneo, Montevideo, Uruguay, 2018; Cuerpos en disidencia - Documents in photography and video of Performance Art in South American in the 1970s and 1980s, Venice International Performance Art Week, Venecia, Italia, 2014; Flyers - Programa Colateral de la Oncena Bienal de La Habana, Cuba (2012). Miembro del comité de redacción internacional de la revista canadiense Inter art actuel. Co-director de la galería HOTEL DADA. Curador asociado en BIENALSUR 2023, Bienal Internacional de Arte Contemporáneo del Sur.
 
 
-    <br>
+  <br>
 
-    ![Ana Montenegro](/rec/foto/personas/ana_montenegro.jpg){.foto-izq-parrafo}
+  ![Ana Montenegro](/rec/foto/personas/ana_montenegro.jpg){.foto-izq-parrafo}
 
-    **{{ per('montenegro_ana') }}**{.fs-5 id="ana_montenegro"}
+  **{{ per('montenegro_ana') }}**{.fs-5 id="ana_montenegro"}
 
-    *Directora artística de POSVERSO*.
+  *Directora artística de POSVERSO*.
 
-    Ana Montenegro es una artista visual y performer brasileña, basada en Argentina. Con formación en arquitectura, escenografía y semiótica peirceana, desarrolla cursos de Proceso Artístico con base en la semiótica, talleres, charlas y asesorías para artistas. Co-directora de la galería HOTEL DADA, donde se ocupa de la dirección artística y de la presentación de distintos proyectos editoriales y curatoriales. Con una amplia trayectoria nacional e internacional en el campo del arte de performance, se destaca por la práctica de la performance sonora y la poesia experimental en diversos soportes. Responsable de curadurías en Argentina y Brasil, fue curadora asociada en BIENALSUR 2023, Bienal Internacional de Arte Contemporáneo del Sur.
+  Ana Montenegro es una artista visual y performer brasileña, basada en Argentina. Con formación en arquitectura, escenografía y semiótica peirceana, desarrolla cursos de Proceso Artístico con base en la semiótica, talleres, charlas y asesorías para artistas. Co-directora de la galería HOTEL DADA, donde se ocupa de la dirección artística y de la presentación de distintos proyectos editoriales y curatoriales. Con una amplia trayectoria nacional e internacional en el campo del arte de performance, se destaca por la práctica de la performance sonora y la poesia experimental en diversos soportes. Responsable de curadurías en Argentina y Brasil, fue curadora asociada en BIENALSUR 2023, Bienal Internacional de Arte Contemporáneo del Sur.
 
-    <br>
-
-  en: |
+  <br>
 
 
-    **POSVERSO** is a biennial focused on the multiple practices of intersemiotic poetry, which is generated from [*HOTEL DADA Base de Arte Correo y Poesía Experimental*]( {{ cfg.urls.hoteldadabase }}), in the city of Junín, in the northwestern region of the Buenos Aires province, Argentina.
-
-    The term pós-verso comes from a theoretical development by the Brazilian poet [Omar Khouri]({{ cfg.urls.info_omar_khouri}}), who coined it to refer to the manifestations of Brazilian poetry starting in the 1970s, and especially to the groups centered around the magazines Navilouca, Pólen, Código and Artéria. According to Khouri's ideas, the poetry of the post-verso era, which does not exclude the practice of conventional verse, has the distinctive character of migrating from one medium to another, using various codes for its “transmutation” or intersemiotic translation. The POSVERSO BIENNIAL takes up this concept that underpins the existence of an expanded poetry, intensely marked by its hybrid and migrant nature, but seeks to take it to a new level of transgression. Today poetry is not a territory restricted to poets, verbal or experimental, but rather a fluctuating and dispersive zone in which creators move who, in an incessant and cumulative manner, promote intersignal overflows between different arts.
-
-
-    <br><br>
-
-    ## Organization
-    ---
-
-    ![Hotel DaDA](/rec/foto/sedes/hotel_dada-2.jpg){.foto-izq-parrafo}
-
-    [**Hotel DaDA**](/sds/01_hotel_dada/){.fs-5 id="hotel_dada"}
-
-    Located in the city of Junín, in the northwest of the province of Buenos Aires, HOTEL DADA is a gallery specialized in mail art and experimental poetry. Conceived and founded in January 2020 by the artists Silvio De Gracia and Ana Montenegro, it has its origins in the magazine of the same name that began publishing in 2002 and ended in 2022.
-
-    With a historical and current focus, the gallery seeks to give visibility to a series of artists linked to the different genres of mail art and the exploration of poetic language in its multiple possibilities. According to this curatorial profile, HOTEL DADA is committed to the dissemination, exhibition and theoretical production around expressions considered marginal, understanding the marginal as an aesthetic-political category. The intention is to contribute to the recognition and positioning of alternative manifestations, such as artistamps, assembled magazines, rubberstamps, object-poems, artist books, sticker art, artistic posters, visual poetry, video poems, action poetry, phonetic and sound poetry, collages , photocopy-art, among many other proposals that expand the limits of the visual arts. [hoteldadabase.org]({{ cfg.urls.hoteldadabase }})
-
-     <br>
-
-    ![Silvio De Gracia](/rec/foto/personas/silvio_de_gracia.jpg){.foto-izq-parrafo}
-
-    **{{ per('de_gracia_silvio') }}**{.fs-5 id="silvio_de_gracia"}
-
-    *General Director*.
-
-    Silvio De Gracia is a writer, visual artist, experimental poet, performer and independent curator, born in Junín, Argentina. Between 2002 and 2015 he was director and curator of several video art and performance events and festivals in his city, such as Festival de la interference – In memoriam Edgardo Antonio Vigo (2007) and Participación – Encuentro Latinoamericano de Performance (2015). Between 2002 and 2022, he directed the mail art and visual poetry magazine HOTEL DADA. Among his curators, presented in several countries around the world, the following stand out: The Persistence of the Body-Traces of Performance Art in Latin America, EAC Espacio de Arte Contemporáneo, Montevideo, Uruguay, 2018; Bodies in Dissidence - Documents in photography and video of Performance Art in South American in the 1970s and 1980s, Venice International Performance Art Week, Venice, Italy, 2014; Flyers - Collateral Program of the Eleventh Biennial of Havana, Cuba (2012). Member of the international editorial board of the Canadian magazine Inter art actuel. Co-director of the HOTEL DADA gallery. Associate curator at BIENALSUR 2023, International Biennial of Contemporary Art of the South.
-
-    <br>
-
-    ![Ana Montenegro](/rec/foto/personas/ana_montenegro.jpg){.foto-izq-parrafo}
-
-    **{{ per('montenegro_ana') }}**{.fs-5 id="ana_montenegro"}
-
-    *Artistic Director*.
-
-    Ana Montenegro is a Brazilian visual artist and performer, based in Argentina. With training in architecture, scenography and Peircean semiotics, she develops Artistic Process courses based on semiotics, workshops, talks and advice for artists. She is co-director of the HOTEL DADA gallery, where she is in charge of the artistic direction and presentation of different editorial and curatorial projects. With an extensive national and international career in the field of performance art, she stands out for the practice of sound performance and experimental poetry in various media. Responsible for curators in Argentina and Brazil, she was associate curator at BIENALSUR 2023, International Biennial of Contemporary Art of the South.
-
-    <br>
-
-
-
-contenido_secundario: |
-
-  ## EQUIPO
-
-  ### Dirección General
-  + {{ per('de_gracia_silvio') }} (ARG)
-
-  ### Dirección Artística
-  + {{ per('montenegro_ana') }} (BRA)
-
-  ### Coordinación de proyectos
-  + {{ per('montenegro_ana') }} (BRA)
-  + {{ per('de_gracia_silvio') }} (ARG)
-
-  ### Prensa
-  + HOTEL DADA
-
-  ### Coordinación Editorial
-  + {{ per('montenegro_ana') }} (BRA)
-  + {{ per('de_gracia_silvio') }} (ARG)
-
-  ### Producción audiovisual
-  + {{ per('montenegro_ana') }} (BRA)
-  + {{ per('macheratti_carlos_alberto') }} (ARG)
-  + {{ per('Guido de Gracia') }} (ARG)
-
-  ### Desarrollo web
-  + {{ per('macheratti_carlos_alberto') }} (ARG)
+contenido_secundario: ''
