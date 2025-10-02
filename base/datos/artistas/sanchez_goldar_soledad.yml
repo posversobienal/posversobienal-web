@@ -13,7 +13,9 @@ eventos: []
 
 fotos:
   persona: 'soledad_sanchez_goldar-1.jpg'
-  obra: 'soledad_sanchez_goldar-1.jpg'
+  obra: 'soledad_sanchez_goldar-2.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 45%
 
 etiquetas:
   - invitado

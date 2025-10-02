@@ -3,12 +3,13 @@
 titulo: 'Artistas 2026'
 html_base: 'pagina-menu.html'
 ruta_static: 'pag/artistas_2026/index.html'
-estilo: container d-flex flex-wrap justify-content-center
+estilo_: container d-flex flex-wrap justify-content-center
+estilo: lista_nomina_artistas
 
-filtrador: |
+filtrador_: |
   <div id="filtrador_aqui" data-cfg='{"tipo":"filtro-artista"}'></div>
 
-contenido: |
+contenido_: |
 
   {% for id_art, dat_art  in rec.artistas.items() %}
   {% if 'participo_en_2026' in dat_art.etiquetas %}
@@ -29,3 +30,35 @@ contenido: |
 
   {% endif %}
   {% endfor %}
+
+
+contenido: |
+
+  - Diego Alberti <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - Esteban Álvarez <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - Aurapoesíavisual <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('baena_fernando') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
+  - Pedro Bericat <small class="text-secondary mx-2">(ESPAÑA)</small>
+  - {{ per('buitron_virginia') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('caro_antonio') }} <small class="text-secondary mx-2">(COLOMBIA)</small>
+  - {{ per('dardot_marila') }} <small class="text-secondary mx-2">(BRASIL)</small>
+  - {{ per('denegri_andres') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('fatmi_mounir') }} <small class="text-secondary mx-2">(MARRUECOS)</small>
+  - {{ per('gimein_anna') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
+  - Michael Hurtado <small class="text-secondary mx-2">(PERU)</small>
+  - {{ per('jezik_enrique') }} <small class="text-secondary mx-2">(MÉXICO)</small>
+  - {{ per('la_porfia_colectivo') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('macheratti_carlos_alberto') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('maggi_ruggero') }} <small class="text-secondary mx-2">(ITALIA)</small>
+  - {{ per('mancioli_maurizio') }} <small class="text-secondary mx-2">(BRASIL)</small>
+  - {{ per('montiel_ale') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('moraes_simone') }} <small class="text-secondary mx-2">(BRASIL)</small>
+  - {{ per('pereda_teresa') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('pozo_luciano') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('radakovic_darija') }} <small class="text-secondary mx-2">(CANADÁ)</small>
+  - {{ per('rivas_silvia') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('sanchez_goldar_soledad') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - [Daniel Sarobe y Silvina Torviso](/per/sarobe_torviso/) <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('sierra_santiago') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
+  - {{ per('szabo_saulo') }} <small class="text-secondary mx-2">(BRASIL)</small>
+  - {{ per('ulisses_edgar') }} <small class="text-secondary mx-2">(BRASIL)</small>

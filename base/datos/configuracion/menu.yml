@@ -5,8 +5,8 @@
   submenu:
     - {titulo: 'Eje temático', url: '/pag/eje_tematico_2026/'}
     - {titulo: 'Equipo curatorial', url: '/pag/equipo_curatorial_2026/'}
+    - {titulo: 'Equipo de la Bienal', url: '/pag/equipo_bienal_2026/'}
     - {titulo: 'Acerca de nosotros', url: '/pag/acerca_de_la_bienal/'}
-    - {titulo: 'POSVERSO 2024', url: '/pag/bienal_2024/'}
 
 - titulo: 'ARTISTAS'
   url: ''
@@ -23,3 +23,8 @@
     - {titulo: 'Prensa', url: '/pag/prensa/'}
     - {titulo: 'Publicaciones', url: '/pag/publicaciones/'}
     - {titulo: 'Videos', url: '/pag/videos/'}
+
+- titulo: 'EDICIONES ANTERIORES'
+  url: ''
+  submenu:
+    - {titulo: 'POSVERSO 2024', url: '/pag/bienal_2024/'}

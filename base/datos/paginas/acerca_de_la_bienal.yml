@@ -1,11 +1,11 @@
 ---
 
-titulo: 'Acerca de la bienal'
-html_base: 'pagina.html'
+titulo: 'Acerca de la Bienal'
+html_base: 'pagina-con_biografias.html'
 ruta_static: 'pag/acerca_de_la_bienal/index.html'
-
 estilo: col-lg-11
 estilo_cnt_sec: 'lista-subrayada titulares-reducidos'
+
 
 contenido: |
   **POSVERSO** es una bienal enfocada en las múltiples prácticas de la poesía intersemiótica, que es generada desde [*HOTEL DADA Base de Arte Correo y Poesía Experimental*]( {{ cfg.urls.hoteldadabase }}), en Argentina.
@@ -18,8 +18,29 @@ contenido: |
 
   POSVERSO es una bienal descentrada, inserta en la pampa argentina, alejada de los centros hegemónicos del país, y que desde este emplazamiento estratégico se proyecta como una plataforma alternativa y democrática, con una identidad profundamente latinoamericana, ligada a la reflexión crítica sobre el contexto inmediato, en su dimensión local y global.
 
-  <br><br>
 
+listado:
+  de_gracia_silvio: {nomb: 'Silvio De Gracia', foto: '/rec/foto/personas/de_gracia_silvio__e.jpg', link: '/per/de_gracia_silvio__e', rol: 'Director General de POSVERSO'}
+  montenegro_ana: {nomb: 'Ana Montenegro', foto: '/rec/foto/personas/montenegro_ana__e.jpg', link: '/per/montenegro_ana__e', rol: 'Directora artística de POSVERSO'}
+  macheratti_carlos_alberto: {nomb: 'Carlos Macheratti', foto: '/rec/foto/personas/macheratti_carlos_alberto__e.jpg', link: '/per/macheratti_carlos_alberto__e', rol: 'Responsable del desarrollo web, diseño gráfico y editorial'}
+
+
+biografias:
+  de_gracia_silvio: |
+    Escritor, artista visual, poeta experimental, performer y curador independiente, nacido en Junín, Argentina. Con casi 30 años de gestión cultural en su ciudad, ha sido impulsor y curador de numerosos festivales, encuentros, exhibiciones y eventos enfocados en arte contemporáneo. A nivel internacional, ha presentado curadurías en diversos países del mundo, destacando proyectos expositivos en la 7ma Bienal do Sertao (2025), BIENALSUR (2023) y Oncena Bienal de La Habana (2012). Co-director de la galería HOTEL DADA y Director General de BIENAL POSVERSO.
+
+  montenegro_ana: |
+    Artista visual y performer brasileña, basada en Argentina. Con formación en arquitectura, escenografía y semiótica peirceana, desarrolla cursos de Proceso Artístico con base en la semiótica, talleres, charlas y asesorías para artistas. Co-directora de la galería HOTEL DADA, donde se ocupa de la dirección artística y de la presentación de distintos proyectos editoriales y curatoriales. Responsable de curadurías en Argentina y Brasil, fue curadora asociada en BIENALSUR 2023, Bienal Internacional de Arte Contemporáneo del Sur.
+
+  macheratti_carlos_alberto: |
+    Es técnico gráfico egresado de la Escuela de Arte Xul Solar de Junín. Artista electrónico, interesado en diversas formas de creación basadas en códigos computacionales. Activo participante de colectivos artísticos y culturales de la ciudad. Responsable del sitio web y diseño gráfico de BIENAL POSVERSO, así como del desarrollo editorial de las publicaciones asociadas a la Bienal.
+
+
+
+
+
+
+extra: |
   ## Organización
   ---
 
@@ -31,6 +52,8 @@ contenido: |
 
   Con un enfoque histórico y actual, la galería busca dar visibilidad a una serie de artistas vinculados a los distintos géneros del arte correo y la exploración del lenguaje poético en sus múltiples posibilidades. De acuerdo a este perfil curatorial, HOTEL DADA está comprometida con la difusión, exhibición y producción teórica en torno a expresiones consideradas marginales, entendiendo lo marginal como una categoría estético-política. La intención es contribuir al reconocimiento y posicionamiento de manifestaciones alternativas, como sellos de artistas, revistas ensambladas, rubberstamps, poema-objeto, libro de artista, sticker art, afichismo artístico, poesía visual, videopoema, poesía acción, poesía fonética y sonora, collages, fotocopia-arte, entre otras muchas propuestas que expanden los límites de las artes visuales.
   [hoteldadabase.org]({{ cfg.urls.hoteldadabase }})
+
+  <br><br>
 
   <br>
 

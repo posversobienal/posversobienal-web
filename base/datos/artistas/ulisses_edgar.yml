@@ -1,0 +1,25 @@
+---
+
+nombre: 'Edgar'
+apellido: 'Ulisses'
+seudonimo: ''
+
+nacionalidad: 'Brasil'
+contacto_publico: ''
+
+web: '​'
+
+eventos: []
+
+fotos:
+  persona: 'ulises_edgar.jpg'
+  obra: 'ulises_edgar-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - seleccionado
+  - participo_en_2026
+
+
+detalle: ''

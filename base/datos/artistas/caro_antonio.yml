@@ -12,8 +12,8 @@ web: ''
 eventos: []
 
 fotos:
-  persona: 'antonio_caro.jpg'
-  obra: 'antonio_caro-1.jpg'
+  persona: 'antonio_caro-1.jpg'
+  obra: 'antonio_caro-2.jpg'
 
 imagen_cabecera_posicion_inicial: 50% 50%
 
