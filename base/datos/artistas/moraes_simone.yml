@@ -15,7 +15,7 @@ fotos:
   persona: 'simone_moraes-1.jpg'
   obra: 'simone_moraes-2.jpg'
 
-imagen_cabecera_posicion_inicial: 50% 70%
+imagen_cabecera_posicion_inicial: 50% 20%
 
 etiquetas:
   - invitado

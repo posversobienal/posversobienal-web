@@ -13,9 +13,9 @@ eventos: []
 
 fotos:
   persona: 'maurizio_mancioli-1.jpg'
-  obra: 'maurizio_mancioli-2.jpg'
+  obra: 'maurizio_mancioli-3.jpg'
 
-imagen_cabecera_posicion_inicial: 50% 0%
+imagen_cabecera_posicion_inicial: 50% 20%
 
 etiquetas:
   - invitado
