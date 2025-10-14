@@ -12,10 +12,10 @@ web: ''
 eventos: []
 
 fotos:
-  persona: 'szabo_saulo.jpg'
-  obra: 'szabo_saulo-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 70%
+  '26':
+    persona: 'szabo_saulo.jpg'
+    obra: 'szabo_saulo-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 70%
 
 etiquetas:
   - seleccionado

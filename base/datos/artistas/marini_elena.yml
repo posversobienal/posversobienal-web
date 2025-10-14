@@ -12,10 +12,10 @@ web: ''
 eventos: []
 
 fotos:
-  persona: 'elena_marini.jpg'
-  obra: 'elena_marini-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 40%
+  '24':
+    persona: 'elena_marini.jpg'
+    obra: 'elena_marini-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 40%
 
 etiquetas:
   - invitado

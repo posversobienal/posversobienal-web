@@ -12,10 +12,10 @@ web: ''
 eventos: []
 
 fotos:
-  persona: 'giovanni_fontana.jpg'
-  obra: 'giovanni_fontana-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 65%
+  '24':
+    persona: 'giovanni_fontana.jpg'
+    obra: 'giovanni_fontana-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 65%
 
 etiquetas:
   - invitado

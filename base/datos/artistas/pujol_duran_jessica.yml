@@ -12,10 +12,10 @@ web: 'https://www.instagram.com/jessica.pujol.duran/'
 eventos: []
 
 fotos:
-  persona: 'jessica_pujol_duran.jpg'
-  obra: 'jessica_pujol_duran-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 40%
+  '24':
+    persona: 'jessica_pujol_duran.jpg'
+    obra: 'jessica_pujol_duran-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 40%
 
 etiquetas:
   - invitado

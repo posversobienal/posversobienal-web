@@ -12,10 +12,10 @@ web: 'http://www.monicamura.com/'
 eventos: []
 
 fotos:
-  persona: 'monica_mura.jpg'
-  obra: 'monica_mura-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 33%
+  '24':
+    persona: 'monica_mura.jpg'
+    obra: 'monica_mura-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 33%
 
 etiquetas:
   - invitado

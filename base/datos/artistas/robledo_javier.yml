@@ -12,10 +12,10 @@ web: 'https://linktr.ee/videobardo'
 eventos: []
 
 fotos:
-  persona: 'javier_robledo.jpg'
-  obra: 'javier_robledo-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 20%
+  '24':
+    persona: 'javier_robledo.jpg'
+    obra: 'javier_robledo-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 20%
 
 etiquetas:
   - invitado

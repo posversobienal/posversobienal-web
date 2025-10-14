@@ -12,10 +12,10 @@ web: 'https://www.jmcalleja.com/'
 eventos: []
 
 fotos:
-  persona: 'j_m_calleja.jpg'
-  obra: 'j_m_calleja-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 45%
+  '24':
+    persona: 'j_m_calleja.jpg'
+    obra: 'j_m_calleja-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 45%
 
 etiquetas:
   - invitado

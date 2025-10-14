@@ -13,10 +13,10 @@ web: 'https://www.instagram.com/andreahygino8/'
 eventos: []
 
 fotos:
-  persona: 'andrea_hygino.jpg'
-  obra: 'andrea_hygino-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 50%
+  '24':
+    persona: 'andrea_hygino.jpg'
+    obra: 'andrea_hygino-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
 
 etiquetas:
   - invitado

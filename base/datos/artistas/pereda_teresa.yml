@@ -12,10 +12,10 @@ web: 'https://teresapereda.com.ar/'
 eventos: []
 
 fotos:
-  persona: 'teresa_pereda.jpg'
-  obra: 'teresa_pereda-2.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 12%
+  '24':
+    persona: 'teresa_pereda.jpg'
+    obra: 'teresa_pereda-2.jpg'
+    imagen_cabecera_posicion_inicial: 50% 12%
 
 etiquetas:
   - invitado

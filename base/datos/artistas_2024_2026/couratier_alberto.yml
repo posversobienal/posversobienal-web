@@ -1,0 +1,25 @@
+---
+
+nombre: 'Alberto'
+apellido: 'Couratier'
+seudonimo: ''
+
+nacionalidad: 'Chile'
+contacto_publico: ''
+
+web: 'https://albertocouratier1.wixsite.com/albertocouratier/'
+
+eventos: []
+
+fotos:
+  persona: 'alberto_couratier.jpg'
+  obra: 'alberto_couratier-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 30%
+
+etiquetas:
+  - invitado
+  - participo_en_2024
+
+detalle: |
+  Como profesor de Artes Visuales con maestría en educación artística y cómo artista visual, su trayectoria se ha destacado por su participación activa en encuentros con artistas internacionales. Su trabajo se centra en establecer un vínculo entre las artes visuales y la pedagogía, proceso que comparte a través de talleres, charlas y exposiciones, tanto a nivel nacional como internacional. Ha presentado su práctica artística en diversos países, incluyendo Argentina, Perú, Bolivia, Venezuela, Estados Unidos, México y Dinamarca.

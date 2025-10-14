@@ -12,10 +12,10 @@ web: 'https://albertocouratier1.wixsite.com/albertocouratier/'
 eventos: []
 
 fotos:
-  persona: 'alberto_couratier.jpg'
-  obra: 'alberto_couratier-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 30%
+  '24':
+    persona: 'alberto_couratier.jpg'
+    obra: 'alberto_couratier-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 30%
 
 etiquetas:
   - invitado

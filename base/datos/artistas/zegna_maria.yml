@@ -12,10 +12,10 @@ web: 'https://www.mariazegna.com/'
 eventos: []
 
 fotos:
-  persona: 'maria_zegna.jpg'
-  obra: 'maria_zegna-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 80%
+  '24':
+    persona: 'maria_zegna.jpg'
+    obra: 'maria_zegna-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 80%
 
 etiquetas:
   - seleccionado

@@ -12,10 +12,10 @@ web: 'http://chocair.pythonanywhere.com/'
 eventos: []
 
 fotos:
-  persona: 'enrique_chocair.jpg'
-  obra: 'enrique_chocair-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 50%
+  '24':
+    persona: 'enrique_chocair.jpg'
+    obra: 'enrique_chocair-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
 
 etiquetas:
   - seleccionado

@@ -12,10 +12,10 @@ web: 'https://romavaquerodiaz.com/'
 eventos: []
 
 fotos:
-  persona: 'roma_vaquero_diaz.jpg'
-  obra: 'roma_vaquero_diaz-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 30%
+  '24':
+    persona: 'roma_vaquero_diaz.jpg'
+    obra: 'roma_vaquero_diaz-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 30%
 
 etiquetas:
   - invitado

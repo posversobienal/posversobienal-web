@@ -12,10 +12,10 @@ web: 'https://www.montenegrofisher.org'
 eventos: []
 
 fotos:
-  persona: 'montenegro_fisher.jpg'
-  obra: 'montenegro_fisher-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 20%
+  '24':
+    persona: 'montenegro_fisher.jpg'
+    obra: 'montenegro_fisher-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 20%
 
 etiquetas:
   - invitado

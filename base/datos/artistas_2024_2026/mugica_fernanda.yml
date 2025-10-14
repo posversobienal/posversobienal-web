@@ -1,0 +1,25 @@
+---
+
+nombre: 'Fernanda '
+apellido: 'Mugica'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://fernandamugica.com/'
+
+eventos: []
+
+fotos:
+  persona: 'fernanda_mugica.jpg'
+  obra: 'fernanda_mugica-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 10%
+
+etiquetas:
+  - seleccionado
+  - participo_en_2024
+
+detalle: |
+  Es Profesora en Letras (UNMdP) y Becaria Doctoral (CONICET) con un proyecto sobre el cruce entre literatura y tecnologías digitales. Actualmente, artista seleccionada en la residencia arte-ciencia Calando (UTN). Ayudante Graduada Simple en la cátedra de Literatura Argentina de la Universidad Nacional de Mar del Plata. Docente en la Maestría en Humanidades Aumentadas de la Universidad Nacional de Rosario. Professional Webmaster (Universidad Tecnológica Nacional). Diploma superior en Tecnología, subjetividad y política (CLACSO). Realizó diversos cursos de programación (Python UNSAM, JAVA Web Full Stack Junior) y se especializa en programación creativa. Publicó Un billete de mil australes encontrado en un libro de Carl Sagan (EMR, 2018, mención Primer Concurso Nacional de Poesía de Rosario; Liliputienses, 2021; Capiranhas Do Parahybuna, 2022 en traducción de Anelise Freitas, Programa Sur de Apoyo a la Traducción), Soñé (Matrerita, 2021), El núcleo duro (Goles Rosas, 2015) y Alberta (Honesta, 2014). Su web: http://fernandamugica.com En 2020, recibió el Primer Premio del Concurso de Ensayos Críticos de Arte Argentino y Latinoamericano organizado por la Fundación PROA y la Asociación Argentina de Críticos de Arte. Ese mismo año, recibió la Beca de Excelencia del Gobierno de México para Extranjeros y la Beca de Movilidad de la AUIP. Y en 2023, la Beca Saint-Exupéry de investigación doctoral en Francia. Ha participado en las siguientes antologías: Archipiélagos (UNLP, 2018), Van llegando (Mansalva, 2017), Las olas y el viento (Letra Sudaca, 2015).

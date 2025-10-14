@@ -12,10 +12,10 @@ web: 'https://rodolfomata.blogspot.com'
 eventos: []
 
 fotos:
-  persona: 'rodolfo_mata.jpg'
-  obra: 'rodolfo_mata-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 50%
+  '24':
+    persona: 'rodolfo_mata.jpg'
+    obra: 'rodolfo_mata-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
 
 etiquetas:
   - invitado

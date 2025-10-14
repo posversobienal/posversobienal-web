@@ -12,10 +12,10 @@ web: ''
 eventos: []
 
 fotos:
-  persona: 'silvina_torviso.jpg'
-  obra: 'silvina_torviso-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 20%
+  '24':
+    persona: 'silvina_torviso.jpg'
+    obra: 'silvina_torviso-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 20%
 
 etiquetas:
   - invitado

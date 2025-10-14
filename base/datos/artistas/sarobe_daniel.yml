@@ -12,10 +12,10 @@ web: ''
 eventos: []
 
 fotos:
-  persona: 'daniel_sarobe.jpg'
-  obra: 'daniel_sarobe-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 75%
+  '24':
+    persona: 'daniel_sarobe.jpg'
+    obra: 'daniel_sarobe-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 75%
 
 etiquetas:
   - invitado

@@ -1,0 +1,27 @@
+---
+
+nombre: ''
+apellido: 'Mancioli / Hastings'
+seudonimo: ''
+
+nacionalidad: 'Italia-Suiza/Brasil'
+contacto_publico: ''
+
+web: 'https://www.mauriziomancioli.com/'
+
+eventos: []
+
+fotos:
+  '24':
+    persona: 'maurizio_mancioli.jpg'
+    obra: 'maurizio_mancioli-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 0%
+
+etiquetas:
+  - invitado
+  - participo_en_2024
+
+detalle: |
+  **Maurizio Mancioli** es un artista visual ítalo-suizo radicado e São Paulo, Brasil. Su obra incluye fotografía, técnica mixta, performance, instalación, videoarte y cine. En sus obras, Maurizio examina estados de aislamiento, memoria, así como los límites entre realidad y ficción. En 2002, tras una carrera como empresario en el ámbito educativo, Maurizio comenzó a estudiar artes y a producir. En 2004, ganó el Premio Funarte Arte Visuais (São Paulo) y se sumergió en la escena del arte contemporáneo. Ha exhibido sus obras en museos y galerías como: MAM (Rio de Janeiro), Centro Cultural Banco do Brasil (Rio de Janeiro), Galeria Vermelho (São Paulo), Le Lieu (Québec), Dot Box Gallery (Milán), Roch Gallery (Suiza). En 2020, su primer cortometraje, _In Vitro_, ganó 5 premios internacionales. Creador del Acquabox, una instalación de agua que combina arte y terapia. Dueño y curador de PARAHAUS, un espacio de arte contemporáneo multidisciplinario en São Paulo. Desde 2011, Maurizio ha realizado varias obras colaborativas con artistas como Ana Montenegro, Manuel Vason y, más recientemente, con Hifa Cybe, y con su pareja, Lillian Hastings.
+
+  **Lillian Hastings** es Profesional de Branding, con formación e Artes Visuales y Diseño por FAAP y Panamericana, y certificados en Historia del Arte, Curaduría, Cine, Fotografía y Diseño. Lillian ha escrito sobre estilo de vida y artes contemporáneas para algunas revistas brasileñas, ganando un Premio PAJ (Prêmio Abril de Jornalismo) en 2011.

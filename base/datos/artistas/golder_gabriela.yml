@@ -12,10 +12,10 @@ web: 'https://gabrielagolder.com/'
 eventos: []
 
 fotos:
-  persona: 'gabriela_golder.jpg'
-  obra: 'gabriela_golder-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 50%
+  '24':
+    persona: 'gabriela_golder.jpg'
+    obra: 'gabriela_golder-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
 
 etiquetas:
   - invitado

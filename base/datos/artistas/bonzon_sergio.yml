@@ -12,10 +12,10 @@ web: ''
 eventos: []
 
 fotos:
-  persona: 'sergio_bonzon.jpg'
-  obra: 'sergio_bonzon-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 50%
+  '24':
+    persona: 'sergio_bonzon.jpg'
+    obra: 'sergio_bonzon-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
 
 etiquetas:
   - invitado

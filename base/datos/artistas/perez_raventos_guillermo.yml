@@ -12,10 +12,10 @@ web: ''
 eventos: []
 
 fotos:
-  persona: 'guillermo_perez_raventos.jpg'
-  obra: 'guillermo_perez_raventos-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 90%
+  '24':
+    persona: 'guillermo_perez_raventos.jpg'
+    obra: 'guillermo_perez_raventos-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 90%
 
 etiquetas:
   - invitado

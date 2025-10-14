@@ -12,10 +12,10 @@ web: ''
 eventos: []
 
 fotos:
-  persona: 'claudia_del_rio.jpg'
-  obra: 'claudia_del_rio-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 30%
+  '24':
+    persona: 'claudia_del_rio.jpg'
+    obra: 'claudia_del_rio-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 30%
 
 etiquetas:
   - invitado

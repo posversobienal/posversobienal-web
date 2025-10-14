@@ -12,10 +12,10 @@ web: 'http://denisecalasans.com.br/'
 eventos: []
 
 fotos:
-  persona: 'denise_calasans.jpg'
-  obra: 'denise_calasans-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 50%
+  '24':
+    persona: 'denise_calasans.jpg'
+    obra: 'denise_calasans-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
 
 etiquetas:
   - seleccionado

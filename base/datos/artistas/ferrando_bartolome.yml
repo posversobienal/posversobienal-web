@@ -12,10 +12,10 @@ web: 'https://bferrando.com/'
 eventos: []
 
 fotos:
-  persona: 'bartolome_ferrando.jpg'
-  obra: 'bartolome_ferrando-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 60%
+  '24':
+    persona: 'bartolome_ferrando.jpg'
+    obra: 'bartolome_ferrando-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 60%
 
 etiquetas:
   - invitado

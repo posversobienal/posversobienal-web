@@ -12,10 +12,10 @@ web: 'http://enriquejezik.com/'
 eventos: []
 
 fotos:
-  persona: 'jezik_enrique.jpg'
-  obra: 'jezik_enrique-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 50%
+  '26':
+    persona: 'jezik_enrique.jpg'
+    obra: 'jezik_enrique-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
 
 etiquetas:
   - seleccionado

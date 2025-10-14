@@ -12,10 +12,14 @@ web: 'https://www.simonemoraes.net/'
 eventos: []
 
 fotos:
-  persona: 'simone_moraes-1.jpg'
-  obra: 'simone_moraes-2.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 20%
+  '24':
+    persona: 'simone_moraes.jpg'
+    obra: 'simone_moraes-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 40%
+  '26':
+    persona: 'simone_moraes-1.jpg'
+    obra: 'simone_moraes-2.jpg'
+    imagen_cabecera_posicion_inicial: 50% 20%
 
 etiquetas:
   - invitado

@@ -12,10 +12,10 @@ web: 'https://sukorski.art/'
 eventos: []
 
 fotos:
-  persona: 'wilson_sukorski.jpg'
-  obra: 'wilson_sukorski-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 50%
+  '24':
+    persona: 'wilson_sukorski.jpg'
+    obra: 'wilson_sukorski-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
 
 etiquetas:
   - invitado

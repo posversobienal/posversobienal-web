@@ -12,10 +12,10 @@ web: 'https://marianachiesa.blogspot.com/'
 eventos: []
 
 fotos:
-  persona: 'mariana_chiesa.jpg'
-  obra: 'mariana_chiesa-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 30%
+  '24':
+    persona: 'mariana_chiesa.jpg'
+    obra: 'mariana_chiesa-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 30%
 
 etiquetas:
   - seleccionado

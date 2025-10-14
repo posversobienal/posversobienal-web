@@ -12,10 +12,10 @@ web: 'https://juanangelitaliano.blogspot.com/'
 eventos: []
 
 fotos:
-  persona: 'juan_angel_italiano.jpg'
-  obra: 'juan_angel_italiano-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 75%
+  '24':
+    persona: 'juan_angel_italiano.jpg'
+    obra: 'juan_angel_italiano-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 75%
 
 etiquetas:
   - invitado

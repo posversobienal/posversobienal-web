@@ -12,10 +12,10 @@ web: 'https://loskfgc.portfoliobox.net/'
 eventos: []
 
 fotos:
-  persona: 'anuar_zuniga_naime.jpg'
-  obra: 'anuar_zuniga_naime-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 70%
+  '24':
+    persona: 'anuar_zuniga_naime.jpg'
+    obra: 'anuar_zuniga_naime-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 70%
 
 etiquetas:
   - seleccionado

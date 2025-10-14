@@ -1,0 +1,26 @@
+---
+
+nombre: 'Javier'
+apellido: 'Abreu'
+seudonimo: ''
+
+nacionalidad: 'Uruguay'
+contacto_publico: ''
+
+web: 'https://www.instagram.com/el_empleado_del_mes'
+
+eventos: []
+
+fotos:
+  persona: 'javier_abreu.jpg'
+  obra: 'javier_abreu-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 10%
+
+etiquetas:
+  - seleccionado
+  - participo_en_2024
+
+
+detalle: |
+  (Montevideo, 1980). Es Licenciado en Artes Plásticas y Visuales, Universidad de la República. Invitado a la Décima Bienal de La Habana, Cuba (2009); 29a Bienal de Sao Paulo, Brasil (2010); 1a Bienal de Montevideo (2012); 1a Bienal de Panamá, Panamá (2013); y a la XX Bienal de Santa Cruz de la Sierra, Bolivia (2016). Obtuvo el Primer Premio - Prix Paul Cézanne 2008, Embajada de Francia en Uruguay, Museo Nacional de Artes Visuales. Obras en: Museo Juan Manuel Blanes, Acervo Eac, Colección Engelman-Ost, Colección Jorge Srur, Fundación Unión.

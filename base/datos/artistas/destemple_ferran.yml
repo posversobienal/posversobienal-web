@@ -12,10 +12,10 @@ web: 'https://www.autismosautomaticos.net/'
 eventos: []
 
 fotos:
-  persona: 'ferran_destemple.jpg'
-  obra: 'ferran_destemple-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 60%
+  '24':
+    persona: 'ferran_destemple.jpg'
+    obra: 'ferran_destemple-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 60%
 
 etiquetas:
   - invitado

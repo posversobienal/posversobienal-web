@@ -1,0 +1,26 @@
+---
+
+nombre: 'María José'
+apellido: 'Machado'
+seudonimo: ''
+
+nacionalidad: 'Ecuador'
+contacto_publico: ''
+
+web: 'https://mariamachadogutier.wixsite.com/sitioweb/'
+#web: 'https://www.mariajosemachadogutierrez.com/'
+
+eventos: []
+
+fotos:
+  persona: 'maria_jose_machado.jpg'
+  obra: 'maria_jose_machado-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 70%
+
+etiquetas:
+  - invitado
+  - participo_en_2024
+
+detalle: |
+  (Ecuador, 1984) María José, actualmente cursa un doctorado en Educación e Innovación en la UIIX de México. Posee un Máster en Teoría y Filosofía del Arte y una Licenciatura en Artes con mención en Artes Aplicadas. Ha dedicado una década a la docencia en la Universidad de Cuenca, además de participar como capacitadora en varias instituciones académicas y culturales en Ecuador. En el ámbito de la gestión cultural, ha desempeñado roles importantes en la Dirección de Cultura, Recreación y Conocimiento de la Alcaldía de Cuenca, así como en la Facultad de Artes de la Universidad de Cuenca. Es propietaria y curadora de Cu. Gallery, una galería de artes aplicadas y diseño de autor, y co-fundadora de eventos culturales independientes como Cuarto Aparte y Salida de Emergencia. Como artista se ha dedicado al arte acción, el performance y la práctica comunitaria desde el año 2007. En 2016 fue invitada a la Bienal Deformes en Chile, en 2018 artista invitada a Interdicta, Primer Encuentro de Performance en Bolivia, designada como artista del año en la Bienal Internacional de Cuenca y en ese mismo año ganadora del programa de becas y comisiones en 2019 de CIFO ART exponiendo en el Museo del Barrio de New York. En 2021 es seleccionada para la comisión de performance por la Unidad de Creatividad y Cultura del Banco Interamericano de Desarrollo para la cumbre mundial _El poder del arte como motor de transformación social en la era pospandémica / Cómo sanar un mundo herido_. Ganadora del segundo premio en la Bienal Internacional de Río Negro en Valcheta-Argentina. Su obra ha sido expuesta en Colombia, Bolivia, Estados Unidos, México, Francia, Chile, Argentina y España.

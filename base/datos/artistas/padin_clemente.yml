@@ -12,10 +12,10 @@ web: ''
 eventos: []
 
 fotos:
-  persona: 'clemente_padin.jpg'
-  obra: 'clemente_padin-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 30%
+  '24':
+    persona: 'clemente_padin.jpg'
+    obra: 'clemente_padin-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 30%
 
 etiquetas:
   - invitado

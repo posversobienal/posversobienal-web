@@ -12,10 +12,10 @@ web: 'https://fernandamugica.com/'
 eventos: []
 
 fotos:
-  persona: 'fernanda_mugica.jpg'
-  obra: 'fernanda_mugica-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 10%
+  '24':
+    persona: 'fernanda_mugica.jpg'
+    obra: 'fernanda_mugica-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 10%
 
 etiquetas:
   - seleccionado

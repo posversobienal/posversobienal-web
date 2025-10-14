@@ -12,10 +12,14 @@ eventos: []
 web: 'http://www.silviodegracia.com/'
 
 fotos:
-  persona: 'silvio_de_gracia_2.jpg'
-  obra: 'silvio_de_gracia-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 40%
+  '24':
+    persona: 'silvio_de_gracia-1.jpg'
+    obra: 'silvio_de_gracia-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 40%
+  '26':
+    persona: 'silvio_de_gracia-1.jpg'
+    obra: 'silvio_de_gracia-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 40%
 
 etiquetas:
   - invitado

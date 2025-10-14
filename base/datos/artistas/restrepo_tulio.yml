@@ -12,10 +12,10 @@ web: ''
 eventos: []
 
 fotos:
-  persona: 'tulio_restrepo.jpg'
-  obra: 'tulio_restrepo-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 45%
+  '24':
+    persona: 'tulio_restrepo.jpg'
+    obra: 'tulio_restrepo-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 45%
 
 etiquetas:
   - invitado

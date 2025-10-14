@@ -12,10 +12,10 @@ web: ''
 eventos: []
 
 fotos:
-  persona: 'fernando_aguiar.jpg'
-  obra: 'fernando_aguiar-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 30%
+  '24':
+    persona: 'fernando_aguiar.jpg'
+    obra: 'fernando_aguiar-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 30%
 
 etiquetas:
   - invitado

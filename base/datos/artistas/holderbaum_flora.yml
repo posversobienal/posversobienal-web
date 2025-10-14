@@ -12,10 +12,10 @@ web: 'https://linktr.ee/floraholderbaum'
 eventos: []
 
 fotos:
-  persona: 'flora_holderbaum.jpg'
-  obra: 'flora_holderbaum-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 20%
+  '24':
+    persona: 'flora_holderbaum.jpg'
+    obra: 'flora_holderbaum-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 20%
 
 etiquetas:
   - invitado

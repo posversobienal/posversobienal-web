@@ -12,10 +12,10 @@ web: 'https://www.instagram.com/marce_astorga/'
 eventos: []
 
 fotos:
-  persona: 'marcela_astorga.jpg'
-  obra: 'marcela_astorga-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 40%
+  '24':
+    persona: 'marcela_astorga.jpg'
+    obra: 'marcela_astorga-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 40%
 
 etiquetas:
   - invitado

@@ -12,10 +12,10 @@ web: 'https://www.facebook.com/media/set/?set=a.1134587095063'
 eventos: []
 
 fotos:
-  persona: 'tchello_d_barros.jpg'
-  obra: 'tchello_d_barros-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 50%
+  '24':
+    persona: 'tchello_d_barros.jpg'
+    obra: 'tchello_d_barros-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
 
 etiquetas:
   - seleccionado

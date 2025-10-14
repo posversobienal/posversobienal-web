@@ -13,10 +13,10 @@ web: 'https://mariladardot.com'
 eventos: []
 
 fotos:
-  persona: 'dardot_marila.jpg'
-  obra: 'dardot_marila-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 80%
+  '26':
+    persona: 'dardot_marila.jpg'
+    obra: 'dardot_marila-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 80%
 
 etiquetas:
   - seleccionado

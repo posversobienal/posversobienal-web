@@ -12,10 +12,10 @@ web: 'https://www.irinanovarese.de'
 eventos: []
 
 fotos:
-  persona: 'irina_novarese.jpg'
-  obra: 'irina_novarese-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 50%
+  '24':
+    persona: 'irina_novarese.jpg'
+    obra: 'irina_novarese-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
 
 etiquetas:
   - seleccionado

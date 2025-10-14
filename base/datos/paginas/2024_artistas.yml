@@ -14,11 +14,11 @@ contenido: |
   {% if 'participo_en_2024' in dat_art.etiquetas %}
 
   <div id="{{ id_art }}" class="filtro-artista w250p border border-dark rounded-2 m-2 p-0">
-    <div><img src="/rec/foto/personas/{{ dat_art.fotos.persona }}" class="img-fluid m-0"></div>
+    <div><img src="/rec/foto/personas/{{ dat_art.fotos['24'].persona }}" class="img-fluid m-0"></div>
     <div class="d-flex flex-column align-items-center align-content-between p-1 m-0">
       <br>
       <div class="d-block">
-        <a href="/per/{{ id_art }}">
+        <a href="/per/{{ id_art }}#p=24">
           <b class="d-inline">{{ dat_art.nombre }} {{ dat_art.apellido }}</b>
         </a>
         <br><small class="d-inline">{{ dat_art.nacionalidad }}</small>

@@ -12,10 +12,10 @@ web: 'https://rosagravino.blogspot.com/'
 eventos: []
 
 fotos:
-  persona: 'rosa_gravino.jpg'
-  obra: 'rosa_gravino-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 50%
+  '24':
+    persona: 'rosa_gravino.jpg'
+    obra: 'rosa_gravino-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
 
 etiquetas:
   - invitado

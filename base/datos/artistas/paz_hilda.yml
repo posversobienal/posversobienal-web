@@ -12,10 +12,10 @@ web: ''
 eventos: []
 
 fotos:
-  persona: 'hilda_paz.jpg'
-  obra: 'hilda_paz-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 70%
+  '24':
+    persona: 'hilda_paz.jpg'
+    obra: 'hilda_paz-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 70%
 
 etiquetas:
   - invitado

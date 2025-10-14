@@ -12,10 +12,10 @@ web: ''
 eventos: []
 
 fotos:
-  persona: 'jurgen_o_olbrich.jpg'
-  obra: 'jurgen_o_olbrich-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 90%
+  '24':
+    persona: 'jurgen_o_olbrich.jpg'
+    obra: 'jurgen_o_olbrich-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 90%
 
 etiquetas:
   - invitado

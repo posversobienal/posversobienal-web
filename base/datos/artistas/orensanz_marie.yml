@@ -12,10 +12,10 @@ web: 'https://www.marieorensanz.com/'
 eventos: []
 
 fotos:
-  persona: 'marie_orensanz.jpg'
-  obra: 'marie_orensanz-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 0%
+  '24':
+    persona: 'marie_orensanz.jpg'
+    obra: 'marie_orensanz-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 0%
 
 etiquetas:
   - invitado

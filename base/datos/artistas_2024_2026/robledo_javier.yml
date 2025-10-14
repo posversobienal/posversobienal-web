@@ -1,0 +1,25 @@
+---
+
+nombre: 'Javier'
+apellido: 'Robledo'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://linktr.ee/videobardo'
+
+eventos: []
+
+fotos:
+  persona: 'javier_robledo.jpg'
+  obra: 'javier_robledo-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 20%
+
+etiquetas:
+  - invitado
+  - participo_en_2024
+
+detalle: |
+  Escritor, poeta performático y realizador audiovisual. Fundador y director de Bardo, revista de poesía (1996-2004). Publicó seis libros de poesía y uno de relatos. Creador y director de Videobardo, Archivo y Festival Internacional de Videopoesía, desde 1996 hasta la fecha. Co-fundador del IMPA, La Fábrica Ciudad Cultural (1998); fue miembro del grupo Paralengua, La Ohtra Poesía. Vocal de APOA Asociación de Poetas Argentinos. Ha exhibido sus videopoemas y videos documentales en diversos países.

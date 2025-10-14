@@ -1,0 +1,25 @@
+---
+
+nombre: 'Monica'
+apellido: 'Mura'
+seudonimo: ''
+
+nacionalidad: 'Italia'
+contacto_publico: ''
+
+web: 'http://www.monicamura.com/'
+
+eventos: []
+
+fotos:
+  persona: 'monica_mura.jpg'
+  obra: 'monica_mura-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 33%
+
+etiquetas:
+  - invitado
+  - participo_en_2024
+
+detalle: |
+  (Cagliari, Italia 1979). Artista interdisciplinar, performer y artivista. Su trabajo analiza las relaciones entre memorias, géneros e identidades teniendo como punto de partida su investigación sobre los paradigmas de poder y control social y político, en el ámbito de lo íntimo, lo privado y lo público. Ha sido seleccionada en convocatorias entre España, Italia, Portugal, Bélgica, Dubái, Ecuador, Argentina y Costa Rica. Ha llevado a cabo sus acciones y ha expuesto en espacios claves como: Museo Nacional Thyssen-Bornemisza, ARCO Madrid, JUSTMAD, Sala Alcalá 31, Museo Vostell Malpartida, CGAC, Museo Centro Gaiàs, Sala Dogana-Palazzo Ducale, Génova, XX Bienal De Arte de Cerveira, MIA Anywhere, II Biennale della Fiber Art Sardegna. Su obra forma parte de colecciones públicas y privadas, entre las que destacan los fondos de: CGAC Centro Gallego de Arte Contemporáneo, Museo Provincial de Lugo, Museo de Arte Contemporáneo MAC Fundación Florencio de La Fuente de Huete, Museo de Historia Natural de la Universidad de Santiago de Compostela, Colección Alterarte del Campus de Ourense de la Universidad de Vigo, y Museo MARATÈ de Isili, Cerdeña, Italia.

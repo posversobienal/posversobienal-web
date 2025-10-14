@@ -12,10 +12,10 @@ web: 'https://alethornton.wixsite.com/athornton'
 eventos: []
 
 fotos:
-  persona: 'alejandro_thornton.jpg'
-  obra: 'alejandro_thornton-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 75%
+  '24':
+    persona: 'alejandro_thornton.jpg'
+    obra: 'alejandro_thornton-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 75%
 
 etiquetas:
   - invitado

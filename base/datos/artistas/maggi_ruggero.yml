@@ -12,10 +12,14 @@ web: ''
 eventos: []
 
 fotos:
-  persona: 'ruggero_maggi-1.jpg'
-  obra: 'ruggero_maggi-2.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 60%
+  '24':
+    persona: 'ruggero_maggi.jpg'
+    obra: 'ruggero_maggi-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 60%
+  '26':
+    persona: 'ruggero_maggi-1.jpg'
+    obra: 'ruggero_maggi-2.jpg'
+    imagen_cabecera_posicion_inicial: 50% 60%
 
 etiquetas:
   - invitado

@@ -12,10 +12,14 @@ web: 'https://www.alemontiel.com/'
 eventos: []
 
 fotos:
-  persona: 'ale_montiel.jpg'
-  obra: 'ale_montiel-2.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 40%
+  '24':
+    persona: 'ale_montiel.jpg'
+    obra: 'ale_montiel-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 40%
+  '26':
+    persona: 'ale_montiel.jpg'
+    obra: 'ale_montiel-2.jpg'
+    imagen_cabecera_posicion_inicial: 50% 40%
 
 etiquetas:
   - invitado

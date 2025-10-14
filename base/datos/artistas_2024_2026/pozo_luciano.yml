@@ -1,0 +1,38 @@
+---
+
+nombre: 'Luciano'
+apellido: 'Pozo'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://www.lucianopozo.com/'
+
+eventos: []
+
+fotos:
+  persona: 'luciano_pozo-1.jpg'
+  obra: 'luciano_pozo-2.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 30%
+
+etiquetas:
+  - invitado
+  - participo_en_2024
+  - participo_en_2026
+
+detalle: |
+  Nacido en Junín, provincia de Buenos Aires, Argentina. Es Candidato Doctoral en Arte y Tecnoestéticas por la UNTREF. Es licenciado en Artes por la UNSAM, y finalizó el posgrado en Historia del Arte Argentino y Latinoamericano E-IDAES, UNSAM. Es docente e investigador en la Universidad Nacional Noroeste – Buenos Aires UNNOBA.
+
+  Entre sus áreas de investigación se destacan los estudios culturales, con especial atención en la conformación del campo cultural de Junín y la primera institución museística de mediados del siglo XX y la investigación del campo de la gráfica expandida/experimental, explorando las posibilidades poéticas y metodológicas de esta disciplina, así como el desarrollo de la FLORISGRAFÍA, una práctica artística de su autoría que consiste en realizar grabados (bioimpresos) sobre pétalos de flores.
+
+  Es Director Artístico del Espacio Arte de Fundación Casa Pronto, en la ciudad de Junín.
+
+  En el plano de la praxis artística, ha obtenido premios nacionales e internacionales. Participa activamente de congresos sobre historia del arte y de investigación en la práctica artística.
+
+  Es autor de los libros Florisgrafía. Bio-impresos sobre pétalos de flores publicado mediante el programa Mecenazgo de Junín y el sponsoreo de Banco Galicia; y de La conformación de la colección fundacional del Museo de Bellas Artes de Junín 1942-1944 del programa Activar Patrimonio del Ministerio de Cultura y de la Secretaría de Patrimonio de la Nación 2022-2023.
+
+
+detalle_previo: |
+  Nacido en Junín, provincia de Buenos Aires, Argentina. Es licenciado en Artes por la UNSAM, y maestrando en Historia del Arte Argentino y Latinoamericano E-IDAES, UNSAM. Es docente en la Universidad Nacional Noroeste – Buenos Aires UNNOBA. Ha cursado seminarios de doctorado en UNSAM. Entre sus áreas de investigación se destacan los estudios culturales, con especial atención en la conformación del campo cultural de Junín y la primera institución museística mediados del siglo XX y la investigación del campo de la gráfica expandida/experimental, explorando las posibilidades poéticas y metodológicas de esta disciplina, así como el desarrollo de la FLORISGRAFÍA, una práctica artística de su autoría que consiste en realizar grabados (bioimpresos) sobre pétalos de flores. Está a cargo de la dirección artística del Espacio Arte de Fundación Casa Pronto, en la ciudad de Junín. En el plano de la praxis artística, ha obtenido premios nacionales e internacionales. Participa activamente de congresos sobre historia del arte y de investigación en la práctica artística.

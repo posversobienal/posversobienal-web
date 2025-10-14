@@ -12,10 +12,10 @@ web: 'https://yuribruscky.bandcamp.com/'
 eventos: []
 
 fotos:
-  persona: 'yuri_bruscky.jpg'
-  obra: 'yuri_bruscky-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 50%
+  '24':
+    persona: 'yuri_bruscky.jpg'
+    obra: 'yuri_bruscky-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
 
 etiquetas:
   - invitado

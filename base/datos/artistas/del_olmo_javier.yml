@@ -12,10 +12,10 @@ web: 'https://www.javierdelolmo.com/'
 eventos: []
 
 fotos:
-  persona: 'javier_del_olmo.jpg'
-  obra: 'javier_del_olmo-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 91%
+  '24':
+    persona: 'javier_del_olmo.jpg'
+    obra: 'javier_del_olmo-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 91%
 
 etiquetas:
   - invitado

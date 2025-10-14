@@ -12,10 +12,10 @@ web: 'https://www.robarragan.com.ar/'
 eventos: []
 
 fotos:
-  persona: 'ro_barragan.jpg'
-  obra: 'ro_barragan-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 40%
+  '24':
+    persona: 'ro_barragan.jpg'
+    obra: 'ro_barragan-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 40%
 
 etiquetas:
   - invitado

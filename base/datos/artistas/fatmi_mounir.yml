@@ -12,10 +12,14 @@ web: 'http://www.mounirfatmi.com/'
 eventos: []
 
 fotos:
-  persona: 'mounir_fatmi.jpg'
-  obra: 'mounir_fatmi-2.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 50%
+  '24':
+    persona: 'mounir_fatmi.jpg'
+    obra: 'mounir_fatmi-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
+  '26':
+    persona: 'mounir_fatmi.jpg'
+    obra: 'mounir_fatmi-2.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
 
 etiquetas:
   - seleccionado

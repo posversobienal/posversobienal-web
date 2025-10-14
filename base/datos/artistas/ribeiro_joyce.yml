@@ -12,10 +12,10 @@ web: 'https://www.joycersouza.com/'
 eventos: []
 
 fotos:
-  persona: 'joyce_ribeiro.jpg'
-  obra: 'joyce_ribeiro-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 67%
+  '24':
+    persona: 'joyce_ribeiro.jpg'
+    obra: 'joyce_ribeiro-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 67%
 
 etiquetas:
   - invitado

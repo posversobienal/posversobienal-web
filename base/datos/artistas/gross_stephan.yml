@@ -12,10 +12,10 @@ web: 'http://stephangross.net/'
 eventos: []
 
 fotos:
-  persona: 'stephan_gross.jpg'
-  obra: 'stephan_gross-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 90%
+  '24':
+    persona: 'stephan_gross.jpg'
+    obra: 'stephan_gross-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 90%
 
 etiquetas:
   - seleccionado

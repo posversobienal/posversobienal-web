@@ -12,10 +12,10 @@ web: 'https://www.jimsonvilela.com'
 eventos: []
 
 fotos:
-  persona: 'jimson_vilela.jpg'
-  obra: 'jimson_vilela-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 90%
+  '24':
+    persona: 'jimson_vilela.jpg'
+    obra: 'jimson_vilela-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 90%
 
 etiquetas:
   - seleccionado

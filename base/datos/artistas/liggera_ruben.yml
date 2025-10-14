@@ -12,10 +12,10 @@ web: ''
 eventos: []
 
 fotos:
-  persona: 'ruben_liggera.jpg'
-  obra: 'ruben_liggera-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 50%
+  '24':
+    persona: 'ruben_liggera.jpg'
+    obra: 'ruben_liggera-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
 
 etiquetas:
   - invitado

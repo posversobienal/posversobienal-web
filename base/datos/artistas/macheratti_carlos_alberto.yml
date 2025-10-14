@@ -12,10 +12,14 @@ web: 'https://caalma.net.ar'
 eventos: []
 
 fotos:
-  persona: 'carlos_alberto_macheratti.jpg'
-  obra: 'carlos_alberto_macheratti-2.jpg'
-
-imagen_cabecera_posicion_inicial: 49% 50%
+  '24':
+    persona: 'carlos_alberto_macheratti.jpg'
+    obra: 'carlos_alberto_macheratti-1.jpg'
+    imagen_cabecera_posicion_inicial: 49% 50%
+  '26':
+    persona: 'carlos_alberto_macheratti.jpg'
+    obra: 'carlos_alberto_macheratti-2.jpg'
+    imagen_cabecera_posicion_inicial: 49% 50%
 
 etiquetas:
   - invitado

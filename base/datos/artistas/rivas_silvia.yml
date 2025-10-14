@@ -12,10 +12,10 @@ web: ''
 eventos: []
 
 fotos:
-  persona: 'rivas_silvia.jpg'
-  obra: 'rivas_silvia-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 30%
+  '26':
+    persona: 'rivas_silvia.jpg'
+    obra: 'rivas_silvia-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 30%
 
 etiquetas:
   - seleccionado

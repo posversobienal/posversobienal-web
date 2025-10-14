@@ -1,0 +1,25 @@
+---
+
+nombre: 'La Lengua en la Calle'
+apellido: ''
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://www.instagram.com/la_lengua_en_la_calle'
+
+eventos: []
+
+fotos:
+  persona: 'la_lengua_en_la_calle.jpg'
+  obra: 'la_lengua_en_la_calle-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 20%
+
+etiquetas:
+  - seleccionado
+  - participo_en_2024
+
+detalle: |
+  Colectivo transdisciplinario que vincula los activismos feministas con las prácticas artísticas. Integrado por Laura Bilbao, Toia Bonino, Lina Boselli, Lujan Funes, Bárbara Kaplan, Julia Masvernat.

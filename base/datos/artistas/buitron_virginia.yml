@@ -13,10 +13,10 @@ web: 'https://virginiab.ar'
 eventos: []
 
 fotos:
-  persona: 'buitron_virginia.jpg'
-  obra: 'buitron_virginia-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 50%
+  '26':
+    persona: 'buitron_virginia.jpg'
+    obra: 'buitron_virginia-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
 
 etiquetas:
   - seleccionado

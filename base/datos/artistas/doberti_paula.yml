@@ -12,10 +12,10 @@ web: 'https://pauladoberti.wixsite.com/mpdoberti/'
 eventos: []
 
 fotos:
-  persona: 'paula_doberti.jpg'
-  obra: 'paula_doberti-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 60%
+  '24':
+    persona: 'paula_doberti.jpg'
+    obra: 'paula_doberti-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 60%
 
 etiquetas:
   - invitado

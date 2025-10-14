@@ -12,10 +12,10 @@ web: 'https://lucasdipascuale.com.ar/'
 eventos: []
 
 fotos:
-  persona: 'lucas_di_pascuale.jpg'
-  obra: 'lucas_di_pascuale-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 30%
+  '24':
+    persona: 'lucas_di_pascuale.jpg'
+    obra: 'lucas_di_pascuale-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 30%
 
 etiquetas:
   - invitado

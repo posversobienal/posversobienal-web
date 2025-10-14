@@ -12,10 +12,10 @@ web: 'https://www.marcioalmeida.org/'
 eventos: []
 
 fotos:
-  persona: 'marcio_almeida.jpg'
-  obra: 'marcio_almeida-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 50%
+  '24':
+    persona: 'marcio_almeida.jpg'
+    obra: 'marcio_almeida-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
 
 etiquetas:
   - invitado

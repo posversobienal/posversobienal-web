@@ -12,10 +12,10 @@ web: ''
 eventos: []
 
 fotos:
-  persona: 'emmanuel_borao.jpg'
-  obra: 'emmanuel_borao-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 50%
+  '24':
+    persona: 'emmanuel_borao.jpg'
+    obra: 'emmanuel_borao-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
 
 etiquetas:
   - invitado

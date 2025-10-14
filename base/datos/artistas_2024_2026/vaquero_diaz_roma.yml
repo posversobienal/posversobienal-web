@@ -1,0 +1,25 @@
+---
+
+nombre: 'Roma'
+apellido: 'Vaquero Diaz'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://romavaquerodiaz.com/'
+
+eventos: []
+
+fotos:
+  persona: 'roma_vaquero_diaz.jpg'
+  obra: 'roma_vaquero_diaz-1.jpg'
+
+imagen_cabecera_posicion_inicial: 50% 30%
+
+etiquetas:
+  - invitado
+  - participo_en_2024
+
+detalle: |
+  (Pergamino, Argentina) Artista de performance. Magister en Lenguajes Artísticos Combinados (U.N.A.), Licenciada en Arte Escénica (U.N.R.) y Profa de Artes en Danza/Expresión Corporal (Esc. Prov. Sup. de Teatro, Junín). Cursó Clínica Manglar coordinada por Andrés Labaké en Galería Acéfala (2023) y formó parte del Programa de Artistas de Galería Gachi Prieto (2021). Participó en residencia Curadora, Santa Fe (2023); Raíces, Catamarca (2022); R.A.R.O. Madrid (2022); Escuchar la fotografía- Galería Artexarte, Buenos Aires (2021); La Flecha, Capitán Sarmiento (2020 – 2019); Originario, Cura Malal (2018). Realizó exposiciones individuales: _Cuántos cuerpos entran en un cuerpo_, Galería Olla Roja, Buenos Aires (2022); _No somos territorio de conquista_, Museo Provincial de Bellas Artes Emilio Pettoruti, La Plata (2019); _La Cosahecha_, Museo de la ciudad, Pergamino (2012) Sus proyectos recientes se exhibieron en Galería Acéfala (CABA), Museo del libro y de la lengua (CABA), Can Basté (Barcelona), Centro de Arte Maristany (Barcelona), Quinta del sordo (Madrid); Galería Gachi Prieto (CABA); Centro Cultural Kirchner (CABA); Cherry Street Pier (Filadelfia); Museo Provincial de Bellas Artes (La Plata); Espacio Idea MEC (Montevideo); Centro Cultural de la Memoria Haroldo Conti (CABA); Museo Jacobo Borges (Caracas); Centro Cultural San Martín (CABA). En 2020 publicó el libro _Cuántos cuerpos entran en un cuerpo_ (Editorial Flanbé, 2020). Desde 2017 dirige la plataforma Mundo Performance. Vive y trabaja en Buenos Aires.

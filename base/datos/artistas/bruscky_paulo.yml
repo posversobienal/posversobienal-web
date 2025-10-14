@@ -12,10 +12,10 @@ web: ''
 eventos: []
 
 fotos:
-  persona: 'paulo_bruscky.jpg'
-  obra: 'paulo_bruscky-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 60%
+  '24':
+    persona: 'paulo_bruscky.jpg'
+    obra: 'paulo_bruscky-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 60%
 
 etiquetas:
   - invitado

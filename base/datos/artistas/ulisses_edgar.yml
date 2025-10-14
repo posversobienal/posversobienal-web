@@ -12,10 +12,10 @@ web:
 eventos: []
 
 fotos:
-  persona: 'ulises_edgar.jpg'
-  obra: 'ulises_edgar-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 50%
+  '26':
+    persona: 'ulises_edgar.jpg'
+    obra: 'ulises_edgar-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
 
 etiquetas:
   - seleccionado

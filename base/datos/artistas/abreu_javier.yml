@@ -12,10 +12,10 @@ web: 'https://www.instagram.com/el_empleado_del_mes'
 eventos: []
 
 fotos:
-  persona: 'javier_abreu.jpg'
-  obra: 'javier_abreu-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 10%
+  '24':
+    persona: 'javier_abreu.jpg'
+    obra: 'javier_abreu-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 10%
 
 etiquetas:
   - seleccionado

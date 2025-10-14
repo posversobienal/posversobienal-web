@@ -12,10 +12,14 @@ web: 'https://www.lucianopozo.com/'
 eventos: []
 
 fotos:
-  persona: 'luciano_pozo-1.jpg'
-  obra: 'luciano_pozo-2.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 30%
+  '24':
+    persona: 'luciano_pozo.jpg'
+    obra: 'luciano_pozo-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 30%
+  '26':
+    persona: 'luciano_pozo-1.jpg'
+    obra: 'luciano_pozo-2.jpg'
+    imagen_cabecera_posicion_inicial: 50% 30%
 
 etiquetas:
   - invitado

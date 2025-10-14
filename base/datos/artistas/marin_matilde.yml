@@ -12,10 +12,10 @@ web: 'https://www.matildemarin.com/'
 eventos: []
 
 fotos:
-  persona: 'matilde_marin.jpg'
-  obra: 'matilde_marin-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 65%
+  '24':
+    persona: 'matilde_marin.jpg'
+    obra: 'matilde_marin-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 65%
 
 etiquetas:
   - invitado

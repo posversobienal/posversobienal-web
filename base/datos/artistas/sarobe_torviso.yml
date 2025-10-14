@@ -12,10 +12,10 @@ web: ''
 eventos: []
 
 fotos:
-  persona: 'sarobe_torviso.jpg'
-  obra: 'sarobe_torviso-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 20%
+  '26':
+    persona: 'sarobe_torviso.jpg'
+    obra: 'sarobe_torviso-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 20%
 
 etiquetas:
   - invitado

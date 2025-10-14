@@ -12,10 +12,10 @@ web: ''
 eventos: []
 
 fotos:
-  persona: 'la_porfia_colectivo.jpg'
-  obra: 'la_porfia_colectivo-1.jpg'
-
-imagen_cabecera_posicion_inicial: 50% 50%
+  '26':
+    persona: 'la_porfia_colectivo.jpg'
+    obra: 'la_porfia_colectivo-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
 
 etiquetas:
   - seleccionado
