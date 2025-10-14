@@ -4,8 +4,8 @@
 <div class="persona">
     {% for partk, partv in pag.fotos.items() %}
     {% if partv.obra %}
-        <div id="obra_{{ partk }}" class="oculto">
-            <div class="img-cabecera item-galeria" style="background-position:{{ partv.imagen_cabecera_posicion_inicial }}; background-image: url(/rec/foto/obras/{{ partv.obra }}?{{ cfg.cache_actu }})" src="/rec/foto/obras/{{ partv.obra }}?{{ cfg.cache_actu }}"></div>
+        <div id="obra_{{ partk }}" class="oculto participacion">
+            <div class="img-cabecera item-galeria" style="background-position:{{ partv.imagen_cabecera_posicion_inicial }}; background-image: url(/rec/foto/obras/{{ partv.obra }}?{{ cfg.cache_actu }})" src="/rec/foto/obras/{{ partv.obra }}?{{ cfg.cache_actu }}" title=""></div>
             <div class="text-end">
                 <button title="Ver obra completa" class="m-1 btn btn-sm btn-outline-dark ampliar-imagen px-1 py-0" data-url="/rec/foto/obras/{{ partv.obra }}?{{ cfg.cache_actu }}">+</button>
             </div>
@@ -21,7 +21,7 @@
                 {% for partk, partv in pag.fotos.items() %}
                 {% if partv.persona %}
 
-                    <img id="perfil_{{ partk }}" class="oculto col-8 col-lg-12 img-fluid item-galeria" src="/rec/foto/personas/{{ partv.persona }}?{{ cfg.cache_actu }}">
+                <img id="perfil_{{ partk }}" class="oculto participacion col-8 col-lg-12 img-fluid item-galeria" src="/rec/foto/personas/{{ partv.persona }}?{{ cfg.cache_actu }}" title="">
                     {% endif %}
                 {% endfor %}
 
@@ -81,6 +81,11 @@
  var perfil_actual = document.getElementById(`perfil_${id_participacion}`);
  obra_actual.classList.remove('oculto');
  perfil_actual.classList.remove('oculto');
+
+ var participaciones_a_borrar = document.querySelectorAll('.oculto.participacion')
+ participaciones_a_borrar.forEach(e => e.remove());
+
+ console.log(participaciones_a_borrar)
 
 </script>
 

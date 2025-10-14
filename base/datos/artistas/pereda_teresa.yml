@@ -14,6 +14,10 @@ eventos: []
 fotos:
   '24':
     persona: 'teresa_pereda.jpg'
+    obra: 'teresa_pereda-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 12%
+  '26':
+    persona: 'teresa_pereda-1.jpg'
     obra: 'teresa_pereda-2.jpg'
     imagen_cabecera_posicion_inicial: 50% 12%
 
