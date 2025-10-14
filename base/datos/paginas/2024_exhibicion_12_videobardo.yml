@@ -114,7 +114,7 @@ contenido_secundario: |
   <br>Javier Robledo y Marisol Bellusci.
 
   <small>DISEÑO EXPOSITIVO:</small>
-  <br>{{ per('montenegro_ana') }}.
+  <br>{{ per('montenegro_ana', urlhash='#p=24') }}.
 
   <small>SEDE:</small>
   <br>[Centro Cultural Marea Cultura](/sds/centro_cultural_marea_cultura/)
@@ -126,7 +126,7 @@ contenido_secundario: |
   <small>ARTISTAS:</small>
 
   + White & Vicious (España)
-  + {{ per('robledo_javier') }} (Argentina)
+  + {{ per('robledo_javier', urlhash='#p=24') }} (Argentina)
   + Marisol Bellusci (Argentina)
   + Jeff Zorrilla (USA)
   + Marte Hodne Haugens (Noruega)

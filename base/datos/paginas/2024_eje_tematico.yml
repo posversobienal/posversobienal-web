@@ -61,51 +61,51 @@ contenido_secundario: |
   ## EQUIPO
 
   ### Dirección General
-  + {{ per('de_gracia_silvio') }} (ARG)
+  + {{ per('de_gracia_silvio', urlhash='#p=24') }} (ARG)
 
   ### Dirección Artística
-  + {{ per('montenegro_ana') }} (BRA)
+  + {{ per('montenegro_ana', urlhash='#p=24') }} (BRA)
 
   ### Comité Internacional de Selección
-  + {{ per('kozak_claudia') }} (ARG)
-  + {{ per('aguiar_fernando') }} (PRT)
-  + {{ per('fontana_giovanni') }} (ITA)
-  + {{ per('calleja_j_m') }} (ESP)
-  + {{ per('florido_marisa') }} (BRA)
+  + {{ per('kozak_claudia', urlhash='#p=24') }} (ARG)
+  + {{ per('aguiar_fernando', urlhash='#p=24') }} (PRT)
+  + {{ per('fontana_giovanni', urlhash='#p=24') }} (ITA)
+  + {{ per('calleja_j_m', urlhash='#p=24') }} (ESP)
+  + {{ per('florido_marisa', urlhash='#p=24') }} (BRA)
 
   ### Comité de Preselección
-  + {{ per('montenegro_ana') }} (BRA)
-  + {{ per('paz_hilda') }} (ARG)
-  + {{ per('giglietti_natalia') }} (ARG)
+  + {{ per('montenegro_ana', urlhash='#p=24') }} (BRA)
+  + {{ per('paz_hilda', urlhash='#p=24') }} (ARG)
+  + {{ per('giglietti_natalia', urlhash='#p=24') }} (ARG)
 
   ### Equipo Curatorial POSVERSO
-  + {{ per('montenegro_ana') }} (BRA)
-  + {{ per('de_gracia_silvio') }} (ARG)
+  + {{ per('montenegro_ana', urlhash='#p=24') }} (BRA)
+  + {{ per('de_gracia_silvio', urlhash='#p=24') }} (ARG)
 
   ### Curador Programa Educativo
-  + {{ per('perez_raventos_guillermo') }} (ARG)
+  + {{ per('perez_raventos_guillermo', urlhash='#p=24') }} (ARG)
 
   ### Coordinación de proyectos
-  + {{ per('montenegro_ana') }} (BRA)
-  + {{ per('de_gracia_silvio') }} (ARG)
+  + {{ per('montenegro_ana', urlhash='#p=24') }} (BRA)
+  + {{ per('de_gracia_silvio', urlhash='#p=24') }} (ARG)
 
   ### Prensa
   + HOTEL DADA
 
   ### Coordinación Editorial
-  + {{ per('montenegro_ana') }} (BRA)
-  + {{ per('de_gracia_silvio') }} (ARG)
+  + {{ per('montenegro_ana', urlhash='#p=24') }} (BRA)
+  + {{ per('de_gracia_silvio', urlhash='#p=24') }} (ARG)
 
   ### Producción audiovisual
-  + {{ per('montenegro_ana') }} (BRA)
-  + {{ per('alberto_macheratti_carlos') }} (ARG)
-  + {{ per('Guido de Gracia') }} (ARG)
+  + {{ per('montenegro_ana', urlhash='#p=24') }} (BRA)
+  + {{ per('alberto_macheratti_carlos', urlhash='#p=24') }} (ARG)
+  + {{ per('Guido de Gracia', urlhash='#p=24') }} (ARG)
 
   ### Desarrollo web
-  + {{ per('macheratti_carlos_alberto') }} (ARG)
+  + {{ per('macheratti_carlos_alberto', urlhash='#p=24') }} (ARG)
 
   ### Diseño expográfico
-  + {{ per('montenegro_ana') }} (BRA)
+  + {{ per('montenegro_ana', urlhash='#p=24') }} (BRA)
 
   ### Equipo de montaje
   + Camila Paulucci (BRA)
@@ -116,10 +116,10 @@ contenido_secundario: |
   + Rocío Morganti (ARG)
 
   ### Equipo de producción
-  + {{ per('montiel_ale') }} (ARG)
+  + {{ per('montiel_ale', urlhash='#p=24') }} (ARG)
   + Carlos Dabul (ARG)
   + Fabricio Echevarría (ARG)
-  + {{ per('pozo_luciano') }} (ARG)
-  + {{ per('salido_ricardo_omar') }} (ARG)
+  + {{ per('pozo_luciano', urlhash='#p=24') }} (ARG)
+  + {{ per('salido_ricardo_omar', urlhash='#p=24') }} (ARG)
   + Julieta Civalero (ARG)
   + Jorge Echeverria (ARG)

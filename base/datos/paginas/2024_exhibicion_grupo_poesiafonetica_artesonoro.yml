@@ -54,7 +54,7 @@ contenido: |
 fichas:
   poesiafonetica:
 
-    - artista: [['Fernando Aguiar', /per/aguiar_fernando/]]
+    - artista: [['Fernando Aguiar', '/per/aguiar_fernando/#p=24']]
       obra: ''
       texto: 'En el [MACA Museo de Arte Contemporáneo Argentino "Víctor Grippo"](/sds/maca/) y en la [Escuela Provincial de Teatro "Gilberto A. Mesa"](/sds/escuela_de_teatro_gilberto_mesa/)'
       fotos:
@@ -65,7 +65,7 @@ fichas:
         - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/fernando_aguiar_en_escuela_de_teatro_03.jpg', txt: 'En la Escuela de Teatro "Gilberto Mesa"'}
         - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/fernando_aguiar_en_escuela_de_teatro_04.jpg', txt: 'En la Escuela de Teatro "Gilberto Mesa"'}
 
-    - artista: [['Montenegro-Fisher', /per/montenegro_fisher/]]
+    - artista: [['Montenegro-Fisher', '/per/montenegro_fisher/#p=24']]
       obra: ''
       texto: 'En el [MACA Museo de Arte Contemporáneo Argentino "Víctor Grippo"](/sds/maca/) y en la [Escuela Provincial de Teatro "Gilberto A. Mesa"](/sds/escuela_de_teatro_gilberto_mesa/)'
       fotos:
@@ -75,7 +75,7 @@ fichas:
         - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/montenegro_fisher_en_escuela_de_teatro_03.jpg', txt: 'En la Escuela de Teatro "Gilberto Mesa'}
         - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/montenegro_fisher_en_escuela_de_teatro_04.jpg', txt: 'En la Escuela de Teatro "Gilberto Mesa'}
 
-    - artista: [['Jessica Pujol Durán', /per/pujol_duran_jessica/]]
+    - artista: [['Jessica Pujol Durán', '/per/pujol_duran_jessica/#p=24']]
       obra: ''
       texto: 'En la [Escuela Provincial de Teatro "Gilberto A. Mesa"](/sds/escuela_de_teatro_gilberto_mesa/)'
       fotos:
@@ -83,7 +83,7 @@ fichas:
         - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/jessica_pujol_en_escuela_de_teatro_02.jpg', txt: 'En la Escuela de Teatro "Gilberto Mesa"'}
         - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/jessica_pujol_en_escuela_de_teatro_03.jpg', txt: 'En la Escuela de Teatro "Gilberto Mesa"'}
 
-    - artista: [['Juan Ángel Italiano', /per/italiano_juan_angel/]]
+    - artista: [['Juan Ángel Italiano', '/per/italiano_juan_angel/#p=24']]
       obra: ''
       texto: 'En la [Casa Popular Dante Balestro](/sds/casa_popular_dante_balestro/)'
       fotos:
@@ -91,7 +91,7 @@ fichas:
         - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/juan_angel_italiano_en_dante_balestro_02.jpg', txt: 'En la Dante Balestro'}
         - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/italiano_y_robledo_en_dante_balestro_01.jpg', txt: 'Italiano y Robledo en la Dante Balestro'}
 
-    - artista: [['Javier Robledo', /per/robledo_javier/]]
+    - artista: [['Javier Robledo', '/per/robledo_javier/#p=24']]
       obra: ''
       texto: 'En la [Casa Popular Dante Balestro](/sds/casa_popular_dante_balestro/)'
       fotos:
@@ -99,7 +99,7 @@ fichas:
         - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/javier_robledo_en_dante_balestro_02.jpg', txt: 'En la Dante Balestro'}
 
 
-    - artista: [['Jaap Blonk', /per/blonk_jaap/]]
+    - artista: [['Jaap Blonk', '/per/blonk_jaap/#p=24']]
       obra: ''
       texto: 'En [Par 1000 - Aula teatro](/sds/par1000_aula_teatro/)'
       fotos:
@@ -111,7 +111,7 @@ fichas:
 
   artesonoro:
 
-    - artista: [['Wilson Sukorski', /per/sukorski_wilson/]]
+    - artista: [['Wilson Sukorski', '/per/sukorski_wilson/#p=24']]
       obra: 'Concerto Grosso'
       texto: 'Para teclado, peixe, baixo totem e gran corda. [Disponible online](https://youtu.be/gYGg0xOSbq0){target=_blank}.'
       fotos:
@@ -121,7 +121,7 @@ fichas:
         - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/wilson_sukorski_04.jpg', txt: ''}
         - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/wilson_sukorski_05.jpg', txt: ''}
 
-    - artista: [['Noiser', /per/noiser/]]
+    - artista: [['Noiser', '/per/noiser/#p=24']]
       obra: ''
       texto: 'Performance sonora en el [Centro Cultural Marea Cultura](/sds/centro_cultural_marea_cultura/)'
       fotos:
@@ -130,7 +130,7 @@ fichas:
         - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/noiser_en_marea_cultura_03.jpg', txt: 'En Marea Cultura'}
         - {url: '/rec/foto/exhibiciones/2024/poesiafonetica_artesonoro/noiser_en_marea_cultura_04.jpg', txt: 'En Marea Cultura'}
 
-    - artista: [['Yuri Bruscky', /per/bruscky_yuri/]]
+    - artista: [['Yuri Bruscky', '/per/bruscky_yuri/#p=24']]
       obra: 'Trava-Lingua'
       texto: 'Performance sonora transmitida en vivo. [Disponible online](https://youtu.be/21q429rT7bo){target=_blank}.'
       fotos:

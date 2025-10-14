@@ -150,7 +150,7 @@ contenido: |
 
 contenido_secundario: |
   <small>CURADURÍA:</small>
-  <br>{{ per('maggi_ruggero') }}.
+  <br>{{ per('maggi_ruggero', urlhash='#p=24') }}.
 
   <small>SEDE:</small>
   <br>[Biblioteca Popular “Paz y trabajo”](/sds/biblioteca_paz_y_trabajo/)

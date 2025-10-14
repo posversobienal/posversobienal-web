@@ -298,10 +298,10 @@ contenido: |
 
 contenido_secundario: |
   <small>CURADOR:</small>
-  <br>{{ per('de_gracia_silvio') }}.
+  <br>{{ per('de_gracia_silvio', urlhash='#p=24') }}.
 
   <small>DISEÑO EXPOSITIVO:</small>
-  <br>{{ per('montenegro_ana') }}.
+  <br>{{ per('montenegro_ana', urlhash='#p=24') }}.
 
   <small>SEDE:</small>
   <br>[MACA Museo de Arte Contemporáneo Argentino “Víctor Grippo”](/sds/maca/)
@@ -315,38 +315,38 @@ contenido_secundario: |
   <br><br>
   <small>ARTISTAS:</small>
 
-  + {{ per('aguiar_fernando') }}
-  + {{ per('astorga_marcela') }}
-  + {{ per('bruscky_paulo') }}
-  + {{ per('caro_antonio') }}
-  + {{ per('danziger_leila') }}
-  + {{ per('de_gracia_silvio') }}
-  + {{ per('del_olmo_javier') }}
-  + {{ per('del_rio_claudia') }}
-  + {{ per('derdyk_edith') }}
-  + {{ per('di_pascuale_lucas') }}
-  + {{ per('fatmi_mounir') }}
-  + {{ per('fierens_luc') }}
-  + {{ per('fuertes_rosana') }}
-  + {{ per('gallardo_carlos') }}
-  + {{ per('golder_gabriela') }}
-  + {{ per('hygino_andrea') }}
-  + {{ per('machado_maria_jose') }}
-  + {{ per('maggi_ruggero') }}
-  + {{ per('marin_matilde') }}
-  + {{ per('marini_elena') }}
-  + {{ per('mastrandrea_daniela') }}
-  + {{ per('montenegro_fisher') }}
-  + {{ per('moraes_simone') }}
-  + {{ per('olbrich_jurgen_o') }}
-  + {{ per('ontiveros_daniel') }}
-  + {{ per('orensanz_marie') }}
-  + {{ per('padin_clemente') }}
-  + {{ per('pasinovich_andres') }}
-  + {{ per('pazos_luis') }}
-  + {{ per('pereda_teresa') }}
-  + {{ per('pozo_luciano') }}
-  + {{ per('sanchez_goldar_soledad') }}
-  + {{ per('sarobe_daniel') }}
-  + {{ per('thornton_alejandro') }}
-  + {{ per('torviso_silvina') }}
+  + {{ per('aguiar_fernando', urlhash='#p=24') }}
+  + {{ per('astorga_marcela', urlhash='#p=24') }}
+  + {{ per('bruscky_paulo', urlhash='#p=24') }}
+  + {{ per('caro_antonio', urlhash='#p=24') }}
+  + {{ per('danziger_leila', urlhash='#p=24') }}
+  + {{ per('de_gracia_silvio', urlhash='#p=24') }}
+  + {{ per('del_olmo_javier', urlhash='#p=24') }}
+  + {{ per('del_rio_claudia', urlhash='#p=24') }}
+  + {{ per('derdyk_edith', urlhash='#p=24') }}
+  + {{ per('di_pascuale_lucas', urlhash='#p=24') }}
+  + {{ per('fatmi_mounir', urlhash='#p=24') }}
+  + {{ per('fierens_luc', urlhash='#p=24') }}
+  + {{ per('fuertes_rosana', urlhash='#p=24') }}
+  + {{ per('gallardo_carlos', urlhash='#p=24') }}
+  + {{ per('golder_gabriela', urlhash='#p=24') }}
+  + {{ per('hygino_andrea', urlhash='#p=24') }}
+  + {{ per('machado_maria_jose', urlhash='#p=24') }}
+  + {{ per('maggi_ruggero', urlhash='#p=24') }}
+  + {{ per('marin_matilde', urlhash='#p=24') }}
+  + {{ per('marini_elena', urlhash='#p=24') }}
+  + {{ per('mastrandrea_daniela', urlhash='#p=24') }}
+  + {{ per('montenegro_fisher', urlhash='#p=24') }}
+  + {{ per('moraes_simone', urlhash='#p=24') }}
+  + {{ per('olbrich_jurgen_o', urlhash='#p=24') }}
+  + {{ per('ontiveros_daniel', urlhash='#p=24') }}
+  + {{ per('orensanz_marie', urlhash='#p=24') }}
+  + {{ per('padin_clemente', urlhash='#p=24') }}
+  + {{ per('pasinovich_andres', urlhash='#p=24') }}
+  + {{ per('pazos_luis', urlhash='#p=24') }}
+  + {{ per('pereda_teresa', urlhash='#p=24') }}
+  + {{ per('pozo_luciano', urlhash='#p=24') }}
+  + {{ per('sanchez_goldar_soledad', urlhash='#p=24') }}
+  + {{ per('sarobe_daniel', urlhash='#p=24') }}
+  + {{ per('thornton_alejandro', urlhash='#p=24') }}
+  + {{ per('torviso_silvina', urlhash='#p=24') }}

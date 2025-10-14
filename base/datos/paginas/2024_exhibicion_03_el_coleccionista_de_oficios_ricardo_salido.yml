@@ -46,10 +46,10 @@ contenido: |
 
 contenido_secundario: |
   <small>CURADURÍA:</small>
-  <br>{{ per('montenegro_ana') }} y {{ per('de_gracia_silvio') }}.
+  <br>{{ per('montenegro_ana', urlhash='#p=24') }} y {{ per('de_gracia_silvio', urlhash='#p=24') }}.
 
   <small>DISEÑO EXPOSITIVO:</small>
-  <br>{{ per('montenegro_ana') }}.
+  <br>{{ per('montenegro_ana', urlhash='#p=24') }}.
 
   <small>SEDE:</small>
   <br>[Museo Histórico](/sds/museo_historico/)

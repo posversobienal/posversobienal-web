@@ -71,7 +71,7 @@ contenido: |
 
 contenido_secundario: |
   <small>CURADURÍA:</small>
-  <br>{{ per('de_gracia_silvio') }}.
+  <br>{{ per('de_gracia_silvio', urlhash='#p=24') }}.
 
   <small>SEDE:</small>
   <br>["Edificio Alicia Moreau de Justo" - UNNOBA Escuela de Ciencias Económicas y Jurídicas](/sds/unnoba_alicia_moreau_de_justo/)
@@ -83,8 +83,8 @@ contenido_secundario: |
   <br><br>
   <small>ARTISTAS EXHIBIDOS:</small>
 
-  + {{ per('cosega') }}
-  + {{ per('gravino_rosa') }}
-  + {{ per('gross_stephan') }}
-  + {{ per('la_lengua_en_la_calle') }}
-  + {{ per('zuniga_naime_anuar') }}
+  + {{ per('cosega', urlhash='#p=24') }}
+  + {{ per('gravino_rosa', urlhash='#p=24') }}
+  + {{ per('gross_stephan', urlhash='#p=24') }}
+  + {{ per('la_lengua_en_la_calle', urlhash='#p=24') }}
+  + {{ per('zuniga_naime_anuar', urlhash='#p=24') }}

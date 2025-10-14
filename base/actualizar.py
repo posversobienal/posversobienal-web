@@ -52,16 +52,16 @@ def datos_de(tipo, archivo):
     return re
 
 
-def datos_de_persona(k, tipo='n+l', formato='md'):
+def datos_de_persona(k, tipo='n+l', formato='md', urlhash=''):
     if k in dat_per:
         d = dat_per[k]
         nom = d['nombre']
         ape = d['apellido']
         if tipo == 'n+l':
             if formato == 'md':
-                return f'[{nom} {ape}](/per/{k}/)'
+                return f'[{nom} {ape}](/per/{k}/{urlhash})'
             elif formato == 'html':
-                return f'<a href="/per/{k}/">{nom} {ape}</a>'
+                return f'<a href="/per/{k}/{urlhash}">{nom} {ape}</a>'
     return k
 
 def datos_de_sede(k, tipo='n+l', formato='md'):

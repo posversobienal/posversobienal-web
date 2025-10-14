@@ -72,24 +72,24 @@ biografias:
 
 
 listado:
-  aguiar_fernando: {nomb: 'Fernando Aguiar', foto: '/rec/foto/personas/fernando_aguiar.jpg', link: '/per/aguiar_fernando'}
-  archivo_romero_por_venir: {nomb: 'Archivo Romero por/venir', foto: '/rec/foto/personas/archivo_romero_por_venir.jpg', link: '/per/archivo_romero_por_venir'}
-  blonk_jaap: {nomb: 'Jaap Blonk', foto: '/rec/foto/personas/jaap_blonk.jpg', link: '/per/blonk_jaap'}
-  bruscky_paulo: {nomb: 'Paulo Bruscky', foto: '/rec/foto/personas/paulo_bruscky.jpg', link: '/per/bruscky_paulo'}
-  catolino_hugo: {nomb: 'Hugo Catolino' , foto: '/rec/foto/personas/hugo_catolino.jpg', link: '/per/catolino_hugo'}
-  de_gracia_silvio: {nomb: 'Silvio De Gracia', foto: '/rec/foto/personas/silvio_de_gracia_3.jpg', link: '/per/de_gracia_silvio'}
-  doberti_paula: {nomb: 'Paula Doberti', foto: '/rec/foto/personas/paula_doberti.jpg', link: '/per/doberti_paula'}
-  fontana_giovanni: {nomb: 'Giovanni Fontana', foto: '/rec/foto/personas/giovanni_fontana.jpg', link: '/per/fontana_giovanni'}
-  gallardo_carlos: {nomb: 'Carlos Gallardo', foto: '/rec/foto/personas/carlos_gallardo.jpg', link: '/per/gallardo_carlos'}
-  holderbaum_flora: {nomb: 'Flora Holderbaum', foto: '/rec/foto/personas/flora_holderbaum.jpg', link: '/per/holderbaum_flora'}
-  hurtado_michael: {nomb: 'Michael Hurtado', foto: '/rec/foto/personas/michael_hurtado.jpg', link: '/per/hurtado_michael'}
-  kozak_claudia: {nomb: 'Claudia Kozak', foto: '/rec/foto/personas/claudia_kozak.jpg', link: '/per/kozak_claudia'}
-  machado_maria_jose: {nomb: 'María José Machado', foto: '/rec/foto/personas/maria_jose_machado.jpg', link: '/per/machado_maria_jose' }
-  mata_rodolfo: {nomb: 'Rodolfo Mata', foto: '/rec/foto/personas/rodolfo_mata.jpg', link: '/per/mata_rodolfo'}
-  peterlini_patrizio: {nomb: 'Patrizio Peterlini', foto: '/rec/foto/personas/patrizio_peterlini.jpg', link: '/per/peterlini_patrizio'}
-  pianowski_fabiane: {nomb: 'Fabiane Pianowski', foto: '/rec/foto/personas/fabiane_pianowski.jpg', link: '/per/pianowski_fabiane'}
-  pujol_duran_jessica: {nomb: 'Jèssica Pujol Duran', foto: '/rec/foto/personas/jessica_pujol_duran.jpg', link: '/per/pujol_duran_jessica'}
-  wyskiel_dagmara: {nomb: 'Dagmara Wyskiel', foto: '/rec/foto/personas/dagmara_wyskiel.jpg', link: '/per/wyskiel_dagmara'}
+  aguiar_fernando: {nomb: 'Fernando Aguiar', foto: '/rec/foto/personas/fernando_aguiar.jpg', link: '/per/aguiar_fernando/#p=24'}
+  archivo_romero_por_venir: {nomb: 'Archivo Romero por/venir', foto: '/rec/foto/personas/archivo_romero_por_venir.jpg', link: '/per/archivo_romero_por_venir/#p=24'}
+  blonk_jaap: {nomb: 'Jaap Blonk', foto: '/rec/foto/personas/jaap_blonk.jpg', link: '/per/blonk_jaap/#p=24'}
+  bruscky_paulo: {nomb: 'Paulo Bruscky', foto: '/rec/foto/personas/paulo_bruscky.jpg', link: '/per/bruscky_paulo/#p=24'}
+  catolino_hugo: {nomb: 'Hugo Catolino' , foto: '/rec/foto/personas/hugo_catolino.jpg', link: '/per/catolino_hugo/#p=24'}
+  de_gracia_silvio: {nomb: 'Silvio De Gracia', foto: '/rec/foto/personas/silvio_de_gracia.jpg', link: '/per/de_gracia_silvio/#p=24'}
+  doberti_paula: {nomb: 'Paula Doberti', foto: '/rec/foto/personas/paula_doberti.jpg', link: '/per/doberti_paula/#p=24'}
+  fontana_giovanni: {nomb: 'Giovanni Fontana', foto: '/rec/foto/personas/giovanni_fontana.jpg', link: '/per/fontana_giovanni/#p=24'}
+  gallardo_carlos: {nomb: 'Carlos Gallardo', foto: '/rec/foto/personas/carlos_gallardo.jpg', link: '/per/gallardo_carlos/#p=24'}
+  holderbaum_flora: {nomb: 'Flora Holderbaum', foto: '/rec/foto/personas/flora_holderbaum.jpg', link: '/per/holderbaum_flora/#p=24'}
+  hurtado_michael: {nomb: 'Michael Hurtado', foto: '/rec/foto/personas/michael_hurtado.jpg', link: '/per/hurtado_michael/#p=24'}
+  kozak_claudia: {nomb: 'Claudia Kozak', foto: '/rec/foto/personas/claudia_kozak.jpg', link: '/per/kozak_claudia/#p=24'}
+  machado_maria_jose: {nomb: 'María José Machado', foto: '/rec/foto/personas/maria_jose_machado.jpg', link: '/per/machado_maria_jose/#p=24'}
+  mata_rodolfo: {nomb: 'Rodolfo Mata', foto: '/rec/foto/personas/rodolfo_mata.jpg', link: '/per/mata_rodolfo/#p=24'}
+  peterlini_patrizio: {nomb: 'Patrizio Peterlini', foto: '/rec/foto/personas/patrizio_peterlini.jpg', link: '/per/peterlini_patrizio/#p=24'}
+  pianowski_fabiane: {nomb: 'Fabiane Pianowski', foto: '/rec/foto/personas/fabiane_pianowski.jpg', link: '/per/pianowski_fabiane/#p=24'}
+  pujol_duran_jessica: {nomb: 'Jèssica Pujol Duran', foto: '/rec/foto/personas/jessica_pujol_duran.jpg', link: '/per/pujol_duran_jessica/#p=24'}
+  wyskiel_dagmara: {nomb: 'Dagmara Wyskiel', foto: '/rec/foto/personas/dagmara_wyskiel.jpg', link: '/per/wyskiel_dagmara/#p=24'}
 
 
 

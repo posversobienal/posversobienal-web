@@ -55,10 +55,10 @@ contenido: |
 
 contenido_secundario: |
   <small>CURADURÍA:</small>
-  <br>{{ per('montenegro_ana') }} y {{ per('de_gracia_silvio') }}.
+  <br>{{ per('montenegro_ana', urlhash='#p=24') }} y {{ per('de_gracia_silvio', urlhash='#p=24') }}.
 
   <small>DISEÑO EXPOSITIVO:</small>
-  <br>{{ per('montenegro_ana') }}.
+  <br>{{ per('montenegro_ana', urlhash='#p=24') }}.
 
   <small>SEDE:</small>
   <br>[Fundación Casa Pronto](/sds/fundacion_casa_pronto/)
@@ -72,26 +72,26 @@ contenido_secundario: |
   <br><br>
   <small>ARTISTAS:</small>
 
-  + {{ per('abreu_javier') }}
-  + {{ per('almeida_marcio') }}
-  + {{ per('barragan_ro') }}
-  + {{ per('bonzon_sergio') }}
-  + {{ per('borao_emmanuel') }}
-  + {{ per('calasans_denise') }}
-  + {{ per('calleja_j_m') }}
-  + {{ per('chio_angelica') }}
-  + {{ per('cosega') }}
-  + {{ per('demir_diren') }}
-  + {{ per('gravino_rosa') }}
-  + {{ per('lyrio_claudia') }}
-  + {{ per('macheratti_carlos_alberto') }}
-  + {{ per('mancioli_maurizio') }}
-  + {{ per('mangifesta_claudio') }}
-  + {{ per('melero_diego') }}
-  + {{ per('montiel_ale') }}
-  + {{ per('paz_hilda') }}
-  + {{ per('peral_marcela') }}
-  + {{ per('perez_raventos_guillermo') }}
-  + {{ per('restrepo_tulio') }}
-  + {{ per('ribeiro_joyce') }}
-  + {{ per('vaquero_diaz_roma') }}
+  + {{ per('abreu_javier', urlhash='#p=24') }}
+  + {{ per('almeida_marcio', urlhash='#p=24') }}
+  + {{ per('barragan_ro', urlhash='#p=24') }}
+  + {{ per('bonzon_sergio', urlhash='#p=24') }}
+  + {{ per('borao_emmanuel', urlhash='#p=24') }}
+  + {{ per('calasans_denise', urlhash='#p=24') }}
+  + {{ per('calleja_j_m', urlhash='#p=24') }}
+  + {{ per('chio_angelica', urlhash='#p=24') }}
+  + {{ per('cosega', urlhash='#p=24') }}
+  + {{ per('demir_diren', urlhash='#p=24') }}
+  + {{ per('gravino_rosa', urlhash='#p=24') }}
+  + {{ per('lyrio_claudia', urlhash='#p=24') }}
+  + {{ per('macheratti_carlos_alberto', urlhash='#p=24') }}
+  + {{ per('mancioli_hastings', urlhash='#p=24') }}
+  + {{ per('mangifesta_claudio', urlhash='#p=24') }}
+  + {{ per('melero_diego', urlhash='#p=24') }}
+  + {{ per('montiel_ale', urlhash='#p=24') }}
+  + {{ per('paz_hilda', urlhash='#p=24') }}
+  + {{ per('peral_marcela', urlhash='#p=24') }}
+  + {{ per('perez_raventos_guillermo', urlhash='#p=24') }}
+  + {{ per('restrepo_tulio', urlhash='#p=24') }}
+  + {{ per('ribeiro_joyce', urlhash='#p=24') }}
+  + {{ per('vaquero_diaz_roma', urlhash='#p=24') }}

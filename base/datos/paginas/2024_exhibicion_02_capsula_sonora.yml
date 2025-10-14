@@ -88,10 +88,10 @@ contenido: |
 
 contenido_secundario: |
   <small>CURADURÍA:</small>
-  <br>{{ per('montenegro_ana') }} y {{ per('de_gracia_silvio') }}.
+  <br>{{ per('montenegro_ana', urlhash='#p=24') }} y {{ per('de_gracia_silvio', urlhash='#p=24') }}.
 
   <small>DISEÑO EXPOSITIVO:</small>
-  <br>{{ per('montenegro_ana') }}.
+  <br>{{ per('montenegro_ana', urlhash='#p=24') }}.
 
   <small>SEDE:</small>
   <br>[HOTEL DADA. Base de Arte Correo y Poesía Experimental](/sds/hotel_dada/)
@@ -105,15 +105,15 @@ contenido_secundario: |
   <br><br>
   <small>ARTISTAS:</small>
 
-  + {{ per('blonk_jaap') }}
-  + {{ per('bresciani_rafael') }}
-  + {{ per('bruscky_yuri') }}
-  + {{ per('de_marchi_cristiana') }}
-  + {{ per('destemple_ferran') }}
-  + {{ per('ferrando_bartolome') }}
-  + {{ per('fontana_giovanni') }}
-  + {{ per('gross_stephan') }}
-  + {{ per('holderbaum_flora') }}
-  + {{ per('italiano_juan_angel') }}
-  + {{ per('mura_monica') }}
-  + {{ per('novarese_irina') }}
+  + {{ per('blonk_jaap', urlhash='#p=24') }}
+  + {{ per('bresciani_rafael', urlhash='#p=24') }}
+  + {{ per('bruscky_yuri', urlhash='#p=24') }}
+  + {{ per('de_marchi_cristiana', urlhash='#p=24') }}
+  + {{ per('destemple_ferran', urlhash='#p=24') }}
+  + {{ per('ferrando_bartolome', urlhash='#p=24') }}
+  + {{ per('fontana_giovanni', urlhash='#p=24') }}
+  + {{ per('gross_stephan', urlhash='#p=24') }}
+  + {{ per('holderbaum_flora', urlhash='#p=24') }}
+  + {{ per('italiano_juan_angel', urlhash='#p=24') }}
+  + {{ per('mura_monica', urlhash='#p=24') }}
+  + {{ per('novarese_irina', urlhash='#p=24') }}

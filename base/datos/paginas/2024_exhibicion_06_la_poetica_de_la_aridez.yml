@@ -59,7 +59,7 @@ contenido: |
 
 contenido_secundario: |
   <small>CURADOR:</small>
-  <br>{{ per('wyskiel_dagmara') }}
+  <br>{{ per('wyskiel_dagmara', urlhash='#p=24') }}
 
   <small>SEDE:</small>
   <br>[Parque Natural “Laguna de Gómez”](/sds/pnlg/)
