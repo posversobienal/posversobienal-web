@@ -170,3 +170,22 @@ if (!String.prototype.format) {
         return str;
     };
 }
+
+
+const getQueryParams = (data) => {
+     const params = new URLSearchParams(data);
+     const result = {};
+     for (const [key, value] of params) {
+         // Si ya existe una entrada con esa clave, la convertimos en array
+         if (result.hasOwnProperty(key)) {
+             if (Array.isArray(result[key])) {
+                 result[key].push(value);
+             } else {
+                 result[key] = [result[key], value];
+             }
+         } else {
+             result[key] = value;
+         }
+     }
+     return result;
+ }

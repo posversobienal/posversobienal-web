@@ -46,47 +46,11 @@
     </div>
 </div>
 
-<script src="/lib/js/acc-persona-artista.js?{{ cfg.cache_actu }}"></script>
 <script>
- function getQueryParams(data) {
-     const params = new URLSearchParams(data);
-     const result = {};
-
-     for (const [key, value] of params) {
-         // Si ya existe una entrada con esa clave, la convertimos en array
-         if (result.hasOwnProperty(key)) {
-             if (Array.isArray(result[key])) {
-                 result[key].push(value);
-             } else {
-                 result[key] = [result[key], value];
-             }
-         } else {
-             result[key] = value;
-         }
-     }
-
-     return result;
- }
-
- var data_query = getQueryParams(window.location.hash.replace('#', '?'));
-
+ var id_participacion_actual = '{{ pag.fotos.keys() | list | last }}';
  var ids_participaciones = {{ pag.fotos.keys() | list }};
- var id_participacion = '{{ pag.fotos.keys() | list | last }}';
- var id_participacion_solicitada = data_query['p'];
-
- if(ids_participaciones.includes(id_participacion_solicitada)){
-     id_participacion = id_participacion_solicitada;
- }
- var obra_actual = document.getElementById(`obra_${id_participacion}`);
- var perfil_actual = document.getElementById(`perfil_${id_participacion}`);
- obra_actual.classList.remove('oculto');
- perfil_actual.classList.remove('oculto');
-
- var participaciones_a_borrar = document.querySelectorAll('.oculto.participacion')
- participaciones_a_borrar.forEach(e => e.remove());
-
- console.log(participaciones_a_borrar)
-
 </script>
+
+<script src="/lib/js/acc-persona-artista.js?{{ cfg.cache_actu }}"></script>
 
 {% endblock %}
