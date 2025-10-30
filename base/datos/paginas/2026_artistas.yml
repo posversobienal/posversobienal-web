@@ -1,6 +1,8 @@
 ---
 
 titulo: 'Artistas 2026'
+subtitulo: 'LISTA PRELIMINAR'
+
 html_base: 'pagina-menu.html'
 ruta_static: 'pag/artistas_2026/index.html'
 estilo_: container d-flex flex-wrap justify-content-center
@@ -10,6 +12,7 @@ filtrador_: |
   <div id="filtrador_aqui" data-cfg='{"tipo":"filtro-artista"}'></div>
 
 contenido_: |
+
 
   {% for id_art, dat_art  in rec.artistas.items() %}
   {% if 'participo_en_2026' in dat_art.etiquetas %}
@@ -35,7 +38,6 @@ contenido_: |
 contenido: |
 
   - Diego Alberti <small class="text-secondary mx-2">(ARGENTINA)</small>
-  - Esteban Álvarez <small class="text-secondary mx-2">(ARGENTINA)</small>
   - Aurapoesíavisual <small class="text-secondary mx-2">(ARGENTINA)</small>
   - {{ per('baena_fernando') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
   - Pedro Bericat <small class="text-secondary mx-2">(ESPAÑA)</small>

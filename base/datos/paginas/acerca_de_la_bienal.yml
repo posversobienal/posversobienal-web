@@ -20,7 +20,7 @@ contenido: |
 
 
 listado:
-  de_gracia_silvio: {nomb: 'Silvio De Gracia', foto: '/rec/foto/personas/de_gracia_silvio__e.jpg', link: '/per/de_gracia_silvio__e', rol: 'Director General de POSVERSO'}
+  de_gracia_silvio: {nomb: 'Silvio De Gracia', foto: '/rec/foto/personas/silvio_de_gracia-4.jpg', link: '/per/de_gracia_silvio__e', rol: 'Director General de POSVERSO'}
   montenegro_ana: {nomb: 'Ana Montenegro', foto: '/rec/foto/personas/montenegro_ana__e.jpg', link: '/per/montenegro_ana__e', rol: 'Directora artística de POSVERSO'}
   macheratti_carlos_alberto: {nomb: 'Carlos Macheratti', foto: '/rec/foto/personas/macheratti_carlos_alberto__e.jpg', link: '/per/macheratti_carlos_alberto__e', rol: 'Responsable del desarrollo web, diseño gráfico y editorial'}
 

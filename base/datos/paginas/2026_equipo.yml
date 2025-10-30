@@ -11,7 +11,7 @@ contenido_secundario: ''
 
 
 listado:
-  de_gracia_silvio: {nomb: 'Silvio De Gracia', foto: '/rec/foto/personas/de_gracia_silvio__e.jpg', link: '/per/de_gracia_silvio__e', rol: 'Director General'}
+  de_gracia_silvio: {nomb: 'Silvio De Gracia', foto: '/rec/foto/personas/silvio_de_gracia-3.jpg', link: '/per/de_gracia_silvio__e', rol: 'Director General'}
   montenegro_ana: {nomb: 'Ana Montenegro', foto: '/rec/foto/personas/montenegro_ana__e.jpg', link: '/per/montenegro_ana__e', rol: 'Directora Artística'}
   macheratti_carlos_alberto: {nomb: 'Carlos Macheratti', foto: '/rec/foto/personas/macheratti_carlos_alberto__e.jpg', link: '/per/macheratti_carlos_alberto__e', rol: 'Desarrollo web, diseño gráfico y editorial'}
   perez_raventos_guillermo: {nomb: 'Guillermo Pérez Raventós', foto: '/rec/foto/personas/perez_raventos_guillermo__e.jpg', link: '/per/perez_raventos_guillermo__e', rol: 'Vinculación y producción'}
