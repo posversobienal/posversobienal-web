@@ -1,0 +1,32 @@
+---
+
+nombre: 'Hebe'
+apellido: 'Argentieri'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://hebeargentieri.com.ar'
+
+eventos: []
+
+fotos:
+  '26':
+    persona: 'argentieri_hebe.jpg'
+    obra: 'argentieri_hebe-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - invitado
+  - participo_en_2026
+
+
+detalle: |
+  Artista joyera radicada en Junín, Argentina, trabaja desarrollando piezas portables que exploran su relación con el territorio con particular enfoque en ambiente y género.
+
+  Luego de una carrera como traductora y docente, desde 2009 concurre a diferentes talleres de arte, joyería e investigación que nutren su formación. En los últimos años se ha dedicado al desarrollo de biomateriales.
+
+  Expone su obra en ámbitos locales e internacionales participando en eventos como la Bienal Latinoamericana de Joyería Contemporánea, la Bienal Museo IILIAS Lalounis Atenas, LOOT en el Museo de Arte y Diseño, Nueva York y el  circuito Munich/Barcelona, entre otros.  Forma parte de diversos proyectos colectivos de arte y joyería.
+
+  Desde 2015 da clases en su propio taller en Junín.

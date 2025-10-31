@@ -36,9 +36,9 @@ contenido_: |
 
 
 contenido: |
-
   - Diego Alberti <small class="text-secondary mx-2">(ARGENTINA)</small>
   - Aurapoesíavisual <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('argentieri_hebe') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - {{ per('baena_fernando') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
   - Pedro Bericat <small class="text-secondary mx-2">(ESPAÑA)</small>
   - {{ per('buitron_virginia') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
