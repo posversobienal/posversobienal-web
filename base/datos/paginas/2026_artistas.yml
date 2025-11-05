@@ -36,7 +36,7 @@ contenido_: |
 
 
 contenido: |
-  - Diego Alberti <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('alberti_diego') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - Aurapoesíavisual <small class="text-secondary mx-2">(ARGENTINA)</small>
   - {{ per('argentieri_hebe') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - {{ per('baena_fernando') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
