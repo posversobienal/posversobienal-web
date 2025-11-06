@@ -37,10 +37,10 @@ contenido_: |
 
 contenido: |
   - {{ per('alberti_diego') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
-  - Aurapoesíavisual <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('aura_poesiavisual') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - {{ per('argentieri_hebe') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - {{ per('baena_fernando') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
-  - Pedro Bericat <small class="text-secondary mx-2">(ESPAÑA)</small>
+  - {{ per('bericat_pedro') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
   - {{ per('buitron_virginia') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - {{ per('caro_antonio') }} <small class="text-secondary mx-2">(COLOMBIA)</small>
   - {{ per('dardot_marila') }} <small class="text-secondary mx-2">(BRASIL)</small>

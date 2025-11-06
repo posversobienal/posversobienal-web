@@ -1,0 +1,31 @@
+---
+
+nombre: 'aurapoesiavisual'
+apellido: ''
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: ''
+
+eventos: []
+
+fotos:
+  '26':
+    persona: 'aura_poesiavisual.jpg'
+    obra: 'aura_poesiavisual-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 40%
+
+etiquetas:
+  - invitado
+  - participo_en_2026
+
+detalle: |
+  **aurapoesiavisual** es un proyecto vinculado a promover la Poesía Visual, Sonora & Experimental con participaciones nacionales e internacionales.
+
+  Desde el año 2007 logramos interactuar con diversos Poetas Visuales y Experimentales editando obras de modo analógico en formato Fanzine, en doblez triangular de una hoja tamaño A4, impresa en fotoduplicación, sellada y firmada. Los ejemplares fueron distribuidos en Centros Culturales, Bibliotecas, Librerías, Exposiciones y diversas acciones grupales e individuales. Cumplidos los 10 años de existencia, y atentos a la dinámica de medios de comunicación masiva, mutamos, migrando hacia el ámbito virtual en donde nos permitimos generar un espacio para obras que definimos como VispoMotion, Poemas cargados de profundidad y movimiento por animación. Nos reconvertimos en VirtualZine para poder expandir la experiencia dinámica de conexión e intercambio, sus formas lingüísticas, semantización, límites visuales y soportes normalizados.
+
+  El aura de la palabra es Poesía.
+
+  Editores: OmarOmar + Ana Suárez

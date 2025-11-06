@@ -1,0 +1,25 @@
+---
+
+nombre: 'Pedro'
+apellido: 'Bericat'
+seudonimo: ''
+
+nacionalidad: 'España'
+contacto_publico: ''
+
+web: 'https://mutesound.org/pedro-bericat/'
+
+eventos: []
+
+fotos:
+  '26':
+    persona: 'pedro_bericat.jpg'
+    obra: 'pedro_bericat-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 55%
+
+etiquetas:
+  - invitado
+  - participo_en_2026
+
+detalle: |
+   (Zaragoza, 1955) Es un artista polifacético que ha explorado diversas disciplinas como la pintura, la instalación, el video, la performance, el sonido y el mail art. Desde la década de 1980, ha desarrollado Mute Sound, investigando la interacción entre plásticos y sonido, y participando activamente como artista experimental y en convocatorias de mail art por todo el mundo.
