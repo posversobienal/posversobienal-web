@@ -47,7 +47,7 @@ contenido: |
   - {{ per('denegri_andres') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - {{ per('fatmi_mounir') }} <small class="text-secondary mx-2">(MARRUECOS)</small>
   - {{ per('gimein_anna') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
-  - Michael Hurtado <small class="text-secondary mx-2">(PERU)</small>
+  - {{ per('hurtado_michael') }} <small class="text-secondary mx-2">(PERÚ)</small>
   - {{ per('jezik_enrique') }} <small class="text-secondary mx-2">(MÉXICO)</small>
   - {{ per('la_porfia_colectivo') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - {{ per('macheratti_carlos_alberto') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
