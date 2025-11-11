@@ -7,7 +7,7 @@ descripcion: 'Bienal POSVERSO . Bienal Internacional de Poesía Experimental de 
 claves: 'poesía, experimental, internacional, hotel dada, arte, posverso, art, poetry, junín, buenos aires, argentina'
 
 favicon: '/rec/grafica/favicon.svg'
-imagen_compartir: '/rec/grafica/logo-posverso_compartir.png'
+imagen_compartir: 'rec/grafica/logo-posverso_compartir.png'
 
 logo_posverso_a: '/rec/grafica/logo-posverso.svg'
 logo_posverso_b: '/rec/grafica/logo-posverso_completo.svg'
