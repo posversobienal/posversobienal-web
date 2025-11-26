@@ -22,9 +22,9 @@ fotos:
     imagen_cabecera_posicion_inicial: 50% 50%
 
 etiquetas:
-  - seleccionado
   - invitado
   - participo_en_2024
+  - seleccionado
   - participo_en_2026
 
 detalle: |
