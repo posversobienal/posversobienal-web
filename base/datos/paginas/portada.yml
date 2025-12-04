@@ -10,9 +10,9 @@ bienal_2026:
   video_miniatura: '/rec/video/portada_miniatura_c.jpg'
   video_creditos: 'Crédito del video: MAURIZIO MANCIOLI'
 
-
+  apoyatura_bienal: 'bienal internacional de poesía experimental de argentina'
   nombre: 'DEL ENCANTAMIENTO <b class="br-mobile"></b> Y EL HORROR'
-  texto: |
+  descripcion: |
     El tema de la segunda edición de POSVERSO, _Del encantamiento y el horror_, busca rescatar, a través del arte y las poéticas experimentales, la relación perdida entre la humanidad y las formas de conocimiento precientíficas y precapitalistas.
   url: ''
   fecha: |
