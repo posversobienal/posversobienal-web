@@ -25,11 +25,20 @@
                     {% endif %}
                 {% endfor %}
 
-                {% if pag.web %}
-                <p class="my-2">
-                    <a href="{{ pag.web }}" target="_blank">Web oficial</a>
-                </p>
-                {% endif %}
+                <div class="text-start">
+                    {% if pag.web %}
+                    <p class="my-2">
+                        <a href="{{ pag.web }}" target="_blank"><img src="/rec/grafica/icon-www_linea.svg" height="20"> Página web</a>
+                    </p>
+                    {% endif %}
+
+                    {% if pag.instagram %}
+                    <p class="my-2">
+                        <a href="{{ pag.instagram[1] }}" target="_blank"><img src="/rec/grafica/icon-instagram_linea.svg" height="20"> {{ pag.instagram[0] }}</a>
+                    </p>
+                    {% endif %}
+                </div>
+
                 <br><br>
             </div>
             <div class="col-11 ms-4 ps-8 col-lg-7">

@@ -1,0 +1,26 @@
+---
+
+nombre: 'Cecilia'
+apellido: 'Ivanchevich'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://linktr.ee/cecilia.ivanchevich'
+instagram: ['@cecilia.ivanchevich', 'https://www.instagram.com/cecilia.ivanchevich/']
+
+eventos: []
+
+fotos:
+  '26':
+    persona: 'ivanchevich_cecilia.jpg'
+    obra: 'ivanchevich_cecilia-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 40%
+
+etiquetas:
+  - invitado
+  - participo_en_2026
+
+detalle: |
+  (Buenos Aires, 1977) Artista, gestora cultural, investigadora y curadora argentina formada en la Universidad Nacional de Arte (UNA), en la Universidad Nacional de Tres de Febrero (UNTREF) y Universidad Nacional de San Martín (UNSAM). Como artista interdisciplinaria investiga especialmente la interrelación entre la imagen, el sonido y el espacio. Creó el “Laboratorio Interdisciplinario de Arte” que fue presentado en el Museé des moulage, en Lyon (2012) y en la Universidad de Innsbruck (2012), en la Colección Fortabat (2014) y el Centro Cultural Conti, Buenos Aires (2015). En 2014 el Mozarteum Argentino le otorgó una beca en la residencia artística en Cité Internationale des Arts París para realizar el proyecto interdisciplinario “Los ritmos del triángulo”. En 2020 fue invitada a la residencia artística Dimension Art Center Chongqing para realizar la instalación de sitio específico “Resiliencia” en la exposición “Local-internacional” que inauguró la Villa Artística 515 en la provincia de Sichuan, China. Desde 2024 improvisa junto al ensamble Fork-Da.

@@ -36,60 +36,61 @@ contenido_: |
 
 
 contenido: |
-  - {{ per('alberti_diego') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
-  - {{ per('aura_poesiavisual') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
-  - {{ per('argentieri_hebe') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
-  - {{ per('baena_fernando') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
-  - {{ per('bericat_pedro') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
-  - {{ per('buitron_virginia') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
-  - {{ per('caro_antonio') }} <small class="text-secondary mx-2">(COLOMBIA)</small>
-  - {{ per('dardot_marila') }} <small class="text-secondary mx-2">(BRASIL)</small>
-  - {{ per('denegri_andres') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
-  - {{ per('fatmi_mounir') }} <small class="text-secondary mx-2">(MARRUECOS)</small>
-  - {{ per('gimein_anna') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
-  - {{ per('hurtado_michael') }} <small class="text-secondary mx-2">(PERÚ)</small>
-  - {{ per('jezik_enrique') }} <small class="text-secondary mx-2">(MÉXICO)</small>
-  - {{ per('la_porfia_colectivo') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
-  - {{ per('macheratti_carlos_alberto') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
-  - {{ per('maggi_ruggero') }} <small class="text-secondary mx-2">(ITALIA)</small>
-  - {{ per('mancioli_maurizio') }} <small class="text-secondary mx-2">(BRASIL)</small>
-  - {{ per('montiel_ale') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
-  - {{ per('moraes_simone') }} <small class="text-secondary mx-2">(BRASIL)</small>
-  - {{ per('pereda_teresa') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
-  - {{ per('pozo_luciano') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
-  - {{ per('radakovic_darija') }} <small class="text-secondary mx-2">(CANADÁ)</small>
-  - {{ per('rivas_silvia') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
-  - {{ per('sanchez_goldar_soledad') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
-  - [Daniel Sarobe y Silvina Torviso](/per/sarobe_torviso/) <small class="text-secondary mx-2">(ARGENTINA)</small>
-  - {{ per('sierra_santiago') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
-  - {{ per('szabo_saulo') }} <small class="text-secondary mx-2">(BRASIL)</small>
-  - {{ per('ulisses_edgar') }} <small class="text-secondary mx-2">(BRASIL)</small>
+  - {{ per('alberti_diego', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('argentieri_hebe', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('aura_poesiavisual', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('baena_fernando', urlhash='#p=26') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
+  - {{ per('bericat_pedro', urlhash='#p=26') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
+  - {{ per('buitron_virginia', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('caro_antonio', urlhash='#p=26') }} <small class="text-secondary mx-2">(COLOMBIA)</small>
+  - {{ per('dardot_marila', urlhash='#p=26') }} <small class="text-secondary mx-2">(BRASIL)</small>
+  - {{ per('denegri_andres', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('fatmi_mounir', urlhash='#p=26') }} <small class="text-secondary mx-2">(MARRUECOS)</small>
+  - {{ per('forkda', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('gimein_anna', urlhash='#p=26') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
+  - {{ per('hurtado_michael', urlhash='#p=26') }} <small class="text-secondary mx-2">(PERÚ)</small>
+  - {{ per('ivanchevich_cecilia', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('jezik_enrique', urlhash='#p=26') }} <small class="text-secondary mx-2">(MÉXICO)</small>
+  - {{ per('la_porfia_colectivo', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('macheratti_carlos_alberto', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('maggi_ruggero', urlhash='#p=26') }} <small class="text-secondary mx-2">(ITALIA)</small>
+  - {{ per('mancioli_maurizio', urlhash='#p=26') }} <small class="text-secondary mx-2">(BRASIL)</small>
+  - {{ per('montiel_ale', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('moraes_simone', urlhash='#p=26') }} <small class="text-secondary mx-2">(BRASIL)</small>
+  - {{ per('nazer_susana', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('noiser', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA/COLOMBIA)</small>
+  - {{ per('pereda_teresa', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('pino_juan', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('pozo_luciano', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('radakovic_darija', urlhash='#p=26') }} <small class="text-secondary mx-2">(CANADÁ)</small>
+  - {{ per('rivas_silvia', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('sanchez_goldar_soledad', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - [Daniel Sarobe y Silvina Torviso](/per/sarobe_torviso/#p=26) <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - {{ per('sierra_santiago', urlhash='#p=26') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
+  - {{ per('szabo_saulo', urlhash='#p=26') }} <small class="text-secondary mx-2">(BRASIL)</small>
+  - {{ per('ulisses_edgar', urlhash='#p=26') }} <small class="text-secondary mx-2">(BRASIL)</small>
 
 
 por_agregar: |
 
+  Ana Laura Cantera (ARGENTINA)
   Ana Montenegro (BRASIL/ARGENTINA)
-  Silvio De Gracia (ARGENTINA)
-  Enrique Scarpatti (ARGENTINA)
-  Corina Markart (ARGENTINA)
-  Juan Pino (ARGENTINA)
-  Noiser (ARGENTINA/COLOMBIA)
-  Rubén Liggera (ARGENTINA)
-  María Zegna (ARGENTINA)
   Bruno Mesz (ARGENTINA)
-  Yuri Bruscky (Brasil)
+  Carlos Ramírez Kobra (MÉXICO)
   Cecilia Ivanchevich (ARGENTINA)
-  ENSAMBLE FØRK-DA (ARGENTINA)
+  Corina Markart (ARGENTINA)
+  Daniel Ciullini + Le Forbici di Manitú (ITALIA)
+  Enrique Scarpatti (ARGENTINA)
+  Eugenio Tiselli (MÉXICO)
   Exe Ramos (ARGENTINA)
   Inti Pujol (ARGENTINA)
   Luciana Martínez (ARGENTINA)
-  Eugenio Tiselli (MÉXICO)
-  Wendy Yashira (PERÚ)
-  Carlos Ramírez Kobra (MÉXICO)
-  Rosemberg Sandoval (COLOMBIA)
-  Daniel Ciullini + Le Forbici di Manitú (ITALIA)
-  Ana Laura Cantera (ARGENTINA)
   Mario Guzmán (MÉXICO)
+  María Zegna (ARGENTINA)
   Milton Laüfer (ARGENTINA)
   Romina Paesani (ARGENTINA)
-  Aruma (BOLIVIA) --en duda--
+  Rosemberg Sandoval (COLOMBIA)
+  Rubén Liggera (ARGENTINA)
+  Silvio De Gracia (ARGENTINA)
+  Wendy Yashira (PERÚ)
+  Yuri Bruscky (Brasil)

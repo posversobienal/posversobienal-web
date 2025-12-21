@@ -1,0 +1,31 @@
+---
+
+nombre: 'Juan'
+apellido: 'Pino'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://linktr.ee/mrjuampino'
+instagram: ['@juan.pinook', 'https://www.instagram.com/juan.pinook']
+
+eventos: []
+
+fotos:
+  '26':
+    persona: 'pino_juan.jpg'
+    obra: 'pino_juan-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 55%
+
+etiquetas:
+  - invitado
+  - participo_en_2026
+
+
+detalle: |
+  Es músico y experimentador sonoro. Su trabajo se despliega entre la improvisación, la composición y la exploración de las texturas del sonido, abordando la guitarra y otros instrumentos de cuerda como territorios abiertos al gesto y al espacio.
+
+  A lo largo de sus mas de 20 años de experiencia ha integrado y publicado obras con numerosos proyectos colectivos (Línea e Fondo, Maula Trio, entre otros),  explorando los cruces entre el folklore, el rock, el jazz y la música contemporánea. Actualmente forma parte de Bábaro, junto a Lautaro Abrego y Fermín Martínez.
+
+  Desde una mirada que une lo popular y lo experimental, su obra propone una práctica sonora donde la estructura y el azar conviven como materia de creación.
