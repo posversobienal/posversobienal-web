@@ -14,6 +14,7 @@ listado:
   de_gracia_silvio: {nomb: 'Silvio De Gracia', foto: '/rec/foto/personas/silvio_de_gracia-3.jpg', link: '/per/de_gracia_silvio__e', rol: 'Director General'}
   montenegro_ana: {nomb: 'Ana Montenegro', foto: '/rec/foto/personas/montenegro_ana__e.jpg', link: '/per/montenegro_ana__e', rol: 'Directora Artística'}
   macheratti_carlos_alberto: {nomb: 'Carlos Macheratti', foto: '/rec/foto/personas/macheratti_carlos_alberto__e.jpg', link: '/per/macheratti_carlos_alberto__e', rol: 'Desarrollo web, diseño gráfico y editorial'}
+  torres_roberto: {nomb: 'Roberto Torres', foto: '/rec/foto/personas/torres_roberto__e.jpg', link: '/per/torres_roberto__e', rol: 'Coordinador de prensa'}
   perez_raventos_guillermo: {nomb: 'Guillermo Pérez Raventós', foto: '/rec/foto/personas/perez_raventos_guillermo__e.jpg', link: '/per/perez_raventos_guillermo__e', rol: 'Vinculación y producción'}
   pozo_luciano: {nomb: 'Luciano Pozo', foto: '/rec/foto/personas/pozo_luciano__e.jpg', link: '/per/pozo_luciano__e', rol: 'Mediación educativa'}
   pineda_fernando: {nomb: 'Fernando Pineda', foto: '/rec/foto/personas/pineda_fernando__e.jpg', link: '/per/pineda_fernando__e', rol: 'Documentación en video'}
@@ -44,13 +45,14 @@ biografias:
     Nacida en Buenos Aires. Artista visual, fotógrafa. Capacitadora técnica en lenguajes visuales con especialización en el lenguaje fotográfico. Docente en escuela Motivarte y Taller El Aleph. Participó en el proyecto internacional “Making Mothers Visible". Fue fotógrafa en MACBA y fundación Madres Víctimas de Trata. Presentaciones en Fototeca Latinoamericana, Casa Museo de Victor Magariños, Centro Cultural San Martín, Centro de Arte Sonoro en la Casa Nacional del Bicentenario, entre otras.
 
   palmieri_lia: |
-    Lía Palmieri (Junín, Buenos Aires) es fotógrafa profesional egresada de la Escuela de Arte Xul Solar. Su experiencia incluye fotografía documental, fotoperiodismo y cobertura de eventos sociales, con participación en muestras colectivas en Junín, la región y CABA. Su trabajo se centra en los barrios periféricos de su ciudad, desde una mirada íntima y social. Explora la fotografía estenopeica como herramienta estética y de inclusión, dictando talleres en centros comunitarios y espacios de educación no formal.
+    Nacida en Junín, Buenos Aires. Es fotógrafa profesional egresada de la Escuela de Arte Xul Solar. Su experiencia incluye fotografía documental, fotoperiodismo y cobertura de eventos sociales, con participación en muestras colectivas en Junín, la región y CABA. Su trabajo se centra en los barrios periféricos de su ciudad, desde una mirada íntima y social. Explora la fotografía estenopeica como herramienta estética y de inclusión, dictando talleres en centros comunitarios y espacios de educación no formal.
 
+  torres_roberto: |
+    Reconocido periodista de la ciudad de Junín, con una trayectoria profesional que se extiende por más de treinta años. A lo largo de su carrera, ha evolucionado desde el periodismo escrito tradicional hasta convertirse en una figura central en la divulgación de la historia juninense en los medios digitales. Director de [juninhistoria](https://www.juninhistoria.com/), ha obtenido el Premio Caduceo 2019 otorgado por el Consejo Profesional de Ciencias Económicas de la Provincia de Buenos Aires le otorgó el Caduceo como mejor columnista de la provincia de Buenos Aires.
 
 
 
 extra: |
-
   ### EQUIPO DE LA BIENAL
   <br>
 
@@ -62,6 +64,9 @@ extra: |
 
   ### Desarrollo web, diseño gráfico y editorial
   + {{ per('macheratti_carlos_alberto__e') }} (ARG)
+
+  ### Prensa
+  + {{ per('torres_roberto__e') }} (ARG)
 
   ### Vinculación y producción
   + {{ per('perez_raventos_guillermo__e') }} (ARG)
