@@ -9,7 +9,8 @@ contacto_publico: ''
 
 eventos: []
 
-web: '/'
+web: ''
+instagram: ['@marisafloridocesar', 'https://www.instagram.com/marisafloridocesar/']
 
 fotos:
   persona: 'marisa_florido_cesar.jpg'

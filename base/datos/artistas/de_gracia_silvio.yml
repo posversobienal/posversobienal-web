@@ -9,7 +9,8 @@ contacto_publico: ''
 
 eventos: []
 
-web: 'http://www.silviodegracia.com/'
+#web: 'http://www.silviodegracia.com/'
+instagram: ['@degraciasilvio', 'https://www.instagram.com/degraciasilvio/']
 
 fotos:
   '24':

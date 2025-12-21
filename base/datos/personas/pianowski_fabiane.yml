@@ -9,7 +9,8 @@ contacto_publico: ''
 
 eventos: []
 
-web: ''
+web: 'https://linktr.ee/fpianowski'
+instagram: ['@fabisardenta', 'https://www.instagram.com/fabisardenta/']
 
 fotos:
   persona: 'fabiane_pianowski.jpg'

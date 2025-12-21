@@ -9,7 +9,8 @@ contacto_publico: ''
 
 eventos: []
 
-web: 'https://www.instagram.com/michaelmobius/'
+web: ''
+instagram: ['@michaelmobius', 'https://www.instagram.com/michaelmobius/']
 
 fotos:
   persona: 'michael_hurtado.jpg'

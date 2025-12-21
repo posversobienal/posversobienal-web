@@ -7,7 +7,8 @@ seudonimo: ''
 nacionalidad: 'España'
 contacto_publico: ''
 
-web: 'https://www.instagram.com/jessica.pujol.duran/'
+web: ''
+instagram: ['@jessica.pujol.duran', 'https://www.instagram.com/jessica.pujol.duran/']
 
 eventos: []
 

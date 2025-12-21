@@ -8,7 +8,7 @@ nacionalidad: 'Brasil'
 contacto_publico: ''
 
 web: 'https://mariladardot.com'
-#Instagram: @marila_dardot
+instagram: ['@marila_dardot', 'https://www.instagram.com/marila_dardot']
 
 eventos: []
 

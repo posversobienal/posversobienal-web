@@ -7,8 +7,8 @@ seudonimo: ''
 nacionalidad: 'Brasil'
 contacto_publico: ''
 
-web: 'https://www.instagram.com/andreahygino8/'
-#web: 'https://www.andreahygino.com.br/'
+web: 'https://www.andreahygino.com.br/'
+instagram: ['@andreahygino8', 'https://www.instagram.com/andreahygino8/']
 
 eventos: []
 

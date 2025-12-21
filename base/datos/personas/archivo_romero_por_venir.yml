@@ -10,6 +10,7 @@ contacto_publico: ''
 eventos: []
 
 web: 'https://redcsur.net/2022/08/02/archivo-romero-por-venir/'
+instagram: ['@', 'https://www.instagram.com/redcsur/']
 
 fotos:
   persona: 'archivo_romero_por_venir.jpg'

@@ -8,7 +8,7 @@ nacionalidad: 'Argentina'
 contacto_publico: ''
 
 web: 'https://andresdenegri.com'
-#https://www.instagram.com/andresdenegri
+instagram: ['@andresdenegri', 'https://www.instagram.com/andresdenegri']
 
 
 eventos: []

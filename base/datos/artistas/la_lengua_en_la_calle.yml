@@ -7,7 +7,8 @@ seudonimo: ''
 nacionalidad: 'Argentina'
 contacto_publico: ''
 
-web: 'https://www.instagram.com/la_lengua_en_la_calle'
+web: ''
+instagram: ['@la_lengua_en_la_calle', 'https://www.instagram.com/la_lengua_en_la_calle']
 
 eventos: []
 

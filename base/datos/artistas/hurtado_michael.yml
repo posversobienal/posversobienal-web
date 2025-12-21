@@ -7,7 +7,8 @@ seudonimo: ''
 nacionalidad: 'Perú'
 contacto_publico: ''
 
-web: 'https://www.instagram.com/michaelmobius/'
+web: ''
+instagram: ['@michaelmobius', 'https://www.instagram.com/michaelmobius/']
 
 eventos: []
 

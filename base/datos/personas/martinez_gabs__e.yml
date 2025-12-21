@@ -7,7 +7,8 @@ seudonimo: ''
 nacionalidad: 'Argentina'
 contacto_publico: ''
 
-web: 'https://www.instagram.com/gabsvisuales/'
+web: ''
+instagram: ['@gabsvisuales', 'https://www.instagram.com/gabsvisuales/']
 
 eventos: []
 
