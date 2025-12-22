@@ -16,7 +16,7 @@ fotos:
   '26':
     persona: 'ivanchevich_cecilia.jpg'
     obra: 'ivanchevich_cecilia-1.jpg'
-    imagen_cabecera_posicion_inicial: 50% 40%
+    imagen_cabecera_posicion_inicial: 50% 30%
 
 etiquetas:
   - invitado

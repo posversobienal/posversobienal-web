@@ -21,7 +21,7 @@ contenido: |
   - <i class="h">caro_antonio</i> {{ per('caro_antonio', urlhash='#p=26') }} <small class="text-secondary mx-2">(COLOMBIA)</small>
   - <i class="h">ciullini_daniel_lfdm</i> Daniel Ciullini + Le Forbici di Manitú <small class="text-secondary mx-2">(ITALIA)</small>
   - <i class="h">dardot_marila</i> {{ per('dardot_marila', urlhash='#p=26') }} <small class="text-secondary mx-2">(BRASIL)</small>
-  - <i class="h">de_gracia_silvio</i> Silvio De Gracia <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - <i class="h">de_gracia_silvio</i> {{ per('de_gracia_silvio', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">denegri_andres</i> {{ per('denegri_andres', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">fatmi_mounir</i> {{ per('fatmi_mounir', urlhash='#p=26') }} <small class="text-secondary mx-2">(MARRUECOS)</small>
   - <i class="h">forkda</i> {{ per('forkda', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
@@ -39,7 +39,7 @@ contenido: |
   - <i class="h">markart_corina</i> Corina Markart <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">martinez_luciana</i> Luciana Martínez <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">mesz_bruno</i> Bruno Mesz <small class="text-secondary mx-2">(ARGENTINA)</small>
-  - <i class="h">montenegro_ana</i> Ana Montenegro <small class="text-secondary mx-2">(BRASIL/ARGENTINA)</small>
+  - <i class="h">montenegro_ana</i> {{ per('montenegro_ana', urlhash='#p=26') }} <small class="text-secondary mx-2">(BRASIL/ARGENTINA)</small>
   - <i class="h">montiel_ale</i> {{ per('montiel_ale', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">moraes_simone</i> {{ per('moraes_simone', urlhash='#p=26') }} <small class="text-secondary mx-2">(BRASIL)</small>
   - <i class="h">nazer_susana</i> {{ per('nazer_susana', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
