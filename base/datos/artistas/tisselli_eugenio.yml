@@ -1,0 +1,29 @@
+---
+
+nombre: 'Eugenio'
+apellido: 'Tisselli'
+seudonimo: ''
+
+nacionalidad: 'México'
+contacto_publico: ''
+
+web: 'https://motorhueso.net'
+#instagram: ['@', '']
+
+eventos: []
+
+fotos:
+  '26':
+    persona: 'tisselli_eugenio.jpg'
+    obra: 'tisselli_eugenio-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 70%
+
+etiquetas:
+  - invitado
+  - participo_en_2026
+
+
+detalle: |
+  (México, 1972) Es programador, escritor, artista e investigador. Como programador-escritor, explora las maneras en las que la informatización del lenguaje transforma nuestra relación con el mundo, e intenta escribir en contra del significado al enfocarse en la materialidad del lenguaje, practicando la programación como forma de escritura, y la poesía como algoritmo. Sobre este terreno híbrido ha desarrollado herramientas como 'MIDIPoet' o 'Poesía Asistida por Computadora', así como numerosas piezas de escritura electrónica. Como programador-investigador, ha desarrollado plataformas de software y metodologías sociotécnicas para la investigación participativa y la escritura colaborativa en contextos urbanos y rurales. Ha presentado su trabajo en publicaciones, conferencias, festivales y exposiciones nacionales e internacionales.
+
+  Su trabajo puede verse en [motorhueso.net](https://motorhueso.net) y [ojovoz.net](https://ojovoz.net).

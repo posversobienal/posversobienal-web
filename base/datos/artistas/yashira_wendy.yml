@@ -1,0 +1,35 @@
+---
+
+nombre: 'Wendy'
+apellido: 'Yashira'
+seudonimo: ''
+
+nacionalidad: 'Perú'
+contacto_publico: ''
+
+web: 'https://linktr.ee/wendy.yashira'
+instagram: ['@wyashira', 'https://www.instagram.com/wyashira/']
+
+eventos: []
+
+fotos:
+  '26':
+    persona: 'yashira_wendy.jpg'
+    obra: 'yashira_wendy-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - invitado
+  - participo_en_2026
+
+
+detalle: |
+  Wendy Yashira Palian Soto. Peruana en Francia / Université de Poitiers.
+
+  Directora editorial, docente, artista multidisciplinaria e investigadora. Su trabajo se desarrolla en la intersección entre la edición experimental y el arte con nuevas tecnologías. En 2018 fundó Lumpérica Editorial, un sello que produce libros artesanales y transmediales, integrando literatura electrónica, programación, realidad aumentada y arte digital, así como fanzines y antologías sobre historia, política y cultura contemporánea.
+
+  Ha impartido diversos talleres de edición y literatura, dirigidos tanto a niñxs como a adultxs, concebidos como espacios expandidos de creación y comunidad. Actualmente brinda cursos y talleres de edición y arte digital.
+
+  Ha participado como editora y artista en festivales, ferias y exposiciones en América Latina, Estados Unidos y Europa. Entre sus publicaciones destacan el ensayo electrónico Gamebook sobre edición artesanal y electrónica, La archiva expandida cyborgshakti.tumblr.com, proyectos sonoros de música generativa y experimentación poética, videopoesía y diversos trabajos sobre edición y arte digital.
+
+  Su práctica busca cuestionar y reinventar la manera en que entendemos el libro y el arte desde lo político y las tecnologías, explorando sus posibilidades colectivas y comunitarias, así como su dimensión de archivo y experiencia en diálogo con el presente.

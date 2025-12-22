@@ -1,0 +1,27 @@
+---
+
+nombre: 'Milton'
+apellido: 'Läufer'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://miltonlaufer.com.ar'
+instagram: ['@miltonlaufer', 'https://www.instagram.com/miltonlaufer/']
+
+eventos: []
+
+fotos:
+  '26':
+    persona: 'laufer_milton.jpg'
+    obra: 'laufer_milton-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 70%
+
+etiquetas:
+  - invitado
+  - participo_en_2026
+
+
+detalle: |
+  Es un escritor, periodista y docente argentino residente en Berlín. Ha publicado artículos y cuentos en Esquire, Vice, Guernica, Revista CIA y Otra Parte. Participó de muestras en Sudamérica, Estados Unidos y Europa. Se licenció en Filosofía en la Universidad de Buenos Aires, donde fue docente por diez años. Obtuvo un MFA en Escritura Creativa en New York University, así como luego un PhD focalizado en literatura computacional en América Latina. Fue el escritor en residencia 2016-2017 en el Trope Tank de MIT. Publicó las novelas Lagunas (2015, parcialmente generada por algoritmos); A Noise Such as a Man Might Make (2018, Counterpath en su colección Using Electricity de libros generados por computadora) y Los restos humanos (2021, Suburbano Ediciones). Obtuvo la mención de honor en el premio de novela digital Paula Benavides 2018 con su novela El pequeño Platero y fue entre 2020 y 2022 editor de la revista de literatura digital [Taper](https://taper.badquar.to).

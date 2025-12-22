@@ -1,0 +1,27 @@
+---
+
+nombre: 'Mario'
+apellido: 'Guzmán'
+seudonimo: ''
+
+nacionalidad: 'México'
+contacto_publico: ''
+
+web: 'https://mario-guzman.com'
+instagram: ['@marioguzzzman', 'https://www.instagram.com/marioguzzzman/']
+
+eventos: []
+
+fotos:
+  '26':
+    persona: 'guzman_mario.jpg'
+    obra: 'guzman_mario-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - invitado
+  - participo_en_2026
+
+
+detalle: |
+  Artista-investigador y cofundador de Imagined Tech Studies. Doctorando en la Universidad de La Rochelle con la tesis “Voicing Artificial Entities: Semiótica y narrativas culturales en el desarrollo de personas y personalidades de IA y robots”. Ex Ingeniero en Hanson Robotics.

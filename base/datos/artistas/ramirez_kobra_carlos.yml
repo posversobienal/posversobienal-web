@@ -1,0 +1,27 @@
+---
+
+nombre: 'Carlos'
+apellido: 'Ramírez Kobra'
+seudonimo: 'Cyber_BardX'
+
+nacionalidad: 'México'
+contacto_publico: ''
+
+web: 'https://linktr.ee/kobrakonk'
+instagram: ['@kobrakonk', 'https://www.instagram.com/kobrakonk/']
+
+eventos: []
+
+fotos:
+  '26':
+    persona: 'ramirez_kobra_carlos.jpg'
+    obra: 'ramirez_kobra_carlos-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 70%
+
+etiquetas:
+  - invitado
+  - participo_en_2026
+
+
+detalle: |
+  (1984, Ciudad Neza, México) Escritor, publicista y artista transmedia. Es coordinador de la [Plataforma PLACA](http://plataformaplaca.com/) en México, gestiona eventos culturales como el Recital de Poesía [Chilango Andaluz](http://recitalchilangoandaluz.blogspot.com/). Ha publicado poemarios/proyectos transmediales como: [Own Dream Code](https://editorialultramarina.com/2021/06/23/la-poetica-urbana-en-codigo-onirico-own-dream-code-de-carlos-ramirez-kobra/) (Editorial Ultramarina C&D 2020), [Dios un píxel](https://editorial.centroculturadigital.mx/libro/dios-un-pixel) (Centro de Cultura Digital, 2022), [Cyber_BardX](https://cyberbardx.brokenenglish.lol/) (Catedra Max Aub/Broken English, 2023), Sueños de Luciérnagas (Dogma, 2025), [Homo transmedialis](https://centroculturadigital.mx/revista/homo-transmedialis) (Centro de Cultura Digital, 2025-2026). Los álbumes de poesía sonora [Somos magia](https://open.spotify.com/intl-es/album/7A5rdWz901x3aXjKVHLwd5) y [redDark](https://open.spotify.com/intl-es/album/3iZr4Q735c3mPQQvSQhPER) (2024). Sus piezas audiovisuales han recibido diversas distinciones y forman parte de selecciones oficiales de festivales internacionales de videopoesía y cine experimental. Trabaja desde hace 20 años en proyectos de poesía transmedia/expandida.

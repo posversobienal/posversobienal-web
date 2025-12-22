@@ -825,6 +825,9 @@ a.actual {
 .firma {
   text-align: right;
 }
+.h {
+  display: none;
+}
 .filtrador {
   display: inline-block;
   border: 1px solid #ddd;
