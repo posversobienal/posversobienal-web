@@ -20,7 +20,7 @@ fotos:
   '26':
     persona: 'ana_montenegro-1.jpg'
     obra: 'ana_montenegro-2.jpg'
-    imagen_cabecera_posicion_inicial: 50% 51%
+    imagen_cabecera_posicion_inicial: 50% 19%
 
 etiquetas:
   - invitado
