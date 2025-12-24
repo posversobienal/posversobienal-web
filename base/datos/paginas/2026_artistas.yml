@@ -61,7 +61,7 @@ contenido: |
   - <i class="h">tiselli_eugenio</i> {{ per('tisselli_eugenio', urlhash='#p=26')}} <small class="text-secondary mx-2">(MÉXICO)</small>
   - <i class="h">ulisses_edgar</i> {{ per('ulisses_edgar', urlhash='#p=26') }} <small class="text-secondary mx-2">(BRASIL)</small>
   - <i class="h">yashira_wendy</i> {{ per('yashira_wendy', urlhash='#p=26') }} <small class="text-secondary mx-2">(PERÚ)</small>
-  - <i class="h">zegna_maria</i> María Zegna <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - <i class="h">zegna_maria</i> {{ per('zegna_maria', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
 
 
 _filtrador: |
