@@ -1,0 +1,31 @@
+---
+
+nombre: 'Rosemberg'
+apellido: 'Sandoval'
+seudonimo: ''
+
+nacionalidad: 'Colombia'
+contacto_publico: ''
+
+web: ''
+instagram: ['@rosembergsandovalg', 'https://www.instagram.com/rosembergsandovalg']
+
+eventos: []
+
+fotos:
+  '26':
+    persona: 'sandoval_rosemberg.jpg'
+    obra: 'sandoval_rosemberg-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - invitado
+  - participo_en_2026
+
+
+detalle: |
+  (1959, Cartago-Valle, Colombia) Estudió en la Escuela de Bellas Artes de Cali y en la Universidad del Valle en donde ejerció como docente en el Departamento de artes visuales de la facultad de artes Integradas desde 1995 hasta febrero de 2016.
+
+  Ha exhibido desde 1981 en Museos y centros culturales importantes de Alemania, México, Argentina, Austria, Australia, Brasil, Venezuela, Ecuador, España, Suiza, Italia, República Checa, Canadá, Uruguay, Francia y Colombia.
+
+  Su obra se encuentra en colecciones privadas como el Museo de Arte Moderno de Nueva York (MOMA), Daros de Zurich, Prometeo de Italia y Museos de arte moderno de Colombia: MAMBO de Bogotá, Museo de Antioquia en Medellín, La Tertulia de Cali, MAM de Cartagena y Barranquilla y galerías como Casas Riegner de Bogotá.

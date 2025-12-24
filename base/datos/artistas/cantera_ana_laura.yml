@@ -1,0 +1,33 @@
+---
+
+nombre: 'Ana Laura'
+apellido: 'Cantera'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://www.analauracantera.com.ar/'
+instagram: ['@analauracantera', 'https://www.instagram.com/analauracantera']
+
+eventos: []
+
+fotos:
+  '26':
+    persona: 'cantera_ana_laura.jpg'
+    obra: 'cantera_ana_laura-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 65%
+
+etiquetas:
+  - invitado
+  - participo_en_2026
+
+
+detalle: |
+  Artista, investigadora y docente. En sus producciones artísticas trabaja con los conceptos de naturalezas, territorios y los vínculos horizontales con organismos no-humanos desde perspectivas decoloniales.
+
+  Es Doctora en Artes y Tecnoestéticas y Magister en Artes Electrónicas graduada en ambos casos con honores, en la Universidad Nacional de Tres de Febrero, Licenciada y Profesora en Artes Visuales egresada de la Universidad Nacional de las Artes. Es desarrolladora y creadora de  biomateriales, especializada en diseños cultivados a partir de micelio de hongo. Obtuvo la beca Global Community Bio Fellows del MIT, la ELAP Emerging Leaders in the Americas Program (Concordia University-Montreal) y el Primer Premio Itaú Artes Visuales en la categoría Arte Robótico.
+
+  Es Directora de [BIONUMA](https://www.instagram.com/bionuma_untref/) - Grupo de Investigación y Desarrollo en Biopoéticas y Nuevos Materiales del Laboratorio de Arte Electrónico e Inteligencia Artificial de la Universidad Nacional de Tres de Febrero, donde se desempeña como docente en la Maestría en Tecnología y Estéticas de las Artes Electrónicas y en la Diplomatura de Humanidades Ambientales en el Cruce del Arte y la Tecnología. Es también docente en la Especialización en Sociología del Diseño de la Universidad de Buenos Aires.
+
+  Ha exhibido sus obras en Argentina, Brasil, Venezuela, Canadá, México, Irán, Israel, Mongolia, Francia, España, EEUU, India, Turquía, Inglaterra, entre otros.

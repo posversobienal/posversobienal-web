@@ -42,7 +42,13 @@
                 <br><br>
             </div>
             <div class="col-11 ms-4 ps-8 col-lg-7">
-                <h1>{{ pag.nombre }} {{ pag.apellido }}</h1>
+                <h1>
+                    {% if pag.seudonimo %}
+                    {{ pag.seudonimo }} <small>( {{ pag.nombre }} {{ pag.apellido }} )</small>
+                    {% else %}
+                    {{ pag.nombre }} {{ pag.apellido }}
+                    {% endif %}
+                </h1>
                 <p>{{ pag.nacionalidad }}</p>
                 <hr>
                 <div class="">

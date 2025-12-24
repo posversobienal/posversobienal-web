@@ -1,0 +1,31 @@
+---
+
+nombre: 'Bruno'
+apellido: 'Mesz'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://www.brunomesz.com/'
+instagram: ['@bmesz', 'https://www.instagram.com/bmesz']
+
+eventos: []
+
+fotos:
+  '26':
+    persona: 'mesz_bruno.jpg'
+    obra: 'mesz_bruno-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 60%
+
+etiquetas:
+  - invitado
+  - participo_en_2026
+
+
+detalle: |
+  Es un artista-científico. Profesor e investigador en la Universidad Nacional de Tres de Febrero (Argentina). Estudió matemáticas en la Universidad de Buenos Aires y música en el Conservatorio Nacional de Música (Profesor Nacional de Música).
+
+  Principales intereses de investigación: percepción multisensorial, correspondencias intermodales y teoría matemática de la música. Diseñó performances e instalaciones multisensoriales, exhibidas en el Museo de Diseño Cooper Hewitt Smithsonian (Nueva York), el Museo MALBA (Buenos Aires), el Festival Internacional de Tango de Buenos Aires, BIENALSUR (Buenos Aires), la Fundación Andreani (Buenos Aires), la Semana de Arte de Miami 2019 y Loop Barcelona 2019, entre otros.
+
+  Coorganizó el primer Simposio Internacional sobre Neurociencia y Vino en Barcelona (2018). Pianista especializado en música contemporánea, ofrece conciertos tanto como solista como con ensambles internacionales.

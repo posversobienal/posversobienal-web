@@ -1,0 +1,28 @@
+---
+
+nombre: 'María Corina'
+apellido: 'Markart'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://www.threads.com/@corinamarkart'
+instagram: ['@corinamarkart', 'https://www.instagram.com/corinamarkart']
+
+eventos: []
+
+fotos:
+  '26':
+    persona: 'markart_corina.jpg'
+    obra: 'markart_corina-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 20%
+
+etiquetas:
+  - invitado
+  - participo_en_2026
+
+
+detalle: |
+
+  Es una profesional de las Artes Escénicas, actriz, performer, directora de escena y docente en diferentes  niveles educativos. Es Profesora de Danza con orientación en Expresión Corporal. Egresada en el año 2008 en la Escuela de Teatro de la ciudad de Junín, Buenos Aires. Posee un Postítulo de Formación Universitaria en Artes Escénicas, en la Facultad de Humanidades y Artes de la Universidad Nacional de Rosario (2012-2014). Su formación artística comienza a partir del año 1989, transitando talleres y capacitaciones desde el teatro, la música y la danza, acompañada por profesores/ras como Gustavo Schwartz, Ana Frenkel, Vivi Tellas, Ana Woolf, Gustavo Lesgart, María José Goldin, Deborah Kalmar, Marina Gubbay, Silvio Lang, entre otros. Ha participado en performances e intervenciones en el Centro Parakultural, Teatro Colón, Teatro San Martin, Centro Cultural Rojas, Malba, Museo del Libro y de la Lengua en CABA, y en diferentes espacios culturales de la ciudad de Junín y la región de la provincia de Buenos Aires. Como actriz, performer y artista-interprete de la danza expresionista, logra sintetizar un encuentro, una fusión de estos lenguajes, la exploración de los mismos y la apropiación de conocimientos desde sus propios guiones y puestas escénicas.

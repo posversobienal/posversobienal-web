@@ -57,11 +57,18 @@ def datos_de_persona(k, tipo='n+l', formato='md', urlhash=''):
         d = dat_per[k]
         nom = d['nombre']
         ape = d['apellido']
+        seu = d['seudonimo']
         if tipo == 'n+l':
             if formato == 'md':
-                return f'[{nom} {ape}](/per/{k}/{urlhash})'
+                if len(seu) > 1:
+                    return f'[{seu} <small>( {nom} {ape} )</small>](/per/{k}/{urlhash})'
+                else:
+                    return f'[{nom} {ape}](/per/{k}/{urlhash})'
             elif formato == 'html':
-                return f'<a href="/per/{k}/{urlhash}">{nom} {ape}</a>'
+                if len(seu) > 1:
+                    return f'<a href="/per/{k}/{urlhash}">{seu} <small>( {nom} {ape} )</small></a>'
+                else:
+                    return f'<a href="/per/{k}/{urlhash}">{nom} {ape}</a>'
     return k
 
 def datos_de_sede(k, tipo='n+l', formato='md'):
