@@ -18,9 +18,10 @@ fotos:
     obra: 'carlos_alberto_macheratti-1.jpg'
     imagen_cabecera_posicion_inicial: 49% 50%
   '26':
-    persona: 'carlos_alberto_macheratti.jpg'
+    persona: 'carlos_alberto_macheratti-1.jpg'
     obra: 'carlos_alberto_macheratti-2.jpg'
     imagen_cabecera_posicion_inicial: 49% 50%
+
 
 etiquetas:
   - invitado

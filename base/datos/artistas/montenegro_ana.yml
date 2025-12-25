@@ -10,7 +10,7 @@ contacto_publico: ''
 eventos: []
 
 web: 'https://anamontenegro.weebly.com/biografiacutea.html'
-instagram: ['@montenegroana', 'https://www.instagram.com/montenegroana/']
+instagram: ['@montenegroana', 'https://www.instagram.com/montenegroana']
 
 fotos:
   '24':
@@ -20,7 +20,7 @@ fotos:
   '26':
     persona: 'ana_montenegro-1.jpg'
     obra: 'ana_montenegro-2.jpg'
-    imagen_cabecera_posicion_inicial: 50% 19%
+    imagen_cabecera_posicion_inicial: 50% 10%
 
 etiquetas:
   - invitado

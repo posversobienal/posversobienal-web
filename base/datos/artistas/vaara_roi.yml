@@ -1,0 +1,36 @@
+---
+
+nombre: 'Roi'
+apellido: 'Vaara'
+seudonimo: ''
+
+nacionalidad: 'Finlandia'
+contacto_publico: ''
+
+web: ''
+#instagram: ['@', 'https://www.instagram.com/']
+#https://vimeo.com/365498497
+
+eventos: []
+
+fotos:
+  '26':
+    persona: 'vaara_roi.jpg'
+    obra: 'vaara_roi-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 70%
+
+etiquetas:
+  - invitado
+  - participo_en_2026
+
+
+detalle: |
+  (1953, Moss, Noruega) Es un pionero del arte de performance finlandés. Desde 1979, se ha presentado en más de 500 espacios en aproximadamente 50 países. Vaara ha sido conferenciante y profesor invitado en numerosas academias de arte y universidades de diversos países, ha comisariado y organizado eventos de arte de performance y ha escrito sobre arte para publicaciones finlandesas e internacionales.
+
+  Desde 1988, es miembro activo del colectivo de arte de performance Black Market International (BMI), que ha alcanzado una reputación de culto. Sus performances de larga duración se basan en el intercambio libre y abierto de ideas. BMI se presentó, entre otros, en la Documenta Halle de Kassel en 2025, conmemorando el 70.º aniversario de la Documenta y el 40.º aniversario de BMI.
+
+  El video de Vaara, "El dilema del artista" (1997), se convirtió en un éxito internacional. En la Bienal de Belgrado, con el subtítulo "Arte, Vida y Confusión", fue el emblema de la bienal, y se publicó en todas las publicaciones y otros productos de la bienal en 2006. La performance de Vaara, "El Peso del Mundo" (2001), fue el único material visual que apareció en la cobertura de BBC World News de la inauguración de la Bienal de Venecia. Su performance "Grounding" obtuvo más de 1,7 millones de clics en Facebook en el festival Gotemburgo Live Action 14 (Suecia) en 2019.
+
+  Vaara organizó el primer festival nacional de artes de performance de Finlandia, Poikkeustilan, en 1999, y el festival internacional “Woodstock performance art festival”, EXIT, en 2001, que atrajo a unos 300 artistas y grupos de 34 países. Estos festivales acogieron a todo aquel que quisiera presentarse, lo que despertó el interés y la concienciación sobre las artes de performance en Finlandia.
+
+  Premios: Premio Estatal de las Artes, 2000; Premio Ars Fennica, 2005; Nominación al Premio Internacional de Arte 5x5 CASTELLÓ en Castelló, España, 2010. Reconocimientos: Medalla Pro Finlandia, 2010, y el título de Académico de las Artes, 2023. En Finlandia hay 11 Académicos de las Artes permanentemente. El nombramiento es vitalicio.
