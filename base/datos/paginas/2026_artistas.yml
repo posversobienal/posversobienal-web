@@ -45,6 +45,7 @@ contenido: |
   - <i class="h">noiser</i> {{ per('noiser', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA/COLOMBIA)</small>
   - <i class="h">paesani_romina</i> Romina Paesani <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">pereda_teresa</i> {{ per('pereda_teresa', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - <i class="h">perez_raventos_guillermo</i> {{ per('perez_raventos_guillermo', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">pino_juan</i> {{ per('pino_juan', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">pozo_luciano</i> {{ per('pozo_luciano', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">pujol_inti</i> Inti Pujol <small class="text-secondary mx-2">(ARGENTINA)</small>
