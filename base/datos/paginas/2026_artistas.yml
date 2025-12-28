@@ -43,7 +43,7 @@ contenido: |
   - <i class="h">moraes_simone</i> {{ per('moraes_simone', urlhash='#p=26') }} <small class="text-secondary mx-2">(BRASIL)</small>
   - <i class="h">nazer_susana</i> {{ per('nazer_susana', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">noiser</i> {{ per('noiser', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA/COLOMBIA)</small>
-  - <i class="h">paesani_romina</i> Romina Paesani <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - <i class="h">paesani_romina</i> {{ per('paesani_romina', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">pereda_teresa</i> {{ per('pereda_teresa', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">perez_raventos_guillermo</i> {{ per('perez_raventos_guillermo', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">pino_juan</i> {{ per('pino_juan', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
@@ -56,7 +56,6 @@ contenido: |
   - <i class="h">sanchez_goldar_soledad</i> {{ per('sanchez_goldar_soledad', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">sandoval_rosemberg</i> {{ per('sandoval_rosemberg', urlhash='#p=26') }} <small class="text-secondary mx-2">(COLOMBIA)</small>
   - <i class="h">sarobe_torviso</i> [Daniel Sarobe y Silvina Torviso](/per/sarobe_torviso/#p=26) <small class="text-secondary mx-2">(ARGENTINA)</small>
-  - <i class="h">scarpatti_enrique</i> Enrique Scarpatti <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">sierra_santiago</i> {{ per('sierra_santiago', urlhash='#p=26') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
   - <i class="h">szabo_saulo</i> {{ per('szabo_saulo', urlhash='#p=26') }} <small class="text-secondary mx-2">(BRASIL)</small>
   - <i class="h">tiselli_eugenio</i> {{ per('tisselli_eugenio', urlhash='#p=26')}} <small class="text-secondary mx-2">(MÉXICO)</small>
