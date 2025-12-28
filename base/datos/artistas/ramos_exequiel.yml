@@ -14,8 +14,8 @@ eventos: []
 
 fotos:
   '26':
-    persona: 'ramos_exe.jpg'
-    obra: 'ramos_exe-1.jpg'
+    persona: 'ramos_exequiel.jpg'
+    obra: 'ramos_exequiel-1.jpg'
     imagen_cabecera_posicion_inicial: 50% 70%
 
 etiquetas:
