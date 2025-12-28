@@ -48,10 +48,10 @@ contenido: |
   - <i class="h">perez_raventos_guillermo</i> {{ per('perez_raventos_guillermo', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">pino_juan</i> {{ per('pino_juan', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">pozo_luciano</i> {{ per('pozo_luciano', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
-  - <i class="h">pujol_inti</i> Inti Pujol <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - <i class="h">pujol_inti</i> {{ per('pujol_inti', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">radakovic_darija</i> {{ per('radakovic_darija', urlhash='#p=26') }} <small class="text-secondary mx-2">(CANADÁ)</small>
   - <i class="h">ramirez_kobra_carlos</i> {{ per('ramirez_kobra_carlos', urlhash='#p=26') }} <small class="text-secondary mx-2">(MÉXICO)</small>
-  - <i class="h">ramos_exe</i> Exe Ramos <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - <i class="h">ramos_exe</i> {{ per('ramos_exe', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">rivas_silvia</i> {{ per('rivas_silvia', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">sanchez_goldar_soledad</i> {{ per('sanchez_goldar_soledad', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">sandoval_rosemberg</i> {{ per('sandoval_rosemberg', urlhash='#p=26') }} <small class="text-secondary mx-2">(COLOMBIA)</small>

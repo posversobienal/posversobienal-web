@@ -1,0 +1,30 @@
+---
+
+nombre: 'Exequiel'
+apellido: 'Ramos'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: ''
+instagram: ['@exeramos_', 'https://instagram.com/exeramos_']
+
+eventos: []
+
+fotos:
+  '26':
+    persona: 'ramos_exe.jpg'
+    obra: 'ramos_exe-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 70%
+
+etiquetas:
+  - invitado
+  - participo_en_2026
+
+detalle: |
+  Profesor de danza contemporánea e investigador. Trabaja en el campo del arte contemporáneo entre las ciudades de Córdoba y Salta en Argentina. Como artista de danza experimenta en distintos formatos entre las prácticas de danza contemporánea, performance, las artes escénicas y la instalación performática.
+
+  Sus obras, tanto como solista y en grupo, se presentaron en eventos provinciales y nacionales: Festival El deleite de los cuerpos Córdoba 2019, Argentina florece danza en parque Tecnópolis 2021, Festival Cruzo- desvió en Santa Fe 2022, Festivales Periferia y Festival Ocupar en Córdoba 2023. ¡BOOM! 2023 Museo de Arte Contemporáneo de Salta. Convergencias Encuentro de performance en el NOA 2025, Salta. Participa en el Museo de las Mujeres de Córdoba en la muestra colectiva ESPESORES DEL TIEMPO con la performance ánimo cardón. Con el grupo cuerpes de Salta participa de la muestra Museo del devenir 2025, expuesta en el CCBA, CABA.
+
+  Actualmente finaliza el posgrado Especialización en Producción Artística Contemporánea –EPAC- de la Facultad de Artes de la Universidad Nacional de Córdoba y es doctorando en artes en la misma universidad.
