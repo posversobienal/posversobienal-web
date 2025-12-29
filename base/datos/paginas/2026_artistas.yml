@@ -36,7 +36,7 @@ contenido: |
   - <i class="h">macheratti_carlos_alberto</i> {{ per('macheratti_carlos_alberto', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">mancioli_maurizio</i> {{ per('mancioli_maurizio', urlhash='#p=26') }} <small class="text-secondary mx-2">(BRASIL)</small>
   - <i class="h">markart_corina</i> {{ per('markart_corina', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
-  - <i class="h">martinez_luciana</i> Luciana Martínez <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - <i class="h">martinez_luciana</i> {{ per('martinez_luciana', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">mesz_bruno</i> {{ per('mesz_bruno', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">montenegro_ana</i> {{ per('montenegro_ana', urlhash='#p=26') }} <small class="text-secondary mx-2">(BRASIL)</small>
   - <i class="h">montiel_ale</i> {{ per('montiel_ale', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>

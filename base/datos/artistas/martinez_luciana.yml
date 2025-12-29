@@ -1,0 +1,31 @@
+---
+
+nombre: 'Luciana'
+apellido: 'Martínez'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: ''
+instagram: ['@lucianacmartinez', 'https://instagram.com/lucianacmartinez']
+
+eventos: []
+
+fotos:
+  '26':
+    persona: 'martinez_luciana.jpg'
+    obra: 'martinez_luciana-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 92%
+
+etiquetas:
+  - invitado
+  - participo_en_2026
+
+
+detalle: |
+  Es artista visual y performer. Vive y trabaja en San Miguel de Tucumán, región Noroeste de Argentina. Se formo en la Universidad Nacional de Tucumán, es Licenciada en Artes Plásticas, y profesora de Artes visuales. Integró el grupo de investigación y producción colectiva en performance Viva Laura Pérez, realizando acciones en Tucumán, Córdoba, Rosario y Buenos Aires. Participó en muestras, salones, residencias y programas de formación e investigación en diversos espacios culturales. Forma parte del Proyecto Convergencias- NOA, de gestión y producción colectiva vinculado a la performance en el NOA, (Noroeste argentino). Desarrolla su trabajo desde una práctica contemporánea, en el campo de la performance, la instalación y la escritura, su trabajo explora lo cotidiano, con interés en el cuerpo, el lenguaje, la memoria e identidad y el territorio, recurriendo a la repetición como gesto personal, como acto ritual de resistencia, donde se convierte en un hecho político. Su recorrido es un proceso experimental de investigación, en el que el cuerpo, la materialidad y la serie construyen un hilo poético común, poniendo en tensión constante, lo íntimo y lo colectivo, la adición y sustracción, como dualismos que convergen en un mismo instante.
+
+  ---
+
+  Foto de obra por Javier Soria Vazquez.
