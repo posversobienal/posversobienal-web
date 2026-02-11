@@ -34,7 +34,7 @@
             <div id="lista" class="en-2-columnas participantes-evento-teorico">
                 {% for k, v in pag.listado.items() %}
                 <div class="item m-2 border border-black rounded-2 ampliado">
-                    <div><img src="{{ v.foto }}" class="img-fluid"></div>
+                    <div><img src="{{ v.foto }}?{{ cfg.cache_actu }}" class="img-fluid"></div>
                     <div class="p-4">
                         <h3 class="text-center"><a href="{{ v.link }}">{{ v.nomb }}</a></h3>
                         <p class="text-center my-3">{{ v.rol }}</p>
