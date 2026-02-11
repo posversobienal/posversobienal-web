@@ -13,7 +13,6 @@ contenido: |
   - <i class="h">alberti_diego</i> {{ per('alberti_diego', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">argentieri_hebe</i> {{ per('argentieri_hebe', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">aruma</i> {{ per('aruma', urlhash='#p=26') }} <small class="text-secondary mx-2">(BOLIVIA)</small>
-  - <i class="h">aura_poesiavisual</i> {{ per('aura_poesiavisual', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">baena_fernando</i> {{ per('baena_fernando', urlhash='#p=26') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
   - <i class="h">bericat_pedro</i> {{ per('bericat_pedro', urlhash='#p=26') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
   - <i class="h">bruscky_yuri</i> {{ per('bruscky_yuri', urlhash='#p=26') }} <small class="text-secondary mx-2">(BRASIL)</small>

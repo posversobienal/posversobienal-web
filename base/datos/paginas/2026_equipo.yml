@@ -20,6 +20,7 @@ listado:
   pineda_fernando: {nomb: 'Fernando Pineda', foto: '/rec/foto/personas/pineda_fernando__e.jpg', link: '/per/pineda_fernando__e', rol: 'Documentación en video'}
   martinez_gabs: {nomb: 'Gabs Martinez', foto: '/rec/foto/personas/martinez_gabs__e.jpg', link: '/per/martinez_gabs__e', rol: 'Documentación y registro'}
   palmieri_lia: {nomb: 'Lía Palmieri', foto: '/rec/foto/personas/palmieri_lia__e.jpg', link: '/per/palmieri_lia__e', rol: 'Documentación y registro'}
+  civalero_julieta: {nomb: 'Julieta Civalero', foto: '/rec/foto/personas/civalero_julieta__e.jpg', link: '/per/civalero_julieta__e', rol: 'Producción y mediación comunitaria'}
 
 
 biografias:
@@ -49,6 +50,9 @@ biografias:
 
   torres_roberto: |
     Reconocido periodista de la ciudad de Junín, con una trayectoria profesional que se extiende por más de treinta años. A lo largo de su carrera, ha evolucionado desde el periodismo escrito tradicional hasta convertirse en una figura central en la divulgación de la historia juninense en los medios digitales. Director de [juninhistoria](https://www.juninhistoria.com/), ha obtenido el Premio Caduceo 2019 otorgado por el Consejo Profesional de Ciencias Económicas de la Provincia de Buenos Aires le otorgó el Caduceo como mejor columnista de la provincia de Buenos Aires.
+
+  civalero_julieta: |
+    Nacida en Ciudad de Córdoba en 1976, reside desde temprana edad en Junín. Cursó estudios de Bellas Artes en la Universidad Nacional de La Plata, sin finalizar la carrera. Es recibida como Técnico en Producción Agropecuaria. También ha desarrollado diversas actividades comerciales, y actualmente se dedica a la gastronomia. Desde 2019, vive en Agustín Roca, manifestando un interés permanente por la gestión y la vida cultural de su comunidad. En 2024, se integró al equipo de POSVERSO para coordinar la producción y mediación de la Bienal en su pueblo.
 
 
 
@@ -80,3 +84,6 @@ extra: |
   ### Documentación y registro
   + {{ per('martinez_gabs__e') }} (ARG)
   + {{ per('palmieri_lia__e') }} (ARG)
+
+  ### Producción y mediación comunitaria
+  + {{ per('civalero_julieta__e') }} (ARG)
