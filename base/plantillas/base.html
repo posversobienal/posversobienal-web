@@ -55,6 +55,13 @@
         <script src="/lib/js/comun.js?{{ cfg.cache_actu }}"></script>
     </head>
     <body name="{% block body_name %}{% endblock %}">
+        {% if cfg.anuncio.activo %}
+        <div id="anuncios">
+            <div class="slider">
+                <a href="{{ cfg.anuncio.enlace }}"><span>{{ cfg.anuncio.texto }}</span></a>
+            </div>
+        </div>
+        {% endif %}
 
         <nav class="menu">
             <ul>
@@ -88,7 +95,6 @@
                 </ul>
             </div>
         </nav>
-
         <div class="cuerpo">
             {% block body %}{% endblock %}
         </div>

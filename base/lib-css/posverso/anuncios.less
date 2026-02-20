@@ -1,0 +1,35 @@
+#anuncios {
+    width: 100%;
+    overflow: hidden;
+    background: #f0f0f0;
+    white-space: nowrap;
+    position: relative;
+    padding: 5px 0px;
+
+    .slider {
+        display: inline-block;
+        animation: scroll-left 20s linear infinite;
+        padding-left: 100%;
+
+        a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            white-space: nowrap;
+            text-decoration: none !important;
+            &:hover {
+                animation-play-state: paused;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
