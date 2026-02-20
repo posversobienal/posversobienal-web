@@ -14,6 +14,8 @@ from markdown import Markdown
 from markdown.inlinepatterns import SimpleTagInlineProcessor
 from markdown.extensions import Extension
 from random import shuffle
+from bs4 import BeautifulSoup
+
 
 # ------ funciones generales
 def desordenar(l):
@@ -36,6 +38,11 @@ def md_a_html(texto, pag_propia={}):
     texto = tpl.render(cfg=dat_cfg, rec=dat_rec, pag=pag_propia)
     md = Markdown(extensions=markdown_extensiones, extension_configs=markdown_extensiones_config)
     return md.convert(texto)
+
+def md_a_textoplano(texto, pag_propia={}):
+    html = md_a_html(texto, pag_propia)
+    textoplano = BeautifulSoup(html, 'html.parser').get_text(separator='\n', strip=True)
+    return textoplano
 
 
 def datos_de(tipo, archivo):
@@ -425,6 +432,7 @@ fl = FileSystemLoader('plantillas')
 env_jinja2 = Environment(loader=fl)
 
 env_jinja2.globals.update(markdown = md_a_html)
+env_jinja2.globals.update(plaintext = md_a_textoplano)
 env_jinja2.globals.update(url_dominio = url_dominio)
 env_jinja2.globals.update(id_redsocial = id_redsocial)
 env_jinja2.globals.update(datos_de = datos_de)
