@@ -24,6 +24,7 @@ contenido: |
   - <i class="h">de_gracia_silvio</i> {{ per('de_gracia_silvio', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">denegri_andres</i> {{ per('denegri_andres', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">fatmi_mounir</i> {{ per('fatmi_mounir', urlhash='#p=26') }} <small class="text-secondary mx-2">(MARRUECOS)</small>
+  - <i class="h">ferrarotti_gerardo</i> {{ per('ferrarotti_gerardo', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">forkda</i> {{ per('forkda', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">gimein_anna</i> {{ per('gimein_anna', urlhash='#p=26') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
   - <i class="h">guzman_mario</i> {{ per('guzman_mario', urlhash='#p=26') }} <small class="text-secondary mx-2">(MÉXICO)</small>

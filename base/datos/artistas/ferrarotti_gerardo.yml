@@ -1,0 +1,29 @@
+---
+
+nombre: 'Gerardo'
+apellido: 'Ferrarotti'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+#web: ''
+instagram: ['@gerardoferrarotti', 'https://www.instagram.com/gerardoferrarotti']
+
+eventos: []
+
+fotos:
+  '26':
+    persona: 'ferrarotti_gerardo.jpg'
+    obra: 'ferrarotti_gerardo-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - invitado
+  - participo_en_2026
+
+
+detalle: |
+  (1961, Chacabuco, Argentina). Es un artista visual, fotógrafo y productor agroecológico, oriundo de O’Higgins y radicado en Junín, Provincia de Buenos Aires. Integró colectivos históricos de Junín, como el Grupo Masarte, junto a Víctor Grippo, y el Grupo de los Cinco. Con un enfoque pionero en la actividad agroecológica y la agricultura consciente, desarrollado durante más de 30 años, ha convertido el contacto con la tierra y el vínculo con agentes humanos y no humanos en una forma expandida de práctica artística.
+
+  Recientemente publicó el libro *Ballena verde* (2025/2026), una biografía visual de un monte de álamos y sauces en la zona rural de Junín, basada en años de registro fotográfico de su entorno cotidiano.
