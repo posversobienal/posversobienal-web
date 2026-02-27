@@ -15,6 +15,7 @@ contenido: |
   - <i class="h">aruma</i> {{ per('aruma', urlhash='#p=26') }} <small class="text-secondary mx-2">(BOLIVIA)</small>
   - <i class="h">baena_fernando</i> {{ per('baena_fernando', urlhash='#p=26') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
   - <i class="h">bericat_pedro</i> {{ per('bericat_pedro', urlhash='#p=26') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
+  - <i class="h">bratfisch_miriam</i> {{ per('bratfisch_miriam', urlhash='#p=26') }} <small class="text-secondary mx-2">(BRASIL)</small>
   - <i class="h">bruscky_yuri</i> {{ per('bruscky_yuri', urlhash='#p=26') }} <small class="text-secondary mx-2">(BRASIL)</small>
   - <i class="h">buitron_virginia</i> {{ per('buitron_virginia', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">cantera_ana_laura</i> {{ per('cantera_ana_laura', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
