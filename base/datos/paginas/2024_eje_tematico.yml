@@ -98,7 +98,7 @@ contenido_secundario: |
 
   ### Producción audiovisual
   + {{ per('montenegro_ana', urlhash='#p=24') }} (BRA)
-  + {{ per('alberto_macheratti_carlos', urlhash='#p=24') }} (ARG)
+  + {{ per('macheratti_carlos_alberto', urlhash='#p=24') }} (ARG)
   + {{ per('Guido de Gracia', urlhash='#p=24') }} (ARG)
 
   ### Desarrollo web
