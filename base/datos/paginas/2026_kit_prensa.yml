@@ -1,0 +1,38 @@
+---
+
+titulo: 'POSVERSO 2026 - Kit para prensa'
+html_base: 'pagina.html'
+ruta_static: 'pag/2026_kit_prensa/index.html'
+estilo: col-lg-11
+estilo_cnt_sec: ''
+
+contenido: |
+  **CONTENIDO EN CONSTRUCCIÓN**
+  {.text-center .bg-warning}
+
+  <br>
+
+  ## Documentos de Texto (Formatos Word y PDF)
+  + Gacetilla Maestra: La nota principal con volanta, título y bajada que armamos (incluyendo los 54 artistas y las 11 naciones).
+  + Bio de los Directores: Breve perfil de Silvio De Gracia y Ana Montenegro (trayectoria y fundadores de HOTEL DADA).
+  + Manifiesto Curatorial: El texto de Silvio sobre "Del encantamiento y el horror" (para suplementos de cultura).
+  + Listado Completo de Artistas: Organizado por procedencia (Locales, Nacionales, Internacionales).
+  + Cronograma Tentativo: Sedes y fechas confirmadas (MACA, Casa Pronto, Agustín Roca, etc.).
+
+  ## Carpeta de Imágenes (Alta Resolución)
+  + Logotipo de POSVERSO 2026: Versiones en blanco, negro y color (formato PNG sin fondo).
+  + Retratos de los Organizadores: Fotos profesionales del equipo (Silvio, Ana, Carlos, Roberto, Luciano).
+  + Obras de Referencia: Fotos de obras de los artistas "estrella" (Santiago Sierra, Mounir Fatmi, Silvia Rivas) para ilustrar las notas.
+  + Renders o Fotos de Sedes: Imagen de la fachada del MACA y de la Fundación Casa Pronto.
+
+  ## Material Audiovisual
+  + Link a YouTube/Vimeo: Los tres videos que se proyectarán (Inaugural 2024, Poética de la Aridez y Promo 2026).
+  + Audios Cortos: Declaraciones de Silvio y Ana de 30 segundos (ideales para que las radios las bajen y las pasen en sus noticieros).
+
+  ## Recursos para Redes Sociales
+  + Flyers listos para postear: Formatos para Historias de Instagram (9:16) y Feed (1:1).
+  + Lista de Hashtags Oficiales: \#Posverso2026 \#BienalJunin \#ArteContemporaneo \#HotelDada.
+
+
+
+contenido_secundario: ''
