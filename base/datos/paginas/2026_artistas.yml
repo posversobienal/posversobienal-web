@@ -48,6 +48,7 @@ contenido: |
   - <i class="h">pereda_teresa</i> {{ per('pereda_teresa', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">perez_raventos_guillermo</i> {{ per('perez_raventos_guillermo', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">pino_juan</i> {{ per('pino_juan', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - <i class="h">pintos_sandra</i> {{ per('pintos_sandra', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">pozo_luciano</i> {{ per('pozo_luciano', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">pujol_inti</i> {{ per('pujol_inti', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">radakovic_darija</i> {{ per('radakovic_darija', urlhash='#p=26') }} <small class="text-secondary mx-2">(CANADÁ)</small>

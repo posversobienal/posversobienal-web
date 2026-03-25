@@ -1,0 +1,27 @@
+---
+
+nombre: 'Sandra'
+apellido: 'Pintos'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: ''
+instagram: ['@sandra_pintos0k', 'https://www.instagram.com/sandra_pintos0k']
+
+eventos: []
+
+fotos:
+  '26':
+    persona: 'pintos_sandra.jpg'
+    obra: 'pintos_sandra-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - invitado
+  - participo_en_2026
+
+
+detalle: |
+  (1962, Buenos Aires, Argentina). Oriunda de CABA, radicada en Junín. Es una artista visual y docente, que desarrolla su trabajo principalmente en los lenguajes de la pintura y el dibujo. Integró el histórico colectivo juninense  Grupo de los Cinco, realizando exposiciones junto a Víctor Grippo.  Su obra está recorrida por un fuerte compromiso político-social, lo que la ha posicionado como una figura de referencia dentro del panorama de las artes visuales de su ciudad. Sus dibujos se han difundido en revistas internacionales, como Siembra (España) y Punto Seguido (Ecuador), además de ilustrar libros de poesía y portadas de discos. Su exhibición más reciente es Con qué manos se defiende la belleza? en la Fundación Casa Pronto de Junín.
