@@ -8,6 +8,7 @@ nacionalidad: 'México'
 contacto_publico: ''
 
 web: 'http://chocair.pythonanywhere.com/'
+instagram: ['@tuberia_rota', 'https://www.instagram.com/tuberia_rota/']
 
 eventos: []
 

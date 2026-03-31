@@ -1,0 +1,22 @@
+---
+
+nombre: 'María Eugenia'
+apellido: 'Cordero'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://bardadeldesierto.org/'
+instagram: ['@mariaeugenia.cordero', 'https://www.instagram.com/mariaeugenia.cordero/']
+
+eventos: []
+
+fotos:
+  persona: 'cordero_maria_eugenia__c.jpg'
+
+etiquetas:
+  - participo_en_2026
+
+detalle: |
+  Es una artista visual, curadora y gestora cultural argentina, reconocida principalmente por ser la fundadora y directora del Museo Barda del Desierto (mBDD), un museo que se inscribe dentro de las prácticas artísticas contemporáneas, tecnologias digitales y ecomuseos. Formada en la Universidad Nacional de las Artes de Buenos Aires, vive desde 2009 entre la norpatagonia argentina y São Paulo, Brasil. Como directora y curadora del Museo Barda del Desierto ha participado en la 14° Bienal Internacional de Arquitectura de São Paulo, y en diversas en jornadas y encuentros internacionales vinculados a ecología artística y metodologías situadas en Brasil, Chile, Colombia, México, Italia y España.

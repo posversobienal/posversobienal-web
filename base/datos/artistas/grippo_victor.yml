@@ -1,0 +1,28 @@
+---
+
+nombre: 'Víctor'
+apellido: 'Grippo'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: ''
+
+eventos: []
+
+fotos:
+  '26':
+    persona: 'grippo_victor.jpg'
+    obra: 'grippo_victor-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 10%
+
+etiquetas:
+  - invitado
+  - participo_en_2026
+
+
+detalle: |
+  Nació en Junín, provincia de Buenos Aires, en 1935 en el seno de una familia de inmigrantes italianos. El entorno pampeano y rural fue un factor determinante en los modos de conceptualizar el oficio y el artesanado con sus modos de abordar la materia (madera, metal, yeso) como una técnica ancestral de producir obras de arte o como método para adquirir los alimentos de la tierra. Desde temprana edad inició sus estudios en dibujo y pintura y realizó sus primeras exposiciones en el colegio al que asistía. Luego cursó estudios de Química y de Diseño Industrial y Comunicación Visual en la Universidad de La Plata, y también asistió a los cursos de Visión que dictaba Héctor Cartier en la Escuela Superior de Bellas Artes. Tres zonas que delimitan el marco teórico del universo Grippo, donde un método científico propio y telúrico (mezcla de química y alquimia), da cuenta de los procesos (transformaciones) que se manifiestan en el largo trayecto de la vida hacia la muerte, y de la planta al alimento. Grippo nunca vivió de sus producciones artísticas: dictó clases en varias universidades y escuelas de arte, fue joyero; murió en febrero del 2002, año en el que fue seleccionado para la XI Documenta de Kassel, que le valió su reconocimiento mundial.
+
+  La obra de Víctor Grippo fue actualizando sus sentidos conforme los procesos de la historia fueron agudizando la relación conflictiva del hombre con la naturaleza. En un contexto actual donde prima el caos social y los desastres ambientales, su obra resulta de vital importancia para pensar un nuevo destino del hombre más comprometido con sus procesos naturales y con el desarrollo de una conciencia más amplia.

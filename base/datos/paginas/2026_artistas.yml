@@ -28,6 +28,7 @@ contenido: |
   - <i class="h">ferrarotti_gerardo</i> {{ per('ferrarotti_gerardo', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">forkda</i> {{ per('forkda', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">gimein_anna</i> {{ per('gimein_anna', urlhash='#p=26') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
+  - <i class="h">grippo_victor</i> {{ per('grippo_victor', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">guzman_mario</i> {{ per('guzman_mario', urlhash='#p=26') }} <small class="text-secondary mx-2">(MÉXICO)</small>
   - <i class="h">ivanchevich_cecilia</i> {{ per('ivanchevich_cecilia', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">jezik_enrique</i> {{ per('jezik_enrique', urlhash='#p=26') }} <small class="text-secondary mx-2">(MÉXICO)</small>
