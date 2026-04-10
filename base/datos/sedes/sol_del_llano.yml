@@ -1,0 +1,19 @@
+---
+nombre: 'Sol del llano'
+domicilio: 'Roca, Buenos Aires, Argentina.'
+gmaps: 'https://maps.app.goo.gl/58iZwR2HsbGR3cQ59'
+
+web: ''
+
+geopos:
+  coord: [-34.511139, -60.879639]
+  icono: pin-sede
+
+fotos:
+  - 'sol_del_llano.jpg'
+
+etiquetas:
+  - participo_en_2026
+
+eventos_asociados: []
+descripcion: []

@@ -1,12 +1,13 @@
 ---
 
 orden:
-  - hotel_dada
   - maca
+  - hotel_dada
+  - casa_negra
+  - casa-taller_torviso-sarobe
+  - fundacion_casa_pronto
   - museo_historico
   - horno_de_grippo
-  - fundacion_casa_pronto
-  - casa-taller_torviso-sarobe
   - centro_de_capacitacion_y_cultura_atsa
   - casa_popular_dante_balestro
   - centro_cultural_marea_cultura
@@ -21,6 +22,10 @@ orden:
   - el_espacio
   - la_luz_buena
   - pnlg
+  - sol_del_llano
+  - espacio_galpon
+
+
 
 
 nombres:

@@ -1,0 +1,18 @@
+---
+
+nombre: 'CASA NEGRA'
+domicilio: 'Chávez 71. Junín, Buenos Aires, Argentina.'
+gmaps: 'https://maps.app.goo.gl/y8ztHaqcaZvjcANT6'
+
+geopos:
+  coord: [-34.57819, -60.96115]
+  icono: pin-hoteldada
+
+fotos:
+  - 'casa_negra.jpg'
+
+etiquetas:
+  - participo_en_2026
+
+eventos_asociados: []
+descripcion: []

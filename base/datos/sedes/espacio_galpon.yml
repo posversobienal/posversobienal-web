@@ -1,0 +1,18 @@
+---
+
+nombre: 'Espacio Galpón'
+domicilio: 'Junín, Buenos Aires, Argentina.'
+gmaps: ''
+
+#geopos:
+#  coord: [0, 0]
+#  icono: pin-hoteldada
+
+fotos:
+  - 'espacio_galpon.jpg'
+
+etiquetas:
+  - participo_en_2026
+
+eventos_asociados: []
+descripcion: []
