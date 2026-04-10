@@ -8,6 +8,31 @@ estilo_cnt_sec: col-lg-3
 
 publicaciones:
 
+  2026-02-22_0:
+    m: infobae
+    t: 'La segunda edición de Posverso Bienal anunció a 53 artistas de 11 países'
+    u: 'https://www.infobae.com/cultura/2026/02/22/la-segunda-edicion-de-posverso-bienal-anuncio-a-53-artistas-de-11-paises/'
+
+  2026-02-02_0:
+    m: artfacts
+    t: 'Posverso Bienal'
+    u: 'https://artfacts.net/institution/posverso-bienal-buenos-aires'
+
+  2026-02-01_0:
+    m: vadb
+    t: 'BIENAL POSVERSO 2026 - DEL ENCANTAMIENTO Y EL HORROR'
+    u: 'https://vadb.org/events/bienal-posverso-2026-del-encantamiento-y-el-horror'
+
+  2026-01-09_0:
+    m: eldia
+    t: 'En Junín, Posverso 2026 ya tiene sus protagonistas: 53 artistas de 11 países serán parte de la Bienal'
+    u: 'https://www.eldia.com/nota/2026-1-9-19-0-0-en-junin-posverso-2026-ya-tiene-sus-protagonistas-53-artistas-de-11-paises-seran-parte-de-la-bienal-informacion-general'
+
+  2024-19-16_0:
+    m: eldia
+    t: '“Posverso”: con homenaje a Luis Pazos, abre la Bienal de Poesía Experimental'
+    u: 'https://www.eldia.com/nota/2024-10-16-1-58-16-posverso-con-homenaje-a-luis-pazos-abre-la-bienal-de-poesia-experimental-espectaculos'
+
   2025-02-18_0:
     m: dotbox
     t: 'POSVERSO Bienal Internacional de Poesia Experimental de Argentina / MALINCONIA il mondo comincia a confondersi'
@@ -264,6 +289,8 @@ medios:
   artishock: {t: 'Artishock', u: 'https://artishockrevista.com/'}
   dotbox: {t: 'VISUALCONTAINER[.BOX]', u: 'https://www.dotbox.it'}
   almaplus: {t: 'AlmaPlusTV', u: 'https://www.almaplus.tv/'}
+  vadb: {t: 'VADB', u: 'https://vadb.org/'}
+  eldia: {t: 'El Día', u: 'https://www.eldia.com/'}
 
 contenido: ''
 
