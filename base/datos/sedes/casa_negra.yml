@@ -6,7 +6,7 @@ gmaps: 'https://maps.app.goo.gl/y8ztHaqcaZvjcANT6'
 
 geopos:
   coord: [-34.57819, -60.96115]
-  icono: pin-hoteldada
+  icono: pin-oculto
 
 fotos:
   - 'casa_negra.jpg'

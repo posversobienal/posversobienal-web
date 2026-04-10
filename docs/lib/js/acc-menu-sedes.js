@@ -35,6 +35,12 @@ const onload_acciones = () => {
             iconSize: [38.4, 43.1],
             iconAnchor: [19.4, 43.2],
             popupAnchor: [0, -45],
+        }),
+        'pin-oculto': L.icon({
+            iconUrl: '/rec/grafica/pin-oculto.svg',
+            iconSize: [0, 0],
+            iconAnchor: [19.4, 43.2],
+            popupAnchor: [0, -45],
         })
     };
     centroJ = L.latLng('-34.59686', '-60.94954');
