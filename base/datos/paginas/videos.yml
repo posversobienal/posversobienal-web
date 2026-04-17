@@ -9,6 +9,7 @@ contenido: |
 
 
 listado:
+  - {id: 'u_Ha-qm3qsw', emisor: youtube, tags: ['POSVERSO', '2026'], titulo: '2026 - Del encantamiento y el horror - Promo Inaugural' }
   - {id: 'GPQ6pd8x6wA', emisor: youtube, tags: ['POSVERSO', 'CAPSULA', 'SONORA'], titulo: 'Exhibición CÁPSULA SONORA - En Hotel DaDA' }
   - {id: 'FZzdwcGzyRg', emisor: youtube, tags: ['POSVERSO', 'BIENAL SACO'], titulo: '"La poética de la aridez" - Bienal SACO en Bienal POSVERSO' }
   - {id: 'zih4_TQm85o', emisor: youtube, tags: ['POSVERSO', 'POETICAS', 'RESISTENCIA'], titulo: 'Inauguración: POÉTICAS DE LA RESISTENCIA' }
