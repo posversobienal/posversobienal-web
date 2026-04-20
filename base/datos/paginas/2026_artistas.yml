@@ -13,7 +13,6 @@ contenido: |
   - <i class="h">alberti_diego</i> {{ per('alberti_diego', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">argentieri_hebe</i> {{ per('argentieri_hebe', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">aruma</i> {{ per('aruma', urlhash='#p=26') }} <small class="text-secondary mx-2">(BOLIVIA)</small>
-  - <i class="h">baena_fernando</i> {{ per('baena_fernando', urlhash='#p=26') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
   - <i class="h">bericat_pedro</i> {{ per('bericat_pedro', urlhash='#p=26') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
   - <i class="h">bratfisch_miriam</i> {{ per('bratfisch_miriam', urlhash='#p=26') }} <small class="text-secondary mx-2">(BRASIL)</small>
   - <i class="h">bruscky_yuri</i> {{ per('bruscky_yuri', urlhash='#p=26') }} <small class="text-secondary mx-2">(BRASIL)</small>
@@ -27,7 +26,6 @@ contenido: |
   - <i class="h">fatmi_mounir</i> {{ per('fatmi_mounir', urlhash='#p=26') }} <small class="text-secondary mx-2">(MARRUECOS)</small>
   - <i class="h">ferrarotti_gerardo</i> {{ per('ferrarotti_gerardo', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">forkda</i> {{ per('forkda', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
-  - <i class="h">gimein_anna</i> {{ per('gimein_anna', urlhash='#p=26') }} <small class="text-secondary mx-2">(ESPAÑA)</small>
   - <i class="h">grippo_victor</i> {{ per('grippo_victor', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">guzman_mario</i> {{ per('guzman_mario', urlhash='#p=26') }} <small class="text-secondary mx-2">(MÉXICO)</small>
   - <i class="h">ivanchevich_cecilia</i> {{ per('ivanchevich_cecilia', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
@@ -46,7 +44,6 @@ contenido: |
   - <i class="h">nazer_susana</i> {{ per('nazer_susana', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">noiser</i> {{ per('noiser', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA/COLOMBIA)</small>
   - <i class="h">paesani_romina</i> {{ per('paesani_romina', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
-  - <i class="h">pereda_teresa</i> {{ per('pereda_teresa', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">perez_raventos_guillermo</i> {{ per('perez_raventos_guillermo', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">pino_juan</i> {{ per('pino_juan', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">pintos_sandra</i> {{ per('pintos_sandra', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
