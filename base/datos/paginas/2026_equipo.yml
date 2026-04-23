@@ -19,8 +19,6 @@ listado:
   pozo_luciano: {nomb: 'Luciano Pozo', foto: '/rec/foto/personas/pozo_luciano__e.jpg', link: '/per/pozo_luciano__e', rol: 'Mediación educativa'}
   pineda_fernando: {nomb: 'Fernando Pineda', foto: '/rec/foto/personas/pineda_fernando__e.jpg', link: '/per/pineda_fernando__e', rol: 'Documentación en video'}
   martinez_gabs: {nomb: 'Gabs Martinez', foto: '/rec/foto/personas/martinez_gabs__e.jpg', link: '/per/martinez_gabs__e', rol: 'Documentación y registro'}
-  palmieri_lia: {nomb: 'Lía Palmieri', foto: '/rec/foto/personas/palmieri_lia__e.jpg', link: '/per/palmieri_lia__e', rol: 'Documentación y registro'}
-  civalero_julieta: {nomb: 'Julieta Civalero', foto: '/rec/foto/personas/civalero_julieta__e.jpg', link: '/per/civalero_julieta__e', rol: 'Producción y mediación comunitaria'}
 
 
 biografias:
@@ -45,14 +43,9 @@ biografias:
   martinez_gabs: |
     Nacida en Buenos Aires. Artista visual, fotógrafa. Capacitadora técnica en lenguajes visuales con especialización en el lenguaje fotográfico. Docente en escuela Motivarte y Taller El Aleph. Participó en el proyecto internacional “Making Mothers Visible". Fue fotógrafa en MACBA y fundación Madres Víctimas de Trata. Presentaciones en Fototeca Latinoamericana, Casa Museo de Victor Magariños, Centro Cultural San Martín, Centro de Arte Sonoro en la Casa Nacional del Bicentenario, entre otras.
 
-  palmieri_lia: |
-    Nacida en Junín, Buenos Aires. Es fotógrafa profesional egresada de la Escuela de Arte Xul Solar. Su experiencia incluye fotografía documental, fotoperiodismo y cobertura de eventos sociales, con participación en muestras colectivas en Junín, la región y CABA. Su trabajo se centra en los barrios periféricos de su ciudad, desde una mirada íntima y social. Explora la fotografía estenopeica como herramienta estética y de inclusión, dictando talleres en centros comunitarios y espacios de educación no formal.
-
   torres_roberto: |
     Reconocido periodista de la ciudad de Junín, con una trayectoria profesional que se extiende por más de treinta años. A lo largo de su carrera, ha evolucionado desde el periodismo escrito tradicional hasta convertirse en una figura central en la divulgación de la historia juninense en los medios digitales. Director de [juninhistoria](https://www.juninhistoria.com/), ha obtenido el Premio Caduceo 2019 otorgado por el Consejo Profesional de Ciencias Económicas de la Provincia de Buenos Aires le otorgó el Caduceo como mejor columnista de la provincia de Buenos Aires.
 
-  civalero_julieta: |
-    Nacida en Ciudad de Córdoba en 1976, reside desde temprana edad en Junín. Cursó estudios de Bellas Artes en la Universidad Nacional de La Plata, sin finalizar la carrera. Es recibida como Técnico en Producción Agropecuaria. También ha desarrollado diversas actividades comerciales, y actualmente se dedica a la gastronomia. Desde 2019, vive en Agustín Roca, manifestando un interés permanente por la gestión y la vida cultural de su comunidad. En 2024, se integró al equipo de POSVERSO para coordinar la producción y mediación de la Bienal en su pueblo.
 
 
 
@@ -87,3 +80,13 @@ extra: |
 
   ### Producción y mediación comunitaria
   + {{ per('civalero_julieta__e') }} (ARG)
+
+  palmieri_lia: {nomb: 'Lía Palmieri', foto: '/rec/foto/personas/palmieri_lia__e.jpg', link: '/per/palmieri_lia__e', rol: 'Documentación y registro'}
+  civalero_julieta: {nomb: 'Julieta Civalero', foto: '/rec/foto/personas/civalero_julieta__e.jpg', link: '/per/civalero_julieta__e', rol: 'Producción y mediación comunitaria'}
+
+  civalero_julieta: |
+    Nacida en Ciudad de Córdoba en 1976, reside desde temprana edad en Junín. Cursó estudios de Bellas Artes en la Universidad Nacional de La Plata, sin finalizar la carrera. Es recibida como Técnico en Producción Agropecuaria. También ha desarrollado diversas actividades comerciales, y actualmente se dedica a la gastronomia. Desde 2019, vive en Agustín Roca, manifestando un interés permanente por la gestión y la vida cultural de su comunidad. En 2024, se integró al equipo de POSVERSO para coordinar la producción y mediación de la Bienal en su pueblo.
+
+
+  palmieri_lia: |
+    Nacida en Junín, Buenos Aires. Es fotógrafa profesional egresada de la Escuela de Arte Xul Solar. Su experiencia incluye fotografía documental, fotoperiodismo y cobertura de eventos sociales, con participación en muestras colectivas en Junín, la región y CABA. Su trabajo se centra en los barrios periféricos de su ciudad, desde una mirada íntima y social. Explora la fotografía estenopeica como herramienta estética y de inclusión, dictando talleres en centros comunitarios y espacios de educación no formal.

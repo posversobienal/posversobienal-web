@@ -15,6 +15,7 @@
   url: '/sds/casa_popular_dante_balestro/'
   tag: [institucional, 2024]
 
+
 - nombre: "Centro Cultural 'Marea Cultura'"
   imagen: cc_marea_cultura.jpg
   url: '/sds/centro_cultural_marea_cultura/'
@@ -141,3 +142,8 @@
   imagen: el_espacio.jpg
   url: '/sds/el_espacio/'
   tag: [expositivo, 2024]
+
+- nombre: 'Casa Rio'
+  imagen: casa_rio_lab.jpg
+  url: 'https://linktr.ee/casariolab'
+  tag: [institucional, 2026]
