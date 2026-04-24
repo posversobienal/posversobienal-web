@@ -1,0 +1,31 @@
+---
+
+nombre: 'Alejandro'
+apellido: 'Meitin'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://linktr.ee/ale.meitin'
+instagram: ['@ale.meitin', 'https://instagram.com/ale.meitin/']
+
+eventos: []
+
+fotos:
+  '26':
+    persona: 'meitin_alejandro.jpg'
+    obra: 'meitin_alejandro-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 30%
+
+etiquetas:
+  - invitado
+  - participo_en_2026
+
+
+detalle: |
+   (La Plata) Artista, abogado e innovador social con más de tres décadas de trayectoria en la creación de iniciativas transdisciplinarias vinculadas a sistemas hidrológicos y zonas costeras. Su práctica se basa en la construcción de redes de colaboración que integran el arte, el conocimiento científico y el activismo para explorar nuevas formas de gobernanza y acción colectiva. Es fundador de Casa Río Lab, un laboratorio de investigación y "poder hacer" centrado en la gestión de ecosistemas acuáticos, y fue cofundador del colectivo *Ala Plástica* (1991-2016), pionero en el desarrollo de metodologías de trabajo situado a escalas biorregionales.
+
+   Como facilitador de procesos colectivos, desarrolla herramientas de percepción distribuida y cartografías críticas que revelan las tensiones entre las lógicas extractivas y las tramas de vida. En este marco, Casa Río Lab presenta actualmente en el Museo Moderno de Buenos Aires la exhibición *Naturaleza Arquitecta* (dentro del ciclo Habitando el futuro), una propuesta que indaga en las formas en que los seres vivos construyen sus entornos y modelos de coexistencia.
+
+   Su labor impulsa innovaciones que vinculan la sensibilidad estética con la incidencia normativa y el desarrollo de arquitecturas digitales éticas. Esta trayectoria de trabajo grupal cuenta con un amplio reconocimiento mundial; ha presentado sus investigaciones y proyectos en instituciones como el Museo Nacional de Arte Moderno y Contemporáneo de Seúl, la Half Image Gallery de Shanghái, el Queens Museum de Nueva York y el SAIC de Chicago, entre otros. Recientemente, su enfoque de trabajo fue distinguido con el apoyo de la Iniciativa Global de Tierras del G20 (2024), proyectando su práctica en espacios de diálogo internacional como el Künstlerhaus Stuttgart, Alemania (2024-2025).
