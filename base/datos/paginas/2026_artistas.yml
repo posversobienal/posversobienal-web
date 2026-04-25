@@ -22,7 +22,6 @@ contenido: |
   - <i class="h">ciullini_forbici</i> {{ per('ciullini_forbici', urlhash='#p=26') }} <small class="text-secondary mx-2">(ITALIA)</small>
   - <i class="h">dardot_marila</i> {{ per('dardot_marila', urlhash='#p=26') }} <small class="text-secondary mx-2">(BRASIL)</small>
   - <i class="h">de_gracia_silvio</i> {{ per('de_gracia_silvio', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
-  - <i class="h">denegri_andres</i> {{ per('denegri_andres', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">fatmi_mounir</i> {{ per('fatmi_mounir', urlhash='#p=26') }} <small class="text-secondary mx-2">(MARRUECOS)</small>
   - <i class="h">ferrarotti_gerardo</i> {{ per('ferrarotti_gerardo', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">forkda</i> {{ per('forkda', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
