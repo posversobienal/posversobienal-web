@@ -8,43 +8,42 @@
 - nombre: 'Bienal SACO'
   imagen: saco.jpg
   url: 'https://bienalsaco.com/'
-  tag: [institucional, 2024]
+  tag: [institucional, 2024, 2026]
 
 - nombre: "Casa Popular 'Dante Balestro'"
   imagen: cp_dante_balestro.jpg
   url: '/sds/casa_popular_dante_balestro/'
-  tag: [institucional, 2024]
-
+  tag: [institucional, 2024, 2026]
 
 - nombre: "Centro Cultural 'Marea Cultura'"
   imagen: cc_marea_cultura.jpg
   url: '/sds/centro_cultural_marea_cultura/'
-  tag: [institucional, 2024]
+  tag: [institucional, 2024, 2026]
 
 - nombre: 'Centro de Arte UNLP'
   imagen: cau.jpg
   url: 'https://www.centrodearte.unlp.edu.ar/'
-  tag: [institucional, 2024]
+  tag: [institucional, 2024, 2026]
 
 - nombre: 'Dutch Foundation for literature'
   imagen: nldffl.jpg
   url: 'https://www.letterenfonds.nl/en'
-  tag: [institucional, 2024]
+  tag: [institucional, 2024, 2026]
 
 - nombre: "Escuela de Arte 'Xul Solar'"
   imagen: escuela_de_arte_xul_solar.jpg
   url: '/sds/escuela_de_arte_xul_solar/'
-  tag: [institucional, 2024]
+  tag: [institucional, 2024, 2026]
 
 - nombre: "Escuela de Teatro 'Gilberto Mesa'"
   imagen: et_gilberto_mesa.jpg
   url: '/sds/escuela_de_teatro_gilberto_mesa/'
-  tag: [institucional, 2024]
+  tag: [institucional, 2024, 2026]
 
 - nombre: "Escuela de educación artística de Junín 'Victor Grippo'"
-  imagen: eea_la_victor_gripo.jpg
+  imagen: eea_la_victor_grippo.jpg
   url: '/sds/escuela_de_educacion_artistica_victor_grippo/'
-  tag: [institucional, 2024]
+  tag: [institucional, 2024, 2026]
 
 - nombre: 'Par1000 Aula teatro'
   imagen: par1000.jpg
@@ -54,53 +53,58 @@
 - nombre: 'Performing Arts Fund'
   imagen: fpk.jpg
   url: 'https://fondspodiumkunsten.nl/en'
-  tag: [institucional, 2024]
+  tag: [institucional, 2024, 2026]
 
 - nombre: 'Secretaria de Arte y Cultura UNLP'
   imagen: sayc.jpg
   url: ''
-  tag: [institucional, 2024]
+  tag: [institucional, 2024, 2026]
 
 - nombre: 'Colectivo Juana Azurduy'
   imagen: colectivo_juana_azurduy.jpg
   url: '/sds/colectivo_juana_azurduy/'
-  tag: [institucional, 2024]
+  tag: [institucional, 2024, 2026]
 
 - nombre: 'Biblioteca Floresta'
   imagen: biblioteca_floresta.jpg
   url: 'https://www.simonemoraes.net/editora-biblioteca-floresta'
-  tag: [institucional, 2024]
+  tag: [institucional, 2024, 2026]
+
+- nombre: 'Casa Rio'
+  imagen: casa_rio_lab.jpg
+  url: 'https://linktr.ee/casariolab'
+  tag: [institucional, 2026]
 
 
 - nombre: 'Arte Online'
   imagen: arte_online.jpg
   url: 'https://www.arte-online.net/'
-  tag: [comunicacion, 2024]
+  tag: [comunicacion, 2024, 2026]
 
 - nombre: 'Be Cult'
   imagen: becult.jpg
   url: 'https://revistabecult.com.ar/'
-  tag: [comunicacion, 2024]
+  tag: [comunicacion, 2024, 2026]
 
 - nombre: 'Mundo Perfo'
   imagen: mundo_perfo.jpg
   url: 'https://mundoperformance.net/'
-  tag: [comunicacion, 2024]
+  tag: [comunicacion, 2024, 2026]
 
 - nombre: 'La voz de los barrios'
   imagen: la_voz_de_los_barrios.jpg
   url: 'https://lavozdelosbarrios.com/'
-  tag: [comunicacion, 2024]
+  tag: [comunicacion, 2024, 2026]
 
 - nombre: 'Utsanga'
   imagen: utsanga.jpg
   url: 'https://www.utsanga.it/'
-  tag: [comunicacion, 2024]
+  tag: [comunicacion, 2024, 2026]
 
 - nombre: 'Owl Call Radio'
   imagen: owl_call_radio.jpg
   url: 'https://owlcallradio.org/'
-  tag: [comunicacion, 2024]
+  tag: [comunicacion, 2024, 2026]
 
 
 - nombre: 'Biblioteca Popular Paz y Trabajo'
@@ -121,7 +125,7 @@
 - nombre: 'Fundación Casa Pronto'
   imagen: fundacion_casa_pronto.jpg
   url: '/sds/fundacion_casa_pronto/'
-  tag: [expositivo, 2024]
+  tag: [expositivo, 2024, 2026]
 
 - nombre: 'MACA'
   imagen: maca_junin.jpg
@@ -136,14 +140,14 @@
 - nombre: 'Dante Alighieri Junín'
   imagen: dante_alighieri_junin.jpg
   url: '/sds/dante_alighieri_junin/'
-  tag: [expositivo, 2024]
+  tag: [expositivo, 2024, 2026]
 
 - nombre: 'El Espacio'
   imagen: el_espacio.jpg
   url: '/sds/el_espacio/'
   tag: [expositivo, 2024]
 
-- nombre: 'Casa Rio'
-  imagen: casa_rio_lab.jpg
-  url: 'https://linktr.ee/casariolab'
-  tag: [institucional, 2026]
+- nombre: 'Cluster creativo'
+  imagen: cluster_creativo.jpg
+  url: 'https://cooart.ar/cluster/'
+  tag: [expositivo, 2026]

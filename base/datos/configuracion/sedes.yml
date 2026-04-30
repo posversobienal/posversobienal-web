@@ -24,7 +24,7 @@ orden:
   - pnlg
   - sol_del_llano
   - espacio_galpon
-
+  - cluster_creativo
 
 
 
@@ -58,4 +58,5 @@ nombres:
   espacio_urbano_cc: ['Espacio urbano / calles céntricas', false]
   la_luz_buena: ['La Luz Buena - Arte de ocupación', true]
   colectivo_juana_azurduy: ['Colectivo Juana Azurduy', true]
+  cluster_creativo: ['CLUSTER. creativo', true]
   '??': ['', false]

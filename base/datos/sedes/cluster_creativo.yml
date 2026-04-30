@@ -1,0 +1,20 @@
+---
+
+nombre: 'CLUSTER creativo'
+domicilio: 'Belgrano 32. Junín, Buenos Aires, Argentina.'
+gmaps: 'https://maps.app.goo.gl/9v5CRjU61dgdH7cn9'
+
+web: 'https://cooart.ar/cluster/'
+
+geopos:
+  coord: [-34.593407, -60.947543]
+  icono: pin-sede
+
+fotos:
+  - 'cluster_creativo.jpg'
+
+etiquetas:
+  - participo_en_2026
+
+eventos_asociados: []
+descripcion: []

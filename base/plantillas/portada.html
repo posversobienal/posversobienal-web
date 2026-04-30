@@ -114,7 +114,7 @@
         <ul>
             <li class="categoria"><a href="/pag/socios/#socios-institucionales">INSTITUCIONALES</a></li>
             {% for socio in cfg.socios %}
-            {% if 'institucional' in socio.tag %}
+            {% if ('institucional' in socio.tag) and (2026 in socio.tag) %}
             {% if socio.url == '' %}
             <li title="{{ socio.nombre }}">
                 <img  src="/rec/socios/{{ socio.imagen }}?{{ cfg.cache_actu }}" alt="{{ socio.nombre }}">
@@ -135,7 +135,7 @@
         <ul>
             <li class="categoria"><a href="/pag/socios/#socios-expositivos">EXPOSITIVOS</a></li>
             {% for socio in cfg.socios -%}
-            {%- if 'expositivo' in socio.tag -%}
+            {%- if ('expositivo' in socio.tag) and (2026 in socio.tag) -%}
             {% if socio.url == '' %}
             <li title="{{ socio.nombre }}">
                 <img  src="/rec/socios/{{ socio.imagen }}?{{ cfg.cache_actu }}" alt="{{ socio.nombre }}">
@@ -156,7 +156,7 @@
         <ul>
             <li class="categoria"><a href="/pag/socios/#socios-de-comunicacion">DE COMUNICACIÓN</a></li>
             {% for socio in cfg.socios -%}
-            {%- if 'comunicacion' in socio.tag -%}
+            {%- if ('comunicacion' in socio.tag) and (2026 in socio.tag) -%}
             {% if socio.url == '' %}
             <li title="{{ socio.nombre }}">
                 <img  src="/rec/socios/{{ socio.imagen }}?{{ cfg.cache_actu }}" alt="{{ socio.nombre }}">
