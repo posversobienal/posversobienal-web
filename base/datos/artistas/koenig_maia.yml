@@ -1,0 +1,27 @@
+---
+
+nombre: 'Maia'
+apellido: 'Koenig'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://maiakoenig.bandcamp.com'
+instagram: ['@maiakoenig', 'https://instagram.com/maiakoenig/']
+
+eventos: []
+
+fotos:
+  '26':
+    persona: 'koenig_maia.jpg'
+    obra: 'koenig_maia-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - invitado
+  - participo_en_2026
+
+
+detalle: |
+  Es artivista experimental, artista sonora y escritora radicada en la Patagonia argentina. Cofundadora de MEAR, Blipblop, Feminoise Latinoamérica y Frankalab, impulsa espacios de creación, investigación y comunidad en torno al sonido y la tecnología. Es además creadora del espacio radial Ankla.

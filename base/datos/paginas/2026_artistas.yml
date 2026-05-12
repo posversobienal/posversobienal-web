@@ -29,6 +29,7 @@ contenido: |
   - <i class="h">guzman_mario</i> {{ per('guzman_mario', urlhash='#p=26') }} <small class="text-secondary mx-2">(MÉXICO)</small>
   - <i class="h">ivanchevich_cecilia</i> {{ per('ivanchevich_cecilia', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">jezik_enrique</i> {{ per('jezik_enrique', urlhash='#p=26') }} <small class="text-secondary mx-2">(MÉXICO)</small>
+  - <i class="h">koenig_maia</i> {{ per('koenig_maia', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">la_porfia_colectivo</i> {{ per('la_porfia_colectivo', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">laufer_milton</i> {{ per('laufer_milton', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">macheratti_carlos_alberto</i> {{ per('macheratti_carlos_alberto', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
