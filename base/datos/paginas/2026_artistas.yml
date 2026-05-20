@@ -23,6 +23,7 @@ contenido: |
   - <i class="h">dardot_marila</i> {{ per('dardot_marila', urlhash='#p=26') }} <small class="text-secondary mx-2">(BRASIL)</small>
   - <i class="h">de_gracia_silvio</i> {{ per('de_gracia_silvio', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">fatmi_mounir</i> {{ per('fatmi_mounir', urlhash='#p=26') }} <small class="text-secondary mx-2">(MARRUECOS)</small>
+  - <i class="h">fenerich_alexandre</i> {{ per('fenerich_alexandre', urlhash='#p=26') }} <small class="text-secondary mx-2">(BRASIL)</small>
   - <i class="h">ferrarotti_gerardo</i> {{ per('ferrarotti_gerardo', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">forkda</i> {{ per('forkda', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">grippo_victor</i> {{ per('grippo_victor', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>

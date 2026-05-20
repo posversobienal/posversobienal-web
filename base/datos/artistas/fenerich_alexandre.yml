@@ -1,0 +1,31 @@
+---
+
+nombre: 'Alexandre'
+apellido: 'Fenerich'
+seudonimo: ''
+
+nacionalidad: 'Brasil'
+contacto_publico: ''
+
+web: 'https://alefenerich.bandcamp.com/'
+instagram: ['@alefenerich', 'https://instagram.com/alefenerich/']
+
+eventos: []
+
+fotos:
+  '26':
+    persona: 'fenerich_alexandre.jpg'
+    obra: 'fenerich_alexandre-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - invitado
+  - participo_en_2026
+
+
+detalle: |
+ Es flautista, compositor, profesor y artista sonoro. Su trayectoria está ligada a la música experimental, la música electroacústica, la performance audiovisual y el arte sonoro. Como artista, destaca su participación en el Sound Art Cycle en Parque Lage (2010), tanto con Giuliano Obici (el dúo N-1) como en la recreación de Symphonie pour un Homme Seul, dirigida por Rodolfo Caesar. También cabe destacar su participación en la exposición Rios do Rio (2019, comisariada por Fernanda Pequeno), SONOMEMO (Comisariado diverso, Errant Sound Gallery, Berlín, 2019) y con Riso Ritual (2023, comisariada por Chico Dub, KENYA20HZ y Nathalia Grilo). Participó en la Residencia LabMIS (2007), donde se le encargó la creación de la obra “Sobre Chão Móvel”, y en la Residencia SOMSOCOSMOS en Fazenda São João (2017).
+
+ Trabajó como diseñador de sonido en la ópera La Caída del Cielo, de Tato Taborda, en colaboración con Roland Quitt y David Kopenawa. En esta obra, encargada por SESC São Paulo, que incluyó producciones en Múnich, Viena y São Paulo, concibió un sistema para la espacialización de sonidos vocales mediante 24 canales de audio y lo utilizó en las representaciones de la ópera.
+
+ Como compositor, ha participado en diversos festivales de música electroacústica y experimental en Brasil, Alemania, Colombia, Argentina, Estados Unidos y Francia. Ganó el Premio Funarte de Composición Clásica (2005) y recibió la Beca de Investigador Senior de Capes-Humboldt (2019). Es profesor en el Instituto Vila-Lobos – Unirio, donde imparte clases de música experimental, armonía y análisis musical. Es miembro del Programa de Posgrado del mismo instituto (PPGM – Unirio). Su proyecto de investigación, Coleção de Música Eletroacústica e Experimental Carioca (Colección de Música Electroacústica y Experimental de Río de Janeiro), se ha dedicado a organizar una colección relacionada con estos géneros musicales desde 1960 hasta 2010.
