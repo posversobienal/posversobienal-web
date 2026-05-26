@@ -1,0 +1,31 @@
+---
+
+nombre: 'Augusto'
+apellido: 'Zanela'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://augustozanela.com'
+instagram: ['@augustozanela', 'https://instagram.com/augustozanela/']
+
+eventos: []
+
+fotos:
+  '26':
+    persona: 'zanela_augusto.jpg'
+    obra: 'zanela_augusto-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - invitado
+  - participo_en_2026
+
+
+detalle: |
+  (Buenos Aires, 1967. Allí vive y trabaja) Arquitecto (UBA), cursó estudios en Fotografía, Dibujo y Estética, con Especialización en Industrias Culturales. Crea y dirige el Taller de Fotografía FADU/UBA entre 1991 y 2019. Es Profesor Titular en la Licenciatura y en la Maestría en Artes Electrónicas de la UNTREF. Dictó cursos, clínicas, seminarios y presentaciones de su trabajo en distintos ámbitos académicos y artísticos de Argentina, Brasil, Uruguay, Chile, Perú, México, España, Francia, Italia, Alemania, Suiza, Canadá y Estados Unidos.
+
+  Por su obra obtuvo los siguientes premios: Gran Premio Adquisición en Nuevos Soportes e Instalaciones, Salón Nacional de Artes Visuales, 2004; Premio "Ignacio Pirovano" al artista joven del año, Asociación Argentina de Críticos de Arte, 2006; Beca a la Creación. Fondo Nacional de las Artes, 2017 y 2002; Mecenazgo Cultural por su proyecto Solaris, años 2018 al 2022; Subsidio Línea Creadores del Fondo Metropolitano, Bs. As., 2017 y 2010; Mecenazgo Cultural por su proyecto Teravisión, 2015; Mención del jurado. Premio Platt de Artes Visuales, 2008; Primer Premio. 1° Premio de Artes Visuales de la Asociación Argentina de Galerías de Arte, 2003; Primer Premio en Nuevos Soportes e Instalaciones, Salón Nacional de Artes Visuales, 2002; Subsidio a la creación artística. Instalaciones. Fundación Antorchas, 2002; Beca Guillermo Kuitca para artistas jóvenes, 1997/1998. En 2019 su Proyecto Solaris (@ProyectoSolaris) de educación en imagen en barrios vulnerables fue declarado de Interés Social y Cultural en la Legislatura de la Ciudad Autónoma de Buenos Aires.
+
+  Desde el año 1996 expone individual y colectivamente, y como curador, en Instituciones y Museos de Argentina y del exterior. Participó en residencias artísticas en Suiza y Buenos Aires. Su obra pertenece a colecciones privadas y museos de Argentina, Brasil, España, Estados Unidos y Suiza.
