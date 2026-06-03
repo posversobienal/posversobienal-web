@@ -1,0 +1,27 @@
+---
+
+nombre: 'Sebastián'
+apellido: 'Tedesco'
+seudonimo: ''
+
+nacionalidad: 'Argentina'
+contacto_publico: ''
+
+web: 'https://sebastiantedesco.com/'
+instagram: ['@tedescosebastian', 'https://instagram.com/tedescosebastian/']
+
+eventos: []
+
+fotos:
+  '26':
+    persona: 'tedesco_sebastian.jpg'
+    obra: 'tedesco_sebastian-1.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
+
+etiquetas:
+  - invitado
+  - participo_en_2026
+
+
+detalle: |
+  (Buenos Aires, 1968) es artista, curador, diseñador e investigador. Su obra transita las zonas híbridas y los desbordes entre el arte conceptual, el diseño y las tecnologías electrónicas, a partir de proyectos e instalaciones que exploran las relaciones entre sonido, olfato y nuevos medios. Es coordinador de la Especialización en Diseño Conceptual (UNTREF) y docente en la Licenciatura en Artes Electrónicas en la misma institución. Actualmente se desempeña como curador de BIENALSUR. Su trabajo ha sido presentado en bienales y festivales internacionales de relevancia como Ars Electronica (Linz), la Bienal de Diseño de Estambul, FILE (San Pablo) y el Salón Nacional de Artes Visuales (Argentina).

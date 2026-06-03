@@ -9,6 +9,7 @@ const set_participacion = () => {
 
     let obra_actual = document.getElementById(`obra_${id_participacion}`);
     let perfil_actual = document.getElementById(`perfil_${id_participacion}`);
+
     obra_actual.classList.remove('oculto');
     perfil_actual.classList.remove('oculto');
 
