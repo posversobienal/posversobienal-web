@@ -19,8 +19,8 @@ fotos:
     imagen_cabecera_posicion_inicial: 50% 20%
   '26':
     persona: 'silvina_torviso-1.jpg'
-    obra: 'silvina_torviso-1.jpg'
-    imagen_cabecera_posicion_inicial: 50% 20%
+    obra: 'silvina_torviso-2.jpg'
+    imagen_cabecera_posicion_inicial: 50% 50%
 
 etiquetas:
   - invitado
