@@ -46,6 +46,7 @@ contenido: |
   - <i class="h">nazer_susana</i> {{ per('nazer_susana', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">noiser</i> {{ per('noiser', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA/COLOMBIA)</small>
   - <i class="h">paesani_romina</i> {{ per('paesani_romina', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
+  - <i class="h">pereda_teresa</i> {{ per('pereda_teresa', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">perez_raventos_guillermo</i> {{ per('perez_raventos_guillermo', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">pino_juan</i> {{ per('pino_juan', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">pintos_sandra</i> {{ per('pintos_sandra', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
