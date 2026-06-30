@@ -75,96 +75,22 @@
     </div>
 </section>
 
-
-
-<br><hr><br>
-<div class="container">
-    <div class="container text-center mt-5">
-        <a class="display-4 text-black no-decoration" href="{{ pag.bienal_2024.url }}">
-            <img class="img-fluid" src="{{ pag.bienal_2024.logo }}?{{ cfg.cache_actu }}">
-        </a>
-    </div>
-
-    <div class="my-3 text-center">
-        <a class="display-4 text-black" href="{{ pag.bienal_2024.url }}">{{ pag.bienal_2024.nombre }}</a>
-    </div>
-    <div class="row">
-        {% for item in pag.bienal_2024.destacados %}
-        <div class="destacado d-grid col-lg-4 mt-4">
-            <a href="{{ item.url }}" class="fx-ampliar">
-                <div class="item d-flex flex-column flex-align-items-end border border-black rounded-2">
-                    <div>
-                        <img class="img-fluid" src="{{ item.imagen }}?{{ cfg.cache_actu }}">
-                    </div>
-                    <div class="py-4 px-5 text-center">
-                        <p class="h5 fw-bold">{{ item.titulo }}</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        {% endfor %}
-    </div>
-</div>
-
 <br><br><br>
-<section class="carrusel-socios mt-4 container border-top border-black">
+<section class="panel-socios mt-4 container border-top border-black">
     <div class="h3 mt-2">SOCIOS</div>
 
-    <div class="grupo auto-scroll">
+    <div class="grupo">
         <ul>
-            <li class="categoria"><a href="/pag/socios/#socios-institucionales">INSTITUCIONALES</a></li>
             {% for socio in cfg.socios %}
-            {% if ('institucional' in socio.tag) and (2026 in socio.tag) %}
+            {% if (2026 in socio.tag) %}
             {% if socio.url == '' %}
             <li title="{{ socio.nombre }}">
-                <img  src="/rec/socios/{{ socio.imagen }}?{{ cfg.cache_actu }}" alt="{{ socio.nombre }}">
+                <img  src="/rec/socios/2026/{{ socio.imagen }}?{{ cfg.cache_actu }}" alt="{{ socio.nombre }}">
             </li>
             {% else %}
             <li title="{{ socio.nombre }}">
                 <a href="{{ socio.url }}" target="_blank">
-                    <img  src="/rec/socios/{{ socio.imagen }}?{{ cfg.cache_actu }}" alt="{{ socio.nombre }}">
-                </a>
-            </li>
-            {% endif %}
-            {% endif %}
-            {% endfor %}
-        </ul>
-    </div>
-
-    <div class="grupo auto-scroll">
-        <ul>
-            <li class="categoria"><a href="/pag/socios/#socios-expositivos">EXPOSITIVOS</a></li>
-            {% for socio in cfg.socios -%}
-            {%- if ('expositivo' in socio.tag) and (2026 in socio.tag) -%}
-            {% if socio.url == '' %}
-            <li title="{{ socio.nombre }}">
-                <img  src="/rec/socios/{{ socio.imagen }}?{{ cfg.cache_actu }}" alt="{{ socio.nombre }}">
-            </li>
-            {% else %}
-            <li title="{{ socio.nombre }}">
-                <a href="{{ socio.url }}" target="_blank">
-                    <img  src="/rec/socios/{{ socio.imagen }}?{{ cfg.cache_actu }}" alt="{{ socio.nombre }}">
-                </a>
-            </li>
-            {% endif %}
-            {% endif %}
-            {% endfor %}
-        </ul>
-    </div>
-
-    <div class="grupo auto-scroll">
-        <ul>
-            <li class="categoria"><a href="/pag/socios/#socios-de-comunicacion">DE COMUNICACIÓN</a></li>
-            {% for socio in cfg.socios -%}
-            {%- if ('comunicacion' in socio.tag) and (2026 in socio.tag) -%}
-            {% if socio.url == '' %}
-            <li title="{{ socio.nombre }}">
-                <img  src="/rec/socios/{{ socio.imagen }}?{{ cfg.cache_actu }}" alt="{{ socio.nombre }}">
-            </li>
-            {% else %}
-            <li title="{{ socio.nombre }}">
-                <a href="{{ socio.url }}" target="_blank">
-                    <img  src="/rec/socios/{{ socio.imagen }}?{{ cfg.cache_actu }}" alt="{{ socio.nombre }}">
+                    <img  src="/rec/socios/2026/{{ socio.imagen }}?{{ cfg.cache_actu }}" alt="{{ socio.nombre }}">
                 </a>
             </li>
             {% endif %}

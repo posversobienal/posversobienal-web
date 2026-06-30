@@ -448,7 +448,7 @@ a.no-decoration {
         }
     }
 }
-
+/*
 .carrusel-socios {
     position: relative;
     .grupo {
@@ -488,6 +488,40 @@ a.no-decoration {
         overflow: hidden;
     }
 }
+*/
+
+.panel-socios {
+    position: relative;
+    .grupo {
+        ul {
+            display: flex;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            li {
+                list-style: none;
+                margin: 0;
+                padding: 0 20px;
+                _filter: grayscale(100%);
+
+                img {
+                    display: inline-block;
+                    width: 200px;
+                }
+
+                &:hover {
+                    _filter: grayscale(0);
+                }
+            }
+        }
+    }
+}
+
+
 
 .destacado {
     .item {

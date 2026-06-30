@@ -1,0 +1,29 @@
+<!-- Bloque de bienal previa -->
+<br><hr><br>
+<div class="container">
+    <div class="container text-center mt-5">
+        <a class="display-4 text-black no-decoration" href="{{ pag.bienal_2024.url }}">
+            <img class="img-fluid" src="{{ pag.bienal_2024.logo }}?{{ cfg.cache_actu }}">
+        </a>
+    </div>
+
+    <div class="my-3 text-center">
+        <a class="display-4 text-black" href="{{ pag.bienal_2024.url }}">{{ pag.bienal_2024.nombre }}</a>
+    </div>
+    <div class="row">
+        {% for item in pag.bienal_2024.destacados %}
+        <div class="destacado d-grid col-lg-4 mt-4">
+            <a href="{{ item.url }}" class="fx-ampliar">
+                <div class="item d-flex flex-column flex-align-items-end border border-black rounded-2">
+                    <div>
+                        <img class="img-fluid" src="{{ item.imagen }}?{{ cfg.cache_actu }}">
+                    </div>
+                    <div class="py-4 px-5 text-center">
+                        <p class="h5 fw-bold">{{ item.titulo }}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
