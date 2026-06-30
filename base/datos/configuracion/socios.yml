@@ -76,6 +76,11 @@
   url: ''
   tag: [2026]
 
+- nombre: 'MEAR'
+  imagen: mear.png
+  url: ''
+  tag: [2026]
+
 - nombre: 'Estranhas Ocupacoes'
   imagen: estranhas_ocupacoes.jpg
   url: ''
