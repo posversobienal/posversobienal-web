@@ -1,97 +1,96 @@
 ---
 
 - nombre: 'Hotel DaDA'
-  imagen: hotel_dada.png
-  url: ''
+  imagen: 2026/hotel_dada.png
+  url: '/sds/hotel_dada/'
   tag: [2026]
 
 - nombre: 'casa NEGRA'
-  imagen: casa_negra.png
-  url: ''
+  imagen: 2026/casa_negra.png
+  url: '/sds/casa_negra/'
   tag: [2026]
-
-- nombre: 'Cluster creativo'
-  imagen: cluster_creativo.jpg
-  url: 'https://cooart.ar/cluster/'
-  tag: [expositivo, 2026]
-
-- nombre: "Casa Popular 'Dante Balestro'"
-  imagen: cp_dante_balestro.jpg
-  url: '/sds/casa_popular_dante_balestro/'
-  tag: [institucional, 2024, 2026]
 
 - nombre: 'Fundación Casa Pronto'
-  imagen: fundacion_casa_pronto.jpg
+  imagen: 2026/fundacion_casa_pronto.jpg
   url: '/sds/fundacion_casa_pronto/'
-  tag: [expositivo, 2024, 2026]
+  tag: [2024, 2026]
 
 - nombre: 'UNNOBA'
-  imagen: unnoba-2.png
-  url: ''
-  tag: [2026]
-
-- nombre: 'mbdd . Museo Barda del desierto'
-  imagen: mbdd.png
-  url: ''
-  tag: [2026]
-
-- nombre: '704 Oficina de arte'
-  imagen: 704_oficina_de_arte.jpg
-  url: ''
-  tag: [2026]
-
-- nombre: Instituto Guimarães Rosa
-  imagen: eb_igr.png
-  url: ''
-  tag: [2026]
-
-- nombre: 'La voz de los barrios'
-  imagen: la_voz_de_los_barrios.jpg
-  url: 'https://lavozdelosbarrios.com/'
-  tag: [comunicacion, 2024, 2026]
-
-- nombre: 'Casa Rio'
-  imagen: casa_rio_lab.jpg
-  url: 'https://linktr.ee/casariolab'
-  tag: [institucional, 2026]
-
-
-- nombre: 'Artishock'
-  imagen: artishock.png
-  url: ''
-  tag: [2026]
-
-- nombre: 'Docks'
-  imagen: docks.jpg
-  url: ''
-  tag: [2026]
-
-- nombre: 'Visual Container'
-  imagen: visual_container.png
-  url: ''
+  imagen: 2026/unnoba-2.png
+  url: '/sds/unnoba_sum/'
   tag: [2026]
 
 - nombre: 'Espacio Panorama'
-  imagen: espacio_panorama.jpg
-  url: ''
+  imagen: 2026/espacio_panorama.jpg
+  url: '/sds/espacio_panorama/'
   tag: [2026]
 
+- nombre: '704 Oficina de arte'
+  imagen: 2026/704_oficina_de_arte.jpg
+  url: '/sds/704_oficina_de_arte/'
+  tag: [2026]
+
+- nombre: 'Cluster creativo'
+  imagen: 2026/cluster_creativo.jpg
+  url: '/sds/cluster_creativo/'
+  tag: [2026]
+
+- nombre: "Casa Popular 'Dante Balestro'"
+  imagen: 2026/cp_dante_balestro.jpg
+  url: '/sds/casa_popular_dante_balestro/'
+  tag: [2024, 2026]
+
+- nombre: 'Instituto Guimarães Rosa'
+  imagen: 2026/eb_igr.png
+  url: 'https://linktr.ee/IGRBuenosAires'
+  tag: [2026]
+
+- nombre: 'Artishock'
+  imagen: 2026/artishock.png
+  url: 'https://artishockrevista.com/'
+  tag: [2026]
+
+- nombre: 'Docks'
+  imagen: 2026/docks.jpg
+  url: 'https://www.facebook.com/DocksNeverDies/'
+  tag: [2026]
+
+- nombre: 'Visual Container'
+  imagen: 2026/visual_container.png
+  url: 'https://www.visualcontainer.org/'
+  tag: [2026]
+
+- nombre: 'Casa Rio'
+  imagen: 2026/casa_rio_lab.jpg
+  url: 'https://linktr.ee/casariolab'
+  tag: [2026]
+
+- nombre: 'mbdd . Museo Barda del desierto'
+  imagen: 2026/mbdd.png
+  url: 'https://bardadeldesierto.org/'
+  tag: [2026]
+
+- nombre: 'La voz de los barrios'
+  imagen: 2026/la_voz_de_los_barrios.jpg
+  url: 'https://lavozdelosbarrios.com/'
+  tag: [2024, 2026]
+
 - nombre: 'MEAR'
-  imagen: mear.png
-  url: ''
+  imagen: 2026/mear.png
+  url: 'https://www.musicaexperimental.ar/'
   tag: [2026]
 
 - nombre: 'Estranhas Ocupacoes'
-  imagen: estranhas_ocupacoes.jpg
-  url: ''
+  imagen: 2026/estranhas_ocupacoes.jpg
+  url: 'https://www.instagram.com/estranhasocupacoes/'
   tag: [2026]
 
 - nombre: 'Mute-Sound'
-  imagen: mute-sound.jpg
-  url: ''
+  imagen: 2026/mute-sound.jpg
+  url: 'https://mutesound.org/'
   tag: [2026]
 
 - nombre: 'ganuritov'
-  imagen: ganuritov.png
-  url: ''
+  imagen: 2026/ganuritov.png
+  url: 'https://caalma.github.io/ganuritov/'
   tag: [2026]

@@ -1,0 +1,19 @@
+---
+nombre: 'UNNOBA'
+domicilio: 'Italia y Newbery. Junín, Buenos Aires, Argentina.'
+gmaps: ''
+
+web: 'https://www.unnoba.edu.ar/'
+
+geopos:
+  coord: [0, 0]
+  icono: pin-sede
+
+fotos:
+  - 'unnoba_sum.jpg'
+
+etiquetas:
+  - participo_en_2026
+
+eventos_asociados: []
+descripcion: []

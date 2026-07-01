@@ -1,0 +1,19 @@
+---
+nombre: '704 Oficina de arte'
+domicilio: 'Florida 336 7mo. CABA, Argentina.'
+gmaps: ''
+
+web: 'https://www.instagram.com/704oficinadearte/'
+
+#geopos:
+#  coord: [0, 0]
+#  icono: pin-sede
+
+fotos:
+  - '704_oficina_de_arte.jpg'
+
+etiquetas:
+  - participo_en_2026
+
+eventos_asociados: []
+descripcion: []

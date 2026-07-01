@@ -1,0 +1,19 @@
+---
+nombre: 'Espacio Panorama'
+domicilio: 'Av. Corrientes y Esmeralda. CABA, Argentina.'
+gmaps: ''
+
+web: 'https://www.instagram.com/espacio.panorama/'
+
+#geopos:
+#  coord: [0, 0]
+#  icono: pin-sede
+
+fotos:
+  - 'espacio_panorama.jpg'
+
+etiquetas:
+  - participo_en_2026
+
+eventos_asociados: []
+descripcion: []

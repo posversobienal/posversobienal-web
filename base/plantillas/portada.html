@@ -85,12 +85,12 @@
             {% if (2026 in socio.tag) %}
             {% if socio.url == '' %}
             <li title="{{ socio.nombre }}">
-                <img  src="/rec/socios/2026/{{ socio.imagen }}?{{ cfg.cache_actu }}" alt="{{ socio.nombre }}">
+                <img  src="/rec/socios/{{ socio.imagen }}?{{ cfg.cache_actu }}" alt="{{ socio.nombre }}">
             </li>
             {% else %}
             <li title="{{ socio.nombre }}">
                 <a href="{{ socio.url }}" target="_blank">
-                    <img  src="/rec/socios/2026/{{ socio.imagen }}?{{ cfg.cache_actu }}" alt="{{ socio.nombre }}">
+                    <img  src="/rec/socios/{{ socio.imagen }}?{{ cfg.cache_actu }}" alt="{{ socio.nombre }}">
                 </a>
             </li>
             {% endif %}
