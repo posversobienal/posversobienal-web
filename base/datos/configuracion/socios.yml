@@ -65,11 +65,6 @@
   url: 'https://linktr.ee/casariolab'
   tag: [2026]
 
-- nombre: 'mbdd . Museo Barda del desierto'
-  imagen: 2026/mbdd.png
-  url: 'https://bardadeldesierto.org/'
-  tag: [2026]
-
 - nombre: 'La voz de los barrios'
   imagen: 2026/la_voz_de_los_barrios.jpg
   url: 'https://lavozdelosbarrios.com/'

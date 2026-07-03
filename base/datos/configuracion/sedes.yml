@@ -37,8 +37,6 @@ orden:
   - casa_popular_dante_balestro
   - casa-taller_torviso-sarobe
   - sol_del_llano
-  - la_luz_buena
-  - espacio_galpon
 
 
 
@@ -76,5 +74,4 @@ nombres:
   unnoba_sum: ['UNNOBA', true]
   espacio_panorama: ['Espacio Panorama', true]
   704_oficina_de_arte: ['704 oficina de arte', true]
-  espacio_galpon: ['Espacio Galpón', true]
-  '??': ['', false]
+  casa_negra: ['Casa NEGRA', true]
