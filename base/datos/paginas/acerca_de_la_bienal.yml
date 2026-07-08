@@ -8,7 +8,7 @@ estilo_cnt_sec: 'lista-subrayada titulares-reducidos'
 
 
 contenido: |
-  **POSVERSO** es una bienal enfocada en las múltiples prácticas de la poesía intersemiótica, que es generada desde [*HOTEL DADA Base de Arte Correo y Poesía Experimental*]( {{ cfg.urls.hoteldadabase }}), en Argentina.
+  **POSVERSO** es una bienal enfocada en las múltiples prácticas de la poesía intersemiótica, que es generada desde [*Hotel DaDA Centro de poéticas expandidas*]( {{ cfg.urls.hoteldadabase }}), en Argentina.
 
   El término *pós-verso* proviene de un desarrollo teórico del poeta brasileño [Omar Khouri]({{ cfg.urls.info_omar_khouri}}), quien lo acuñó para referirse a las manifestaciones de la poesía brasileña a partir de los años 70, y especialmente a los grupos nucleados en torno a las revistas Navilouca, Pólen, Código y Artéria. De acuerdo a los planteos de Khouri, esa poesía de la era pós-verso, que no excluye la práctica del verso convencional, tiene como carácter distintivo su migrar de un medio para otro, empleando diversos códigos para su “transmutación” o traducción intersemiótica.
 
