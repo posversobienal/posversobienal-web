@@ -8,6 +8,7 @@
     - {titulo: 'Equipo de la Bienal', url: '/pag/equipo_bienal_2026/'}
     - {titulo: 'Acerca de nosotros', url: '/pag/acerca_de_la_bienal/'}
     - {titulo: 'Sedes', url: '/pag/sedes_2026/'}
+    - {titulo: 'Programa', url: '/pag/programa_2026/'}
 
 - titulo: 'ARTISTAS'
   url: ''
