@@ -22,6 +22,7 @@
 - titulo: 'MEDIA'
   url: ''
   submenu:
+    - {titulo: 'Radio', url: '/perm/radio/'}
     - {titulo: 'Prensa', url: '/pag/prensa/'}
     - {titulo: 'Publicaciones', url: '/pag/publicaciones/'}
     - {titulo: 'Videos', url: '/pag/videos/'}

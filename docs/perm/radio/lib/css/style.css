@@ -1,0 +1,310 @@
+/* === Reset === */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg: #ffffff;
+    --bg-btn: #0a0a0a;
+    --text: #0a0a0a;
+    --text-2: #1a1a1a;
+    --text-3: #2a2a2a;
+    --border: #1a1a1a;
+    --border-strong: #0a0a0a;
+    --font: 'Inter', -apple-system, sans-serif;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font);
+    font-size: 14px;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 4rem 1.5rem;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    width: 100%;
+    max-width: 540px;
+}
+
+/* === Header === */
+.header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.header h1 {
+    font-size: 1.65rem;
+    font-weight: 300;
+    letter-spacing: 0.45em;
+    text-transform: uppercase;
+    color: var(--text);
+}
+
+.tagline {
+    font-size: 0.7rem;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    color: var(--text-3);
+    margin-top: 0.5rem;
+}
+
+/* === Ficha === */
+.ficha {
+    border: 1px solid var(--border);
+    padding: 2rem;
+    margin-bottom: 1px;
+    transition: border-color 0.6s ease;
+}
+
+.ficha.active {
+    border-color: var(--border-strong);
+}
+
+/* Estado */
+.ficha-status {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.8rem;
+    font-size: 0.65rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-3);
+}
+
+.dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--border);
+    transition: background 0.3s;
+}
+
+.dot.connected {
+    background: var(--text);
+    animation: pulse 2.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.15; }
+}
+
+/* Pista */
+.ficha-track {
+    display: flex;
+    align-items: baseline;
+    gap: 1.2rem;
+    margin-bottom: 1.8rem;
+}
+
+.track-number {
+    font-size: 2.8rem;
+    font-weight: 200;
+    color: var(--border);
+    line-height: 1;
+    min-width: 2.4rem;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+
+.track-info {
+    flex: 1;
+}
+
+.track-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--text);
+    line-height: 1.4;
+    word-break: break-word;
+}
+
+.track-artist {
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: var(--text-2);
+    margin-top: 0.15rem;
+    word-break: break-word;
+}
+
+/* Disco */
+.ficha-disc {
+    border-top: 1px solid var(--border);
+    padding-top: 1.2rem;
+}
+
+.disc-row {
+    display: flex;
+    gap: 1rem;
+    padding: 0.35rem 0;
+    font-size: 0.75rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.disc-row-last {
+    border-bottom: none;
+}
+
+.disc-label {
+    color: var(--text-3);
+    min-width: 3.5rem;
+    flex-shrink: 0;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: 0.65rem;
+    padding-top: 0.1rem;
+}
+
+.disc-value {
+    color: var(--text-2);
+    word-break: break-word;
+}
+
+.disc-value a {
+    color: var(--text);
+    text-decoration: none;
+    border-bottom: 1px solid var(--border);
+    transition: border-color 0.2s;
+}
+
+.disc-value a:hover {
+    border-color: var(--text);
+}
+
+/* === Player === */
+.player {
+    border: 1px solid var(--border);
+    border-top: none;
+    padding: 1.4rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.btn-play {
+    background: var(--bg-btn);
+    color: var(--bg);
+    border: none;
+    padding: 0.65rem 1.8rem;
+    font-family: var(--font);
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-play:hover {
+    background: #333333;
+}
+
+.player-controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex: 1;
+}
+
+.btn-toggle {
+    background: none;
+    border: 1px solid var(--border);
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--text);
+    transition: all 0.2s;
+}
+
+.btn-toggle:hover {
+    background: var(--text);
+    color: var(--bg);
+    border-color: var(--text);
+}
+
+.btn-toggle svg {
+    display: block;
+}
+
+.volume-wrap {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.vol-icon {
+    color: var(--text-3);
+    display: flex;
+    align-items: center;
+}
+
+.vol-icon svg {
+    display: block;
+}
+
+.vol-slider {
+    width: 64px;
+    height: 2px;
+    accent-color: var(--text);
+    cursor: pointer;
+}
+
+.time-display {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: var(--text-3);
+    margin-left: auto;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.05em;
+}
+
+/* === Utilidades === */
+.hidden {
+    display: none !important;
+}
+
+/* === Responsive === */
+@media (max-width: 480px) {
+    body {
+        padding: 2rem 1rem;
+    }
+
+    .ficha {
+        padding: 1.5rem;
+    }
+
+    .track-number {
+        font-size: 2rem;
+        min-width: 1.8rem;
+    }
+
+    .player {
+        padding: 1.2rem 1.5rem;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .player-controls {
+        justify-content: center;
+    }
+
+    .time-display {
+        margin-left: 0;
+    }
+}
