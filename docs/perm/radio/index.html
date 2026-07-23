@@ -16,6 +16,21 @@
             <h1><img class="d-block fx-invert fx-ampliar" src="/rec/grafica/logo-posverso.svg" height="20px" title="POSVERSO"> Radio</h1>
         </header>
 
+        <section class="player">
+            <button id="btn-play" class="btn-play">Escuchar</button>
+            <div class="player-controls hidden" id="player-controls">
+                <button id="btn-toggle" class="btn-toggle" aria-label="Pausa"></button>
+                <div class="volume-wrap">
+                    <span class="vol-icon" id="vol-icon"></span>
+                    <input type="range" id="vol-slider" min="0" max="100" value="80" class="vol-slider">
+                </div>
+                <span class="time-display" id="time-display">00:00:00</span>
+            </div>
+            <audio id="radio" preload="none">
+                <source src="https://giss.tv:667/posversoradio.ogg" type="audio/ogg">
+            </audio>
+        </section>
+
         <section class="ficha" id="ficha">
             <div class="ficha-status">
                 <span class="dot" id="status-dot"></span>
@@ -44,21 +59,6 @@
                     <span class="disc-value" id="disc-url">&mdash;</span>
                 </div>
             </div>
-        </section>
-
-        <section class="player">
-            <button id="btn-play" class="btn-play">Escuchar</button>
-            <div class="player-controls hidden" id="player-controls">
-                <button id="btn-toggle" class="btn-toggle" aria-label="Pausa"></button>
-                <div class="volume-wrap">
-                    <span class="vol-icon" id="vol-icon"></span>
-                    <input type="range" id="vol-slider" min="0" max="100" value="80" class="vol-slider">
-                </div>
-                <span class="time-display" id="time-display">00:00:00</span>
-            </div>
-            <audio id="radio" preload="none">
-                <source src="https://giss.tv:667/posversoradio.ogg" type="audio/ogg">
-            </audio>
         </section>
     </main>
 

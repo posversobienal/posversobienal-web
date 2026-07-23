@@ -140,8 +140,8 @@ body {
 
 /* Disco */
 .ficha-disc {
-    border-top: 1px solid var(--border);
     padding-top: 1.2rem;
+    border-top: none;
 }
 
 .disc-row {
@@ -186,7 +186,7 @@ body {
 /* === Player === */
 .player {
     border: 1px solid var(--border);
-    border-top: none;
+    border-bottom: none;
     padding: 1.4rem 2rem;
     display: flex;
     align-items: center;
