@@ -11,7 +11,7 @@
 // ============================================================
 
 var CONFIG = {
-    streamUrl: 'https://giss.tv:667/posversoradio.ogg',
+    streamUrl: 'https://giss.tv:666/posversoradio.ogg',
     catalogUrl: 'data/catalogo.json',
     statsInterval: 15,
     reconnectDelay: 5000,

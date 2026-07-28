@@ -1,1196 +1,1204 @@
 {
   "data": {
     "./datos/personas/montenegro_ana__e.yml": {
-      "hash": "38778335a18f42f209f8c902b20eaca1",
+      "hash": "530fd919dc2c7350a59a6a09f43ba0c5",
       "output": "../docs/per/montenegro_ana__e/index.html"
     },
     "./datos/personas/macheratti_carlos_alberto__e.yml": {
-      "hash": "65927fdda40c723251fbe88d8f51655b",
+      "hash": "050280f619804aad694a25a466a357b4",
       "output": "../docs/per/macheratti_carlos_alberto__e/index.html"
     },
     "./datos/personas/peterlini_patrizio.yml": {
-      "hash": "95dde8e6b47e69ababd058469daae2a3",
+      "hash": "120b638bf69fa72a3a291976f73c981a",
       "output": "../docs/per/peterlini_patrizio/index.html"
     },
     "./datos/personas/bruscky_yuri__c.yml": {
-      "hash": "bd092a1ad7c1ba83076957e190391ea2",
+      "hash": "de68057b302aa52f3436521b0f284bae",
       "output": "../docs/per/bruscky_yuri__c/index.html"
     },
     "./datos/personas/pozo_luciano__e.yml": {
-      "hash": "bfe955df108a3218908f5d32619a7546",
+      "hash": "399e3fc5060c3cd2b6b799e2e0d4f069",
       "output": "../docs/per/pozo_luciano__e/index.html"
     },
     "./datos/personas/de_gracia_silvio__e.yml": {
-      "hash": "39ef4d38b45593f5eb55dc5c698595fd",
+      "hash": "2dd70fbb520057fc64baa98dd9ecbe9b",
       "output": "../docs/per/de_gracia_silvio__e/index.html"
     },
     "./datos/personas/sanchez_goldar_soledad__c.yml": {
-      "hash": "d2402090e2de92edd21cf8471688c591",
+      "hash": "af3470dbfb5fd7d9662428d8bf8eef94",
       "output": "../docs/per/sanchez_goldar_soledad__c/index.html"
     },
     "./datos/personas/archivo_romero_por_venir.yml": {
-      "hash": "514e843a291da4ccc91108da0a88a49f",
+      "hash": "b8c490094d534f84ca05b7906e7c35f6",
       "output": "../docs/per/archivo_romero_por_venir/index.html"
     },
     "./datos/personas/pazos_luis.yml": {
-      "hash": "4435b05a6d601d0a6a99fccbd805e1a0",
+      "hash": "d545497ed480a329db57da81822aaaf2",
       "output": "../docs/per/pazos_luis/index.html"
     },
     "./datos/personas/pineda_fernando__e.yml": {
-      "hash": "a067037a93cd69fc664a278fb2240bac",
+      "hash": "cd5c5a4a1f93bb26aa5cc694e1ec8a1e",
       "output": "../docs/per/pineda_fernando__e/index.html"
     },
     "./datos/personas/arno_alessandra__c.yml": {
-      "hash": "561d074df9fcdad98374c9fa91bbe8df",
+      "hash": "7e6c8ac2ca5abd6c36ef0503cff53f5f",
       "output": "../docs/per/arno_alessandra__c/index.html"
     },
     "./datos/personas/montenegro_ana__c.yml": {
-      "hash": "4a2f83973963aa4c3e79fd19b1734022",
+      "hash": "eedb6e2a4a0e98b292cb8662e58d876d",
       "output": "../docs/per/montenegro_ana__c/index.html"
     },
     "./datos/personas/aguilar_gonzalo.yml": {
-      "hash": "8df9d1e059352e13ca06f49eb5cc044b",
+      "hash": "70f058643146dae41323fe14e525bc5a",
       "output": "../docs/per/aguilar_gonzalo/index.html"
     },
     "./datos/personas/silberleib_natalia.yml": {
-      "hash": "6f4542055812e4e64b4c56b80d6abdaa",
+      "hash": "0597c0c2149a9acabd2b287f02dd34a6",
       "output": "../docs/per/silberleib_natalia/index.html"
     },
     "./datos/personas/docks__c.yml": {
-      "hash": "5f3a81de1c8ae5316d062e5aa2a3e567",
+      "hash": "eae4a3f7d41c627c8d7d512aaef57802",
       "output": "../docs/per/docks__c/index.html"
     },
     "./datos/personas/kozak_claudia.yml": {
-      "hash": "42473dd5602fde14960fb3e76281dcac",
+      "hash": "b0884c2a1e29f09784ee6c0e1ae0c498",
       "output": "../docs/per/kozak_claudia/index.html"
     },
     "./datos/personas/farias_oscar__c.yml": {
-      "hash": "a3f60f3952c2a46a2e8d1023852e86aa",
+      "hash": "1a281c0533acd39d12173824f9a38d25",
       "output": "../docs/per/farias_oscar__c/index.html"
     },
     "./datos/personas/catolino_hugo.yml": {
-      "hash": "b4c2e6cb7af44b51dbf0e661f1694c28",
+      "hash": "38b3b641194df1504474c3b1b5bd4178",
       "output": "../docs/per/catolino_hugo/index.html"
     },
     "./datos/personas/kozak_claudia__c.yml": {
-      "hash": "ff9bc160e7b31a0ef509c96eaf7ca940",
+      "hash": "c0ed6206a02f3d8a8d9b50f570d034ee",
       "output": "../docs/per/kozak_claudia__c/index.html"
     },
     "./datos/personas/giglietti_natalia.yml": {
-      "hash": "58a211eb337f648e4785769f72bbb357",
+      "hash": "21388e867dfb0c8d51328bbb9b219703",
       "output": "../docs/per/giglietti_natalia/index.html"
     },
     "./datos/personas/wyskiel_dagmara.yml": {
-      "hash": "19995aeb37c29d1a320226ae1d403d08",
+      "hash": "4b557b23a70b2bf06f11cd34ddf4dfa9",
       "output": "../docs/per/wyskiel_dagmara/index.html"
     },
     "./datos/personas/florido_marisa.yml": {
-      "hash": "43e528be7f0103a7adb8c7aa5a3e174f",
+      "hash": "6e72be892644d03969aa7385b14f3518",
       "output": "../docs/per/florido_marisa/index.html"
     },
     "./datos/personas/de_gracia_silvio__c.yml": {
-      "hash": "58f82c984637fb36453ae161ea3c6adf",
+      "hash": "470fcbcdb1315bc2c9b0614c8c3b7902",
       "output": "../docs/per/de_gracia_silvio__c/index.html"
     },
     "./datos/personas/civalero_julieta__e.yml": {
-      "hash": "d870300c4d2eee3f662669de856c5572",
+      "hash": "493f10ae4401d2f04887aa6cf1351bad",
       "output": "../docs/per/civalero_julieta__e/index.html"
     },
     "./datos/personas/martinez_gabs__e.yml": {
-      "hash": "c9dc1946faac06500671d40e7dba7535",
+      "hash": "eea481a07711550cef0154fcb4983c13",
       "output": "../docs/per/martinez_gabs__e/index.html"
     },
     "./datos/personas/perez_raventos_guillermo__e.yml": {
-      "hash": "bf48b6c0eb42cb4cab1f9e0b3291689e",
+      "hash": "16f94a566a82d0ab4b74a06d4f38f7cf",
       "output": "../docs/per/perez_raventos_guillermo__e/index.html"
     },
     "./datos/personas/torres_roberto__e.yml": {
-      "hash": "94714f61383954d2b8f3d3bf2208066f",
+      "hash": "ff62a34975099a47915ad4153a70de60",
       "output": "../docs/per/torres_roberto__e/index.html"
     },
     "./datos/personas/hurtado_michael__c.yml": {
-      "hash": "a405c3a33470441b501232f514b472af",
+      "hash": "af40db1145c9567be80b556c19b523d8",
       "output": "../docs/per/hurtado_michael__c/index.html"
     },
     "./datos/personas/pianowski_fabiane.yml": {
-      "hash": "048c9a1edc708cf47c23ba6e2dddd534",
+      "hash": "f8779d8ee2ca5bcea4ce9f0705d29870",
       "output": "../docs/per/pianowski_fabiane/index.html"
     },
     "./datos/personas/hurtado_michael__t.yml": {
-      "hash": "0120ec8fb7b32e0e329b93d58b0bbc9a",
+      "hash": "ea6e03576f052a904b4d0e4aede0c2fa",
       "output": "../docs/per/hurtado_michael__t/index.html"
     },
     "./datos/artistas/mancioli_maurizio.yml": {
-      "hash": "2bf95b8736209f5747cec161aca988c2",
+      "hash": "c0bc13712072348e2219169c45138667",
       "output": "../docs/per/mancioli_maurizio/index.html"
     },
     "./datos/artistas/melero_diego.yml": {
-      "hash": "f4ea4039227fa86502d03bfaf7f4cf2f",
+      "hash": "12e7fc967c0bde3e17b040ea1b67ccd5",
       "output": "../docs/per/melero_diego/index.html"
     },
     "./datos/artistas/calleja_j_m.yml": {
-      "hash": "6d4dd7568ea807abfd94d44cd56488d7",
+      "hash": "2383b86af1c4f8fe04c83e10e80df617",
       "output": "../docs/per/calleja_j_m/index.html"
     },
     "./datos/artistas/martinez_luciana.yml": {
-      "hash": "0d65c2d4bbd3133db86b64ce867cdca0",
+      "hash": "615a7f47b287a37789be87063b5fe89b",
       "output": "../docs/per/martinez_luciana/index.html"
     },
     "./datos/artistas/calasans_denise.yml": {
-      "hash": "daafc7f655ae6b1d5f4ebe0fdbe3a75e",
+      "hash": "16d0bf204e3edfdb07ef7eccb0444590",
       "output": "../docs/per/calasans_denise/index.html"
     },
     "./datos/artistas/sarobe_daniel.yml": {
-      "hash": "e0190ef4a0192b7d6584169ee7959cd1",
+      "hash": "13844570e287f8d4fb4999936c1422d9",
       "output": "../docs/per/sarobe_daniel/index.html"
     },
     "./datos/artistas/doberti_paula.yml": {
-      "hash": "1b88b9a9624b9d5cad3025aeb4713101",
+      "hash": "2f4e2a46d6df2bd3fe424ff7232b13d4",
       "output": "../docs/per/doberti_paula/index.html"
     },
     "./datos/artistas/de_marchi_cristiana.yml": {
-      "hash": "d02ff8f579e41c2363bd1aeff21670a7",
+      "hash": "fe847ce8147ec58c7ec2761d941d62f6",
       "output": "../docs/per/de_marchi_cristiana/index.html"
     },
     "./datos/artistas/hygino_andrea.yml": {
-      "hash": "10be990780c7e7490f7168129b638666",
+      "hash": "99064a4ddca06397eb4b27fcf46be8dc",
       "output": "../docs/per/hygino_andrea/index.html"
     },
     "./datos/artistas/marini_elena.yml": {
-      "hash": "7561d67647a674f5ef7fe145abff0b05",
+      "hash": "2f50fc5db3ea61c8cb8c995bd1e7a2ae",
       "output": "../docs/per/marini_elena/index.html"
     },
     "./datos/artistas/fierens_luc.yml": {
-      "hash": "6ba07c983703bd8dc5c960892b83ec22",
+      "hash": "ac43b37c1135d4ed61f3545d17449cb7",
       "output": "../docs/per/fierens_luc/index.html"
     },
     "./datos/artistas/marin_matilde.yml": {
-      "hash": "50dcbc93e4fd90c300b6df56eb1e5e08",
+      "hash": "38d5981b99f793c836be0b6f62f6aefb",
       "output": "../docs/per/marin_matilde/index.html"
     },
     "./datos/artistas/fuertes_rosana.yml": {
-      "hash": "f3fe28fea88a5dd2cad6bf87dbff820c",
+      "hash": "714b4c60b5c4c410f8fa276d224e8856",
       "output": "../docs/per/fuertes_rosana/index.html"
     },
     "./datos/artistas/koenig_maia.yml": {
-      "hash": "27b05a55648da0f385240fd5093b0dc1",
+      "hash": "5bf53d7a69f79445af9fc13df168d3c8",
       "output": "../docs/per/koenig_maia/index.html"
     },
     "./datos/artistas/abreu_javier.yml": {
-      "hash": "1557b416842aa9bed7eacf0f6593b7ad",
+      "hash": "844de8a41b1a8832633e4ca764c41d41",
       "output": "../docs/per/abreu_javier/index.html"
     },
     "./datos/artistas/sukorski_wilson.yml": {
-      "hash": "b6f549ab29bb7282c185418e775f0d31",
+      "hash": "9956f5aded567efc9b233564b378a024",
       "output": "../docs/per/sukorski_wilson/index.html"
     },
     "./datos/artistas/chiesa_mariana.yml": {
-      "hash": "dfa4ee43668fe6d78a80540bd2842e30",
+      "hash": "58860b332273121572ec642e3e7d6a20",
       "output": "../docs/per/chiesa_mariana/index.html"
     },
     "./datos/artistas/ramirez_kobra_carlos.yml": {
-      "hash": "708abbc24c33bac3ee50b15ffc0a069e",
+      "hash": "e8a2cf5f28e1352a9415ba60f2c74c14",
       "output": "../docs/per/ramirez_kobra_carlos/index.html"
     },
     "./datos/artistas/derdyk_edith.yml": {
-      "hash": "6ac8894f05a9a50026d0c8b2c865996a",
+      "hash": "776599a09f653e553f090c47b1553961",
       "output": "../docs/per/derdyk_edith/index.html"
     },
     "./datos/artistas/zanela_augusto.yml": {
-      "hash": "f3e4549afb0af90507fcf8520e20ec03",
+      "hash": "f78107fad1886ac2a46b01543df90683",
       "output": "../docs/per/zanela_augusto/index.html"
     },
     "./datos/artistas/blonk_jaap.yml": {
-      "hash": "9b6c81dda11d78d594342d17df33412d",
+      "hash": "e7edc76fb5b93b328ba75710bdc99691",
       "output": "../docs/per/blonk_jaap/index.html"
     },
     "./datos/artistas/d_barros_tchello.yml": {
-      "hash": "4cd89d0f4f66bcb6dc499aa9eaf48f9f",
+      "hash": "031a7c1533a6171b9e67feac5ca26bab",
       "output": "../docs/per/d_barros_tchello/index.html"
     },
     "./datos/artistas/gravino_rosa.yml": {
-      "hash": "b606a390c2ee2fe6cd8c05c79d4e2489",
+      "hash": "708c6abc4dceb87e327d44ba63811cda",
       "output": "../docs/per/gravino_rosa/index.html"
     },
     "./datos/artistas/ramos_exequiel.yml": {
-      "hash": "e9fd038ba8c0cd2dd85847db431806d1",
+      "hash": "4b849cd0e78fd71d962c53138baee54e",
       "output": "../docs/per/ramos_exequiel/index.html"
     },
     "./datos/artistas/papi_maria.yml": {
-      "hash": "616afe0646d9a2f6085fdcd56d0a4f53",
+      "hash": "9b7047ab948b65c54121c6b6a2161423",
       "output": "../docs/per/papi_maria/index.html"
     },
     "./datos/artistas/perez_raventos_guillermo.yml": {
-      "hash": "8bfb9f52bea4eeb5a4280cb01db6637a",
+      "hash": "208b797d21fcfc588d2e421cac4d6ec9",
       "output": "../docs/per/perez_raventos_guillermo/index.html"
     },
     "./datos/artistas/fatmi_mounir.yml": {
-      "hash": "79a69470b4975005f0a0aed37c057454",
+      "hash": "cced363a5c16822b124f6265a000f69c",
       "output": "../docs/per/fatmi_mounir/index.html"
     },
     "./datos/artistas/bresciani_rafael.yml": {
-      "hash": "78401cbdceaec705e638a14ef9629559",
+      "hash": "1c0e97422dece98724093be3e8209d5e",
       "output": "../docs/per/bresciani_rafael/index.html"
     },
     "./datos/artistas/mata_rodolfo.yml": {
-      "hash": "6d5f37ed77fc55ed00bdfacfd34aebef",
+      "hash": "00cfef8af0eaef5566e817656b42f0fc",
       "output": "../docs/per/mata_rodolfo/index.html"
     },
     "./datos/artistas/padin_clemente.yml": {
-      "hash": "d6c1a25e81b2c40d2d834919145b6540",
+      "hash": "6b7e19a87a2417396ee297af64146b33",
       "output": "../docs/per/padin_clemente/index.html"
     },
     "./datos/artistas/ribeiro_joyce.yml": {
-      "hash": "20bcab4483e759c0e91f38bd8d4b8d18",
+      "hash": "1a9049c00b7b333e3c717d4f5dbbf072",
       "output": "../docs/per/ribeiro_joyce/index.html"
     },
     "./datos/artistas/szabo_saulo.yml": {
-      "hash": "dae4e02ef89522c266a76cc33a70f68b",
+      "hash": "5c29d19195da26c53853e78bb44c7fa8",
       "output": "../docs/per/szabo_saulo/index.html"
     },
     "./datos/artistas/bruscky_paulo.yml": {
-      "hash": "0e81b78529d400d7fafc8246d0c2a23e",
+      "hash": "6f2673dfb24faaaa5c95c30f4b3c80dc",
       "output": "../docs/per/bruscky_paulo/index.html"
     },
     "./datos/artistas/bericat_pedro.yml": {
-      "hash": "f0b2404775563dd2d528ee1ec7e81445",
+      "hash": "1a3e935ba2097cfc400de3e7c8574b9b",
       "output": "../docs/per/bericat_pedro/index.html"
     },
     "./datos/artistas/paesani_romina.yml": {
-      "hash": "c0113200ad3a00c50837e5b12b752f3a",
+      "hash": "9dbcd5fd2b44567d3a780d188f90bcbe",
       "output": "../docs/per/paesani_romina/index.html"
     },
     "./datos/artistas/dardot_marila.yml": {
-      "hash": "e285e1055d14ea186d64cf199d256514",
+      "hash": "865989be8b22837de73cc4e8c1edda1f",
       "output": "../docs/per/dardot_marila/index.html"
     },
     "./datos/artistas/del_rio_claudia.yml": {
-      "hash": "a39ecd11e7f69ba915c8bc0e1c0c2f25",
+      "hash": "9e919993c4ee6d2c183faaa3a0b73f56",
       "output": "../docs/per/del_rio_claudia/index.html"
     },
     "./datos/artistas/bruscky_yuri.yml": {
-      "hash": "41b76440cc1826119cb3ea0b2136311f",
+      "hash": "90befc16e0d3fdb7628fab3e45b44bde",
       "output": "../docs/per/bruscky_yuri/index.html"
     },
     "./datos/artistas/olbrich_jurgen_o.yml": {
-      "hash": "1b3c920995ede61620ca0c55652efc69",
+      "hash": "d5ab152daa699ec568f6d13854f449b8",
       "output": "../docs/per/olbrich_jurgen_o/index.html"
     },
     "./datos/artistas/rivas_silvia.yml": {
-      "hash": "6a53c5e3a696fbf1d49c45c27e70226c",
+      "hash": "b67bae103c64f453d065eb43ca9ada6c",
       "output": "../docs/per/rivas_silvia/index.html"
     },
     "./datos/artistas/destemple_ferran.yml": {
-      "hash": "b10c435e55dcfdc7da9c8e3496134d75",
+      "hash": "c8b2345a889fda81dbc3282ea4e67cf9",
       "output": "../docs/per/destemple_ferran/index.html"
     },
     "./datos/artistas/gallardo_carlos.yml": {
-      "hash": "1879d524630f6c28fb72e7e2fa159ea0",
+      "hash": "b01ed419e47329065cf7d1a541344232",
       "output": "../docs/per/gallardo_carlos/index.html"
     },
     "./datos/artistas/astorga_marcela.yml": {
-      "hash": "63c254dbebfcba84efab3158ca62420a",
+      "hash": "e7a4f042199155595e5dba901b0f92ab",
       "output": "../docs/per/astorga_marcela/index.html"
     },
     "./datos/artistas/fenerich_alexandre.yml": {
-      "hash": "c9e7a2894e93b75a3c17019b08153866",
+      "hash": "f4014ef9cc7f44b299967d8a801f0c87",
       "output": "../docs/per/fenerich_alexandre/index.html"
     },
     "./datos/artistas/robledo_javier.yml": {
-      "hash": "b229e4c95b61ec2eac10851a052e565b",
+      "hash": "b55df3dc8db0675e416186ddef341a1b",
       "output": "../docs/per/robledo_javier/index.html"
     },
     "./datos/artistas/vaara_roi.yml": {
-      "hash": "774c85cf4066b2d27905614c1e6d2a2d",
+      "hash": "ff67304790500018df28f136ff010654",
       "output": "../docs/per/vaara_roi/index.html"
     },
     "./datos/artistas/demir_diren.yml": {
-      "hash": "40add5f5bd9abc6eaa747dc9403650cc",
+      "hash": "a1f0a567132b921953e110f0bbf42da1",
       "output": "../docs/per/demir_diren/index.html"
     },
     "./datos/artistas/pintos_sandra.yml": {
-      "hash": "5466ffadd728fff05d1512b2999271fb",
+      "hash": "c5bd8ca12f2d9fc5b2602883651c7b67",
       "output": "../docs/per/pintos_sandra/index.html"
     },
     "./datos/artistas/liggera_ruben.yml": {
-      "hash": "a56422c75d2d21765e698ab16b0e0fbe",
+      "hash": "050a09f44434576520f594c4e0b5cce9",
       "output": "../docs/per/liggera_ruben/index.html"
     },
     "./datos/artistas/ciullini_forbici.yml": {
-      "hash": "70436153483b9234f1524d09212bb6d9",
+      "hash": "742ba2893daa6ce920cea35764f3f9dd",
       "output": "../docs/per/ciullini_forbici/index.html"
     },
     "./datos/artistas/sandoval_rosemberg.yml": {
-      "hash": "ba2b21609687f2ebc2f87a16192f6318",
+      "hash": "f677f56eb7b2fcd65c00757aa3fed604",
       "output": "../docs/per/sandoval_rosemberg/index.html"
     },
     "./datos/artistas/torviso_silvina.yml": {
-      "hash": "2df2eb316ec9ae6fc57d79eba0c9bfdd",
+      "hash": "0cc393089724db18392a151837d73185",
       "output": "../docs/per/torviso_silvina/index.html"
     },
     "./datos/artistas/ulisses_edgar.yml": {
-      "hash": "a716d6fd484119c372a4adfc13ddd66f",
+      "hash": "b7fb6a8938aee63a31116b9a1a0bf9ca",
       "output": "../docs/per/ulisses_edgar/index.html"
     },
     "./datos/artistas/pujol_duran_jessica.yml": {
-      "hash": "2c772c946290bcd18e11cb0ea5184dd9",
+      "hash": "c3c0f9bff66ed57bd6e3e0da4382592f",
       "output": "../docs/per/pujol_duran_jessica/index.html"
     },
     "./datos/artistas/pozo_luciano.yml": {
-      "hash": "ea7b3f8c0014f211fa690cd39a0b1221",
+      "hash": "29447bde5abdbf4199330e49b1dd6898",
       "output": "../docs/per/pozo_luciano/index.html"
     },
     "./datos/artistas/thornton_alejandro.yml": {
-      "hash": "cca45f6c2bf231dc828c06dc12a55626",
+      "hash": "aa2f1387cf1629a68284adf9e036cd58",
       "output": "../docs/per/thornton_alejandro/index.html"
     },
     "./datos/artistas/montenegro_ana.yml": {
-      "hash": "6f6f996a51a8d0e113629325bdb3c08b",
+      "hash": "140163ea8f47f77608d844cca4233425",
       "output": "../docs/per/montenegro_ana/index.html"
     },
     "./datos/artistas/pino_juan.yml": {
-      "hash": "f579d4181464ed57c8fa8cd8b96b3563",
+      "hash": "986add9495ce9a68825068ec564be58c",
       "output": "../docs/per/pino_juan/index.html"
     },
     "./datos/artistas/danziger_leila.yml": {
-      "hash": "7f3efe481dcf638e41d1d3c76f6d9633",
+      "hash": "9dadcae1b679d43265f4a8be014e3ed8",
       "output": "../docs/per/danziger_leila/index.html"
     },
     "./datos/artistas/barragan_ro.yml": {
-      "hash": "c712faa6b53a31d7bea85e791cc390b2",
+      "hash": "ce2f8c1e0c5429795c36b07606dc160c",
       "output": "../docs/per/barragan_ro/index.html"
     },
     "./datos/artistas/montenegro_fisher.yml": {
-      "hash": "464feb1a0fba78e8b14574b33481a4a7",
+      "hash": "2d4870e7d3da16cd2d9378c9fbdb9128",
       "output": "../docs/per/montenegro_fisher/index.html"
     },
     "./datos/artistas/tisselli_eugenio.yml": {
-      "hash": "46caf3d2a824ed585de6a30f60f6e11c",
+      "hash": "b0ef6c765a72eba71bb964160d6383dd",
       "output": "../docs/per/tisselli_eugenio/index.html"
     },
     "./datos/artistas/mancioli_hastings.yml": {
-      "hash": "aca694defbdfa4f1b7f72c0a28ed361a",
+      "hash": "33bba91851ae9937125af2065d6a2fb3",
       "output": "../docs/per/mancioli_hastings/index.html"
     },
     "./datos/artistas/vaquero_diaz_roma.yml": {
-      "hash": "fc257c5b9046d84d68ffd5f1c7f85f9d",
+      "hash": "701143f6bd2f7be8f832e0dddbf4cae8",
       "output": "../docs/per/vaquero_diaz_roma/index.html"
     },
     "./datos/artistas/guzman_mario.yml": {
-      "hash": "81dcaf0443116a0bc206956bcee7fdd1",
+      "hash": "14821214e7c1b65c3cec818c6a1c127d",
       "output": "../docs/per/guzman_mario/index.html"
     },
     "./datos/artistas/mastrandrea_daniela.yml": {
-      "hash": "39d87a212714e5a57a1c8a5d1961294c",
+      "hash": "d1c2d5742c9b8fb458f8cd01160e3e2e",
       "output": "../docs/per/mastrandrea_daniela/index.html"
     },
     "./datos/artistas/gross_stephan.yml": {
-      "hash": "7dada5c5e912db1940794fa9ac6bb637",
+      "hash": "df821bf715317505f3f1f5f265993f31",
       "output": "../docs/per/gross_stephan/index.html"
     },
     "./datos/artistas/argentieri_hebe.yml": {
-      "hash": "cc499524588cb7fd32383ad780e18571",
+      "hash": "d3422740119932ca46c375a88397bfb4",
       "output": "../docs/per/argentieri_hebe/index.html"
     },
     "./datos/artistas/fontana_giovanni.yml": {
-      "hash": "73ad3de74c9dd637e1cb96c6d995d535",
+      "hash": "12f4737e931a50c02373d8b8718b829d",
       "output": "../docs/per/fontana_giovanni/index.html"
     },
     "./datos/artistas/cantera_ana_laura.yml": {
-      "hash": "d9b22691ee21ff2091648051937cab03",
+      "hash": "29f964d7c196b60aa4ab374f20febdba",
       "output": "../docs/per/cantera_ana_laura/index.html"
     },
     "./datos/artistas/hoehfeld_pia.yml": {
-      "hash": "69208bb1a7a1e5b42239493e3e1366f4",
+      "hash": "e3770c3b732ee45bd0522da75c3c7c91",
       "output": "../docs/per/hoehfeld_pia/index.html"
     },
     "./datos/artistas/borao_emmanuel.yml": {
-      "hash": "87c9d6d0900cb9779e7121f9387001ee",
+      "hash": "6802b0c4b163bca3035342216a3b1e6b",
       "output": "../docs/per/borao_emmanuel/index.html"
     },
     "./datos/artistas/forkda.yml": {
-      "hash": "99878bc46e9b2ab9a5b775d6071710a5",
+      "hash": "13f2cd7b5dfcd5a742175446d9c226d5",
       "output": "../docs/per/forkda/index.html"
     },
     "./datos/artistas/radakovic_darija.yml": {
-      "hash": "6dde8f3d47f638e972dd731b510330de",
+      "hash": "3775d5aade6ca4514c4be3c34f90fd97",
       "output": "../docs/per/radakovic_darija/index.html"
     },
     "./datos/artistas/sanchez_goldar_soledad.yml": {
-      "hash": "c2b258fa04110cce0fe8b533ec82201b",
+      "hash": "5fab4db25ea36c4881f4cc79382bdccb",
       "output": "../docs/per/sanchez_goldar_soledad/index.html"
     },
     "./datos/artistas/ferrando_bartolome.yml": {
-      "hash": "c106a9947a6bccc2397fae7cf495f70c",
+      "hash": "f789f7902721927aa334131b071bbf79",
       "output": "../docs/per/ferrando_bartolome/index.html"
     },
     "./datos/artistas/paz_hilda.yml": {
-      "hash": "8cd70fe008e8807294ada12151288b11",
+      "hash": "5a6c35e62842bb144f9914c58eaf170b",
       "output": "../docs/per/paz_hilda/index.html"
     },
     "./datos/artistas/alberti_diego.yml": {
-      "hash": "c4b0b6c089231cb452f364eef2c66d5a",
+      "hash": "665e0b2af6548ed92a7405dbba3eb4fd",
       "output": "../docs/per/alberti_diego/index.html"
     },
     "./datos/artistas/lobato_gaby.yml": {
-      "hash": "2fc5e2af5f2249008520d2d27bdbcfd1",
+      "hash": "c5669778394717a20e564c0c8919df56",
       "output": "../docs/per/lobato_gaby/index.html"
     },
     "./datos/artistas/de_gracia_silvio.yml": {
-      "hash": "1bbd2b35f0ce84a17e0be1716d2364a8",
+      "hash": "a0b25d0ef795866efcc75b7045f9c55d",
       "output": "../docs/per/de_gracia_silvio/index.html"
     },
     "./datos/artistas/sarobe_torviso.yml": {
-      "hash": "fb9ef0e07f87e269b249be83af6771b2",
+      "hash": "8875de7dd86499111a4b01bdb3cd5301",
       "output": "../docs/per/sarobe_torviso/index.html"
     },
     "./datos/artistas/pasinovich_andres.yml": {
-      "hash": "1234a78b822e3c76b76b87e6e52d1d87",
+      "hash": "6233ab5d03d5d06ef0c1acabbe3388c6",
       "output": "../docs/per/pasinovich_andres/index.html"
     },
     "./datos/artistas/italiano_juan_angel.yml": {
-      "hash": "13d9b72d4ae4791b92b3a477cdd6a475",
+      "hash": "ec2ec61e080159d7d3c494d150660ecb",
       "output": "../docs/per/italiano_juan_angel/index.html"
     },
     "./datos/artistas/aruma.yml": {
-      "hash": "185341f9410971af15dbffed9b8bfc21",
+      "hash": "1eb3ef55fed64e092d4d1fcec1895363",
       "output": "../docs/per/aruma/index.html"
     },
     "./datos/artistas/restrepo_tulio.yml": {
-      "hash": "1aa6dbfbd137910a115db887d003c9e9",
+      "hash": "4601264c6d03a94919f585231b47aac4",
       "output": "../docs/per/restrepo_tulio/index.html"
     },
     "./datos/artistas/tedesco_sebastian.yml": {
-      "hash": "0ef16a86abd86c9e8a83fca14e964ffd",
+      "hash": "957ea978e9cdff781587e7402fe03368",
       "output": "../docs/per/tedesco_sebastian/index.html"
     },
     "./datos/artistas/zegna_maria.yml": {
-      "hash": "63f333082291ae5568668209f8cd499f",
+      "hash": "0062fe9d6654c4a0f32ae2a78cc3c44e",
       "output": "../docs/per/zegna_maria/index.html"
     },
     "./datos/artistas/ontiveros_daniel.yml": {
-      "hash": "30618f7f6bedf92f6bd03497a6fa54d5",
+      "hash": "c77c341a58d3730a980af4ca3ca310c4",
       "output": "../docs/per/ontiveros_daniel/index.html"
     },
     "./datos/artistas/di_pascuale_lucas.yml": {
-      "hash": "c3ddbdec0397a02c59d473fadc3c6ecb",
+      "hash": "db4b6ac2ab0cd0e1d545460319e5d56a",
       "output": "../docs/per/di_pascuale_lucas/index.html"
     },
     "./datos/artistas/ferrarotti_gerardo.yml": {
-      "hash": "165035fc869fe4b6d55c1c1b5adacc59",
+      "hash": "040ee89635540a14782ad07af03d3739",
       "output": "../docs/per/ferrarotti_gerardo/index.html"
     },
     "./datos/artistas/mesz_bruno.yml": {
-      "hash": "ca1dfa4b6af26ff875b927902213c621",
+      "hash": "f1bfce7c758a1d14f38f241cd76122e8",
       "output": "../docs/per/mesz_bruno/index.html"
     },
     "./datos/artistas/mangifesta_claudio.yml": {
-      "hash": "62f1a8472384c931728f82e97c857dff",
+      "hash": "60e0ce3cd6f39197b478c167a0451d68",
       "output": "../docs/per/mangifesta_claudio/index.html"
     },
     "./datos/artistas/laufer_milton.yml": {
-      "hash": "a38461edff085c604fbfbfab96103fc9",
+      "hash": "c086783cb4442a87764b84d59a4822e8",
       "output": "../docs/per/laufer_milton/index.html"
     },
     "./datos/artistas/lyrio_claudia.yml": {
-      "hash": "c683071b8de21079525eb3960f747bdf",
+      "hash": "ff62c492fc6bd03b97808605eea74cff",
       "output": "../docs/per/lyrio_claudia/index.html"
     },
     "./datos/artistas/buitron_virginia.yml": {
-      "hash": "9acbb976c6774139729db2845e269da4",
+      "hash": "338d7c4c4b479984ed663d603ce2fa67",
       "output": "../docs/per/buitron_virginia/index.html"
     },
     "./datos/artistas/pereda_teresa.yml": {
-      "hash": "c054002dc251b168fbf3d307858db57f",
+      "hash": "7427037e2f39bbc4d775d9b905809482",
       "output": "../docs/per/pereda_teresa/index.html"
     },
     "./datos/artistas/nazer_susana.yml": {
-      "hash": "6c6379ce5262a05600a6102261b1a2b6",
+      "hash": "9301c761454c226c9ba0fe1255c01a7b",
       "output": "../docs/per/nazer_susana/index.html"
     },
     "./datos/artistas/jezik_enrique.yml": {
-      "hash": "1735e25852e5aba9b80be6feedb3d831",
+      "hash": "9801f92badbd9ca5f4f631a7bca434da",
       "output": "../docs/per/jezik_enrique/index.html"
     },
     "./datos/artistas/chocair_enrique.yml": {
-      "hash": "41f009046ef8b87dfb92b9c7d03ef257",
+      "hash": "122f6c8fd572f1d6c52f01267978e752",
       "output": "../docs/per/chocair_enrique/index.html"
     },
     "./datos/artistas/holderbaum_flora.yml": {
-      "hash": "b947a6c1b8ad11097570b3a0947c0fe2",
+      "hash": "1284a7368e0e7131cca3aac048555326",
       "output": "../docs/per/holderbaum_flora/index.html"
     },
     "./datos/artistas/caro_antonio.yml": {
-      "hash": "d93e0097468e80008504a8c18f5b0703",
+      "hash": "926aff1e24750fc60cd9b44d560f472a",
       "output": "../docs/per/caro_antonio/index.html"
     },
     "./datos/artistas/aguiar_fernando.yml": {
-      "hash": "595721b607547e3b7dd1ced6c9bddc88",
+      "hash": "7c86d93c8f00d8a5629e1c04f0e105b8",
       "output": "../docs/per/aguiar_fernando/index.html"
     },
     "./datos/artistas/ivanchevich_cecilia.yml": {
-      "hash": "c1ece0a973759e272846b8b8978a684a",
+      "hash": "74f92dc561a5443eeba30350f5b49eb0",
       "output": "../docs/per/ivanchevich_cecilia/index.html"
     },
     "./datos/artistas/bonzon_sergio.yml": {
-      "hash": "948a8615b7c9836c964239db21bb9fc4",
+      "hash": "e11ad5021deef1a53fad56f28067de24",
       "output": "../docs/per/bonzon_sergio/index.html"
     },
     "./datos/artistas/merino_eugenio.yml": {
-      "hash": "de8bf5ba997a12ec59795d02098a8e98",
+      "hash": "d0e47643eeb60d45ee058e25a4a41467",
       "output": "../docs/per/merino_eugenio/index.html"
     },
     "./datos/artistas/couratier_alberto.yml": {
-      "hash": "a2d14ebe87da80cee98f5c01f05f3cc6",
+      "hash": "6207fccf0328e5f79a215e3e8f5b1b65",
       "output": "../docs/per/couratier_alberto/index.html"
     },
     "./datos/artistas/yashira_wendy.yml": {
-      "hash": "8f899e07aea63db72266f5c1f17507e2",
+      "hash": "ddd950e58e6e4f67cca50033fcadf69c",
       "output": "../docs/per/yashira_wendy/index.html"
     },
     "./datos/artistas/sierra_santiago.yml": {
-      "hash": "d198d89c6e6783de6b8bb781d079dac8",
+      "hash": "b8d48e08a84e966871083d413a6a291f",
       "output": "../docs/per/sierra_santiago/index.html"
     },
     "./datos/artistas/cosega.yml": {
-      "hash": "c93cb8548c67ca8b7797756f090c01fb",
+      "hash": "9f8aadfafa4f04ac6ae7341e0de28810",
       "output": "../docs/per/cosega/index.html"
     },
     "./datos/artistas/noiser.yml": {
-      "hash": "20df4cfd104b1cb2f7cc88b89aaac4b1",
+      "hash": "06279ab41bbab11fcdb59fb2545a3a22",
       "output": "../docs/per/noiser/index.html"
     },
     "./datos/artistas/peral_marcela.yml": {
-      "hash": "5adac735a437cbd8f7758accdcc14c27",
+      "hash": "64a2fd1465e788d2837b77e958a4eced",
       "output": "../docs/per/peral_marcela/index.html"
     },
     "./datos/artistas/montiel_ale.yml": {
-      "hash": "329d078e621087a6a6eb18b532622d47",
+      "hash": "ed733b2ac74ce7bda7fe5c162a164237",
       "output": "../docs/per/montiel_ale/index.html"
     },
     "./datos/artistas/salido_ricardo_omar.yml": {
-      "hash": "117b6cc374964f98b20c310a1d837c0c",
+      "hash": "6f25cd86938777550ac5839cd36d1fdd",
       "output": "../docs/per/salido_ricardo_omar/index.html"
     },
     "./datos/artistas/orensanz_marie.yml": {
-      "hash": "2759bf0958883c08b2b947a0baa918e3",
+      "hash": "73c48ef659560ae97c08432f2dcae5f6",
       "output": "../docs/per/orensanz_marie/index.html"
     },
     "./datos/artistas/zuniga_naime_anuar.yml": {
-      "hash": "f206530040857854c997c8857801e0f1",
+      "hash": "a96cd2f9799582e989231e1b1b322727",
       "output": "../docs/per/zuniga_naime_anuar/index.html"
     },
     "./datos/artistas/grippo_victor.yml": {
-      "hash": "7f798303619eff6cc6b5b9414ff668f9",
+      "hash": "ba0c4d56ab4489549f8dd9e732b80e68",
       "output": "../docs/per/grippo_victor/index.html"
     },
     "./datos/artistas/chio_angelica.yml": {
-      "hash": "3cb5ffeb80cce9346d34394923549092",
+      "hash": "443399692939fb209dbbcb0dbb9da7f8",
       "output": "../docs/per/chio_angelica/index.html"
     },
     "./datos/artistas/moraes_simone.yml": {
-      "hash": "d103446974290f384add7fa868b65030",
+      "hash": "c62e12a243b66114a1cdef23df3fe0a0",
       "output": "../docs/per/moraes_simone/index.html"
     },
     "./datos/artistas/macheratti_carlos_alberto.yml": {
-      "hash": "ca6f46c5d62ea4ec25950afab02b20d4",
+      "hash": "7f4d3fc959678cf15b726514541e06c2",
       "output": "../docs/per/macheratti_carlos_alberto/index.html"
     },
     "./datos/artistas/meitin_alejandro.yml": {
-      "hash": "5dd0cfb95bde6521f748f8ebb03c3614",
+      "hash": "e84672c376e8fa25e0268a2daf7ff554",
       "output": "../docs/per/meitin_alejandro/index.html"
     },
     "./datos/artistas/novarese_irina.yml": {
-      "hash": "a7bf6652dc5a5c6c7dd5e60225982355",
+      "hash": "30324f8dfe312a78dc6f7ea8d9c4c6c9",
       "output": "../docs/per/novarese_irina/index.html"
     },
     "./datos/artistas/golder_gabriela.yml": {
-      "hash": "3164ba4038c024c0777a555db445f63b",
+      "hash": "e58ad9f08c14014b387fdf44ed77fe7c",
       "output": "../docs/per/golder_gabriela/index.html"
     },
     "./datos/artistas/pujol_inti.yml": {
-      "hash": "227a8694126b049df9b1eb03d1894696",
+      "hash": "75248608d2278c0ee3c511571aac7ba6",
       "output": "../docs/per/pujol_inti/index.html"
     },
     "./datos/artistas/la_porfia_colectivo.yml": {
-      "hash": "b424ef1634357b8dc898897fcaa3dac1",
+      "hash": "a7d6459455969196627f6d7bdb9b1a7f",
       "output": "../docs/per/la_porfia_colectivo/index.html"
     },
     "./datos/artistas/del_olmo_javier.yml": {
-      "hash": "edf5cfeb98edc26217f2f7fc16525dd1",
+      "hash": "ffc7d485adbe9965528ee00b7727d0ae",
       "output": "../docs/per/del_olmo_javier/index.html"
     },
     "./datos/artistas/mura_monica.yml": {
-      "hash": "ddb9abd7acc342b1ea7a0b87fd1de663",
+      "hash": "c447c97510a706e3af7406d6a1c7bf7b",
       "output": "../docs/per/mura_monica/index.html"
     },
     "./datos/artistas/almeida_marcio.yml": {
-      "hash": "2b12f231e379d8b30352e8a51ae581f1",
+      "hash": "b12495f3ff496c14d0bf2c0822cb00b7",
       "output": "../docs/per/almeida_marcio/index.html"
     },
     "./datos/artistas/mugica_fernanda.yml": {
-      "hash": "151145e0f03a517ab061059e7cf83e48",
+      "hash": "48b01e9928503b79fc1b2ce01459fa9c",
       "output": "../docs/per/mugica_fernanda/index.html"
     },
     "./datos/artistas/machado_maria_jose.yml": {
-      "hash": "ae58883508d59e498bf112b8752e7522",
+      "hash": "6ebd35a3dafa3aacb5714a33c02d43dc",
       "output": "../docs/per/machado_maria_jose/index.html"
     },
     "./datos/artistas/la_lengua_en_la_calle.yml": {
-      "hash": "7a9a40245e1f73bb3228a7dd762c3a02",
+      "hash": "0031c8713b9a58a4c22e0329b1e2c76a",
       "output": "../docs/per/la_lengua_en_la_calle/index.html"
     },
     "./datos/artistas/bratfisch_miriam.yml": {
-      "hash": "1d345e143e27b62dffe84c6c59e5630c",
+      "hash": "def7f727a8bd64fcacff6fd57f11e15a",
       "output": "../docs/per/bratfisch_miriam/index.html"
     },
     "./datos/artistas/vilela_jimson.yml": {
-      "hash": "3d7eeadcd08722e9f5cf9593e3e962e9",
+      "hash": "039fbe4e13fd342009058291612e8ae7",
       "output": "../docs/per/vilela_jimson/index.html"
     },
     "./datos/sedes/maca.yml": {
-      "hash": "e4c6f9c631bd6fdfdb413ca0bc040741",
+      "hash": "3f1c1a701e647e4f229d4b186d2f4f82",
       "output": "../docs/sds/maca/index.html"
     },
     "./datos/sedes/colectivo_juana_azurduy.yml": {
-      "hash": "55034aca6d680076cbfd85761064b1c2",
+      "hash": "088b51921ae8ad78914a5d07ed1aa48d",
       "output": "../docs/sds/colectivo_juana_azurduy/index.html"
     },
     "./datos/sedes/unnoba_sum.yml": {
-      "hash": "463d8fa36f3a2337bb63417701f83aab",
+      "hash": "b61876191b7a4d59b069131fc6bd7933",
       "output": "../docs/sds/unnoba_sum/index.html"
     },
     "./datos/sedes/casa_negra.yml": {
-      "hash": "a808e5fc5848e9c71c811c99232d9f85",
+      "hash": "702fc0a321318d361e4c4bba48a48a81",
       "output": "../docs/sds/casa_negra/index.html"
     },
     "./datos/sedes/la_luz_buena.yml": {
-      "hash": "efddfcac43e3d9f72dcf5fed2032fe75",
+      "hash": "e53a4499cf71ec1821befc76b892bd41",
       "output": "../docs/sds/la_luz_buena/index.html"
     },
     "./datos/sedes/escuela_de_educacion_artistica_victor_grippo.yml": {
-      "hash": "88a38e93602781781cc37791741d497c",
+      "hash": "de1c8cd97aabee1321263b5311e24763",
       "output": "../docs/sds/escuela_de_educacion_artistica_victor_grippo/index.html"
     },
     "./datos/sedes/casa-taller_torviso-sarobe.yml": {
-      "hash": "db90458cf761e2fa52b64dbacf3a1993",
+      "hash": "c5eedaa21b47aee27826f69f9164c7c8",
       "output": "../docs/sds/casa-taller_torviso-sarobe/index.html"
     },
     "./datos/sedes/casa_popular_dante_balestro.yml": {
-      "hash": "f3b3a33367db18aa694259356dac3789",
+      "hash": "86cc5f1b66163627aaecdb68764e965c",
       "output": "../docs/sds/casa_popular_dante_balestro/index.html"
     },
     "./datos/sedes/unnoba_alicia_moreau_de_justo.yml": {
-      "hash": "1510e4452911fb0b4cc9841905b75f60",
+      "hash": "0a41f38cc3f12dd643838244e7ca0551",
       "output": "../docs/sds/unnoba_alicia_moreau_de_justo/index.html"
     },
     "./datos/sedes/espacio_galpon.yml": {
-      "hash": "4d6301da29d2c6158fc08b5d0a51f05a",
+      "hash": "9828e0ea631909c745063b1cab63a377",
       "output": "../docs/sds/espacio_galpon/index.html"
     },
     "./datos/sedes/dante_alighieri_junin.yml": {
-      "hash": "f237065afcf271136622a23e1f5f811f",
+      "hash": "3771407fe3cb5a4a5a477662f775cddd",
       "output": "../docs/sds/dante_alighieri_junin/index.html"
     },
     "./datos/sedes/museo_historico.yml": {
-      "hash": "83552deb85fc552121e18f2c9a9a35b7",
+      "hash": "a1961646184997b736defbcf0947a31e",
       "output": "../docs/sds/museo_historico/index.html"
     },
     "./datos/sedes/cluster_creativo.yml": {
-      "hash": "bc480bbd40ef9120cbdd416a68005282",
+      "hash": "0df294191d9a901e85b253173b61a39d",
       "output": "../docs/sds/cluster_creativo/index.html"
     },
     "./datos/sedes/par1000_aula_teatro.yml": {
-      "hash": "e20903725f9f66d635bf4d829ab3abf6",
+      "hash": "d46b96f8a9f6fb39cada3442431b0a04",
       "output": "../docs/sds/par1000_aula_teatro/index.html"
     },
     "./datos/sedes/escuela_de_teatro_gilberto_mesa.yml": {
-      "hash": "2a3e92c3e39f761ecae1f4742c622ad6",
+      "hash": "13e4862d2410f24197e9ebe8c9ea5183",
       "output": "../docs/sds/escuela_de_teatro_gilberto_mesa/index.html"
     },
     "./datos/sedes/biblioteca_paz_y_trabajo.yml": {
-      "hash": "28050a43338643bd5f12dfd6ad289f60",
+      "hash": "fcfac44d90dbd3119d4f504492cc05f5",
       "output": "../docs/sds/biblioteca_paz_y_trabajo/index.html"
     },
     "./datos/sedes/sol_del_llano.yml": {
-      "hash": "72b53b6d044d375d0b5728db32757ecb",
+      "hash": "ddc3417fb9e5cc01c21444c6226760a8",
       "output": "../docs/sds/sol_del_llano/index.html"
     },
     "./datos/sedes/centro_de_capacitacion_y_cultura_atsa.yml": {
-      "hash": "8d7b77854d0579d3a4259f935cbd5d83",
+      "hash": "0c23bd58220604eb29fb167ad6b96543",
       "output": "../docs/sds/centro_de_capacitacion_y_cultura_atsa/index.html"
     },
     "./datos/sedes/el_espacio.yml": {
-      "hash": "8de9266236ee65f3e307c942616aa51e",
+      "hash": "faef0c89960f872c55c6f62b8ede3427",
       "output": "../docs/sds/el_espacio/index.html"
     },
     "./datos/sedes/hotel_dada.yml": {
-      "hash": "b87b53942b5a0a722228ca49668cc1d7",
+      "hash": "04723800fa0e0ab6c10990f42d6ad0b5",
       "output": "../docs/sds/hotel_dada/index.html"
     },
     "./datos/sedes/704_oficina_de_arte.yml": {
-      "hash": "d4633f466a549d5fe4ea7f64f91f5597",
+      "hash": "55e2a10f85fe5efb74041885f9007c5f",
       "output": "../docs/sds/704_oficina_de_arte/index.html"
     },
     "./datos/sedes/horno_de_grippo.yml": {
-      "hash": "3a0cc91b5d378a6b25229af6d5226691",
+      "hash": "10369486653b6daa3ea18aafca0940db",
       "output": "../docs/sds/horno_de_grippo/index.html"
     },
     "./datos/sedes/pnlg.yml": {
-      "hash": "a8160a0e0720b37f1c96956ca3536def",
+      "hash": "9f2bd9cc102031c85b77cf59b7173863",
       "output": "../docs/sds/pnlg/index.html"
     },
     "./datos/sedes/espacio_panorama.yml": {
-      "hash": "58e8756a13a7e8b44a55ee985ceb5d93",
+      "hash": "309f72ec2d346425859c1d1881db8da1",
       "output": "../docs/sds/espacio_panorama/index.html"
     },
     "./datos/sedes/fundacion_casa_pronto.yml": {
-      "hash": "68e600026d704c20e8789a34bae6d34c",
+      "hash": "e07eecd4ce1dda1871947c987f591649",
       "output": "../docs/sds/fundacion_casa_pronto/index.html"
     },
     "./datos/sedes/escuela_de_arte_xul_solar.yml": {
-      "hash": "0f1c2530f65157f31af037386ad33555",
+      "hash": "a4718cb55d58c73d5c06d3cfb068fffa",
       "output": "../docs/sds/escuela_de_arte_xul_solar/index.html"
     },
     "./datos/sedes/centro_cultural_marea_cultura.yml": {
-      "hash": "c4443c847504ab979780f3009f720eca",
+      "hash": "16a3f35fd336598ac220e1be70ef8fc2",
       "output": "../docs/sds/centro_cultural_marea_cultura/index.html"
     },
     "./datos/bitacora/2026-04-29-22-20_victor_grippo.yml": {
-      "hash": "29e973f30647c5f4e7e4fe66e8de204f",
+      "hash": "77348890003817620611c8e451010814",
       "output": "../docs/bit/2026-04-29-22-20_victor_grippo/index.html"
     },
     "./datos/bitacora/2024-09-10-08-00_saco_y_posverso.yml": {
-      "hash": "e2b7745f2c13a425df2776052c3b94c2",
+      "hash": "78606475893b31bac99683742dcb6f7b",
       "output": "../docs/bit/2024-09-10-08-00_saco_y_posverso/index.html"
     },
+    "./datos/bitacora/2026-07-28-19-00_1_minute_de_autohypnosis.yml": {
+      "hash": "319137abbab5fbaa3b881cc5cd430105",
+      "output": "../docs/bit/2026-07-28-19-00_1_minute_de_autohypnosis/index.html"
+    },
     "./datos/bitacora/2026-02-04-16-00_antonio_caro.yml": {
-      "hash": "145f247b6cdf1eee9dff9f70750e0a31",
+      "hash": "5c4e2dd5175c0c8c1e7f37d17dc60db7",
       "output": "../docs/bit/2026-02-04-16-00_antonio_caro/index.html"
     },
     "./datos/bitacora/2024-08-22-22-30_inscripcion_mediadores.yml": {
-      "hash": "4ef76720994a8b9e591e4b0d4e3ce3b0",
+      "hash": "2adea37adc7db18541a3aea5c7c49bb3",
       "output": "../docs/bit/2024-08-22-22-30_inscripcion_mediadores/index.html"
     },
     "./datos/bitacora/2025-10-08-10-50_adios_a_clemente_padin.yml": {
-      "hash": "719dab556ba756cc14d952486c0d6f1f",
+      "hash": "ffe55ede4517d781664a7c9ff23d4977",
       "output": "../docs/bit/2025-10-08-10-50_adios_a_clemente_padin/index.html"
     },
+    "./datos/bitacora/2026-07-28-18-30_posverso_radio.yml": {
+      "hash": "07f7a91c7c73bb340f0ecde3224b2976",
+      "output": "../docs/bit/2026-07-28-18-30_posverso_radio/index.html"
+    },
     "./datos/bitacora/2024-10-05-01-00_homenaje_a_luis_pazos.yml": {
-      "hash": "65c93384923777112fed85a518e39c09",
+      "hash": "11f232fbb7bdbb132363232e69bb08f2",
       "output": "../docs/bit/2024-10-05-01-00_homenaje_a_luis_pazos/index.html"
     },
     "./datos/bitacora/2026-07-28-18-00_posverso_poliniza.yml": {
-      "hash": "ff8e16db2e8f0461a03502a09ffcc43c",
+      "hash": "63f8a51bd96749f642d0274e84f476cb",
       "output": "../docs/bit/2026-07-28-18-00_posverso_poliniza/index.html"
     },
     "./datos/bitacora/2024-06-01-21-00_posverso_de_interes_municipal_y_cultural.yml": {
-      "hash": "8a7cdd27debb08d6e7700c6c4f317a06",
+      "hash": "d01efb995dfe230ca9bf1aab64abb683",
       "output": "../docs/bit/2024-06-01-21-00_posverso_de_interes_municipal_y_cultural/index.html"
     },
     "./datos/bitacora/2026-05-06-23-15_radioarte_seleccionados.yml": {
-      "hash": "9a8b9f692d18b0004b4e401fba898a80",
+      "hash": "630f30b13290547f5d83c8d1c9c021ec",
       "output": "../docs/bit/2026-05-06-23-15_radioarte_seleccionados/index.html"
     },
     "./datos/bitacora/2024-04-25-17-30_presentacion_vigo.yml": {
-      "hash": "738a163e09f9382558f6b7fc3374fa99",
+      "hash": "163e689dab8675d4b8a3f200079bd08e",
       "output": "../docs/bit/2024-04-25-17-30_presentacion_vigo/index.html"
     },
     "./datos/bitacora/2024-04-29-17-30_programa_completo.yml": {
-      "hash": "e4c9ee61dbd41ce83c7b3d91e69b788d",
+      "hash": "e60165e2c0f0965de987ae2aabe52f4b",
       "output": "../docs/bit/2024-04-29-17-30_programa_completo/index.html"
     },
     "./datos/bitacora/2025-11-15-13-30_poeticas_ancestrales.yml": {
-      "hash": "c23a1dee20c9a6267b8bdf709b287df3",
+      "hash": "9e340e41bcb445f3e545d30bd8d687fc",
       "output": "../docs/bit/2025-11-15-13-30_poeticas_ancestrales/index.html"
     },
     "./datos/bitacora/2024-12-10-17-00_bienal_saco.yml": {
-      "hash": "33b98534991066694951f5dc12cb0341",
+      "hash": "d8f7cf7578de4711bb628ee3b22e850c",
       "output": "../docs/bit/2024-12-10-17-00_bienal_saco/index.html"
     },
     "./datos/bitacora/2024-02-14-21-00_open_call.yml": {
-      "hash": "0ae215ad51bb9ff1ca4911ebf99c6abc",
+      "hash": "5bf7beca2db0dd4c7d417e5b9cfdb14f",
       "output": "../docs/bit/2024-02-14-21-00_open_call/index.html"
     },
     "./datos/bitacora/2024-06-04-14-30_raventois_programa_educativo.yml": {
-      "hash": "ca9f963aae95e4975dd46002d18f55d9",
+      "hash": "25d3e5f00ed5bc456859b2a57107ba5a",
       "output": "../docs/bit/2024-06-04-14-30_raventois_programa_educativo/index.html"
     },
     "./datos/bitacora/2024-02-14-22-00_mailart_poetry.yml": {
-      "hash": "48246dd575751f2f4983ba3e2732dfe6",
+      "hash": "f8afacae53cecce0a004631d44a7917c",
       "output": "../docs/bit/2024-02-14-22-00_mailart_poetry/index.html"
     },
     "./datos/bitacora/2024-05-25-23-59_preseleccionados_de_convocatoria.yml": {
-      "hash": "40b5a51450b21d1d7a606f47052b3033",
+      "hash": "4f6caa27b6dff54fac3b2376b91c455f",
       "output": "../docs/bit/2024-05-25-23-59_preseleccionados_de_convocatoria/index.html"
     },
     "./datos/bitacora/2024-08-20-00-00_jornadas_de_capacitacion.yml": {
-      "hash": "bfc1d302582abb747d0b902d966ad904",
+      "hash": "4583623f607bf3343e809a1e7aad64e8",
       "output": "../docs/bit/2024-08-20-00-00_jornadas_de_capacitacion/index.html"
     },
     "./datos/bitacora/2026-05-03-17-00_lanzamiento_2026.yml": {
-      "hash": "f84e551cb4c84197370d8d8bbeee55f6",
+      "hash": "9ce722c307cb8b2a962f5a55af187fd8",
       "output": "../docs/bit/2026-05-03-17-00_lanzamiento_2026/index.html"
     },
     "./datos/bitacora/2024-06-29-10-00_inicio_programa_educativo.yml": {
-      "hash": "a7dfa88de04963c8fd9e592fa5bce18c",
+      "hash": "f9d93c00d207d875e37c58274829b573",
       "output": "../docs/bit/2024-06-29-10-00_inicio_programa_educativo/index.html"
     },
     "./datos/bitacora/2025-09-18-17-00_bienal_do_sertao.yml": {
-      "hash": "029b558ed0bcd475726945aa74204de6",
+      "hash": "e746bdc81dd159bf3968dc83a53cc983",
       "output": "../docs/bit/2025-09-18-17-00_bienal_do_sertao/index.html"
     },
     "./datos/bitacora/2024-02-14-23-00_utsanga.yml": {
-      "hash": "8c05c57febd462d86376da46f1a5d7b6",
+      "hash": "408607f73acf6f06f2fc0ca1d2d36466",
       "output": "../docs/bit/2024-02-14-23-00_utsanga/index.html"
     },
     "./datos/bitacora/2024-12-14-10-00_poetry_bank.yml": {
-      "hash": "11ff8339d917e02eb0b2acaf561c7711",
+      "hash": "5a443bbf318b3fb933678d00b23e92e2",
       "output": "../docs/bit/2024-12-14-10-00_poetry_bank/index.html"
     },
     "./datos/bitacora/2024-07-13-04-00_cronograma_completo.yml": {
-      "hash": "23173d98cdd9743666f2bdf8b1ef07e8",
+      "hash": "b94b7cc2986db59ace260bb0e3143ea0",
       "output": "../docs/bit/2024-07-13-04-00_cronograma_completo/index.html"
     },
     "./datos/bitacora/2025-08-25-16-00_vigo_volumen_2.yml": {
-      "hash": "daf1e4d77b312990983ed1707358b758",
+      "hash": "5f961d5cd1200664fcfc8e13942e9abd",
       "output": "../docs/bit/2025-08-25-16-00_vigo_volumen_2/index.html"
     },
     "./datos/bitacora/2024-05-05-15-00_programa_educativo.yml": {
-      "hash": "2932923a81d2822b1a94cae5f28baacf",
+      "hash": "cc628b540d136162d3b6e5797d46f9ed",
       "output": "../docs/bit/2024-05-05-15-00_programa_educativo/index.html"
     },
     "./datos/bitacora/2026-02-20-15-00_radioart_opencall.yml": {
-      "hash": "a9707c8d9e94e7b99a86a55dc337a187",
+      "hash": "f473447a7fc595d4f05b89eb48ec35f1",
       "output": "../docs/bit/2026-02-20-15-00_radioart_opencall/index.html"
     },
     "./datos/bitacora/2024-03-28-01-00_vigo.yml": {
-      "hash": "485972e1b1e08e005d7f388c67ddcc18",
+      "hash": "00816e6a3c1ae882acfc34df3847caa1",
       "output": "../docs/bit/2024-03-28-01-00_vigo/index.html"
     },
     "./datos/bitacora/2024-10-05-00-30_libro_catalogo.yml": {
-      "hash": "56ec579469567e1e01fb916f795f4364",
+      "hash": "435de2cec5c045fe5ee56b58ecec75b3",
       "output": "../docs/bit/2024-10-05-00-30_libro_catalogo/index.html"
     },
     "./datos/bitacora/2024-10-04-00-00_poeticas_de_la_resistencia.yml": {
-      "hash": "693164ad53c0e141e7d1cd797def5879",
+      "hash": "4404c5b8de6bd74cd7d1454dd43c1235",
       "output": "../docs/bit/2024-10-04-00-00_poeticas_de_la_resistencia/index.html"
     },
     "./datos/bitacora/2025-02-18-18-35_posverso_en_milan.yml": {
-      "hash": "862f6fec6d4bd689baec405073680497",
+      "hash": "65833e83d767cea74ab8693da0990184",
       "output": "../docs/bit/2025-02-18-18-35_posverso_en_milan/index.html"
     },
     "./datos/bitacora/2026-04-29-22-10_docks.yml": {
-      "hash": "63dad54945d798088e7154c627c7d0b1",
+      "hash": "f0767f72858a5d063f50ae3a8e0da742",
       "output": "../docs/bit/2026-04-29-22-10_docks/index.html"
     },
     "./datos/bitacora/2024-03-27-01-00_be_cult.yml": {
-      "hash": "d1538b9f315387ad537f744959e42d88",
+      "hash": "d1a67a0a1fff8e3cd985f09635dad0b8",
       "output": "../docs/bit/2024-03-27-01-00_be_cult/index.html"
     },
     "./datos/bitacora/2024-12-06-16-00_mail_art_day.yml": {
-      "hash": "5ef2340586753e988e0f7be573766051",
+      "hash": "ee75808888ba7d5ba298d8e742f88bb6",
       "output": "../docs/bit/2024-12-06-16-00_mail_art_day/index.html"
     },
     "./datos/bitacora/2024-03-25-08-00_resist_exist.yml": {
-      "hash": "a815e0711578a297bba3741acf629122",
+      "hash": "ac16e644dfeca976cff556fb43311f56",
       "output": "../docs/bit/2024-03-25-08-00_resist_exist/index.html"
     },
     "./datos/bitacora/2026-07-08-03-00_contratextos_y_contraescrituras.yml": {
-      "hash": "831ce1cd25665bfaa1f5e7213ef7e8b6",
+      "hash": "fbefd64b62e53becccffac0665ceabcf",
       "output": "../docs/bit/2026-07-08-03-00_contratextos_y_contraescrituras/index.html"
     },
     "./datos/bitacora/2024-06-17-17-00_listado_de_artistas_seleccionados.yml": {
-      "hash": "d34c4970d135d6742e391b28270369ca",
+      "hash": "7557970aa569625d9065d0d983bb5fae",
       "output": "../docs/bit/2024-06-17-17-00_listado_de_artistas_seleccionados/index.html"
     },
     "./datos/bitacora/2025-04-28-22-00_interiormente_marie_orenzans.yml": {
-      "hash": "d15b1cb17f6882af2d73a92a337a65a3",
+      "hash": "cb873822b8c27e4adca68ec8e28069d8",
       "output": "../docs/bit/2025-04-28-22-00_interiormente_marie_orenzans/index.html"
     },
     "./datos/bitacora/2024-09-02-20-00_muestra_clemente_padin.yml": {
-      "hash": "0d7f24e316b4393b6f02114872aa7948",
+      "hash": "014642ae603af1b1920f1074247d11ac",
       "output": "../docs/bit/2024-09-02-20-00_muestra_clemente_padin/index.html"
     },
     "./datos/bitacora/2026-05-23-09-30_musica_de_ruidos.yml": {
-      "hash": "a87d89f277618c89a8c9452b2ae78b17",
+      "hash": "afa470a9e0b02abcacc16889a68d5620",
       "output": "../docs/bit/2026-05-23-09-30_musica_de_ruidos/index.html"
     },
     "./datos/bitacora/2024-08-29-00-00_talleres.yml": {
-      "hash": "4ad07be44f98af9708d2d3377aead3c2",
+      "hash": "b47459068ea6b747542941e0b2be2c70",
       "output": "../docs/bit/2024-08-29-00-00_talleres/index.html"
     },
     "./datos/bitacora/2025-01-20-19-00_en_artishock.yml": {
-      "hash": "26edecc2ed1c9e04676f92aadad1b7be",
+      "hash": "c03b5841fcca1147c201a8e4ac3c0252",
       "output": "../docs/bit/2025-01-20-19-00_en_artishock/index.html"
     },
     "./datos/bitacora/2025-12-31-15-30_artistas_2026.yml": {
-      "hash": "c4476907c16ed5a9a5f0af49f757b80d",
+      "hash": "f5f6a577dc6c299f53f581c6926ea624",
       "output": "../docs/bit/2025-12-31-15-30_artistas_2026/index.html"
     },
     "./datos/bitacora/2025-09-23-18-30_posverso_2026.yml": {
-      "hash": "f2d25984e9612de425442bb33732c8d6",
+      "hash": "d5011ce4ae87e22771f4cfada6ca3718",
       "output": "../docs/bit/2025-09-23-18-30_posverso_2026/index.html"
     },
     "./datos/publicaciones/material_didactico__arte_moderno_y_contemporaneo.yml": {
-      "hash": "072fb3251fffbad597ce55c198161a37",
+      "hash": "02e9a9ea2e1d02669948b371432e5336",
       "output": "../docs/pub/material_didactico__arte_moderno_y_contemporaneo/index.html"
     },
     "./datos/publicaciones/revista_hotel_dada_n_16.yml": {
-      "hash": "42e11849b27e4a17c3020c99a2631e47",
+      "hash": "f77389777e5528ec35643948731577ba",
       "output": "../docs/pub/revista_hotel_dada_n_16/index.html"
     },
     "./datos/publicaciones/material_didactico__poesia_y_accion.yml": {
-      "hash": "48867a298c6056de7e36a1c0bd4ad51d",
+      "hash": "e22afc86c24c2b8b571f6bf1b7118634",
       "output": "../docs/pub/material_didactico__poesia_y_accion/index.html"
     },
     "./datos/publicaciones/cuerpo_escritura_y_arte_sonoro.yml": {
-      "hash": "251c1bbec12458e331acdec5f2577e2a",
+      "hash": "6be25c218ab018d9b2259d465d16713d",
       "output": "../docs/pub/cuerpo_escritura_y_arte_sonoro/index.html"
     },
     "./datos/publicaciones/mad_2024.yml": {
-      "hash": "3a7ad16feaeb9b4d03d40fc85e442b83",
+      "hash": "d150828bc8d1d3237f3b04d5caa17af7",
       "output": "../docs/pub/mad_2024/index.html"
     },
     "./datos/publicaciones/vigo_volumen_1.yml": {
-      "hash": "437a9589368123bcba91addfdc8c7fce",
+      "hash": "8705ee2935ae94c926f172a35ce61a42",
       "output": "../docs/pub/vigo_volumen_1/index.html"
     },
     "./datos/publicaciones/material_didactico__poeticas_sonoras.yml": {
-      "hash": "34a7648e8767bed32b7fb864e126d1b7",
+      "hash": "5625904d8aff73e7daf714525032817d",
       "output": "../docs/pub/material_didactico__poeticas_sonoras/index.html"
     },
     "./datos/publicaciones/verbovisualidad_oriental_y_america_verbovisual.yml": {
-      "hash": "4561d2a434f4563490a84a51f0dcd1a9",
+      "hash": "65b8a182ba9571c272ef4e05046f8956",
       "output": "../docs/pub/verbovisualidad_oriental_y_america_verbovisual/index.html"
     },
     "./datos/publicaciones/material_didactico__poesia_visual.yml": {
-      "hash": "530534d2c23040e9b049ef274c1d1472",
+      "hash": "d5041dadfc5975c4e4f3b606e61d32a4",
       "output": "../docs/pub/material_didactico__poesia_visual/index.html"
     },
     "./datos/publicaciones/revista_hotel_dada_n_17_18.yml": {
-      "hash": "6a94b557094d5a0cf4fd38444ba65b62",
+      "hash": "ff38c657f7165f587bb67358124f3878",
       "output": "../docs/pub/revista_hotel_dada_n_17_18/index.html"
     },
     "./datos/mediacion_educativa/2024-08-13-00-00__jornadas_de_capacitacion.yml": {
-      "hash": "3d475031594c085ea9923d17725c6ac6",
+      "hash": "2b4ec7b2d3fbf683481fb12f28443ad0",
       "output": "../docs/edu/2024-08-13-00-00__jornadas_de_capacitacion/index.html"
     },
     "./datos/mediacion_educativa/2024-06-27-08-30__inicio_programa_educativo.yml": {
-      "hash": "03076c8b313b775444ca3ab41a790af5",
+      "hash": "2aef4aecd14a36dfd1d17bc49ff80ee4",
       "output": "../docs/edu/2024-06-27-08-30__inicio_programa_educativo/index.html"
     },
     "./datos/mediacion_educativa/2024-09-23-18-00__capacitacion_en_instituto_129.yml": {
-      "hash": "d8314184c5ef8b2f9efb9a26f3c8acf8",
+      "hash": "d1723261e32bb45f93d0b2c61f3d60cb",
       "output": "../docs/edu/2024-09-23-18-00__capacitacion_en_instituto_129/index.html"
     },
     "./datos/mediacion_educativa/2024-06-26-08-00__aproximacion_a_la_poesia_experimental.yml": {
-      "hash": "8bff124112247359e7237fda9ed98398",
+      "hash": "ff030550607353647f90f667443aeecc",
       "output": "../docs/edu/2024-06-26-08-00__aproximacion_a_la_poesia_experimental/index.html"
     },
     "./datos/paginas/2024_eje_tematico.yml": {
-      "hash": "e7a491c3e53c0535e02dc316b03d5801",
+      "hash": "9bc5eca99ba6858371688c47064eab94",
       "output": "../docs/pag/eje_tematico_2024/index.html"
     },
     "./datos/paginas/2024_exhibicion_12_videobardo.yml": {
-      "hash": "91288a0943cdf9e35dda1d14d2077cc1",
+      "hash": "5fc915e1a348ff75169b7ec6eab10307",
       "output": "../docs/pag/exhibicion_videobardo/index.html"
     },
     "./datos/paginas/2026_equipo.yml": {
-      "hash": "381a28123e19b632ff81e6c280975ca4",
+      "hash": "9b9e1b49947aa9e709fc0efa0adc5cde",
       "output": "../docs/pag/equipo_bienal_2026/index.html"
     },
     "./datos/paginas/2024_exhibicion_11_marginalia.yml": {
-      "hash": "06283572f0d46182447a4aa90f553548",
+      "hash": "24a5797ec6c26db406e162612ea3089a",
       "output": "../docs/pag/exhibicion_marginalia/index.html"
     },
     "./datos/paginas/bitacora.yml": {
-      "hash": "45740d72cda295127b054d8658c412e1",
+      "hash": "0fd60c61e247d27c2d76419ccc331a05",
       "output": "../docs/bit/index.html"
     },
     "./datos/paginas/prensa.yml": {
-      "hash": "9778788040c61fb9edd31f8340ab03e5",
+      "hash": "af1652b4a3ebcea57361c3da25b2c46c",
       "output": "../docs/pag/prensa/index.html"
     },
     "./datos/paginas/2024_artistas.yml": {
-      "hash": "e3bcd99ca81b83fb949add88c9a75299",
+      "hash": "fea4bbb66f1f5b592cc9c37e67941aa1",
       "output": "../docs/pag/artistas_2024/index.html"
     },
     "./datos/paginas/2024_exhibicion_05_viva_palestina_viva.yml": {
-      "hash": "f359574d6d2e83c6e137aa4f0f70eebc",
+      "hash": "17ebf8063bcafe7c105d9f03f40bcae9",
       "output": "../docs/pag/exhibicion_viva_palestina_viva/index.html"
     },
     "./datos/paginas/2024_sala-poeticas_electronicas.yml": {
-      "hash": "9be1ad565672de6bd81da26d6dc00f27",
+      "hash": "8a7936543d9f8a52db2aec5673902ac5",
       "output": "../docs/pag/sala-poeticas_electronicas_2024/index.html"
     },
     "./datos/paginas/2024_cronograma.yml": {
-      "hash": "8f83a523a1acaa42579955c340f637bb",
+      "hash": "4fe8a69b03e38a7adf5155035c28cc80",
       "output": "../docs/pag/cronograma_2024/index.html"
     },
     "./datos/paginas/2024_artistas_homenajeados.yml": {
-      "hash": "8b2850f29a68c67704d81f9cbfa01172",
+      "hash": "702d8b1d2ef920a1557360935c9ffc60",
       "output": "../docs/pag/artistas_homenajeados_2024/index.html"
     },
     "./datos/paginas/2024_exhibicion_grupo_acciones_performances.yml": {
-      "hash": "17c24e5822880e8539a59b21fcd9e755",
+      "hash": "7b5a5cfa8c8c61c65a0af76a2be413a3",
       "output": "../docs/pag/exhibiciones_acciones_y_performances_2024/index.html"
     },
     "./datos/paginas/portada.yml": {
-      "hash": "e0fe808cbb507b95e557cc4b179def60",
+      "hash": "b622448e34526a929143a5d0780493c1",
       "output": "../docs/index.html"
     },
     "./datos/paginas/error_404.yml": {
-      "hash": "b68f6533d5692d277e1825614513f307",
+      "hash": "2a59589b661a243b0dc202be472c62a1",
       "output": "../docs/404.html"
     },
     "./datos/paginas/2024_exhibicion_09_videopoeticas.yml": {
-      "hash": "6c8f5941b47f676d242a55e9b9920d9c",
+      "hash": "22e7b56af35f29d39d9f659be0a8f435",
       "output": "../docs/pag/exhibicion_videopoeticas/index.html"
     },
     "./datos/paginas/2024_sedes.yml": {
-      "hash": "418cf8115385d47ae23c3a2263f9c638",
+      "hash": "acfd80f804ffed06c7a5d0fb4766d1f6",
       "output": "../docs/pag/sedes_2024/index.html"
     },
     "./datos/paginas/publicaciones.yml": {
-      "hash": "41497e622edf256553d3f88aae7334c4",
+      "hash": "14ed6a986fd0f059d84efe63e26ea683",
       "output": "../docs/pag/publicaciones/index.html"
     },
     "./datos/paginas/contacto.yml": {
-      "hash": "6b4567751e07e0640d6ea1936c5a6910",
+      "hash": "ed73ba492acdaf8b8f1dcd8a2f960eca",
       "output": "../docs/pag/contacto/index.html"
     },
     "./datos/paginas/2026_sedes.yml": {
-      "hash": "8c71192d427bfebd28786689526fdeaa",
+      "hash": "b08a26ffd2df4aebce863b46eaed1609",
       "output": "../docs/pag/sedes_2026/index.html"
     },
     "./datos/paginas/2026_artistas.yml": {
-      "hash": "9d93e3714ec160c3c8f9fae057b3c5ae",
+      "hash": "381dc0d796addbdf91667a79f7109b25",
       "output": "../docs/pag/artistas_2026/index.html"
     },
     "./datos/paginas/acerca_de_la_bienal.yml": {
-      "hash": "bbe330c35c7af8befbc7bfbed023d85a",
+      "hash": "b499ec3c45ebc0c152ebca67e40c1a94",
       "output": "../docs/pag/acerca_de_la_bienal/index.html"
     },
     "./datos/paginas/2026_eje_tematico.yml": {
-      "hash": "4c862512f669240ac26c1aadd9b616d5",
+      "hash": "6b3095b893289372fa72efc2abd99a8d",
       "output": "../docs/pag/eje_tematico_2026/index.html"
     },
     "./datos/paginas/2024_exhibicion_03_el_coleccionista_de_oficios_ricardo_salido.yml": {
-      "hash": "d834329477154c83d99e1d9a15b032b1",
+      "hash": "cb947db4f6488dd5a9a1fa4e462becae",
       "output": "../docs/pag/exhibicion_el_coleccionista_de_oficios_ricardo_salido/index.html"
     },
     "./datos/paginas/2024_equipo_curatorial.yml": {
-      "hash": "c0c2bea336f5573f5ff2d348bd03d808",
+      "hash": "11dfbddbce099e564c9ad7a9f7380f34",
       "output": "../docs/pag/equipo_curatorial_2024/index.html"
     },
     "./datos/paginas/2026_radio_art_opencall.yml": {
-      "hash": "6196fa9cf0142121ffa32b707afed738",
+      "hash": "7dda208bc421950bbea925d5e38f6607",
       "output": "../docs/pag/2026_radio_art_opencall/index.html"
     },
     "./datos/paginas/2024_exhibicion_07_espacio_liminar.yml": {
-      "hash": "0d2f441ffdea4f5789c8abfd01025769",
+      "hash": "6a0e9b216300be157cbf24c704a2d074",
       "output": "../docs/pag/exhibicion_poesia_liminar/index.html"
     },
     "./datos/paginas/2024_exhibicion_02_capsula_sonora.yml": {
-      "hash": "2e65e8def0c812392f8009049119bb1f",
+      "hash": "dd67e2d18e1500691c21087baa1ccb4d",
       "output": "../docs/pag/exhibicion_capsula_sonora/index.html"
     },
     "./datos/paginas/2024_exhibiciones.yml": {
-      "hash": "811d089fec18b191948d206b02801fe0",
+      "hash": "5cb01b84e7ff0e491494cf02341fa169",
       "output": "../docs/pag/exhibiciones_2024/index.html"
     },
     "./datos/paginas/2024_exhibicion_08_mail_art_poetry.yml": {
-      "hash": "34c2021654d55951b82af8ff2e0a0b55",
+      "hash": "c5242efe498dac475cd90bfb6dca5764",
       "output": "../docs/pag/exhibicion_mail_art_poetry/index.html"
     },
     "./datos/paginas/2024_evento_teorico.yml": {
-      "hash": "1937d9b99ca58534152e210dded3b8fd",
+      "hash": "15141df9d6371df57734131b676e82d7",
       "output": "../docs/pag/evento_teorico_2024/index.html"
     },
     "./datos/paginas/2026_programa.yml": {
-      "hash": "c7640132ecae4eeec40a9fae7db44e5a",
+      "hash": "74818a5a9d34ba3e03df52f398c36dab",
       "output": "../docs/pag/programa_2026/index.html"
     },
     "./datos/paginas/socios.yml": {
-      "hash": "d22fd083666100741c83217705e5f083",
+      "hash": "1a8dd88bcfddafd8de06cdee9520ff5e",
       "output": "../docs/pag/socios/index.html"
     },
     "./datos/paginas/2024_exhibicion_grupo_poesiafonetica_artesonoro.yml": {
-      "hash": "7a658b5097be35ab929b176f15920b04",
+      "hash": "4b595a5332e3e5a3c863d1bc0f310718",
       "output": "../docs/pag/exhibiciones_poesia_fonetica_y_arte_sonoro_2024/index.html"
     },
     "./datos/paginas/2024_exhibicion_06_la_poetica_de_la_aridez.yml": {
-      "hash": "280d135cd0286ec6ed0c0ca4641ca1cc",
+      "hash": "c5abf52c4da3616ceef3bba06836fc06",
       "output": "../docs/pag/exhibicion_la_poetica_de_la_aridez/index.html"
     },
     "./datos/paginas/2024_educativo.yml": {
-      "hash": "144ef9736889647803ce0ad542aaff4c",
+      "hash": "94a2336fec995831d08e7a3eb5f86b3a",
       "output": "../docs/pag/mediacion_educativa_2024/index.html"
     },
     "./datos/paginas/2024_exhibicion_01_poeticas_de_la_resistencia.yml": {
-      "hash": "6532b675e5d9408027722214a3d14088",
+      "hash": "d34299e21d6426ce68fea4da741f724d",
       "output": "../docs/pag/exhibicion_poeticas_de_la_resistencia/index.html"
     },
     "./datos/paginas/2026_kit_prensa.yml": {
-      "hash": "5af4236e5a1600225f18db7eb8d730c0",
+      "hash": "8226e192f768d854a7cda365749f11f3",
       "output": "../docs/pag/2026_kit_prensa/index.html"
     },
     "./datos/paginas/2024_socios.yml": {
-      "hash": "93e87065866f8a289e374fcc40a4b46c",
+      "hash": "df5b6d9714198017e2e3bb16b851d745",
       "output": "../docs/pag/2024_socios/index.html"
     },
     "./datos/paginas/2024_exhibicion_04_resist_exist.yml": {
-      "hash": "890378094dcb0e1e86a53adccad43d7b",
+      "hash": "476b95a3f1591dc6413158f3849fc7e0",
       "output": "../docs/pag/exhibicion_resist_exist/index.html"
     },
     "./datos/paginas/2024_bienal.yml": {
-      "hash": "de57b903297220f3391b7f595ac77840",
+      "hash": "19879ca880618430d7c84853c0cc778b",
       "output": "../docs/pag/bienal_2024/index.html"
     },
     "./datos/paginas/2026_equipo_curatorial.yml": {
-      "hash": "1a8bc06cd2959e17e9be43995c50f676",
+      "hash": "2619cc5fc5a93e628145fafadaba4269",
       "output": "../docs/pag/equipo_curatorial_2026/index.html"
     },
     "./datos/paginas/videos.yml": {
-      "hash": "72f75603af2d04238787026a510de8f8",
+      "hash": "f3acb45db279238feb9015c4a3628752",
       "output": "../docs/pag/videos/index.html"
     },
     "./datos/paginas/2024_exhibicion_10_incitaciones_para_ver.yml": {
-      "hash": "96e0834f05bb95c493fdedecef5052a7",
+      "hash": "a97f8f152d708dcd477c1077cdfdb68c",
       "output": "../docs/pag/exhibicion_incitaciones_para_ver/index.html"
     },
     "./datos/permanente/hoteldadabase_web.yml": {
-      "hash": "b0f784e3e08386f471a3630fabdb1fa2",
+      "hash": "8bdf79eccdc4ad4ada05e0bc6966ecf0",
       "output": "../docs//perm/hoteldadabase/index.html"
     },
     "./datos/permanente/vigo2_texto_en_espanol.yml": {
-      "hash": "3ae56240642738095de5584f1eb3c5f6",
+      "hash": "9d138b7a185f52e53edaddd6be5881c5",
       "output": "../docs//perm/vigo2_esp/index.html"
     },
     "./datos/obras/pe-sonie.yml": {
-      "hash": "eed3f6cdcdfadb97944b813cd0dd17fa",
+      "hash": "32aafbc4cc5816ebb05bc9d0f746a24b",
       "output": "../docs/obr/pe-sonie/index.html"
     },
     "./datos/obras/pe-pieldigital.yml": {
-      "hash": "71dda66c30dd197df4ee64654e16fe1c",
+      "hash": "7de37a78832470667d59256354823c1c",
       "output": "../docs/obr/pe-pieldigital/index.html"
     },
     "./datos/obras/pe-pronombres.yml": {
-      "hash": "78d11077ee3e2e6856e7ac885168d643",
+      "hash": "472b16b204481b8910b996794dd71734",
       "output": "../docs/obr/pe-pronombres/index.html"
     },
     "./datos/obras/pe-monitron2020.yml": {
-      "hash": "c9fd3c468214182c4b42be38fdeb7ed6",
+      "hash": "4aae09ccfa7d48872f5874fea6480424",
       "output": "../docs/obr/pe-monitron2020/index.html"
     },
     "./datos/obras/pe-scrappy.yml": {
-      "hash": "7556aea261b28dcb5bf6e35d574d1244",
+      "hash": "c759575a33d06471986f3c6e0b7b3749",
       "output": "../docs/obr/pe-scrappy/index.html"
     }
   },
   "templates": "f3c8d6e88ce129badba5b4d0a88d81fb",
-  "globals": "8ae63a5ead7fe7ccafdd512bdc65be59",
+  "globals": "ebbf3132acbb6117119003dfdfb13397",
   "outputs": [
     "../docs/per/montenegro_ana__e/index.html",
     "../docs/per/macheratti_carlos_alberto__e/index.html",
@@ -1383,9 +1391,11 @@
     "../docs/sds/centro_cultural_marea_cultura/index.html",
     "../docs/bit/2026-04-29-22-20_victor_grippo/index.html",
     "../docs/bit/2024-09-10-08-00_saco_y_posverso/index.html",
+    "../docs/bit/2026-07-28-19-00_1_minute_de_autohypnosis/index.html",
     "../docs/bit/2026-02-04-16-00_antonio_caro/index.html",
     "../docs/bit/2024-08-22-22-30_inscripcion_mediadores/index.html",
     "../docs/bit/2025-10-08-10-50_adios_a_clemente_padin/index.html",
+    "../docs/bit/2026-07-28-18-30_posverso_radio/index.html",
     "../docs/bit/2024-10-05-01-00_homenaje_a_luis_pazos/index.html",
     "../docs/bit/2026-07-28-18-00_posverso_poliniza/index.html",
     "../docs/bit/2024-06-01-21-00_posverso_de_interes_municipal_y_cultural/index.html",
@@ -1491,5 +1501,5 @@
     "../docs/obr/pe-scrappy/index.html"
   ],
   "cfg_js_hash": "2e468cc48a8bd82d612d58ef3a2ff085",
-  "rec_js_hash": "dde8809ed9f6d4f09718e457b3419777"
+  "rec_js_hash": "be44110080b6e10063c100074b2fb170"
 }
