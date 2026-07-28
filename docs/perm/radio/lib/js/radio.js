@@ -10,6 +10,8 @@
 // Configuracion
 // ============================================================
 
+/* https://giss.tv/player/earp.php?url=https://giss.tv:666/posversoradio.ogg */
+
 var CONFIG = {
     streamUrl: 'https://giss.tv:666/posversoradio.ogg',
     catalogUrl: 'data/catalogo.json',
@@ -281,22 +283,23 @@ function resetStall() {
 // ============================================================
 
 function init() {
-    elStatusDot    = document.getElementById('status-dot');
-    elStatusText   = document.getElementById('status-text');
-    elTrackNumber  = document.getElementById('track-number');
-    elTrackTitle   = document.getElementById('track-title');
-    elTrackArtist  = document.getElementById('track-artist');
-    elDiscName     = document.getElementById('disc-name');
-    elDiscDate     = document.getElementById('disc-date');
-    elDiscUrl      = document.getElementById('disc-url');
-    elFicha        = document.getElementById('ficha');
-    elBtnPlay      = document.getElementById('btn-play');
-    elPlayerControls = document.getElementById('player-controls');
-    elBtnToggle    = document.getElementById('btn-toggle');
-    elVolSlider    = document.getElementById('vol-slider');
-    elVolIcon      = document.getElementById('vol-icon');
-    elTimeDisplay  = document.getElementById('time-display');
-    elAudio        = document.getElementById('radio');
+    //radiosource.src   = CONFIG.streamUrl;
+    elStatusDot       = document.getElementById('status-dot');
+    elStatusText      = document.getElementById('status-text');
+    elTrackNumber     = document.getElementById('track-number');
+    elTrackTitle      = document.getElementById('track-title');
+    elTrackArtist     = document.getElementById('track-artist');
+    elDiscName        = document.getElementById('disc-name');
+    elDiscDate        = document.getElementById('disc-date');
+    elDiscUrl         = document.getElementById('disc-url');
+    elFicha           = document.getElementById('ficha');
+    elBtnPlay         = document.getElementById('btn-play');
+    elPlayerControls  = document.getElementById('player-controls');
+    elBtnToggle       = document.getElementById('btn-toggle');
+    elVolSlider       = document.getElementById('vol-slider');
+    elVolIcon         = document.getElementById('vol-icon');
+    elTimeDisplay     = document.getElementById('time-display');
+    elAudio           = document.getElementById('radio');
 
     // Iconos iniciales
     elBtnToggle.innerHTML = ICON_PAUSE;
