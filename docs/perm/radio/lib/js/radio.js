@@ -409,6 +409,9 @@ function init() {
 
     // Catalogo
     loadCatalog();
+
+    // Elemento en foco
+    elBtnPlay.focus();
 }
 
 document.addEventListener('DOMContentLoaded', init);
