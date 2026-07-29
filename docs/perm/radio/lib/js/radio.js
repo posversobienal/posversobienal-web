@@ -15,7 +15,7 @@ var CONFIG = {
     mount: 'posversoradio.ogg',
     ports: [666, 667],          // orden de prioridad
     catalogUrl: 'data/catalogo.json',
-    statsInterval: 15,
+    statsInterval: 5,
     reconnectDelay: 5000,
     stallTimeout: 8000,
     maxFailoverRounds: 3        // vueltas completas al array antes de rendirse
