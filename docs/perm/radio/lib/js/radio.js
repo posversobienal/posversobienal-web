@@ -363,9 +363,9 @@ function init() {
     elVolIcon         = document.getElementById('vol-icon');
     elTimeDisplay     = document.getElementById('time-display');
     elAudio           = document.getElementById('radio');
-    elRadioSource    = document.getElementById('radiosource');
-    elGissPlayer     = document.getElementById('gissplayer');
-    elStreamDirecto  = document.getElementById('streamdirecto');
+    elRadioSource     = document.getElementById('radiosource');
+    elGissPlayer      = document.getElementById('gissplayer');
+    elStreamDirecto   = document.getElementById('streamdirecto');
 
 
     // Setear URL inicial (primer puerto del array)
@@ -406,11 +406,6 @@ function init() {
             handleStreamFailure();
         }, CONFIG.stallTimeout);
     });
-
-    // Links externos
-    elGissPlayer.href = CONFIG.gissPlayer;
-    elStreamDirecto.href = CONFIG.streamUrl;
-
 
     // Catalogo
     loadCatalog();
