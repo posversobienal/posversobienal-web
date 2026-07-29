@@ -10,15 +10,17 @@
 // Configuracion
 // ============================================================
 
-/* https://giss.tv/player/earp.php?url=https://giss.tv:666/posversoradio.ogg */
-
 var CONFIG = {
-    streamUrl: 'https://giss.tv:666/posversoradio.ogg',
+    host: 'giss.tv',
+    mount: 'posversoradio.ogg',
+    ports: [666, 667],          // orden de prioridad
     catalogUrl: 'data/catalogo.json',
     statsInterval: 15,
     reconnectDelay: 5000,
-    stallTimeout: 8000
+    stallTimeout: 8000,
+    maxFailoverRounds: 3        // vueltas completas al array antes de rendirse
 };
+
 
 // ============================================================
 // Iconos SVG (play / pause / volumen)
@@ -52,6 +54,8 @@ var elapsedTime = 0;
 var timerInterval = null;
 var reconnectInterval = null;
 var stallTimer = null;
+var currentPortIndex = 0;
+var failoverAttempts = 0;
 
 // ============================================================
 // Referencias al DOM
@@ -60,7 +64,8 @@ var stallTimer = null;
 var elStatusDot, elStatusText, elTrackNumber, elTrackTitle,
     elTrackArtist, elDiscName, elDiscDate, elDiscUrl,
     elFicha, elBtnPlay, elPlayerControls,
-    elBtnToggle, elVolSlider, elVolIcon, elTimeDisplay, elAudio;
+    elBtnToggle, elVolSlider, elVolIcon, elTimeDisplay, elAudio,
+    elRadioSource, elGissPlayer, elStreamDirecto;
 
 // ============================================================
 // Catalogo
@@ -192,7 +197,7 @@ function startMetadataListener() {
     if (statsListener) statsListener.stop();
 
     statsListener = new IcecastMetadataStats(
-        CONFIG.streamUrl,
+        getStreamUrl(),
         {
             interval: CONFIG.statsInterval,
             sources: ['ogg'],
@@ -238,20 +243,26 @@ function setConnected(connected) {
     }
 }
 
-function play() {
+
+function attemptPlay() {
     elAudio.play().then(function () {
         isPlaying = true;
-        elBtnPlay.classList.add('hidden');
-        elPlayerControls.classList.remove('hidden');
-        elBtnToggle.innerHTML = ICON_PAUSE;
-        elBtnToggle.setAttribute('aria-label', 'Pausa');
         setConnected(true);
+        resetFailover();
+        clearInterval(reconnectInterval);
         startTimer();
         startMetadataListener();
-    }).catch(function (err) {
-        console.error('[player] Error:', err);
-        elStatusText.textContent = 'Error de conexion';
+    }).catch(function () {
+        handleStreamFailure();
     });
+}
+
+function play() {
+    elBtnPlay.classList.add('hidden');
+    elPlayerControls.classList.remove('hidden');
+    elBtnToggle.innerHTML = ICON_PAUSE;
+    elBtnToggle.setAttribute('aria-label', 'Pausa');
+    attemptPlay();
 }
 
 function pause() {
@@ -266,16 +277,67 @@ function togglePlay() {
     if (isPlaying) { pause(); } else { play(); }
 }
 
-function resetStall() {
-    clearTimeout(stallTimer);
-    stallTimer = setTimeout(function () {
-        if (isPlaying) {
-            setConnected(false);
-            elStatusText.textContent = 'Reconectando...';
-            elAudio.load();
+// ============================================================
+// Construccion de URLs y failover de puertos
+// ============================================================
+
+function getStreamUrl() {
+    return 'https://' + CONFIG.host + ':' +
+           CONFIG.ports[currentPortIndex] + '/' + CONFIG.mount;
+}
+
+function getGissPlayerUrl() {
+    return 'https://giss.tv/player/earp.php?url=' + getStreamUrl();
+}
+
+function applyCurrentPort() {
+    var url = getStreamUrl();
+    elRadioSource.src = url;
+    elAudio.load();
+    elGissPlayer.href = getGissPlayerUrl();
+    elStreamDirecto.href = url;
+    console.info('[stream] Puerto %d -> %s',
+                 CONFIG.ports[currentPortIndex], url);
+}
+
+function tryNextPort() {
+    currentPortIndex = (currentPortIndex + 1) % CONFIG.ports.length;
+    failoverAttempts++;
+
+    var max = CONFIG.ports.length * CONFIG.maxFailoverRounds;
+    if (failoverAttempts > max) {
+        return false;
+    }
+
+    applyCurrentPort();
+    return true;
+}
+
+function resetFailover() {
+    failoverAttempts = 0;
+}
+
+function handleStreamFailure() {
+    if (!isPlaying) return;
+
+    setConnected(false);
+    stopTimer();
+
+    if (tryNextPort()) {
+        elStatusText.textContent =
+            'Reconectando (puerto ' + CONFIG.ports[currentPortIndex] + ')...';
+        elAudio.play().catch(function () {});
+    } else {
+        elStatusText.textContent = 'Sin conexion';
+        // Reintento periodico desde el primer puerto
+        clearInterval(reconnectInterval);
+        reconnectInterval = setInterval(function () {
+            currentPortIndex = 0;
+            failoverAttempts = 0;
+            applyCurrentPort();
             elAudio.play().catch(function () {});
-        }
-    }, CONFIG.stallTimeout);
+        }, CONFIG.reconnectDelay);
+    }
 }
 
 // ============================================================
@@ -283,6 +345,7 @@ function resetStall() {
 // ============================================================
 
 function init() {
+
     //radiosource.src   = CONFIG.streamUrl;
     elStatusDot       = document.getElementById('status-dot');
     elStatusText      = document.getElementById('status-text');
@@ -300,10 +363,13 @@ function init() {
     elVolIcon         = document.getElementById('vol-icon');
     elTimeDisplay     = document.getElementById('time-display');
     elAudio           = document.getElementById('radio');
+    elRadioSource    = document.getElementById('radiosource');
+    elGissPlayer     = document.getElementById('gissplayer');
+    elStreamDirecto  = document.getElementById('streamdirecto');
 
-    // Iconos iniciales
-    elBtnToggle.innerHTML = ICON_PAUSE;
-    elVolIcon.innerHTML = ICON_VOL;
+
+    // Setear URL inicial (primer puerto del array)
+    applyCurrentPort();
 
     // Volumen
     elAudio.volume = 0.8;
@@ -316,24 +382,35 @@ function init() {
         elAudio.volume = e.target.value / 100;
     });
 
+    // Eventos del audio con failover
     elAudio.addEventListener('playing', function () {
+        resetFailover();
         setConnected(true);
+        clearInterval(reconnectInterval);
     });
-
-    elAudio.addEventListener('stalled', resetStall);
-    elAudio.addEventListener('timeupdate', resetStall);
 
     elAudio.addEventListener('error', function () {
-        if (isPlaying) {
-            setConnected(false);
-            elStatusText.textContent = 'Reconectando...';
-            clearInterval(reconnectInterval);
-            reconnectInterval = setInterval(function () {
-                elAudio.load();
-                elAudio.play().catch(function () {});
-            }, CONFIG.reconnectDelay);
-        }
+        handleStreamFailure();
     });
+
+    elAudio.addEventListener('stalled', function () {
+        clearTimeout(stallTimer);
+        stallTimer = setTimeout(function () {
+            handleStreamFailure();
+        }, CONFIG.stallTimeout);
+    });
+
+    elAudio.addEventListener('timeupdate', function () {
+        clearTimeout(stallTimer);
+        stallTimer = setTimeout(function () {
+            handleStreamFailure();
+        }, CONFIG.stallTimeout);
+    });
+
+    // Links externos
+    elGissPlayer.href = CONFIG.gissPlayer;
+    elStreamDirecto.href = CONFIG.streamUrl;
+
 
     // Catalogo
     loadCatalog();
