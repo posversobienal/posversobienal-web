@@ -20,7 +20,7 @@ body {
     background: var(--bg);
     color: var(--text);
     font-family: var(--font);
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.6;
     min-height: 100vh;
     display: flex;
@@ -31,7 +31,7 @@ body {
 }
 
 section {
-    background: white;
+    background: #fff;
 }
 
 .container {
@@ -50,7 +50,7 @@ section {
     font-weight: 300;
     letter-spacing: 0.45em;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #fff;
 }
 
 .tagline {
@@ -62,8 +62,7 @@ section {
 }
 
 .logo {
-    filter: invert(1);
-    height:20px;
+    height: 20px;
 }
 
 /* === Ficha === */
@@ -318,4 +317,22 @@ section {
     .time-display {
         margin-left: 0;
     }
+}
+
+
+/* === Footer === */
+
+footer {
+    font-size: 0.9em;
+    color: #fff;
+
+    a {
+        color: #fff;
+      }
+}
+.logo_giss {
+    height: 20px;
+}
+.center {
+    text-align: center;
 }
