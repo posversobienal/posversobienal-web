@@ -6,7 +6,6 @@ ruta_static: 'obr/pe-pronombres/index.html'
 estilo: col-lg-11
 
 contenido: |
-
   ![Pronombres](/rec/foto/poeticas_electronicas/pronombres.jpg?{{ cfg.cache_actu }}){.img-fluid}
 
   <br>

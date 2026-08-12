@@ -6,7 +6,6 @@ ruta_static: 'obr/pe-scrappy/index.html'
 estilo: col-lg-11
 
 contenido: |
-
   ![SCRAP.PY](/rec/foto/poeticas_electronicas/scrappy.jpg?{{ cfg.cache_actu }}){.img-fluid}
 
   <br>
