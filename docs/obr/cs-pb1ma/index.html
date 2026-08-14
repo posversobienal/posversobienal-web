@@ -43,14 +43,14 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
-        <link href="/lib/css/estilo.css?1786493017877457" rel="stylesheet">
+        <link href="/lib/css/estilo.css?1786713367259866" rel="stylesheet">
 
         <link rel="shortcut icon" href="/rec/grafica/favicon.svg" type="image/x-icon" />
 
 
-        <script src="/dat/cfg.js?1786493017877457"></script>
-        <script src="/dat/rec.js?1786493017877457"></script>
-        <script src="/lib/js/comun.js?1786493017877457"></script>
+        <script src="/dat/cfg.js?1786713367259866"></script>
+        <script src="/dat/rec.js?1786713367259866"></script>
+        <script src="/lib/js/comun.js?1786713367259866"></script>
     </head>
     <body name="">
         
@@ -59,13 +59,13 @@
             <ul>
                 <li>
                     <a class="logo posverso" href="/">
-                        <img class="d-block fx-invert fx-ampliar" src="/rec/grafica/logo-posverso.svg?1786493017877457" title="POSVERSO">
+                        <img class="d-block fx-invert fx-ampliar" src="/rec/grafica/logo-posverso.svg?1786713367259866" title="POSVERSO">
                     </a>
                 </li>
             </ul>
 
             <div class="items-movile hover-on-click">
-                <b><img class="fx-invert " height="20px" src="/rec/grafica/icon-menu.svg?1786493017877457"></b>
+                <b><img class="fx-invert " height="20px" src="/rec/grafica/icon-menu.svg?1786713367259866"></b>
                 <ul class="d-flex wrap">
                     
                     <li class="hover-on-click">
@@ -173,13 +173,1034 @@
 <p>El uso del código QR desmaterializa la obra de arte sonora tradicional. Las paredes del Cubo Sonoro no exhiben altavoces que saturan el espacio común, sino una matriz de portales geométricos y abstractos. La obra exige una participación activa y corporal del espectador (el acto de aproximarse, apuntar con el dispositivo móvil y colocarse auriculares). Cada visitante decide su propio recorrido, su propio ritmo y su propia dosis de "sugestión".</p>
 <p>"El código QR no es solo un enlace a un archivo de audio; es una partitura visual, un poema conceptual que requiere del espectador para encender el sonido."</p>
 <p>Los 60 audios actúan como un inventario de estados mentales, frecuencias y texturas que buscan alterar, aunque sea por 60 segundos, la percepción del presente del oyente. El minuto se convierte en la unidad de medida de una resistencia estética contra el ruido informativo contemporáneo.</p>
-<script>console.log(window.location.hash)</script>
+<hr />
+<p>Acceso directo a la selección:</p>
+<div id="list-of-audios"></div>
         </section>
 
         
-
     </div>
+    <div id="audio-card-container"></div>
+
+<script>
+ (function () {
+     "use strict";
+
+     // ===== CONFIGURACION =====
+     let AUTOPLAY = false;
+
+     const audios = {
+         "01": {
+             "track": "03",
+             "author": "Jürgen O. Olbrich",
+             "title": "Koncert fur 3 toten kopfe (1 minute fragment)",
+             "disk": "1 minute autohypnosis #1",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis/03_Jurgen_O._Olbrich-Konzert_Fur_3_Toten_Kopfe_-fragment.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-1/"
+         },
+         "02": {
+             "track": 1,
+             "author": "Mirosław Rajkowski",
+             "title": "Motus",
+             "disk": "1 minute autohypnosis #1",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis/01_Miroslaw_Rajkowski-Motus.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-1/"
+         },
+         "03": {
+             "track": "05",
+             "author": "Daniel Charquero",
+             "title": "Gatillazoo",
+             "disk": "1 minute autohypnosis #2",
+             "audio": "https://archive.org/download/1MinuteAutohypnosisSex/05_Daniel_Charquero_-_Gatillazoo.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-2/"
+         },
+         "04":   {
+             "track": "07",
+             "author": "Rubén Cárdenas",
+             "title": "BaterSynth",
+             "disk": "1 minute autohypnosis #3",
+             "audio": "https://archive.org/download/1MinuteAutohypnosisSexWar/MuteSoundCd31Minute07RubenCardenas-Batersynth.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-3/"
+         },
+         "05": {
+             "track": "05",
+             "author": "Mr. Moto/Matthias Lang",
+             "title": "Swinging Easter",
+             "disk": "1 minute autohypnosis #4",
+             "audio": "https://archive.org/download/1MinuteAutohypnosisSexWarNoise/MuteSoundCd41Minute05MrMoto-SwingingEaster.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-4/"
+         },
+         "06": {
+             "track": "07",
+             "author": "Javier Riera (Industria Masoquista)",
+             "title": "Pain",
+             "disk": "1 minute autohypnosis #4",
+             "audio": "https://archive.org/download/1MinuteAutohypnosisSexWarNoise/MuteSoundCd41Minute07JavierRiera-Pain.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-4/"
+         },
+         "07": {
+             "track": "14",
+             "author": "Loalue/Guido Lusetti",
+             "title": "noiselullaby",
+             "disk": "1 minute autohypnosis #4",
+             "audio": "https://archive.org/download/1MinuteAutohypnosisSexWarNoise/MuteSoundCd41Minute14Loalue-Noiselullaby.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-4/"
+         },
+         "08": {
+             "track": "03",
+             "author": "Marisa Pons",
+             "title": "Dos veces dos",
+             "disk": "1 minute autohypnosis #6",
+             "audio": "https://archive.org/download/1MinuteAutohypnosisSexWarNoiseFaithWhite/03MarisaPons-DosVecesDos.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-6/"
+         },
+         "09": {
+             "track": "06",
+             "author": "San Siro",
+             "title": "Honeytone Intervention 3",
+             "disk": "1 minute autohypnosis #7",
+             "audio": "https://archive.org/download/1MinuteAutohypnosisSexWarNoiseFaithWhiteTruth/06SanSiro-HoneytoneIntervention3.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-7/"
+         },
+         "10": {
+             "track": "10",
+             "author": "Rafael González",
+             "title": "iqcmloop nº 15",
+             "disk": "1 minute autohypnosis #7",
+             "audio": "https://archive.org/download/1MinuteAutohypnosisSexWarNoiseFaithWhiteTruth/10RafaelGonzalez-IqcmloopN15.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-7/"
+         },
+         "11":   {
+             "track": "10",
+             "author": "Kurt Beaulieu",
+             "title": "Merzbow sucks my dick",
+             "disk": "1 minute autohypnosis #8",
+             "audio": "https://archive.org/download/1MinuteAutohypnosisSexWarNoiseFaithWhiteTruthLight/10KurtBeaulieu-MerzbowSucksMyDick.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-8/"
+         },
+         "12": {
+             "track": "04",
+             "author": "Equipo Elevador",
+             "title": "Vigueta",
+             "disk": "1 minute autohypnosis #9",
+             "audio": "https://archive.org/download/1MinuteAutohypnosisSexWarNoiseFaithWhiteTruthLightEurope/04EquipoElevador-Vigueta.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-9/"
+         },
+         "13": {
+             "track": "07",
+             "author": "Private World",
+             "title": "Sound for Private World",
+             "disk": "1 minute autohypnosis #9",
+             "audio": "https://archive.org/download/1MinuteAutohypnosisSexWarNoiseFaithWhiteTruthLightEurope/07PrivateWorld-SoundForPrivateWorld.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-9/"
+         },
+         "14": {
+             "track": "13",
+             "author": "Fausto Grossi",
+             "title": "San Sebastian 2001 (fragmento)",
+             "disk": "1 minute autohypnosis #9",
+             "audio": "https://archive.org/download/1MinuteAutohypnosisSexWarNoiseFaithWhiteTruthLightEurope/13FaustoGrossi-SanSebastian2001fragmento.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-9/"
+         },
+         "15": {
+             "track": "07",
+             "author": "Konstantinov Pavel",
+             "title": "Побережья (Excerpt)",
+             "disk": "1 minute autohypnosis #10",
+             "audio": "https://archive.org/download/1MinuteAutohypnosisSexWarNoiseFaithWhiteTruthLightEuropeDeath/07PavelKonstantinov-excerpt.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-10/"
+         },
+         "16": {
+             "track": "14",
+             "author": "Fluorescent Grey",
+             "title": "Retract Maple (1minutesound)",
+             "disk": "1 minute autohypnosis #10",
+             "audio": "https://archive.org/download/1MinuteAutohypnosisSexWarNoiseFaithWhiteTruthLightEuropeDeath/14FluorescentGrey-RetractMaple1minutesound.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-10/"
+         },
+         "17":   {
+             "track": "12",
+             "author": "Adam Zucker",
+             "title": "Communication breakdown in a minute",
+             "disk": "1 minute autohypnosis #14",
+             "audio": "https://archive.org/download/1MinuteAutohypnosisSexWarNoiseFaithWhiteTruthLightEuropeDeathSeed_9/12AdamZucker-CommunicationBreakdownInAMinute.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-14/"
+         },
+         "18": {
+             "track": "02",
+             "author": "Ed Hanssen",
+             "title": "Sound2",
+             "disk": "1 minute autohypnosis #16",
+             "audio": "https://archive.org/download/1MinuteAutohipnosys...16thCD/02%20Ed%20Hanssen%20-%20sound2.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-16/"
+         },
+         "19":   {
+             "track": "11",
+             "author": "Marie Wintzer",
+             "title": "Turnstyle",
+             "disk": "1 minute autohypnosis #16",
+             "audio": "https://archive.org/download/1MinuteAutohipnosys...16thCD/11%20Marie%20Wintzer%20-%20Turnstyle.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-16/"
+         },
+         "20": {
+             "track": "06",
+             "author": "Inappropriate King Live",
+             "title": "Slam! Slam! SLLLAAAMMM!!!!",
+             "disk": "1 minute autohypnosis #17",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis...CD17/06%2006%20INAPPROPRIATE%20KING%20LIVE%20-%20Slam%21%20Slam%21%20SLLLAAAMMM%21%21%21%21.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-17/"
+         },
+         "21": {
+             "track": "13",
+             "author": "Cock E.S.P.",
+             "title": "Loseweightfast",
+             "disk": "1 minute autohypnosis #17",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis...CD17/13%2013%20Cock%20ESP%20-%20Loseweightfast.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-17/"
+         },
+         "22": {
+             "track": "16",
+             "author": "Androvirus",
+             "title": "1 minute project under shower",
+             "disk": "1 minute autohypnosis #17",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis...CD17/16%2016%20Androvirus%20-%201mmproject%20under%20shower.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-17/"
+         },
+         "23": {
+             "track": "06",
+             "author": "Maurizio Follin",
+             "title": "Progetto Fraenz",
+             "disk": "1 minute autohypnosis #18",
+             "audio": "https://archive.org/download/1MinuteAutohipnosys-18thCD_201312/06%20Maurizio%20Follin%20-%20Progetto%20Fraenz.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-18/"
+         },
+         "24": {
+             "track": "11",
+             "author": "Siegfried Ceballos",
+             "title": "Extracto de Dibujo…",
+             "disk": "1 minute autohypnosis #18",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis...CD17/11%2011%20Douglas%20Rushkof%20-%20Memo.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-18/"
+         },
+         "25": {
+             "track": "12",
+             "author": "Fabian Racca",
+             "title": "Argentina ’78 Re-Remix",
+             "disk": "1 minute autohypnosis #18",
+             "audio": "https://archive.org/download/1MinuteAutohipnosys-18thCD_201312/12%20Fabian%20Racca%20-%20Argentina%20%2778%20Re-Remix.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-18/"
+         },
+         "26": {
+             "track": "01",
+             "author": "Elke Grundmann",
+             "title": "Psychseeds (to Elke Grundmann)",
+             "disk": "1 minute autohypnosis #19",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis...19thCD/01%20Psychseeds%20%28to%20Elke%20Grundmann%29.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-19/"
+         },
+         "27": {
+             "track": "06",
+             "author": "Carsten Stabenow",
+             "title": "Bukitteresek rainforest. Malaysia",
+             "disk": "1 minute autohypnosis #20",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis...20thCD/06%20Carsten%20Stabenow%20-%20bukitteresek_rainforest_malaysia.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-20/"
+         },
+         "28": {
+             "track": "07",
+             "author": "Simon Macuh",
+             "title": "Yehoo (excerpt)",
+             "disk": "1 minute autohypnosis #23",
+             "audio": "https://archive.org/download/1MinuteAutohypnosisCD23/07%20Simon%20Macuh%20-%20Yehoo%20%28excerpt%29.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-23/"
+         },
+         "29": {
+             "track": "15",
+             "author": "Wesley Rickert",
+             "title": "Quiet Violins (excerpt)",
+             "disk": "1 minute autohypnosis #23",
+             "audio": "https://archive.org/download/1MinuteAutohypnosisCD23/15%20Wesley%20Rickert%20-%20Quiet%20Violins%20%28excerpt%29.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-23/"
+         },
+         "30": {
+             "track": "06",
+             "author": "Acoustic Tourture Chamber",
+             "title": "Indirect Transfer",
+             "disk": "1 minute autohypnosis #24",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis24thCD/06%20Acoustic%20Tourture%20Chamber%20-%20Indirect%20Transfer.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-24/"
+         },
+         "31": {
+             "track": "09",
+             "author": "Fénix Noises-Ruido Acústico",
+             "title": "Intervención",
+             "disk": "1 minute autohypnosis #24",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis24thCD/09%20F%C3%A9nix%20Noises%20-%20Ruido%20Ac%C3%BAstico%20%5BIntervenci%C3%B3n%5D.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-24/"
+         },
+         "32": {
+             "track": "07",
+             "author": "Lucio Haeser",
+             "title": "O Ralo",
+             "disk": "1 minute autohypnosis #26",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis26thCD/07%20Lucio%20Haeser%20-%20O%20Ralo.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-26/"
+         },
+         "33": {
+             "track": "13",
+             "author": "Ferran Destemple",
+             "title": "Elementos-sonido-4",
+             "disk": "1 minute autohypnosis #26",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis26thCD/13%20Ferran%20Destemple%20-%20Elementos-sonido-4.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-26/"
+         },
+         "34": {
+             "track": "13",
+             "author": "Carsten Stabenow",
+             "title": "Axon",
+             "disk": "1 minute autohypnosis #27",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis27thCD/13%20Carsten%20Stabenow%20-%20Axon.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-27/"
+         },
+         "35":   {
+             "track": "14",
+             "author": "Emilio Morandi",
+             "title": "Bosco sound",
+             "disk": "1 minute autohypnosis #27",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis27thCD/14%20Emilio%20Morandi%20Bosco%20sound.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-27/"
+         },
+         "36": {
+             "track": "05",
+             "author": "Alain Cotten",
+             "title": "Une minute de Srettiwhcs",
+             "disk": "1 minute autohypnosis #28",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis28thCD/05%20Alain%20Cotten%20-%20%20Une%20minute%20de%20Srettiwcs.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-28/"
+         },
+         "37": {
+             "track": "09",
+             "author": "Invader from Mars",
+             "title": "In Another Moment",
+             "disk": "1 minute autohypnosis #28",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis28thCD/09%20Invader%20from%20Mars%20-%20In%20Another%20Moment.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-28/"
+         },
+         "38": {
+             "track": "05",
+             "author": "Minimal Frank",
+             "title": "UCT-8",
+             "disk": "1 minute autohypnosis #29",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis29thCD/05%20Minimal%20Frank%20-%20UCT-8.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-29/"
+         },
+         "39":  {
+             "track": "15",
+             "author": "Álvaro Montané",
+             "title": "Gozaba de gran desahogo (fragmento)",
+             "disk": "1 minute autohypnosis #29",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis29thCD/15%20%C3%81lvaro%20Montan%C3%A9%20-%20Gozaba%20de%20gran%20desahogo%20(frag)%20.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-29/"
+         },
+         "40": {
+             "track": "15",
+             "author": "Node Pajomo, Pedro Bericat",
+             "title": "Wonderful Copenhagen II (excerpt)",
+             "disk": "1 minute autohypnosis #31",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis31thCD/15NodePajomoAndPedroBericat-WonderfulCopenhagenIiexcerpt.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-31/"
+         },
+         "41": {
+             "track": "01",
+             "author": "Barry Joseph Cullen",
+             "title": "1 minute autohypnosis V1",
+             "disk": "1 minute autohypnosis #33",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis33thCD/01%20Barry%20Joseph%20Cullen%20-%201%20minute%20autohypnosis%20V1.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-33/"
+         },
+         "42": {
+             "track": "03",
+             "author": "Ganesh Anandan, Hans Reichel",
+             "title": "Once upon a time..",
+             "disk": "1 minute autohypnosis #33",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis33thCD/03%20Ganesh%20Anandan%20and%20Hans%20Reichel%20-%20Once%20upon%20a%20time...mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-33/"
+         },
+         "43": {
+             "track": "02",
+             "author": "Robert Rudine (Dogfish)",
+             "title": "Misha Howling Duet With Dogfish And Two Wolves",
+             "disk": "1 minute autohypnosis #34",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis34thCD/02%20Robert%20Rudine%20(Dogfish)%20-%20Misha%20Howling%20Duet%20With%20Dogfish%20And%20Two%20Wolves.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-34/"
+         },
+         "44": {
+             "track": "09",
+             "author": "Patrick Gundran",
+             "title": "It’s Better You Don’t Know",
+             "disk": "1 minute autohypnosis #34",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis34thCD/09%20Patrick%20Gundran%20-%20It's%20Better%20You%20Don't%20Know.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-34/"
+         },
+         "45": {
+             "track": "11",
+             "author": "Ekbooks",
+             "title": "Im Schliessfach Im Freibad (first minute excerpt)",
+             "disk": "1 minute autohypnosis #37",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis37thCD/11%20Ekbooks%20-%20Im%20Schliessfach%20Im%20Freibad%20%28first%20minute%20excerpt%29.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-37/"
+         },
+         "46": {
+             "track": "07",
+             "author": "Phaerentz",
+             "title": "Autofinger (excerpt from min. 35 to 36)",
+             "disk": "1 minute autohypnosis #38",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis38thCD/07%20Phaerentz%20-%20Autofinger%20%28excerpt%20from%20min.%2035%20to%2036%29.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-38/"
+         },
+         "47": {
+             "track": "12",
+             "author": "Daniel Blomquist",
+             "title": "Contact mic blood workt",
+             "disk": "1 minute autohypnosis #38",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis38thCD/12%20Daniel%20Blomquis%20-%20Contact%20mic%20blood%20workt.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-38/"
+         },
+         "48": {
+             "track": "09",
+             "author": "Per-Arne Hognert",
+             "title": "1st minute excerpt from microcassette side A",
+             "disk": "1 minute autohypnosis #39",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis39thCD/09%20Per-Arne%20Hognert%20-%201st%20minute%20excerpt%20from%20microcassette%20side%20A.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-39/"
+         },
+         "49": {
+             "track": "11",
+             "author": "Monika Pich",
+             "title": "Oleandro’s dream",
+             "disk": "1 minute autohypnosis #40",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis40thCD/11%20Monika%20Pich%20-%20Oleandro%27s%20dream.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-40/"
+         },
+         "50": {
+             "track": "13",
+             "author": "Zerosinapsi",
+             "title": "Bibi",
+             "disk": "1 minute autohypnosis #40",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis40thCD/13%20Zerosinapsi%20-%20Bibi.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-40/"
+         },
+         "51":   {
+             "track": "06",
+             "author": "Gytis Skudzinskas",
+             "title": "One minute from 31 July 2016",
+             "disk": "1 minute autohypnosis #41",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis41CD/06%20Gytis%20Skudzinskas%20-%20One%20minute%20from%2031%20July%202016.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-41/"
+         },
+         "52": {
+             "track": "12",
+             "author": "Rafael González",
+             "title": "Cassette (First minute excerpt)",
+             "disk": "1 minute autohypnosis #42",
+             "audio": "https://archive.org/download/1MinuteAutohypnosis42ndCD/12%20Rafael%20Gonzalez%20-%20Cassette%20%28First%20minute%20excerpt%29.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-42/"
+         },
+         "53": {
+             "track": "03",
+             "author": "Pedro Pablo Gallardo",
+             "title": "Serie Bisagras. Version 1",
+             "disk": "1 minute autohypnosis #43",
+             "audio": "https://archive.org/download/1minuteautohypnosis43thcd/03%20%20Pedro%20Pablo%20Gallardo.%20Structor%20-%20Serie%20Bisagras.%20Version%201.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-43/"
+         },
+         "54": {
+             "track": "10",
+             "author": "Painful Defecation",
+             "title": "Intro",
+             "disk": "1 minute autohypnosis #43",
+             "audio": "https://archive.org/download/1minuteautohypnosis43thcd/10%20Painful%20Defecation%20-%20Intro.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-43/"
+         },
+         "55": {
+             "track": "10",
+             "author": "Sebastian Six",
+             "title": "Blindflug (first minute excerpt)",
+             "disk": "1 minute autohypnosis #45",
+             "audio": "https://archive.org/download/1-minute-autohypnosis-45th-cd/10%20Sebastian%20Six%20-Blindflug%20%28first%20minute%20excerpt%29.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-45/"
+         },
+         "56": {
+             "track": "13",
+             "author": "Indra Menus",
+             "title": "1 Minute of Rage",
+             "disk": "1 minute autohypnosis #45",
+             "audio": "https://archive.org/download/1minuteautohypnosis43thcd/13%20Satan%27s%20God%20-%20%20Cesspool%20Castle%20July%207%2C%202012%20%281%20minute%20excerpt%29.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-45/"
+         },
+         "57": {
+             "track": "09",
+             "author": "Tizi+Susi",
+             "title": "HNY2022",
+             "disk": "1 minute autohypnosis #49",
+             "audio": "https://archive.org/download/1-minute-autohypnosis-49/09%20TIZI%2BSUSI_HNY2022.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-49/"
+         },
+         "58":   {
+             "track": "16",
+             "author": "Peter Schubert (Auvikogue)",
+             "title": "Autohypnosis (1 minute excerpt from minute 5)",
+             "disk": "1 minute autohypnosis #49",
+             "audio": "https://archive.org/download/1-minute-autohypnosis-49/16%20Peter%20Schubert%20-%20Autohypnosis%20%281%20minute%20excerpt%20from%20minute%205%29.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-49/"
+         },
+         "59":   {
+             "track": "01",
+             "author": "Alain Lefebre",
+             "title": "Untitled Josefa 9 symphony",
+             "disk": "1 minute autohypnosis #51",
+             "audio": "https://archive.org/download/1-minute-autohypnosis-51/01%20Alain%20Lefebre%20-%20Untitled%20Josefa%209%20symphony.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-51/"
+         },
+         "60": {
+             "track": "02",
+             "author": "Tete Noise",
+             "title": "One minute loop (RealtoReal Rewinding)",
+             "disk": "1 minute autohypnosis #51",
+             "audio": "https://archive.org/download/1-minute-autohypnosis-51/02%20Tete%20Noise%20-%20One%20minute%20loop%20%28RealtoReal%20Rewinding%29.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-51/"
+         }
+       };
+       const audios_extras = {
+         "61": {
+             "track": "02",
+             "author": "Painful Defecation",
+             "title": "Now Form a Band",
+             "disk": "1 minute autohypnosis #55",
+             "audio": "https://archive.org/download/1-minute-autohypnosis-55/02%20Painful%20Defecation%20-%20Now%20Form%20a%20Band.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-55/"
+         },
+         "62": {
+             "track": "13",
+             "author": "James Bailey",
+             "title": "Splod",
+             "disk": "1 minute autohypnosis #56",
+             "audio": "https://archive.org/download/1-minute-autohypnosis-56/13.-James%20Bailey%20-%20Splod.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-56/"
+         },
+         "63": {
+             "track": "16",
+             "author": "Robin Parmar",
+             "title": "Travel at Night",
+             "disk": "1 minute autohypnosis #56",
+             "audio": "https://archive.org/download/1-minute-autohypnosis-56/16.-Robin%20Parmar%20-%20Travel%20at%20Night.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-56/"
+         },
+         "64":   {
+             "track": "01",
+             "author": "Kevin Miller",
+             "title": "Shipping heron (1 minute)",
+             "disk": "1 minute autohypnosis #57",
+             "audio": "https://archive.org/download/1-minute-autohypnosis-57/01%20Kevin%20Miller%20-%20Shipping%20heron%20%281%20minute%29.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-57/"
+         },
+         "65": {
+             "track": "04",
+             "author": "eRika",
+             "title": "Multibirding (mute sound version)",
+             "disk": "1 minute autohypnosis #57",
+             "audio": "https://archive.org/download/1-minute-autohypnosis-57/04%20eRika%20-Multibirding%20%28mute%20sound%20version%29.mp3",
+             "original": "https://mutesound.org/autohypnosis/1-minute-autohypnosis-57/"
+         },
+     };
+
+     // ===== SVG ICONS =====
+     const ICONS = {
+         play: `
+    <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true">
+        <circle cx="12" cy="12" r="11" stroke="currentColor" stroke-width="1.5" fill="none"/>
+        <polygon points="10,7 17,12 10,17" fill="currentColor"/>
+    </svg>`,
+         pause: `
+    <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true">
+        <circle cx="12" cy="12" r="11" stroke="currentColor" stroke-width="1.5" fill="none"/>
+        <rect x="8" y="7" width="2.5" height="10" fill="currentColor"/>
+        <rect x="13.5" y="7" width="2.5" height="10" fill="currentColor"/>
+    </svg>`,
+         volume: `
+    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+        <path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"/>
+        <path d="M15 8.5c1 1 1.5 2 1.5 3.5s-.5 2.5-1.5 3.5" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        <path d="M17.5 6c2 2 3 4 3 6s-1 4-3 6" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    </svg>`
+     };
+
+     // ===== ESTILOS =====
+     const injectStyles = () => {
+         if (document.getElementById('audio-card-theme-styles')) return;
+         const style = document.createElement('style');
+         style.id = 'audio-card-theme-styles';
+         style.textContent = `
+    #audio-card-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    display: none;
+    width: 92vw;
+    max-width: 360px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+    #audio-card-container.visible { display: block; }
+    .audio-card {
+    background: #141414;
+    color: #e8e8e8;
+    border: 1px solid #2a2a2a;
+    padding: 22px 22px 18px;
+    border-radius: 4px;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.75);
+    font-size: 12px;
+    line-height: 1.5;
+    position: relative;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    }
+    .audio-card .close-btn {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    color: #888;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 1;
+    padding: 4px 8px;
+    font-family: inherit;
+    }
+    .audio-card .close-btn:hover { color: #fff; }
+    .audio-card .field { margin-bottom: 6px; }
+    .audio-card .label {
+    color: #777;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 10px;
+    margin-right: 6px;
+    }
+    .audio-card .value { color: #e8e8e8; }
+    .audio-card .title { font-weight: 600; margin-bottom: 14px; font-size: 13px; }
+    .audio-card .controls {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid #222;
+    }
+    .audio-card .play-btn {
+    background: transparent;
+    color: #e8e8e8;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    line-height: 0;
+    flex-shrink: 0;
+    transition: color 0.15s ease;
+    }
+    .audio-card .play-btn:hover { color: #fff; }
+    .audio-card .play-btn svg { display: block; }
+    .audio-card .play-btn .icon-pause { display: none; }
+    .audio-card .play-btn.playing .icon-play { display: none; }
+    .audio-card .play-btn.playing .icon-pause { display: block; }
+
+    .volume-control {
+    position: relative;
+    flex-shrink: 0;
+    }
+    .volume-icon-btn {
+    background: transparent;
+    border: none;
+    color: #aaa;
+    cursor: pointer;
+    padding: 4px;
+    line-height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.15s ease;
+    }
+    .volume-icon-btn:hover,
+    .volume-control.active .volume-icon-btn { color: #fff; }
+    .volume-icon-btn svg { display: block; }
+    .volume-slider-wrapper {
+    position: absolute;
+    bottom: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 32px;
+    height: 110px;
+    background: #1a1a1a;
+    border: 1px solid #2a2a2a;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.6);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s ease, visibility 0.15s ease;
+    visibility: hidden;
+    }
+    .volume-slider-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    border-top-color: #2a2a2a;
+    }
+    .volume-control:hover .volume-slider-wrapper,
+    .volume-control.active .volume-slider-wrapper {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    }
+    .volume-slider-wrapper .volume-track {
+    width: 90px;
+    height: 2px;
+    background: #2a2a2a;
+    transform: rotate(-90deg);
+    transform-origin: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .volume-slider-wrapper .volume {
+    width: 90px;
+    height: 2px;
+    background: #2a2a2a;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    margin: 0;
+    transform: rotate(-90deg);
+    transform-origin: center center;
+    }
+    .volume-slider-wrapper .volume::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: #e8e8e8;
+    border-radius: 50%;
+    cursor: pointer;
+    }
+    .volume-slider-wrapper .volume::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background: #e8e8e8;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    }
+
+    .audio-card .time {
+    color: #888;
+    font-variant-numeric: tabular-nums;
+    flex: 1;
+    text-align: right;
+    font-size: 11px;
+    min-width: 80px;
+    white-space: nowrap;
+    }
+    .audio-card .link {
+    display: block;
+    margin-top: 14px;
+    color: #888;
+    text-decoration: none;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-top: 1px solid #222;
+    padding-top: 12px;
+    text-align: right;
+    }
+    .audio-card .link:hover { color: #e8e8e8; }
+
+    #list-of-audios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 20px 0;
+    }
+    #list-of-audios a {
+    color: #fff;
+    background: #000;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 2px 6px;
+    display: inline-block;
+    border: 1px solid #2a2a2a;
+    border-radius: 2px;
+    transition: all 0.15s ease;
+    }
+    #list-of-audios a:hover,
+    #list-of-audios a.current {
+    color: #fff;
+    background: #2a2a2a;
+    border-color: #444;
+    }
+
+    @media (max-width: 380px) {
+    .audio-card { padding: 18px 16px 14px; font-size: 11px; }
+    .audio-card .title { font-size: 12px; }
+    .audio-card .controls { gap: 10px; }
+    .volume-slider-wrapper { height: 96px; }
+    .volume-slider-wrapper .volume,
+    .volume-slider-wrapper .volume-track { width: 76px; }
+    }
+    @media (max-height: 560px) {
+    #audio-card-container {
+    transform: translate(-50%, -50%) scale(0.92);
+    transform-origin: center center;
+    }
+    }
+         `;
+         document.head.appendChild(style);
+     };
+
+     // ===== UTILIDADES =====
+     const formatTime = (seconds) => {
+         if (isNaN(seconds) || !isFinite(seconds)) return "00:00";
+         const s = Math.floor(seconds);
+         const m = Math.floor(s / 60);
+         const rs = s % 60;
+         return `${m < 10 ? "0" + m : m}:${rs < 10 ? "0" + rs : rs}`;
+     };
+
+     const getHashId = () => {
+         const h = window.location.hash;
+         return h ? h.replace(/^#/, "") : "";
+     };
+
+     // ===== LOGICA =====
+     let container = document.getElementById('audio-card-container');
+     if (!container) {
+         container = document.createElement('div');
+         container.id = 'audio-card-container';
+         document.body.appendChild(container);
+     }
+
+     let currentAudio = null;
+
+     const hideCard = () => {
+         container.classList.remove('visible');
+         container.innerHTML = '';
+         if (currentAudio) {
+             currentAudio.pause();
+             currentAudio.removeAttribute('src');
+             currentAudio.load();
+             currentAudio = null;
+         }
+         // Marcar link actual como no-activo
+         document.querySelectorAll('#list-of-audios a.current').forEach(a => a.classList.remove('current'));
+     };
+
+     const addField = (card, label, value, extraClass = '') => {
+         const f = document.createElement('div');
+         f.className = `field ${extraClass}`;
+         f.innerHTML = `<span class="label">${label}</span><span class="value"></span>`;
+         f.querySelector('.value').textContent = value;
+         card.appendChild(f);
+     };
+
+     const showCard = (id) => {
+         const data = audios[id];
+         if (!data) {
+             hideCard();
+             return;
+         }
+
+         container.innerHTML = '';
+         container.classList.add('visible');
+
+         // Resaltar link en la lista
+         document.querySelectorAll('#list-of-audios a.current').forEach(a => a.classList.remove('current'));
+         const currentLink = document.querySelector(`#list-of-audios a[href="#${CSS.escape(id)}"]`);
+         if (currentLink) currentLink.classList.add('current');
+
+         const card = document.createElement('div');
+         card.className = 'audio-card';
+
+         const closeBtn = document.createElement('button');
+         closeBtn.className = 'close-btn';
+         closeBtn.textContent = 'x';
+         closeBtn.addEventListener('click', hideCard);
+         card.appendChild(closeBtn);
+
+         addField(card, 'Disco', data.disk);
+         addField(card, 'Track', data.track);
+         addField(card, 'Artista', data.author);
+         addField(card, 'Titulo', data.title, 'title');
+
+         const audio = document.createElement('audio');
+         audio.preload = 'metadata';
+         audio.src = data.audio;
+         card.appendChild(audio);
+         currentAudio = audio;
+
+         const controls = document.createElement('div');
+         controls.className = 'controls';
+
+         // Boton play/pause con SVG
+         const playBtn = document.createElement('button');
+         playBtn.className = 'play-btn';
+         playBtn.setAttribute('aria-label', 'Play');
+         playBtn.innerHTML = `
+             <span class="icon-play">${ICONS.play}</span>
+             <span class="icon-pause">${ICONS.pause}</span>
+         `;
+         const togglePlay = () => {
+             if (audio.paused) {
+                 audio.play();
+             } else {
+                 audio.pause();
+             }
+         };
+         playBtn.addEventListener('click', togglePlay);
+         controls.appendChild(playBtn);
+
+         // Control de volumen con icono + slider popover
+         const volumeControl = document.createElement('div');
+         volumeControl.className = 'volume-control';
+
+         const volumeIconBtn = document.createElement('button');
+         volumeIconBtn.type = 'button';
+         volumeIconBtn.className = 'volume-icon-btn';
+         volumeIconBtn.setAttribute('aria-label', 'Volumen');
+         volumeIconBtn.innerHTML = ICONS.volume;
+         volumeIconBtn.addEventListener('click', (e) => {
+             e.stopPropagation();
+             volumeControl.classList.toggle('active');
+         });
+         volumeControl.appendChild(volumeIconBtn);
+
+         const sliderWrapper = document.createElement('div');
+         sliderWrapper.className = 'volume-slider-wrapper';
+         const volume = document.createElement('input');
+         volume.type = 'range';
+         volume.className = 'volume';
+         volume.min = '0';
+         volume.max = '1';
+         volume.step = '0.01';
+         volume.value = '0.7';
+         volume.addEventListener('input', () => {
+             audio.volume = parseFloat(volume.value);
+         });
+         sliderWrapper.appendChild(volume);
+         volumeControl.appendChild(sliderWrapper);
+         controls.appendChild(volumeControl);
+
+         // Tiempo
+         const time = document.createElement('span');
+         time.className = 'time';
+         time.textContent = '00:00 / 00:00';
+         controls.appendChild(time);
+
+         card.appendChild(controls);
+
+         // Link al disco
+         const link = document.createElement('a');
+         link.className = 'link';
+         link.href = data.original;
+         link.target = '_blank';
+         link.rel = 'noopener';
+         link.textContent = 'Ir al disco';
+         card.appendChild(link);
+
+         container.appendChild(card);
+
+         // Eventos de audio
+         audio.addEventListener('loadedmetadata', () => {
+             time.textContent = `00:00 / ${formatTime(audio.duration)}`;
+             if (AUTOPLAY) {
+                 audio.play().catch(() => {});
+             }
+         });
+         audio.addEventListener('timeupdate', () => {
+             time.textContent = `${formatTime(audio.currentTime)} / ${formatTime(audio.duration)}`;
+         });
+         audio.addEventListener('play', () => {
+             playBtn.classList.add('playing');
+             playBtn.setAttribute('aria-label', 'Pause');
+         });
+         audio.addEventListener('pause', () => {
+             playBtn.classList.remove('playing');
+             playBtn.setAttribute('aria-label', 'Play');
+         });
+         audio.addEventListener('ended', () => {
+             playBtn.classList.remove('playing');
+             playBtn.setAttribute('aria-label', 'Play');
+         });
+     };
+
+     // Cerrar el popover de volumen al hacer click fuera
+     document.addEventListener('click', (e) => {
+         if (!e.target.closest('.volume-control')) {
+             document.querySelectorAll('.volume-control.active').forEach(el => el.classList.remove('active'));
+         }
+     });
+
+     // ===== LISTA DE AUDIOS =====
+     const populateList = () => {
+         const list = document.getElementById('list-of-audios');
+         if (!list) return;
+         const keys = Object.keys(audios).sort();
+         if (keys.length === 0) return;
+         list.innerHTML = keys.map(k => `<a href="#${k}">${k}</a>`).join('');
+     };
+
+     // ===== EVENTOS =====
+     const handleHashChange = () => {
+         const id = getHashId();
+         if (id && audios[id]) {
+             showCard(id);
+         } else {
+             hideCard();
+         }
+     };
+
+     window.addEventListener('hashchange', handleHashChange);
+
+     const init = () => {
+         injectStyles();
+         populateList();
+         handleHashChange();
+     };
+
+     if (document.readyState === 'loading') {
+         document.addEventListener('DOMContentLoaded', init);
+     } else {
+         init();
+     }
+
+     window.AudioCardController = {
+         show: showCard,
+         hide: hideCard,
+         setAutoplay: (v) => { AUTOPLAY = !!v; }
+     };
+ })();
+</script>
+
 </div>
+
+
+
+
 
         </div>
 
@@ -187,32 +1208,32 @@
             <div  class="d-flex justify-content-around">
                 <div class="d-flex">
                     <a class="logo posverso mx-4 fx-ampliar" href="/">
-                        <img height="20px" src="/rec/grafica/logo-posverso.svg?1786493017877457" title="POSVERSO">
+                        <img height="20px" src="/rec/grafica/logo-posverso.svg?1786713367259866" title="POSVERSO">
                     </a>
                     <span class="border-dark border-start"></span>
                     <span class="mx-4">
-                        <img height="25px" src="/rec/grafica/logo-hoteldada.svg?1786493017877457" title="Hotel DaDA">
+                        <img height="25px" src="/rec/grafica/logo-hoteldada.svg?1786713367259866" title="Hotel DaDA">
                     </span>
                 </div>
                 <div>&nbsp;</div>
                 <div class="d-inline-block">
                     <a class="d-inline-block px-2 py-1 fx-ampliar" href="https://instagram.com/posverso_bienal">
-                        <img class="icono" src="/rec/grafica/icon-instagram.svg?1786493017877457" alt="Instagram">
+                        <img class="icono" src="/rec/grafica/icon-instagram.svg?1786713367259866" alt="Instagram">
                     </a>
                     <a class="d-inline-block px-2 py-1 fx-ampliar" href="https://youtube.com/@PosversoBienal">
-                        <img class="icono" src="/rec/grafica/icon-youtube.svg?1786493017877457" alt="Youtube">
+                        <img class="icono" src="/rec/grafica/icon-youtube.svg?1786713367259866" alt="Youtube">
                     </a>
                     <a class="d-inline-block px-2 py-1 fx-ampliar" href="mailto:posversobienal@gmail.com">
-                        <img class="icono" src="/rec/grafica/icon-email.svg?1786493017877457" alt="Email">
+                        <img class="icono" src="/rec/grafica/icon-email.svg?1786713367259866" alt="Email">
                     </a>
                     <a class="d-inline-block px-2 py-1 fx-ampliar" href="/pag/contacto/" title="Contacto">
-                        <img class="icono" src="/rec/grafica/icon-contacto_neg.svg?1786493017877457" alt="Contacto">
+                        <img class="icono" src="/rec/grafica/icon-contacto_neg.svg?1786713367259866" alt="Contacto">
                     </a>
                     <a class="d-inline-block px-2 py-1 fx-ampliar" href="https://posversobienal.com.ar/perm/radio/" title="POSVERSO Radio">
-                        <img class="icono" src="/rec/grafica/icon-radio_neg.svg?1786493017877457" alt="POSVERSO Radio">
+                        <img class="icono" src="/rec/grafica/icon-radio_neg.svg?1786713367259866" alt="POSVERSO Radio">
                     </a>
                     <a class="d-inline-block px-2 py-1 fx-ampliar" href="/pag/socios/" title="Socios">
-                        <img class="icono" src="/rec/grafica/icon-socios_neg.svg?1786493017877457" alt="Socios">
+                        <img class="icono" src="/rec/grafica/icon-socios_neg.svg?1786713367259866" alt="Socios">
                     </a>
                 </div>
             </div>
@@ -220,7 +1241,7 @@
             <div class="utiles">
 
                 <div class="d-inline-block menu-pie" title="Menú">
-                    <img class="fx-invert " height="20px" src="/rec/grafica/icon-menu.svg?1786493017877457">
+                    <img class="fx-invert " height="20px" src="/rec/grafica/icon-menu.svg?1786713367259866">
                     <nav>
                         
                           
@@ -275,7 +1296,7 @@
                         
                         <a href="/pag/contacto/"><small>CONTACTO</small></a>
                         <br>
-                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2026-08-12 00:03:37</b></span>
+                        <span class="fx-transp-70"><small>WEB ACTUALIZADA EL</small> <b>2026-08-14 13:16:07</b></span>
                     </nav>
                 </div>
             </div>
@@ -286,26 +1307,26 @@
             <ul class="row" title="Ir a la portada">
                 <li class="mx-3 col mostrar-si-pagina-desplazada fx-ampliar">
                     <a href="/">
-                        <img class="fx-invert" height="15px" src="/rec/grafica/logo-posverso.svg?1786493017877457" title="POSVERSO">
+                        <img class="fx-invert" height="15px" src="/rec/grafica/logo-posverso.svg?1786713367259866" title="POSVERSO">
                     </a>
                 </li>
                 <li class="col mx-1 fx-ampliar" title="Contacto">
                     <a href="/pag/contacto/">
-                        <img height="20px" src="/rec/grafica/icon-contacto_bla.svg?1786493017877457" title="Datos de contacto">
+                        <img height="20px" src="/rec/grafica/icon-contacto_bla.svg?1786713367259866" title="Datos de contacto">
                     </a>
                 </li>
                 <li class="col mx-1 fx-ampliar" title="Instagram">
                     <a href="https://instagram.com/posverso_bienal">
-                        <img height="20px" src="/rec/grafica/icon-instagram_bla.svg?1786493017877457" title="Instagram">
+                        <img height="20px" src="/rec/grafica/icon-instagram_bla.svg?1786713367259866" title="Instagram">
                     </a>
                 </li>
                 <li class="col mx-1 fx-ampliar" title="POSVERSO Radio">
                     <a href="https://posversobienal.com.ar/perm/radio/">
-                        <img height="20px" src="/rec/grafica/icon-radio_bla.svg?1786493017877457" title="POSVERSO Radio">
+                        <img height="20px" src="/rec/grafica/icon-radio_bla.svg?1786713367259866" title="POSVERSO Radio">
                     </a>
                 </li>
                 <li class="col mx-1 selector-idioma" title="Traducir página con Google Translate">
-                    <img height="20px" src="/rec/grafica/icon-traducir.svg?1786493017877457">
+                    <img height="20px" src="/rec/grafica/icon-traducir.svg?1786713367259866">
                     <div class="submenu">
                         
                         <button onclick="redirigir_a_traduccion('en')">English</button>
@@ -324,7 +1345,7 @@
                 </li>
                 <li class="col mx-1 mostrar-si-pagina-desplazada" title="Desplazarse al inicio de la página">
                     <button onclick="window.scrollTo(0,0)">
-                        <img height="20px" src="/rec/grafica/icon-subir.svg?1786493017877457">
+                        <img height="20px" src="/rec/grafica/icon-subir.svg?1786713367259866">
                     </button>
                 </li>
             </ul>
@@ -350,7 +1371,7 @@
             <span>Está página es traducida de forma automática por <i id="tr-by"></i>, causando posibles diferencias de significado sobre el texto original.</span>
         </div>
 
-        <script src="/lib/js/init.js?1786493017877457"></script>
-        <script src="/lib/js/acc-filtrador.js?1786493017877457"></script>
+        <script src="/lib/js/init.js?1786713367259866"></script>
+        <script src="/lib/js/acc-filtrador.js?1786713367259866"></script>
     </body>
 </html>
