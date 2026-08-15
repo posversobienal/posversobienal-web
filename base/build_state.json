@@ -1117,7 +1117,7 @@
       "output": "../docs/pag/evento_teorico_2024/index.html"
     },
     "./datos/paginas/2026_programa.yml": {
-      "hash": "8a005ed4bb93a2eef3efe1be3d87e47e",
+      "hash": "84f4ba11de5c48c15f1d98ad1752177c",
       "output": "../docs/pag/programa_2026/index.html"
     },
     "./datos/paginas/socios.yml": {
@@ -1197,7 +1197,7 @@
       "output": "../docs/obr/pe-scrappy/index.html"
     },
     "./datos/obras/cs-pb1ma.yml": {
-      "hash": "c3ac8cc136704232db1363ee1e1c93a4",
+      "hash": "942aa3df32da204102336d5e9b870887",
       "output": "../docs/obr/cs-pb1ma/index.html"
     }
   },
