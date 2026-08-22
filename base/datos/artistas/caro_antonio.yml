@@ -12,6 +12,9 @@ web: ''
 
 eventos: []
 
+obras:
+  - [26, 2026-caro-recolector]
+
 fotos:
   '24':
     persona: 'antonio_caro.jpg'

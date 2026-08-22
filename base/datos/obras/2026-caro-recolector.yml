@@ -1,0 +1,28 @@
+---
+
+html_base: 'obra-ficha.html'
+ruta_static: 'obr/2026-caro-recolector/index.html'
+estilo: col-lg-11
+
+titulo: 'RECOLECTOR'
+lugar: 'Hotel DaDA'
+fecha: '22/8 ~ 10/9'
+autoria: [caro_antonio]
+anno: '26'
+exhibicion: 'DEL ENCANTAMIENTO Y EL HORROR. Capítulo 2'
+
+imagenes:
+  - 2026/2026-caro-recolector-01.jpg
+  - 2026/2026-caro-recolector-02.jpg
+
+ficha: |
+  Video. FECHA: 2018. DURACIÓN: 1'45".  REGISTRO Y EDICIÓN: Fernando Pineda (Colombia).  PRODUCCIÓN: LA LUZ BUENA - arte de ocupación & Hotel DaDA. CONTEXTO ORIGINAL: Evento de Performance "Casa Tomada" (2018), Agustín Roca, Buenos Aires, Argentina.
+
+contenido: |
+  Antonio Caro despliega en *Recolector* una acción de aparente simplicidad: la limpieza de un terreno y la recolección de desechos en una bolsa de arpillera. Sin embargo, en el universo conceptual de Caro, la simplicidad nunca es ingenua. Al asumir el rol del recolector en el espacio de LA LUZ BUENA - arte de ocupación, el artista transforma un acto doméstico, marginal y habitualmente invisibilizado en una potente declaración política. Limpiar el territorio no es aquí un mero gesto ecológico o higienista; es una operación de demarcación, cuidado y reapropiación del espacio público y comunitario.
+
+  Al recoger los desechos, Caro realiza una doble operación estética y ética: por un lado, recupera los restos de la actividad humana que el sistema descarta y olvida; por otro, al introducir el residuo en el saco de arpillera mediante una acción performática, subvierte la lógica del consumo masivo que él mismo criticó a lo largo de su carrera. El desecho deja de ser basura para convertirse en un testigo material de la época.
+
+  El video, grabado y editado por el realizador colombiano Fernando Pineda, no opera como una mera documentación pasiva. La edición y la mirada del videomaker logran capturar la tensión entre el cuerpo del artista, la texturas de la arpillera y la geografía bonaerense. El registro deviene obra: una memoria viva que sobrevive a la efimeridad de la acción original.
+
+  Presentar Recolector en POSVERSO BIENAL es reactivar el legado de un maestro indiscutible del arte conceptual latinoamericano. En un mundo saturado de sobreproducción material y discursiva, la obra de Caro nos devuelve a lo esencial: nos interpela sobre qué hacemos con lo que dejamos atrás, cómo habitamos los territorios de los bordes y de qué manera el arte contemporáneo puede *limpiar* el ruido del mundo para dejarnos ver lo que verdaderamente importa.

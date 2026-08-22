@@ -12,6 +12,9 @@ instagram: ['@alemontiel.00', 'https://www.instagram.com/alemontiel.00/']
 
 eventos: []
 
+_obras:
+  - [26, 2026-montiel-la_opacidad_de_los_limites]
+
 fotos:
   '24':
     persona: 'ale_montiel.jpg'

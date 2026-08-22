@@ -1,0 +1,30 @@
+---
+
+html_base: 'obra-ficha.html'
+ruta_static: 'obr/2026-ivanchevich_forkda_sin_titulo/index.html'
+estilo: col-lg-11
+
+titulo: 'Sin título'
+lugar: 'UNNOBA - SUM Mario Meoni'
+fecha: '22/8'
+autoria: [ivanchevich_cecilia, forkda]
+anno: '26'
+exhibicion: 'DEL ENCANTAMIENTO Y EL HORROR. Capítulo 1'
+
+imagenes:
+  - 2026/2026-ivanchevich_forkda_sin_titulo-01.jpg
+  - 2026/2026-ivanchevich_forkda_sin_titulo-02.jpg
+
+ficha: |
+  Performance sonora, instalación. FECHA: 2026.
+
+contenido: |
+  La colaboración entre la artista visual Cecilia Ivanchevich y el Ensamble FØRK-DA se configura como un ecosistema efímero donde las fronteras entre el gesto, la línea y el sonido se disuelven. Ivanchevich, reconocida por su investigación sobre el ritmo, el espacio y la traducción visual del sonido, encuentra en los desarrollos tímbricos y la experimentación electroacústica de FØRK-DA el territorio ideal para un ritual de encantamiento contemporáneo.
+
+  A través del diálogo directo entre la acción gráfica y la textura sonora, la performance activa una forma de conocimiento sensible que escapa a la lógica racional e hipertecnológica del algoritmo actual. Es el encantamiento del aquí y ahora: una sinestesia donde el sonido se hace cuerpo y el trazo visual resuena, devolviéndole al espectador la capacidad de asombro ante la materia abstracta.
+
+  La propuesta sonora de FØRK-DA e Ivanchevich no busca la armonía complaciente; por el contrario, abraza el ruido, el acople, la distorsión y la fragmentación. Los quiebres sonoros y las líneas visuales que se cortan o saturan el espacio actúan como metáforas del colapso informativo, el aislamiento tecnológico y la violencia estructural.
+
+  El trabajo con el sub-low y los aerófonos hibridos  de FØRK-DA hackean las estructuras musicales tradicionales, mientras que el gesto de Ivanchevich interfiere en el espacio estático de la sala. En un contexto global de atomización social, el diálogo horizontal e impredecible entre las artes visuales y la música experimental se convierte en una acción micropolítica y a su modo utópica.
+
+  Al mismo tiempo, en el contexto actual del mundo donde el displacer y la violencia son parte de la vida cotidiana y serviles al sistema, el equipo se plantea una propuesta -antisistema- donde POSVERSO en la UNNOBA funcione como un refugio para la toma de distancia, la búsqueda de reflexión y creación colectiva, como espacio de encantamiento frente al horror.

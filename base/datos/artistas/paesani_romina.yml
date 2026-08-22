@@ -12,6 +12,9 @@ instagram: ['@rominapaesani.dibujos.teatro', 'https://instagram.com/rominapaesan
 
 eventos: []
 
+obras:
+  - [26, 2026-paesani-quimeras_por_defecto]
+
 fotos:
   '26':
     persona: 'paesani_romina.jpg'

@@ -12,6 +12,9 @@ instagram: ['@edgarulissesfilho', 'https://www.instagram.com/edgarulissesfilho/'
 
 eventos: []
 
+obras:
+  - [26, 2026-montenegro_ulisses-pousavam_em_nuvens_ralas]
+
 fotos:
   '26':
     persona: 'ulises_edgar-2.jpg'

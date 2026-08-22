@@ -12,6 +12,9 @@ instagram: ['@ale.meitin', 'https://instagram.com/ale.meitin/']
 
 eventos: []
 
+_obras:
+  - [26, 2026-meitin-la_vocacion_del_lugar]
+
 fotos:
   '26':
     persona: 'meitin_alejandro.jpg'

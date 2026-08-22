@@ -1,0 +1,24 @@
+---
+
+html_base: 'obra-ficha.html'
+ruta_static: 'obr/2026-sierra-the_maelstrom/index.html'
+estilo: col-lg-11
+
+titulo: 'THE MAELSTRÖM'
+lugar: 'UNNOBA - SUM Mario Meoni'
+fecha: '22/8'
+autoria: [sierra_santiago]
+anno: '26'
+exhibicion: 'DEL ENCANTAMIENTO Y EL HORROR. Capítulo 1'
+
+imagenes:
+  - 2026/2026-sierra-the_maelstrom-01.jpg
+  - 2026/2026-sierra-the_maelstrom-02.jpg
+
+ficha: |
+  Video. FECHA: Mayo de 2023. LUGAR: Serrekunda (Gambia). DURACIÓN: 34' 52".
+
+contenido: |
+  Europa es un jardín y el resto del mundo una jungla. Esta es la idea central, tomada de un extracto de un discurso de Josep Borrell —Alto Representante de la UE para Asuntos Exteriores y Política de Seguridad— que se repite hasta al cansancio como una banda sonora infernal durante los 34’ que dura la obra *THE MAELSTRÖM* de Santiago Sierra, realizada en Gambia en mayo del 2023.
+
+  Contra una pared o sobre el suelo, un grupo de jóvenes gambianos, pertenecientes al equipo de fútbol local Tallinding United, repite posiciones de arrestos de policiales una tras otra, como si de un manual de ejercicios de yoga se tratara. No les vemos nunca las caras. La “amenaza” de sus siluetas, anónimas, se convierte poco a poco en un juego visual hasta convertirse en un vórtice, el Maelström.

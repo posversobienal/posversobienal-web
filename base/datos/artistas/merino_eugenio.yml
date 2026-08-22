@@ -12,6 +12,9 @@ instagram: ['@eugeniomerino_estudio', 'https://www.instagram.com/eugeniomerino_e
 
 eventos: []
 
+obras:
+  - [26, 2026-merino-la_voz_de_lorca]
+
 fotos:
   '24':
     persona: 'merino_eugenio.jpg'

@@ -19,7 +19,7 @@ contenido: |
   - <i class="h">buitron_virginia</i> {{ per('buitron_virginia', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">cantera_ana_laura</i> {{ per('cantera_ana_laura', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">caro_antonio</i> {{ per('caro_antonio', urlhash='#p=26') }} <small class="text-secondary mx-2">(COLOMBIA)</small>
-  - <i class="h">ciullini_forbici</i> {{ per('ciullini_forbici', urlhash='#p=26') }} <small class="text-secondary mx-2">(ITALIA)</small>
+  - <i class="h">ciullini_le_forbici_di_manitu</i> {{ per('ciullini_le_forbici_di_manitu', urlhash='#p=26') }} <small class="text-secondary mx-2">(ITALIA)</small>
   - <i class="h">dardot_marila</i> {{ per('dardot_marila', urlhash='#p=26') }} <small class="text-secondary mx-2">(BRASIL)</small>
   - <i class="h">de_gracia_silvio</i> {{ per('de_gracia_silvio', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">fatmi_mounir</i> {{ per('fatmi_mounir', urlhash='#p=26') }} <small class="text-secondary mx-2">(MARRUECOS)</small>
@@ -34,7 +34,7 @@ contenido: |
   - <i class="h">la_porfia_colectivo</i> {{ per('la_porfia_colectivo', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">laufer_milton</i> {{ per('laufer_milton', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">macheratti_carlos_alberto</i> {{ per('macheratti_carlos_alberto', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
-  - <i class="h">mancioli_maurizio</i> {{ per('mancioli_maurizio', urlhash='#p=26') }} <small class="text-secondary mx-2">(BRASIL)</small>
+  - <i class="h">mancioli_maurizio</i> {{ per('mancioli_maurizio', urlhash='#p=26') }} <small class="text-secondary mx-2">(ITALIA/SUIZA/BRASIL)</small>
   - <i class="h">martinez_luciana</i> {{ per('martinez_luciana', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">meitin_alejandro</i> {{ per('meitin_alejandro', urlhash='#p=26') }} <small class="text-secondary mx-2">(ARGENTINA)</small>
   - <i class="h">merino_eugenio</i> {{ per('merino_eugenio', urlhash='#p=26') }} <small class="text-secondary mx-2">(ESPAÑA)</small>

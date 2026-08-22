@@ -13,6 +13,9 @@ web: ''
 
 eventos: []
 
+obras:
+  - [26, 2026-vaara-grounding]
+
 fotos:
   '26':
     persona: 'vaara_roi.jpg'

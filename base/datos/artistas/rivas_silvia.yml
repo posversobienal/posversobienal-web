@@ -10,6 +10,11 @@ contacto_publico: ''
 web: 'https://linktr.ee/silvia.rivas'
 instagram: ['@rivassilvia_', 'https://www.instagram.com/rivassilvia_/']
 
+eventos: []
+
+obras:
+  - [26, 2026-rivas-ejercicio_individual_1]
+
 fotos:
   '26':
     persona: 'rivas_silvia.jpg'

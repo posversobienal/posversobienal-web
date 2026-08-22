@@ -12,6 +12,9 @@ instagram: ['@rosembergsandovalg', 'https://www.instagram.com/rosembergsandovalg
 
 eventos: []
 
+obras:
+  - [26, 2026-sandoval-piedra]
+
 fotos:
   '26':
     persona: 'sandoval_rosemberg.jpg'

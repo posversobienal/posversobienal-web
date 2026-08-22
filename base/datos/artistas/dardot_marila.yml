@@ -12,6 +12,9 @@ instagram: ['@marila_dardot', 'https://www.instagram.com/marila_dardot/']
 
 eventos: []
 
+obras:
+  - [26, 2026-dardot-ir_y_volver]
+
 fotos:
   '26':
     persona: 'dardot_marila.jpg'

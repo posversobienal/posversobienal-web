@@ -12,6 +12,9 @@ web: 'https://mutesound.org/pedro-bericat/'
 
 eventos: []
 
+obras:
+  - [26, 2026-bericat-1_minute_autohypnosis]
+
 fotos:
   '26':
     persona: 'pedro_bericat.jpg'

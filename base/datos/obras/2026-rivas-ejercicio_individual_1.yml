@@ -1,0 +1,23 @@
+---
+
+html_base: 'obra-ficha.html'
+ruta_static: 'obr/2026-rivas-ejercicio_individual_1/index.html'
+estilo: col-lg-11
+
+titulo: 'Ejercicio individual I, de la serie Momentum'
+lugar: 'UNNOBA - SUM Mario Meoni'
+fecha: '22/8'
+autoria: [rivas_silvia]
+anno: '26'
+exhibicion: 'DEL ENCANTAMIENTO Y EL HORROR. Capítulo 1'
+
+imagenes:
+  - 2026/2026-rivas-ejercicio_individual_1-01.jpg
+
+ficha: |
+  Videoinstalación. FECHA: 2015. DURACIÓN: 1’35” en loop.
+
+contenido: |
+  Saltar al vacío, saltar en el tiempo, saltar como un comienzo. En vano intentaríamos controlar el decurso de nuestras vidas. Tal vez nuestra potencia se manifieste como vivencia solo en ese instante previo a cualquier desenlace, en la condición de vértigo, en la sensación de despertar en el aire.
+
+  Una decisión de entrega a la opacidad del devenir.

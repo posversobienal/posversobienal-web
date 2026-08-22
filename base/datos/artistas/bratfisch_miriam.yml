@@ -12,6 +12,9 @@ instagram: ['@miriambratfischsantiago', 'https://www.instagram.com/miriambratfis
 
 eventos: []
 
+obras:
+  - [26, 2026-bratfisch-searching_for_liza]
+
 fotos:
   '26':
     persona: 'bratfisch_miriam.jpg'

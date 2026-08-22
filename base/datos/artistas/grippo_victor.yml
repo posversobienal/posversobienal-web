@@ -11,6 +11,9 @@ web: ''
 
 eventos: []
 
+obras:
+  - [26, 2026-grippo-energia]
+
 fotos:
   '26':
     persona: 'grippo_victor.jpg'

@@ -11,6 +11,8 @@ web: 'https://hebeargentieri.com.ar'
 instagram: ['@hebeargentieri', 'https://instagram.com/hebeargentieri/']
 
 eventos: []
+obras:
+  - [26, 2026-argentieri-serie_insurgencias]
 
 fotos:
   '26':

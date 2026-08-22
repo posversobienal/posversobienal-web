@@ -12,6 +12,9 @@ instagram: ['@bmesz', 'https://www.instagram.com/bmesz/']
 
 eventos: []
 
+obras:
+  - [26, 2026-mesz_tedesco_zegna-vitriol]
+
 fotos:
   '26':
     persona: 'mesz_bruno.jpg'

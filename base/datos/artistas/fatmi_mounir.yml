@@ -12,13 +12,17 @@ instagram: ['@mounirfatmiofficiel', 'https://www.instagram.com/mounirfatmioffici
 
 eventos: []
 
+obras:
+  - [26, 2026-fatmi-archi_sickness]
+  - [26, 2026-fatmi-the_white_matter]
+
 fotos:
   '24':
     persona: 'mounir_fatmi.jpg'
     obra: 'mounir_fatmi-1.jpg'
     imagen_cabecera_posicion_inicial: 50% 50%
   '26':
-    persona: 'mounir_fatmi.jpg'
+    persona: 'mounir_fatmi-1.jpg'
     obra: 'mounir_fatmi-2.jpg'
     imagen_cabecera_posicion_inicial: 50% 50%
 

@@ -4,13 +4,16 @@ nombre: 'Maurizio'
 apellido: 'Mancioli'
 seudonimo: ''
 
-nacionalidad: 'Italia-Suiza/Brasil'
+nacionalidad: 'Italia/Suiza/Brasil'
 contacto_publico: ''
 
 web: 'https://www.mauriziomancioli.com/'
 instagram: ['@mauriziomancioli', 'https://www.instagram.com/mauriziomancioli/']
 
 eventos: []
+
+obras:
+  - [26, 2026-mancioli-latente]
 
 fotos:
   '26':

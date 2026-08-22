@@ -12,6 +12,10 @@ instagram: ['@mariazegna', 'https://www.instagram.com/mariazegna/']
 
 eventos: []
 
+obras:
+  - [26, 2026-mesz_tedesco_zegna-vitriol]
+  - [26, 2026-zegna-caminata]
+
 fotos:
   '24':
     persona: 'maria_zegna.jpg'

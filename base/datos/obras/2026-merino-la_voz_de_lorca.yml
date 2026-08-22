@@ -1,0 +1,31 @@
+---
+
+html_base: 'obra-ficha.html'
+ruta_static: 'obr/2026-merino-la_voz_de_lorca/index.html'
+estilo: col-lg-11
+
+titulo: 'La Voz de Lorca'
+lugar: 'Casa NEGRA'
+fecha: '22/8 ~ 3/10'
+autoria: [merino_eugenio]
+anno: '26'
+exhibicion: 'CUBO SONORO'
+
+imagenes:
+  - 2026/2026-merino-la_voz_de_lorca-01.jpg
+
+ficha: |
+  LP. FECHA: 2024. CRÉDITOS: Eugenio Merino y Juan Diego Botto.
+
+contenido: |
+  Este disco contiene extractos de entrevistas, conferencias y adhesiones de Federico García Lorca, leídos por Juan Diego Botto, como parte de una acción de recuperación y reivindicación de la voz política del poeta.
+
+  El material ha sido seleccionado por Víctor Fernández a partir de los libros *Palabra de Lorca: Declaraciones y entrevistas completas* y *De viva voz: conferencias y alocuciones* (de los cuales es coeditor), así como *Manifiestos, adhesiones y homenajes* (1916-1936), editado por Rafael Inglada.
+
+  La grabación se realizó en el estudio de Antonio Fernández, en Madrid, el 16 de julio de 2024.
+
+  A lo largo de los años, diversos investigadores han intentado encontrar alguna grabación de la voz de Federico García Lorca, pero hasta hoy no se ha hallado ningún registro sonoro suyo. Destacan, entre ellos, los trabajos de Víctor Fernández y Rafael Inglada, dos de los mayores especialistas en la vida y obra del poeta, quienes han rastreado archivos públicos y colecciones privadas en busca de cintas, discos o registros radiofónicos que pudieran haberla conservado. También se han investigado posibles intervenciones en Radio Madrid, así como grabaciones realizadas durante sus viajes a Buenos Aires y Nueva York, sin resultados concluyentes.
+
+  No existe, por tanto, ninguna grabación conocida de su voz. Esa ausencia es significativa: la voz de uno de los escritores más importantes del siglo XX fue silenciada no solo por su asesinato, sino también por décadas de censura y olvido. Recuperar hoy sus palabras a través de documentos sonoros leídos por otros es una forma de reconstruir simbólicamente su presencia y, con ella, parte de la memoria que el franquismo intentó borrar.
+
+  Falta recuperar su cuerpo, como el de tantos otros asesinados y enterrados en fosas comunes. Recuperar su voz es un acto de reparación; recuperar sus restos, una deuda pendiente con su dignidad y la de miles de víctimas de la represión franquista.

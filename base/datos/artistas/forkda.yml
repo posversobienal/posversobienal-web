@@ -12,6 +12,9 @@ instagram: ['@forkda', 'https://www.instagram.com/forkda/']
 
 eventos: []
 
+obras:
+  - [26, 2026-ivanchevich_forkda_sin_titulo]
+
 fotos:
   '26':
     persona: 'forkda.jpg'

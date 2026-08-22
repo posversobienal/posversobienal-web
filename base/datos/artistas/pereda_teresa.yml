@@ -12,6 +12,9 @@ instagram: ['@teresapereda', 'https://www.instagram.com/teresapereda/']
 
 eventos: []
 
+obras:
+  - [26, 2026-pereda-un_hilo_para_escalar_otros_mundos]
+
 fotos:
   '24':
     persona: 'teresa_pereda.jpg'

@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block body %}
+{% if 'imagen_cabecera' in pag %}
+<div>
+    <img src="{{ pag.imagen_cabecera }}" class="img-fluid">
+    {% if 'imagen_cabecera_creditos' in pag %}
+    <div class="text-end text-small mx-3">{{ markdown(pag.imagen_cabecera_creditos) }}</div>
+    {% endif %}
+</div>
+{% endif %}
+
+
+<div class="container contenido">
+
+    <div class="row">
+        <section class="col-lg-6">
+
+                <header class="my-5">
+        <h1 class="text-center">{{ markdown(pag.titulo) }}</h1>
+    </header>
+
+
+        <div><span class="text-small">AUTORIA:</span>
+            {% for autor in pag.autoria %}
+            {% if autor in rec.artistas %}
+            <span class="link">
+                {{ per(autor, urlhash='#p='+pag.anno, formato='html') }}.
+            </span>
+            {% else %}
+            <span class="">{{ autor }}.</span>
+            {% endif %}
+            {% endfor %}
+        </div>
+
+
+            {% if 'ficha' in pag %}
+            <section class="p-4 my-3 border border-secondary bg-secondary text-white rounded">
+                {{ markdown(pag.ficha, pag) }}
+            </section>
+            {% endif %}
+
+            {% if pag.imagenes %}
+            <div class="galeria d-flex flex-wrap justify-content-start">
+                {% for ruimg in pag.imagenes %}
+                <img class="img-fluid item-galeria my-2" src="/rec/foto/obras/{{ ruimg }}?{{ cfg.cache_actu }}" title="">
+
+                {% endfor %}
+            </div>
+            {% endif %}
+
+        </section>
+
+        <section class="col-lg-5">
+            <br><br><br>
+
+            {{ markdown(pag.contenido, pag) }}
+
+            <br><hr>
+            <p><span class="h5 text-secondary">EXHIBICIÓN:</span>
+                <br><b>{{ pag.exhibicion }}</b>
+                <br> {{ pag.lugar }} - {{ pag.fecha }}
+            </p>
+        </section>
+
+
+        {% if 'contenido_secundario' in pag %}
+        <section class="{{ pag.estilo_cnt_sec }}  ms-4 ps-4 border-start border-gray col-lg-3">
+            {{ markdown(pag.contenido_secundario, pag) }}
+        </section>
+        {% endif %}
+
+    </div>
+    {% if 'embed_raw' in pag %}{{ pag.embed_raw }}{% endif %}
+</div>
+
+
+
+
+{% endblock %}

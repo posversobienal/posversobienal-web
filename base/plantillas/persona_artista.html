@@ -38,7 +38,6 @@
                     </p>
                     {% endif %}
                 </div>
-
                 <br><br>
             </div>
             <div class="col-11 ms-4 ps-8 col-lg-7">
@@ -56,6 +55,23 @@
                     {{ markdown(pag.detalle) }}
                     {% endif %}
                 </div>
+
+                {% if pag.obras %}
+                <div class="text-start movile-text-center">
+                    <br><hr><br>
+                    <p class="h4 text-secondary">OBRAS</p>
+                    {% for obra in pag.obras %}
+                    <p class="my-4"><a name="{{ obra[0] }}" href="/{{ dirname(rec.obras[obra[1]]['ruta_static']) }}">
+                        <b>{{ rec.obras[obra[1]]['titulo'] }}</b>
+                        <br>{{ rec.obras[obra[1]]['exhibicion'] }} - {{ rec.obras[obra[1]]['lugar'] }} - {{ rec.obras[obra[1]]['fecha'] }}
+                        <br><span class="btn btn-sm btn-dark text-small">AMPLIAR FICHA</span>
+                    </a>
+                    </p>
+                    <!-- {-{ rec.obras[obra[1]] }} -->
+                    {% endfor %}
+                </div>
+                {% endif %}
+
             </div>
         </div>
     </div>

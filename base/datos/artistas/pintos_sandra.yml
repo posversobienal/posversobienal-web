@@ -12,6 +12,9 @@ instagram: ['@sandra_pintos0k', 'https://www.instagram.com/sandra_pintos0k/']
 
 eventos: []
 
+obras:
+  - [26, 2026-pintos-ciudad_de_pajaros_perdidos_y_seres_sin_recuerdos]
+
 fotos:
   '26':
     persona: 'pintos_sandra.jpg'

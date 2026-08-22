@@ -1,0 +1,26 @@
+---
+
+html_base: 'obra-ficha.html'
+ruta_static: 'obr/2026-fatmi-archi_sickness/index.html'
+estilo: col-lg-11
+
+titulo: 'Archi Sickness'
+lugar: 'Casa NEGRA'
+fecha: '22/8 ~ 10/9'
+autoria: [fatmi_mounir]
+anno: '26'
+exhibicion: 'FANTASÍAS OSCURAS'
+
+imagenes:
+  - 2026/2026-fatmi-archi_sickness-01.jpg
+  - 2026/2026-fatmi-archi_sickness-02.jpg
+
+ficha: |
+  Recopilación de sonidos. FECHA: 2011. CRÉDITOS: Cortesía del artista y Piero Atchugarry Gallery, Miami.
+
+contenido: |
+  Inspirada en *La lección de anatomía* de Rembrandt, pintada en 1632, y en la película surrealista de 1929 *Un perro andaluz*, de Salvador Dalí y Luis Buñuel, la compilación sonora *Archi Sickness* aborda la cuestión de nuestra relación con las imágenes violentas en los medios de comunicación y la televisión. Compuesta por modulaciones de frecuencia entrelazadas, generadas por algún dispositivo médico automatizado o máquina de comunicación moderna, las bandas sonoras transportan al oyente a un mundo dominado por la tecnología, que transcribe la frialdad, la falta de compasión y la indiferencia del espectador contemporáneo.
+
+  La compilación *Archi Sickness* critica nuestra ambigua relación con la violencia omnipresente en los medios, donde la repulsión y la fascinación se entrelazan. Archi Sickness adopta una perspectiva arquitectónica y médica. De este modo, pone de relieve la brutalidad organizada que subyace en nuestras sociedades y diagnostica una patología en el espectador contemporáneo, que se manifiesta esencialmente como una relación fría y científica con los cuerpos mutilados, la estetización de la violencia, una forma de voyeurismo que convierte al espectador en cómplice de los crímenes perpetrados en la pantalla, y una confusión generalizada en el público entre ficción y realidad respecto a las imágenes transmitidas.
+
+  En definitiva, *Archi Sickness* es como presenciar una anestesia administrada por un cirujano inhabilitado para ejercer la medicina: una anestesia ocular y sentimental del espectador contemporáneo, cuyo ojo ha sido sustituido por la indiferencia de la lente de una cámara.

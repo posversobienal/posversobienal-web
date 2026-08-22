@@ -12,6 +12,9 @@ instagram: ['@cecilia.ivanchevich', 'https://www.instagram.com/cecilia.ivanchevi
 
 eventos: []
 
+obras:
+  - [26, 2026-ivanchevich_forkda_sin_titulo]
+
 fotos:
   '26':
     persona: 'ivanchevich_cecilia.jpg'

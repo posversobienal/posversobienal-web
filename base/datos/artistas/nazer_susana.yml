@@ -12,6 +12,9 @@ instagram: ['@su.nazer', 'https://www.instagram.com/su.nazer/']
 
 eventos: []
 
+obras:
+  - [26, 2026-nazer-entremundos]
+
 fotos:
   '26':
     persona: 'nazer_susana.jpg'

@@ -12,6 +12,9 @@ instagram: ['@art.dictator.and.kurator', '#https://www.instagram.com/art.dictato
 
 eventos: []
 
+obras:
+  - [26, 2026-radakovic-over_liberty]
+
 fotos:
   '26':
     persona: 'radakovic_darija.jpg'

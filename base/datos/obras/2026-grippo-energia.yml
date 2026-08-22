@@ -1,0 +1,27 @@
+---
+
+html_base: 'obra-ficha.html'
+ruta_static: 'obr/2026-grippo-energia/index.html'
+estilo: col-lg-11
+
+titulo: 'Energía de una papa o, Sin título o Energía'
+lugar: 'Hotel DaDA'
+fecha: '22/8 ~ 10/9'
+autoria: [grippo_victor]
+anno: '26'
+exhibicion: 'DEL ENCANTAMIENTO Y EL HORROR. Capítulo 2'
+
+imagenes:
+  - 2026/2026-grippo-energia-01.jpg
+
+ficha: |
+  Objeto. FECHA: 1972. MATERIALES: Papa, electrodos de zinc y cobre, cables, medidor de electricidad.
+
+contenido: |
+  El regreso de la obra de Víctor Grippo a Junín —su ciudad natal— encuentra un refugio conceptual ideal en Hotel DaDA centro de poéticas expandidas en el marco de la Bienal POSVERSO. Insertada bajo el eje curatorial *“Del encantamiento y el horror”*, la presentación de Energía en este espacio no solo es un acontecimiento histórico, sino una declaración de principios sobre la vigencia del conceptualismo.
+
+  Hotel DaDA, como laboratorio de cruces interdisciplinares y lenguajes fronterizos, se transforma en el contenedor perfecto para una obra que, desde su concepción, desafió las fronteras rígidas entre el arte, la ciencia, la alquimia y la poesía
+
+  En el centro de la propuesta estética de Grippo se encuentra la papa: un elemento ordinario, cotidiano y profundamente ligado a la identidad andina y a la tierra latinoamericana. Al conectar una simple papa a través de dos electrodos (cobre y zinc) a un voltímetro, Grippo hace visible lo invisible. El aparato registra una corriente eléctrica real. Esta operación físico-química opera como una monumental *analogía* del propio ser humano y de la sociedad. La materia orgánica, la más humilde y ligada al suelo, contiene en sí misma la chispa de la transformación y la vida. El voltímetro mide la fuerza acumulada, sugiriendo que, al igual que el tubérculo, la conciencia humana posee un potencial energético adormecido capaz de ser despertado y canalizado críticamente.
+
+  En el contexto de Bienal POSVERSO, *Energía* se lee como un poema visual absoluto con una potencia crítica urgente. Nos señala que el nuevo destino del hombre no reside en la aceleración tecnológica alienante, sino en el despertar de una conciencia más amplia; un llamado a reconectarnos con los procesos naturales para, a partir de esa energía primaria y colectiva, reescribir y sanar el presente.

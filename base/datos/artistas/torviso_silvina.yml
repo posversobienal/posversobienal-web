@@ -12,6 +12,9 @@ instagram: ['@silvinatorviso', 'https://www.instagram.com/silvinatorviso/']
 
 eventos: []
 
+obras:
+  - [26, 2026-torviso-entre_polvo_y_luz]
+
 fotos:
   '24':
     persona: 'silvina_torviso.jpg'

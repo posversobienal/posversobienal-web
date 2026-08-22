@@ -12,6 +12,9 @@ instagram: ['@somoslaporfia', 'https://www.instagram.com/somoslaporfia/']
 
 eventos: []
 
+obras:
+  - [26, 2026-la_porfia-la_porfia_de_caminar]
+
 fotos:
   '26':
     persona: 'la_porfia_colectivo.jpg'

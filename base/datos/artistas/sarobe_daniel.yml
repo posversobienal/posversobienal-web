@@ -12,6 +12,9 @@ instagram: ['@daniel.sarobe', 'https://www.instagram.com/daniel.sarobe/']
 
 eventos: []
 
+obras:
+  - [26, 2026-sarobe-ese_arbol_sostuvo_el_cielo]
+
 fotos:
   '24':
     persona: 'daniel_sarobe.jpg'
