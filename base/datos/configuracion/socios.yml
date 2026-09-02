@@ -89,3 +89,8 @@
   imagen: 2026/ganuritov.png
   url: 'https://caalma.github.io/ganuritov/'
   tag: [2026]
+
+- nombre: 'pac'
+  imagen: 2026/pac.png
+  url: ''
+  tag: [2026]
