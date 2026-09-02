@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div class="menu-lang text-end">
+     <small class="text-center">
+            <span lang="es">Contenido en </span>
+            <span lang="en">Content in </span>
+            <span lang="it">Contenuto in </span>
+     </small>
+     <select id="sel-lang" class="btn btn-outline-dark btn-sm ms-2" onchange="cambiar_idioma(this)">
+         <option value="es">ESPAÑOL</option>
+         <option value="it">ITALIANO</option>
+         <option value="en">ENGLISH</option>
+    </select>
+</div>
+<div class="container contenido">
+    <header class="my-5">
+        <h1 class="text-center">
+            <div lang="es">{{ pag.titulo.es }}</div>
+            <div lang="it">{{ pag.titulo.it }}</div>
+            <div lang="en">{{ pag.titulo.en }}</div>
+
+        </h1>
+    </header>
+
+    <div class="row">
+        <section class="{{ pag.estilo }} col-lg-11">
+            <div lang="es">{{ markdown(pag.contenido.es) }}</div>
+            <div lang="it">{{ markdown(pag.contenido.it) }}</div>
+            <div lang="en">{{ markdown(pag.contenido.en) }}</div>
+        </section>
+    </div>
+</div>
+<script>function onload_acciones(){ cambiar_idioma(document.getElementById('sel-lang')); }</script>
+
+{% endblock %}
