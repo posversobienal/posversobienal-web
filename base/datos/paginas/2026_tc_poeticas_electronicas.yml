@@ -1,0 +1,53 @@
+---
+
+titulo: 'POSVERSO 2026 - POÉTICAS ELECTRÓNICAS. Pasados/presentes/futuros en tensión'
+html_base: 'pagina.html'
+ruta_static: 'pag/poeticas_electronicas_2026/index.html'
+estilo: col-lg-11
+estilo_cnt_sec: ''
+
+contenido: |
+  Los entornos digitales, que dominan en la actualidad el habitar cotidiano de una gran parte de la población mundial, interpelan sin duda a las prácticas artísticas contemporáneas. En ese contexto, una zona significativa de las poéticas electrónicas latinoamericanas busca hablar lenguajes actuales, pero que a la vez puedan tensionarse respecto del dispositivo digital hegemónico que reduce todo saber a información y todo fragmento de sentido a dato.
+
+  Las piezas que aquí presentamos se ubican en esa tensión y logran hacer diferencia abismándose en el difícil equilibrio entre un adentro y un afuera, en el tiempo de una suspensión en el umbral. A diferencia del límite, de algún modo más definitivo, el umbral se deja habitar como espacio-tiempo de suspensión, duración o entremedio. En este caso, un dentro/fuera o un fuera/ dentro de las culturas digitales que vislumbra lo que es y no es, o lo que puede llegar a ser, que recupera sentidos pasados, los reconfigura en presente y futuro, y los convierte en tiempo de extrañamiento.
+
+  Así, proponemos un recorrido que fluye en torno de diversas formas del encantamiento y el horror –tema central de la Bienal POSVERSO 2026– en vinculación con las culturas digitales contemporáneas: desde las recuperaciones digitales de formas ancestrales del asombro y la comunalidad, hasta la autorreflexividad respecto del código informático como lenguaje que orienta nuestros deseos –como dice Eugenio Tisselli en Amazon, pieza aquí presente–; desde la potencia de experimentación sensible de lo digital hasta la disidencia o la distopía en el marco de la extenuación contemporánea.
+
+  Los recorridos por estos umbrales se orientan aquí a partir de tres zonas: **Inscripciones sensibles**; **Entretejidos**; **Grados de encantamiento / Grados de horror en la poesía digital**.
+
+  <br>
+
+  **Inscripciones sensibles**, integrada por el video digital _Video S/T \#3 (Cuenta regresiva de fuego, de la serie Los números Naturales)_ de Augusto Zanela, la videoinstalación _Florisgrafía es hacer un grabado en una carne vegetal_ de Luciano Pozo y la escultura electrónica _sirenIA 2<<7_ de Carlos Macheratti, propone adentrarse en procesos sensibles de impresión/inscripción/interacción que modulan la difuminación de los límites entre naturaleza y artificio.
+
+  \- En _Cuenta regresiva de fuego_, el número –creación simbólica humana transferida hoy a la totalidad de lo que es– se escribe en el libro de la naturaleza: por la acción del fuego desaparece; y por la acción digital vuelve a aparecer en _loop_.
+
+  \- _Florisgrafía_ documenta un proceso de bio-impresión (impresión gráfica sobre pétalos de flor) resignificando la técnica del grabado a partir de simbiosis inesperadas e integrando el video a una instalación en la que un conjunto de cables verdes recupera la indeterminación natural/artificial.
+
+  \- Por último, _sirenIA 2<<7_, a modo de planta artificial con su maceta, pero en este caso hecha de cables negros, sensores piezoeléctricos, cámara web y parlantes captura estímulos del ambiente y los reconvierte en emisiones sonoras, que a su vez se utilizan para seleccionar fragmentos de audios de lecturas de textos rotos, imposibles, hechas por voces creadas por inteligencia artificial.
+
+  <br>
+
+  La sección **Entretejidos** pone en diálogo tres piezas que trabajan la confluencia entre códigoinformático, texto y textil, en gran medida a partir de relecturas de cosmovisiones no occidentales/ occidentalizantes que en nuestro continente fueron previas a la conquista y colonización.
+
+  \- _La respuesta de los dioses_, instalación electrónica de Diego Alberti, plantea diálogos entre prácticas ancestrales y circuitos digitales a partir de un algoritmo que genera patrones simétricos en constante mutación, donde el error puede acontecer. Según el artista, una respuesta de los dioses a la falibilidad humana y tecnológica.
+
+  \- También _Glitch_, de Mariela Yeregui explora el error –como lo indica su título– al presentar un textil intervenido con micropantallas que proyectan texto. En tiempos de pretendida transparencia, la conjunción entre prácticas textiles analógicas y digitales cuenta otra historia.
+
+  \- Como parte de un proyecto más amplio titulado _TEXTO – TEXTIL – CÓDIGO_, la pieza _awari (poema)_ de aruma (Sandra de Berduccy) es una versión reciente para video de la obra _rimaymapping_ (2012) con audio de Manrico Montero a partir de manipulación de transmisiones radiales en quechua. Presenta versos tejidos en _toqapu quellca_, escritura textil que se lee en quechua y se escribe en los textiles.
+
+  <br>
+
+  La tercera sección, **Grados de encantamiento / Grados de horror en la poesía digital**, anticipada por las poéticas textiles/textuales de la anterior, entra de lleno en el terreno de la poesía digital, con textos/poemas programados que habitan solamente ambientes digitales y que perderían mucho si quisiéramos transferirlos a soportes analógicos. Casi todas las piezas que la integran requieren de la interacción con periféricos de la computadora para que algo suceda, de allí que esta zona se concentre en el espacio expositivo en una isla con computadoras. El conjunto ofrece una exploración que fluctúa, ya sea en una misma pieza ya sea en el diálogo entre ellas, entre cierto asombro/encantamiento por la potencia del texto digital y una actitud crítica que pone en cuestión la matriz tecno-social hegemónica que lo contiene.
+
+  \- Enmarcada en la poesía generativa, _El código es la escritura_ de Wendy Yashira se ofrece aquí como presentación en pantalla de un poema/manifiesto programado en Hydra.js –y ejecutado habitualmente en tiempo real en contextos performáticos– con referencias a figuras como Donna Haraway y Mark Fisher, así como a elementos ancestrales de la cultura andina, proponiendo una relación entre tecnología y prácticas comunitarias.
+
+  \- También inspirada en Donna Haraway, *Cyber_BardX* de Carlos Ramírez Kobra plantea computadoras y algoritmos como “especies compañeras”, cuestionando y ampliando las fronteras entre tecnología y literatura.
+
+  \- En _Combinatory Nierika_, poesía algorítmica combinatoria minimalista, Mario Guzmán reimagina en forma bilingüe en español y wixárika (huichol) múltiples visiones de la peregrinación ritual que este pueblo realiza desde las costas de Nayarit hasta Wirikuta, al norte de San Luis Potosí.
+
+  \- _El futuro: una teratología del pasado_, de Milton Läufer, explora las formas en que la digitalidad recupera el tiempo pasado no como fiel reflejo, sino como un vástago monstruoso e impredecible. De allí que presente al futuro como teratología. A partir de la generación poética automática, se deambula entonces por intentos de ordenar el caos que acecha de forma inexorable.
+
+  \- Con _Amazon_, de Eugenio Tisselli, cerramos el recorrido recuperando su mismo inicio donde el número se inscribía en la naturaleza. _Amazon_ plantea la intersección del código digital, en cuanto vector que transforma los deseos en datos numéricos, con la deforestación de la Amazonia en el marco del Capitaloceno. Como lo muestra la sección de la pieza que resulta en un poema visual animado, aquí también el fuego consume a la naturaleza, pero el número se presenta ahora como la suma de todo lo existente. Ya no parece haber entonces salida digital para el resurgimiento de las cenizas. Siempre es posible, con todo, volver a circular por la muestra para enfrentarnos a nuevas interpelaciones.
+
+  Claudia Kozak.
+  {.firma}

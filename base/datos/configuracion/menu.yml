@@ -9,6 +9,7 @@
     - {titulo: 'Acerca de nosotros', url: '/pag/acerca_de_la_bienal/'}
     - {titulo: 'Sedes', url: '/pag/sedes_2026/'}
     - {titulo: 'Programa', url: '/pag/programa_2026/'}
+    - {titulo: 'Exhibiciones', url: '/pag/exhibiciones_2026/'}
 
 - titulo: 'ARTISTAS'
   url: ''
