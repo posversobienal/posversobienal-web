@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival de Radioarte - POSVERSO 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lib/css/style.css">
+</head>
+<body>
+    <main class="container">
+        <header class="header">
+            <a href="/" target="_blank"><img src="img/a_pv.svg" title="volver a POSVERSO Bienal" class="logo-a-pv"></a>
+            <img class="logo-posverso" src="img/logo-posverso.svg" title="POSVERSO Bienal">
+        </header>
+
+        <section class="catalogo" id="catalogo">
+            <h1 class="catalogo-titulo">Festival de Radioarte - POSVERSO 2026</h1>
+            <ul class="catalogo-lista" id="catalogo-lista"></ul>
+        </section>
+
+        <div class="panel-overlay" id="panel-overlay"></div>
+
+        <section class="panel" id="panel">
+            <button class="panel-cerrar" id="panel-cerrar" aria-label="Cerrar">×</button>
+            <div class="panel-contenido" id="panel-contenido"></div>
+        </section>
+    </main>
+
+    <script src="lib/js/marked.min.js"></script>
+    <script src="lib/js/markdown.js"></script>
+    <script src="lib/js/catalogo.js"></script>
+    <script src="lib/js/panel.js"></script>
+    <script src="lib/js/main.js"></script>
+</body>
+</html>
