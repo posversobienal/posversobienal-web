@@ -184,7 +184,7 @@ section {
 
 /* === Boton Ampliar ficha === */
 .btn-ficha {
-    display: inline-block;
+    display: none;
     background: var(--bg-btn);
     color: #ffffff!important;
     border: none;
@@ -200,6 +200,11 @@ section {
     transition: background 0.2s;
 }
 
+/* Solo visible cuando la ficha tiene metadatos cargados */
+.ficha.active .btn-ficha {
+    display: inline-block;
+}
+
 .btn-ficha:hover {
     background: #333333;
 }
@@ -209,6 +214,10 @@ section {
     color: var(--text-3);
     cursor: default;
     pointer-events: none;
+}
+
+.ficha.active .btn-ficha.disabled {
+    display: none;
 }
 
 /* === Player === */
