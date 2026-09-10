@@ -7,7 +7,7 @@
 (function () {
 
     // Em-dash usado como placeholder en el display
-    var PLACEHOLDER = '\u2014';
+    var PLACEHOLDER = String.fromCharCode(8212);
 
     function getEl(id) {
         return document.getElementById(id);

@@ -14,7 +14,6 @@ var CONFIG = {
     host: 'giss.tv',
     mount: 'posversoradio.ogg',
     ports: [666, 667],          // orden de prioridad
-    catalogUrl: 'data/catalogo.json',
     statsInterval: 5,
     reconnectDelay: 5000,
     stallTimeout: 8000,
@@ -45,8 +44,6 @@ var ICON_VOL =
 // Estado
 // ============================================================
 
-var catalog = [];
-var catalogIndex = {};
 var currentMeta = null;
 var isPlaying = false;
 var startTime = 0;
@@ -68,124 +65,101 @@ var elStatusDot, elStatusText, elTrackNumber, elTrackTitle,
     elRadioSource, elGissPlayer, elStreamDirecto;
 
 // ============================================================
-// Catalogo
+// Metadatos directos de la transmision
 // ============================================================
 
-function normalize(str) {
-    if (!str) return '';
-    return str
-        .toLowerCase()
-        .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '')
-        .replace(/[^a-z0-9\s]/g, '')
-        .replace(/\s+/g, ' ')
-        .trim();
-}
+var EM_DASH = String.fromCharCode(8212);
 
-function buildIndex(data) {
-    var idx = { byTitleArtist: {}, byTitle: {} };
+function getMetaValue(meta, keys) {
+    var i;
+    var key;
+    var value;
 
-    data.forEach(function (item, i) {
-        var t = normalize(item.title);
-        var a = normalize(item.artist);
-        var keyTA = t + '||' + a;
+    for (i = 0; i < keys.length; i += 1) {
+        key = keys[i];
+        value = meta[key];
 
-        if (!idx.byTitleArtist[keyTA]) idx.byTitleArtist[keyTA] = [];
-        idx.byTitleArtist[keyTA].push(i);
+        if (!value && meta[key.toLowerCase()]) {
+            value = meta[key.toLowerCase()];
+        }
 
-        if (!idx.byTitle[t]) idx.byTitle[t] = [];
-        idx.byTitle[t].push(i);
-    });
-
-    return idx;
-}
-
-function findFicha(meta) {
-    if (!meta || !meta.TITLE) return null;
-
-    var t = normalize(meta.TITLE);
-    var a = normalize(meta.ARTIST || '');
-
-    // 1: title + artist
-    var keyTA = t + '||' + a;
-    if (catalogIndex.byTitleArtist[keyTA]) {
-        return catalog[catalogIndex.byTitleArtist[keyTA][0]];
-    }
-
-    // 2: solo title
-    if (catalogIndex.byTitle[t]) {
-        return catalog[catalogIndex.byTitle[t][0]];
-    }
-
-    // 3: title parcial
-    for (var key in catalogIndex.byTitle) {
-        if (key.indexOf(t) !== -1 || t.indexOf(key) !== -1) {
-            return catalog[catalogIndex.byTitle[key][0]];
+        if (value) {
+            return String(value).trim();
         }
     }
 
-    return null;
+    return '';
 }
 
-function loadCatalog() {
-    fetch(CONFIG.catalogUrl)
-        .then(function (resp) {
-            if (!resp.ok) throw new Error('HTTP ' + resp.status);
-            return resp.json();
-        })
-        .then(function (data) {
-            catalog = data;
-            catalogIndex = buildIndex(catalog);
-            console.info('[catalogo] %d fichas cargadas', catalog.length);
-        })
-        .catch(function (e) {
-            console.error('[catalogo] Error cargando:', e);
-        });
+function getMetaUrl(meta) {
+    var url = getMetaValue(meta, ['WEBSITE', 'URL', 'CONTACT']);
+
+    if (!url) {
+        return '';
+    }
+
+    // Vorbis puede unir varios valores con "; "
+    url = url.split(';')[0].trim();
+
+    if (!/^https?:\/\//i.test(url)) {
+        url = 'https://' + url;
+    }
+
+    return url;
 }
 
-// ============================================================
-// Display
-// ============================================================
+function setDiscUrl(url) {
+    elDiscUrl.textContent = '';
+
+    if (!url) {
+        elDiscUrl.textContent = EM_DASH;
+        return;
+    }
+
+    var link = document.createElement('a');
+    link.href = url;
+    link.target = '_blank';
+    link.rel = 'noopener';
+    link.textContent = url;
+
+    elDiscUrl.appendChild(link);
+}
 
 function updateDisplay(meta) {
-    if (!meta || !meta.TITLE) return;
+    if (!meta) {
+        return;
+    }
+
+    var title = getMetaValue(meta, ['TITLE']);
+    var artist = getMetaValue(meta, ['ARTIST']);
+
+    if (!title && !artist) {
+        return;
+    }
 
     var metaStr = JSON.stringify(meta);
-    if (currentMeta === metaStr) return;
+
+    if (currentMeta === metaStr) {
+        return;
+    }
+
     currentMeta = metaStr;
 
-    var ficha = findFicha(meta);
+    var album = getMetaValue(meta, ['ALBUM']);
+    var date = getMetaValue(meta, ['DATE']);
+    var trackNumber = getMetaValue(meta, ['TRACKNUMBER']);
 
-    elTrackTitle.textContent = meta.TITLE || '\u2014';
-    elTrackArtist.textContent = meta.ARTIST || '\u2014';
+    elTrackNumber.textContent = '';
+    elTrackArtist.textContent = artist || EM_DASH;
+    elTrackNumber.textContent = trackNumber || EM_DASH;
+    elDiscName.textContent = album || EM_DASH;
+    elDiscDate.textContent = date || EM_DASH;
 
-    if (ficha) {
-        elTrackNumber.textContent =
-            String(ficha.track_number).padStart(2, '0');
-        elDiscName.textContent = ficha.disc_name || '\u2014';
-        elDiscDate.textContent = ficha.disc_date || '\u2014';
+    setDiscUrl(getMetaUrl(meta));
 
-        if (ficha.disc_url) {
-            elDiscUrl.innerHTML =
-                '<a href="' + ficha.disc_url +
-                '" target="_blank" rel="noopener">' +
-                ficha.disc_url + '</a>';
-        } else {
-            elDiscUrl.textContent = '\u2014';
-        }
-
-        elFicha.classList.add('active');
-    } else {
-        elTrackNumber.textContent =
-            meta.TRACKNUMBER
-                ? String(meta.TRACKNUMBER).padStart(2, '0')
-                : '\u2014';
-        elDiscName.textContent = meta.ALBUM || '\u2014';
-        elDiscDate.textContent = meta.DATE || '\u2014';
-        elDiscUrl.textContent = meta.CONTACT || '\u2014';
-        elFicha.classList.remove('active');
-    }
+    elFicha.classList.add('active');
 }
+
 
 // ============================================================
 // Streaming: metadatos
@@ -406,9 +380,6 @@ function init() {
             handleStreamFailure();
         }, CONFIG.stallTimeout);
     });
-
-    // Catalogo
-    loadCatalog();
 
     // Elemento en foco
     elBtnPlay.focus();

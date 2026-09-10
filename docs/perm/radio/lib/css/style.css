@@ -129,6 +129,9 @@ section {
     text-align: right;
     font-variant-numeric: tabular-nums;
 }
+.track-number:empty {
+    display: none;
+}
 
 .track-info {
     flex: 1;
