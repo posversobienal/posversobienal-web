@@ -92,17 +92,17 @@ function getMetaValue(meta, keys) {
 }
 
 function getMetaUrl(meta) {
-    var url = getMetaValue(meta, ['WEBSITE', 'URL', 'CONTACT']);
+    var url = getMetaValue(meta, ['WEBSITE', 'URL', 'CONTACT', 'COMMENT']);
 
     if (!url) {
         return '';
     }
 
-    // Vorbis puede unir varios valores con "; "
     url = url.split(';')[0].trim();
 
+    // Solo tomar si parece URL (tiene http)
     if (!/^https?:\/\//i.test(url)) {
-        url = 'https://' + url;
+        return '';
     }
 
     return url;
@@ -167,7 +167,7 @@ function updateDisplay(meta) {
 
 var statsListener = null;
 
-function startMetadataListener() {
+function startMetadataListener__() {
     if (statsListener) statsListener.stop();
 
     statsListener = new IcecastMetadataStats(
@@ -183,6 +183,38 @@ function startMetadataListener() {
         }
     );
 
+    statsListener.start();
+}
+
+function startMetadataListener() {
+    if (statsListener) statsListener.stop();
+    statsListener = new IcecastMetadataStats(
+        getStreamUrl(),
+        {
+            interval: CONFIG.statsInterval,
+            sources: ['ogg', 'icy'],
+            onStats: function (stats) {
+                // Loguear todo lo que llega
+                console.group('[METADATA RAW]');
+                console.log('Timestamp:', new Date().toISOString());
+                if (stats.ogg) {
+                    console.log('OGG tags:', stats.ogg);
+                }
+                if (stats.icy) {
+                    console.log('ICY tags:', stats.icy);
+                }
+                if (stats.icestats) {
+                    console.log('Icecast stats:', stats.icestats);
+                }
+                console.groupEnd();
+
+                // Mantener el comportamiento original
+                if (stats.ogg && typeof stats.ogg === 'object') {
+                    updateDisplay(stats.ogg);
+                }
+            }
+        }
+    );
     statsListener.start();
 }
 
