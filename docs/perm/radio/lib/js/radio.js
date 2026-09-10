@@ -58,11 +58,11 @@ var failoverAttempts = 0;
 // Referencias al DOM
 // ============================================================
 
-var elStatusDot, elStatusText, elTrackNumber, elTrackTitle,
-    elTrackArtist, elDiscName, elDiscDate, elDiscUrl,
+var elStatusDot, elStatusText, elTrackTitle,
+    elTrackArtist, elDiscName, elDiscUrl,
     elFicha, elBtnPlay, elPlayerControls,
     elBtnToggle, elVolSlider, elVolIcon, elTimeDisplay, elAudio,
-    elRadioSource, elGissPlayer, elStreamDirecto;
+    elRadioSource, elGissPlayer, elStreamDirecto, elBtnFicha;
 
 // ============================================================
 // Metadatos directos de la transmision
@@ -71,40 +71,22 @@ var elStatusDot, elStatusText, elTrackNumber, elTrackTitle,
 var EM_DASH = String.fromCharCode(8212);
 
 function getMetaValue(meta, keys) {
-    var i;
-    var key;
-    var value;
-
+    var i, key;
     for (i = 0; i < keys.length; i += 1) {
         key = keys[i];
-        value = meta[key];
-
-        if (!value && meta[key.toLowerCase()]) {
-            value = meta[key.toLowerCase()];
-        }
-
-        if (value) {
-            return String(value).trim();
-        }
+        if (meta[key]) return String(meta[key]).trim();
+        if (meta[key.toLowerCase()]) return String(meta[key.toLowerCase()]).trim();
     }
-
     return '';
 }
 
 function getMetaUrl(meta) {
     var url = getMetaValue(meta, ['WEBSITE', 'URL', 'CONTACT', 'COMMENT']);
-
-    if (!url) {
-        return '';
-    }
-
+    if (!url) return '';
     url = url.split(';')[0].trim();
-
-    // Solo tomar si parece URL (tiene http)
     if (!/^https?:\/\//i.test(url)) {
-        return '';
+        url = 'https://' + url;
     }
-
     return url;
 }
 
@@ -126,36 +108,33 @@ function setDiscUrl(url) {
 }
 
 function updateDisplay(meta) {
-    if (!meta) {
-        return;
-    }
+    if (!meta) return;
 
     var title = getMetaValue(meta, ['TITLE']);
     var artist = getMetaValue(meta, ['ARTIST']);
 
-    if (!title && !artist) {
-        return;
-    }
+    if (!title && !artist) return;
 
     var metaStr = JSON.stringify(meta);
-
-    if (currentMeta === metaStr) {
-        return;
-    }
-
+    if (currentMeta === metaStr) return;
     currentMeta = metaStr;
 
     var album = getMetaValue(meta, ['ALBUM']);
-    var date = getMetaValue(meta, ['DATE']);
-    var trackNumber = getMetaValue(meta, ['TRACKNUMBER']);
 
-    elTrackNumber.textContent = '';
-    elTrackArtist.textContent = artist || EM_DASH;
-    elTrackNumber.textContent = trackNumber || EM_DASH;
-    elDiscName.textContent = album || EM_DASH;
-    elDiscDate.textContent = date || EM_DASH;
+    elTrackTitle.textContent = title || '\u2014';
+    elTrackArtist.textContent = artist || '\u2014';
+    elDiscName.textContent = album || '\u2014';
 
-    setDiscUrl(getMetaUrl(meta));
+    var url = getMetaUrl(meta);
+    if (url) {
+        elBtnFicha.href = url;
+        elBtnFicha.classList.remove('disabled');
+        elBtnFicha.removeAttribute('aria-disabled');
+    } else {
+        elBtnFicha.href = '#';
+        elBtnFicha.classList.add('disabled');
+        elBtnFicha.setAttribute('aria-disabled', 'true');
+    }
 
     elFicha.classList.add('active');
 }
@@ -355,11 +334,9 @@ function init() {
     //radiosource.src   = CONFIG.streamUrl;
     elStatusDot       = document.getElementById('status-dot');
     elStatusText      = document.getElementById('status-text');
-    elTrackNumber     = document.getElementById('track-number');
     elTrackTitle      = document.getElementById('track-title');
     elTrackArtist     = document.getElementById('track-artist');
     elDiscName        = document.getElementById('disc-name');
-    elDiscDate        = document.getElementById('disc-date');
     elDiscUrl         = document.getElementById('disc-url');
     elFicha           = document.getElementById('ficha');
     elBtnPlay         = document.getElementById('btn-play');
@@ -372,7 +349,7 @@ function init() {
     elRadioSource     = document.getElementById('radiosource');
     elGissPlayer      = document.getElementById('gissplayer');
     elStreamDirecto   = document.getElementById('streamdirecto');
-
+    elBtnFicha        = document.getElementById('btn-ficha');
 
     // Setear URL inicial (primer puerto del array)
     applyCurrentPort();
