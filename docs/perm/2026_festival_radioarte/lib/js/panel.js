@@ -1,5 +1,5 @@
 /**
- * Módulo para gestionar el panel flotante de fichas
+ * Modulo para gestionar el panel flotante de fichas y el lightbox de imagenes
  */
 
 var Panel = (function() {
@@ -9,10 +9,15 @@ var Panel = (function() {
     var overlay = null;
     var contenido = null;
     var btnCerrar = null;
+
+    var lightbox = null;
+    var lightboxImg = null;
+    var lightboxCerrar = null;
+
     var imgBasePath = 'img/festival_radioarte/';
 
     /**
-     * Inicializa el módulo
+     * Inicializa el modulo
      */
     function init() {
         panel = document.getElementById('panel');
@@ -20,26 +25,59 @@ var Panel = (function() {
         contenido = document.getElementById('panel-contenido');
         btnCerrar = document.getElementById('panel-cerrar');
 
+        lightbox = document.getElementById('lightbox');
+        lightboxImg = document.getElementById('lightbox-img');
+        lightboxCerrar = document.getElementById('lightbox-cerrar');
+
         if (!panel || !overlay || !contenido || !btnCerrar) {
             console.error('Elementos del panel no encontrados');
             return;
         }
 
-        // Event listeners
+        if (!lightbox || !lightboxImg || !lightboxCerrar) {
+            console.error('Elementos del lightbox no encontrados');
+            return;
+        }
+
+        // Event listeners del panel
         btnCerrar.addEventListener('click', cerrar);
         overlay.addEventListener('click', cerrar);
 
-        // Cerrar con Escape
+        // Event listeners del lightbox
+        lightboxCerrar.addEventListener('click', cerrarLightbox);
+        lightbox.addEventListener('click', function(e) {
+            // Cerrar si se clickea fuera de la imagen
+            if (e.target === lightbox) {
+                cerrarLightbox();
+            }
+        });
+        // Evitar que clickear la imagen cierre el lightbox
+        lightboxImg.addEventListener('click', function(e) {
+            e.stopPropagation();
+        });
+
+        // Event delegation para imagenes clickeables dentro del panel
+        contenido.addEventListener('click', function(e) {
+            var target = e.target;
+            if (target.tagName === 'IMG' && target.hasAttribute('data-full-src')) {
+                abrirLightbox(target.getAttribute('data-full-src'), target.getAttribute('alt'));
+            }
+        });
+
+        // Cerrar con Escape (prioriza lightbox sobre panel)
         document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape' && panel.classList.contains('active')) {
-                cerrar();
+            if (e.key === 'Escape') {
+                if (lightbox.classList.contains('active')) {
+                    cerrarLightbox();
+                } else if (panel.classList.contains('active')) {
+                    cerrar();
+                }
             }
         });
     }
 
     /**
      * Abre el panel con la obra correspondiente
-     * @param {string} slug - Identificador de la obra
      */
     function abrir(slug) {
         var obra = Catalogo.getObra(slug);
@@ -49,15 +87,12 @@ var Panel = (function() {
             return;
         }
 
-        // Actualizar URL con hash
         if (window.location.hash !== '#' + slug) {
             history.pushState(null, '', '#' + slug);
         }
 
-        // Renderizar contenido
         renderContenido(slug, obra);
 
-        // Mostrar panel y overlay
         panel.classList.add('active');
         overlay.classList.add('active');
         document.body.style.overflow = 'hidden';
@@ -71,42 +106,64 @@ var Panel = (function() {
         overlay.classList.remove('active');
         document.body.style.overflow = '';
 
-        // Limpiar hash de URL
+        // Si el lightbox esta abierto, cerrarlo tambien
+        if (lightbox.classList.contains('active')) {
+            cerrarLightbox();
+        }
+
         if (window.location.hash) {
             history.pushState(null, '', window.location.pathname + window.location.search);
         }
     }
 
     /**
+     * Abre el lightbox con la imagen ampliada
+     */
+    function abrirLightbox(src, alt) {
+        if (!src) return;
+        lightboxImg.src = src;
+        lightboxImg.alt = alt || '';
+        lightbox.classList.add('active');
+    }
+
+    /**
+     * Cierra el lightbox
+     */
+    function cerrarLightbox() {
+        lightbox.classList.remove('active');
+        // Limpiar src despues de la transicion para liberar memoria
+        setTimeout(function() {
+            if (!lightbox.classList.contains('active')) {
+                lightboxImg.src = '';
+            }
+        }, 300);
+    }
+
+    /**
      * Renderiza el contenido de la obra en el panel
-     * @param {string} slug
-     * @param {object} obra
      */
     function renderContenido(slug, obra) {
         var html = '';
+        var artistaSrc = imgBasePath + slug + '-artista.jpg';
+        var obraSrc = imgBasePath + slug + '-obra.jpg';
 
-        // Imágenes
+        // Imagenes clickeables con data-full-src para el lightbox
         html += '<div class="panel-imagenes">';
         html += '<div class="panel-imagen">';
-        html += '<img src="' + imgBasePath + slug + '-artista.jpg" alt="' + escapeAttr(obra.artista) + '" onerror="this.style.display=\'none\'">';
+        html += '<img src="' + artistaSrc + '" alt="' + escapeAttr(obra.artista) + '" data-full-src="' + escapeAttr(artistaSrc) + '" onerror="this.style.display=\'none\'">';
         html += '</div>';
         html += '<div class="panel-imagen">';
-        html += '<img src="' + imgBasePath + slug + '-obra.jpg" alt="' + escapeAttr(obra.titulo) + '" onerror="this.style.display=\'none\'">';
+        html += '<img src="' + obraSrc + '" alt="' + escapeAttr(obra.titulo) + '" data-full-src="' + escapeAttr(obraSrc) + '" onerror="this.style.display=\'none\'">';
         html += '</div>';
         html += '</div>';
 
-        // Artista
         html += '<div class="panel-artista">' + escapeHtml(obra.artista) + '</div>';
-
-        // Título
         html += '<h2 class="panel-titulo">' + escapeHtml(obra.titulo) + '</h2>';
 
-        // Duración
         if (obra.duracion) {
             html += '<div class="panel-duracion">' + escapeHtml(obra.duracion) + '</div>';
         }
 
-        // Sinopsis
         if (obra.sinopsis) {
             html += '<div class="panel-seccion">';
             html += '<h3 class="panel-seccion-titulo">Sinopsis</h3>';
@@ -114,23 +171,20 @@ var Panel = (function() {
             html += '</div>';
         }
 
-        // Ficha técnica
         if (obra.ficha) {
             html += '<div class="panel-seccion">';
-            html += '<h3 class="panel-seccion-titulo">Ficha Técnica</h3>';
+            html += '<h3 class="panel-seccion-titulo">Ficha Tecnica</h3>';
             html += '<div class="panel-seccion-contenido">' + Markdown.render(obra.ficha) + '</div>';
             html += '</div>';
         }
 
-        // Biografía
         if (obra.bio) {
             html += '<div class="panel-seccion">';
-            html += '<h3 class="panel-seccion-titulo">Biografía</h3>';
+            html += '<h3 class="panel-seccion-titulo">Biografia</h3>';
             html += '<div class="panel-seccion-contenido">' + Markdown.render(obra.bio) + '</div>';
             html += '</div>';
         }
 
-        // Comentarios
         if (obra.comentarios) {
             html += '<div class="panel-seccion">';
             html += '<h3 class="panel-seccion-titulo">Comentarios</h3>';
@@ -138,7 +192,6 @@ var Panel = (function() {
             html += '</div>';
         }
 
-        // Contactos
         if (obra.contactos && obra.contactos.length > 0) {
             html += '<div class="panel-seccion">';
             html += '<h3 class="panel-seccion-titulo">Contactos</h3>';
@@ -151,16 +204,9 @@ var Panel = (function() {
         }
 
         contenido.innerHTML = html;
-
-        // Scroll al inicio del panel
         panel.scrollTop = 0;
     }
 
-    /**
-     * Escapa caracteres HTML
-     * @param {string} text
-     * @returns {string}
-     */
     function escapeHtml(text) {
         if (!text) return '';
         var div = document.createElement('div');
@@ -168,11 +214,6 @@ var Panel = (function() {
         return div.innerHTML;
     }
 
-    /**
-     * Escapa caracteres para atributos HTML
-     * @param {string} text
-     * @returns {string}
-     */
     function escapeAttr(text) {
         if (!text) return '';
         return text
@@ -186,6 +227,8 @@ var Panel = (function() {
     return {
         init: init,
         abrir: abrir,
-        cerrar: cerrar
+        cerrar: cerrar,
+        abrirLightbox: abrirLightbox,
+        cerrarLightbox: cerrarLightbox
     };
 })();
