@@ -64,7 +64,7 @@ Todos/aleatorio.
 + <span data-date="2026-09-13" data-id="joao_pedro_schwenck_costa-dinamismo_de_um_automovel"></span> **Dinamismo de um Automóvel** - João Pedro Schwenck Costa - [11:55]
 + <span data-date="2026-09-13" data-id="colectivo_refluxus-beaba_da_paz"></span> **Beabá Da Paz** - Colectivo Refluxus - [07:33]
 + <span data-date="2026-09-13" data-id="hector_bravo_benard-in_the_fog"></span> **In the Fog** - Hector Bravo Benard - [10:58]
-+ <span data-date="2026-09-13" data-id="andrea_gonzalez-ag_cuando_un_lugar"></span> **AG_Cuándo-un-lugar** - Andrea González - [08:05]
++ <span data-date="2026-09-13" data-id="andrea_gonzalez-ag_cuando_un_lugar"></span> **Cuándo un lugar** - Andrea González - [08:05]
 
 ---
 
@@ -136,7 +136,7 @@ Todos/aleatorio.
 + <span data-date="2026-09-16" data-id="hector_bravo_benard-in_the_fog"></span> **In the Fog** - Hector Bravo Benard - [10:58]
 + <span data-date="2026-09-16" data-id="colectivo_refluxus-beaba_da_paz"></span> **Beabá Da Paz** - Colectivo Refluxus - [07:33]
 + <span data-date="2026-09-16" data-id="laville_aurelien-stop_scrolling"></span> **Stop scrolling** - Laville Aurélien - [10:52]
-+ <span data-date="2026-09-16" data-id="andrea_gonzalez-ag_cuando_un_lugar"></span> **AG_Cuándo-un-lugar** - Andrea González - [08:05]
++ <span data-date="2026-09-16" data-id="andrea_gonzalez-ag_cuando_un_lugar"></span> **Cuándo un lugar** - Andrea González - [08:05]
 + <span data-date="2026-09-16" data-id="frederico_pessoa-a_serra_vai_deixando_no_meu_corpo_a_paisagem"></span> **A serra vai, deixando no meu corpo a paisagem** - Frederico Pessoa - [08:46]
 
 ---
@@ -231,7 +231,7 @@ Todos/aleatorio.
 + <span data-date="2026-09-19" data-id="hector_bravo_benard-in_the_fog"></span> **In the Fog** - Hector Bravo Benard - [10:58]
 + <span data-date="2026-09-19" data-id="colectivo_refluxus-beaba_da_paz"></span> **Beabá Da Paz** - Colectivo Refluxus - [07:33]
 + <span data-date="2026-09-19" data-id="laville_aurelien-stop_scrolling"></span> **Stop scrolling** - Laville Aurélien - [10:52]
-+ <span data-date="2026-09-19" data-id="andrea_gonzalez-ag_cuando_un_lugar"></span> **AG_Cuándo-un-lugar** - Andrea González - [08:05]
++ <span data-date="2026-09-19" data-id="andrea_gonzalez-ag_cuando_un_lugar"></span> **Cuándo un lugar** - Andrea González - [08:05]
 + <span data-date="2026-09-19" data-id="frederico_pessoa-a_serra_vai_deixando_no_meu_corpo_a_paisagem"></span> **A serra vai, deixando no meu corpo a paisagem** - Frederico Pessoa - [08:46]
 
 ---
@@ -380,7 +380,7 @@ Todos/aleatorio.
 + <span data-date="2026-09-23" data-id="petra_dubach_mario_van_horrik-beyond_words"></span> **Beyond words** - Petra Dubach, Mario van Horrik - [12:04]
 + <span data-date="2026-09-23" data-id="daria_baiocchi-gelb"></span> **Gelb** - Daria Baiocchi - [08:04]
 + <span data-date="2026-09-23" data-id="vorticex-noctivox_recifinus_extended"></span> **Noctivox – Recifinus (extended)** - VorticeX - [11:48]
-+ <span data-date="2026-09-23" data-id="andrea_gonzalez-ag_cuando_un_lugar"></span> **AG_Cuándo-un-lugar** - Andrea González - [08:05]
++ <span data-date="2026-09-23" data-id="andrea_gonzalez-ag_cuando_un_lugar"></span> **Cuándo un lugar** - Andrea González - [08:05]
 + <span data-date="2026-09-23" data-id="ali_balighi-the_mute_choir_of_the_streets"></span> **The Mute Choir of the Streets** - Ali Balighi - [10:18]
 + <span data-date="2026-09-23" data-id="alessia_damiani-evaporation"></span> **Evaporation** - Alessia Damiani - [09:07]
 + <span data-date="2026-09-23" data-id="valtenis_rosa_de_carvalho_junior-anomalocardia"></span> **Anomalocardia** - Valtenis Rosa De Carvalho Júnior - [10:07]
@@ -469,7 +469,7 @@ Todos/aleatorio.
 + <span data-date="2026-09-25" data-id="petra_dubach_mario_van_horrik-beyond_words"></span> **Beyond words** - Petra Dubach, Mario van Horrik - [12:04]
 + <span data-date="2026-09-25" data-id="daria_baiocchi-gelb"></span> **Gelb** - Daria Baiocchi - [08:04]
 + <span data-date="2026-09-25" data-id="vorticex-noctivox_recifinus_extended"></span> **Noctivox – Recifinus (extended)** - VorticeX - [11:48]
-+ <span data-date="2026-09-25" data-id="andrea_gonzalez-ag_cuando_un_lugar"></span> **AG_Cuándo-un-lugar** - Andrea González - [08:05]
++ <span data-date="2026-09-25" data-id="andrea_gonzalez-ag_cuando_un_lugar"></span> **Cuándo un lugar** - Andrea González - [08:05]
 + <span data-date="2026-09-25" data-id="ali_balighi-the_mute_choir_of_the_streets"></span> **The Mute Choir of the Streets** - Ali Balighi - [10:18]
 + <span data-date="2026-09-25" data-id="alessia_damiani-evaporation"></span> **Evaporation** - Alessia Damiani - [09:07]
 + <span data-date="2026-09-25" data-id="valtenis_rosa_de_carvalho_junior-anomalocardia"></span> **Anomalocardia** - Valtenis Rosa De Carvalho Júnior - [10:07]
@@ -558,7 +558,7 @@ Todos/aleatorio.
 + <span data-date="2026-09-27" data-id="petra_dubach_mario_van_horrik-beyond_words"></span> **Beyond words** - Petra Dubach, Mario van Horrik - [12:04]
 + <span data-date="2026-09-27" data-id="daria_baiocchi-gelb"></span> **Gelb** - Daria Baiocchi - [08:04]
 + <span data-date="2026-09-27" data-id="vorticex-noctivox_recifinus_extended"></span> **Noctivox – Recifinus (extended)** - VorticeX - [11:48]
-+ <span data-date="2026-09-27" data-id="andrea_gonzalez-ag_cuando_un_lugar"></span> **AG_Cuándo-un-lugar** - Andrea González - [08:05]
++ <span data-date="2026-09-27" data-id="andrea_gonzalez-ag_cuando_un_lugar"></span> **Cuándo un lugar** - Andrea González - [08:05]
 + <span data-date="2026-09-27" data-id="ali_balighi-the_mute_choir_of_the_streets"></span> **The Mute Choir of the Streets** - Ali Balighi - [10:18]
 + <span data-date="2026-09-27" data-id="alessia_damiani-evaporation"></span> **Evaporation** - Alessia Damiani - [09:07]
 + <span data-date="2026-09-27" data-id="valtenis_rosa_de_carvalho_junior-anomalocardia"></span> **Anomalocardia** - Valtenis Rosa De Carvalho Júnior - [10:07]
@@ -647,7 +647,7 @@ Todos/aleatorio.
 + <span data-date="2026-09-29" data-id="petra_dubach_mario_van_horrik-beyond_words"></span> **Beyond words** - Petra Dubach, Mario van Horrik - [12:04]
 + <span data-date="2026-09-29" data-id="daria_baiocchi-gelb"></span> **Gelb** - Daria Baiocchi - [08:04]
 + <span data-date="2026-09-29" data-id="vorticex-noctivox_recifinus_extended"></span> **Noctivox – Recifinus (extended)** - VorticeX - [11:48]
-+ <span data-date="2026-09-29" data-id="andrea_gonzalez-ag_cuando_un_lugar"></span> **AG_Cuándo-un-lugar** - Andrea González - [08:05]
++ <span data-date="2026-09-29" data-id="andrea_gonzalez-ag_cuando_un_lugar"></span> **Cuándo un lugar** - Andrea González - [08:05]
 + <span data-date="2026-09-29" data-id="ali_balighi-the_mute_choir_of_the_streets"></span> **The Mute Choir of the Streets** - Ali Balighi - [10:18]
 + <span data-date="2026-09-29" data-id="alessia_damiani-evaporation"></span> **Evaporation** - Alessia Damiani - [09:07]
 + <span data-date="2026-09-29" data-id="valtenis_rosa_de_carvalho_junior-anomalocardia"></span> **Anomalocardia** - Valtenis Rosa De Carvalho Júnior - [10:07]
