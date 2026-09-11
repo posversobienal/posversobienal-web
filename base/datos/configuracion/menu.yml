@@ -17,13 +17,17 @@
     - {titulo: '2026', url: '/pag/artistas_2026/'}
     - {titulo: '2024', url: '/pag/artistas_2024/'}
 
+- titulo: 'FESTIVAL DE RADIOARTE'
+  url: ''
+  submenu:
+    - {titulo: 'POSVERSO Radio', url: '/perm/radio/'}
+    - {titulo: 'Programación y fichas', url: '/perm/2026_festival_radioarte/'}
 
 - {titulo: 'NOVEDADES', url: '/bit/'}
 
 - titulo: 'MEDIA'
   url: ''
   submenu:
-    - {titulo: 'Radio', url: '/perm/radio/'}
     - {titulo: 'Prensa', url: '/pag/prensa/'}
     - {titulo: 'Publicaciones', url: '/pag/publicaciones/'}
     - {titulo: 'Videos', url: '/pag/videos/'}

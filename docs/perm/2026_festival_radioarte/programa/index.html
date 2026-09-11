@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa - Festival de Radioarte - POSVERSO 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../lib/css/style.css">
+    <link rel="shortcut icon" href="../img/favicon.svg" type="image/x-icon" />
+</head>
+<body>
+    <main class="container">
+        <header class="header">
+            <a href="/" target="_blank"><img src="../img/a_pv.svg" title="volver a POSVERSO Bienal" class="logo-a-pv"></a>
+            <img class="logo-posverso" src="../img/logo-posverso.svg" title="POSVERSO Bienal">
+        </header>
+
+        <section class="programa">
+            <div class="programa-header">
+                <h1 class="programa-titulo">Programa</h1>
+                <a href="../" class="programa-volver">Obras del festival</a>
+            </div>
+
+            <div class="programa-estado" id="programa-estado">
+                <span class="dot" id="estado-dot"></span>
+                <span id="estado-texto">Conectando...</span>
+                <span class="programa-estado-obra" id="estado-obra"></span>
+            </div>
+
+            <div class="programa-contenido" id="programa-contenido"></div>
+        </section>
+    </main>
+
+    <script src="../lib/js/marked.min.js"></script>
+    <script src="../lib/js/programa-md.js"></script>
+    <script src="../lib/js/icecast-metadata-stats-0.1.12.min.js"></script>
+    <script src="../lib/js/programa.js"></script>
+</body>
+</html>
