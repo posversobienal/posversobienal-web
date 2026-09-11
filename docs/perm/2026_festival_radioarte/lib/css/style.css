@@ -480,17 +480,14 @@ a {
     opacity: 0.45;
 }
 
-@media (max-width: 768px) {
-    .programa-header {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0.5rem;
-    }
-
-    .programa-estado {
-        flex-wrap: wrap;
-    }
+li:has(span[data-id]) {
+  cursor: pointer;
 }
+
+li:has(span[data-id]):hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
 
 /* === Responsive === */
 @media (max-width: 768px) {
@@ -509,5 +506,15 @@ a {
 
     .panel-imagen {
         max-width: 100%;
+    }
+
+    .programa-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .programa-estado {
+        flex-wrap: wrap;
     }
 }

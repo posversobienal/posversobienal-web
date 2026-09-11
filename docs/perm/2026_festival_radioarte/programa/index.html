@@ -21,6 +21,7 @@
             <div class="programa-header">
                 <h1 class="programa-titulo">Programa</h1>
                 <a href="../" class="programa-volver">Obras del festival</a>
+                <a href="/perm/radio/" class="programa-volver">ESCUCHAR</a>
             </div>
 
             <div class="programa-estado" id="programa-estado">
@@ -37,5 +38,31 @@
     <script src="../lib/js/programa-md.js"></script>
     <script src="../lib/js/icecast-metadata-stats-0.1.12.min.js"></script>
     <script src="../lib/js/programa.js"></script>
+
+    <script>
+     document.addEventListener('click', function(e) {
+         // Buscar el li mas cercano al elemento clickeado
+         var li = e.target.closest('li');
+
+         // Si no hay li, salir
+         if (!li) {
+             return;
+         }
+
+         // Buscar el span con data-id DENTRO del li
+         var span = li.querySelector('span[data-id]');
+
+         // Si no hay span con data-id, salir
+         if (!span) {
+             return;
+         }
+
+         var id = span.getAttribute('data-id');
+         var baseUrl = 'https://posversobienal.com.ar/perm/2026_festival_radioarte/#';
+
+         window.location.href = baseUrl + id;
+     });
+
+    </script>
 </body>
 </html>
