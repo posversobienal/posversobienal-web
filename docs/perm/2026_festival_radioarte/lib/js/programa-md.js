@@ -656,5 +656,5 @@ Todos/aleatorio.
 
 ## Miércoles 30 de septiembre
 
-Todos/aleatorio.
+Todos/maratón.
 `;
