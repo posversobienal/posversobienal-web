@@ -17,11 +17,11 @@
     - {titulo: '2026', url: '/pag/artistas_2026/'}
     - {titulo: '2024', url: '/pag/artistas_2024/'}
 
-- titulo: 'FESTIVAL DE RADIOARTE'
+- titulo: 'POSVERSO Radio'
   url: ''
   submenu:
-    - {titulo: 'POSVERSO Radio', url: '/perm/radio/'}
-    - {titulo: 'Programación y fichas', url: '/perm/2026_festival_radioarte/'}
+    - {titulo: 'Escuchar', url: '/perm/radio/'}
+    - {titulo: 'Festival de Radioarte 2026', url: '/perm/2026_festival_radioarte/'}
 
 - {titulo: 'NOVEDADES', url: '/bit/'}
 
